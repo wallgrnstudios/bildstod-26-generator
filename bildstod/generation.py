@@ -218,7 +218,7 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
         target = output / (entry['id'] + '.png')
         metadata = {'concept_id': entry['id'], 'label_sv': entry['text_sv'],
                     'fingerprint': identity(entry, config), 'prompt': item['prompt'], 'seed': item['seed'],
-                    'negative_prompt': ', '.join(filter(None, [config.get('negative_prompt'), entry.get('negative_prompt_en')])),
+                    'negative_prompt': '' if config.get('backend') == 'flux2-klein' else ', '.join(filter(None, [config.get('negative_prompt'), entry.get('negative_prompt_en')])),
                     'model': config['model'], 'revision': config['revision'],
                     'style_version': config['style_version'], 'background_model': config['background_model'],
                     'created_at': datetime.now(timezone.utc).isoformat(), 'license': None,
@@ -279,7 +279,7 @@ def review_sheet(output):
             cards.append(f'<figure><img src="{identifier}.png" alt="{label}"><figcaption>{label}</figcaption><small>Utkast · granskning krävs</small><details><summary>Före friläggning</summary><img src="raw/{identifier}.png" alt="Motivet före bakgrundsborttagning"></details></figure>')
     atomic_json(output / 'candidates.json', {'style_version': output.name, 'candidates': candidates})
     # Generated report is local and contains only pipeline-owned IDs and escaped labels.
-    (output / 'review.html').write_text('<!doctype html><html lang="sv"><meta charset="utf-8"><title>Bildkandidater</title><style>body{font:16px system-ui;margin:32px;color:#344453;background:white}.cards{display:flex;flex-wrap:wrap;gap:24px}figure{margin:0;width:240px;border:1px solid #ddd;padding:12px}img{width:100%;height:auto}small{color:#666}</style><h1>Bildkandidater</h1><figure><img src="reference.png" alt="Godkänd stilreferens"><figcaption>Stilreferens · bildgenereringen använder textprompt, inte denna bild som modellindata.</figcaption></figure><p>Kontrollera handling, händer, borttagning av bakgrund och stil mot referensbilden. Ingen kandidat är publicerad.</p><div class="cards">' + ''.join(cards) + '</div></html>', encoding='utf-8')
+    (output / 'review.html').write_text('<!doctype html><html lang="sv"><meta charset="utf-8"><title>Bildkandidater</title><style>body{font:16px system-ui;margin:32px;color:#344453;background:white}.cards{display:flex;flex-wrap:wrap;gap:24px}figure{margin:0;width:240px;border:1px solid #ddd;padding:12px}img{width:100%;height:auto}small{color:#666}</style><h1>Bildkandidater</h1><figure><img src="reference.png" alt="Godkänd stilreferens"><figcaption>Stilreferens · se kandidatens metadata för om modellen använder referensbilden som indata.</figcaption></figure><p>Kontrollera handling, händer, borttagning av bakgrund och stil mot referensbilden. Ingen kandidat är publicerad.</p><div class="cards">' + ''.join(cards) + '</div></html>', encoding='utf-8')
 
 
 def check_compute_permission(allow_local):

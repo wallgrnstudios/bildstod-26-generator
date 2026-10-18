@@ -10,10 +10,10 @@ on:
       limit:
         type: choice
         options: ['1', '10', '25', '50', '100']
-        default: '10'
+        default: '25'
         description: Maximum candidates per worker (time budget also applies)
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 */3 * * *'
 permissions:
   contents: write
 jobs:
@@ -36,7 +36,7 @@ jobs:
       OMP_NUM_THREADS: '4'
       BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
       MODE: ${{ inputs.mode || 'generate' }}
-      BATCH_LIMIT: ${{ inputs.limit || '10' }}
+      BATCH_LIMIT: ${{ inputs.limit || '25' }}
       SHARD: ${{ matrix.shard }}
       GH_TOKEN: ${{ github.token }}
     steps:

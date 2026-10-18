@@ -10,7 +10,7 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "background_model": "isnet-general-use",
-  "batch_limit": 10,
+  "batch_limit": 25,
   "max_batch_limit": 100,
   "seed_base": 260018,
   "quality_status": "experimental-model-not-style-validated",
