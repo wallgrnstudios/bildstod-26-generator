@@ -258,12 +258,15 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
 
 def review_sheet(output):
     cards = []
+    candidates = []
     for sidecar in sorted(output.glob('FSK_*.json')):
         metadata = json.loads(sidecar.read_text(encoding='utf-8'))
         if metadata.get('status') == 'pending_review':
+            candidates.append(metadata)
             identifier = metadata['concept_id']
             label = html.escape(metadata['label_sv'])
             cards.append(f'<figure><img src="{identifier}.png" alt="{label}"><figcaption>{label}</figcaption><small>Utkast · granskning krävs</small><details><summary>Före friläggning</summary><img src="raw/{identifier}.png" alt="Motivet före bakgrundsborttagning"></details></figure>')
+    atomic_json(output / 'candidates.json', {'style_version': output.name, 'candidates': candidates})
     # Generated report is local and contains only pipeline-owned IDs and escaped labels.
     (output / 'review.html').write_text('<!doctype html><html lang="sv"><meta charset="utf-8"><title>Bildkandidater</title><style>body{font:16px system-ui;margin:32px;color:#344453;background:white}.cards{display:flex;flex-wrap:wrap;gap:24px}figure{margin:0;width:240px;border:1px solid #ddd;padding:12px}img{width:100%;height:auto}small{color:#666}</style><h1>Bildkandidater</h1><figure><img src="reference.png" alt="Godkänd stilreferens"><figcaption>Stilreferens · bildgenereringen använder textprompt, inte denna bild som modellindata.</figcaption></figure><p>Kontrollera handling, händer, borttagning av bakgrund och stil mot referensbilden. Ingen kandidat är publicerad.</p><div class="cards">' + ''.join(cards) + '</div></html>', encoding='utf-8')
 
