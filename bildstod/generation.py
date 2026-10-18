@@ -20,11 +20,12 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def load_config(path):
     config = json.loads(Path(path).read_text(encoding='utf-8'))
-    if config['model'] not in ('stabilityai/sdxl-turbo', 'Lykon/dreamshaper-xl-lightning') or not re.fullmatch(r'[0-9a-f]{40}', config['revision']):
+    if config['model'] not in ('stabilityai/sdxl-turbo', 'Lykon/dreamshaper-xl-lightning', 'black-forest-labs/FLUX.2-klein-4B') or not re.fullmatch(r'[0-9a-f]{40}', config['revision']):
         raise ValueError('Only the pinned pilot model is supported')
     if not re.fullmatch(r'[a-z0-9.-]+', config['style_version']):
         raise ValueError('Invalid style version')
-    if config['weight_variant'] != 'fp16' or config['cpu_dtype'] != 'float32':
+    is_flux = config.get('backend') == 'flux2-klein'
+    if not is_flux and (config['weight_variant'] != 'fp16' or config['cpu_dtype'] != 'float32'):
         raise ValueError('Only compact safetensor weights and CPU float32 are configured')
     if config['background_model'] not in ('u2netp', 'isnet-general-use') or config['width'] != 1024 or config['height'] != 1024:
         raise ValueError('Pilot requires 1024 px and a configured foreground model')
@@ -50,11 +51,15 @@ def load_briefs(path):
 
 def prompt_for(entry, config):
     # Short prompts, action first: long style preambles can truncate the actual action.
+    if config.get('backend') == 'flux2-klein':
+        return ('Use the reference image only as an illustration style guide. Create a completely new preschool action scene: '
+                + entry['visual_prompt_en'] + ' ' + config['style_prompt']
+                + ' Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.')
     return 'Isolated watercolor illustration on pure white. ' + entry['visual_prompt_en'] + ' ' + config['style_prompt']
 
 
 def identity(entry, config):
-    parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256', 'negative_prompt')}
+    parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256', 'negative_prompt', 'reference_conditioning')}
     payload = {'entry': entry['visual_prompt_en'], 'entry_negative': entry.get('negative_prompt_en', ''), 'label': entry['text_sv'], 'config': parameters}
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 
@@ -72,6 +77,7 @@ def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shar
     ordered = sorted(entries, key=lambda x: (x.get('generation_priority', 2), x['id']))
     for entry in ordered:
         worker = 0 if entry['id'] == 'FSK_01_04' else int(hashlib.sha256(entry['id'].encode()).hexdigest()[:8], 16) % shard_count
+        worker = config.get('worker_overrides', {}).get(entry['id'], worker)
         if worker != shard_index:
             continue
         if not config.get('calibration_approved', False) and entry['id'] not in config.get('calibration_ids', ['FSK_01_04']):
@@ -176,7 +182,7 @@ class BackgroundRemover:
 def checkpoint_git(output, branch):
     """Push image receipts to an isolated worker branch using the runner's own token."""
     root = output.parent.parent
-    if not re.fullmatch(r'generated-worker-[0-7]', branch) or not (root / '.git').exists():
+    if not re.fullmatch(r'generated(?:-flux)?-worker-[0-7]', branch) or not (root / '.git').exists():
         raise ValueError('Checkpoint requires the isolated worker state repository')
     subprocess.run(['git', '-C', str(root), 'add', 'data'], check=True)
     changed = subprocess.run(['git', '-C', str(root), 'diff', '--cached', '--quiet'])
@@ -196,7 +202,12 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
     started = time.monotonic()
     owned_render = render is None
     owned_remove = remove is None
-    render = render or CpuRenderer(config, [by_id[x['id']] for x in batch])
+    if render is None:
+        if config.get('backend') == 'flux2-klein':
+            from .flux_renderer import FluxRenderer
+            render = FluxRenderer(config, [by_id[x['id']] for x in batch])
+        else:
+            render = CpuRenderer(config, [by_id[x['id']] for x in batch])
     remove = remove or BackgroundRemover(config)
     durations = []
     for item in batch:
@@ -213,7 +224,7 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
                     'created_at': datetime.now(timezone.utc).isoformat(), 'license': None,
                     'model_license_url': config['model_license_url'], 'style_approved': False,
                     'reference_asset': config['reference_asset'], 'reference_sha256': config['reference_sha256'],
-                    'reference_conditioning': False,
+                    'reference_conditioning': config.get('reference_conditioning', False),
                     'width': config['width'], 'height': config['height'], 'steps': config['steps'],
                     'guidance_scale': config['guidance_scale'], 'cpu_dtype': config['cpu_dtype']}
         try:

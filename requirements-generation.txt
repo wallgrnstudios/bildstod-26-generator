@@ -1,7 +1,7 @@
-# Install only on the Linux runner or a separately chosen generation machine.
+# Cloud/Linux runner only; no inference API.
 -r requirements.txt
-diffusers==0.35.1
-transformers==4.56.2
+diffusers==0.41.0
+transformers==5.20.1
 accelerate==1.10.1
 safetensors==0.6.2
 rembg[cpu]==2.0.67

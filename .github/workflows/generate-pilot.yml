@@ -10,17 +10,17 @@ on:
       limit:
         type: choice
         options: ['1', '10', '25', '50', '100']
-        default: '50'
+        default: '10'
         description: Maximum candidates per worker (time budget also applies)
   schedule:
     - cron: '17 */6 * * *'
 permissions:
   contents: write
-concurrency:
-  group: bildstod-generation
-  cancel-in-progress: false
 jobs:
   worker:
+    concurrency:
+      group: bildstod-worker-${{ matrix.shard }}
+      cancel-in-progress: false
     if: github.event.repository.private == false && (github.event_name == 'workflow_dispatch' || vars.BILDSTOD_NIGHTLY_ENABLED == 'true')
     strategy:
       fail-fast: false
@@ -36,7 +36,7 @@ jobs:
       OMP_NUM_THREADS: '4'
       BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
       MODE: ${{ inputs.mode || 'generate' }}
-      BATCH_LIMIT: ${{ inputs.limit || '50' }}
+      BATCH_LIMIT: ${{ inputs.limit || '10' }}
       SHARD: ${{ matrix.shard }}
       GH_TOKEN: ${{ github.token }}
     steps:
@@ -53,7 +53,9 @@ jobs:
           git -C .state config user.name 'Bildstöd generator'
           git -C .state config user.email 'bildstod-generator@users.noreply.github.com'
           git -C .state remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
-          BRANCH="generated-worker-${SHARD}"
+          PREFIX="$(python -c 'import json;print(json.load(open("config/generation.json")).get("worker_branch_prefix","generated-worker"))')"
+          BRANCH="${PREFIX}-${SHARD}"
+          echo "CHECKPOINT_BRANCH=$BRANCH" >> "$GITHUB_ENV"
           if git ls-remote --exit-code --heads "https://github.com/${GITHUB_REPOSITORY}.git" "$BRANCH"; then
             git -C .state fetch --depth=1 origin "$BRANCH"
             git -C .state checkout -B "$BRANCH" FETCH_HEAD
@@ -85,7 +87,7 @@ jobs:
       - name: Generate with per-image checkpoints
         if: env.MODE == 'generate' && steps.plan.outputs.count != '0'
         run: |
-          python -m bildstod.generation run --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8 --max-seconds 7200 --checkpoint-branch "generated-worker-${SHARD}"
+          python -m bildstod.generation run --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8 --max-seconds 7200 --checkpoint-branch "$CHECKPOINT_BRANCH"
       - name: Candidate metrics
         if: always()
         run: |
