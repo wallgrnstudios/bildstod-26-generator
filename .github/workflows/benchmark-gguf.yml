@@ -1,0 +1,41 @@
+name: Benchmark compact CPU model
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bildstod-gguf-benchmark
+  cancel-in-progress: false
+jobs:
+  benchmark:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+      BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
+      OMP_NUM_THREADS: '4'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Restore isolated benchmark branch
+        run: |
+          gh auth setup-git
+          git init .state
+          git -C .state config user.name 'Bildstöd generator'
+          git -C .state config user.email 'bildstod-generator@users.noreply.github.com'
+          git -C .state remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads origin generated-flux-worker-7; then
+            git -C .state fetch --depth=1 origin generated-flux-worker-7
+            git -C .state checkout -B generated-flux-worker-7 FETCH_HEAD
+          else
+            git -C .state checkout --orphan generated-flux-worker-7
+          fi
+      - run: python -m pip install --no-cache-dir -r requirements.txt
+      - name: Benchmark one reference-conditioned candidate
+        run: python tools/probe_gguf.py

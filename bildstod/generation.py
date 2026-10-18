@@ -241,6 +241,8 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
                     'model_license_url': config['model_license_url'], 'style_approved': False,
                     'reference_asset': config['reference_asset'], 'reference_sha256': config['reference_sha256'],
                     'reference_conditioning': config.get('reference_conditioning', False),
+                    'implementation': config.get('implementation', 'diffusers'),
+                    'quantized_files': config.get('quantized_files'),
                     'width': config['width'], 'height': config['height'], 'steps': config['steps'],
                     'guidance_scale': config['guidance_scale'], 'cpu_dtype': config['cpu_dtype']}
         try:
