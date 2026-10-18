@@ -4,4 +4,4 @@ diffusers==0.41.0
 transformers==5.20.1
 accelerate==1.10.1
 safetensors==0.8.0
-rembg[cpu]==2.0.67
+# Archived isnet/u2netp profiles additionally require rembg[cpu]==2.0.67.

@@ -8,4 +8,4 @@ Start with Actions → Generate pilot candidates → mode `generate`. Only the c
 
 The model loads once per worker batch. Prompts are encoded upfront; text encoders are then released before image synthesis to reduce RAM usage. The output is native 1024 px with subsequent transparent-background removal, not upscaled. CPU quality and runtime require verification. FLUX.2 klein uses the included reference as style conditioning. Text weights are removed from disk and memory before loading the image model.
 
-Model license: https://huggingface.co/black-forest-labs/FLUX.2-klein-4B . Background removal: https://github.com/danielgatis/rembg . No project distribution license is implied. Outputs are review candidates with no assigned distribution license.
+Model license: https://huggingface.co/black-forest-labs/FLUX.2-klein-4B . The current profile removes only near-white background connected to image borders, using Pillow; light foreground details remain. No project distribution license is implied. Outputs are review candidates with no assigned distribution license.
