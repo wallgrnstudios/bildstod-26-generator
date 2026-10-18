@@ -1,0 +1,31 @@
+{
+  "concept_id": "FSK_01_04",
+  "label_sv": "Jag hänger upp jackan.",
+  "fingerprint": "4b29514b5741931cc8b566319da43a5ce889da4ef470f572b88393644a521b34",
+  "prompt": "Children's book illustration. A child in a green shirt hangs an unworn orange coat on a wooden wall hook. Full-body view. Fine brown pencil lines, soft watercolor, natural proportions, muted sage and ochre. Clear illustration isolated on pure white background.",
+  "seed": 1734154919,
+  "negative_prompt": "photo, dark background, vignette, text, watermark, cropped, malformed hands, wearing a coat",
+  "model": "Lykon/dreamshaper-xl-lightning",
+  "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
+  "style_version": "storybook-transparent-0.5",
+  "background_model": "isnet-general-use",
+  "created_at": "2026-10-18T21:20:13.184039+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/Lykon/dreamshaper-xl-lightning",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": false,
+  "width": 1024,
+  "height": 1024,
+  "steps": 4,
+  "guidance_scale": 2.0,
+  "cpu_dtype": "float32",
+  "status": "pending_review",
+  "transparency": {
+    "transparent_fraction": 0.795,
+    "opaque_fraction": 0.1463
+  },
+  "elapsed_seconds": 434.108,
+  "sha256": "e1026e2891a7dd6313a5166f320865ef1ac6c04948bd0cef906873fa6cf9036e"
+}

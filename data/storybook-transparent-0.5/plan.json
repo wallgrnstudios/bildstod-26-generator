@@ -1,0 +1,13 @@
+{
+  "model": "Lykon/dreamshaper-xl-lightning",
+  "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
+  "style_calibration_required": true,
+  "batch": [
+    {
+      "id": "FSK_01_04",
+      "label": "Jag hänger upp jackan.",
+      "prompt": "Children's book illustration. A child in a green shirt hangs an unworn orange coat on a wooden wall hook. Full-body view. Fine brown pencil lines, soft watercolor, natural proportions, muted sage and ochre. Clear illustration isolated on pure white background.",
+      "seed": 1734154919
+    }
+  ]
+}
