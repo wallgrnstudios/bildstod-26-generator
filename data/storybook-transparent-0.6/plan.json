@@ -1,0 +1,13 @@
+{
+  "model": "Lykon/dreamshaper-xl-lightning",
+  "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
+  "style_calibration_required": true,
+  "batch": [
+    {
+      "id": "FSK_02_02",
+      "label": "Jag tar tvål.",
+      "prompt": "Isolated watercolor illustration on pure white. A soap dispenser above a small open palm. Another hand presses the pump. Close view of hands receiving liquid soap. Delicate brown lines, soft watercolor shading, natural proportions, warm muted colors. No text.",
+      "seed": 673610720
+    }
+  ]
+}

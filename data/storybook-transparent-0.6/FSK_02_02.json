@@ -1,0 +1,31 @@
+{
+  "concept_id": "FSK_02_02",
+  "label_sv": "Jag tar tvål.",
+  "fingerprint": "5c191fcbde00c08e070f420f2c78cd4ca8559f9ccd4ba751698b295020d52308",
+  "prompt": "Isolated watercolor illustration on pure white. A soap dispenser above a small open palm. Another hand presses the pump. Close view of hands receiving liquid soap. Delicate brown lines, soft watercolor shading, natural proportions, warm muted colors. No text.",
+  "seed": 673610720,
+  "negative_prompt": "photo, room, wooden wall, wood paneling, scenery, dark background, vignette, text, watermark, cropped, malformed hands",
+  "model": "Lykon/dreamshaper-xl-lightning",
+  "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
+  "style_version": "storybook-transparent-0.6",
+  "background_model": "isnet-general-use",
+  "created_at": "2026-10-18T21:32:42.222285+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/Lykon/dreamshaper-xl-lightning",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": false,
+  "width": 1024,
+  "height": 1024,
+  "steps": 4,
+  "guidance_scale": 3.0,
+  "cpu_dtype": "float32",
+  "status": "pending_review",
+  "transparency": {
+    "transparent_fraction": 0.4904,
+    "opaque_fraction": 0.2397
+  },
+  "elapsed_seconds": 461.772,
+  "sha256": "6f0d4531762bf2fe361fd1a9175929c70baaeac62a37075f1c308b7eede901bb"
+}
