@@ -1,0 +1,31 @@
+{
+  "concept_id": "FSK_03_04",
+  "label_sv": "Jag äter.",
+  "fingerprint": "d29fb9d84fd361b32d59946307e4dac4d1aed4d219563c78571e261200f0ded8",
+  "prompt": "Isolated watercolor illustration on pure white. A preschool child eating soup with a spoon, seated at a small white table. The spoon is at the mouth. Delicate brown lines, soft watercolor shading, natural proportions, warm muted colors. No text.",
+  "seed": 1702376578,
+  "negative_prompt": "photo, room, wooden wall, wood paneling, scenery, dark background, vignette, text, watermark, cropped, malformed hands",
+  "model": "Lykon/dreamshaper-xl-lightning",
+  "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
+  "style_version": "storybook-transparent-0.6",
+  "background_model": "isnet-general-use",
+  "created_at": "2026-10-18T21:37:22.126258+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/Lykon/dreamshaper-xl-lightning",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": false,
+  "width": 1024,
+  "height": 1024,
+  "steps": 4,
+  "guidance_scale": 3.0,
+  "cpu_dtype": "float32",
+  "status": "pending_review",
+  "transparency": {
+    "transparent_fraction": 0.4508,
+    "opaque_fraction": 0.4217
+  },
+  "elapsed_seconds": 274.261,
+  "sha256": "d6e1c8de26e90755cd9a39469be2ce52e42516ed7df6e8b3ca7a7f3efe73fa1c"
+}
