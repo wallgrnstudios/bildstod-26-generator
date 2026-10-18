@@ -4,7 +4,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: bildstod-gguf-benchmark
+  group: bildstod-worker-7
   cancel-in-progress: false
 jobs:
   benchmark:
