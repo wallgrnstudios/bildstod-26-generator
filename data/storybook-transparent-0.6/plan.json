@@ -1,0 +1,19 @@
+{
+  "model": "Lykon/dreamshaper-xl-lightning",
+  "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
+  "style_calibration_required": true,
+  "batch": [
+    {
+      "id": "FSK_01_04",
+      "label": "Jag hänger upp jackan.",
+      "prompt": "Isolated watercolor illustration on pure white. An orange coat hanging on a low hook. Beside the coat, a child in a green T-shirt touches its hanging loop. Delicate brown lines, soft watercolor shading, natural proportions, warm muted colors. No text.",
+      "seed": 1734154919
+    },
+    {
+      "id": "FSK_03_04",
+      "label": "Jag äter.",
+      "prompt": "Isolated watercolor illustration on pure white. A preschool child eating soup with a spoon, seated at a small white table. The spoon is at the mouth. Delicate brown lines, soft watercolor shading, natural proportions, warm muted colors. No text.",
+      "seed": 1702376578
+    }
+  ]
+}

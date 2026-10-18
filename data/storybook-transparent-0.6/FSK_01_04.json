@@ -1,0 +1,31 @@
+{
+  "concept_id": "FSK_01_04",
+  "label_sv": "Jag hänger upp jackan.",
+  "fingerprint": "83a9a025e9cbafab6c03a03aca43dbdb172632640ec9b517f0550c776c60119b",
+  "prompt": "Isolated watercolor illustration on pure white. An orange coat hanging on a low hook. Beside the coat, a child in a green T-shirt touches its hanging loop. Delicate brown lines, soft watercolor shading, natural proportions, warm muted colors. No text.",
+  "seed": 1734154919,
+  "negative_prompt": "photo, room, wooden wall, wood paneling, scenery, dark background, vignette, text, watermark, cropped, malformed hands, wearing a coat",
+  "model": "Lykon/dreamshaper-xl-lightning",
+  "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
+  "style_version": "storybook-transparent-0.6",
+  "background_model": "isnet-general-use",
+  "created_at": "2026-10-18T21:32:20.613235+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/Lykon/dreamshaper-xl-lightning",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": false,
+  "width": 1024,
+  "height": 1024,
+  "steps": 4,
+  "guidance_scale": 3.0,
+  "cpu_dtype": "float32",
+  "status": "pending_review",
+  "transparency": {
+    "transparent_fraction": 0.7836,
+    "opaque_fraction": 0.1311
+  },
+  "elapsed_seconds": 299.148,
+  "sha256": "36808a2e10202de04392dd24e953599046db9064fdcb1ed16fdbc0e16e2ba4df"
+}
