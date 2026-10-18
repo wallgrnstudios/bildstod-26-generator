@@ -1,0 +1,37 @@
+load_backend: loaded CPU backend from /home/runner/work/_temp/tmpdxk87ag8/libggml-cpu-haswell.so
+[I] loading diffusion model from '/home/runner/work/_temp/tmpdxk87ag8/diffusion.gguf' --- diffusion_engine.cpp:738
+[I] load /home/runner/work/_temp/tmpdxk87ag8/diffusion.gguf using gguf format --- model_loader.cpp:216
+[I] loading llm from '/home/runner/work/_temp/tmpdxk87ag8/text.gguf' --- diffusion_engine.cpp:795
+[I] load /home/runner/work/_temp/tmpdxk87ag8/text.gguf using gguf format --- model_loader.cpp:216
+[I] loading vae from '/home/runner/work/_temp/tmpdxk87ag8/vae.safetensors' --- diffusion_engine.cpp:809
+[I] load /home/runner/work/_temp/tmpdxk87ag8/vae.safetensors using safetensors format --- model_loader.cpp:222
+[I] Version: Flux.2 klein  --- diffusion_engine.cpp:1016
+[I] Weight type stat:                      f32: 395  |    q4_0: 80   |    q4_K: 216  |    q6_K: 37   |     i32: 1    |    bf16: 69    --- diffusion_engine.cpp:1641
+[I] Conditioner weight type stat:          f32: 145  |    q4_K: 216  |    q6_K: 37    --- diffusion_engine.cpp:1642
+[I] Diffusion model weight type stat:     q4_0: 80   |    bf16: 69    --- diffusion_engine.cpp:1643
+[I] VAE weight type stat:                  f32: 250  |     i32: 1     --- diffusion_engine.cpp:1644
+[I] using VAE for encoding / decoding --- model_builders.cpp:657
+[I] vae decoder: ch = 128 --- auto_encoder_kl.hpp:529
+[I] conv2d direct auto: CPU -> off (no implicit GEMM path) --- conv_direct.cpp:90
+[I] conv3d direct auto: CPU -> off (no implicit GEMM path) --- conv_direct.cpp:90
+[I] total params memory size = 4882.75MB (VRAM 0.00MB, RAM 4882.75MB): text_encoders 2375.91MB(RAM), diffusion_model 2346.40MB(RAM), vae 160.43MB(RAM), controlnet 0.00MB(N/A), extensions 0.00MB(N/A) --- diffusion_engine.cpp:1436
+[I] running in Flux FLOW mode --- diffusion_engine.cpp:1587
+[I] preprocess ref[0]: 512x512 crop=(0,0,512,512) resize=512x512 pad=(0,0) output=512x512 filter=auto(0) antialias=false --- image_preprocess.cpp:266
+[I] generate_image 1024x1024 --- image.cpp:814
+[I] Using 'flux2' preset for reference images --- diffusion_engine.cpp:3250
+[I] get_sigmas with Flux2 scheduler --- denoiser.hpp:1186
+[I] sampling using Euler method --- request.cpp:422
+[I] EDIT mode --- image.cpp:274
+[I] vae build cached graph cut plan done (taking 1 ms) --- ggml_graph_cut.cpp:1032
+  |##################################################| 108/108 - 653.35MB/s[K
+[I] loading tensors completed, taking 0.20s (read: 0.00s, memcpy: 0.00s, convert: 0.04s, copy_to_backend: 0.00s) --- model_loader.cpp:1396
+[I] encode_first_stage completed, taking 72.10s --- image.cpp:398
+[I] qwen3 build cached graph cut plan done (taking 1 ms) --- ggml_graph_cut.cpp:1032
+  |#                                                 | 2/298 - 0.00MB/s[K  |##################################################| 298/298 - 8.94GB/s[K
+[I] loading tensors completed, taking 0.20s (read: 0.13s, memcpy: 0.00s, convert: 0.00s, copy_to_backend: 0.00s) --- model_loader.cpp:1396
+[I] get_learned_condition completed, taking 14.77s --- image.cpp:529
+[I] generating image: 1/1 - seed 1702376578 --- image.cpp:866
+[I] flux build cached graph cut plan done (taking 1 ms) --- ggml_graph_cut.cpp:1032
+  |#                                                 | 2/149 - 0.00MB/s[K  |##################################################| 149/149 - 11.40GB/s[K
+[I] loading tensors completed, taking 0.20s (read: 0.16s, memcpy: 0.00s, convert: 0.00s, copy_to_backend: 0.00s) --- model_loader.cpp:1396
+  |============>                                     | 1/4 - 919.44s/it[K  |=========================>                        | 2/4 - 918.52s/it[K  |=====================================>            | 3/4 - 918.61s/it[K
