@@ -1,0 +1,99 @@
+name: Generate pilot candidates
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [plan, generate]
+        default: plan
+        description: Plan or generate candidates
+      limit:
+        type: choice
+        options: ['1', '10', '25', '50', '100']
+        default: '50'
+        description: Maximum candidates per worker (time budget also applies)
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: bildstod-generation
+  cancel-in-progress: false
+jobs:
+  worker:
+    if: github.event.repository.private == false && (github.event_name == 'workflow_dispatch' || vars.BILDSTOD_NIGHTLY_ENABLED == 'true')
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        shard: [0, 1, 2, 3]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    env:
+      HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      HF_HUB_DISABLE_XET: '1'
+      OMP_NUM_THREADS: '4'
+      BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
+      MODE: ${{ inputs.mode || 'generate' }}
+      BATCH_LIMIT: ${{ inputs.limit || '50' }}
+      SHARD: ${{ matrix.shard }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Restore durable worker state
+        run: |
+          gh auth setup-git
+          git init .state
+          git -C .state config user.name 'Bildstöd generator'
+          git -C .state config user.email 'bildstod-generator@users.noreply.github.com'
+          git -C .state remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          BRANCH="generated-worker-${SHARD}"
+          if git ls-remote --exit-code --heads "https://github.com/${GITHUB_REPOSITORY}.git" "$BRANCH"; then
+            git -C .state fetch --depth=1 origin "$BRANCH"
+            git -C .state checkout -B "$BRANCH" FETCH_HEAD
+          else
+            git -C .state checkout --orphan "$BRANCH"
+          fi
+      - name: Install planning dependencies
+        run: python -m pip install --no-cache-dir -r requirements.txt
+      - name: Plan worker batch
+        id: plan
+        run: |
+          python -m bildstod.generation plan --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 4
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          config = json.loads(Path('config/generation.json').read_text())
+          plan = json.loads((Path('.state/data') / config['style_version'] / 'plan.json').read_text())
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"count={len(plan['batch'])}\n")
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write(f"## Worker {os.environ['SHARD']}\n\nPlanned candidates: {len(plan['batch'])}.\n")
+              f.write('State and candidates are public on the generated-worker branch. No inference API key is used.\n')
+          PY
+      - name: Install CPU dependencies
+        if: env.MODE == 'generate' && steps.plan.outputs.count != '0'
+        run: |
+          python -m pip install --no-cache-dir torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --no-cache-dir -r requirements-generation.txt
+      - name: Generate with per-image checkpoints
+        if: env.MODE == 'generate' && steps.plan.outputs.count != '0'
+        run: |
+          python -m bildstod.generation run --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 4 --max-seconds 7200 --checkpoint-branch "generated-worker-${SHARD}"
+      - name: Candidate metrics
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          for path in Path('.state/data').glob('*/metrics.json'):
+              metrics = json.loads(path.read_text())
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+                  f.write('\n```json\n' + json.dumps(metrics, indent=2) + '\n```\n')
+          PY

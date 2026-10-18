@@ -1,0 +1,5 @@
+[
+  {"id":"ORD_0001","word_sv":"äta","word_en":"eat","synonyms_sv":["inta måltid","måltid"],"inflections_sv":["äter","åt","ätit","ät"],"translations":{"en":["eat","eating","meal"],"ar":["يأكل","وجبة"],"uk":["їсти","їжа"]},"category":"aktiviteter","visual_prompt_specific":"A person comfortably sitting at a wooden table eating a bowl of soup with a spoon"},
+  {"id":"ORD_0002","word_sv":"vila","word_en":"rest","synonyms_sv":["paus","återhämtning"],"inflections_sv":["vilar","vilade","vilat"],"translations":{"en":["rest","break"],"ar":["راحة"],"uk":["відпочинок"]},"category":"aktiviteter","visual_prompt_specific":"An adult resting comfortably on a sofa with a cushion, relaxed and awake"},
+  {"id":"ORD_0003","word_sv":"hjälp","word_en":"help","synonyms_sv":["stöd","assistans"],"inflections_sv":["hjälpen"],"translations":{"en":["help","assistance"],"ar":["مساعدة"],"uk":["допомога"]},"category":"kommunikation","visual_prompt_specific":"One person asking for assistance with an open hand, another listening attentively at eye level"}
+]

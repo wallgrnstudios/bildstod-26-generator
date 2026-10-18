@@ -1,0 +1,21 @@
+{
+  "style_version": "storybook-transparent-0.4",
+  "model": "stabilityai/sdxl-turbo",
+  "revision": "71153311d3dbb46851df1931d3ca6e939de83304",
+  "model_license_url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.TXT",
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "style_prompt": "Fine brown pencil lines, soft watercolor, natural proportions, muted sage, ochre, terracotta. Pure white background. No text, border, scenery or ground shadow.",
+  "width": 1024,
+  "height": 1024,
+  "steps": 4,
+  "guidance_scale": 0.0,
+  "background_model": "u2netp",
+  "batch_limit": 50,
+  "max_batch_limit": 100,
+  "seed_base": 260018,
+  "quality_status": "experimental-model-not-style-validated",
+  "calibration_approved": false,
+  "weight_variant": "fp16",
+  "cpu_dtype": "float32",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00"
+}

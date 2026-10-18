@@ -1,0 +1,7 @@
+# Install only on the Linux runner or a separately chosen generation machine.
+-r requirements.txt
+diffusers==0.35.1
+transformers==4.56.2
+accelerate==1.10.1
+safetensors==0.6.2
+rembg[cpu]==2.0.67

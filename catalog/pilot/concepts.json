@@ -1,0 +1,502 @@
+[
+  {
+    "id": "FSK_01_01",
+    "scenario_id": "SIT_01",
+    "step": 1,
+    "text_sv": "Jag säger hej.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child greeting a teacher with a raised open hand.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_01_02",
+    "scenario_id": "SIT_01",
+    "step": 2,
+    "text_sv": "Jag tar av mig skorna.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child seated on a low bench removing one shoe.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_01_03",
+    "scenario_id": "SIT_01",
+    "step": 3,
+    "text_sv": "Jag tar av mig jackan.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child pulling one arm out of a jacket sleeve.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_01_04",
+    "scenario_id": "SIT_01",
+    "step": 4,
+    "text_sv": "Jag hänger upp jackan.",
+    "review_status": "draft",
+    "image_status": "vector_draft",
+    "visual_prompt_en": "A curly-haired preschool child hanging a removed terracotta jacket by its loop on a low wooden hook.",
+    "generation_priority": 0
+  },
+  {
+    "id": "FSK_01_05",
+    "scenario_id": "SIT_01",
+    "step": 5,
+    "text_sv": "Jag väljer en aktivitet.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child choosing between a book and wooden blocks.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_02_01",
+    "scenario_id": "SIT_02",
+    "step": 1,
+    "text_sv": "Jag blöter händerna.",
+    "review_status": "draft",
+    "image_status": "vector_draft",
+    "visual_prompt_en": "A preschool child wetting both bare hands under a running tap above a white basin.",
+    "generation_priority": 1
+  },
+  {
+    "id": "FSK_02_02",
+    "scenario_id": "SIT_02",
+    "step": 2,
+    "text_sv": "Jag tar tvål.",
+    "review_status": "draft",
+    "image_status": "vector_draft",
+    "visual_prompt_en": "A preschool child pressing a soap dispenser pump, dispensing soap into the other open palm.",
+    "generation_priority": 1
+  },
+  {
+    "id": "FSK_02_03",
+    "scenario_id": "SIT_02",
+    "step": 3,
+    "text_sv": "Jag gnuggar händerna.",
+    "review_status": "draft",
+    "image_status": "vector_draft",
+    "visual_prompt_en": "Close view of two preschool child hands rubbing together with white soap bubbles.",
+    "generation_priority": 1
+  },
+  {
+    "id": "FSK_02_04",
+    "scenario_id": "SIT_02",
+    "step": 4,
+    "text_sv": "Jag sköljer händerna.",
+    "review_status": "draft",
+    "image_status": "vector_draft",
+    "visual_prompt_en": "A preschool child rinsing soapy hands under running water above a white basin.",
+    "generation_priority": 1
+  },
+  {
+    "id": "FSK_02_05",
+    "scenario_id": "SIT_02",
+    "step": 5,
+    "text_sv": "Jag torkar händerna.",
+    "review_status": "draft",
+    "image_status": "vector_draft",
+    "visual_prompt_en": "A preschool child drying both hands with a hanging cotton towel.",
+    "generation_priority": 1
+  },
+  {
+    "id": "FSK_03_01",
+    "scenario_id": "SIT_03",
+    "step": 1,
+    "text_sv": "Jag tvättar händerna före maten.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child washing hands at a basin before a meal, no food in the basin.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_03_02",
+    "scenario_id": "SIT_03",
+    "step": 2,
+    "text_sv": "Jag sätter mig vid bordet.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child pulling a small chair up to a dining table and sitting down.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_03_03",
+    "scenario_id": "SIT_03",
+    "step": 3,
+    "text_sv": "Jag tar mat.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child serving food from a bowl onto their own plate with a serving spoon.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_03_04",
+    "scenario_id": "SIT_03",
+    "step": 4,
+    "text_sv": "Jag äter.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child eating soup with a spoon, seated at a small table.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_03_05",
+    "scenario_id": "SIT_03",
+    "step": 5,
+    "text_sv": "Jag ställer undan min tallrik.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child carrying an empty plate to a low clearing trolley.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_04_01",
+    "scenario_id": "SIT_04",
+    "step": 1,
+    "text_sv": "Jag tar på mig byxorna.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child seated on a bench pulling outdoor trousers over their legs.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_04_02",
+    "scenario_id": "SIT_04",
+    "step": 2,
+    "text_sv": "Jag tar på mig jackan.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child putting an arm into an outdoor jacket sleeve.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_04_03",
+    "scenario_id": "SIT_04",
+    "step": 3,
+    "text_sv": "Jag tar på mig mössan.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child pulling a knitted hat over their head.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_04_04",
+    "scenario_id": "SIT_04",
+    "step": 4,
+    "text_sv": "Jag tar på mig skorna.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child seated on a low bench putting a shoe on one foot.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_04_05",
+    "scenario_id": "SIT_04",
+    "step": 5,
+    "text_sv": "Jag ber om hjälp med dragkedjan.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child holding their jacket zipper toward a teacher who helps fasten it.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_05_01",
+    "scenario_id": "SIT_05",
+    "step": 1,
+    "text_sv": "Jag går till samlingen.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child approaching children seated in a small circle.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_05_02",
+    "scenario_id": "SIT_05",
+    "step": 2,
+    "text_sv": "Jag väljer en plats i ringen.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child choosing an empty cushion in a small seated circle.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_05_03",
+    "scenario_id": "SIT_05",
+    "step": 3,
+    "text_sv": "Jag lyssnar när någon pratar.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child looking attentively at another child who is speaking.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_05_04",
+    "scenario_id": "SIT_05",
+    "step": 4,
+    "text_sv": "Jag berättar något.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child speaking to a small listening group with an open hand gesture.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_05_05",
+    "scenario_id": "SIT_05",
+    "step": 5,
+    "text_sv": "Vi sjunger tillsammans.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "Three preschool children singing together with naturally open mouths.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_06_01",
+    "scenario_id": "SIT_06",
+    "step": 1,
+    "text_sv": "Jag frågar om jag får vara med.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child asking two children playing with blocks to join their game.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_06_02",
+    "scenario_id": "SIT_06",
+    "step": 2,
+    "text_sv": "Vi bygger med klossar.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "Two preschool children collaboratively building a tower with wooden blocks.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_06_03",
+    "scenario_id": "SIT_06",
+    "step": 3,
+    "text_sv": "Jag frågar om jag får låna en kloss.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child gesturing toward another child holding a wooden block, asking to borrow it.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_06_04",
+    "scenario_id": "SIT_06",
+    "step": 4,
+    "text_sv": "Jag väntar på min tur.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "One preschool child waiting calmly while another child uses a toy.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_06_05",
+    "scenario_id": "SIT_06",
+    "step": 5,
+    "text_sv": "Jag ger klossen till ett annat barn.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child passing a wooden block into another child's open hand.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_07_01",
+    "scenario_id": "SIT_07",
+    "step": 1,
+    "text_sv": "Jag väljer en bok.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child choosing one book from a low bookshelf.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_07_02",
+    "scenario_id": "SIT_07",
+    "step": 2,
+    "text_sv": "Jag sätter mig bredvid en vuxen.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child sitting down on a cushion next to a seated teacher.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_07_03",
+    "scenario_id": "SIT_07",
+    "step": 3,
+    "text_sv": "Vi tittar på bilderna.",
+    "review_status": "draft",
+    "image_status": "vector_draft",
+    "visual_prompt_en": "A preschool child and a seated teacher looking together at pictures in an open book.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_07_04",
+    "scenario_id": "SIT_07",
+    "step": 4,
+    "text_sv": "Jag pekar på en bild i boken.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child pointing with one finger at a picture in an open book.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_07_05",
+    "scenario_id": "SIT_07",
+    "step": 5,
+    "text_sv": "Jag lägger tillbaka boken.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child returning a book to a low bookshelf.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_08_01",
+    "scenario_id": "SIT_08",
+    "step": 1,
+    "text_sv": "Jag tar på mig ett förkläde.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child putting a painting apron over their head.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_08_02",
+    "scenario_id": "SIT_08",
+    "step": 2,
+    "text_sv": "Jag hämtar papper och pensel.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child carrying a sheet of white paper and a paintbrush.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_08_03",
+    "scenario_id": "SIT_08",
+    "step": 3,
+    "text_sv": "Jag målar på papperet.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child painting on paper with a brush at a low table.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_08_04",
+    "scenario_id": "SIT_08",
+    "step": 4,
+    "text_sv": "Jag sköljer penseln.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child rinsing a paintbrush in a water cup.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_08_05",
+    "scenario_id": "SIT_08",
+    "step": 5,
+    "text_sv": "Jag lägger målningen på tork.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child laying a painting flat on a low drying rack.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_09_01",
+    "scenario_id": "SIT_09",
+    "step": 1,
+    "text_sv": "Jag visar att jag behöver en paus.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child showing a teacher a plain pause card with two simple vertical bars.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_09_02",
+    "scenario_id": "SIT_09",
+    "step": 2,
+    "text_sv": "Jag går till en lugn plats.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child walking toward a quiet corner with a cushion.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_09_03",
+    "scenario_id": "SIT_09",
+    "step": 3,
+    "text_sv": "Jag sätter mig på en kudde.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child sitting down on a large floor cushion.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_09_04",
+    "scenario_id": "SIT_09",
+    "step": 4,
+    "text_sv": "Jag vilar en stund.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child resting awake and relaxed on a cushion.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_09_05",
+    "scenario_id": "SIT_09",
+    "step": 5,
+    "text_sv": "Jag väljer vad jag vill göra efter pausen.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A rested preschool child choosing between a book and wooden blocks.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_10_01",
+    "scenario_id": "SIT_10",
+    "step": 1,
+    "text_sv": "En vuxen visar att det snart är dags att avsluta.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A teacher showing a preschool child a simple visual timer to prepare for finishing play.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_10_02",
+    "scenario_id": "SIT_10",
+    "step": 2,
+    "text_sv": "Jag avslutar det jag håller på med.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child finishing the last part of a small block construction.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_10_03",
+    "scenario_id": "SIT_10",
+    "step": 3,
+    "text_sv": "Jag lägger klossarna i lådan.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child placing wooden blocks into a storage box.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_10_04",
+    "scenario_id": "SIT_10",
+    "step": 4,
+    "text_sv": "Jag lägger boken på hyllan.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child placing a book on a low shelf.",
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_10_05",
+    "scenario_id": "SIT_10",
+    "step": 5,
+    "text_sv": "Jag väljer nästa aktivitet.",
+    "review_status": "draft",
+    "image_status": "not_created",
+    "visual_prompt_en": "A preschool child choosing the next activity from a book and a puzzle.",
+    "generation_priority": 2
+  }
+]
