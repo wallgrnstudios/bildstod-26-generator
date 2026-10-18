@@ -24,9 +24,9 @@ jobs:
     if: github.event.repository.private == false && (github.event_name == 'workflow_dispatch' || vars.BILDSTOD_NIGHTLY_ENABLED == 'true')
     strategy:
       fail-fast: false
-      max-parallel: 4
+      max-parallel: 8
       matrix:
-        shard: [0, 1, 2, 3]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
     runs-on: ubuntu-24.04
     timeout-minutes: 150
     env:
@@ -65,7 +65,7 @@ jobs:
       - name: Plan worker batch
         id: plan
         run: |
-          python -m bildstod.generation plan --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 4
+          python -m bildstod.generation plan --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8
           python - <<'PY'
           import json, os
           from pathlib import Path
@@ -85,7 +85,7 @@ jobs:
       - name: Generate with per-image checkpoints
         if: env.MODE == 'generate' && steps.plan.outputs.count != '0'
         run: |
-          python -m bildstod.generation run --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 4 --max-seconds 7200 --checkpoint-branch "generated-worker-${SHARD}"
+          python -m bildstod.generation run --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8 --max-seconds 7200 --checkpoint-branch "generated-worker-${SHARD}"
       - name: Candidate metrics
         if: always()
         run: |

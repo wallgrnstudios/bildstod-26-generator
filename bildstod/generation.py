@@ -66,7 +66,7 @@ def seed_for(entry, config):
 def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shard_count=1):
     if not 1 <= limit <= config['max_batch_limit']:
         raise ValueError('Batch size exceeds the configured maximum')
-    if not 0 <= shard_index < shard_count <= 4:
+    if not 0 <= shard_index < shard_count <= 8:
         raise ValueError('Invalid worker shard')
     candidates = []
     ordered = sorted(entries, key=lambda x: (x.get('generation_priority', 2), x['id']))
@@ -176,7 +176,7 @@ class BackgroundRemover:
 def checkpoint_git(output, branch):
     """Push image receipts to an isolated worker branch using the runner's own token."""
     root = output.parent.parent
-    if not re.fullmatch(r'generated-worker-[0-3]', branch) or not (root / '.git').exists():
+    if not re.fullmatch(r'generated-worker-[0-7]', branch) or not (root / '.git').exists():
         raise ValueError('Checkpoint requires the isolated worker state repository')
     subprocess.run(['git', '-C', str(root), 'add', 'data'], check=True)
     changed = subprocess.run(['git', '-C', str(root), 'diff', '--cached', '--quiet'])

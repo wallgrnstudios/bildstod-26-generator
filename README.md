@@ -2,7 +2,7 @@
 
 This repository contains only the generation engine, generic preschool scene briefs and a generated style reference. The application repository remains private. Source files here are exported explicitly from that project; no private app files or credentials are included.
 
-Only standard Linux runners in this public repository can generate images. No paid inference API is used. Four fixed workers have independent `generated-worker-0` … `generated-worker-3` branches. Each completed image is committed immediately to its worker branch. These generated candidates, prompts and metadata are PUBLIC. No automatic publication into the private application's approved library occurs.
+Only standard Linux runners in this public repository can generate images. No paid inference API is used. Eight fixed workers have independent `generated-worker-0` … `generated-worker-7` branches. Each completed image is committed immediately to its worker branch. These generated candidates, prompts and metadata are PUBLIC. No automatic publication into the private application's approved library occurs.
 
 Start with Actions → Generate pilot candidates → mode `generate`. Only a single calibration image is generated while `calibration_approved` is false. Compare the result with the included reference before unlocking the rest of the queue. Set repository variable `BILDSTOD_NIGHTLY_ENABLED=true` to run every six hours; remove it to stop. Workflows skip private repositories. A run can take up to two hours per worker plus setup time. No fixed images/day is promised until measured.
 

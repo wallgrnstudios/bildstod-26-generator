@@ -18,5 +18,6 @@
   "weight_variant": "fp16",
   "cpu_dtype": "float32",
   "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
-  "negative_prompt": "photo, dark background, vignette, text, watermark, cropped, malformed hands"
+  "negative_prompt": "photo, dark background, vignette, text, watermark, cropped, malformed hands",
+  "worker_count": 8
 }
