@@ -20,14 +20,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def load_config(path):
     config = json.loads(Path(path).read_text(encoding='utf-8'))
-    if config['model'] != 'stabilityai/sdxl-turbo' or not re.fullmatch(r'[0-9a-f]{40}', config['revision']):
+    if config['model'] not in ('stabilityai/sdxl-turbo', 'Lykon/dreamshaper-xl-lightning') or not re.fullmatch(r'[0-9a-f]{40}', config['revision']):
         raise ValueError('Only the pinned pilot model is supported')
     if not re.fullmatch(r'[a-z0-9.-]+', config['style_version']):
         raise ValueError('Invalid style version')
     if config['weight_variant'] != 'fp16' or config['cpu_dtype'] != 'float32':
         raise ValueError('Only compact safetensor weights and CPU float32 are configured')
-    if config['background_model'] != 'u2netp' or config['width'] != 1024 or config['height'] != 1024:
-        raise ValueError('Pilot requires 1024 px and u2netp')
+    if config['background_model'] not in ('u2netp', 'isnet-general-use') or config['width'] != 1024 or config['height'] != 1024:
+        raise ValueError('Pilot requires 1024 px and a configured foreground model')
     if not 1 <= config['steps'] <= 4 or not 1 <= config['batch_limit'] <= config['max_batch_limit'] <= 100:
         raise ValueError('Invalid batch or step limit')
     reference = ROOT / config['reference_asset']
@@ -54,7 +54,7 @@ def prompt_for(entry, config):
 
 
 def identity(entry, config):
-    parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256')}
+    parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256', 'negative_prompt')}
     payload = {'entry': entry['visual_prompt_en'], 'label': entry['text_sv'], 'config': parameters}
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 
@@ -109,13 +109,15 @@ class CpuRenderer:
     """Load weights once, encode the batch, then free text encoders before diffusion."""
     def __init__(self, config, entries):
         import torch
-        from diffusers import AutoPipelineForText2Image
+        from diffusers import AutoPipelineForText2Image, DPMSolverMultistepScheduler
         self.torch = torch
         torch.set_num_threads(min(4, os.cpu_count() or 1))
         self.pipeline = AutoPipelineForText2Image.from_pretrained(
             config['model'], revision=config['revision'], torch_dtype=torch.float32,
             variant=config['weight_variant'], use_safetensors=True, low_cpu_mem_usage=True,
         ).to('cpu')
+        if config['model'] == 'Lykon/dreamshaper-xl-lightning':
+            self.pipeline.scheduler = DPMSolverMultistepScheduler.from_config(self.pipeline.scheduler.config)
         self.pipeline.enable_vae_slicing()
         self.pipeline.enable_vae_tiling()
         self.embeddings = {}
@@ -125,8 +127,8 @@ class CpuRenderer:
                 if tokenizer is not None and len(tokenizer.encode(prompt)) > tokenizer.model_max_length:
                     raise ValueError(f"Prompt is too long: {entry['id']}")
             with torch.inference_mode():
-                encoded = self.pipeline.encode_prompt(prompt=prompt, device='cpu', do_classifier_free_guidance=False)
-                self.embeddings[entry['id']] = (encoded[0], encoded[2])
+                encoded = self.pipeline.encode_prompt(prompt=prompt, negative_prompt=config.get('negative_prompt'), device='cpu', do_classifier_free_guidance=config['guidance_scale'] > 1)
+                self.embeddings[entry['id']] = encoded
         self.pipeline.text_encoder = None
         self.pipeline.text_encoder_2 = None
         gc.collect()
@@ -138,9 +140,10 @@ class CpuRenderer:
             pass
 
     def __call__(self, entry, config, seed):
-        prompt_embeds, pooled = self.embeddings[entry['id']]
+        prompt_embeds, negative, pooled, negative_pooled = self.embeddings[entry['id']]
         with self.torch.inference_mode():
             result = self.pipeline(prompt_embeds=prompt_embeds, pooled_prompt_embeds=pooled,
+                negative_prompt_embeds=negative, negative_pooled_prompt_embeds=negative_pooled,
                 width=config['width'], height=config['height'], num_inference_steps=config['steps'],
                 guidance_scale=config['guidance_scale'],
                 generator=self.torch.Generator(device='cpu').manual_seed(seed))
