@@ -1,0 +1,13 @@
+{
+  "model": "stabilityai/sdxl-turbo",
+  "revision": "71153311d3dbb46851df1931d3ca6e939de83304",
+  "style_calibration_required": true,
+  "batch": [
+    {
+      "id": "FSK_01_04",
+      "label": "Jag hänger upp jackan.",
+      "prompt": "Children's book illustration. A curly-haired preschool child hanging a removed terracotta jacket by its loop on a low wooden hook. Fine brown pencil lines, soft watercolor, natural proportions, muted sage, ochre, terracotta. Pure white background. No text, border, scenery or ground shadow.",
+      "seed": 1734154919
+    }
+  ]
+}
