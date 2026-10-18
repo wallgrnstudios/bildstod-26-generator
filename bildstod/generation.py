@@ -224,6 +224,7 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
         else:
             render = CpuRenderer(config, [by_id[x['id']] for x in batch])
     remove = remove or BackgroundRemover(config)
+    initialization_seconds = time.monotonic() - started
     durations = []
     for item in batch:
         if max_seconds and time.monotonic() - started + (max(durations) if durations else 0) + 120 >= max_seconds:
@@ -244,15 +245,18 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
                     'guidance_scale': config['guidance_scale'], 'cpu_dtype': config['cpu_dtype']}
         try:
             image = render(entry, config, item['seed'])
+            render_seconds = time.monotonic() - item_started
             if image.size != (config['width'], config['height']):
                 raise ValueError('Wrong native output resolution')
             raw = output / 'raw'; raw.mkdir(exist_ok=True)
             image.save(raw / target.name, format='PNG')
+            removal_started = time.monotonic()
             cutout = remove(image, config)
+            removal_seconds = time.monotonic() - removal_started
             metrics = verify_transparency(cutout)
             if cutout.size != image.size:
                 raise ValueError('Background removal changed image size')
-            metadata.update(status='pending_review', transparency=metrics, elapsed_seconds=round(time.monotonic() - item_started, 3))
+            metadata.update(status='pending_review', transparency=metrics, render_seconds=round(render_seconds, 3), background_seconds=round(removal_seconds, 3), elapsed_seconds=round(time.monotonic() - item_started, 3))
             info = PngImagePlugin.PngInfo()
             info.add_itxt('bildstod', json.dumps(metadata, ensure_ascii=False))
             temporary = target.with_suffix('.tmp')
@@ -279,7 +283,7 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
         render.close()
     if owned_remove:
         remove.close()
-    atomic_json(output / 'metrics.json', {'completed_this_run': len(durations), 'elapsed_seconds': round(time.monotonic() - started, 2), 'seconds_per_candidate': round(sum(durations)/len(durations), 2) if durations else None})
+    atomic_json(output / 'metrics.json', {'completed_this_run': len(durations), 'initialization_seconds': round(initialization_seconds, 2), 'elapsed_seconds': round(time.monotonic() - started, 2), 'seconds_per_candidate': round(sum(durations)/len(durations), 2) if durations else None})
 
 
 def review_sheet(output):
