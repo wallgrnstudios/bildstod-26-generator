@@ -70,8 +70,9 @@ def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shar
         raise ValueError('Invalid worker shard')
     candidates = []
     ordered = sorted(entries, key=lambda x: (x.get('generation_priority', 2), x['id']))
-    for index, entry in enumerate(ordered):
-        if index % shard_count != shard_index:
+    for entry in ordered:
+        worker = 0 if entry['id'] == 'FSK_01_04' else int(hashlib.sha256(entry['id'].encode()).hexdigest()[:8], 16) % shard_count
+        if worker != shard_index:
             continue
         if not config.get('calibration_approved', False) and entry['id'] != 'FSK_01_04':
             continue

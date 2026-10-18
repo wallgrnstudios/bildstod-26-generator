@@ -64,6 +64,28 @@ class GenerationTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 verify_transparency(Image.new('RGBA', (128, 128), 'white'))
 
+    def test_batch_reuses_models_and_checkpoints_each_image(self):
+        config = {**self.config, 'calibration_approved': True}
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            batch = plan(self.entries, config, output, 2)
+            with patch('bildstod.generation.CpuRenderer') as renderer, patch('bildstod.generation.BackgroundRemover') as remover:
+                renderer.return_value.return_value = Image.new('RGB', (1024, 1024), 'white')
+                cutout = Image.new('RGBA', (1024, 1024), (0, 0, 0, 0))
+                cutout.paste((100,150,100,255), (200,200,800,800))
+                remover.return_value.return_value = cutout
+                checkpoints = []
+                run_batch(self.entries, config, output, batch, checkpoint=lambda p: checkpoints.append(p))
+                renderer.assert_called_once()
+                remover.assert_called_once()
+                self.assertEqual(renderer.return_value.call_count, 2)
+                self.assertEqual(len(checkpoints), 2)
+                renderer.return_value.close.assert_called_once()
+                self.assertEqual(json.loads((output/'metrics.json').read_text())['completed_this_run'], 2)
+        all_ids = [item['id'] for index in range(4) for item in plan(self.entries, config, Path('/tmp/unused-bildstod-test-shards'), 100, shard_index=index, shard_count=4)]
+        self.assertEqual(len(all_ids), 50)
+        self.assertEqual(len(set(all_ids)), 50)
+
     def test_no_accidental_local_workload_and_preserved_import_alpha(self):
         with patch.dict('os.environ', {}, clear=True):
             with self.assertRaisesRegex(ValueError, 'Local model execution is off'):
