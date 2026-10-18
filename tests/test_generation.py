@@ -13,6 +13,7 @@ from bildstod.catalog import load
 class GenerationTests(unittest.TestCase):
     def setUp(self):
         self.config = load_config(ROOT / 'config/generation.json')
+        self.config['calibration_ids'] = ['FSK_01_04']
         self.entries = load_briefs(ROOT / 'catalog/pilot/concepts.json')
 
     def test_locked_style_and_calibration_queue(self):

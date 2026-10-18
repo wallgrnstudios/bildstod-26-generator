@@ -1,14 +1,14 @@
 {
-  "style_version": "storybook-transparent-0.5",
+  "style_version": "storybook-transparent-0.6",
   "model": "Lykon/dreamshaper-xl-lightning",
   "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
   "model_license_url": "https://huggingface.co/Lykon/dreamshaper-xl-lightning",
   "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
-  "style_prompt": "Fine brown pencil lines, soft watercolor, natural proportions, muted sage and ochre. Clear illustration isolated on pure white background.",
+  "style_prompt": "Delicate brown lines, soft watercolor shading, natural proportions, warm muted colors. No text.",
   "width": 1024,
   "height": 1024,
   "steps": 4,
-  "guidance_scale": 2.0,
+  "guidance_scale": 3.0,
   "background_model": "isnet-general-use",
   "batch_limit": 50,
   "max_batch_limit": 100,
@@ -18,6 +18,11 @@
   "weight_variant": "fp16",
   "cpu_dtype": "float32",
   "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
-  "negative_prompt": "photo, dark background, vignette, text, watermark, cropped, malformed hands",
-  "worker_count": 8
+  "negative_prompt": "photo, room, wooden wall, wood paneling, scenery, dark background, vignette, text, watermark, cropped, malformed hands",
+  "worker_count": 8,
+  "calibration_ids": [
+    "FSK_01_04",
+    "FSK_02_02",
+    "FSK_03_04"
+  ]
 }

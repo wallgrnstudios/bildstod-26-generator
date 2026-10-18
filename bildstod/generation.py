@@ -50,7 +50,7 @@ def load_briefs(path):
 
 def prompt_for(entry, config):
     # Short prompts, action first: long style preambles can truncate the actual action.
-    return 'Children\'s book illustration. ' + entry['visual_prompt_en'] + ' ' + config['style_prompt']
+    return 'Isolated watercolor illustration on pure white. ' + entry['visual_prompt_en'] + ' ' + config['style_prompt']
 
 
 def identity(entry, config):
@@ -74,7 +74,7 @@ def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shar
         worker = 0 if entry['id'] == 'FSK_01_04' else int(hashlib.sha256(entry['id'].encode()).hexdigest()[:8], 16) % shard_count
         if worker != shard_index:
             continue
-        if not config.get('calibration_approved', False) and entry['id'] != 'FSK_01_04':
+        if not config.get('calibration_approved', False) and entry['id'] not in config.get('calibration_ids', ['FSK_01_04']):
             continue
         target = output / (entry['id'] + '.png')
         sidecar = target.with_suffix('.json')

@@ -36,7 +36,7 @@
     "text_sv": "Jag hänger upp jackan.",
     "review_status": "draft",
     "image_status": "vector_draft",
-    "visual_prompt_en": "A child in a green shirt hangs an unworn orange coat on a wooden wall hook. Full-body view.",
+    "visual_prompt_en": "An orange coat hanging on a low hook. Beside the coat, a child in a green T-shirt touches its hanging loop.",
     "generation_priority": 0,
     "negative_prompt_en": "wearing a coat"
   },
@@ -67,7 +67,7 @@
     "text_sv": "Jag tar tvål.",
     "review_status": "draft",
     "image_status": "vector_draft",
-    "visual_prompt_en": "A preschool child pressing a soap dispenser pump, dispensing soap into the other open palm.",
+    "visual_prompt_en": "A soap dispenser above a small open palm. Another hand presses the pump. Close view of hands receiving liquid soap.",
     "generation_priority": 1
   },
   {
@@ -137,7 +137,7 @@
     "text_sv": "Jag äter.",
     "review_status": "draft",
     "image_status": "not_created",
-    "visual_prompt_en": "A preschool child eating soup with a spoon, seated at a small table.",
+    "visual_prompt_en": "A preschool child eating soup with a spoon, seated at a small white table. The spoon is at the mouth.",
     "generation_priority": 2
   },
   {
