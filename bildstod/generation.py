@@ -55,7 +55,7 @@ def prompt_for(entry, config):
 
 def identity(entry, config):
     parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256', 'negative_prompt')}
-    payload = {'entry': entry['visual_prompt_en'], 'label': entry['text_sv'], 'config': parameters}
+    payload = {'entry': entry['visual_prompt_en'], 'entry_negative': entry.get('negative_prompt_en', ''), 'label': entry['text_sv'], 'config': parameters}
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 
 
@@ -127,7 +127,7 @@ class CpuRenderer:
                 if tokenizer is not None and len(tokenizer.encode(prompt)) > tokenizer.model_max_length:
                     raise ValueError(f"Prompt is too long: {entry['id']}")
             with torch.inference_mode():
-                encoded = self.pipeline.encode_prompt(prompt=prompt, negative_prompt=config.get('negative_prompt'), device='cpu', do_classifier_free_guidance=config['guidance_scale'] > 1)
+                encoded = self.pipeline.encode_prompt(prompt=prompt, negative_prompt=', '.join(filter(None, [config.get('negative_prompt'), entry.get('negative_prompt_en')])), device='cpu', do_classifier_free_guidance=config['guidance_scale'] > 1)
                 self.embeddings[entry['id']] = encoded
         self.pipeline.text_encoder = None
         self.pipeline.text_encoder_2 = None
@@ -207,6 +207,7 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
         target = output / (entry['id'] + '.png')
         metadata = {'concept_id': entry['id'], 'label_sv': entry['text_sv'],
                     'fingerprint': identity(entry, config), 'prompt': item['prompt'], 'seed': item['seed'],
+                    'negative_prompt': ', '.join(filter(None, [config.get('negative_prompt'), entry.get('negative_prompt_en')])),
                     'model': config['model'], 'revision': config['revision'],
                     'style_version': config['style_version'], 'background_model': config['background_model'],
                     'created_at': datetime.now(timezone.utc).isoformat(), 'license': None,

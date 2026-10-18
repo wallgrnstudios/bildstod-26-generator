@@ -4,7 +4,7 @@
   "revision": "561086c22aba3925b1e8803a73857f061635c7c3",
   "model_license_url": "https://huggingface.co/Lykon/dreamshaper-xl-lightning",
   "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
-  "style_prompt": "Fine brown pencil lines, soft watercolor, natural proportions, muted sage and ochre. Full-body illustration isolated on pure white background.",
+  "style_prompt": "Fine brown pencil lines, soft watercolor, natural proportions, muted sage and ochre. Clear illustration isolated on pure white background.",
   "width": 1024,
   "height": 1024,
   "steps": 4,

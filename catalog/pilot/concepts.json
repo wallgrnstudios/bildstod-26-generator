@@ -36,8 +36,9 @@
     "text_sv": "Jag hänger upp jackan.",
     "review_status": "draft",
     "image_status": "vector_draft",
-    "visual_prompt_en": "A child in a green shirt hangs an unworn orange coat on a wooden wall hook.",
-    "generation_priority": 0
+    "visual_prompt_en": "A child in a green shirt hangs an unworn orange coat on a wooden wall hook. Full-body view.",
+    "generation_priority": 0,
+    "negative_prompt_en": "wearing a coat"
   },
   {
     "id": "FSK_01_05",
