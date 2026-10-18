@@ -12,7 +12,7 @@ import subprocess
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from PIL import Image, PngImagePlugin
+from PIL import Image, ImageDraw, PngImagePlugin
 from .pipeline import atomic_json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,7 +27,7 @@ def load_config(path):
     is_flux = config.get('backend') == 'flux2-klein'
     if not is_flux and (config['weight_variant'] != 'fp16' or config['cpu_dtype'] != 'float32'):
         raise ValueError('Only compact safetensor weights and CPU float32 are configured')
-    if config['background_model'] not in ('u2netp', 'isnet-general-use') or config['width'] != 1024 or config['height'] != 1024:
+    if config['background_model'] not in ('u2netp', 'isnet-general-use', 'white-connected') or config['width'] != 1024 or config['height'] != 1024:
         raise ValueError('Pilot requires 1024 px and a configured foreground model')
     if not 1 <= config['steps'] <= 4 or not 1 <= config['batch_limit'] <= config['max_batch_limit'] <= 100:
         raise ValueError('Invalid batch or step limit')
@@ -169,6 +169,21 @@ class BackgroundRemover:
         self.session = None
 
     def __call__(self, image, config):
+        if config['background_model'] == 'white-connected':
+            # Only near-white pixels connected to the image border are background.
+            # Keep pale skin, white clothing and highlights enclosed by drawn outlines.
+            rgb = image.convert('RGB')
+            mask = Image.new('L', rgb.size)
+            mask.putdata([255 if min(pixel) >= 245 and max(pixel)-min(pixel) <= 8 else 0 for pixel in rgb.getdata()])
+            width, height = rgb.size
+            boundary = [(x,y) for x in range(width) for y in (0,height-1)]
+            boundary += [(x,y) for y in range(height) for x in (0,width-1)]
+            for point in boundary:
+                if mask.getpixel(point) == 255:
+                    ImageDraw.floodfill(mask, point, 128)
+            result = rgb.convert('RGBA')
+            result.putalpha(mask.point([0 if value == 128 else 255 for value in range(256)]))
+            return result
         from rembg import new_session, remove
         if self.session is None:
             self.session = new_session(config['background_model'], providers=['CPUExecutionProvider'])

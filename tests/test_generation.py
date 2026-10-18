@@ -5,7 +5,7 @@ from pathlib import Path
 from unittest.mock import patch
 from PIL import Image
 from bildstod.generation import (ROOT, load_config, load_briefs, plan, identity, prompt_for,
-                                 run_batch, verify_transparency, check_compute_permission)
+                                 run_batch, verify_transparency, check_compute_permission, BackgroundRemover)
 from bildstod.pipeline import save_candidate
 from bildstod.catalog import load
 
@@ -100,3 +100,12 @@ class GenerationTests(unittest.TestCase):
             save_candidate(source, load(ROOT / 'data/ordlista.json')[0], target, 'test')
             with Image.open(target) as image:
                 self.assertEqual(image.getchannel('A').getextrema(), (0, 255))
+
+    def test_white_background_preserves_pale_foreground(self):
+        image = Image.new('RGB', (100,100), 'white')
+        image.paste((245,235,225), (20,20,80,80))
+        image.paste('white', (40,40,60,60))
+        cutout = BackgroundRemover({})(image, {'background_model':'white-connected'})
+        self.assertEqual(cutout.getpixel((0,0))[3], 0)
+        self.assertEqual(cutout.getpixel((25,25))[3], 255)
+        self.assertEqual(cutout.getpixel((50,50))[3], 255)

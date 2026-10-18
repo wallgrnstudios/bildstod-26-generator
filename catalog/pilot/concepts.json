@@ -67,7 +67,7 @@
     "text_sv": "Jag tar tvål.",
     "review_status": "draft",
     "image_status": "vector_draft",
-    "visual_prompt_en": "A soap dispenser above a small open palm. Another hand presses the pump. Close view of hands receiving liquid soap.",
+    "visual_prompt_en": "Exactly two hands: one small hand palm-up below the nozzle of a soap dispenser standing on a counter; the other index finger presses the pump. One tiny droplet falls from the nozzle into the open palm. Clear simple action, no additional hands.",
     "generation_priority": 1
   },
   {

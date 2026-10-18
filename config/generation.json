@@ -1,5 +1,5 @@
 {
-  "style_version": "storybook-transparent-0.7",
+  "style_version": "storybook-transparent-0.8",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
@@ -9,7 +9,7 @@
   "height": 1024,
   "steps": 4,
   "guidance_scale": 1.0,
-  "background_model": "isnet-general-use",
+  "background_model": "white-connected",
   "batch_limit": 25,
   "max_batch_limit": 100,
   "seed_base": 260018,
@@ -21,11 +21,14 @@
   "negative_prompt": "photo, room, wooden wall, wood paneling, scenery, dark background, vignette, text, watermark, cropped, malformed hands",
   "worker_count": 8,
   "calibration_ids": [
-    "FSK_02_02"
+    "FSK_01_04",
+    "FSK_02_02",
+    "FSK_03_04"
   ],
   "backend": "flux2-klein",
   "worker_overrides": {
-    "FSK_02_02": 0
+    "FSK_02_02": 1,
+    "FSK_03_04": 2
   },
   "worker_branch_prefix": "generated-flux-worker",
   "reference_conditioning": true
