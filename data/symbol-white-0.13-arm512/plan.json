@@ -1,13 +1,67 @@
 {
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-  "style_calibration_required": true,
+  "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_90_10",
-      "label": "händer",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two small open hands next to each other, palms facing the viewer, five natural fingers on each hand, wrists cropped consistently. Isolated without soap, water or tools. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 710062908
+      "id": "FSK_91_03",
+      "label": "stövlar",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A matching pair of yellow rubber rain boots with tall shafts and thick soles. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1168796728
+    },
+    {
+      "id": "FSK_91_07",
+      "label": "regnbyxor",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One pair of preschool waterproof bib rain trousers with shoulder straps, no jacket. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 386668384
+    },
+    {
+      "id": "FSK_91_18",
+      "label": "mugg",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simple empty ceramic mug with one large side handle. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 220943016
+    },
+    {
+      "id": "FSK_91_24",
+      "label": "morot",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One orange carrot with tapered root and green leafy top. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 57329464
+    },
+    {
+      "id": "FSK_92_01",
+      "label": "dricka",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in upper-body side view holding a cup tilted at their lips, visibly drinking. Isolated without other people or scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1757431504
+    },
+    {
+      "id": "FSK_91_40",
+      "label": "bok",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One open children's picture book with visible binding and simple animal pictures, no letters. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1763633432
+    },
+    {
+      "id": "FSK_91_51",
+      "label": "nalle",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One plush teddy bear with round ears, stitched nose and soft paws. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 620172664
+    },
+    {
+      "id": "FSK_91_57",
+      "label": "cykel",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small children's bicycle with two wheels, pedals, saddle and handlebar, side view. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 86150880
+    },
+    {
+      "id": "FSK_91_62",
+      "label": "blomma",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simple daisy with white petals, yellow center, green stem and two leaves. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 832779184
+    },
+    {
+      "id": "FSK_91_63",
+      "label": "träd",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One whole leafy tree, trunk, branches and green crown, no scenery. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1725948392
     }
   ]
 }
