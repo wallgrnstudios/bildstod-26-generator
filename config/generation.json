@@ -13,8 +13,8 @@
   "batch_limit": 100,
   "max_batch_limit": 100,
   "seed_base": 260018,
-  "quality_status": "semantic-redesign-small-calibration-only",
-  "calibration_approved": false,
+  "quality_status": "mass-generation-candidates-human-review-required",
+  "calibration_approved": true,
   "weight_variant": null,
   "cpu_dtype": "bfloat16",
   "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
@@ -42,5 +42,5 @@
   "implementation": "diffusers-arm64",
   "catalog_path": "catalog/pilot/symbols.json",
   "semantic_mode": "atomic-symbol",
-  "production_paused": true
+  "production_paused": false
 }

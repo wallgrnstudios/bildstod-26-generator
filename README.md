@@ -4,7 +4,7 @@ This repository contains only the generation engine, atomic symbol contracts, pr
 
 Only standard Linux runners in this public repository can generate images. No paid inference API is used. Eight fixed workers have independent `generated-flux-worker-0` … `generated-flux-worker-7` branches. Each completed image is committed immediately to its worker branch. These generated candidates, prompts and metadata are PUBLIC. No automatic publication into the private application's approved library occurs.
 
-The scheduled mass queue is paused for semantic redesign. The active catalog is `catalog/pilot/symbols.json`; complete comparison sentences are separate fixtures, not image meanings. Only the small configured calibration cohort is generated. Abstract concepts stay as text until their visual convention is reviewed.
+The scheduled candidate queue is enabled for preschool vocabulary. The active catalog is `catalog/pilot/symbols.json`; complete comparison sentences are separate fixtures, not image meanings. The catalog contains 92 enabled narrow concepts; all outputs require human review. Abstract concepts stay as text until their visual convention is reviewed.
 
 Start with Actions → Generate pilot candidates → mode `generate`. Only the configured small calibration set is generated while `calibration_approved` is false. Compare the result with the included reference before unlocking the rest of the queue. Set repository variable `BILDSTOD_NIGHTLY_ENABLED=true` to run every three hours; remove it to stop. Workflows skip private repositories. A run can take up to two hours per worker plus setup time. No fixed images/day is promised until measured.
 
@@ -12,4 +12,4 @@ The model loads once per worker batch. Prompts are encoded upfront; text encoder
 
 Manual benchmarking workflows compare standard x64, standard ARM64, and a compact CPU implementation. Failed 1024 CPU trials do not establish a daily throughput promise.
 
-Model license: https://huggingface.co/black-forest-labs/FLUX.2-klein-4B . The current profile removes only near-white background connected to image borders, using Pillow; light foreground details remain. No project distribution license is implied. Outputs are review candidates with no assigned distribution license.
+Model license: https://huggingface.co/black-forest-labs/FLUX.2-klein-4B . The current profile retains a white background without background removal. No project distribution license is implied. Outputs are review candidates with no assigned distribution license.
