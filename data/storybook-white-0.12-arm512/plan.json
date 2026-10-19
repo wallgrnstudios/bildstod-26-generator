@@ -1,0 +1,67 @@
+{
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_calibration_required": false,
+  "batch": [
+    {
+      "id": "FSK_01_03",
+      "label": "Jag tar av mig jackan.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child pulling one arm out of a jacket sleeve. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 788509499
+    },
+    {
+      "id": "FSK_03_03",
+      "label": "Jag tar mat.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child serving food from a bowl onto their own plate with a serving spoon. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 688918707
+    },
+    {
+      "id": "FSK_04_01",
+      "label": "Jag tar på mig byxorna.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child seated on a bench pulling outdoor trousers over their legs. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 27908171
+    },
+    {
+      "id": "FSK_05_04",
+      "label": "Jag berättar något.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child speaking to a small listening group with an open hand gesture. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 549780371
+    },
+    {
+      "id": "FSK_05_05",
+      "label": "Vi sjunger tillsammans.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: Three preschool children singing together with naturally open mouths. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1178852299
+    },
+    {
+      "id": "FSK_06_05",
+      "label": "Jag ger klossen till ett annat barn.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child passing a wooden block into another child's open hand. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1847969587
+    },
+    {
+      "id": "FSK_08_03",
+      "label": "Jag målar på papperet.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child painting on paper with a brush at a low table. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1404525051
+    },
+    {
+      "id": "FSK_09_02",
+      "label": "Jag går till en lugn plats.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child walking toward a quiet corner with a cushion. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1653051899
+    },
+    {
+      "id": "FSK_09_05",
+      "label": "Jag väljer vad jag vill göra efter pausen.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A rested preschool child choosing between a book and wooden blocks. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1399465555
+    },
+    {
+      "id": "FSK_10_01",
+      "label": "En vuxen visar att det snart är dags att avsluta.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A teacher showing a preschool child a simple visual timer to prepare for finishing play. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 55907539
+    }
+  ]
+}

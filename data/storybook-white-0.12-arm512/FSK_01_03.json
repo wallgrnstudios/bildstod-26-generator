@@ -1,0 +1,6 @@
+{
+  "concept_id": "FSK_01_03",
+  "fingerprint": "64fe26852cece4adaec843ca155f73e97372822b132ebcbac37fd1df541afcca",
+  "status": "failed",
+  "error_type": "InterruptedInitialization"
+}
