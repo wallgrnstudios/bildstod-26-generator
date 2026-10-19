@@ -128,6 +128,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 80.794,
       "sha256": "4d1cc1ab63b27645aa9cc2cd17c1ce615c0d087697d68917cd4fed9123757aaa"
+    },
+    {
+      "concept_id": "FSK_91_08",
+      "label_sv": "ryggsäck",
+      "fingerprint": "34fa1e122a2d843c417bed601569fb2dccab2bb64503bf8d5316c130df29396e",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small preschool backpack with two shoulder straps, top handle and front pocket. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 358814884,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:03:46.696342+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Ryggsäck som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Två axelremmar och bärhandtag"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.482,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.515,
+      "sha256": "90acccbfff314fb95d1a2e7e3a3ea7703ec4ffa9fc1b4ed6f132cd5313b1dc06"
     }
   ]
 }
