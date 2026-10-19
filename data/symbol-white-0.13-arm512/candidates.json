@@ -1,4 +1,49 @@
 {
   "style_version": "symbol-white-0.13-arm512",
-  "candidates": []
+  "candidates": [
+    {
+      "concept_id": "FSK_90_05",
+      "label_sv": "skor",
+      "fingerprint": "abdff96c9b2dc139f67d78b7b4f838add07bc2e95049a7f70e5c8be6b7ee3a4f",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A matching pair of small modern children sneakers, three-quarter side view. Each shoe has a closed heel, rounded toe, a distinct white rubber sole and two wide hook-and-loop straps across the top. Fabric uppers in muted blue. Shoes only, no feet, people, clogs, slippers or sandals. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 611079642,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T18:41:15.937022+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Ett par skor.",
+      "must_show_sv": [
+        "Ett tydligt par moderna barnskor",
+        "Stängd häl, tydlig yttersula och kardborreband"
+      ],
+      "must_not_show_sv": [
+        "Tofflor eller träskor",
+        "Person som tar på eller av skorna"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.151,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.176,
+      "sha256": "7b1073e64c3bfde83e96cc08c24db1e7c6dc3aef1b60f01a441632c490eeddc0"
+    }
+  ]
 }
