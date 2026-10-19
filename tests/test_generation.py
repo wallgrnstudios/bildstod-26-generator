@@ -119,8 +119,9 @@ class GenerationTests(unittest.TestCase):
         old={entry['id']:entry for entry in self.entries}
         for row in compositions:
             self.assertEqual(row['sentence_sv'],old[row['source_step_id']]['text_sv'])
+            self.assertEqual(''.join(part['text'] for part in row['parts']),row['sentence_sv'])
             self.assertTrue(all(part['symbol_id'] in by_id for part in row['parts'] if 'symbol_id' in part))
-        self.assertEqual([p['symbol_id'] for p in compositions[0]['parts'] if 'symbol_id' in p],['FSK_90_02','FSK_90_03'])
+        self.assertEqual([p['symbol_id'] for p in next(row for row in compositions if row['source_step_id']=='FSK_05_01')['parts'] if 'symbol_id' in p],['FSK_90_02','FSK_90_03'])
         self.assertFalse(by_id['FSK_90_12']['generation_enabled'])
         config={**self.config,'calibration_approved':True}
         batch=plan(symbols,config,Path('/tmp/bildstod-unused-symbol-plan'),100)
