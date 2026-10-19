@@ -1,8 +1,10 @@
 # Bildstöd 26 – public generation engine
 
-This repository contains only the generation engine, generic preschool scene briefs and a generated style reference. The application repository remains private. Source files here are exported explicitly from that project; no private app files or credentials are included.
+This repository contains only the generation engine, atomic symbol contracts, preschool comparison sentences and a generated style reference. The application repository remains private. Source files here are exported explicitly from that project; no private app files or credentials are included.
 
 Only standard Linux runners in this public repository can generate images. No paid inference API is used. Eight fixed workers have independent `generated-flux-worker-0` … `generated-flux-worker-7` branches. Each completed image is committed immediately to its worker branch. These generated candidates, prompts and metadata are PUBLIC. No automatic publication into the private application's approved library occurs.
+
+The scheduled mass queue is paused for semantic redesign. The active catalog is `catalog/pilot/symbols.json`; complete comparison sentences are separate fixtures, not image meanings. Current calibration: zipper, walking, preschool circle time. Abstract concepts stay as text until their visual convention is reviewed.
 
 Start with Actions → Generate pilot candidates → mode `generate`. Only the configured small calibration set is generated while `calibration_approved` is false. Compare the result with the included reference before unlocking the rest of the queue. Set repository variable `BILDSTOD_NIGHTLY_ENABLED=true` to run every three hours; remove it to stop. Workflows skip private repositories. A run can take up to two hours per worker plus setup time. No fixed images/day is promised until measured.
 
