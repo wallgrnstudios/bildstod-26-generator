@@ -102,6 +102,40 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 82.043,
       "sha256": "92383f21015dfaf1592c3bf449a6ea10fe28d1a0b094e55a00d0111469e2e6fd"
+    },
+    {
+      "concept_id": "FSK_03_02",
+      "label_sv": "Jag sätter mig vid bordet.",
+      "fingerprint": "8f6f3c8fd8132f29d6aebbdb0f4f7daef2bcd7da77a2cb2da582902d17d8d38a",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child pulling a small chair up to a dining table and sitting down. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1992018102,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "storybook-white-0.12-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T07:10:25.603460+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.415,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.446,
+      "sha256": "58965a0151263622b7825087b0315db2240cf0a5c77291b0d559e52cd6b3092f"
     }
   ]
 }
