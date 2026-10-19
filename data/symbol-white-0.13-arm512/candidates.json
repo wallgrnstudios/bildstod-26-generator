@@ -254,6 +254,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 79.887,
       "sha256": "2799e3fdf3b4335d3e834b57337a05f907b8ea368ab9dcbcbf3c1aa1dc0728ad"
+    },
+    {
+      "concept_id": "FSK_92_02",
+      "label_sv": "tvätta händer",
+      "fingerprint": "4d4c35544db92b35bd67c8e845b135f4ba3479f95513afd80e817f386efedb70",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up of two hands rubbing together with visible soap lather under water flowing from a single faucet. No face or bathroom scene. Isolated without other people or scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1517587541,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:06:20.710867+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Att tvätta händer, utan ytterligare uppmaning eller destination.",
+      "must_show_sv": [
+        "Händer med lödder under rinnande vatten"
+      ],
+      "must_not_show_sv": [
+        "Annan samtidig handling eller destination"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.208,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.231,
+      "sha256": "db3054b2c904dad9296e386cec51344449e12dc4d1ddf4ccffd12dab13a4be29"
     }
   ]
 }
