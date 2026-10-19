@@ -1,0 +1,13 @@
+{
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_calibration_required": true,
+  "batch": [
+    {
+      "id": "FSK_90_05",
+      "label": "skor",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One pair of simple modern preschool shoes, clearly visible together, isolated without feet or people. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 611079642
+    }
+  ]
+}
