@@ -1,4 +1,39 @@
 {
   "style_version": "storybook-white-0.12-arm512",
-  "candidates": []
+  "candidates": [
+    {
+      "concept_id": "FSK_01_03",
+      "label_sv": "Jag tar av mig jackan.",
+      "fingerprint": "64fe26852cece4adaec843ca155f73e97372822b132ebcbac37fd1df541afcca",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child pulling one arm out of a jacket sleeve. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 788509499,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "storybook-white-0.12-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T07:06:30.628604+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.144,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.176,
+      "sha256": "76f0a6a5f8dd91bca926f8d5cb6937470c34b68b36975d6fb7ae131277bef558"
+    }
+  ]
 }
