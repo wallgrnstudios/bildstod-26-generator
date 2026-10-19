@@ -1,0 +1,36 @@
+{
+  "concept_id": "FSK_91_56",
+  "label_sv": "rutschkana",
+  "fingerprint": "2e7c4ec296691a0155caaa2d6d61f0d0bf981e635f48a356e66b5051b839dd8a",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small playground slide with ladder, raised platform and sloping chute, no children. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1929196859,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-19T19:15:18.865348+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "object",
+  "meaning_sv": "Rutschkana som ett avgränsat begrepp.",
+  "must_show_sv": [
+    "Stege och nedåtgående rutschbana"
+  ],
+  "must_not_show_sv": [
+    "Ovidkommande handlingar, text eller dekorativ miljö"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
+}
