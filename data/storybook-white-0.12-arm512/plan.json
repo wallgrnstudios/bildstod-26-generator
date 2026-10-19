@@ -1,0 +1,31 @@
+{
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_calibration_required": false,
+  "batch": [
+    {
+      "id": "FSK_02_05",
+      "label": "Jag torkar händerna.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child drying both hands with a hanging cotton towel. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1719634725
+    },
+    {
+      "id": "FSK_04_04",
+      "label": "Jag tar på mig skorna.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child seated on a low bench putting a shoe on one foot. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 483850205
+    },
+    {
+      "id": "FSK_04_05",
+      "label": "Jag ber om hjälp med dragkedjan.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child holding their jacket zipper toward a teacher who helps fasten it. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 407730933
+    },
+    {
+      "id": "FSK_06_01",
+      "label": "Jag frågar om jag får vara med.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child asking two children playing with blocks to join their game. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1489596693
+    }
+  ]
+}
