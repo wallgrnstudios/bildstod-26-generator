@@ -1,0 +1,42 @@
+[
+  {
+    "source_step_id": "FSK_05_01",
+    "sentence_sv": "Jag går till samlingen.",
+    "parts": [
+      {
+        "text": "Jag"
+      },
+      {
+        "text": "går",
+        "symbol_id": "FSK_90_02"
+      },
+      {
+        "text": "till"
+      },
+      {
+        "text": "samlingen",
+        "symbol_id": "FSK_90_03"
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_04_05",
+    "sentence_sv": "Jag ber om hjälp med dragkedjan.",
+    "parts": [
+      {
+        "text": "Jag"
+      },
+      {
+        "text": "ber om hjälp",
+        "note": "Text tills en bildkonvention är vald och granskad."
+      },
+      {
+        "text": "med"
+      },
+      {
+        "text": "dragkedjan",
+        "symbol_id": "FSK_90_01"
+      }
+    ]
+  }
+]

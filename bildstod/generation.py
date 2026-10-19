@@ -51,6 +51,8 @@ def load_briefs(path):
 
 def prompt_for(entry, config):
     # Short prompts, action first: long style preambles can truncate the actual action.
+    if entry.get('symbol_type'):
+        return ('Use the reference only for drawing style. Create one clear communication symbol for the meaning: ' + entry['text_sv'] + '. ' + entry['visual_prompt_en'] + ' ' + config['style_prompt'] + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
     if config.get('backend') == 'flux2-klein':
         return ('Use the reference image only as an illustration style guide. Create a completely new preschool action scene: '
                 + entry['visual_prompt_en'] + ' ' + config['style_prompt']
@@ -60,7 +62,7 @@ def prompt_for(entry, config):
 
 def identity(entry, config):
     parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256', 'negative_prompt', 'reference_conditioning')}
-    payload = {'entry': entry['visual_prompt_en'], 'entry_negative': entry.get('negative_prompt_en', ''), 'label': entry['text_sv'], 'config': parameters}
+    payload = {'semantic_contract': {key:entry.get(key) for key in ('symbol_type','meaning_sv','must_show_sv','must_not_show_sv')}, 'entry': entry['visual_prompt_en'], 'entry_negative': entry.get('negative_prompt_en', ''), 'label': entry['text_sv'], 'config': parameters}
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 
 
@@ -76,6 +78,8 @@ def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shar
     candidates = []
     ordered = sorted(entries, key=lambda x: (x.get('generation_priority', 2), x['id']))
     for entry in ordered:
+        if not entry.get('generation_enabled', True):
+            continue
         worker = 0 if entry['id'] == 'FSK_01_04' else int(hashlib.sha256(entry['id'].encode()).hexdigest()[:8], 16) % shard_count
         worker = config.get('worker_overrides', {}).get(entry['id'], worker)
         if worker != shard_index:
@@ -252,6 +256,8 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
                     'reference_conditioning': config.get('reference_conditioning', False),
                     'implementation': config.get('implementation', 'diffusers'),
                     'quantized_files': config.get('quantized_files'),
+                    'symbol_type':entry.get('symbol_type'), 'meaning_sv':entry.get('meaning_sv'),
+                    'must_show_sv':entry.get('must_show_sv',[]), 'must_not_show_sv':entry.get('must_not_show_sv',[]),
                     'width': config['width'], 'height': config['height'], 'steps': config['steps'],
                     'guidance_scale': config['guidance_scale'], 'cpu_dtype': config['cpu_dtype']}
         if checkpoint:
@@ -334,7 +340,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('command', choices=['plan', 'run'])
     parser.add_argument('--config', default='config/generation.json')
-    parser.add_argument('--catalog', default='catalog/pilot/concepts.json')
+    parser.add_argument('--catalog')
     parser.add_argument('--output', default='output/generation')
     parser.add_argument('--limit', type=int)
     parser.add_argument('--retry-failed', action='store_true')
@@ -345,7 +351,7 @@ def main():
     parser.add_argument('--allow-local-compute', action='store_true')
     args = parser.parse_args()
     config = load_config(args.config)
-    entries = load_briefs(args.catalog)
+    entries = load_briefs(args.catalog or config.get('catalog_path', 'catalog/pilot/concepts.json'))
     output = Path(args.output) / config['style_version']
     if args.command == 'run' and output.exists() and sum(p.stat().st_size for p in output.rglob('*') if p.is_file()) > 96 * 1024 * 1024:
         raise ValueError('Candidate archive exceeds 96 MiB. Download and archive it before continuing.')

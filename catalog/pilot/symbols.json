@@ -1,0 +1,199 @@
+[
+  {
+    "id": "FSK_90_01",
+    "text_sv": "dragkedja",
+    "symbol_type": "object",
+    "meaning_sv": "En dragkedja, inte en jacka eller en hjälpsituation.",
+    "visual_prompt_en": "Close-up of one large jacket zipper isolated by itself. Two clearly visible rows of metal teeth, zipper tape and one prominent pull tab attached to the slider. The lower half is zipped and upper half open. Zipper fills most of the image. No people, hands or full jacket.",
+    "must_show_sv": [
+      "Två synliga tandrader",
+      "Tydlig löpare med dragflik"
+    ],
+    "must_not_show_sv": [
+      "Hel jacka som döljer dragkedjan",
+      "Personer eller hjälpsituation"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 0
+  },
+  {
+    "id": "FSK_90_02",
+    "text_sv": "gå",
+    "symbol_type": "action",
+    "meaning_sv": "Att gå; ingen destination eller grupp ingår.",
+    "visual_prompt_en": "One preschool child in side view walking, full body visible. One foot planted and the other foot lifted forward in a clear natural walking stride, arms gently swinging. A single isolated child, no furniture or other people.",
+    "must_show_sv": [
+      "En ensam person med tydlig gångrörelse",
+      "Hela benen och fötterna syns"
+    ],
+    "must_not_show_sv": [
+      "Sittande personer",
+      "Samling eller annan destination"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 0
+  },
+  {
+    "id": "FSK_90_03",
+    "text_sv": "samling",
+    "symbol_type": "situation",
+    "meaning_sv": "En samling; bilden säger inte att någon går dit.",
+    "visual_prompt_en": "Four preschool children seated in a small open circle facing inward, calmly attending the same group activity. All four children are seated. Minimal isolated group without a room or additional props.",
+    "must_show_sv": [
+      "Barn sitter i ring med gemensamt fokus"
+    ],
+    "must_not_show_sv": [
+      "Påstående om att någon går dit"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 0
+  },
+  {
+    "id": "FSK_90_04",
+    "text_sv": "äta",
+    "symbol_type": "action",
+    "meaning_sv": "Att föra mat till munnen.",
+    "visual_prompt_en": "One preschool child shown from chest upwards bringing a spoon with food to their mouth. One simple bowl visible below the hand. Eating action is the central focus. No other people or dining room.",
+    "must_show_sv": [
+      "Mat eller sked vid munnen"
+    ],
+    "must_not_show_sv": [
+      "Enbart en dukad måltid utan ätande"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_90_05",
+    "text_sv": "skor",
+    "symbol_type": "object",
+    "meaning_sv": "Ett par skor.",
+    "visual_prompt_en": "One pair of simple modern preschool shoes, clearly visible together, isolated without feet or people.",
+    "must_show_sv": [
+      "Ett tydligt par skor"
+    ],
+    "must_not_show_sv": [
+      "Person som tar på eller av skorna"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_90_06",
+    "text_sv": "jacka",
+    "symbol_type": "object",
+    "meaning_sv": "En jacka.",
+    "visual_prompt_en": "One unoccupied terracotta preschool jacket, front view, isolated without people, hooks or other clothes.",
+    "must_show_sv": [
+      "En ensam jacka"
+    ],
+    "must_not_show_sv": [
+      "Person som klär på sig eller hänger upp plagget"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_90_07",
+    "text_sv": "sitta",
+    "symbol_type": "action",
+    "meaning_sv": "Att sitta.",
+    "visual_prompt_en": "One preschool child in side view sitting upright on a simple chair, hips resting on seat and both feet supported. Full body visible, isolated without other people or props.",
+    "must_show_sv": [
+      "Sätet vilar på stolen",
+      "Sittställningen syns tydligt"
+    ],
+    "must_not_show_sv": [
+      "Person på väg att sätta sig eller gå"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_90_08",
+    "text_sv": "lyssna",
+    "symbol_type": "action",
+    "meaning_sv": "Att lyssna; bildkonventionen behöver provas med användare.",
+    "visual_prompt_en": "One preschool child in three-quarter upper-body view gently cupping one hand behind an ear, attentive neutral expression. Ear and listening gesture are clearly visible. Isolated without other people or scenery.",
+    "must_show_sv": [
+      "Öra och lyssnande gest syns"
+    ],
+    "must_not_show_sv": [
+      "Pratande grupp som enda tecken på lyssnande"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_90_09",
+    "text_sv": "tvål",
+    "symbol_type": "object",
+    "meaning_sv": "Tvål i en pumpflaska, inte hela handtvättsmomentet.",
+    "visual_prompt_en": "One simple transparent soap dispenser bottle with pale sage liquid and a clearly visible pump nozzle. Isolated without hands, sink, writing or other objects.",
+    "must_show_sv": [
+      "Tydlig pumpflaska för tvål"
+    ],
+    "must_not_show_sv": [
+      "Händer, rinnande vatten eller en hel tvättsituation"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_90_10",
+    "text_sv": "händer",
+    "symbol_type": "object",
+    "meaning_sv": "Två händer.",
+    "visual_prompt_en": "Two small open hands next to each other, palms facing the viewer, five natural fingers on each hand, wrists cropped consistently. Isolated without soap, water or tools.",
+    "must_show_sv": [
+      "Två anatomiskt rimliga händer"
+    ],
+    "must_not_show_sv": [
+      "Tvål eller annan handling som ändrar betydelsen"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_90_11",
+    "text_sv": "paus",
+    "symbol_type": "abstract",
+    "meaning_sv": "Kräver en överenskommen och användartestad bildkonvention.",
+    "visual_prompt_en": "A single simple pause symbol, two vertical bars, isolated.",
+    "must_show_sv": [
+      "Vald bildkonvention ska vara begriplig för målgruppen"
+    ],
+    "must_not_show_sv": [
+      "Vila presenteras automatiskt som samma sak som paus"
+    ],
+    "review_status": "draft",
+    "generation_enabled": false,
+    "generation_priority": 2
+  },
+  {
+    "id": "FSK_90_12",
+    "text_sv": "hjälp",
+    "symbol_type": "abstract",
+    "meaning_sv": "Kräver en överenskommen och användartestad bildkonvention; ber om hjälp är inte samma sak som får hjälp.",
+    "visual_prompt_en": "A simple communication symbol for requesting help; convention must be selected before generation.",
+    "must_show_sv": [
+      "Överenskommen betydelse för hjälp"
+    ],
+    "must_not_show_sv": [
+      "Två personer tillsammans antas betyda att be om hjälp"
+    ],
+    "review_status": "draft",
+    "generation_enabled": false,
+    "generation_priority": 2
+  }
+]
