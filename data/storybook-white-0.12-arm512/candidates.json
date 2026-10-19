@@ -136,6 +136,40 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 81.662,
       "sha256": "57aa69acdd4aac2dbb1c042e5e538c24c0e3fc48cfdd76f28cc671ac2c2dbf53"
+    },
+    {
+      "concept_id": "FSK_06_02",
+      "label_sv": "Vi bygger med klossar.",
+      "fingerprint": "2c174d4812aa57c1fa3e933d07e66ea1f77a5ae3c2eafa4640a6bdf883bc6453",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: Two preschool children collaboratively building a tower with wooden blocks. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 528092489,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "storybook-white-0.12-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T07:13:04.362748+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.561,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.605,
+      "sha256": "743c2dff5d22cc96ba51151e0e9e7b8eb863a2b7ab784a6322aa144a116d5449"
     }
   ]
 }
