@@ -1,21 +1,256 @@
 [
   {
-    "source_step_id": "FSK_05_01",
-    "sentence_sv": "Jag går till samlingen.",
+    "source_step_id": "FSK_01_01",
+    "sentence_sv": "Jag säger hej.",
     "parts": [
       {
-        "text": "Jag"
+        "text": "Jag säger hej."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_01_02",
+    "sentence_sv": "Jag tar av mig skorna.",
+    "parts": [
+      {
+        "text": "Jag tar av mig "
       },
       {
-        "text": "går",
-        "symbol_id": "FSK_90_02"
+        "text": "skorna",
+        "symbol_id": "FSK_90_05"
       },
       {
-        "text": "till"
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_01_03",
+    "sentence_sv": "Jag tar av mig jackan.",
+    "parts": [
+      {
+        "text": "Jag tar av mig "
       },
       {
-        "text": "samlingen",
-        "symbol_id": "FSK_90_03"
+        "text": "jackan",
+        "symbol_id": "FSK_90_06"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_01_04",
+    "sentence_sv": "Jag hänger upp jackan.",
+    "parts": [
+      {
+        "text": "Jag hänger upp "
+      },
+      {
+        "text": "jackan",
+        "symbol_id": "FSK_90_06"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_01_05",
+    "sentence_sv": "Jag väljer en aktivitet.",
+    "parts": [
+      {
+        "text": "Jag väljer en aktivitet."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_02_01",
+    "sentence_sv": "Jag blöter händerna.",
+    "parts": [
+      {
+        "text": "Jag blöter "
+      },
+      {
+        "text": "händerna",
+        "symbol_id": "FSK_90_10"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_02_02",
+    "sentence_sv": "Jag tar tvål.",
+    "parts": [
+      {
+        "text": "Jag tar "
+      },
+      {
+        "text": "tvål",
+        "symbol_id": "FSK_90_09"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_02_03",
+    "sentence_sv": "Jag gnuggar händerna.",
+    "parts": [
+      {
+        "text": "Jag gnuggar "
+      },
+      {
+        "text": "händerna",
+        "symbol_id": "FSK_90_10"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_02_04",
+    "sentence_sv": "Jag sköljer händerna.",
+    "parts": [
+      {
+        "text": "Jag sköljer "
+      },
+      {
+        "text": "händerna",
+        "symbol_id": "FSK_90_10"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_02_05",
+    "sentence_sv": "Jag torkar händerna.",
+    "parts": [
+      {
+        "text": "Jag torkar "
+      },
+      {
+        "text": "händerna",
+        "symbol_id": "FSK_90_10"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_03_01",
+    "sentence_sv": "Jag tvättar händerna före maten.",
+    "parts": [
+      {
+        "text": "Jag tvättar "
+      },
+      {
+        "text": "händerna",
+        "symbol_id": "FSK_90_10"
+      },
+      {
+        "text": " före maten."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_03_02",
+    "sentence_sv": "Jag sätter mig vid bordet.",
+    "parts": [
+      {
+        "text": "Jag sätter mig vid bordet."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_03_03",
+    "sentence_sv": "Jag tar mat.",
+    "parts": [
+      {
+        "text": "Jag tar mat."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_03_04",
+    "sentence_sv": "Jag äter.",
+    "parts": [
+      {
+        "text": "Jag "
+      },
+      {
+        "text": "äter",
+        "symbol_id": "FSK_90_04"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_03_05",
+    "sentence_sv": "Jag ställer undan min tallrik.",
+    "parts": [
+      {
+        "text": "Jag ställer undan min tallrik."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_04_01",
+    "sentence_sv": "Jag tar på mig byxorna.",
+    "parts": [
+      {
+        "text": "Jag tar på mig byxorna."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_04_02",
+    "sentence_sv": "Jag tar på mig jackan.",
+    "parts": [
+      {
+        "text": "Jag tar på mig "
+      },
+      {
+        "text": "jackan",
+        "symbol_id": "FSK_90_06"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_04_03",
+    "sentence_sv": "Jag tar på mig mössan.",
+    "parts": [
+      {
+        "text": "Jag tar på mig mössan."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_04_04",
+    "sentence_sv": "Jag tar på mig skorna.",
+    "parts": [
+      {
+        "text": "Jag tar på mig "
+      },
+      {
+        "text": "skorna",
+        "symbol_id": "FSK_90_05"
+      },
+      {
+        "text": "."
       }
     ]
   },
@@ -24,18 +259,312 @@
     "sentence_sv": "Jag ber om hjälp med dragkedjan.",
     "parts": [
       {
-        "text": "Jag"
-      },
-      {
-        "text": "ber om hjälp",
-        "note": "Text tills en bildkonvention är vald och granskad."
-      },
-      {
-        "text": "med"
+        "text": "Jag ber om hjälp med "
       },
       {
         "text": "dragkedjan",
         "symbol_id": "FSK_90_01"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_05_01",
+    "sentence_sv": "Jag går till samlingen.",
+    "parts": [
+      {
+        "text": "Jag "
+      },
+      {
+        "text": "går",
+        "symbol_id": "FSK_90_02"
+      },
+      {
+        "text": " till "
+      },
+      {
+        "text": "samlingen",
+        "symbol_id": "FSK_90_03"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_05_02",
+    "sentence_sv": "Jag väljer en plats i ringen.",
+    "parts": [
+      {
+        "text": "Jag väljer en plats i ringen."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_05_03",
+    "sentence_sv": "Jag lyssnar när någon pratar.",
+    "parts": [
+      {
+        "text": "Jag "
+      },
+      {
+        "text": "lyssnar",
+        "symbol_id": "FSK_90_08"
+      },
+      {
+        "text": " när någon pratar."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_05_04",
+    "sentence_sv": "Jag berättar något.",
+    "parts": [
+      {
+        "text": "Jag berättar något."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_05_05",
+    "sentence_sv": "Vi sjunger tillsammans.",
+    "parts": [
+      {
+        "text": "Vi sjunger tillsammans."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_06_01",
+    "sentence_sv": "Jag frågar om jag får vara med.",
+    "parts": [
+      {
+        "text": "Jag frågar om jag får vara med."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_06_02",
+    "sentence_sv": "Vi bygger med klossar.",
+    "parts": [
+      {
+        "text": "Vi bygger med klossar."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_06_03",
+    "sentence_sv": "Jag frågar om jag får låna en kloss.",
+    "parts": [
+      {
+        "text": "Jag frågar om jag får låna en kloss."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_06_04",
+    "sentence_sv": "Jag väntar på min tur.",
+    "parts": [
+      {
+        "text": "Jag väntar på min tur."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_06_05",
+    "sentence_sv": "Jag ger klossen till ett annat barn.",
+    "parts": [
+      {
+        "text": "Jag ger klossen till ett annat barn."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_07_01",
+    "sentence_sv": "Jag väljer en bok.",
+    "parts": [
+      {
+        "text": "Jag väljer en bok."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_07_02",
+    "sentence_sv": "Jag sätter mig bredvid en vuxen.",
+    "parts": [
+      {
+        "text": "Jag sätter mig bredvid en vuxen."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_07_03",
+    "sentence_sv": "Vi tittar på bilderna.",
+    "parts": [
+      {
+        "text": "Vi tittar på bilderna."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_07_04",
+    "sentence_sv": "Jag pekar på en bild i boken.",
+    "parts": [
+      {
+        "text": "Jag pekar på en bild i boken."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_07_05",
+    "sentence_sv": "Jag lägger tillbaka boken.",
+    "parts": [
+      {
+        "text": "Jag lägger tillbaka boken."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_08_01",
+    "sentence_sv": "Jag tar på mig ett förkläde.",
+    "parts": [
+      {
+        "text": "Jag tar på mig ett förkläde."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_08_02",
+    "sentence_sv": "Jag hämtar papper och pensel.",
+    "parts": [
+      {
+        "text": "Jag hämtar papper och pensel."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_08_03",
+    "sentence_sv": "Jag målar på papperet.",
+    "parts": [
+      {
+        "text": "Jag målar på papperet."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_08_04",
+    "sentence_sv": "Jag sköljer penseln.",
+    "parts": [
+      {
+        "text": "Jag sköljer penseln."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_08_05",
+    "sentence_sv": "Jag lägger målningen på tork.",
+    "parts": [
+      {
+        "text": "Jag lägger målningen på tork."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_09_01",
+    "sentence_sv": "Jag visar att jag behöver en paus.",
+    "parts": [
+      {
+        "text": "Jag visar att jag behöver en paus."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_09_02",
+    "sentence_sv": "Jag går till en lugn plats.",
+    "parts": [
+      {
+        "text": "Jag "
+      },
+      {
+        "text": "går",
+        "symbol_id": "FSK_90_02"
+      },
+      {
+        "text": " till en lugn plats."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_09_03",
+    "sentence_sv": "Jag sätter mig på en kudde.",
+    "parts": [
+      {
+        "text": "Jag sätter mig på en kudde."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_09_04",
+    "sentence_sv": "Jag vilar en stund.",
+    "parts": [
+      {
+        "text": "Jag vilar en stund."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_09_05",
+    "sentence_sv": "Jag väljer vad jag vill göra efter pausen.",
+    "parts": [
+      {
+        "text": "Jag väljer vad jag vill göra efter pausen."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_10_01",
+    "sentence_sv": "En vuxen visar att det snart är dags att avsluta.",
+    "parts": [
+      {
+        "text": "En vuxen visar att det snart är dags att avsluta."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_10_02",
+    "sentence_sv": "Jag avslutar det jag håller på med.",
+    "parts": [
+      {
+        "text": "Jag avslutar det jag håller på med."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_10_03",
+    "sentence_sv": "Jag lägger klossarna i lådan.",
+    "parts": [
+      {
+        "text": "Jag lägger klossarna i lådan."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_10_04",
+    "sentence_sv": "Jag lägger boken på hyllan.",
+    "parts": [
+      {
+        "text": "Jag lägger boken på hyllan."
+      }
+    ]
+  },
+  {
+    "source_step_id": "FSK_10_05",
+    "sentence_sv": "Jag väljer nästa aktivitet.",
+    "parts": [
+      {
+        "text": "Jag väljer nästa aktivitet."
       }
     ]
   }
