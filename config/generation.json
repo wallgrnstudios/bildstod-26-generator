@@ -10,7 +10,7 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "background_model": "white",
-  "batch_limit": 25,
+  "batch_limit": 100,
   "max_batch_limit": 100,
   "seed_base": 260018,
   "quality_status": "reference-style-and-action-precheck-passed-candidates-require-review",

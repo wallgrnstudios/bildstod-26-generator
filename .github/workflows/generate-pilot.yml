@@ -10,7 +10,7 @@ on:
       limit:
         type: choice
         options: ['1', '10', '25', '50', '100']
-        default: '25'
+        default: '100'
         description: Maximum candidates per worker (time budget also applies)
       retry_failed:
         type: boolean
@@ -41,7 +41,7 @@ jobs:
       PYTHONUNBUFFERED: '1'
       BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
       MODE: ${{ inputs.mode || 'generate' }}
-      BATCH_LIMIT: ${{ inputs.limit || '25' }}
+      BATCH_LIMIT: ${{ inputs.limit || '100' }}
       RETRY_FAILED: ${{ inputs.retry_failed || 'false' }}
       SHARD: ${{ matrix.shard }}
       GH_TOKEN: ${{ github.token }}
