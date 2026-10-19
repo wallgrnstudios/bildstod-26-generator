@@ -1,0 +1,55 @@
+{
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_calibration_required": false,
+  "batch": [
+    {
+      "id": "FSK_02_01",
+      "label": "Jag blöter händerna.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child wetting both bare hands under a running tap above a white basin. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 282529518
+    },
+    {
+      "id": "FSK_01_02",
+      "label": "Jag tar av mig skorna.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child seated on a low bench removing one shoe. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1518489798
+    },
+    {
+      "id": "FSK_03_01",
+      "label": "Jag tvättar händerna före maten.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child washing hands at a basin before a meal, no food in the basin. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1319562102
+    },
+    {
+      "id": "FSK_03_02",
+      "label": "Jag sätter mig vid bordet.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child pulling a small chair up to a dining table and sitting down. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1992018102
+    },
+    {
+      "id": "FSK_05_02",
+      "label": "Jag väljer en plats i ringen.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child choosing an empty cushion in a small seated circle. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1211570582
+    },
+    {
+      "id": "FSK_06_03",
+      "label": "Jag frågar om jag får låna en kloss.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child gesturing toward another child holding a wooden block, asking to borrow it. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 125144766
+    },
+    {
+      "id": "FSK_09_01",
+      "label": "Jag visar att jag behöver en paus.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child showing a teacher a plain pause card with two simple vertical bars. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 797656638
+    },
+    {
+      "id": "FSK_09_03",
+      "label": "Jag sätter mig på en kudde.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child sitting down on a large floor cushion. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1221445102
+    }
+  ]
+}
