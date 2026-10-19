@@ -60,7 +60,7 @@ def load_briefs(path):
 def prompt_for(entry, config):
     # Short prompts, action first: long style preambles can truncate the actual action.
     if entry.get('symbol_type'):
-        return ('Use the reference only for drawing style. Create one clear communication symbol for the meaning: ' + entry['text_sv'] + '. ' + entry['visual_prompt_en'] + ' ' + config['style_prompt'] + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
+        return ('Use the reference only for drawing style. Create one isolated illustration: ' + entry['visual_prompt_en'] + ' ' + config['style_prompt'] + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
     if config.get('backend') == 'flux2-klein':
         return ('Use the reference image only as an illustration style guide. Create a completely new preschool action scene: '
                 + entry['visual_prompt_en'] + ' ' + config['style_prompt']
@@ -70,7 +70,7 @@ def prompt_for(entry, config):
 
 def identity(entry, config):
     parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256', 'negative_prompt', 'reference_conditioning')}
-    payload = {'semantic_contract': {key:entry.get(key) for key in ('symbol_type','meaning_sv','must_show_sv','must_not_show_sv')}, 'entry': entry['visual_prompt_en'], 'entry_negative': entry.get('negative_prompt_en', ''), 'label': entry['text_sv'], 'config': parameters}
+    payload = {'render_prompt':prompt_for(entry,config), 'semantic_contract': {key:entry.get(key) for key in ('symbol_type','meaning_sv','must_show_sv','must_not_show_sv')}, 'entry': entry['visual_prompt_en'], 'entry_negative': entry.get('negative_prompt_en', ''), 'label': entry['text_sv'], 'config': parameters}
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 
 

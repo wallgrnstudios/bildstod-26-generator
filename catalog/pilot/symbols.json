@@ -40,12 +40,14 @@
     "text_sv": "samling",
     "symbol_type": "situation",
     "meaning_sv": "En samling; bilden säger inte att någon går dit.",
-    "visual_prompt_en": "Four preschool children seated in a small open circle facing inward, calmly attending the same group activity. All four children are seated. Minimal isolated group without a room or additional props.",
+    "visual_prompt_en": "One adult preschool teacher and three preschool children seated facing each other in an open circle. Their common attention is directed into the circle. All four people are seated on the floor. Isolated figures without scenery, signs, books or writing.",
     "must_show_sv": [
-      "Barn sitter i ring med gemensamt fokus"
+      "Sittande grupp i ring med gemensamt fokus",
+      "En pedagog deltar så att motivet kan skiljas från enbart kompisar"
     ],
     "must_not_show_sv": [
-      "Påstående om att någon går dit"
+      "Påstående om att någon går dit",
+      "Ord, bokstäver eller bildtext inne i illustrationen"
     ],
     "review_status": "draft",
     "generation_enabled": true,
