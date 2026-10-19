@@ -378,6 +378,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 79.058,
       "sha256": "4203aab64c1a41cb880dd332f48ced51a9dee8bcbd903d042a368bee6d969bb3"
+    },
+    {
+      "concept_id": "FSK_91_38",
+      "label_sv": "hårborste",
+      "fingerprint": "5e9384935dbcb8cc797537d5cd445038ca4eec754cafab2b9a7026f7d2fe4751",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One oval hairbrush with many bristles and a short handle. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1606876551,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:11:55.507271+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Hårborste som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Brett ovalt borsthuvud"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.348,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.378,
+      "sha256": "914b980f1ac4ff8f2bbb58938d1fa1d0b8a0f70c55ef0626f4a0944c17455669"
     }
   ]
 }
