@@ -42,6 +42,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 85.176,
       "sha256": "c5f2b880c4b5751b8e41f4cecb9baefcbc797e5593a8f9cbc96ccb745474f524"
+    },
+    {
+      "concept_id": "FSK_91_35",
+      "label_sv": "handfat",
+      "fingerprint": "643b7ff88b314d026417ac580ba11e729642b7479321f1bfc4448eb11de8abdb",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One wall-mounted white sink with faucet and drain, no toilet or hands. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1289007313,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:01:00.832644+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Handfat som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Handfat med kran och avlopp"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 84.153,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 84.208,
+      "sha256": "4bd76e3d9e8e69bcdfdf1d2efd1a5a77f4193d4f6a9198ecd40a92fde8806c7f"
     }
   ]
 }
