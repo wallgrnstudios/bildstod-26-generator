@@ -294,6 +294,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 78.846,
       "sha256": "3b3b0273b91a857f608c999912412f74e08921c8e41e36213ed1e241730e0f6c"
+    },
+    {
+      "concept_id": "FSK_91_29",
+      "label_sv": "bord",
+      "fingerprint": "983b15eeec88ff76d312148a52bd4e6b86c02e2d125a88aabb274e624b0e3dd1",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simple low preschool wooden table, tabletop and four legs all visible, empty. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 209080335,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:09:13.707293+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Bord som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Bordsskiva och fyra ben"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.632,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.658,
+      "sha256": "0803df5818992709dfaf8ddf67fa3f18d17760098b55a2f980361bff5eac1f1e"
     }
   ]
 }
