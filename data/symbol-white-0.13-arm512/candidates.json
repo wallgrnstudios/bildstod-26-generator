@@ -44,6 +44,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 78.498,
       "sha256": "d292a17dabcef61fd0e8d74befd9040a425cd17253be47bcfc718675d17460d9"
+    },
+    {
+      "concept_id": "FSK_91_05",
+      "label_sv": "tröja",
+      "fingerprint": "fbb1f4da06b6341f936e6feae30d57610661e408acfc505e3cf2f20a9c8178c8",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simple long-sleeved pullover sweater with a round neck, no front opening or collar. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1508029788,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:01:00.654578+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Tröja som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Långa ärmar och rund hals utan öppning framtill"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.678,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.726,
+      "sha256": "d99d9021f1076d13567940443995f49de70cca382ebbac256be16bb1596c48ac"
     }
   ]
 }
