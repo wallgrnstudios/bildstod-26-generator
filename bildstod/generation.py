@@ -27,8 +27,8 @@ def load_config(path):
     is_flux = config.get('backend') == 'flux2-klein'
     if not is_flux and (config['weight_variant'] != 'fp16' or config['cpu_dtype'] != 'float32'):
         raise ValueError('Only compact safetensor weights and CPU float32 are configured')
-    if config['background_model'] not in ('u2netp', 'isnet-general-use', 'white-connected') or config['width'] != 1024 or config['height'] != 1024:
-        raise ValueError('Pilot requires 1024 px and a configured foreground model')
+    if config['background_model'] not in ('u2netp', 'isnet-general-use', 'white-connected', 'white') or config['width'] not in (512,1024) or config['height'] != config['width']:
+        raise ValueError('Pilot requires a supported square size and background mode')
     if not 1 <= config['steps'] <= 4 or not 1 <= config['batch_limit'] <= config['max_batch_limit'] <= 100:
         raise ValueError('Invalid batch or step limit')
     reference = ROOT / config['reference_asset']
@@ -169,6 +169,8 @@ class BackgroundRemover:
         self.session = None
 
     def __call__(self, image, config):
+        if config['background_model'] == 'white':
+            return image.convert('RGBA')
         if config['background_model'] == 'white-connected':
             # Only near-white pixels connected to the image border are background.
             # Keep pale skin, white clothing and highlights enclosed by drawn outlines.
@@ -255,7 +257,7 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
             removal_started = time.monotonic()
             cutout = remove(image, config)
             removal_seconds = time.monotonic() - removal_started
-            metrics = verify_transparency(cutout)
+            metrics = {'background': 'white'} if config['background_model'] == 'white' else verify_transparency(cutout)
             if cutout.size != image.size:
                 raise ValueError('Background removal changed image size')
             metadata.update(status='pending_review', transparency=metrics, render_seconds=round(render_seconds, 3), background_seconds=round(removal_seconds, 3), elapsed_seconds=round(time.monotonic() - item_started, 3))

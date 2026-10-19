@@ -13,6 +13,7 @@ from bildstod.catalog import load
 class GenerationTests(unittest.TestCase):
     def setUp(self):
         self.config = load_config(ROOT / 'config/generation.json')
+        self.config.update(width=1024,height=1024,background_model='isnet-general-use')
         self.config['calibration_ids'] = ['FSK_01_04']
         self.config['backend'] = 'sdxl'
         self.config['worker_overrides'] = {}

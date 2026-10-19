@@ -51,7 +51,8 @@ class FluxRenderer:
             rgba = source.convert('RGBA')
             canvas = Image.new('RGBA',rgba.size,'white')
             canvas.alpha_composite(rgba)
-            self.reference = canvas.convert('RGB').resize((512,512),Image.Resampling.LANCZOS)
+            reference_size = config.get('reference_size',512)
+            self.reference = canvas.convert('RGB').resize((reference_size,reference_size),Image.Resampling.LANCZOS)
 
     def __call__(self, entry, config, seed):
         with self.torch.inference_mode():

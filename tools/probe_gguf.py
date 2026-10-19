@@ -38,7 +38,7 @@ def download(target, url, expected):
 def main():
     check_compute_permission(False)
     config = load_config(ROOT/'config/generation.json')
-    config.update(style_version='storybook-transparent-0.9-gguf', calibration_ids=['FSK_03_04'],
+    config.update(style_version='storybook-white-0.11-gguf512', calibration_ids=['FSK_03_04'],
         worker_overrides={}, cpu_dtype='q4_0', implementation='stable-diffusion.cpp-95b3090',
         quantized_files={key: value[1] for key,value in FILES.items()})
     output = ROOT/'.state/data'/config['style_version']
@@ -62,17 +62,17 @@ def main():
         env['LD_LIBRARY_PATH'] = ':'.join(sorted({str(x.parent) for x in cache.rglob('*.so*')}))
         with Image.open(ROOT/config['reference_asset']) as source:
             rgba=source.convert('RGBA'); canvas=Image.new('RGBA',rgba.size,'white');canvas.alpha_composite(rgba)
-            canvas.convert('RGB').resize((512,512),Image.Resampling.LANCZOS).save(cache/'reference.png')
+            canvas.convert('RGB').resize((256,256),Image.Resampling.LANCZOS).save(cache/'reference.png')
         def render(entry, cfg, seed):
             from bildstod.generation import prompt_for
             command=[str(binary),'--diffusion-model',str(cache/'diffusion.gguf'),
                 '--llm',str(cache/'text.gguf'),'--vae',str(cache/'vae.safetensors'),
                 '-r',str(cache/'reference.png'),'-p',prompt_for(entry,cfg),
-                '-o',str(cache/'candidate.png'),'-W','1024','-H','1024','--steps','4',
+                '-o',str(cache/'candidate.png'),'-W',str(cfg['width']),'-H',str(cfg['height']),'--steps','4',
                 '--cfg-scale','1','--sampling-method','euler','--rng','cpu','--seed',str(seed),
                 '--threads','4','--flash-attn','off,diffusion=on','--offload-to-cpu']
             with (output/'engine.log').open('w') as log:
-                subprocess.run(command,env=env,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=3600)
+                subprocess.run(command,env=env,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=1200)
             with Image.open(cache/'candidate.png') as image:
                 return image.convert('RGB')
         try:
