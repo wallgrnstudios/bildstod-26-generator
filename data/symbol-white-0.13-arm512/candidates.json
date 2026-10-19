@@ -128,6 +128,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 79.981,
       "sha256": "33526f89af3d0236227275a9d4b2672d453901cd322a982ec92ef8dde537a73e"
+    },
+    {
+      "concept_id": "FSK_91_27",
+      "label_sv": "mjölk",
+      "fingerprint": "d535aa74f8e874bd612d10e510c78c78ba5f9821d956347627ba2cddaf18e6fe",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clear drinking glass filled with opaque white milk, no carton or writing. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1174957613,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:02:15.617841+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Mjölk som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Glas fyllt med vit mjölk"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.705,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.739,
+      "sha256": "b436e74d7e81e6985316cb592f010d1521267c04f4d2a072fbee092118969b6e"
     }
   ]
 }
