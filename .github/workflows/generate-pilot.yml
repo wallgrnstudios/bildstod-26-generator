@@ -31,13 +31,14 @@ jobs:
       max-parallel: 8
       matrix:
         shard: [0, 1, 2, 3, 4, 5, 6, 7]
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-24.04-arm
     timeout-minutes: 150
     env:
       HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
       HF_HUB_DISABLE_TELEMETRY: '1'
       HF_HUB_DISABLE_XET: '1'
       OMP_NUM_THREADS: '4'
+      PYTHONUNBUFFERED: '1'
       BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
       MODE: ${{ inputs.mode || 'generate' }}
       BATCH_LIMIT: ${{ inputs.limit || '25' }}

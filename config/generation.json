@@ -1,5 +1,5 @@
 {
-  "style_version": "storybook-white-0.10-512",
+  "style_version": "storybook-white-0.12-arm512",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
@@ -13,8 +13,8 @@
   "batch_limit": 25,
   "max_batch_limit": 100,
   "seed_base": 260018,
-  "quality_status": "512-native-reference-style-calibration",
-  "calibration_approved": false,
+  "quality_status": "reference-style-and-action-precheck-passed-candidates-require-review",
+  "calibration_approved": true,
   "weight_variant": null,
   "cpu_dtype": "bfloat16",
   "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
@@ -25,9 +25,10 @@
   ],
   "backend": "flux2-klein",
   "worker_overrides": {
-    "FSK_03_04": 0
+    "FSK_03_04": 6
   },
   "worker_branch_prefix": "generated-flux-worker",
   "reference_conditioning": true,
-  "reference_size": 256
+  "reference_size": 256,
+  "implementation": "diffusers-arm64"
 }
