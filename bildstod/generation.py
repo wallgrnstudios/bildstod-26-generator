@@ -45,6 +45,14 @@ def load_briefs(path):
             raise ValueError('Invalid or duplicate concept ID')
         if not isinstance(entry.get('visual_prompt_en'), str) or not entry['visual_prompt_en'].strip():
             raise ValueError(f"Missing scene brief: {entry['id']}")
+        if entry.get('symbol_type'):
+            label = entry['text_sv'].strip()
+            if len(label.split()) > 3 or any(mark in label for mark in '.!?'):
+                raise ValueError('A symbol label must be a short concept, not a sentence')
+            if not entry.get('meaning_sv') or not entry.get('must_show_sv'):
+                raise ValueError('A symbol requires an explicit meaning and visual acceptance criteria')
+            if entry['symbol_type'] == 'abstract' and entry.get('generation_enabled', True):
+                raise ValueError('Abstract symbols require a reviewed convention before generation')
         seen.add(entry['id'])
     return entries
 
