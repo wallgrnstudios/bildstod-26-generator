@@ -1,0 +1,63 @@
+name: Benchmark standard ARM CPU
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bildstod-worker-6
+  cancel-in-progress: false
+jobs:
+  benchmark:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 35
+    env:
+      GH_TOKEN: ${{ github.token }}
+      BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
+      HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      HF_HUB_DISABLE_XET: '1'
+      OMP_NUM_THREADS: '4'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Restore isolated benchmark branch
+        run: |
+          gh auth setup-git
+          git init .state
+          git -C .state config user.name 'Bildstöd generator'
+          git -C .state config user.email 'bildstod-generator@users.noreply.github.com'
+          git -C .state remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          if git -C .state ls-remote --exit-code --heads origin generated-flux-worker-6; then
+            git -C .state fetch --depth=1 origin generated-flux-worker-6
+            git -C .state checkout -B generated-flux-worker-6 FETCH_HEAD
+          else
+            git -C .state checkout --orphan generated-flux-worker-6
+          fi
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install --no-cache-dir torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --no-cache-dir -r requirements-generation.txt
+      - name: Measure native 512 image on ARM
+        run: |
+          lscpu
+          python - <<'PY'
+          from pathlib import Path
+          from bildstod.generation import load_config, load_briefs, plan, run_batch, review_sheet, checkpoint_git, check_compute_permission
+          check_compute_permission(False)
+          config=load_config('config/generation.json')
+          config.update(style_version='storybook-white-0.12-arm512', implementation='diffusers-arm64')
+          output=Path('.state/data')/config['style_version']
+          entries=load_briefs('catalog/pilot/concepts.json')
+          batch=plan(entries,config,output,1)
+          try:
+              run_batch(entries,config,output,batch,max_seconds=1500,checkpoint=lambda p:checkpoint_git(p,'generated-flux-worker-6'))
+          finally:
+              review_sheet(output)
+              checkpoint_git(output,'generated-flux-worker-6')
+          PY
