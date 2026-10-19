@@ -1,0 +1,25 @@
+{
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_calibration_required": false,
+  "batch": [
+    {
+      "id": "FSK_01_04",
+      "label": "Jag hänger upp jackan.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: An orange coat hanging on a low hook. Beside the coat, a child in a green T-shirt touches its hanging loop. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1734154919
+    },
+    {
+      "id": "FSK_08_05",
+      "label": "Jag lägger målningen på tork.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child laying a painting flat on a low drying rack. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1058695362
+    },
+    {
+      "id": "FSK_10_03",
+      "label": "Jag lägger klossarna i lådan.",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child placing wooden blocks into a storage box. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 1917512786
+    }
+  ]
+}
