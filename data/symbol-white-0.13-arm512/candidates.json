@@ -126,6 +126,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 80.359,
       "sha256": "5f8111ddedb23c617a41af5ed7641e956ec3f3b9c84d3b0631aca1978445b832"
+    },
+    {
+      "concept_id": "FSK_91_18",
+      "label_sv": "mugg",
+      "fingerprint": "c96fbfdfde70fe56edfc06786fc1d0d38d8696bb81f1ec17ca3d1dfa28e08848",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simple empty ceramic mug with one large side handle. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 220943016,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:03:23.851936+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Mugg som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "En tydlig sidohank"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.957,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.987,
+      "sha256": "aaf0c8bce3c796176ec7b584f90768c967d141ee176ffee9e4c9ed8c8c18ea82"
     }
   ]
 }
