@@ -126,6 +126,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 80.129,
       "sha256": "310179125cfb2dab5867ac3fddc78b093601b588faa334ca4e75a3b7cf8e437b"
+    },
+    {
+      "concept_id": "FSK_91_39",
+      "label_sv": "näsduk",
+      "fingerprint": "9df1743abf08201bd10e5bf5c0dab782ed1d57b5ec079c5b793638a17bdfd50a",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One soft white paper tissue partly pulled from a simple tissue box without writing. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1108036086,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:02:32.288698+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Näsduk som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Pappersnäsduk som sticker upp ur ask"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.751,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.777,
+      "sha256": "302281c7695634694bb0e9bdca4040eba6ae42cace1ed97e75b27d69c0bdaeb7"
     }
   ]
 }
