@@ -83,7 +83,7 @@ class GenerationTests(unittest.TestCase):
                 renderer.assert_called_once()
                 remover.assert_called_once()
                 self.assertEqual(renderer.return_value.call_count, 2)
-                self.assertEqual(len(checkpoints), 2)
+                self.assertEqual(len(checkpoints), 5)
                 renderer.return_value.close.assert_called_once()
                 self.assertEqual(json.loads((output/'metrics.json').read_text())['completed_this_run'], 2)
         all_ids = [item['id'] for index in range(8) for item in plan(self.entries, config, Path('/tmp/unused-bildstod-test-shards'), 100, shard_index=index, shard_count=8)]

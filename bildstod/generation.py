@@ -219,6 +219,13 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
     started = time.monotonic()
     owned_render = render is None
     owned_remove = remove is None
+    if owned_render and checkpoint:
+        first = by_id[batch[0]['id']]
+        atomic_json(output/(first['id']+'.json'), {'concept_id':first['id'],
+            'fingerprint':identity(first,config),'status':'failed',
+            'error_type':'InterruptedInitialization'})
+        review_sheet(output)
+        checkpoint(output)
     if render is None:
         if config.get('backend') == 'flux2-klein':
             from .flux_renderer import FluxRenderer
@@ -247,6 +254,11 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
                     'quantized_files': config.get('quantized_files'),
                     'width': config['width'], 'height': config['height'], 'steps': config['steps'],
                     'guidance_scale': config['guidance_scale'], 'cpu_dtype': config['cpu_dtype']}
+        if checkpoint:
+            atomic_json(target.with_suffix('.json'), {**metadata,'status':'failed',
+                'error_type':'InterruptedGeneration'})
+            review_sheet(output)
+            checkpoint(output)
         try:
             image = render(entry, config, item['seed'])
             render_seconds = time.monotonic() - item_started
