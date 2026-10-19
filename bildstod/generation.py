@@ -47,7 +47,7 @@ def load_briefs(path):
             raise ValueError(f"Missing scene brief: {entry['id']}")
         if entry.get('symbol_type'):
             label = entry['text_sv'].strip()
-            if len(label.split()) > 3 or any(mark in label for mark in '.!?'):
+            if len(label.split()) > 3 or any(mark in label for mark in '.!?') or (len(label.split()) > 1 and label.split()[0].casefold() in ('jag','vi')):
                 raise ValueError('A symbol label must be a short concept, not a sentence')
             if not entry.get('meaning_sv') or not entry.get('must_show_sv'):
                 raise ValueError('A symbol requires an explicit meaning and visual acceptance criteria')
