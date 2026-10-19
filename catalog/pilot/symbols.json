@@ -15,7 +15,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 0
+    "generation_priority": 0,
+    "contrast_terms_sv": [
+      "jacka",
+      "knapp"
+    ]
   },
   {
     "id": "FSK_90_02",
@@ -33,7 +37,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 0
+    "generation_priority": 0,
+    "contrast_terms_sv": [
+      "stå",
+      "springa"
+    ]
   },
   {
     "id": "FSK_90_03",
@@ -51,7 +59,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 0
+    "generation_priority": 0,
+    "contrast_terms_sv": [
+      "kompisar",
+      "grupp"
+    ]
   },
   {
     "id": "FSK_90_04",
@@ -67,7 +79,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "contrast_terms_sv": [
+      "mat",
+      "mata"
+    ]
   },
   {
     "id": "FSK_90_05",
@@ -85,7 +101,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "contrast_terms_sv": [
+      "tofflor",
+      "stövlar"
+    ]
   },
   {
     "id": "FSK_90_06",
@@ -101,7 +121,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "contrast_terms_sv": [
+      "tröja",
+      "skjorta"
+    ]
   },
   {
     "id": "FSK_90_07",
@@ -118,7 +142,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "contrast_terms_sv": [
+      "sätta sig",
+      "stå"
+    ]
   },
   {
     "id": "FSK_90_08",
@@ -134,7 +162,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "contrast_terms_sv": [
+      "höra",
+      "prata"
+    ]
   },
   {
     "id": "FSK_90_09",
@@ -150,7 +182,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "contrast_terms_sv": [
+      "handsprit",
+      "schampo"
+    ]
   },
   {
     "id": "FSK_90_10",
@@ -166,7 +202,11 @@
     ],
     "review_status": "draft",
     "generation_enabled": true,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "contrast_terms_sv": [
+      "tvätta händer",
+      "handskar"
+    ]
   },
   {
     "id": "FSK_90_11",
@@ -183,7 +223,11 @@
     "review_status": "draft",
     "generation_enabled": false,
     "generation_priority": 2,
-    "convention_status": "pending"
+    "convention_status": "pending",
+    "contrast_terms_sv": [
+      "vila",
+      "sluta"
+    ]
   },
   {
     "id": "FSK_90_12",
@@ -200,6 +244,10 @@
     "review_status": "draft",
     "generation_enabled": false,
     "generation_priority": 2,
-    "convention_status": "pending"
+    "convention_status": "pending",
+    "contrast_terms_sv": [
+      "be om hjälp",
+      "få hjälp"
+    ]
   }
 ]
