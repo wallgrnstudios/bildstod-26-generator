@@ -51,7 +51,7 @@ def load_briefs(path):
                 raise ValueError('A symbol label must be a short concept, not a sentence')
             if not entry.get('meaning_sv') or not entry.get('must_show_sv'):
                 raise ValueError('A symbol requires an explicit meaning and visual acceptance criteria')
-            if entry['symbol_type'] == 'abstract' and entry.get('generation_enabled', True):
+            if entry['symbol_type'] == 'abstract' and entry.get('generation_enabled', True) and entry.get('convention_status') != 'approved':
                 raise ValueError('Abstract symbols require a reviewed convention before generation')
         seen.add(entry['id'])
     return entries

@@ -178,7 +178,8 @@
     ],
     "review_status": "draft",
     "generation_enabled": false,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "convention_status": "pending"
   },
   {
     "id": "FSK_90_12",
@@ -194,6 +195,7 @@
     ],
     "review_status": "draft",
     "generation_enabled": false,
-    "generation_priority": 2
+    "generation_priority": 2,
+    "convention_status": "pending"
   }
 ]
