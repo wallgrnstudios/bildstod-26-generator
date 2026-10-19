@@ -21,10 +21,7 @@
   "negative_prompt": "photo, room, wooden wall, wood paneling, scenery, dark background, vignette, text, watermark, cropped, malformed hands",
   "worker_count": 8,
   "calibration_ids": [
-    "FSK_90_05",
-    "FSK_90_06",
-    "FSK_90_09",
-    "FSK_90_10"
+    "FSK_90_05"
   ],
   "backend": "flux2-klein",
   "worker_overrides": {

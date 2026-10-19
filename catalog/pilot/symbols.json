@@ -74,11 +74,13 @@
     "text_sv": "skor",
     "symbol_type": "object",
     "meaning_sv": "Ett par skor.",
-    "visual_prompt_en": "One pair of simple modern preschool shoes, clearly visible together, isolated without feet or people.",
+    "visual_prompt_en": "A matching pair of small modern children sneakers, three-quarter side view. Each shoe has a closed heel, rounded toe, a distinct white rubber sole and two wide hook-and-loop straps across the top. Fabric uppers in muted blue. Shoes only, no feet, people, clogs, slippers or sandals.",
     "must_show_sv": [
-      "Ett tydligt par skor"
+      "Ett tydligt par moderna barnskor",
+      "Stängd häl, tydlig yttersula och kardborreband"
     ],
     "must_not_show_sv": [
+      "Tofflor eller träskor",
       "Person som tar på eller av skorna"
     ],
     "review_status": "draft",
