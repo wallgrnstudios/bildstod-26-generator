@@ -340,6 +340,48 @@
       "sha256": "1890498284fe44091b4d23c399d81dc951123f3bfd4feb3942a74badaac1ca06"
     },
     {
+      "concept_id": "FSK_91_68",
+      "label_sv": "katt",
+      "fingerprint": "94b89d0dfea5acd67856cd28ff71cc801ea106ea30e7fcb83f565d4ea99b6c48",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One sitting domestic cat, triangular ears, whiskers and long curved tail. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1439675644,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:13:28.786300+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Katt som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Katt med spetsiga öron och morrhår"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.429,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.455,
+      "sha256": "7f53c46b10cbf432c53b603726f574e8d822b96eb100d6689487536a77096cd9"
+    },
+    {
       "concept_id": "FSK_92_05",
       "label_sv": "klippa",
       "fingerprint": "a967815df26c30f3b65dd0b0b2637a18fa5e525c7d0cf218e32161edc3eabb8a",
