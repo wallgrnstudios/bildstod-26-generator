@@ -1,13 +1,67 @@
 {
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-  "style_calibration_required": true,
+  "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_90_03",
-      "label": "samling",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One adult preschool teacher and three preschool children seated facing each other in an open circle. Their common attention is directed into the circle. All four people are seated on the floor. Isolated figures without scenery, signs, books or writing. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1560524278
+      "id": "FSK_91_05",
+      "label": "tröja",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simple long-sleeved pullover sweater with a round neck, no front opening or collar. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1508029788
+    },
+    {
+      "id": "FSK_91_06",
+      "label": "strumpor",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A matching pair of short soft socks, clearly shaped heels and toes, no soles. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1273132620
+    },
+    {
+      "id": "FSK_91_08",
+      "label": "ryggsäck",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small preschool backpack with two shoulder straps, top handle and front pocket. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 358814884
+    },
+    {
+      "id": "FSK_91_10",
+      "label": "halsduk",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One soft knitted scarf with two fringed ends, loosely curved. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 16402636
+    },
+    {
+      "id": "FSK_91_26",
+      "label": "smörgås",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One open-faced slice of bread topped with a slice of cheese, viewed from above at an angle. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 483571828
+    },
+    {
+      "id": "FSK_91_28",
+      "label": "vatten",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One transparent drinking glass filled with clear water, visible waterline. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1472450340
+    },
+    {
+      "id": "FSK_92_05",
+      "label": "klippa",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up of one hand using child-safe scissors to cut a sheet of paper, visible cut edge. Isolated without other people or scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 206662996
+    },
+    {
+      "id": "FSK_92_06",
+      "label": "sova",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child lying on their side, head on a pillow, eyes closed, hands relaxed, light blanket. Isolated without other people or scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1088932660
+    },
+    {
+      "id": "FSK_90_08",
+      "label": "lyssna",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in three-quarter upper-body view gently cupping one hand behind an ear, attentive neutral expression. Ear and listening gesture are clearly visible. Isolated without other people or scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1594788900
+    },
+    {
+      "id": "FSK_91_68",
+      "label": "katt",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One sitting domestic cat, triangular ears, whiskers and long curved tail. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1439675644
     }
   ]
 }
