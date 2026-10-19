@@ -68,6 +68,40 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 79.07,
       "sha256": "bce9b4d70d507cf1a0242f418c77d6db3e5d9b62350283ff616f2b49a1705fe9"
+    },
+    {
+      "concept_id": "FSK_05_03",
+      "label_sv": "Jag lyssnar när någon pratar.",
+      "fingerprint": "447f7bf495437b84f1b38963ac71d6f519b24946022d53ee7211c5d69ffeaf8a",
+      "prompt": "Use the reference image only as an illustration style guide. Create a completely new preschool action scene: A preschool child looking attentively at another child who is speaking. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.",
+      "seed": 142739236,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "storybook-white-0.12-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T07:08:51.108996+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.633,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.657,
+      "sha256": "293ed310f5e6ffb603f94658335b64462d4196522c5b713eda0f042eb09484cb"
     }
   ]
 }
