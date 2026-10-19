@@ -86,6 +86,48 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 78.566,
       "sha256": "dcfc5682a865e93a00a9b101361c3ed6ba48e5858b734123696338050659e5cb"
+    },
+    {
+      "concept_id": "FSK_91_17",
+      "label_sv": "glas",
+      "fingerprint": "5d15dc513228e071959b306edabc55a2c59245c448126d5d7573904fc2a7aac8",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One empty transparent drinking glass, upright, open rim and flat base, no stem. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1854906130,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-19T19:02:54.036263+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Glas som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Öppet genomskinligt dricksglas utan handtag"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.159,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.192,
+      "sha256": "d2cb5ff59980e33da5f232d80bcd756f61f5fada198c8de7ce6b5a9954528b22"
     }
   ]
 }
