@@ -4,40 +4,70 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_91_13",
-      "label": "skål",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One empty deep ceramic bowl in three-quarter view, depth clearly visible. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1859150313
+      "id": "FSK_16_18",
+      "label": "potatis",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two unpeeled potatoes, irregular oval shapes, thin earthy skin with small eyes. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1595883969
     },
     {
-      "id": "FSK_91_35",
-      "label": "handfat",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One wall-mounted white sink with faucet and drain, no toilet or hands. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1289007313
+      "id": "FSK_17_83",
+      "label": "soppa",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One soup bowl containing warm vegetable soup with a spoon resting at its edge, a little steam visible. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2107941377
     },
     {
-      "id": "FSK_91_41",
-      "label": "penna",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One wooden colored pencil with sharpened tip and visible colored core. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 341650049
+      "id": "FSK_17_87",
+      "label": "t-shirt",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One unoccupied plain cotton T-shirt, short sleeves and round neckline, no text or design. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 570901705
     },
     {
-      "id": "FSK_91_47",
-      "label": "pussel",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small jigsaw puzzle of a simple tree, one clearly matching loose interlocking piece next to its gap. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1016525537
+      "id": "FSK_21_05",
+      "label": "mapp",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One open thin cardboard document folder with two flat covers and a single sheet tucked inside, no rings. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1165120881
     },
     {
-      "id": "FSK_91_52",
-      "label": "leksaksbil",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small toy car with four wheels and visible simple windows, three-quarter view. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 2014050457
+      "id": "FSK_24_35",
+      "label": "potta",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small child toilet potty with low seat, central opening and removable inner bowl. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1255926865
     },
     {
-      "id": "FSK_91_61",
-      "label": "löv",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One green broad leaf with stem and clearly visible branching veins. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1910309601
+      "id": "FSK_25_14",
+      "label": "spelpjäs",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two small wooden board-game pawns with rounded heads and flat circular bases. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 444742241
+    },
+    {
+      "id": "FSK_28_59",
+      "label": "gran",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One spruce tree with a conical crown of short green needles and downward hanging cones. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 903046657
+    },
+    {
+      "id": "FSK_28_78",
+      "label": "björk",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One birch tree with distinctive white bark, dark bark markings and small green leaves. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 694877353
+    },
+    {
+      "id": "FSK_29_06",
+      "label": "spindel",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One naturalistic small spider viewed from above, eight legs and two main body segments, no web. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1982362409
+    },
+    {
+      "id": "FSK_31_14",
+      "label": "matta",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small rectangular woven floor rug with short fringes on two ends, shown flat. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 482942545
+    },
+    {
+      "id": "FSK_32_34",
+      "label": "myra",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ant in side three-quarter view, six legs, narrow waist and two bent antennae. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1913477241
     }
   ]
 }
