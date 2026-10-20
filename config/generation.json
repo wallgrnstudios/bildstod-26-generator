@@ -42,5 +42,6 @@
   "implementation": "diffusers-arm64",
   "catalog_path": "catalog/pilot/symbols.json",
   "semantic_mode": "atomic-symbol",
-  "production_paused": false
+  "production_paused": false,
+  "vocabulary_path": "catalog/school/vocabulary-2000.json"
 }

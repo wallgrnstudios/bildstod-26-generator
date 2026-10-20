@@ -127,3 +127,19 @@ class GenerationTests(unittest.TestCase):
         batch=plan(symbols,config,Path('/tmp/bildstod-unused-symbol-plan'),100)
         self.assertNotIn('FSK_90_12',[x['id'] for x in batch])
         self.assertIn('zipper',prompt_for(by_id['FSK_90_01'],config))
+
+    def test_school_vocabulary_has_unique_stable_references_and_honest_queue(self):
+        vocabulary=json.loads((ROOT/'catalog/school/vocabulary-2000.json').read_text())
+        symbols=load_briefs(ROOT/'catalog/pilot/symbols.json')
+        by_id={x['id']:x for x in symbols}
+        self.assertEqual(len(vocabulary),2000)
+        self.assertEqual(len({x['id'] for x in vocabulary}),2000)
+        self.assertEqual(len({x['text_sv'].casefold() for x in vocabulary}),2000)
+        for row in vocabulary:
+            self.assertEqual(row['generation_enabled'],row['brief_status']=='generation_ready')
+            if row['symbol_id']:
+                self.assertEqual(by_id[row['symbol_id']]['text_sv'],row['text_sv'])
+            if row['generation_enabled']:
+                self.assertTrue(by_id[row['symbol_id']]['generation_enabled'])
+        self.assertEqual(sum(x['generation_enabled'] for x in vocabulary),201)
+        self.assertEqual(sum(x['generation_enabled'] for x in symbols),201)

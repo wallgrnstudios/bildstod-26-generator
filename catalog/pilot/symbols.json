@@ -1807,5 +1807,2185 @@
     "contrast_terms_sv": [
       "skratta"
     ]
+  },
+  {
+    "id": "FSK_25_07",
+    "text_sv": "suddgummi",
+    "symbol_type": "object",
+    "meaning_sv": "Suddgummi som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One rectangular pencil eraser with softly worn corners, no text or pencil. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Ett suddgummi med tydlig blockform"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "tvål"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_25_26",
+    "text_sv": "pennvässare",
+    "symbol_type": "object",
+    "meaning_sv": "Pennvässare som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small handheld pencil sharpener, visible round pencil opening and metal blade secured with one screw. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Pennhål och skärblad med skruv syns"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "suddgummi"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_23_29",
+    "text_sv": "linjal",
+    "symbol_type": "object",
+    "meaning_sv": "Linjal som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One straight school ruler with evenly spaced measurement tick marks along one edge, no lettering or numbers. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Rak mätkant med jämna skalstreck"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "pinne"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_29_28",
+    "text_sv": "pennskrin",
+    "symbol_type": "object",
+    "meaning_sv": "Pennskrin som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One open fabric pencil case with zipper and three pencils held inside. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Öppet fodral med synliga pennor"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "väska"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "skolmaterial"
+  },
+  {
+    "id": "FSK_21_94",
+    "text_sv": "pärm",
+    "symbol_type": "object",
+    "meaning_sv": "Pärm som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One open school ring binder with two metal rings holding paper sheets, no writing. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Öppen pärm med metallringar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "bok"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "skolmaterial"
+  },
+  {
+    "id": "FSK_21_05",
+    "text_sv": "mapp",
+    "symbol_type": "object",
+    "meaning_sv": "Mapp som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One open thin cardboard document folder with two flat covers and a single sheet tucked inside, no rings. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tunn dokumentmapp utan pärmringar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "pärm"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "skolmaterial"
+  },
+  {
+    "id": "FSK_25_27",
+    "text_sv": "skrivbok",
+    "symbol_type": "object",
+    "meaning_sv": "Skrivbok som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One open ruled school exercise notebook with visible central staple binding and blank ruled pages. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Häftad skrivbok med linjerade sidor"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "bok"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "skolmaterial"
+  },
+  {
+    "id": "FSK_25_28",
+    "text_sv": "ritblock",
+    "symbol_type": "object",
+    "meaning_sv": "Ritblock som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One white drawing pad with spiral binding along the top, one blank page partly turned. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Vitt ritblock med spiralbindning"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "skrivbok"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "skolmaterial"
+  },
+  {
+    "id": "FSK_25_15",
+    "text_sv": "häftapparat",
+    "symbol_type": "object",
+    "meaning_sv": "Häftapparat som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One desktop stapler, raised hinged top, metal staple track and flat base clearly visible. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Ledat häfthuvud och plan bas"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "hålslag"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_21_64",
+    "text_sv": "gem",
+    "symbol_type": "object",
+    "meaning_sv": "Gem som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One large metal paper clip with its characteristic double loop shape. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Metalltrådens dubbla ögla"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "säkerhetsnål"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_21_27",
+    "text_sv": "tejp",
+    "symbol_type": "object",
+    "meaning_sv": "Tejp som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One roll of clear adhesive tape with a short peeled loose end, cardboard center visible. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Rulle med lös självhäftande ände"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "snöre"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_25_30",
+    "text_sv": "häftmassa",
+    "symbol_type": "object",
+    "meaning_sv": "Häftmassa som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small lump of reusable blue adhesive putty with a small piece pinched off beside it. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Blå formbar häftmassa"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "lera"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_29_31",
+    "text_sv": "färgpenna",
+    "symbol_type": "object",
+    "meaning_sv": "Färgpenna som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Three sharpened wooden colored pencils, red blue and green exposed cores, no lettering. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Vässade träpennor med färgstift"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "tuschpenna"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_25_05",
+    "text_sv": "tuschpenna",
+    "symbol_type": "object",
+    "meaning_sv": "Tuschpenna som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One felt-tip marker with its cap beside it, broad colored felt nib clearly exposed. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tydlig filtspets och avtaget lock"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "färgpenna"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_25_02",
+    "text_sv": "vattenfärg",
+    "symbol_type": "object",
+    "meaning_sv": "Vattenfärg som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One open school watercolor paint box with six dry circular paint pans and a paintbrush. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Fasta runda färgkakor i ask"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "fingerfärg"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_24_40",
+    "text_sv": "palett",
+    "symbol_type": "object",
+    "meaning_sv": "Palett som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One artist paint palette with thumb hole and small separate dabs of colored paint. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tumhål och åtskilda färgklickar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "tallrik"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_23_22",
+    "text_sv": "förkläde",
+    "symbol_type": "object",
+    "meaning_sv": "Förkläde som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One unoccupied child-sized painting apron, neck loop, broad front panel and two waist ties. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Skyddande framstycke med halsögla och knytband"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "haklapp"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_29_30",
+    "text_sv": "pärlplatta",
+    "symbol_type": "object",
+    "meaning_sv": "Pärlplatta som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One square plastic bead pegboard with upright pegs and a few colorful fuse beads fitted over pegs. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Peggar med ihåliga pärlor ovanpå"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "pussel"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_20_02",
+    "text_sv": "pärla",
+    "symbol_type": "object",
+    "meaning_sv": "Pärla som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Five large craft beads with clearly visible holes through their centers, no necklace. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tydliga genomgående hål"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "kula"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_25_33",
+    "text_sv": "piprensare",
+    "symbol_type": "object",
+    "meaning_sv": "Piprensare som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Three fuzzy craft chenille stems, one bent into an arc, visible fibers on thin flexible wire. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Luddiga böjbara pysseltrådar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "snöre"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bildmaterial"
+  },
+  {
+    "id": "FSK_22_72",
+    "text_sv": "tärning",
+    "symbol_type": "object",
+    "meaning_sv": "Tärning som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One standard cube die in three-quarter view, black pips on three visible faces. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Kub med prickmarkeringar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "klossar"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_25_14",
+    "text_sv": "spelpjäs",
+    "symbol_type": "object",
+    "meaning_sv": "Spelpjäs som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Two small wooden board-game pawns with rounded heads and flat circular bases. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Spelpjäser med huvud och plan fot"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "docka"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_22_65",
+    "text_sv": "domino",
+    "symbol_type": "object",
+    "meaning_sv": "Domino som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Three rectangular domino tiles with a center dividing line and contrasting dot groups. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Rektanglar med mittlinje och prickgrupper"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "spelkort"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_29_29",
+    "text_sv": "dockvagn",
+    "symbol_type": "object",
+    "meaning_sv": "Dockvagn som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small toy doll stroller with fabric seat, push handle and four little wheels, empty. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Leksaksvagn med sits, handtag och hjul"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "barnvagn"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_24_99",
+    "text_sv": "dockhus",
+    "symbol_type": "object",
+    "meaning_sv": "Dockhus som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One open-front dollhouse, three visible miniature rooms, small toy furniture, no people. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Öppet miniatyrhus med små rum"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "hus"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_29_27",
+    "text_sv": "leksakståg",
+    "symbol_type": "object",
+    "meaning_sv": "Leksakståg som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One wooden toy train consisting of a locomotive and two linked short carriages, small wheels visible. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Träleksak med lok och kopplade vagnar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "leksaksbil"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_24_15",
+    "text_sv": "såpbubblor",
+    "symbol_type": "object",
+    "meaning_sv": "Såpbubblor som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small open bubble solution bottle, circular bubble wand and three translucent soap bubbles. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Bubbelring och svävande såpbubblor"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "ballong"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_22_13",
+    "text_sv": "ballong",
+    "symbol_type": "object",
+    "meaning_sv": "Ballong som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One inflated oval party balloon with a tied neck and a dangling string. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Uppblåst ballong med knut och snöre"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "boll"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_32_68",
+    "text_sv": "hopprep",
+    "symbol_type": "object",
+    "meaning_sv": "Hopprep som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One curved skipping rope with a separate graspable handle at each end. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Rep med två grepphandtag"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "snöre"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "idrott"
+  },
+  {
+    "id": "FSK_32_73",
+    "text_sv": "rockring",
+    "symbol_type": "object",
+    "meaning_sv": "Rockring som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One large thin circular plastic exercise hoop shown at a slight angle, empty center. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "En tunn sluten ring utan ekrar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "hjul"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "idrott"
+  },
+  {
+    "id": "FSK_32_74",
+    "text_sv": "ärtpåse",
+    "symbol_type": "object",
+    "meaning_sv": "Ärtpåse som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Three small square fabric beanbags with stitched seams and slightly bulging filled centers. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Små fyllda tygpåsar med sömmar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "kudde"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "idrott"
+  },
+  {
+    "id": "FSK_32_08",
+    "text_sv": "kratta",
+    "symbol_type": "object",
+    "meaning_sv": "Kratta som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One child-sized sandbox rake with short handle and a row of five spaced blunt teeth. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Skaft med tandad krattdel"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "spade"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "uteleksaker"
+  },
+  {
+    "id": "FSK_32_70",
+    "text_sv": "vattenkanna",
+    "symbol_type": "object",
+    "meaning_sv": "Vattenkanna som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small watering can with top handle, long spout and perforated sprinkler rose. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Kanna med pip och stril"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "hink"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "uteleksaker"
+  },
+  {
+    "id": "FSK_32_50",
+    "text_sv": "skottkärra",
+    "symbol_type": "object",
+    "meaning_sv": "Skottkärra som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small garden wheelbarrow with a deep tray, one front wheel and two long rear handles. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Balja med ett framhjul och två handtag"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "vagn"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "uteleksaker"
+  },
+  {
+    "id": "FSK_32_67",
+    "text_sv": "pulka",
+    "symbol_type": "object",
+    "meaning_sv": "Pulka som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small plastic sled with curved front, shallow seat and a pull rope attached at the front. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Pulka med uppvikt framkant och dragrep"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "båt"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "idrottsmaterial"
+  },
+  {
+    "id": "FSK_24_72",
+    "text_sv": "reflexväst",
+    "symbol_type": "object",
+    "meaning_sv": "Reflexväst som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One fluorescent yellow child safety vest, front opening and two broad reflective gray bands. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Gul väst med tydliga reflexband"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "jacka"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_19_68",
+    "text_sv": "keps",
+    "symbol_type": "object",
+    "meaning_sv": "Keps som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small baseball cap with a rounded crown and a forward projecting brim. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Rund hjässa och framåtriktad skärm"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "mössa"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_25_49",
+    "text_sv": "solhatt",
+    "symbol_type": "object",
+    "meaning_sv": "Solhatt som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One fabric summer sun hat with a soft brim extending all around the crown. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Brätte runt hela hatten"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "keps"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_21_35",
+    "text_sv": "overall",
+    "symbol_type": "object",
+    "meaning_sv": "Overall som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One unoccupied child winter snowsuit with joined jacket and trouser sections, hood and long front zipper. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Sammanhängande jackdel och två ben"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "jacka"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_23_81",
+    "text_sv": "regnjacka",
+    "symbol_type": "object",
+    "meaning_sv": "Regnjacka som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One unoccupied yellow waterproof rain jacket with hood, front fasteners and smooth rubberized fabric. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Vattentät jacka med huva"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "tröja"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_18_79",
+    "text_sv": "shorts",
+    "symbol_type": "object",
+    "meaning_sv": "Shorts som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One pair of child shorts laid flat with waistband, two short legs and visible leg openings. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Midja och två korta ben"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "byxor"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_22_28",
+    "text_sv": "sandaler",
+    "symbol_type": "object",
+    "meaning_sv": "Sandaler som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One pair of child sandals with open toes, straps across feet and heel straps. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Öppna tår och remmar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "skor"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_17_87",
+    "text_sv": "t-shirt",
+    "symbol_type": "object",
+    "meaning_sv": "T-shirt som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One unoccupied plain cotton T-shirt, short sleeves and round neckline, no text or design. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Kortärmad överdel med rund hals"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "tröja"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_22_05",
+    "text_sv": "kofta",
+    "symbol_type": "object",
+    "meaning_sv": "Kofta som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One unoccupied knitted cardigan with long sleeves, open front and a row of buttons. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Stickad tröja med knappar framtill"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "tröja"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kläder"
+  },
+  {
+    "id": "FSK_24_23",
+    "text_sv": "galge",
+    "symbol_type": "object",
+    "meaning_sv": "Galge som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One triangular clothes hanger with a curved metal hook at the top, empty. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Triangulär galge med krok"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "klädkrok"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "klädtillbehör"
+  },
+  {
+    "id": "FSK_29_26",
+    "text_sv": "hårsnodd",
+    "symbol_type": "object",
+    "meaning_sv": "Hårsnodd som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Two small elastic hair ties, one plain loop and one soft fabric scrunchie. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Elastiska slutna hårband"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "armband"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "klädtillbehör"
+  },
+  {
+    "id": "FSK_19_52",
+    "text_sv": "kam",
+    "symbol_type": "object",
+    "meaning_sv": "Kam som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small hair comb with a single row of many evenly spaced narrow teeth. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Många täta tänder i en rad"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "hårborste"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hygien"
+  },
+  {
+    "id": "FSK_20_99",
+    "text_sv": "tandkräm",
+    "symbol_type": "object",
+    "meaning_sv": "Tandkräm som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One toothpaste tube with cap beside it and a small curl of paste at its opening, no writing. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tub med tandkräm vid öppningen"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "lim"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hygien"
+  },
+  {
+    "id": "FSK_23_12",
+    "text_sv": "toalettpapper",
+    "symbol_type": "object",
+    "meaning_sv": "Toalettpapper som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One white toilet paper roll with perforated sheets, cardboard core and a short loose end. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Pappersrulle med perforering och kartongkärna"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "handduk"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hygien"
+  },
+  {
+    "id": "FSK_21_30",
+    "text_sv": "blöja",
+    "symbol_type": "object",
+    "meaning_sv": "Blöja som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One open disposable baby diaper with absorbent center, leg gathers and two fastening tabs. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Absorberande mittdel och fästflikar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "underbyxor"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hygien"
+  },
+  {
+    "id": "FSK_24_35",
+    "text_sv": "potta",
+    "symbol_type": "object",
+    "meaning_sv": "Potta som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small child toilet potty with low seat, central opening and removable inner bowl. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Låg potta med sittring och skål"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "toalett"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hygien"
+  },
+  {
+    "id": "FSK_30_91",
+    "text_sv": "plåster",
+    "symbol_type": "object",
+    "meaning_sv": "Plåster som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One adhesive bandage shown flat, central padded gauze square and adhesive wings at both ends. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Sårdyna i mitten och klisterytor i ändarna"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "tejp"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hälsa"
+  },
+  {
+    "id": "FSK_32_47",
+    "text_sv": "termometer",
+    "symbol_type": "object",
+    "meaning_sv": "Termometer som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One digital medical thermometer with slender rounded probe tip and small blank display, no numbers. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Smal mätspets och digital display"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "penna"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hälsa"
+  },
+  {
+    "id": "FSK_27_93",
+    "text_sv": "glasögon",
+    "symbol_type": "object",
+    "meaning_sv": "Glasögon som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One pair of eyeglasses with two transparent lenses, bridge and two side arms. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Två glas, näsbrygga och skalmar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "solglasögon"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hälsa"
+  },
+  {
+    "id": "FSK_24_53",
+    "text_sv": "hörselkåpor",
+    "symbol_type": "object",
+    "meaning_sv": "Hörselkåpor som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One pair of protective ear defenders with two padded ear cups joined by a broad adjustable headband, no cable. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Två täta kåpor och huvudbygel utan sladd"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "hörlurar"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "klädtillbehör"
+  },
+  {
+    "id": "FSK_16_07",
+    "text_sv": "dörr",
+    "symbol_type": "object",
+    "meaning_sv": "Dörr som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One simple door in its frame, open slightly so its door handle and hinges can be seen. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Dörrblad i karm med handtag och gångjärn"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "fönster"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "skolmiljö"
+  },
+  {
+    "id": "FSK_15_21",
+    "text_sv": "fönster",
+    "symbol_type": "object",
+    "meaning_sv": "Fönster som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One simple framed glass window with two transparent panes and a small opening handle, no outdoor scene. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Glasrutor i ram med öppningshandtag"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "dörr"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "skolmiljö"
+  },
+  {
+    "id": "FSK_18_78",
+    "text_sv": "trappa",
+    "symbol_type": "object",
+    "meaning_sv": "Trappa som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One short freestanding staircase with five clearly visible steps and a side handrail. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Flera trappsteg och räcke"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "stege"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "skolmiljö"
+  },
+  {
+    "id": "FSK_19_45",
+    "text_sv": "bänk",
+    "symbol_type": "object",
+    "meaning_sv": "Bänk som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One simple low wooden bench with a long continuous seat, four legs and no backrest. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Lång sammanhängande sits för flera"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "stol"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "utemiljö"
+  },
+  {
+    "id": "FSK_32_27",
+    "text_sv": "bokhylla",
+    "symbol_type": "object",
+    "meaning_sv": "Bokhylla som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One low wooden bookshelf with three shelves holding upright books, no writing. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Hyllplan med stående böcker"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "skåp"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hemmet"
+  },
+  {
+    "id": "FSK_28_75",
+    "text_sv": "spegel",
+    "symbol_type": "object",
+    "meaning_sv": "Spegel som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One oval mirror in a simple frame, subtle reflected highlight on its glass, no people. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Reflekterande glasyta i ram"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "fönster"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hemmet"
+  },
+  {
+    "id": "FSK_30_85",
+    "text_sv": "lampa",
+    "symbol_type": "object",
+    "meaning_sv": "Lampa som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One simple tabletop lamp with base, stem and shade, softly lit bulb visible beneath shade. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Fot, stam och lampskärm"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "ficklampa"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hemmet"
+  },
+  {
+    "id": "FSK_32_01",
+    "text_sv": "väckarklocka",
+    "symbol_type": "object",
+    "meaning_sv": "Väckarklocka som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One classic twin-bell alarm clock with round analog face, two hands and small feet, no numerals. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Klocka med två bjällror ovanpå"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "klocka"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hemmet"
+  },
+  {
+    "id": "FSK_31_14",
+    "text_sv": "matta",
+    "symbol_type": "object",
+    "meaning_sv": "Matta som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small rectangular woven floor rug with short fringes on two ends, shown flat. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Platt vävd golvmatta med fransar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "filt"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hemmet"
+  },
+  {
+    "id": "FSK_31_36",
+    "text_sv": "täcke",
+    "symbol_type": "object",
+    "meaning_sv": "Täcke som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One thick quilted bed duvet partly folded, visible stitched square sections and padded edge. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tjockt vadderat sängtäcke med sömmar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "filt"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hemmet"
+  },
+  {
+    "id": "FSK_31_88",
+    "text_sv": "madrass",
+    "symbol_type": "object",
+    "meaning_sv": "Madrass som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small rectangular bed mattress with rounded padded corners and quilted top, no bed frame. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tjock madrass utan sängram"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "kudde"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "hemmet"
+  },
+  {
+    "id": "FSK_32_62",
+    "text_sv": "äppelträd",
+    "symbol_type": "object",
+    "meaning_sv": "Äppelträd som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small apple tree with trunk, leafy crown and several red apples attached to branches. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Äpplen sitter på trädets grenar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "träd"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "växter"
+  },
+  {
+    "id": "FSK_32_10",
+    "text_sv": "kotte",
+    "symbol_type": "object",
+    "meaning_sv": "Kotte som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One large brown pine cone, layered woody scales visible in three-quarter view. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tydliga överlappande kottefjäll"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "sten"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "natur"
+  },
+  {
+    "id": "FSK_32_49",
+    "text_sv": "ekollon",
+    "symbol_type": "object",
+    "meaning_sv": "Ekollon som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Two acorns with brown nuts and textured cup-shaped caps. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Ekollon med skrovlig hatt"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "kastanj"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "natur"
+  },
+  {
+    "id": "FSK_31_34",
+    "text_sv": "fjäder",
+    "symbol_type": "object",
+    "meaning_sv": "Fjäder som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One bird feather, central shaft and fine branching vanes clearly visible. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Mittskaft och fjäderfan"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "löv"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "natur"
+  },
+  {
+    "id": "FSK_32_61",
+    "text_sv": "solros",
+    "symbol_type": "object",
+    "meaning_sv": "Solros som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One sunflower with large dark center, yellow petals, green stem and two broad leaves. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Stor mörk mitt omgiven av gula kronblad"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "blomma"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "växter"
+  },
+  {
+    "id": "FSK_32_64",
+    "text_sv": "maskros",
+    "symbol_type": "object",
+    "meaning_sv": "Maskros som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One dandelion plant with a yellow flower, one white seed puff and deeply toothed leaves. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Gul blomma, fröboll och flikiga blad"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "prästkrage"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "växter"
+  },
+  {
+    "id": "FSK_28_59",
+    "text_sv": "gran",
+    "symbol_type": "object",
+    "meaning_sv": "Gran som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One spruce tree with a conical crown of short green needles and downward hanging cones. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Konisk barrkrona och hängande kottar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "tall"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "växter"
+  },
+  {
+    "id": "FSK_28_78",
+    "text_sv": "björk",
+    "symbol_type": "object",
+    "meaning_sv": "Björk som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One birch tree with distinctive white bark, dark bark markings and small green leaves. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Vit stam med mörka barkfläckar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "ek"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "växter"
+  },
+  {
+    "id": "FSK_28_81",
+    "text_sv": "kanin",
+    "symbol_type": "object",
+    "meaning_sv": "Kanin som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small domestic rabbit in side view, long upright ears, soft fur and a short round tail. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Långa öron och kort rund svans"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "hare"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "svenska djur"
+  },
+  {
+    "id": "FSK_27_10",
+    "text_sv": "häst",
+    "symbol_type": "object",
+    "meaning_sv": "Häst som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One horse in full-body side view, long mane, hooves and flowing tail, no rider or saddle. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Häst med man, hovar och lång svans"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "ko"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "uteleksaker"
+  },
+  {
+    "id": "FSK_28_32",
+    "text_sv": "ko",
+    "symbol_type": "object",
+    "meaning_sv": "Ko som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One dairy cow in full-body side view, broad muzzle, cloven hooves, udder and black-white patches. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Ko med juver och klövar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "häst"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "svenska djur"
+  },
+  {
+    "id": "FSK_28_33",
+    "text_sv": "gris",
+    "symbol_type": "object",
+    "meaning_sv": "Gris som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One pink domestic pig in side view, round snout, cloven hooves and curled tail. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tryne och knorr"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "hund"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "svenska djur"
+  },
+  {
+    "id": "FSK_10_24",
+    "text_sv": "får",
+    "symbol_type": "object",
+    "meaning_sv": "Får som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One sheep in side view with dense curly wool, slender dark legs and small ears, no horns. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tät ull och klövar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "get"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "behov"
+  },
+  {
+    "id": "FSK_32_39",
+    "text_sv": "igelkott",
+    "symbol_type": "object",
+    "meaning_sv": "Igelkott som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One hedgehog in side view with spiny back, small pointed nose and four little feet. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Taggig rygg och spetsig nos"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "mus"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "svenska djur"
+  },
+  {
+    "id": "FSK_32_15",
+    "text_sv": "ekorre",
+    "symbol_type": "object",
+    "meaning_sv": "Ekorre som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One red squirrel holding a nut, bushy tail arched upward and small tufted ears. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Yvig uppåtböjd svans och tofsöron"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "mus"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "svenska djur"
+  },
+  {
+    "id": "FSK_31_58",
+    "text_sv": "groda",
+    "symbol_type": "object",
+    "meaning_sv": "Groda som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One green frog in three-quarter view, bulging eyes and long folded hind legs. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Utbuktande ögon och långa bakben"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "ödla"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "svenska djur"
+  },
+  {
+    "id": "FSK_29_06",
+    "text_sv": "spindel",
+    "symbol_type": "object",
+    "meaning_sv": "Spindel som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One naturalistic small spider viewed from above, eight legs and two main body segments, no web. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Åtta ben och två kroppsdelar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "myra"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "smådjur och fåglar"
+  },
+  {
+    "id": "FSK_32_34",
+    "text_sv": "myra",
+    "symbol_type": "object",
+    "meaning_sv": "Myra som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One ant in side three-quarter view, six legs, narrow waist and two bent antennae. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Sex ben, smal midja och antenner"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "spindel"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "smådjur och fåglar"
+  },
+  {
+    "id": "FSK_28_52",
+    "text_sv": "bi",
+    "symbol_type": "object",
+    "meaning_sv": "Bi som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One honeybee in side view, fuzzy striped body, six legs and two pairs of translucent wings. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Luden randig kropp med vingar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "geting"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "smådjur och fåglar"
+  },
+  {
+    "id": "FSK_32_58",
+    "text_sv": "nyckelpiga",
+    "symbol_type": "object",
+    "meaning_sv": "Nyckelpiga som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One red ladybird viewed from above, black spotted wing covers and six small legs. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Röda täckvingar med svarta prickar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "skalbagge"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "smådjur och fåglar"
+  },
+  {
+    "id": "FSK_31_98",
+    "text_sv": "snigel",
+    "symbol_type": "object",
+    "meaning_sv": "Snigel som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One brown slug in side view, soft elongated shell-free body and two raised eye stalks. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Avlång kropp utan skal och ögonstjälkar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "snäcka"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "smådjur och fåglar"
+  },
+  {
+    "id": "FSK_32_53",
+    "text_sv": "snäcka",
+    "symbol_type": "object",
+    "meaning_sv": "Snäcka som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One garden snail in side view with a spiral shell on its back and two raised eye stalks. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Spiralvridet skal på ryggen"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "snigel"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "smådjur och fåglar"
+  },
+  {
+    "id": "FSK_23_07",
+    "text_sv": "brandbil",
+    "symbol_type": "object",
+    "meaning_sv": "Brandbil som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One red fire engine in side view, roof-mounted ladder, hose compartments and blue warning lights, no writing. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Röd utryckningsbil med stege och blåljus"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "lastbil"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_17_81",
+    "text_sv": "ambulans",
+    "symbol_type": "object",
+    "meaning_sv": "Ambulans som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One yellow ambulance in side view with blue warning lights and simple red medical cross, no lettering. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Ambulans med medicinskt kors och blåljus"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "brandbil"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "lek"
+  },
+  {
+    "id": "FSK_27_14",
+    "text_sv": "buss",
+    "symbol_type": "object",
+    "meaning_sv": "Buss som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One city bus in side view, long passenger cabin, many windows and two passenger doors, no lettering. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Lång persontransport med många fönster och dörrar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "lastbil"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "trafik"
+  },
+  {
+    "id": "FSK_26_82",
+    "text_sv": "tåg",
+    "symbol_type": "object",
+    "meaning_sv": "Tåg som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One railway train with locomotive and one passenger carriage on a short simple pair of rails, side view. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Lok och passagerarvagn på räls"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "buss"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "trafik"
+  },
+  {
+    "id": "FSK_31_56",
+    "text_sv": "traktor",
+    "symbol_type": "object",
+    "meaning_sv": "Traktor som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One farm tractor in side view, very large rear wheels, smaller front wheels and an enclosed cab. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Stora bakhjul och mindre framhjul"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "lastbil"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "trafik"
+  },
+  {
+    "id": "FSK_32_43",
+    "text_sv": "grävmaskin",
+    "symbol_type": "object",
+    "meaning_sv": "Grävmaskin som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One tracked excavator in side view, visible articulated digging arm and bucket, no scenery. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Larvband och ledad grävarm med skopa"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "traktor"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "trafik"
+  },
+  {
+    "id": "FSK_27_46",
+    "text_sv": "båt",
+    "symbol_type": "object",
+    "meaning_sv": "Båt som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small open rowboat with pointed bow, broad hull and two oars resting across its sides. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Öppet båtskrov med åror"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "bil"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "trafik"
+  },
+  {
+    "id": "FSK_27_67",
+    "text_sv": "flygplan",
+    "symbol_type": "object",
+    "meaning_sv": "Flygplan som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One passenger airplane in three-quarter view with two broad wings, tail fins and two jet engines. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Flygkropp, två vingar och stjärtfena"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "helikopter"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "uteleksaker"
+  },
+  {
+    "id": "FSK_28_68",
+    "text_sv": "helikopter",
+    "symbol_type": "object",
+    "meaning_sv": "Helikopter som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small helicopter in side view, large top rotor, tail rotor and landing skids. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Huvudrotor, stjärtrotor och landningsmedar"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "flygplan"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "trafik"
+  },
+  {
+    "id": "FSK_32_52",
+    "text_sv": "äppeljuice",
+    "symbol_type": "object",
+    "meaning_sv": "Äppeljuice som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One clear glass filled with pale golden apple juice, one cut apple beside the glass. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Glas med gyllene juice och äpple som smakangivelse"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "vatten"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "vardagsföremål"
+  },
+  {
+    "id": "FSK_20_29",
+    "text_sv": "apelsin",
+    "symbol_type": "object",
+    "meaning_sv": "Apelsin som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One whole orange with dimpled peel and one orange half exposing radial segments. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Orange skal och tydliga klyftor i snittytan"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "mandarin"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "frukt och grönt"
+  },
+  {
+    "id": "FSK_16_18",
+    "text_sv": "potatis",
+    "symbol_type": "object",
+    "meaning_sv": "Potatis som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Two unpeeled potatoes, irregular oval shapes, thin earthy skin with small eyes. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Ovala potatisknölar med små ögon"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "sten"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "mat"
+  },
+  {
+    "id": "FSK_17_42",
+    "text_sv": "pasta",
+    "symbol_type": "object",
+    "meaning_sv": "Pasta som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small white bowl filled with plain cooked spiral pasta, spiral shapes clearly visible. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tydliga pastaskruvar utan sås"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "ris"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "mat"
+  },
+  {
+    "id": "FSK_14_65",
+    "text_sv": "ägg",
+    "symbol_type": "object",
+    "meaning_sv": "Ägg som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One whole pale egg and one cut hard-boiled egg showing white and round yellow yolk. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Äggskal samt äggvita och gul gula"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "potatis"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "mat"
+  },
+  {
+    "id": "FSK_15_53",
+    "text_sv": "ost",
+    "symbol_type": "object",
+    "meaning_sv": "Ost som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One wedge of yellow cheese with small holes and a thin cheese slice beside it. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Ostbit med hål och en skiva"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "smör"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bröd och dryck"
+  },
+  {
+    "id": "FSK_20_59",
+    "text_sv": "knäckebröd",
+    "symbol_type": "object",
+    "meaning_sv": "Knäckebröd som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Two rectangular pieces of crisp rye bread with rough dotted surfaces and visible thin hard edges. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tunt hårt bröd med grov hålad yta"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "smörgås"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bröd och dryck"
+  },
+  {
+    "id": "FSK_20_42",
+    "text_sv": "pannkaka",
+    "symbol_type": "object",
+    "meaning_sv": "Pannkaka som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "Three thin pancakes folded loosely on a plain plate, soft thin golden edges visible, no toppings. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tunna gyllene pannkakor utan pålägg"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "bröd"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "mat"
+  },
+  {
+    "id": "FSK_19_41",
+    "text_sv": "yoghurt",
+    "symbol_type": "object",
+    "meaning_sv": "Yoghurt som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One small bowl of thick plain white yogurt with a spoon, visible creamy swirl and no fruit. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Tjock vit yoghurt med sked"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "mjölk"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "bröd och dryck"
+  },
+  {
+    "id": "FSK_17_83",
+    "text_sv": "soppa",
+    "symbol_type": "object",
+    "meaning_sv": "Soppa som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One soup bowl containing warm vegetable soup with a spoon resting at its edge, a little steam visible. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Flytande soppa i skål med sked"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "gryta"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "mat"
+  },
+  {
+    "id": "FSK_29_11",
+    "text_sv": "kastrull",
+    "symbol_type": "object",
+    "meaning_sv": "Kastrull som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One metal saucepan with high sides, long handle and a matching lid resting beside it. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Djupt kokkärl med handtag och lock"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "stekpanna"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kök och bakning"
+  },
+  {
+    "id": "FSK_29_17",
+    "text_sv": "stekpanna",
+    "symbol_type": "object",
+    "meaning_sv": "Stekpanna som föremål. Inte en hel handling eller instruktion.",
+    "visual_prompt_en": "One shallow frying pan in three-quarter view, wide flat cooking surface and long handle. Isolated on white without people, decorative scenery or lettering.",
+    "must_show_sv": [
+      "Grunt brett stekkärl med långt skaft"
+    ],
+    "must_not_show_sv": [
+      "Extra handlingar, text eller miljö som ger en annan betydelse"
+    ],
+    "contrast_terms_sv": [
+      "kastrull"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "category": "kök och bakning"
   }
 ]
