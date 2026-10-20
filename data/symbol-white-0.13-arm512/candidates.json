@@ -44,6 +44,48 @@
       "sha256": "81029a251b1fc5e60e78fe3cc1beb732eb7d9167644df65a96923dbe66de5a2f"
     },
     {
+      "concept_id": "FSK_19_52",
+      "label_sv": "kam",
+      "fingerprint": "26700d906d27c5998244685e5ad709910a7599ee4e78e13ab145160a2548625a",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small hair comb with a single row of many evenly spaced narrow teeth. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1194257622,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-20T10:42:44.137868+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Kam som föremål. Inte en hel handling eller instruktion.",
+      "must_show_sv": [
+        "Många täta tänder i en rad"
+      ],
+      "must_not_show_sv": [
+        "Extra handlingar, text eller miljö som ger en annan betydelse"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 77.769,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 77.804,
+      "sha256": "279aabda2cb9b76da1ddc43a35d25417baf918f05e736665eb3e13d448db8d33"
+    },
+    {
       "concept_id": "FSK_90_06",
       "label_sv": "jacka",
       "fingerprint": "50f10f747cb39ee2eb2e440b7cfa77be358417fa39f86b087a6c1df3bc0caeac",
