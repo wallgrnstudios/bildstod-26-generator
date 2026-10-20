@@ -380,6 +380,48 @@
       "sha256": "739024eb957803871d20285b311eaa3e8f9cbcee5ffa7b05c0b94030e87a9755"
     },
     {
+      "concept_id": "FSK_25_33",
+      "label_sv": "piprensare",
+      "fingerprint": "f2e3c16c68efc96bd575143c06b37b266f9caa7c2beb9925dfb6e32f599e17a9",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Three fuzzy craft chenille stems, one bent into an arc, visible fibers on thin flexible wire. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1130792236,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-20T10:55:38.925132+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Piprensare som föremål. Inte en hel handling eller instruktion.",
+      "must_show_sv": [
+        "Luddiga böjbara pysseltrådar"
+      ],
+      "must_not_show_sv": [
+        "Extra handlingar, text eller miljö som ger en annan betydelse"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.78,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.809,
+      "sha256": "541d15335ab1c76958598efc7f53f5a91ff994bf73329d8135881e8069b3e43b"
+    },
+    {
       "concept_id": "FSK_90_03",
       "label_sv": "samling",
       "fingerprint": "50ab17e00a46a6e078c7011871d1ce64d30bf38ded7677dcaf78d7eb86e48822",
