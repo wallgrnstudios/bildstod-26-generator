@@ -170,6 +170,48 @@
       "sha256": "8c9d7f6eda0bd0955efcdee01d2bdf4b549d0775d7f5f8362da6c02ef230dd7e"
     },
     {
+      "concept_id": "FSK_24_40",
+      "label_sv": "palett",
+      "fingerprint": "e3d39bfd646b16f61155d7b0202741639fd88bd92c0bc96c5d4cda1cea876d5d",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One artist paint palette with thumb hole and small separate dabs of colored paint. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 861047992,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-20T10:46:38.874202+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Palett som föremål. Inte en hel handling eller instruktion.",
+      "must_show_sv": [
+        "Tumhål och åtskilda färgklickar"
+      ],
+      "must_not_show_sv": [
+        "Extra handlingar, text eller miljö som ger en annan betydelse"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 77.275,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 77.305,
+      "sha256": "a08962aa0a498de1c84d7e831af921bb87d4053ce0ab73dacb7e02f3e999cb87"
+    },
+    {
       "concept_id": "FSK_90_10",
       "label_sv": "händer",
       "fingerprint": "b097b58f3d5459ebd7153eb37ab9b6013b96765421a2f21798e952e671fbef93",
