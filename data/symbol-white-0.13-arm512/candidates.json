@@ -44,6 +44,48 @@
       "sha256": "06ed63907053e40f3c8e1881ff94ae8ede97b801ebb15f233450b45a7c2c5a91"
     },
     {
+      "concept_id": "FSK_17_33",
+      "label_sv": "sallad",
+      "fingerprint": "a81adf2e1bfbd822c1b62b47265ed1c35409b8d55cd057251ab14a6fb64bc70f",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clean white bowl filled with distinct green lettuce leaves, red tomato wedges and cucumber slices, no dressing bottle. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1096646119,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:13:22.687385+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Sallad: Salladsskål med tydliga grönsaksbitar. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Salladsskål med tydliga grönsaksbitar"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.903,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.951,
+      "sha256": "14f407e607c60295d93de0eec139adc4017cfce2713881e3be02d5abb2c5cad9"
+    },
+    {
       "concept_id": "FSK_17_58",
       "label_sv": "hamburgare",
       "fingerprint": "9850e70d059ceaf61d0f34a304c7bf7de33d98bafd77ce36931c174e87798733",
