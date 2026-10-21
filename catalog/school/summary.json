@@ -74,10 +74,10 @@
     "år och väder": 22
   },
   "brief_status": {
-    "generation_ready": 201,
+    "generation_ready": 301,
     "convention_required": 458,
     "composition_required": 474,
-    "brief_required": 867
+    "brief_required": 767
   },
   "wordfreq_version": "3.1.1",
   "sources": [

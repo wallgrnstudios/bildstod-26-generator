@@ -150,5 +150,6 @@ class GenerationTests(unittest.TestCase):
                 self.assertEqual(by_id[row['symbol_id']]['text_sv'],row['text_sv'])
             if row['generation_enabled']:
                 self.assertTrue(by_id[row['symbol_id']]['generation_enabled'])
-        self.assertEqual(sum(x['generation_enabled'] for x in vocabulary),201)
-        self.assertEqual(sum(x['generation_enabled'] for x in symbols),201)
+        self.assertEqual({x['symbol_id'] for x in vocabulary if x['generation_enabled']},
+                         {x['id'] for x in symbols if x['generation_enabled']})
+        self.assertGreaterEqual(sum(x['generation_enabled'] for x in symbols),301)

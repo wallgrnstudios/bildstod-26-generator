@@ -11406,14 +11406,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 601,
-    "meaning_sv": "pizza – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Pizza: Rund pizza med tydliga trekantiga bitar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_15_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -11748,14 +11748,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 619,
-    "meaning_sv": "väst – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Väst: Ärmlöst plagg med två armöppningar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_15_30",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -12964,14 +12964,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 683,
-    "meaning_sv": "flaska – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Flaska: Smal flaskhals och tydlig tom behållare. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_15_94",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -13287,14 +13287,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 700,
-    "meaning_sv": "väska – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Väska: Väska med bärhandtag och dragkedja. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_16_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -13382,14 +13382,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 705,
-    "meaning_sv": "kopp – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Kopp: En öppen kopp med öra. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_16_17",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -13534,14 +13534,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 713,
-    "meaning_sv": "korv – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Korv: Avlång korv tydligt placerad i bröd. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_16_25",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -14978,14 +14978,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 789,
-    "meaning_sv": "lastbil – betydelsen ska avgränsas inom lek före bildgenerering.",
+    "meaning_sv": "Lastbil: Förarhytt och stort lastutrymme. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_02",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -15130,14 +15130,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 797,
-    "meaning_sv": "jeans – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Jeans: Långa jeansben med fickor och nitdetaljer. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_10",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -15149,14 +15149,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 798,
-    "meaning_sv": "knapp – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Knapp: Rund knapp med fyra syhål. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_11",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -15719,14 +15719,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 828,
-    "meaning_sv": "burk – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Burk: Bred öppning och separat skruvlock. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_41",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -15814,14 +15814,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 833,
-    "meaning_sv": "ris – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Ris: Många synliga avlånga vita riskorn. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_46",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -16042,14 +16042,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 845,
-    "meaning_sv": "hamburgare – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Hamburgare: Brödhalvor med synlig burgare emellan. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_58",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -16935,14 +16935,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 892,
-    "meaning_sv": "lax – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Lax: Rosa fiskfilé med ljusa fettlinjer. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_06",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -16954,14 +16954,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 893,
-    "meaning_sv": "bönor – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Bönor: Bönornas njurform och synliga fröfäste. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_07",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -17220,14 +17220,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 907,
-    "meaning_sv": "skjorta – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Skjorta: Krage och knappslå längs hela framstycket. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_21",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -17657,14 +17657,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 930,
-    "meaning_sv": "vitlök – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Vitlök: Vitlöksklyftor och sammansatt lök. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_44",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -18341,14 +18341,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 966,
-    "meaning_sv": "trosor – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Trosor: Midjeresår och två benöppningar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_80",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -18436,14 +18436,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 971,
-    "meaning_sv": "gröt – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Gröt: Skål med tjock havregröt. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_85",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -18683,14 +18683,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 984,
-    "meaning_sv": "köttbullar – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Köttbullar: Små runda bruna köttbullar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_98",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -18778,14 +18778,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 989,
-    "meaning_sv": "kula – betydelsen ska avgränsas inom lek före bildgenerering.",
+    "meaning_sv": "Kula: Runda glaskulor med färgade slingor. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_04",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19006,14 +19006,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1001,
-    "meaning_sv": "pumpa – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Pumpa: Orange räfflad pumpa med skaft. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_16",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19158,14 +19158,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1009,
-    "meaning_sv": "ficka – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Ficka: Tygficka med öppen överkant och sydda sidor. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_24",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19329,14 +19329,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1018,
-    "meaning_sv": "handskar – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Handskar: Fem fingerdelar på varje handske. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_33",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19728,14 +19728,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1039,
-    "meaning_sv": "lera – betydelsen ska avgränsas inom bildmaterial före bildgenerering.",
+    "meaning_sv": "Lera: Formbar lera med ett tryckmärke. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_54",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19804,14 +19804,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1043,
-    "meaning_sv": "bälte – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Bälte: Spänne och hål på ett långt bälte. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_58",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19823,14 +19823,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1044,
-    "meaning_sv": "lock – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Lock: Platt runt lock med upphöjd kant. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_59",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19842,14 +19842,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1045,
-    "meaning_sv": "blåbär – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Blåbär: Blå bär med tydlig krona. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_60",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19975,14 +19975,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1052,
-    "meaning_sv": "kjol – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Kjol: Kjol med en sammanhängande nedre öppning. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_67",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20051,14 +20051,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1056,
-    "meaning_sv": "tomat – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Tomat: Röd tomat med grönt fäste och frörum. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_71",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20165,14 +20165,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1062,
-    "meaning_sv": "citron – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Citron: Gult ovalt skal och citrussegment. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_77",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20279,14 +20279,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1068,
-    "meaning_sv": "kalsonger – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Kalsonger: Midjeresår och två korta ben. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_83",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20507,14 +20507,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1080,
-    "meaning_sv": "majs – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Majs: Majskolvens rader av gula korn. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_95",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20583,14 +20583,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1084,
-    "meaning_sv": "paprika – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Paprika: Ihålig paprika med fröhål och grönt skaft. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_99",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20678,14 +20678,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1089,
-    "meaning_sv": "linne – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Linne: Två axelband och ärmlösa sidor. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_05",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20716,14 +20716,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1091,
-    "meaning_sv": "hallon – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Hallon: Hallonens små delfrukter och håliga mitt. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_07",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20811,14 +20811,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1096,
-    "meaning_sv": "solglasögon – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Solglasögon: Två mörka glas och skalmar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21058,14 +21058,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1109,
-    "meaning_sv": "ananas – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Ananas: Rutigt skal och spetsig bladkrona. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_25",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21153,14 +21153,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1114,
-    "meaning_sv": "russin – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Russin: Små mörka skrynkliga torkade druvor. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_30",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21229,14 +21229,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1118,
-    "meaning_sv": "lingon – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Lingon: Små runda röda bär med ovala blad. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_34",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21400,14 +21400,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1127,
-    "meaning_sv": "lime – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Lime: Grönt skal och ljusa citrussegment. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_43",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21476,14 +21476,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1131,
-    "meaning_sv": "linser – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Linser: Små platta runda linser. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_47",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21590,14 +21590,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1137,
-    "meaning_sv": "jojo – betydelsen ska avgränsas inom lek före bildgenerering.",
+    "meaning_sv": "Jojo: Två runda halvor och ett snöre i mitten. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_53",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21780,14 +21780,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1147,
-    "meaning_sv": "polisbil – betydelsen ska avgränsas inom lek före bildgenerering.",
+    "meaning_sv": "Polisbil: Blågula markeringar och blåljusramp. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_63",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21875,14 +21875,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1152,
-    "meaning_sv": "duk – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Duk: Ren duk som hänger över bordets kanter. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_68",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21951,14 +21951,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1156,
-    "meaning_sv": "paraply – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Paraply: Utfällt regnskydd och böjt handtag. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_72",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21970,14 +21970,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1157,
-    "meaning_sv": "makaroner – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Makaroner: Korta böjda pastarör med hål. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_73",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21989,14 +21989,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1158,
-    "meaning_sv": "potatismos – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Potatismos: Mjukt potatismos utan hela potatisar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_74",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22008,14 +22008,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1159,
-    "meaning_sv": "ärtor – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Ärtor: Runda gröna ärtor i öppen balja. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_75",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22027,14 +22027,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1160,
-    "meaning_sv": "broccoli – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Broccoli: Gröna täta buketter på förgrenad stjälk. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_76",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22084,14 +22084,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1163,
-    "meaning_sv": "lim – betydelsen ska avgränsas inom bildmaterial före bildgenerering.",
+    "meaning_sv": "Lim: Limflaska med smal doseringspip. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_79",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22122,14 +22122,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1165,
-    "meaning_sv": "bricka – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Bricka: Upphöjd kant och två handtag. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_81",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22217,14 +22217,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1170,
-    "meaning_sv": "lasagne – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Lasagne: Tydligt skiktad pastabit med osttäcke. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_86",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22445,14 +22445,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1182,
-    "meaning_sv": "avokado – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Avokado: Stor rund kärna i grön frukthalva. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_98",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22597,14 +22597,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1190,
-    "meaning_sv": "blus – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Blus: Lätt tygplagg med krage och knappar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_07",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22635,14 +22635,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1192,
-    "meaning_sv": "stämpel – betydelsen ska avgränsas inom bildmaterial före bildgenerering.",
+    "meaning_sv": "Stämpel: Handtag över en plan stämpelyta. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_09",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22692,14 +22692,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1195,
-    "meaning_sv": "tång – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Tång: Två sammanfogade armar med greppändar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22882,14 +22882,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1205,
-    "meaning_sv": "mango – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Mango: Orange fruktkött och oval mangofrukt. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_22",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22958,14 +22958,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1209,
-    "meaning_sv": "reflex – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Reflex: Ljus prismatisk reflex med fästsnöre. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_26",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23015,14 +23015,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1212,
-    "meaning_sv": "spaghetti – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Spaghetti: Långa tunna pastatrådar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_29",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23148,14 +23148,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1219,
-    "meaning_sv": "melon – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Melon: Grönrandigt skal och rött fruktkött. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_36",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23243,14 +23243,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1224,
-    "meaning_sv": "tofflor – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Tofflor: Mjuka inneskor med öppen häl. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_41",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23281,14 +23281,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1226,
-    "meaning_sv": "kanna – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Kanna: Handtag och tydlig hällpip. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_46",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23300,14 +23300,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1227,
-    "meaning_sv": "matlåda – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Matlåda: Öppningsbar lunchlåda med fack. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_54",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23414,14 +23414,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1233,
-    "meaning_sv": "plastpåse – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Plastpåse: Genomskinlig påse med två bärhandtag. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_80",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23642,14 +23642,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1245,
-    "meaning_sv": "baddräkt – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Baddräkt: Ett sammanhängande badplagg med axelband. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_22_53",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23775,14 +23775,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1252,
-    "meaning_sv": "badbyxor – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Badbyxor: Korta badbyxor med dragsko. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_22_76",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -24079,14 +24079,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1268,
-    "meaning_sv": "modellera – betydelsen ska avgränsas inom bildmaterial före bildgenerering.",
+    "meaning_sv": "Modellera: Färgad formbar deg i tydliga former. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_23_69",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -24810,13 +24810,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1307,
-    "meaning_sv": "såg – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Såg: Sågtänder längs ett brett blad. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_25_68",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -25224,13 +25224,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1330,
-    "meaning_sv": "bil – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Bil: Personbil med fyra hjul och passagerarutrymme. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_25_91",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -30822,13 +30822,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1641,
-    "meaning_sv": "gitarr – betydelsen ska avgränsas inom musik före bildgenerering.",
+    "meaning_sv": "Gitarr: Gitarrkropp med ljudhål och strängar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_23",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31182,13 +31182,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1661,
-    "meaning_sv": "soffa – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Soffa: Två sittdynor mellan armstöd och ryggstöd. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_24",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31290,13 +31290,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1667,
-    "meaning_sv": "hylla – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Hylla: Öppna hyllplan utan dörrar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_27",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31758,13 +31758,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1693,
-    "meaning_sv": "piano – betydelsen ska avgränsas inom musik före bildgenerering.",
+    "meaning_sv": "Piano: Pianots svartvita tangenter och upprätta hölje. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_46",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31830,13 +31830,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1697,
-    "meaning_sv": "garderob – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Garderob: Högt klädskåp med klädstång. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_46",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31866,13 +31866,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1699,
-    "meaning_sv": "skidor – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Skidor: Långa skidor med uppböjda spetsar och bindningar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_47",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32046,13 +32046,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1709,
-    "meaning_sv": "nyckel – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Nyckel: Nyckelhuvud och tandad nyckelstam. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_54",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32478,13 +32478,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1733,
-    "meaning_sv": "hörlurar – betydelsen ska avgränsas inom musik före bildgenerering.",
+    "meaning_sv": "Hörlurar: Två öronkåpor med ljudkabel. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_63",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32982,13 +32982,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1761,
-    "meaning_sv": "lakan – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Lakan: Vitt lakan med resårhörn runt madrass. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_78",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33378,13 +33378,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1783,
-    "meaning_sv": "hammare – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Hammare: Slagyta och klo på hammarskaftet. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_86",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33396,13 +33396,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1784,
-    "meaning_sv": "högtalare – betydelsen ska avgränsas inom musik före bildgenerering.",
+    "meaning_sv": "Högtalare: Två runda högtalarelement i ett hölje. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_94",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33648,13 +33648,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1798,
-    "meaning_sv": "motorcykel – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Motorcykel: Två hjul med motor under sadeln. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_04",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33738,13 +33738,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1803,
-    "meaning_sv": "kylskåp – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Kylskåp: Öppen kyl med hyllor och dörrfack. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_92",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33864,13 +33864,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1810,
-    "meaning_sv": "brevlåda – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Brevlåda: Brevinkast ovanför större lucka. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_15",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34026,13 +34026,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1819,
-    "meaning_sv": "spik – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Spik: Platt huvud och vass spets på raka spikar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_96",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34062,13 +34062,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1821,
-    "meaning_sv": "skridskor – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Skridskor: Skridskoskena under varje sko. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_97",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34746,13 +34746,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1859,
-    "meaning_sv": "ugn – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Ugn: Nedfälld glaslucka och invändiga ugnsgaller. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_04",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34944,13 +34944,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1870,
-    "meaning_sv": "mikrofon – betydelsen ska avgränsas inom musik före bildgenerering.",
+    "meaning_sv": "Mikrofon: Rund nätklädd kapsel på ett handtag. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_61",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34998,13 +34998,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1873,
-    "meaning_sv": "dammsugare – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Dammsugare: Dammsugarkropp med slang och golvmunstycke. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_64",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35070,13 +35070,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1877,
-    "meaning_sv": "skruv – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Skruv: Gängor längs skaftet och skruvhuvud. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_68",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35376,13 +35376,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1894,
-    "meaning_sv": "krok – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Krok: Uppåtböjd krok med fästplatta. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_81",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36618,13 +36618,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1963,
-    "meaning_sv": "brödrost – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Brödrost: Två brödfack och nedtryckningsspak. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_38",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36636,13 +36636,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1964,
-    "meaning_sv": "flytväst – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Flytväst: Orange flytmaterial med krage och spänne. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_25",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36870,13 +36870,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1977,
-    "meaning_sv": "durkslag – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Durkslag: Skål med många avrinningshål. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_51",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36960,13 +36960,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1982,
-    "meaning_sv": "basketboll – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Basketboll: Orange boll med svarta böjda sömmar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_56",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36978,13 +36978,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1983,
-    "meaning_sv": "bunke – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Bunke: Djup öppen skål utan hål. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_57",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -37014,13 +37014,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1985,
-    "meaning_sv": "tratt – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Tratt: Bred kon som smalnar till ett rör. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_59",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -37122,13 +37122,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1991,
-    "meaning_sv": "visselpipa – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Visselpipa: Munstycke och luftöppning på visselpipa. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_65",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -37140,13 +37140,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1992,
-    "meaning_sv": "tennisboll – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Tennisboll: Gulgrön boll med vita böjda sömmar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_66",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -37194,13 +37194,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1995,
-    "meaning_sv": "tennisracket – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Tennisracket: Ovalt strängat racket med långt handtag. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_69",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -37230,13 +37230,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1997,
-    "meaning_sv": "knäskydd – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Knäskydd: Två böjda skyddsskal med fästremmar. Avser föremålet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_71",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"

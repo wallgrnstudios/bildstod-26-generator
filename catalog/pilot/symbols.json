@@ -4033,5 +4033,2005 @@
     "generation_enabled": true,
     "generation_priority": 1,
     "category": "kök och bakning"
+  },
+  {
+    "id": "FSK_15_12",
+    "text_sv": "pizza",
+    "symbol_type": "object",
+    "meaning_sv": "Pizza: Rund pizza med tydliga trekantiga bitar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One whole round cheese and tomato pizza, one triangular slice separated slightly to reveal cut edges. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Rund pizza med tydliga trekantiga bitar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "pannkaka"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_16_25",
+    "text_sv": "korv",
+    "symbol_type": "object",
+    "meaning_sv": "Korv: Avlång korv tydligt placerad i bröd. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One cooked sausage in a plain split hot-dog bun, sausage visibly extending beyond bun ends, no sauce. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Avlång korv tydligt placerad i bröd"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "bröd"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_17_46",
+    "text_sv": "ris",
+    "symbol_type": "object",
+    "meaning_sv": "Ris: Många synliga avlånga vita riskorn. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One small white bowl filled with distinct slender cooked white rice grains, no cutlery. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Många synliga avlånga vita riskorn"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "gröt"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_17_58",
+    "text_sv": "hamburgare",
+    "symbol_type": "object",
+    "meaning_sv": "Hamburgare: Brödhalvor med synlig burgare emellan. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One hamburger with two sesame bun halves, one brown patty, green lettuce and a slice of tomato in visible layers. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Brödhalvor med synlig burgare emellan"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "smörgås"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_18_06",
+    "text_sv": "lax",
+    "symbol_type": "object",
+    "meaning_sv": "Lax: Rosa fiskfilé med ljusa fettlinjer. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One raw salmon fillet with pink-orange flesh and characteristic fine white curved fat lines, no whole fish. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Rosa fiskfilé med ljusa fettlinjer"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "kött"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_18_07",
+    "text_sv": "bönor",
+    "symbol_type": "object",
+    "meaning_sv": "Bönor: Bönornas njurform och synliga fröfäste. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Six kidney beans, curved kidney shapes with visible pale hilum marks, one green bean pod opened beside them. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Bönornas njurform och synliga fröfäste"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "ärtor"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_18_85",
+    "text_sv": "gröt",
+    "symbol_type": "object",
+    "meaning_sv": "Gröt: Skål med tjock havregröt. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One white bowl of creamy pale oat porridge with fine visible oat flakes and a small blue spoon beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Skål med tjock havregröt"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "ris"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_18_98",
+    "text_sv": "köttbullar",
+    "symbol_type": "object",
+    "meaning_sv": "Köttbullar: Små runda bruna köttbullar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Five small round cooked Swedish meatballs on a plain white plate, no pasta or sauce. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Små runda bruna köttbullar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "korv"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_95",
+    "text_sv": "majs",
+    "symbol_type": "object",
+    "meaning_sv": "Majs: Majskolvens rader av gula korn. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One yellow corn cob partly wrapped in green husk, orderly rows of plump kernels visible. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Majskolvens rader av gula korn"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "banan"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_47",
+    "text_sv": "linser",
+    "symbol_type": "object",
+    "meaning_sv": "Linser: Små platta runda linser. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "A small white bowl of dry orange-red lentils with several flat round lentils beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Små platta runda linser"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "bönor"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_73",
+    "text_sv": "makaroner",
+    "symbol_type": "object",
+    "meaning_sv": "Makaroner: Korta böjda pastarör med hål. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "A small white bowl containing cooked short curved elbow macaroni, hollow openings visible on several pieces. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Korta böjda pastarör med hål"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "spaghetti"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_74",
+    "text_sv": "potatismos",
+    "symbol_type": "object",
+    "meaning_sv": "Potatismos: Mjukt potatismos utan hela potatisar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One mound of pale creamy mashed potato on a plain white plate, soft spoon-made ridges, no whole potatoes. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Mjukt potatismos utan hela potatisar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "ris"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_75",
+    "text_sv": "ärtor",
+    "symbol_type": "object",
+    "meaning_sv": "Ärtor: Runda gröna ärtor i öppen balja. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One open green pea pod with round green peas in a row and four loose peas beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Runda gröna ärtor i öppen balja"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "bönor"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_76",
+    "text_sv": "broccoli",
+    "symbol_type": "object",
+    "meaning_sv": "Broccoli: Gröna täta buketter på förgrenad stjälk. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One fresh broccoli head with many tiny green buds clustered on thick branching light-green stems. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Gröna täta buketter på förgrenad stjälk"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "blomkål"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_86",
+    "text_sv": "lasagne",
+    "symbol_type": "object",
+    "meaning_sv": "Lasagne: Tydligt skiktad pastabit med osttäcke. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One square slice of baked lasagne showing alternating flat pasta sheets, tomato filling and pale sauce, browned cheese top. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Tydligt skiktad pastabit med osttäcke"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "pizza"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_29",
+    "text_sv": "spaghetti",
+    "symbol_type": "object",
+    "meaning_sv": "Spaghetti: Långa tunna pastatrådar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One plain white plate of long thin cooked spaghetti strands loosely coiled, a few long strands extending visibly, no sauce. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Långa tunna pastatrådar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "makaroner"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_18_44",
+    "text_sv": "vitlök",
+    "symbol_type": "object",
+    "meaning_sv": "Vitlök: Vitlöksklyftor och sammansatt lök. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One whole white garlic bulb and two separated cloves, one clove peeled, papery skin visible. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Vitlöksklyftor och sammansatt lök"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "lök"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_16",
+    "text_sv": "pumpa",
+    "symbol_type": "object",
+    "meaning_sv": "Pumpa: Orange räfflad pumpa med skaft. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One round orange pumpkin with deep vertical ribs and a short green-brown stalk. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Orange räfflad pumpa med skaft"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "melon"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_60",
+    "text_sv": "blåbär",
+    "symbol_type": "object",
+    "meaning_sv": "Blåbär: Blå bär med tydlig krona. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Seven round blue blueberries with pale waxy bloom and five-pointed crowns clearly visible, no leaves. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Blå bär med tydlig krona"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "vindruvor"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_71",
+    "text_sv": "tomat",
+    "symbol_type": "object",
+    "meaning_sv": "Tomat: Röd tomat med grönt fäste och frörum. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One whole ripe red tomato with a green star-shaped calyx and one cut half revealing seed chambers. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Röd tomat med grönt fäste och frörum"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "äpple"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_77",
+    "text_sv": "citron",
+    "symbol_type": "object",
+    "meaning_sv": "Citron: Gult ovalt skal och citrussegment. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One yellow lemon with pointed ends and one cut half showing pale-yellow citrus segments. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Gult ovalt skal och citrussegment"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "apelsin"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_99",
+    "text_sv": "paprika",
+    "symbol_type": "object",
+    "meaning_sv": "Paprika: Ihålig paprika med fröhål och grönt skaft. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One red bell pepper with thick green stalk and lobed body, cut half showing hollow inside and pale seed cluster. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Ihålig paprika med fröhål och grönt skaft"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "tomat"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_07",
+    "text_sv": "hallon",
+    "symbol_type": "object",
+    "meaning_sv": "Hallon: Hallonens små delfrukter och håliga mitt. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Five red raspberries made of many small rounded drupelets, one hollow berry opening visible. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Hallonens små delfrukter och håliga mitt"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "jordgubbe"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_25",
+    "text_sv": "ananas",
+    "symbol_type": "object",
+    "meaning_sv": "Ananas: Rutigt skal och spetsig bladkrona. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pineapple with diamond-patterned brown-gold rind and stiff pointed green leaf crown. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Rutigt skal och spetsig bladkrona"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "pumpa"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_30",
+    "text_sv": "russin",
+    "symbol_type": "object",
+    "meaning_sv": "Russin: Små mörka skrynkliga torkade druvor. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "A small pile of dark wrinkled raisins with separate irregular oval pieces clearly visible. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Små mörka skrynkliga torkade druvor"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "blåbär"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_34",
+    "text_sv": "lingon",
+    "symbol_type": "object",
+    "meaning_sv": "Lingon: Små runda röda bär med ovala blad. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Seven small round glossy red lingonberries, two attached to a short stem with thick oval green leaves. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Små runda röda bär med ovala blad"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "hallon"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_43",
+    "text_sv": "lime",
+    "symbol_type": "object",
+    "meaning_sv": "Lime: Grönt skal och ljusa citrussegment. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One green lime and one cut half showing greenish pale citrus segments, slightly smaller rounder shape than a lemon. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Grönt skal och ljusa citrussegment"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "citron"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_98",
+    "text_sv": "avokado",
+    "symbol_type": "object",
+    "meaning_sv": "Avokado: Stor rund kärna i grön frukthalva. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pear-shaped avocado half with a single large brown round pit and pale-green flesh, whole dark-green avocado beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Stor rund kärna i grön frukthalva"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "päron"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_22",
+    "text_sv": "mango",
+    "symbol_type": "object",
+    "meaning_sv": "Mango: Orange fruktkött och oval mangofrukt. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One oval red-yellow mango and one cut cheek with orange flesh scored into a grid of raised cubes. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Orange fruktkött och oval mangofrukt"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "avokado"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_36",
+    "text_sv": "melon",
+    "symbol_type": "object",
+    "meaning_sv": "Melon: Grönrandigt skal och rött fruktkött. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One round striped green watermelon and one triangular cut wedge with red flesh, black seeds and white-green rind. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Grönrandigt skal och rött fruktkött"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "pumpa"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_15_30",
+    "text_sv": "väst",
+    "symbol_type": "object",
+    "meaning_sv": "Väst: Ärmlöst plagg med två armöppningar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean sleeveless blue padded vest, open front zipper, two large armholes and short stand-up collar, unoccupied. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Ärmlöst plagg med två armöppningar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "jacka"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_17_10",
+    "text_sv": "jeans",
+    "symbol_type": "object",
+    "meaning_sv": "Jeans: Långa jeansben med fickor och nitdetaljer. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pair of clean blue denim jeans laid flat, long trouser legs, belt loops, front pockets and copper-colored rivets. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Långa jeansben med fickor och nitdetaljer"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "shorts"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_18_21",
+    "text_sv": "skjorta",
+    "symbol_type": "object",
+    "meaning_sv": "Skjorta: Krage och knappslå längs hela framstycket. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean light-blue collared shirt laid flat, long sleeves with cuffs and a continuous central row of white buttons. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Krage och knappslå längs hela framstycket"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "t-shirt"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_18_80",
+    "text_sv": "trosor",
+    "symbol_type": "object",
+    "meaning_sv": "Trosor: Midjeresår och två benöppningar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pair of new clean white cotton briefs laid flat, broad waistband and two clearly separated leg openings, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Midjeresår och två benöppningar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "blöja"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_33",
+    "text_sv": "handskar",
+    "symbol_type": "object",
+    "meaning_sv": "Handskar: Fem fingerdelar på varje handske. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One matching pair of clean red winter gloves, five distinct finger sections on each glove and ribbed cuffs, no hands. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Fem fingerdelar på varje handske"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "vantar"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_67",
+    "text_sv": "kjol",
+    "symbol_type": "object",
+    "meaning_sv": "Kjol: Kjol med en sammanhängande nedre öppning. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean blue knee-length A-line skirt laid flat, single waistband and one wide undivided hem opening, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Kjol med en sammanhängande nedre öppning"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "shorts"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_83",
+    "text_sv": "kalsonger",
+    "symbol_type": "object",
+    "meaning_sv": "Kalsonger: Midjeresår och två korta ben. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pair of new clean blue boxer briefs laid flat, elastic waistband and two short fitted legs, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Midjeresår och två korta ben"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "blöja"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_05",
+    "text_sv": "linne",
+    "symbol_type": "object",
+    "meaning_sv": "Linne: Två axelband och ärmlösa sidor. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean white sleeveless cotton undershirt laid flat, two broad shoulder straps, round neckline and straight hem. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två axelband och ärmlösa sidor"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "t-shirt"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_07",
+    "text_sv": "blus",
+    "symbol_type": "object",
+    "meaning_sv": "Blus: Lätt tygplagg med krage och knappar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean pale-blue blouse with soft rounded collar, three-quarter sleeves and small front buttons, laid flat, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Lätt tygplagg med krage och knappar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "t-shirt"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_41",
+    "text_sv": "tofflor",
+    "symbol_type": "object",
+    "meaning_sv": "Tofflor: Mjuka inneskor med öppen häl. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One matching pair of clean blue indoor slippers, closed rounded toes, soft soles and clearly open backs, no feet. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Mjuka inneskor med öppen häl"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "skor"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_15_94",
+    "text_sv": "flaska",
+    "symbol_type": "object",
+    "meaning_sv": "Flaska: Smal flaskhals och tydlig tom behållare. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One empty clear glass bottle, cylindrical body, narrow neck and screw cap beside it, no drinking spout. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Smal flaskhals och tydlig tom behållare"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "vattenflaska"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_16_17",
+    "text_sv": "kopp",
+    "symbol_type": "object",
+    "meaning_sv": "Kopp: En öppen kopp med öra. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One plain white ceramic cup with one blue loop handle and visible open rim, no saucer or contents. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "En öppen kopp med öra"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "glas"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_17_41",
+    "text_sv": "burk",
+    "symbol_type": "object",
+    "meaning_sv": "Burk: Bred öppning och separat skruvlock. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One empty clear glass storage jar with wide circular mouth and a separate blue screw lid beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Bred öppning och separat skruvlock"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "flaska"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_59",
+    "text_sv": "lock",
+    "symbol_type": "object",
+    "meaning_sv": "Lock: Platt runt lock med upphöjd kant. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One single round blue plastic food-container lid, shallow raised rim and a small grip tab, no container. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Platt runt lock med upphöjd kant"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "tallrik"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_68",
+    "text_sv": "duk",
+    "symbol_type": "object",
+    "meaning_sv": "Duk: Ren duk som hänger över bordets kanter. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean white rectangular tablecloth draped over a simple small table, even fabric hangs over all four edges, no other objects. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Ren duk som hänger över bordets kanter"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "filt"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_81",
+    "text_sv": "bricka",
+    "symbol_type": "object",
+    "meaning_sv": "Bricka: Upphöjd kant och två handtag. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One rectangular blue serving tray with raised continuous rim and two integrated short-end handles, viewed from above at an angle. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Upphöjd kant och två handtag"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "tallrik"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_12",
+    "text_sv": "tång",
+    "symbol_type": "object",
+    "meaning_sv": "Tång: Två sammanfogade armar med greppändar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pair of stainless-steel kitchen serving tongs, two long arms joined at one end and scalloped gripping tips separated at the other. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två sammanfogade armar med greppändar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "sax"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_46",
+    "text_sv": "kanna",
+    "symbol_type": "object",
+    "meaning_sv": "Kanna: Handtag och tydlig hällpip. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One transparent water jug with broad body, one large blue handle and a clear projecting pouring spout, empty. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Handtag och tydlig hällpip"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "flaska"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_80",
+    "text_sv": "plastpåse",
+    "symbol_type": "object",
+    "meaning_sv": "Plastpåse: Genomskinlig påse med två bärhandtag. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One empty transparent reusable plastic carrier bag with two integrated loop handles and visible bottom seam. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Genomskinlig påse med två bärhandtag"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "väska"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_16_12",
+    "text_sv": "väska",
+    "symbol_type": "object",
+    "meaning_sv": "Väska: Väska med bärhandtag och dragkedja. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean blue small duffel bag with two carrying handles, zippered top and clearly visible rounded rectangular bag body. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Väska med bärhandtag och dragkedja"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "ryggsäck"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_17_11",
+    "text_sv": "knapp",
+    "symbol_type": "object",
+    "meaning_sv": "Knapp: Rund knapp med fyra syhål. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One single round blue clothing button viewed from above, exactly four small sewing holes in a square arrangement. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Rund knapp med fyra syhål"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "mynt"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_24",
+    "text_sv": "ficka",
+    "symbol_type": "object",
+    "meaning_sv": "Ficka: Tygficka med öppen överkant och sydda sidor. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Close-up of one square blue denim patch pocket sewn onto a small flat section of blue fabric, open upper edge clearly visible. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Tygficka med öppen överkant och sydda sidor"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "väska"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_58",
+    "text_sv": "bälte",
+    "symbol_type": "object",
+    "meaning_sv": "Bälte: Spänne och hål på ett långt bälte. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One blue fabric trouser belt curved into a loose oval, silver rectangular buckle and visible adjustment holes near free end. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Spänne och hål på ett långt bälte"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "snöre"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_12",
+    "text_sv": "solglasögon",
+    "symbol_type": "object",
+    "meaning_sv": "Solglasögon: Två mörka glas och skalmar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pair of black sunglasses with two dark tinted lenses, connected nose bridge and two folded temple arms. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två mörka glas och skalmar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "glasögon"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_72",
+    "text_sv": "paraply",
+    "symbol_type": "object",
+    "meaning_sv": "Paraply: Utfällt regnskydd och böjt handtag. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One open red umbrella with rounded canopy, visible slender ribs underneath, central shaft and curved handle. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Utfällt regnskydd och böjt handtag"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "tält"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_26",
+    "text_sv": "reflex",
+    "symbol_type": "object",
+    "meaning_sv": "Reflex: Ljus prismatisk reflex med fästsnöre. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One silver-white round hanging safety reflector with subtle prismatic surface pattern and a short black attachment cord. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Ljus prismatisk reflex med fästsnöre"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "knapp"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_54",
+    "text_sv": "matlåda",
+    "symbol_type": "object",
+    "meaning_sv": "Matlåda: Öppningsbar lunchlåda med fack. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One open blue rectangular lunch box, hinged lid fully visible and two simple empty compartments inside, no food. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Öppningsbar lunchlåda med fack"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "bricka"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_22_53",
+    "text_sv": "baddräkt",
+    "symbol_type": "object",
+    "meaning_sv": "Baddräkt: Ett sammanhängande badplagg med axelband. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean blue one-piece swimsuit laid flat, two shoulder straps and joined torso with two leg openings, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Ett sammanhängande badplagg med axelband"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "linne"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_22_76",
+    "text_sv": "badbyxor",
+    "symbol_type": "object",
+    "meaning_sv": "Badbyxor: Korta badbyxor med dragsko. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pair of clean blue swim trunks with short legs, elastic waistband and visible drawstring, laid flat, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Korta badbyxor med dragsko"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "jeans"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_54",
+    "text_sv": "lera",
+    "symbol_type": "object",
+    "meaning_sv": "Lera: Formbar lera med ett tryckmärke. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One soft lump of clean terracotta modeling clay, one pressed thumb indentation and smooth pliable folded surface. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Formbar lera med ett tryckmärke"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "sten"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_79",
+    "text_sv": "lim",
+    "symbol_type": "object",
+    "meaning_sv": "Lim: Limflaska med smal doseringspip. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One upright white school liquid-glue bottle with blue pointed dispensing nozzle and a small white glue drop at its tip, no lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Limflaska med smal doseringspip"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "limstift"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_21_09",
+    "text_sv": "stämpel",
+    "symbol_type": "object",
+    "meaning_sv": "Stämpel: Handtag över en plan stämpelyta. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One small rubber stamp with rounded blue handle, flat rectangular rubber printing base visible below it, no ink imprint or text. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Handtag över en plan stämpelyta"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "limstift"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_23_69",
+    "text_sv": "modellera",
+    "symbol_type": "object",
+    "meaning_sv": "Modellera: Färgad formbar deg i tydliga former. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Three fresh bright red blue and yellow modeling-dough lumps, one rolled into a coil and one shaped into a ball. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Färgad formbar deg i tydliga former"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "lera"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_17_02",
+    "text_sv": "lastbil",
+    "symbol_type": "object",
+    "meaning_sv": "Lastbil: Förarhytt och stort lastutrymme. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One blue delivery truck in side three-quarter view, separate driver cab, large rectangular cargo box and six correctly attached wheels. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Förarhytt och stort lastutrymme"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "bil"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_19_04",
+    "text_sv": "kula",
+    "symbol_type": "object",
+    "meaning_sv": "Kula: Runda glaskulor med färgade slingor. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Five small glass toy marbles, spherical transparent bodies with colored swirls inside and subtle bright highlights. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Runda glaskulor med färgade slingor"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "pärla"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_53",
+    "text_sv": "jojo",
+    "symbol_type": "object",
+    "meaning_sv": "Jojo: Två runda halvor och ett snöre i mitten. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One red toy yo-yo with two round equal halves joined by a short central axle, thin white string wound into center groove and looped end beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två runda halvor och ett snöre i mitten"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "boll"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_20_63",
+    "text_sv": "polisbil",
+    "symbol_type": "object",
+    "meaning_sv": "Polisbil: Blågula markeringar och blåljusramp. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One modern Swedish-style police car, white body with blue and fluorescent-yellow panels and blue roof light bar, no lettering or insignia. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Blågula markeringar och blåljusramp"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "ambulans"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_25_68",
+    "text_sv": "såg",
+    "symbol_type": "object",
+    "meaning_sv": "Såg: Sågtänder längs ett brett blad. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One ordinary hand saw with a blue closed grip handle and broad silver blade with clearly visible triangular teeth along one edge. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Sågtänder längs ett brett blad"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "kniv"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_86",
+    "text_sv": "hammare",
+    "symbol_type": "object",
+    "meaning_sv": "Hammare: Slagyta och klo på hammarskaftet. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One claw hammer, clean light-wood handle joined to steel head, flat striking face at one end and curved split claw at the other. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Slagyta och klo på hammarskaftet"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "såg"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_96",
+    "text_sv": "spik",
+    "symbol_type": "object",
+    "meaning_sv": "Spik: Platt huvud och vass spets på raka spikar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "Three straight steel nails, each with a flat circular head, smooth long shaft and pointed tip. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Platt huvud och vass spets på raka spikar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "skruv"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_31_68",
+    "text_sv": "skruv",
+    "symbol_type": "object",
+    "meaning_sv": "Skruv: Gängor längs skaftet och skruvhuvud. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One large steel wood screw, visible spiral threads along shaft, pointed tip and cross-shaped recess in head. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Gängor längs skaftet och skruvhuvud"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "spik"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_31_81",
+    "text_sv": "krok",
+    "symbol_type": "object",
+    "meaning_sv": "Krok: Uppåtböjd krok med fästplatta. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One single metal wall coat hook fixed to a small plain mounting plate, curved upward hook end clearly visible, no clothing. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Uppåtböjd krok med fästplatta"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "spik"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_30_23",
+    "text_sv": "gitarr",
+    "symbol_type": "object",
+    "meaning_sv": "Gitarr: Gitarrkropp med ljudhål och strängar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One ordinary acoustic guitar, light natural wood rounded body, round sound hole, six strings, long fretted neck and six tuning pegs. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Gitarrkropp med ljudhål och strängar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "fiol"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_30_46",
+    "text_sv": "piano",
+    "symbol_type": "object",
+    "meaning_sv": "Piano: Pianots svartvita tangenter och upprätta hölje. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One modern upright black piano with uncovered alternating white and black keyboard, closed upper case and three brass pedals, no stool. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Pianots svartvita tangenter och upprätta hölje"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "gitarr"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_30_63",
+    "text_sv": "hörlurar",
+    "symbol_type": "object",
+    "meaning_sv": "Hörlurar: Två öronkåpor med ljudkabel. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One pair of ordinary blue wired over-ear headphones, two cushioned ear cups linked by a curved headband and one thin audio cable. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två öronkåpor med ljudkabel"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "hörselkåpor"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_30_94",
+    "text_sv": "högtalare",
+    "symbol_type": "object",
+    "meaning_sv": "Högtalare: Två runda högtalarelement i ett hölje. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One black rectangular standalone loudspeaker, large circular woofer and smaller circular tweeter clearly visible on front, no lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två runda högtalarelement i ett hölje"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "radio"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_31_61",
+    "text_sv": "mikrofon",
+    "symbol_type": "object",
+    "meaning_sv": "Mikrofon: Rund nätklädd kapsel på ett handtag. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One handheld microphone, rounded dark metal mesh grille above a slender blue handle with one small switch, no cable. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Rund nätklädd kapsel på ett handtag"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "ficklampa"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_25_91",
+    "text_sv": "bil",
+    "symbol_type": "object",
+    "meaning_sv": "Bil: Personbil med fyra hjul och passagerarutrymme. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One ordinary red passenger car, compact closed body, four correctly attached wheels, clear front windshield and side windows, no lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Personbil med fyra hjul och passagerarutrymme"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "lastbil"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_31_04",
+    "text_sv": "motorcykel",
+    "symbol_type": "object",
+    "meaning_sv": "Motorcykel: Två hjul med motor under sadeln. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One blue motorcycle in side view, exactly two wheels, exposed engine, fuel tank, saddle and handlebars, no rider. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två hjul med motor under sadeln"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "cykel"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_47",
+    "text_sv": "skidor",
+    "symbol_type": "object",
+    "meaning_sv": "Skidor: Långa skidor med uppböjda spetsar och bindningar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One matching pair of long blue skis lying parallel, upturned front tips and clearly visible foot bindings, no poles or skier. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Långa skidor med uppböjda spetsar och bindningar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "skridskor"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_97",
+    "text_sv": "skridskor",
+    "symbol_type": "object",
+    "meaning_sv": "Skridskor: Skridskoskena under varje sko. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One matching pair of clean black ice-skating boots with white laces, one slender silver blade securely attached beneath each boot. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Skridskoskena under varje sko"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "skor"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_29_25",
+    "text_sv": "flytväst",
+    "symbol_type": "object",
+    "meaning_sv": "Flytväst: Orange flytmaterial med krage och spänne. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean bright-orange life jacket, two broad padded front panels, raised padded collar, central zipper and black waist fastening, unoccupied. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Orange flytmaterial med krage och spänne"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "väst"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_56",
+    "text_sv": "basketboll",
+    "symbol_type": "object",
+    "meaning_sv": "Basketboll: Orange boll med svarta böjda sömmar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One orange basketball with characteristic thick black curved panel seams and fine pebbled surface texture. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Orange boll med svarta böjda sömmar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "fotboll"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_66",
+    "text_sv": "tennisboll",
+    "symbol_type": "object",
+    "meaning_sv": "Tennisboll: Gulgrön boll med vita böjda sömmar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One fluorescent yellow-green tennis ball with two curved white felt seams and soft fuzzy surface. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Gulgrön boll med vita böjda sömmar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "basketboll"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_69",
+    "text_sv": "tennisracket",
+    "symbol_type": "object",
+    "meaning_sv": "Tennisracket: Ovalt strängat racket med långt handtag. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One blue tennis racket, oval frame with a regular crossed string grid and one long straight handle wrapped in black grip. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Ovalt strängat racket med långt handtag"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "håv"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_65",
+    "text_sv": "visselpipa",
+    "symbol_type": "object",
+    "meaning_sv": "Visselpipa: Munstycke och luftöppning på visselpipa. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One blue sports whistle, short mouthpiece connected to a compact hollow body, visible top air opening and small ring at back. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Munstycke och luftöppning på visselpipa"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "flöjt"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_71",
+    "text_sv": "knäskydd",
+    "symbol_type": "object",
+    "meaning_sv": "Knäskydd: Två böjda skyddsskal med fästremmar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One matching pair of clean black protective knee pads, each with a hard curved front shell, soft backing and two fastening straps. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två böjda skyddsskal med fästremmar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "hjälm"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_54",
+    "text_sv": "nyckel",
+    "symbol_type": "object",
+    "meaning_sv": "Nyckel: Nyckelhuvud och tandad nyckelstam. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One ordinary silver door key with a flat rounded head, circular keyring hole and long shaft with distinct cut teeth along one edge. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Nyckelhuvud och tandad nyckelstam"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "skruv"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_30_78",
+    "text_sv": "lakan",
+    "symbol_type": "object",
+    "meaning_sv": "Lakan: Vitt lakan med resårhörn runt madrass. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean bright-WHITE fitted bedsheet stretched over a simple rectangular mattress, elastic corner gathering visible, no pillow or blanket. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Vitt lakan med resårhörn runt madrass"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "filt"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_31_64",
+    "text_sv": "dammsugare",
+    "symbol_type": "object",
+    "meaning_sv": "Dammsugare: Dammsugarkropp med slang och golvmunstycke. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One modern blue canister vacuum cleaner, compact wheeled body connected by a ribbed flexible hose to a rigid tube and flat floor nozzle. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Dammsugarkropp med slang och golvmunstycke"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "hårtork"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_24",
+    "text_sv": "soffa",
+    "symbol_type": "object",
+    "meaning_sv": "Soffa: Två sittdynor mellan armstöd och ryggstöd. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean modern blue two-seat sofa, padded back, two seat cushions, two low armrests and four short legs, no people. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två sittdynor mellan armstöd och ryggstöd"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "säng"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_27",
+    "text_sv": "hylla",
+    "symbol_type": "object",
+    "meaning_sv": "Hylla: Öppna hyllplan utan dörrar. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One simple freestanding light-wood shelving unit with four open horizontal shelves between two vertical side panels, empty. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Öppna hyllplan utan dörrar"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "garderob"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_46",
+    "text_sv": "garderob",
+    "symbol_type": "object",
+    "meaning_sv": "Garderob: Högt klädskåp med klädstång. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One modern tall white wardrobe with two closed full-height doors, two vertical handles and one door slightly open revealing a hanging rail. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Högt klädskåp med klädstång"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "hylla"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_31_15",
+    "text_sv": "brevlåda",
+    "symbol_type": "object",
+    "meaning_sv": "Brevlåda: Brevinkast ovanför större lucka. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One ordinary blue outdoor letterbox on a short post, narrow horizontal letter slot beneath a small flap and larger retrieval door below, no lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Brevinkast ovanför större lucka"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "soptunna"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_28_92",
+    "text_sv": "kylskåp",
+    "symbol_type": "object",
+    "meaning_sv": "Kylskåp: Öppen kyl med hyllor och dörrfack. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One modern clean white upright refrigerator, main door open showing empty shelves, crisper drawer and door racks, no food. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Öppen kyl med hyllor och dörrfack"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "garderob"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_29_04",
+    "text_sv": "ugn",
+    "symbol_type": "object",
+    "meaning_sv": "Ugn: Nedfälld glaslucka och invändiga ugnsgaller. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One modern clean white freestanding oven, front glass door open downward showing metal racks inside, four control knobs above, no food. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Nedfälld glaslucka och invändiga ugnsgaller"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "diskmaskin"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_38",
+    "text_sv": "brödrost",
+    "symbol_type": "object",
+    "meaning_sv": "Brödrost: Två brödfack och nedtryckningsspak. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One modern clean white two-slot toaster, two visible upper bread slots, side lever and small round browning dial, no bread. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Två brödfack och nedtryckningsspak"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "ugn"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_51",
+    "text_sv": "durkslag",
+    "symbol_type": "object",
+    "meaning_sv": "Durkslag: Skål med många avrinningshål. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean stainless-steel kitchen colander, bowl covered in many small drainage holes, two side handles and a short circular foot. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Skål med många avrinningshål"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "bunke"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_57",
+    "text_sv": "bunke",
+    "symbol_type": "object",
+    "meaning_sv": "Bunke: Djup öppen skål utan hål. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean blue deep mixing bowl with wide open rim and smooth solid interior, no holes, no food or utensils. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Djup öppen skål utan hål"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "durkslag"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
+  },
+  {
+    "id": "FSK_32_59",
+    "text_sv": "tratt",
+    "symbol_type": "object",
+    "meaning_sv": "Tratt: Bred kon som smalnar till ett rör. Avser föremålet, inte en hel situation.",
+    "visual_prompt_en": "One clean blue plastic funnel, wide circular cone opening narrowing to a single straight tubular spout. Isolated on pure white. No people, decorative scenery, brand names or lettering.",
+    "must_show_sv": [
+      "Bred kon som smalnar till ett rör"
+    ],
+    "must_not_show_sv": [
+      "Personer eller en hel berättelse i samma bild"
+    ],
+    "contrast_terms_sv": [
+      "kanna"
+    ],
+    "generation_enabled": true,
+    "generation_priority": 1,
+    "review_status": "draft",
+    "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
   }
 ]

@@ -19,12 +19,14 @@ Ingen ARASAAC-bild, översättning eller katalogmetadata har importerats. Bildmo
 - `vocabulary-2000.txt`: läsbar ordlista. Radnummer är redaktionell ordning, inte statistisk frekvensrankning.
 - `summary.json`: antal och kategorifördelning.
 - `editorial-vocabulary.txt`: bredare kandidatunderlag, inte den slutliga 2 000-listan.
-- `ready-briefs.json`: egna individuella bildinstruktioner, avgörande detaljer och förväxlingsord för 109 tillkommande föremål.
+- `ready-briefs.json`: egna individuella bildinstruktioner, avgörande detaljer och förväxlingsord för 209 tillkommande föremål.
 
 `generation_ready` betyder att ett granskningsprov får genereras. `brief_required` kräver först en konkret bildinstruktion; `composition_required` kräver en uppdelning utan att meningen tillskrivs en enda bild; `convention_required` kräver vald symbolbetydelse. Det är automatiska beredningsstatusar, inte slutlig semantisk klassificering. En fras kan behöva en annan bedömning efter granskning.
 
-Den aktiva genereringskatalogen är fortsatt `catalog/pilot/symbols.json`: **201 aktiverade bildinstruktioner**, varav de tidigare 92 och 109 nya. Övriga 1 799 katalogposter kan inte ännu genereras automatiskt. Alla resultat är `pending_review`, aldrig automatiskt godkända. Illustrationsstil, vit bakgrund och 512 px behålls.
+Den aktiva genereringskatalogen är fortsatt `catalog/pilot/symbols.json`: **301 aktiverade bildinstruktioner**, varav de tidigare 92 och 209 nya. Övriga 1 699 katalogposter kan inte ännu genereras automatiskt. Alla resultat är `pending_review`, aldrig automatiskt godkända. Illustrationsstil, vit bakgrund och 512 px behålls.
 
 Bygg om med `python tools/build_school_vocabulary.py` från projektroten. Valfri redaktionell byggdependency: `wordfreq==3.1.1`; den behövs inte av bildgenerering eller validering i GitHub Actions. Tidigare ID:n återanvänds när posterna finns kvar. Byte av etikett eller nya urval kräver granskning av diffen och den publicerade kön.
 
 Webbgranskningen visar den tidigare publicerade omgången med 92 bilder tills en ny Sites-version publiceras. Att lägga ord i denna katalog publicerar inte några nya bilder eller granskningsbeslut på webbplatsen.
+
+`production-briefs.json` innehåller den senaste gruppens 100 individuellt skrivna föremålsbriefs. `python tools/prepare_production_queue.py` aktiverar dem med befintliga ordliste-ID:n. Verktyget lämnar tidigare aktiva instruktioner, stilundantag och granskningar orörda; upprepad körning är idempotent. Fras- och konventionsposter aktiveras inte av detta verktyg.
