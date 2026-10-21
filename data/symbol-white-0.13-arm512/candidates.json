@@ -2564,6 +2564,48 @@
       "sha256": "fe52af0e6d210027d5f84f399d3144d3a1f4a9b7e34bea4a5f7930929e1088cc"
     },
     {
+      "concept_id": "FSK_32_18",
+      "label_sv": "delfin",
+      "fingerprint": "49e99daf78e8a78f2964441e5e3f31983f6f142f907b2a9904e4666c01af5765",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One bottlenose dolphin in side view, smooth gray body, curved dorsal fin, projecting beak-like snout and horizontal tail flukes. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 252831116,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:53:26.470999+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Delfin: Slät kropp med horisontell stjärtfena. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Slät kropp med horisontell stjärtfena"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.049,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.086,
+      "sha256": "f9a9d4ecf12b52b498362c00e490d1b92ec7b2dee5f244497943d567466ee7c3"
+    },
+    {
       "concept_id": "FSK_32_51",
       "label_sv": "durkslag",
       "fingerprint": "2e97d2fbf60c1ca8fbbafced93faa97c788ff14cb2894149382fbc31c23073b8",
