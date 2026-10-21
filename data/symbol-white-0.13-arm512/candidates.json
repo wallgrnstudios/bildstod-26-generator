@@ -1430,6 +1430,48 @@
       "sha256": "f5d218e84941eb76f89c954b4dd4729f703cb9355aea48c90413bdf6a66855ec"
     },
     {
+      "concept_id": "FSK_31_33",
+      "label_sv": "kon",
+      "fingerprint": "6feab3c381571f2c8a7aee8346eab37d6ef23eb2c6192a6d947f7594931c9a82",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One bright-orange sports training cone, hollow conical body and broad flat square base, no markings or setting. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 195198875,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:39:38.604119+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Kon: Orange träningskon på bred kvadratisk fot. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Orange träningskon på bred kvadratisk fot"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.117,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.161,
+      "sha256": "56d3a692bb82dd412337adb01fba38de9045a9b149afb856804f4a930f8bc4d2"
+    },
+    {
       "concept_id": "FSK_32_15",
       "label_sv": "ekorre",
       "fingerprint": "16917841da45ed41c3ede117abb8778244be559d494618f5c10c9d5bef1886dc",
