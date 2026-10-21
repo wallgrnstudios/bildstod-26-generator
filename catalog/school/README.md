@@ -23,7 +23,23 @@ Ingen ARASAAC-bild, översättning eller katalogmetadata har importerats. Bildmo
 
 `generation_ready` betyder att ett granskningsprov får genereras. `brief_required` kräver först en konkret bildinstruktion; `composition_required` kräver en uppdelning utan att meningen tillskrivs en enda bild; `convention_required` kräver vald symbolbetydelse. Det är automatiska beredningsstatusar, inte slutlig semantisk klassificering. En fras kan behöva en annan bedömning efter granskning.
 
-Den aktiva genereringskatalogen är fortsatt `catalog/pilot/symbols.json`: **501 aktiverade bildinstruktioner**, varav de tidigare 92 och 409 nya. Övriga 1 499 katalogposter kan inte ännu genereras automatiskt. Alla resultat är `pending_review`, aldrig automatiskt godkända. Illustrationsstil, vit bakgrund och 512 px behålls.
+Den aktiva genereringskatalogen är fortsatt `catalog/pilot/symbols.json`: **804 aktiverade bildinstruktioner** (501 tidigare och 303 nya från `concept-resolutions.json`). Alla resultat är `pending_review`, aldrig automatiskt godkända. Illustrationsstil, vit bakgrund och 512 px behålls.
+
+## Genomarbetade poster: `concept-resolutions.json`
+
+Alla 1 499 poster som saknade bildinstruktion har en avgränsad betydelse (`meaning_sv`) inom sin kategori och exakt en dokumenterad lösning:
+
+| `resolution` | Status i ordlistan | Antal | Innebörd |
+|---|---|---:|---|
+| `standalone` | `generation_ready` | 303 | Självständigt motiv med `symbol_type` (`object` 120, `action` 113, `situation` 31, `body_part` 28, `person` 11), engelsk bildinstruktion, krav på synliga detaljer, förbjudna antydningar och förväxlingsord. |
+| `reuse` | `reuses_symbol` | 24 | Samma motiv som en befintlig symbol (`reuse_symbol_id`), t.ex. *villa* → hus. Ingen nästan identisk bild skapas. |
+| `composition` | `composition_defined` | 401 | Texten bevaras exakt och delas i `parts`; endast delar med matchande betydelse kopplas till symbol-ID. 160 har bara genereringsklara delar, 171 har minst en del som väntar på konvention, 70 har ännu ingen kopplad del. |
+| `convention_proposal` | `convention_proposed` | 637 | Förslag på bildkonvention (`proposal_sv`, `proposal_visual_en`) och granskningsfråga. **Inte pedagogiskt validerade och aldrig aktiverade.** Inkluderar *hjälp* och *paus*. |
+| `open_question` | `decision_required` | 134 | Betydelsen kan inte avgöras utan mänskligt beslut (`question_sv`, `options_sv`), t.ex. flertydiga ord. |
+
+Beredningsverktyget lägger till en typberoende mall: föremål utesluter personer; handlingar visar själva rörelsen och bara de personer som behövs; personer visar roll enbart genom konkreta attribut; kroppsdelar visas vänligt, icke-medicinskt och utan nakenhet. Släktskap och roller som inte syns på utseendet (t.ex. *mormor*, *rektor*) är konventionsförslag. Fraser kan aldrig bli fristående motiv, och väntande konventionssymboler kan inte aktiveras som motiv.
+
+Om en upprepad körning ändrar en post i `concept-resolutions.json` uppdateras ordlistan, men en redan aktiverad symbol i `symbols.json` skrivs aldrig om. Granskningskorrigeringar bevaras. Kör inte `build_school_vocabulary.py` utan att därefter köra `prepare_production_queue.py`, eftersom ombyggnaden återställer statusarna.
 
 Bygg om med `python tools/build_school_vocabulary.py` från projektroten. Valfri redaktionell byggdependency: `wordfreq==3.1.1`; den behövs inte av bildgenerering eller validering i GitHub Actions. Tidigare ID:n återanvänds när posterna finns kvar. Byte av etikett eller nya urval kräver granskning av diffen och den publicerade kön.
 

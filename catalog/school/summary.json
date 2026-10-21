@@ -74,15 +74,30 @@
     "år och väder": 22
   },
   "brief_status": {
-    "generation_ready": 501,
-    "convention_required": 458,
-    "composition_required": 474,
-    "brief_required": 567
+    "generation_ready": 804,
+    "convention_proposed": 637,
+    "decision_required": 134,
+    "composition_defined": 401,
+    "reuses_symbol": 24
   },
   "wordfreq_version": "3.1.1",
   "sources": [
     "https://www.spsm.se/stod-och-rad/sprak-och-kommunikation/alternativ-och-kompletterande-kommunikation/",
     "https://github.com/rspeer/wordfreq"
   ],
-  "images_or_arasaac_metadata_imported": false
+  "images_or_arasaac_metadata_imported": false,
+  "resolutions": {
+    "convention_proposal": 637,
+    "open_question": 134,
+    "composition": 401,
+    "standalone": 303,
+    "reuse": 24
+  },
+  "standalone_symbol_types": {
+    "action": 113,
+    "object": 120,
+    "body_part": 28,
+    "situation": 31,
+    "person": 11
+  }
 }
