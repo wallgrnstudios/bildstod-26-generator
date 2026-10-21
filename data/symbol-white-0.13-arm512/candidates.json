@@ -882,6 +882,50 @@
       "sha256": "b2ef1459020b615f1325f00b89e912679cb28405f1c32325d3ee734ca4de80c0"
     },
     {
+      "concept_id": "FSK_18_57",
+      "label_sv": "hosta",
+      "fingerprint": "0eb83fc8a798af77298359b159ff374dc6e21dd94bbe9f1b2652160971d52e15",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One child coughing into the crook of the elbow, eyes slightly closed, small puff marks near the mouth. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1146668926,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:21:39.537920+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Hosta: kraftigt utandningsljud. Inte nysa.",
+      "must_show_sv": [
+        "Arm för munnen",
+        "Hostande"
+      ],
+      "must_not_show_sv": [
+        "Nysning med näsduk",
+        "Feber"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.291,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.32,
+      "sha256": "1b77ad55e6ff12e256a9bd92fd296e7cea5bcea7a66b72447ed97a0fc3f3b6ad"
+    },
+    {
       "concept_id": "FSK_18_85",
       "label_sv": "gröt",
       "fingerprint": "df8a307c95ed011f8a9c329a17fe261d1c07feeeb289ad9f0573b7af4ebd31c4",
