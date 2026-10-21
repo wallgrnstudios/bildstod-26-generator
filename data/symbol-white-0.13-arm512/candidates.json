@@ -2853,6 +2853,51 @@
       "sha256": "9e289aa035b6b02060ec05d92f04b7dfd0ab68ed2122c033e6a09792b218dd56"
     },
     {
+      "concept_id": "FSK_28_37",
+      "label_sv": "nyår",
+      "fingerprint": "accfd8a6441660e3d13a2dbf12a3def4c563d5b1a3840401cbc3906c296a4948",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Colourful fireworks bursting in a dark night sky above the dark silhouette of a rooftop and chimney. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1208637444,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:39:08.113053+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Nyår: övergången till det nya året, firas med fyrverkerier. Inte nyårsafton specifikt.",
+      "must_show_sv": [
+        "Fyrverkerier",
+        "Mörk natthimmel"
+      ],
+      "must_not_show_sv": [
+        "Personer",
+        "Siffror eller text",
+        "Julgran"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.502,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.543,
+      "sha256": "a9c437dda34ed39655a79404ea0b40c58e1902cc4cb18306e4668e0f1b883c56"
+    },
+    {
       "concept_id": "FSK_28_54",
       "label_sv": "nyckel",
       "fingerprint": "046ae15ae8b944d44df325a9f24783550a2f7dae586b7363332cb280c95c27a7",
