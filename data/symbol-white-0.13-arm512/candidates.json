@@ -1094,6 +1094,48 @@
       "sha256": "e603e4eebb2e6b568cbec50194f27a6b992fce87601c6ff24bd30b8185cff26b"
     },
     {
+      "concept_id": "FSK_28_90",
+      "label_sv": "fluga",
+      "fingerprint": "0a2bf8d17c0d6b8cf9ec99ef68462f1f0caf40043c51d8b3220d387b4c9a19ce",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One housefly viewed from above at a slight angle, exactly six legs, one pair of clear wings and two large reddish compound eyes. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 293997087,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:25:36.368044+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Fluga: Sex ben och ett par vingar. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Sex ben och ett par vingar"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.851,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.872,
+      "sha256": "0a70ac5a162f40696591b6bbe25cf0b31b40a69f8a44b595714fb9942870ec41"
+    },
+    {
       "concept_id": "FSK_29_29",
       "label_sv": "dockvagn",
       "fingerprint": "a0893569bdce2da5d31e996f8f7fd09971f6702f2b97ad8e23bdb08aeafd942f",
