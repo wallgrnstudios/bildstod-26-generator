@@ -1,6 +1,36 @@
 {
   "concept_id": "FSK_20_99",
+  "label_sv": "tandkräm",
   "fingerprint": "0700b3fd11b6d33055919ab24c4f99b5699ec79dbeba2f7457af38068258990f",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary modern Swedish toothpaste tube, soft white tapered plastic body with simple blue and red color blocks, flattened crimped sealed tail, short narrow screw neck at opposite end. White screw cap beside it, small white toothpaste curl at opening, no lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 908061859,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-21T06:53:47.862528+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "object",
+  "meaning_sv": "Tandkräm som föremål. Inte en hel handling eller instruktion.",
+  "must_show_sv": [
+    "Tub med tandkräm vid öppningen"
+  ],
+  "must_not_show_sv": [
+    "Extra handlingar, text eller miljö som ger en annan betydelse"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
   "status": "failed",
-  "error_type": "InterruptedInitialization"
+  "error_type": "InterruptedGeneration"
 }
