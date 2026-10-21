@@ -441,6 +441,52 @@
       "sha256": "809113ce2ee30d060f04f798481777a76605ca6d7d2f32483e00ddb17c1c0aae"
     },
     {
+      "concept_id": "FSK_16_26",
+      "label_sv": "cykla",
+      "fingerprint": "dbd54c4287102acddc3e765bf4e94adeb1524e98b412bc7c113b7b197befc01b",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view riding a bicycle on a path, wearing a helmet, hands on the handlebar and feet on the pedals. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1190563451,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:09:39.191991+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Cykla: att ta sig fram på en cykel genom att trampa. Inte själva cykeln som föremål.",
+      "must_show_sv": [
+        "Barn på cykel",
+        "Hjälm",
+        "Händer på styret"
+      ],
+      "must_not_show_sv": [
+        "Barn som går bredvid cykeln",
+        "Sparkcykel",
+        "Trafik"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.223,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.269,
+      "sha256": "86a5522cccb19f223a44b576d815ef1babd0a699e008d1a62c3ed271e268949f"
+    },
+    {
       "concept_id": "FSK_16_37",
       "label_sv": "frukt",
       "fingerprint": "3df35021ae8e742c22798e0deb7b82ef924360b58a090d166c014b65712746d1",
