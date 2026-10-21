@@ -1494,6 +1494,52 @@
       "sha256": "560a3d2d683e48325135e56b58ad175b18c17a5698553f8a87e7c53f482cf345"
     },
     {
+      "concept_id": "FSK_20_88",
+      "label_sv": "halka",
+      "fingerprint": "65bf101761bf574c987c00df9f3fb615cfd1cb4d1a1c65e86436961fc9014f98",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view on a patch of clear ice, one foot sliding forward and arms thrown out for balance, body leaning back slightly. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1948695210,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:36:14.480557+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Halka: foten glider oavsiktligt på hal yta så att man nästan faller.",
+      "must_show_sv": [
+        "Fot som glider framåt",
+        "Armar ut",
+        "Isfläck"
+      ],
+      "must_not_show_sv": [
+        "Skador eller blod",
+        "Gråt",
+        "Skridskor"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.486,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.519,
+      "sha256": "9e20f5b5f15bbf552491ee4d0f4df9ac461df065fd5f02150d48807044e4015f"
+    },
+    {
       "concept_id": "FSK_21_30",
       "label_sv": "blöja",
       "fingerprint": "fbe0513ac92c6627b7b73ba5a0fd9f2eae4fee838694703b27d890c2f2fd1d39",
