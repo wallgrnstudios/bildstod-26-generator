@@ -1976,6 +1976,48 @@
       "sha256": "7b977a260b23ca0e7373a3fe2cfc85c84245a2853224eebe1bcc843eacd2223a"
     },
     {
+      "concept_id": "FSK_31_62",
+      "label_sv": "ponny",
+      "fingerprint": "ba456d99b9e78bf5b653e969a1d6e926003a8ad6d1c980f78fc025119ac7c458",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small stocky pony in side view, short legs, thick mane and long flowing tail. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1624897047,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:48:48.885247+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Ponny: Liten kraftig häst med man och lång svans. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Liten kraftig häst med man och lång svans"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.727,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.748,
+      "sha256": "22138409abb1ed7df77943ae74a1120e69102cb0348c969cf9863a8dc6847a83"
+    },
+    {
       "concept_id": "FSK_31_68",
       "label_sv": "skruv",
       "fingerprint": "0e35b2b4b047c1b0b9ed4980a5ea21475ed40df68c17d83f08d7069028d2c133",
