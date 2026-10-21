@@ -10143,7 +10143,7 @@
     "text_sv": "läsa",
     "symbol_type": "action",
     "meaning_sv": "Läsa: att titta på text i en bok och ta in innehållet. Inte läsa högt, inte titta på bilder.",
-    "visual_prompt_en": "One preschool child sitting in a chair holding an open book with both hands, eyes directed down at the pages, calm concentration; the pages show only soft lines, no readable text. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child sitting holding an open book with both hands, eyes on the pages, which show only soft lines. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Öppen bok i båda händerna",
       "Blicken på sidorna",
@@ -10221,7 +10221,7 @@
     "text_sv": "skriva",
     "symbol_type": "action",
     "meaning_sv": "Skriva: att forma tecken med penna på papper. Inte rita eller skriva på dator.",
-    "visual_prompt_en": "One preschool child at a desk in side view writing with a pencil on a sheet of paper, hand holding the pencil with a correct grip, a line of small wavy marks on the paper. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child at a desk in side view writing with a pencil in a correct grip, small wavy marks on the paper. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Hand med penna",
       "Papper med skrivlinje"
@@ -10455,7 +10455,7 @@
     "text_sv": "välja",
     "symbol_type": "action",
     "meaning_sv": "Välja; att ta ett av flera alternativ. Inte ta allt.",
-    "visual_prompt_en": "One preschool child's hand picking up one of two clearly different balls (a red ball and a blue ball) lying on a table, the other ball left in place, the child looking at the chosen one. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child's hand picking up a red ball from a table while a blue ball stays in place. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Två olika föremål",
       "Ett föremål som tas",
@@ -11081,7 +11081,7 @@
     "text_sv": "plocka",
     "symbol_type": "action",
     "meaning_sv": "Plocka: att ta små föremål ett i taget, t.ex. plocka bär. Inte plocka undan.",
-    "visual_prompt_en": "One preschool child in side view picking red berries one at a time from a low bush with the fingers of one hand, a small bowl held in the other hand. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child picking a red berry from a low bush with one hand, holding a small bowl in the other. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Fingrar plockar ett bär",
       "Skål i andra handen"
@@ -11211,7 +11211,7 @@
     "text_sv": "vila",
     "symbol_type": "action",
     "meaning_sv": "Vila: att ligga eller sitta avslappnat och vila kroppen. Inte sova.",
-    "visual_prompt_en": "One preschool child lying on their back on a soft mat with a small cushion under the head, arms relaxed at the sides, eyes open and a calm gentle expression. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child lying on the back on a soft mat, head on a small cushion, arms relaxed, eyes open, calm. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Barn som ligger på mjuk matta",
       "Avslappnade armar",
@@ -12257,7 +12257,7 @@
     "text_sv": "bada",
     "symbol_type": "action",
     "meaning_sv": "Att bada i ett badkar med vatten och skum. Inte duscha eller simma.",
-    "visual_prompt_en": "One preschool child sitting in a filled bathtub with white foam covering the water up to the chest, shoulders and smiling head visible, one hand holding a bubble, side-on view. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child sitting in a bathtub with white foam up to the chest, smiling, one hand holding a bubble. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Badkar med vatten",
       "Vitt skum som täcker kroppen"
@@ -12462,7 +12462,7 @@
     "text_sv": "knä",
     "symbol_type": "body_part",
     "meaning_sv": "Knä: leden mitt på benet. Inte hela benet.",
-    "visual_prompt_en": "A preschool child sitting on a bench in side view cropped to the thigh and shin, the knee bent at a right angle and clearly visible, bare skin, no kneepads. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery.",
+    "visual_prompt_en": "A preschool child's bent leg in side view, cropped from mid-thigh to shin, the knee bent at a right angle and clearly visible. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery.",
     "must_show_sv": [
       "Böjt knä i profil",
       "Lår och underben"
@@ -12796,7 +12796,7 @@
     "text_sv": "duscha",
     "symbol_type": "action",
     "meaning_sv": "Att duscha: stå under en dusch med fallande vatten. Inte bada i badkar.",
-    "visual_prompt_en": "One preschool child standing under a wall-mounted shower head with water streams falling, seen from chest up, wet hair, eyes open and calm, bare shoulders only, tiled wall behind. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child under a shower head with falling water streams, seen from the chest up, wet hair, calm. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Duschmunstycke med vattenstrålar",
       "Våt hårsvall"
@@ -13548,7 +13548,7 @@
     "text_sv": "sopa",
     "symbol_type": "action",
     "meaning_sv": "Att sopa golvet med kvast och skyffel. Inte torka med mopp.",
-    "visual_prompt_en": "One preschool child sweeping a floor with a broom, pushing a small pile of crumbs and dust toward a dustpan on the floor, side view, both hands on the broom handle. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child sweeping crumbs toward a dustpan with a broom held in both hands, side view. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Kvast i rörelse",
       "Liten hög skräp mot skyffeln"
@@ -13730,7 +13730,7 @@
     "text_sv": "haka",
     "symbol_type": "body_part",
     "meaning_sv": "Haka: den främre nedre delen av ansiktet under munnen. Inte hela ansiktet.",
-    "visual_prompt_en": "Side-front close-up of a preschool child's lower face cropped to the chin and lower lip, with the chin clearly rounded and the child pointing to it with one finger. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery.",
+    "visual_prompt_en": "Close-up of a preschool child's lower face cropped to the chin, one finger pointing at the rounded chin. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery.",
     "must_show_sv": [
       "Hakan markerad med ett pekande finger"
     ],
@@ -14636,7 +14636,7 @@
     "text_sv": "bädda",
     "symbol_type": "action",
     "meaning_sv": "Att bädda sängen: dra upp täcket och slätta ut sängkläderna. Inte sova eller lägga sig.",
-    "visual_prompt_en": "One preschool child standing beside a single bed pulling a plain white duvet up and smoothing it flat with one hand, pillow already placed at the head, side view. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "One preschool child beside a single bed pulling a plain white duvet up and smoothing it flat, side view. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Barn som slätar ut täcket",
       "Säng med kudde"
@@ -15223,7 +15223,7 @@
     "text_sv": "köpa",
     "symbol_type": "action",
     "meaning_sv": "Att köpa: man ger pengar och får en vara. Inte \"sälja\" (säljarens perspektiv).",
-    "visual_prompt_en": "A preschool child at a small market stall counter in side view, holding out one coin with one hand while taking an apple from the seller's hand with the other; the seller is only partly visible behind the counter. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "A preschool child at a market stall in side view, holding out a coin while taking an apple from the seller's hand. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Barnet håller ut ett mynt",
       "Barnet tar emot en vara"
@@ -15300,7 +15300,7 @@
     "text_sv": "betala",
     "symbol_type": "action",
     "meaning_sv": "Att betala: räcka över pengar för något. Inte själva varan som huvudmotiv.",
-    "visual_prompt_en": "A preschool child in side view placing one coin into the open palm of a person at a counter, only the hands and arms of the other person visible, nothing on the counter. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "A preschool child in side view placing one coin into the open palm of another person's outstretched hand. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Mynt i barnets hand på väg till mottagarens hand",
       "Rakt framåtriktad rörelse"

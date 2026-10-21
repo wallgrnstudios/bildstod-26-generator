@@ -83,6 +83,8 @@ def prepare_resolutions(symbols,vocabulary,resolutions):
                'must_show_sv':r['must_show_sv'],'must_not_show_sv':r['must_not_show_sv'],'contrast_terms_sv':r['contrast_terms_sv'],
                'review_status':'draft','generation_enabled':True,'generation_priority':row.get('priority_tier',1),
                'category':row['category'],'style_prompt_override':STYLE}
+        # The FLUX worker rejects prompts over 220 tokens; 940 characters is the longest verified passing length.
+        if len(entry['visual_prompt_en']+STYLE)>940:raise ValueError('Visual prompt too long for the text budget: '+r['id'])
         symbols.append(entry);existing.add(r['id']);added.append(r['id'])
     return added
 
