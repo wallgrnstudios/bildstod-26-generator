@@ -1892,6 +1892,48 @@
       "sha256": "e672958bf7d889cdd54d428c267e547791af393ae4fcc78da9d43705620f4af6"
     },
     {
+      "concept_id": "FSK_32_21",
+      "label_sv": "käpp",
+      "fingerprint": "a82150a044653365fc64c9280c06ad13467d0d926169a2dab767b3bdbb5bcf23",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simple walking cane, straight dark-blue shaft, curved handgrip and broad non-slip rubber tip, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1599098984,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:44:04.637255+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Käpp: Stödkäpp med böjt handtag och gummifot. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Stödkäpp med böjt handtag och gummifot"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.246,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.276,
+      "sha256": "3553ae98bc2972b5f9f1653c5ca14a0fb539e9396d7576fcbf3047470be95d30"
+    },
+    {
       "concept_id": "FSK_32_39",
       "label_sv": "igelkott",
       "fingerprint": "1270f16ff9dfb041ed08e094807458b58596b22a226be8a9e870fc31c4c1a248",
