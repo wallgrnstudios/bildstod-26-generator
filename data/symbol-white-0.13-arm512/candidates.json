@@ -231,6 +231,52 @@
       "sha256": "3fec726821483a178aa5439462d1cd2ec3f2252f615f0cb17f3846af505a1555"
     },
     {
+      "concept_id": "FSK_13_83",
+      "label_sv": "huvud",
+      "fingerprint": "4d73c613affd36789b5e12785f4f8e1187046bb6ac7c8036215afc99166c7738",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One friendly preschool child's head and neck in front view, cropped at the shoulders, neutral calm expression. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1381156681,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:08:24.064451+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "body_part",
+      "meaning_sv": "Huvud: kroppsdelen överst med ansikte och hår. Inte bara ansiktet och inte hela kroppen.",
+      "must_show_sv": [
+        "Hela huvudet med hår, ansikte och öron",
+        "Hals som avslutning"
+      ],
+      "must_not_show_sv": [
+        "Hela kroppen",
+        "Hatt eller mössa",
+        "Skada, blod eller nakenhet",
+        "Text eller bokstäver"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.349,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.39,
+      "sha256": "973fec1eba53b3326d315f106216999a7a57b752f806c74f762b60d37849e46e"
+    },
+    {
       "concept_id": "FSK_16_18",
       "label_sv": "potatis",
       "fingerprint": "ce28d5822a87075dca74e3a106aad7f31cb24e4751f90c11f13392146b7c0ca9",
