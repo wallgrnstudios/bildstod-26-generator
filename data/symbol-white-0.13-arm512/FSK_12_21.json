@@ -34,6 +34,12 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "failed",
-  "error_type": "InterruptedGeneration"
+  "status": "pending_review",
+  "transparency": {
+    "background": "white"
+  },
+  "render_seconds": 82.005,
+  "background_seconds": 0.0,
+  "elapsed_seconds": 82.044,
+  "sha256": "917eebfae420e934062b96dfb6d49041c2886935bc2ef0dc2f9cee47480fc4a9"
 }
