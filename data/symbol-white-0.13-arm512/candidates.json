@@ -726,6 +726,51 @@
       "sha256": "c5962c32e74b077794884e3f9da7677df0e011336c1dca50d662d211952daef7"
     },
     {
+      "concept_id": "FSK_15_92",
+      "label_sv": "eld",
+      "fingerprint": "ebb9c7d76e126550827b68ce6836e4ac3238601127ab648db96b7d0aafe5fb84",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small campfire in a ring of stones: logs with bright orange flames, seen from the side. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 881257081,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:23:13.355764+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Eld: lågor som brinner på ved. Inte brand i byggnad eller rök.",
+      "must_show_sv": [
+        "Lågor",
+        "Ved i stenring"
+      ],
+      "must_not_show_sv": [
+        "Hus i brand",
+        "Människor",
+        "Rök"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.383,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.446,
+      "sha256": "70240091c50ca16d762234b02d1fcc8dca38c00a19ff3555d1b78f4420c70317"
+    },
+    {
       "concept_id": "FSK_16_18",
       "label_sv": "potatis",
       "fingerprint": "ce28d5822a87075dca74e3a106aad7f31cb24e4751f90c11f13392146b7c0ca9",
