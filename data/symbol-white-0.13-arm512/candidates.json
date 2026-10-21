@@ -800,6 +800,48 @@
       "sha256": "784c3b62ec184339691e8a16098c28eeb2b1ca76de65a4590f92a39facb6aa94"
     },
     {
+      "concept_id": "FSK_21_42",
+      "label_sv": "diskmaskin",
+      "fingerprint": "d57c33579bd8c27bc779e6391b72201ecd93f3888966a155e008b0177c95b205",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern clean white dishwasher with front door lowered horizontally, two empty wire dish racks visible inside and a small control strip above, no lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1708862596,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:21:31.282564+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Diskmaskin: Nedfälld lucka och två diskställ. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Nedfälld lucka och två diskställ"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.966,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.011,
+      "sha256": "b11a1695236441ddacf5a4985d890ac854eb22d6dd87b35895ba15582e11a92f"
+    },
+    {
       "concept_id": "FSK_21_46",
       "label_sv": "kanna",
       "fingerprint": "589404963c0aea06cba7f27c4db490a5cfd0f320aa89273e244c5c563005a110",
