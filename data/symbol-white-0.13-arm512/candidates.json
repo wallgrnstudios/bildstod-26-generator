@@ -2866,6 +2866,52 @@
       "sha256": "95063cfe38a8870e2056cf5e4767a5b14f71f19f54903c759ab90f3d46a3fae4"
     },
     {
+      "concept_id": "FSK_31_72",
+      "label_sv": "pirat",
+      "fingerprint": "4ab5aba496936cd17dd87a7463e06ea9b1c8df15c030cfae53cf8c2ea5778cd0",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One pirate standing in front view wearing a black tricorn hat, a red bandana, an eye patch and a striped shirt, hand resting on a toy treasure chest. One person alone, full body, friendly neutral expression. Any role is shown only through the named concrete attributes; no badges, logos, lettering or decorative scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 26835003,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:44:32.979975+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "person",
+      "meaning_sv": "Pirat: person med pirathatt, ögonlapp och ibland papegoja. Gränsfall: roll i lek, inte våld.",
+      "must_show_sv": [
+        "Pirathatt",
+        "Ögonlapp",
+        "Randig tröja"
+      ],
+      "must_not_show_sv": [
+        "Dödskalle med text",
+        "Vapen riktade mot någon",
+        "Våld"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.029,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.086,
+      "sha256": "7c717203234481ee76fe96f5206ba5542147bc63d0a0b8b75d6bbd55a201ba25"
+    },
+    {
       "concept_id": "FSK_31_73",
       "label_sv": "bomull",
       "fingerprint": "9366622ca1f2f636f435cc60f1f41e2e3910aa2b1684581fb68c6003433ae7e6",
