@@ -212,6 +212,48 @@
       "sha256": "37a9e36965c1f55833ca69ad9dd31221eaad59ca43883078ef6dc803e35b545a"
     },
     {
+      "concept_id": "FSK_18_80",
+      "label_sv": "trosor",
+      "fingerprint": "7f22dc4b05a8af3449a32471e7d1364c2a1156d732a0d52a356f8584edf0fed9",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One pair of new clean white cotton briefs laid flat, broad waistband and two clearly separated leg openings, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 542921972,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T20:39:00.660515+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Trosor: Midjeresår och två benöppningar. Avser föremålet, inte en hel situation.",
+      "must_show_sv": [
+        "Midjeresår och två benöppningar"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.539,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.577,
+      "sha256": "3edba64601ba20b839815a6837fbb5b7815f70ed236ef1bf7b83e107e5287056"
+    },
+    {
       "concept_id": "FSK_22_65",
       "label_sv": "domino",
       "fingerprint": "44f8469a83e83cc8c17c094d684147de9ac3f0cf3cf12e628db4573f13597961",
