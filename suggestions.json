@@ -23,6 +23,16 @@
         }
       ],
       "duration_seconds": 11.04
+    },
+    "FSK_24_15:3cd18d3dfeb50710dbc4bd7e7d2f2eab33f66148f03acf6918d03c0e3a204588": {
+      "concept_id": "FSK_24_15",
+      "sha256": "3cd18d3dfeb50710dbc4bd7e7d2f2eab33f66148f03acf6918d03c0e3a204588",
+      "source_commit": "6ab03c7a4c1d009b645ecd79549795ff30c2a722",
+      "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+      "model_version": "smolvlm2-500m-pilot2",
+      "status": "processing",
+      "created_at": "2026-10-21T12:32:37.812955+00:00"
     }
   }
 }
