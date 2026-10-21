@@ -470,6 +470,16 @@
       "created_at": "2026-10-21T12:37:13.579475+00:00",
       "error_type": "ValueError",
       "raw_output": ""
+    },
+    "FSK_15_21:c211f2f1df18d686b6dcbddd65a3098602bc7d662caca9a9377b31cf566a74fa": {
+      "concept_id": "FSK_15_21",
+      "sha256": "c211f2f1df18d686b6dcbddd65a3098602bc7d662caca9a9377b31cf566a74fa",
+      "source_commit": "6ab03c7a4c1d009b645ecd79549795ff30c2a722",
+      "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+      "model_version": "smolvlm2-500m-pilot2",
+      "status": "processing",
+      "created_at": "2026-10-21T12:37:18.394438+00:00"
     }
   }
 }
