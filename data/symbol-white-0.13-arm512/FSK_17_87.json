@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_17_87",
   "label_sv": "t-shirt",
-  "fingerprint": "802a007bf8e845b78d56cae633ad13086a695a7ed2d11483630fecc8421faa5f",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One unoccupied plain cotton T-shirt, short sleeves and round neckline, no text or design. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "c42a2b8f8c89b687c91ac25078a25c05f935f976886e1d6cf36dbcefde79d1ee",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One pristine WHITE cotton T-shirt laid flat, short sleeves, round ribbed neckline, plain clean fabric, no writing or pattern. Very light cool-gray shading defines folds and seams; no yellow or brown patches. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 570901705,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-20T10:44:26.324754+00:00",
+  "created_at": "2026-10-21T06:55:47.085530+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 81.716,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 81.75,
-  "sha256": "3286d055ed8d6fb31d10d14451a2b10042f4c985bfb8b9aaf89739a55b774918"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
