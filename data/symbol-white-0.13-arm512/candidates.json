@@ -1178,6 +1178,48 @@
       "sha256": "25b486dae0259b8c6184551e2358d9b37d2a3cf6515952d2b43000f2e15169d5"
     },
     {
+      "concept_id": "FSK_29_01",
+      "label_sv": "torsk",
+      "fingerprint": "7d785e3803625760f9fb29f3e6b435871e8692dfe4dcca4af614eb28b7d90af3",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One cod in side view, mottled olive-brown back, pale underside, three separate dorsal fins and a single chin barbel. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1873047145,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:27:30.531694+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Torsk: Tre ryggfenor och skäggtöm under hakan. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Tre ryggfenor och skäggtöm under hakan"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.645,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.679,
+      "sha256": "e6506e1a59f10f1da363221726bb9c798b077113bbfb964e1b15240d3238c7c9"
+    },
+    {
       "concept_id": "FSK_29_06",
       "label_sv": "spindel",
       "fingerprint": "774f7f4f391bb90d5069c0c789f17bc2072257e23a2ba19e448dc2fe3e0967dd",
