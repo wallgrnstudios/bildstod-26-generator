@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_30_91",
   "label_sv": "plåster",
-  "fingerprint": "30ae5fb542ef1e6a147a647cd31385a20cfd23a2f1695db4cd0b968cc9aa3937",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One adhesive bandage shown flat, central padded gauze square and adhesive wings at both ends. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "8780f4bfd1cee9c15c503dcdb5396f4daa277c3af3a27f24359a9641b6ef9532",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Exactly ONE single adhesive first-aid plaster lying flat horizontally: one continuous pale-peach rounded rectangular strip with ONE white central absorbent pad and tiny perforations on the two adhesive ends. No second plaster, no crossed strips. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 1012173164,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-20T11:02:34.330748+00:00",
+  "created_at": "2026-10-21T06:58:21.299930+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 81.241,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 81.275,
-  "sha256": "dbbe6f3ce9567d842c3c39a45f24a5d7d9241350c19009aaf057f78c9a884bdb"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
