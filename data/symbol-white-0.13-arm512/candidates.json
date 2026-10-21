@@ -128,6 +128,48 @@
       "sha256": "e4924937777249eafc472b4f21caca1f194e83d96664ab6157a8fd5b68e70c09"
     },
     {
+      "concept_id": "FSK_19_67",
+      "label_sv": "kjol",
+      "fingerprint": "61e3f6cd752028ef66a4a133e27d092b7e5d1ee80e7fdbbdec54f7c59aa98daa",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clean blue knee-length A-line skirt laid flat, single waistband and one wide undivided hem opening, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 252995223,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T20:40:16.991235+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Kjol: Kjol med en sammanhängande nedre öppning. Avser föremålet, inte en hel situation.",
+      "must_show_sv": [
+        "Kjol med en sammanhängande nedre öppning"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.834,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.875,
+      "sha256": "32324ad712e2b118a7203a17e83cbfa0c05a35a7ece1da3c62d4735ce663d819"
+    },
+    {
       "concept_id": "FSK_21_94",
       "label_sv": "pärm",
       "fingerprint": "9cfff9edfb6656390bf5c3d194226dc826d380f4058efa6a8215d2c2dcd2aad3",
