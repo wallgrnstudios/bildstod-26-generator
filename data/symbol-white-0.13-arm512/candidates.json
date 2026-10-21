@@ -1996,6 +1996,51 @@
       "sha256": "22a21f4b5fc051153751aac51f529e3b5abe844cd6a2087667747da40a7c812d"
     },
     {
+      "concept_id": "FSK_27_35",
+      "label_sv": "butik",
+      "fingerprint": "01df42ff84120859717742aef22529b251031e350ae4904fc6b65b53b2f3c1e2",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small shop front with a large display window showing shelves of goods, a striped awning above and a glass door with a handle, seen from the front. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2027356155,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:30:35.101494+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Butik: lokal där man köper varor. Inte affär som polysem eller marknad.",
+      "must_show_sv": [
+        "Skyltfönster med varor",
+        "Dörr och markis"
+      ],
+      "must_not_show_sv": [
+        "Personer",
+        "Text eller skylt",
+        "Köpcentrum"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 83.036,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 83.07,
+      "sha256": "cf48200c7cf609e77a6ec9ce1f617c2b3a08ac39fb44d4ee5cff932c5150b3a0"
+    },
+    {
       "concept_id": "FSK_28_58",
       "label_sv": "skåp",
       "fingerprint": "aba0cedd52f71fa12e5d07e6f3f04daf5be74d590a5e84a4966352afd6654bda",
