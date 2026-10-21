@@ -538,8 +538,10 @@
       "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
       "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
       "model_version": "smolvlm2-500m-pilot2",
-      "status": "processing",
-      "created_at": "2026-10-21T12:37:41.804330+00:00"
+      "status": "failed",
+      "created_at": "2026-10-21T12:37:41.804330+00:00",
+      "error_type": "ValueError",
+      "raw_output": ""
     }
   }
 }
