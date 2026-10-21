@@ -2088,6 +2088,51 @@
       "sha256": "9139c4d12a1a58f95b532ed39fcb9aed4ed20ebd41fb979d6bc9d9971a97ad58"
     },
     {
+      "concept_id": "FSK_26_47",
+      "label_sv": "lägenhet",
+      "fingerprint": "2c5c19ba3488f2c75ca273e4be40398014e3bf95214d9abea3b3dddd5370e7d5",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A multi-storey apartment building seen from the front with several rows of windows, small balconies on each floor and one entrance door at the bottom. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2147086734,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:38:31.694399+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Lägenhet: bostad i ett flervåningshus. Inte villa eller hus.",
+      "must_show_sv": [
+        "Flera våningar med balkonger",
+        "Entrédörr"
+      ],
+      "must_not_show_sv": [
+        "Villa med trädgård",
+        "Personer",
+        "Skyltar eller text"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 83.8,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 83.829,
+      "sha256": "5005bd2836be3668f2f1b1442c539779c28b99d00a9164f6d497bbf54aa3602a"
+    },
+    {
       "concept_id": "FSK_28_32",
       "label_sv": "ko",
       "fingerprint": "614b3251d6afff425023beab31cd018e0f633146a618e7543c5fd5535953cebb",
