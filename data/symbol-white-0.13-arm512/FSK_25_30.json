@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_25_30",
   "label_sv": "häftmassa",
-  "fingerprint": "ceab203213a69da6a23e225355def7b01d4b59199c7d75fbc67f34dc23a0eb98",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small lump of reusable blue adhesive putty with a small piece pinched off beside it. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "0a5abaa43b233b18233919ef74b4d6240031a395b06237098964b35718b0f339",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One flat rectangular sheet of clean WHITE reusable adhesive putty divided into narrow strips on partly peeled blue-and-white backing card. One small white piece pinched off beside it. Blank packaging without lettering, no blue clay. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 78445710,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-20T10:48:00.793904+00:00",
+  "created_at": "2026-10-21T06:55:30.019871+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -21,7 +21,7 @@
   "symbol_type": "object",
   "meaning_sv": "Häftmassa som föremål. Inte en hel handling eller instruktion.",
   "must_show_sv": [
-    "Blå formbar häftmassa"
+    "Vit formbar häftmassa i remsor på delvis öppnad förpackning"
   ],
   "must_not_show_sv": [
     "Extra handlingar, text eller miljö som ger en annan betydelse"
@@ -31,12 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 78.249,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 78.274,
-  "sha256": "b602eabeea3372abc58f39d4d2cc4d233deab309b5db496d376c5f030ad680dc"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
