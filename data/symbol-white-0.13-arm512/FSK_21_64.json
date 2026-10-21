@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_21_64",
   "label_sv": "gem",
-  "fingerprint": "be1d6f369195000c0cd6d7134b938be6c1bb456baa99ec9d5439c39417f95f84",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One large metal paper clip with its characteristic double loop shape. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "f449103d5016fa4182786de8200d1f5a680a0e7a954538e392eacbce522e6e4a",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One single silver wire paper clip lying flat, classic elongated rounded rectangle with one smaller nested elongated loop. A continuous thin bent metal wire, open gap at each wire end, no filled metal plate. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 753417531,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-20T10:44:13.027866+00:00",
+  "created_at": "2026-10-21T06:55:10.318594+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 82.805,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 82.852,
-  "sha256": "54cfc5c8ce9fd160f8a451690512b6098a2fbebcb72167c8aae2b0b28e62ad9b"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
