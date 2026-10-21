@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "records": {
+    "FSK_10_24:955cc2c400e1839ce0bd454c0798f685c19424d832ff846372727e966dcc6a32": {
+      "concept_id": "FSK_10_24",
+      "sha256": "955cc2c400e1839ce0bd454c0798f685c19424d832ff846372727e966dcc6a32",
+      "source_commit": "c94c1ed3354d923bd1b0e78f1e63f93aee3f786e",
+      "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+      "model_version": "smolvlm2-500m-pilot1",
+      "status": "suggested",
+      "created_at": "2026-10-21T12:23:25.576940+00:00",
+      "people": [
+        {
+          "characterId": "",
+          "hairColor": "brunt",
+          "hairStyle": "kort",
+          "skinTone": "ljus",
+          "genderPresentation": "",
+          "ageGroup": "barn",
+          "distinguishingFeatures": ""
+        }
+      ],
+      "duration_seconds": 38.37
+    },
+    "FSK_14_65:799a4faaba926ccfeb39bd4f9e7a6a0d2874d9e5f71337c6e20121e9ac263107": {
+      "concept_id": "FSK_14_65",
+      "sha256": "799a4faaba926ccfeb39bd4f9e7a6a0d2874d9e5f71337c6e20121e9ac263107",
+      "source_commit": "6ab03c7a4c1d009b645ecd79549795ff30c2a722",
+      "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+      "model_version": "smolvlm2-500m-pilot1",
+      "status": "suggested",
+      "created_at": "2026-10-21T12:24:06.831051+00:00",
+      "people": [
+        {
+          "characterId": "",
+          "hairColor": "brunt",
+          "hairStyle": "kort",
+          "skinTone": "ljus",
+          "genderPresentation": "",
+          "ageGroup": "barn",
+          "distinguishingFeatures": ""
+        }
+      ],
+      "duration_seconds": 38.16
+    },
+    "FSK_15_21:c211f2f1df18d686b6dcbddd65a3098602bc7d662caca9a9377b31cf566a74fa": {
+      "concept_id": "FSK_15_21",
+      "sha256": "c211f2f1df18d686b6dcbddd65a3098602bc7d662caca9a9377b31cf566a74fa",
+      "source_commit": "6ab03c7a4c1d009b645ecd79549795ff30c2a722",
+      "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+      "model_version": "smolvlm2-500m-pilot1",
+      "status": "suggested",
+      "created_at": "2026-10-21T12:24:47.373251+00:00",
+      "people": [
+        {
+          "characterId": "",
+          "hairColor": "brunt",
+          "hairStyle": "kort",
+          "skinTone": "ljus",
+          "genderPresentation": "",
+          "ageGroup": "barn",
+          "distinguishingFeatures": ""
+        }
+      ],
+      "duration_seconds": 38.12
+    },
+    "FSK_15_53:edcbe58897ab25a48c3f03e6d2539793b9282ed9488d0f8cd9e20906c9a36280": {
+      "concept_id": "FSK_15_53",
+      "sha256": "edcbe58897ab25a48c3f03e6d2539793b9282ed9488d0f8cd9e20906c9a36280",
+      "source_commit": "6ab03c7a4c1d009b645ecd79549795ff30c2a722",
+      "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+      "model_version": "smolvlm2-500m-pilot1",
+      "status": "failed",
+      "created_at": "2026-10-21T12:25:28.080986+00:00",
+      "error_type": "ValueError",
+      "raw_output": " {\"people\":[{\"hairColor\":\"black/brown/blond/red/gray/white/bald/unknown\"}]}"
+    },
+    "FSK_17_42:3abaaca1a48de2d33fffec77d0ebc9dc7d2cc9d659e4da4c6f6ea96cc99bf5ee": {
+      "concept_id": "FSK_17_42",
+      "sha256": "3abaaca1a48de2d33fffec77d0ebc9dc7d2cc9d659e4da4c6f6ea96cc99bf5ee",
+      "source_commit": "c94c1ed3354d923bd1b0e78f1e63f93aee3f786e",
+      "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+      "model_version": "smolvlm2-500m-pilot1",
+      "status": "failed",
+      "created_at": "2026-10-21T12:26:09.074539+00:00"
+    }
+  }
+}
