@@ -2960,6 +2960,52 @@
       "sha256": "9f39f399f9c9105b122c6546809844e7cb4e8a9214819aa4a8cdeeb5cefdb99e"
     },
     {
+      "concept_id": "FSK_30_96",
+      "label_sv": "avfall",
+      "fingerprint": "27debcc1c785e76d1577a63244477311815b1dc496387c3509ed5021b20d9ab5",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A grey wheeled household waste bin with its lid slightly open and a tied rubbish bag standing beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 938568346,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:52:47.142090+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Avfall: sopor som hushåll slänger i soptunnan. Inte skräp på marken och inte sorterat återvinningsmaterial.",
+      "must_show_sv": [
+        "Soptunna på hjul med lock",
+        "Knuten sopsäck"
+      ],
+      "must_not_show_sv": [
+        "Utspritt skräp på marken",
+        "Sorterade återvinningsbehållare",
+        "Personer",
+        "Text"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.775,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.814,
+      "sha256": "94352ce6a9f0dd69fc31311508b77642f35ba505fe76f82801e76608b3847c8b"
+    },
+    {
       "concept_id": "FSK_31_13",
       "label_sv": "byrå",
       "fingerprint": "90a4b4deeceefcfc2632197cb5aa84f4740b59b1353aaca0b208ee93409e96b7",
