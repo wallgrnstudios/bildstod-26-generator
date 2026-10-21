@@ -753,6 +753,50 @@
       "sha256": "423be4f6db2d26d0d179f6017611b02a78c3900b786f923563b5f505a95313ec"
     },
     {
+      "concept_id": "FSK_18_15",
+      "label_sv": "sovrum",
+      "fingerprint": "0167aa96ca0997bd3daf89d81c76abedd5b28a80389930ff3e650bbe59f8992d",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small bedroom with a single bed with pillow and blanket, a bedside table with a lamp and a window with curtains. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 667574191,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:17:39.528222+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Sovrum; rum med säng för sömn. Inte vilorum.",
+      "must_show_sv": [
+        "Säng med täcke",
+        "Sängbord med lampa"
+      ],
+      "must_not_show_sv": [
+        "Människor",
+        "Leksaker i fokus"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.153,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.185,
+      "sha256": "0583c7c439981a62698b362ae4f25c6f5c2b3de30451946db4446a94a3d9e376"
+    },
+    {
       "concept_id": "FSK_18_88",
       "label_sv": "mask",
       "fingerprint": "f9d8efcec94fa6398ef378400199439c50bbe2449da96e27055404baa519adf5",
