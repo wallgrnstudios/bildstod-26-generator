@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_29_06",
   "label_sv": "spindel",
-  "fingerprint": "d0d75ae32d94e93dc1e9f633eb29a812a3fb449f5f52371511fb8b6e6133efcb",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One naturalistic small spider viewed from above, eight legs and two main body segments, no web. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "774f7f4f391bb90d5069c0c789f17bc2072257e23a2ba19e448dc2fe3e0967dd",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One anatomically accurate spider viewed from above. Exactly EIGHT clearly separated legs, FOUR attached on each side of the small front cephalothorax; one larger rounded abdomen behind. Two main body segments, no antennae, no extra appendages or web. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 1982362409,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-20T10:52:46.532521+00:00",
+  "created_at": "2026-10-21T06:58:37.861204+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 81.464,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 81.495,
-  "sha256": "3c61878b60f5b91b6b4649570a4617f45af6c7264294781e85d4b8a58e1a775e"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
