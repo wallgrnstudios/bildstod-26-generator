@@ -1,0 +1,39 @@
+{
+  "concept_id": "FSK_29_74",
+  "label_sv": "publik",
+  "fingerprint": "62b7999feb30488b6ae427c2faed300f5e7275f24866b5498cd307925ceeaf3b",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Rear view of six preschool children seated in two rows facing a stage with a curtain, some clapping hands. Only the people and objects described; no decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 925514552,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-21T23:49:02.372318+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "situation",
+  "meaning_sv": "Publik; de som tittar och lyssnar på ett uppträdande. Inte de som uppträder.",
+  "must_show_sv": [
+    "Flera barn sedda bakifrån",
+    "Vänd mot scenen",
+    "Klappande händer"
+  ],
+  "must_not_show_sv": [
+    "Ansikten",
+    "Namn eller skyltar"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
+}
