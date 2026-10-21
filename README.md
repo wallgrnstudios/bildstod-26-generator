@@ -8,6 +8,8 @@ The scheduled candidate queue is enabled for preschool vocabulary. The active ca
 
 Start with Actions → Generate pilot candidates → mode `generate`. Only the configured small calibration set is generated while `calibration_approved` is false. Compare the result with the included reference before unlocking the rest of the queue. Set repository variable `BILDSTOD_NIGHTLY_ENABLED=true` to run every three hours; remove it to stop. Workflows skip private repositories. A run can take up to two hours per worker plus setup time. No fixed images/day is promised until measured.
 
+Metadata suggestions run separately in `metadata-pilot.yml` after generation and every three hours when `BILDSTOD_METADATA_ENABLED=true`. The pilot has a durable lifetime cap of 30 image versions, including failed attempts. A pinned SmolVLM2-500M model analyzes native 512 px images on CPU; image SHA and immutable source commit are checked. Only public illustrations are analyzed. Suggestions are stored on `metadata-suggestions`, never in the private review database. They require human confirmation. Character identity and gender presentation are never inferred.
+
 The model loads once per worker batch. Prompts are encoded upfront; text encoders are then released before image synthesis to reduce RAM usage. The current throughput trial uses native 512 px with a white background and no background removal or upscaling. CPU quality and runtime require verification. FLUX.2 klein uses the included reference as style conditioning. Text weights are removed from disk and memory before loading the image model.
 
 Manual benchmarking workflows compare standard x64, standard ARM64, and a compact CPU implementation. Failed 1024 CPU trials do not establish a daily throughput promise.
