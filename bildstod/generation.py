@@ -58,14 +58,16 @@ def load_briefs(path):
 
 
 def prompt_for(entry, config):
+    # Per-brief material direction replaces the palette without requeuing other images.
+    style = entry.get('style_prompt_override', config['style_prompt'])
     # Short prompts, action first: long style preambles can truncate the actual action.
     if entry.get('symbol_type'):
-        return ('Use the reference only for drawing style. Create one isolated illustration: ' + entry['visual_prompt_en'] + ' ' + config['style_prompt'] + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
+        return ('Use the reference only for drawing style. Create one isolated illustration: ' + entry['visual_prompt_en'] + ' ' + style + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
     if config.get('backend') == 'flux2-klein':
         return ('Use the reference image only as an illustration style guide. Create a completely new preschool action scene: '
-                + entry['visual_prompt_en'] + ' ' + config['style_prompt']
+                + entry['visual_prompt_en'] + ' ' + style
                 + ' Replace the reference scene entirely; do not include its coat, hook or pose unless this new action requires them.')
-    return 'Isolated watercolor illustration on pure white. ' + entry['visual_prompt_en'] + ' ' + config['style_prompt']
+    return 'Isolated watercolor illustration on pure white. ' + entry['visual_prompt_en'] + ' ' + style
 
 
 def identity(entry, config):

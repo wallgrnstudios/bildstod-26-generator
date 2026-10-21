@@ -20,6 +20,15 @@ class GenerationTests(unittest.TestCase):
         self.config['worker_overrides'] = {}
         self.entries = load_briefs(ROOT / 'catalog/pilot/concepts.json')
 
+    def test_material_override_changes_only_selected_brief(self):
+        entry = load_briefs(ROOT / 'catalog/pilot/symbols.json')[0]
+        original = identity(entry, self.config)
+        revised = {**entry, 'style_prompt_override': 'Clean bright white cotton, cool gray shading.'}
+        self.assertNotEqual(identity(revised, self.config), original)
+        self.assertIn(revised['style_prompt_override'], prompt_for(revised, self.config))
+        self.assertNotIn(self.config['style_prompt'], prompt_for(revised, self.config))
+        self.assertEqual(identity(entry, self.config), original)
+
     def test_locked_style_and_calibration_queue(self):
         self.assertEqual(len(self.entries), 50)
         with tempfile.TemporaryDirectory() as directory:
