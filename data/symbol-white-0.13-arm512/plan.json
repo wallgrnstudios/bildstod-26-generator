@@ -4,94 +4,46 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_18_78",
-      "label": "trappa",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One short freestanding staircase with five clearly visible steps and a side handrail. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 2092340349
-    },
-    {
-      "id": "FSK_19_68",
-      "label": "keps",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small baseball cap with a rounded crown and a forward projecting brim. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1418473301
-    },
-    {
       "id": "FSK_20_02",
       "label": "pärla",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Five large craft beads with clearly visible holes through their centers, no necklace. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Six small colorful plastic fuse beads used in preschool crafts, short hollow cylinders with large visible central holes, red blue yellow green pink and white. Several upright and two lying on their sides reveal tubular shape. No wooden beads or necklace. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 1417878533
-    },
-    {
-      "id": "FSK_20_42",
-      "label": "pannkaka",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Three thin pancakes folded loosely on a plain plate, soft thin golden edges visible, no toppings. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1250145717
     },
     {
       "id": "FSK_20_59",
       "label": "knäckebröd",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two rectangular pieces of crisp rye bread with rough dotted surfaces and visible thin hard edges. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two rectangular pieces of traditional Swedish coarse rye crispbread, thin rigid flat slabs with squared corners, densely and regularly dimpled coarse grain surface and rough crisp edges. Light golden-brown rye, recognizable Swedish husman-style crispbread, no soft bread slices. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 872772917
     },
     {
       "id": "FSK_21_27",
       "label": "tejp",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One roll of clear adhesive tape with a short peeled loose end, cardboard center visible. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One realistic roll of transparent sticky tape viewed at a slight angle, circular white cardboard core clearly visible through center, translucent layered tape around it, short clear tape end peeling off tangentially. No extra rings. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 192932901
     },
     {
       "id": "FSK_21_35",
       "label": "overall",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One unoccupied child winter snowsuit with joined jacket and trouser sections, hood and long front zipper. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One single-piece child winter snowsuit, clean blue fabric, hood, long sleeves, torso and two trouser legs continuously sewn together into ONE garment. Single front zipper from neck down to crotch, no waist gap or separate jacket and trousers. Unoccupied. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 1973136061
     },
     {
-      "id": "FSK_25_28",
-      "label": "ritblock",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One white drawing pad with spiral binding along the top, one blank page partly turned. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 278862645
+      "id": "FSK_91_32",
+      "label": "kudde",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One plump rectangular pillow in a pristine WHITE cotton pillowcase, gently rounded corners and subtle stitched edge. Very light cool-gray shading only at folds; smooth spotless white fabric. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1702773829
     },
     {
-      "id": "FSK_25_49",
-      "label": "solhatt",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One fabric summer sun hat with a soft brim extending all around the crown. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 720676293
+      "id": "FSK_91_55",
+      "label": "gunga",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern Swedish playground swing: a black flexible rubber seat suspended level by two separate straight metal chains from one sturdy horizontal beam on an A-frame. Structurally connected chains and frame, no children. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 443827269
     },
     {
-      "id": "FSK_27_10",
-      "label": "häst",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One horse in full-body side view, long mane, hooves and flowing tail, no rider or saddle. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 2030186301
-    },
-    {
-      "id": "FSK_27_93",
-      "label": "glasögon",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One pair of eyeglasses with two transparent lenses, bridge and two side arms. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1386106221
-    },
-    {
-      "id": "FSK_29_11",
-      "label": "kastrull",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One metal saucepan with high sides, long handle and a matching lid resting beside it. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1296738005
-    },
-    {
-      "id": "FSK_31_34",
-      "label": "fjäder",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One bird feather, central shaft and fine branching vanes clearly visible. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1914858661
-    },
-    {
-      "id": "FSK_32_27",
-      "label": "bokhylla",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One low wooden bookshelf with three shelves holding upright books, no writing. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1493792141
-    },
-    {
-      "id": "FSK_32_47",
-      "label": "termometer",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One digital medical thermometer with slender rounded probe tip and small blank display, no numbers. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1561619533
+      "id": "FSK_91_66",
+      "label": "snö",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Fresh WHITE snow: a small soft snow mound with three white six-branched snowflakes above it. Delicate pale-blue outlines make white crystals visible on white background, natural crystalline branching, no brown snow. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 199130389
     }
   ]
 }
