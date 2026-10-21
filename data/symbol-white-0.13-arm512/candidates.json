@@ -267,6 +267,51 @@
       "sha256": "18bf7b122717df9a7af656485dee85a817a7c0529a08aed5e82a17d0dcea59ed"
     },
     {
+      "concept_id": "FSK_14_66",
+      "label_sv": "möta",
+      "fingerprint": "19b43900b6ad40bf29dfe176ad24fe18745d12738b685e80a96f3150d750d9a6",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two preschool children approaching each other from opposite directions along a path in side view, about to meet in the middle, neutral friendly faces. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1374751235,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:06:51.898372+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Möta: att träffa någon, ofta genom att mötas på vägen. Inte hälsa.",
+      "must_show_sv": [
+        "Två barn från motsatta håll",
+        "Avståndet nästan stängt"
+      ],
+      "must_not_show_sv": [
+        "Kram",
+        "Vinkning",
+        "Konflikt"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.262,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.293,
+      "sha256": "7ae3006177e1494a9b4137e4d75724503161cbada608c7a56bb29b075e949d1d"
+    },
+    {
       "concept_id": "FSK_15_34",
       "label_sv": "bröd",
       "fingerprint": "3db15714e49b2224756d0f30d34594ff873f064d177b0b7e5105104d322051ec",
