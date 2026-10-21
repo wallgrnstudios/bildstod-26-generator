@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_91_19",
   "label_sv": "vattenflaska",
-  "fingerprint": "05eaf923281c35b97c36a98745e17bb09bf68101f9b01d4f7e94417e195d2e0d",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One reusable children's water bottle with drinking spout and screw cap. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "4968a8309770484a5b5b0a20ce40510c7109612d4811f083f8418dfc4f06538c",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern reusable children water bottle, transparent pale-blue cylindrical body, securely attached blue screw lid and short flip-up drinking spout. Recognizable ordinary school water bottle, no handles or decorations. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 972830775,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-19T19:05:12.660217+00:00",
+  "created_at": "2026-10-21T07:01:13.427785+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 78.792,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 78.818,
-  "sha256": "a41aa88966ff59a03a31ed9f8adb99fe7a25666cac36c37898095a72b5ba92c3"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
