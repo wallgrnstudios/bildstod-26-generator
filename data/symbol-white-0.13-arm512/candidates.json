@@ -314,6 +314,51 @@
       "sha256": "09b67e1708474b3521b86101ab54e7ac4742cfe1c8cad7d35fe21b0b99dacc83"
     },
     {
+      "concept_id": "FSK_16_49",
+      "label_sv": "rulla",
+      "fingerprint": "c6f4ba848f1f3a7135547bbb375c75b86c7335799d30e43447404d5af4400fd4",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child seated on the floor in side view, having just pushed a ball that is rolling away along the floor in front of them. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1253379823,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:09:22.496841+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Rulla: att få något runt att röra sig längs underlaget genom att rotera, t.ex. en boll. Inte kasta.",
+      "must_show_sv": [
+        "Bollen på golvet",
+        "Barnets hand framåt"
+      ],
+      "must_not_show_sv": [
+        "Bollen i luften",
+        "Barnet rullar sin kropp",
+        "Mål"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.75,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.778,
+      "sha256": "42672e9d54715201ce675b44569ac0c9de9f99bd684eb682796f862fb9a5a1c0"
+    },
+    {
       "concept_id": "FSK_17_33",
       "label_sv": "sallad",
       "fingerprint": "a81adf2e1bfbd822c1b62b47265ed1c35409b8d55cd057251ab14a6fb64bc70f",
