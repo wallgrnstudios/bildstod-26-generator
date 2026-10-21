@@ -591,6 +591,50 @@
       "sha256": "626b7b02ea3a314e1ab013f39872fb0c798f8e3c3d77c3db54d97bc69d441671"
     },
     {
+      "concept_id": "FSK_15_36",
+      "label_sv": "samla",
+      "fingerprint": "194c1c153a6ed09a43bab90cbd9469fc0c1976c17deca2046ae62f1f68334f7e",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child kneeling and gathering scattered wooden toy blocks with both hands into a pile in front of them. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1688910105,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:19:10.255528+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Samla: att föra ihop utspridda saker på ett ställe. Inte plocka ett i taget.",
+      "must_show_sv": [
+        "Utspridda klossar mot en hög",
+        "Båda händerna"
+      ],
+      "must_not_show_sv": [
+        "Klossar som byggs till ett torn",
+        "Samling/gruppmöte"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 78.986,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.012,
+      "sha256": "adf6b6e0484c7a063ec69be4b6d903afcccaf8b895b0a73363955578a55d7a19"
+    },
+    {
       "concept_id": "FSK_16_18",
       "label_sv": "potatis",
       "fingerprint": "ce28d5822a87075dca74e3a106aad7f31cb24e4751f90c11f13392146b7c0ca9",
