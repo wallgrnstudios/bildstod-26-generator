@@ -110,6 +110,11 @@ def make_analyzer(config):
     from transformers import AutoProcessor,AutoModelForImageTextToText
     torch.set_num_threads(4)
     processor=AutoProcessor.from_pretrained(config['model'],revision=config['revision'],trust_remote_code=False)
+    # Default preprocessing upscales to 2048 and splits into many tiles. These
+    # simple 512px illustrations need just one native tile on the CPU runner.
+    processor.image_processor.size={'longest_edge':512}
+    processor.image_processor.max_image_size={'longest_edge':512}
+    processor.image_processor.do_image_splitting=False
     model=AutoModelForImageTextToText.from_pretrained(config['model'],revision=config['revision'],torch_dtype=torch.float32,attn_implementation='eager',trust_remote_code=False).eval()
     def analyze(image,expected):
         def ask(question,tokens):
