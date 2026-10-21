@@ -1,0 +1,39 @@
+{
+  "concept_id": "FSK_30_53",
+  "label_sv": "verkstad",
+  "fingerprint": "5164e11b811801f092ce5c4f9463c2a801dd5b07e899c4b603a3ebcae1b7213a",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: A workshop bench with a vise, a pegboard wall above it with hung hammer, pliers and a saw, and a half-finished wooden object on the bench. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1817005782,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-21T23:56:54.923506+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "object",
+  "meaning_sv": "Verkstad: rum där man reparerar saker med verktyg. Inte skolslöjdssal.",
+  "must_show_sv": [
+    "Arbetsbänk med skruvstycke",
+    "Verktyg på hängare"
+  ],
+  "must_not_show_sv": [
+    "Personer",
+    "Text",
+    "Bilverkstadens lyft"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
+}
