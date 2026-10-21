@@ -1387,6 +1387,51 @@
       "sha256": "45f2db88f29b5c682d3ed25c892374875af3ee8d4e37e114b51ce950c9d6a19c"
     },
     {
+      "concept_id": "FSK_18_82",
+      "label_sv": "dagbok",
+      "fingerprint": "083710ef11e83379f53913fdf988aaac7149329f9a36588bbc44fc4038cdb82b",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small closed diary with a hard cover, a strap-and-clasp lock and a ribbon bookmark hanging out, with a pencil lying beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1161279705,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:36:48.148107+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Dagbok: en bok där man skriver om sin dag, ofta med lås. Inte kalender.",
+      "must_show_sv": [
+        "Slutet band/lås",
+        "Bokmärkesband"
+      ],
+      "must_not_show_sv": [
+        "Text på omslaget",
+        "Kalenderrutor",
+        "Person som skriver"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.031,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.075,
+      "sha256": "d7a3869c4dede8dfbbbf8c2c08c06c249fb74a11613f16784bf67ca1631583d4"
+    },
+    {
       "concept_id": "FSK_19_77",
       "label_sv": "citron",
       "fingerprint": "92cb28889db1077fea7d996648000522818c0ef136ed24fa11c2dad219a9346a",
