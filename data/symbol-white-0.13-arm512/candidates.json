@@ -1094,6 +1094,48 @@
       "sha256": "a351a25ee8b99d0a5698852c04090176a7fd5c0dd6a203f3a20630adfc3b9c2c"
     },
     {
+      "concept_id": "FSK_28_88",
+      "label_sv": "smet",
+      "fingerprint": "d4c9d37d58bf42c1e5b4d9929470167a9067a06cb5930c8c94a47384a39e014b",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One white mixing bowl containing smooth pale cake batter, one wooden spoon resting inside with a thick ribbon of batter dripping back into bowl. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1634188417,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:26:07.736737+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Smet: Trögflytande kaksmet i bunke. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Trögflytande kaksmet i bunke"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.118,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.184,
+      "sha256": "4361e2db83ab4228b93ce1d2e8194f171a5d77592b3aa9526beb815687d6fa27"
+    },
+    {
       "concept_id": "FSK_28_97",
       "label_sv": "skridskor",
       "fingerprint": "4abf6dbb2e90346034685a380248363185d52dc0e536d958ae515bfd63ccde4e",
