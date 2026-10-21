@@ -1095,6 +1095,50 @@
       "sha256": "27475556dcf8c5443471d24233866e73382d776c8d33fe8f89af21d63c507d19"
     },
     {
+      "concept_id": "FSK_19_40",
+      "label_sv": "saft",
+      "fingerprint": "9b593eecf63479574c369eef5b60a15c37b33ea054158307a6329bd1735ee0ae",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A tall glass of red raspberry cordial with ice cubes and a straw, a tall bottle of red cordial with plain unlabeled glass next to it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1853931827,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:22:12.481276+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Saft; utspädd fruktsaft som dryck, här hallonsaft i glas. Inte juice.",
+      "must_show_sv": [
+        "Rött dryck i glas",
+        "Saftflaska utan etikett"
+      ],
+      "must_not_show_sv": [
+        "Text på flaskan",
+        "Mjölk"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.212,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.258,
+      "sha256": "596076ee3671d30cf9216958d6b9375c44dac41e2855aef6d70afa8f61542aa9"
+    },
+    {
       "concept_id": "FSK_19_59",
       "label_sv": "lock",
       "fingerprint": "576e1785d14099ca458551797727254911933e654d488581a49b8eec420b617e",
