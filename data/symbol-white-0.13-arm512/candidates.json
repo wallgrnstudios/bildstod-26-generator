@@ -1514,6 +1514,48 @@
       "sha256": "3b3d5458814c2795faf9c8c2bba21a85d0fddfcc9bf3ca71868fe8a196e6adad"
     },
     {
+      "concept_id": "FSK_30_58",
+      "label_sv": "rot",
+      "fingerprint": "618f68be486756b1e42c3e85c9a05887ab6bd9a3a385849de44fcaa8e3ba6cfc",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clean plant root system, one short main root branching into many fine smaller roots below a small cut stem, no soil or leaves. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2127017936,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:34:33.738898+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Rot: Förgrenade rötter med tunna smårötter. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Förgrenade rötter med tunna smårötter"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.809,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.829,
+      "sha256": "ec0008982d63b8b8f2e1474bb8feeb8ce7f0476f078e46aeb8b551ec35fac040"
+    },
+    {
       "concept_id": "FSK_30_78",
       "label_sv": "lakan",
       "fingerprint": "6874d643b6b062127bd38ec4753e1d2395ef304b6191e908cd05e0b3d47442a6",
