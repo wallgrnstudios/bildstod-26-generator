@@ -1,0 +1,72 @@
+name: Suggest image metadata
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Generate pilot candidates']
+    types: [completed]
+  schedule:
+    - cron: '47 */3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: metadata-pilot
+  cancel-in-progress: false
+jobs:
+  metadata:
+    if: github.event.repository.private == false && (github.event_name == 'workflow_dispatch' || vars.BILDSTOD_METADATA_ENABLED == 'true')
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
+      HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      OMP_NUM_THREADS: '4'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Restore metadata checkpoints
+        run: |
+          gh auth setup-git
+          git init .metadata-state
+          git -C .metadata-state config user.name 'Bildstöd metadata'
+          git -C .metadata-state config user.email 'bildstod-generator@users.noreply.github.com'
+          git -C .metadata-state remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads origin metadata-suggestions; then
+            git -C .metadata-state fetch --depth=1 origin metadata-suggestions
+            git -C .metadata-state checkout -B metadata-suggestions FETCH_HEAD
+          else
+            git -C .metadata-state checkout --orphan metadata-suggestions
+          fi
+      - name: Plan capped pilot
+        id: plan
+        run: |
+          python -m pip install --no-cache-dir -r requirements.txt
+          python -m bildstod.metadata plan --state .metadata-state > /tmp/metadata-plan.json
+          cat /tmp/metadata-plan.json
+          python -c 'import json,os; p=json.load(open("/tmp/metadata-plan.json"));open(os.environ["GITHUB_OUTPUT"],"a").write("count="+str(p["count"])+"\n")'
+      - name: Install CPU analyzer
+        if: steps.plan.outputs.count != '0'
+        run: |
+          python -m pip install --no-cache-dir torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --no-cache-dir -r requirements-metadata.txt
+      - name: Analyze public illustrations
+        if: steps.plan.outputs.count != '0'
+        run: python -m bildstod.metadata run --state .metadata-state --checkpoint-branch metadata-suggestions
+      - name: Pilot summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          path=Path('.metadata-state/suggestions.json')
+          if path.exists():
+              records=json.loads(path.read_text())['records']
+              with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+                  f.write(f"Metadata pilot: {len(records)}/30 attempted; {sum(r['status']=='suggested' for r in records.values())} suggestions. Human confirmation required.\n")
+          PY

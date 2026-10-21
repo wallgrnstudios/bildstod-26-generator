@@ -1,0 +1,4 @@
+-r requirements.txt
+transformers==4.57.1
+accelerate==1.10.1
+num2words==0.5.14
