@@ -1,0 +1,36 @@
+{
+  "concept_id": "FSK_28_93",
+  "label_sv": "fläkt",
+  "fingerprint": "615c391a7aa541e62d0978e0b159ee5cf4a61819614aee0df4be4eaf50a3ef37",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern blue tabletop electric fan, three broad blades behind a circular protective wire grille, short upright support and stable base, no motion lines. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1615315814,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-21T21:24:22.365772+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "object",
+  "meaning_sv": "Fläkt: Bordsfläkt med skyddsgaller på stativ. Avser det avgränsade motivet, inte en hel situation.",
+  "must_show_sv": [
+    "Bordsfläkt med skyddsgaller på stativ"
+  ],
+  "must_not_show_sv": [
+    "Personer eller en hel berättelse i samma bild"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
+}
