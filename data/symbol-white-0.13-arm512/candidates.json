@@ -2133,6 +2133,52 @@
       "sha256": "5005bd2836be3668f2f1b1442c539779c28b99d00a9164f6d497bbf54aa3602a"
     },
     {
+      "concept_id": "FSK_26_52",
+      "label_sv": "kung",
+      "fingerprint": "37cc06c86677eb227a0520e0c6bb58074e79f701731f081c5dfbc0a56fc435b6",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One friendly king standing in front view wearing a gold crown, a red robe with white fur trim and holding a gold sceptre. One person alone, full body, friendly neutral expression. Any role is shown only through the named concrete attributes; no badges, logos, lettering or decorative scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1233360606,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:39:57.116031+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "person",
+      "meaning_sv": "Kung: person i krona, mantel och med spira. Gränsfall: roll i lek/saga, inte en verklig person.",
+      "must_show_sv": [
+        "Guldkrona",
+        "Röd mantel",
+        "Spira"
+      ],
+      "must_not_show_sv": [
+        "Specifik verklig kung",
+        "Slott som huvudmotiv",
+        "Kön som rollmarkör"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 83.449,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 83.5,
+      "sha256": "3ed7ebe5822ab56c195372f7c99a4c207a3caf53fe4db4f60816894b89326ee2"
+    },
+    {
       "concept_id": "FSK_28_32",
       "label_sv": "ko",
       "fingerprint": "614b3251d6afff425023beab31cd018e0f633146a618e7543c5fd5535953cebb",
