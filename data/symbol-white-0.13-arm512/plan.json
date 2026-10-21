@@ -4,34 +4,70 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_22_28",
-      "label": "sandaler",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One matching pair of ordinary Swedish children indoor sandals, clean blue straps, two adjustable hook-and-loop straps across each foot, secure heel strap, open toes and light-gray flexible sole. Three-quarter view, no feet. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 755296254
+      "id": "FSK_17_02",
+      "label": "lastbil",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One blue delivery truck in side three-quarter view, separate driver cab, large rectangular cargo box and six correctly attached wheels. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1361661982
     },
     {
-      "id": "FSK_25_30",
-      "label": "häftmassa",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One flat rectangular sheet of clean WHITE reusable adhesive putty divided into narrow strips on partly peeled blue-and-white backing card. One small white piece pinched off beside it. Blank packaging without lettering, no blue clay. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 78445710
+      "id": "FSK_18_85",
+      "label": "gröt",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One white bowl of creamy pale oat porridge with fine visible oat flakes and a small blue spoon beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1972463022
     },
     {
-      "id": "FSK_31_36",
-      "label": "täcke",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One thick clean WHITE bed duvet partly folded, broad padded rectangular form, subtle square quilting and stitched edge. Pristine white cotton cover with only very pale cool-blue fold shadows. No brown, ochre, stains or mottled texture. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1679558230
+      "id": "FSK_19_24",
+      "label": "ficka",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up of one square blue denim patch pocket sewn onto a small flat section of blue fabric, open upper edge clearly visible. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 392747030
     },
     {
-      "id": "FSK_91_33",
-      "label": "filt",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clean sky-blue cotton blanket partly unfolded with a folded corner and clearly visible fabric edge. Uniform fresh blue fabric, subtle folds, no brown or yellow shading. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 991553614
+      "id": "FSK_20_34",
+      "label": "lingon",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Seven small round glossy red lingonberries, two attached to a short stem with thick oval green leaves. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2018137822
     },
     {
-      "id": "FSK_91_46",
-      "label": "limstift",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary preschool glue stick, upright bright blue cylindrical plastic barrel, white solid glue protruding from top, ribbed twist wheel at bottom. Removed matching blue cap beside it. No liquid nozzle. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1884878678
+      "id": "FSK_20_47",
+      "label": "linser",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small white bowl of dry orange-red lentils with several flat round lentils beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1043317022
+    },
+    {
+      "id": "FSK_20_79",
+      "label": "lim",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One upright white school liquid-glue bottle with blue pointed dispensing nozzle and a small white glue drop at its tip, no lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2040810574
+    },
+    {
+      "id": "FSK_20_86",
+      "label": "lasagne",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One square slice of baked lasagne showing alternating flat pasta sheets, tomato filling and pale sauce, browned cheese top. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1510084998
+    },
+    {
+      "id": "FSK_21_80",
+      "label": "plastpåse",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One empty transparent reusable plastic carrier bag with two integrated loop handles and visible bottom seam. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1443401870
+    },
+    {
+      "id": "FSK_29_04",
+      "label": "ugn",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern clean white freestanding oven, front glass door open downward showing metal racks inside, four control knobs above, no food. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2134467854
+    },
+    {
+      "id": "FSK_29_25",
+      "label": "flytväst",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clean bright-orange life jacket, two broad padded front panels, raised padded collar, central zipper and black waist fastening, unoccupied. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1260281286
+    },
+    {
+      "id": "FSK_30_46",
+      "label": "piano",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern upright black piano with uncovered alternating white and black keyboard, closed upper case and three brass pedals, no stool. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1073653310
     }
   ]
 }
