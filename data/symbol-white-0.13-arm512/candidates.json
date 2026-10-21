@@ -1237,6 +1237,52 @@
       "sha256": "50b1eb3a3e5dfdf7f44333f971eef14836e62487517b2f612dc0d1084ed7747d"
     },
     {
+      "concept_id": "FSK_20_91",
+      "label_sv": "mellanmål",
+      "fingerprint": "552ef1106994212ad00d09d052ddf126960d8898e75e12b2d0785c6e60812aca",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small snack plate with sliced apple pieces, a piece of crispbread with cheese and a small glass of milk. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 692840152,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:30:38.639874+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Mellanmål: en liten extra måltid mellan måltiderna, t.ex. frukt och smörgås. Inte frukost eller lunch.",
+      "must_show_sv": [
+        "Äppelbitar",
+        "Knäckebröd med ost",
+        "Litet glas mjölk"
+      ],
+      "must_not_show_sv": [
+        "Personer",
+        "Text",
+        "Varm måltid"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 83.147,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 83.172,
+      "sha256": "5e2db6e348c5470689d450c9c3c42471c9b2ce7c0154cf04344a52db246d38bf"
+    },
+    {
       "concept_id": "FSK_21_09",
       "label_sv": "stämpel",
       "fingerprint": "f419c5e0cad1502aeeaa06dfea299d042bfb87a89b35fda94ae9b33b9cd8c06e",
