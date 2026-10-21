@@ -1540,6 +1540,50 @@
       "sha256": "9e20f5b5f15bbf552491ee4d0f4df9ac461df065fd5f02150d48807044e4015f"
     },
     {
+      "concept_id": "FSK_20_90",
+      "label_sv": "kulle",
+      "fingerprint": "c28606788aa3a87ab7fc7667f8b80f5f5c49e127e31c03fc02b96dc6be3fdd76",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small rounded grassy hill rising from flat ground, a few daisies on the slope, nothing on top. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1341564938,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:37:36.655137+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Kulle; liten rundad förhöjning i marken. Inte berg.",
+      "must_show_sv": [
+        "Rundad kulle",
+        "Gräs"
+      ],
+      "must_not_show_sv": [
+        "Människor",
+        "Träd"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.02,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.042,
+      "sha256": "8ff5804724948c917a97eb556722685f1aed5546b7bea5ac2c3632922843f039"
+    },
+    {
       "concept_id": "FSK_21_30",
       "label_sv": "blöja",
       "fingerprint": "fbe0513ac92c6627b7b73ba5a0fd9f2eae4fee838694703b27d890c2f2fd1d39",
