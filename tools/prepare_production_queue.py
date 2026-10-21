@@ -23,10 +23,10 @@ def prepare(symbols,vocabulary,briefs):
         if not all(isinstance(x,str) and x.strip() for x in (label,prompt,criterion,contrast)):
             raise ValueError('Incomplete brief: '+label)
         entry={'id':row['id'],'text_sv':label,'symbol_type':'object',
-               'meaning_sv':f'{label.capitalize()}: {criterion}. Avser föremålet, inte en hel situation.',
+               'meaning_sv':f'{label.capitalize()}: {criterion}. Avser det avgränsade motivet, inte en hel situation.',
                'visual_prompt_en':prompt+' Isolated on pure white. No people, decorative scenery, brand names or lettering.',
                'must_show_sv':[criterion],'must_not_show_sv':['Personer eller en hel berättelse i samma bild'],
-               'contrast_terms_sv':[contrast],'generation_enabled':True,'generation_priority':1,
+               'contrast_terms_sv':[contrast],'generation_enabled':True,'generation_priority':row.get('priority_tier',1),
                'review_status':'draft','style_prompt_override':STYLE}
         symbols.append(entry);existing[row['id']]=entry;added.append(row['id'])
         row.update(meaning_sv=entry['meaning_sv'],brief_status='generation_ready',generation_enabled=True,symbol_id=row['id'])

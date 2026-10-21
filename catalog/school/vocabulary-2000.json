@@ -4889,14 +4889,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 258,
-    "meaning_sv": "mat – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Mat: Tallrik med flera tydliga matportioner. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_11_65",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -7226,14 +7226,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 381,
-    "meaning_sv": "kläder – betydelsen ska avgränsas inom kläder före bildgenerering.",
+    "meaning_sv": "Kläder: Tydliga plagg med byxben, ärmar och strumpor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_12_89",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -9810,14 +9810,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 517,
-    "meaning_sv": "kött – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Kött: Köttbit med synliga muskelfibrer. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_14_27",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -11292,14 +11292,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 595,
-    "meaning_sv": "fisk – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Fisk: Fiskkropp med fjäll, gälar och fenor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_15_06",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -11691,14 +11691,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 616,
-    "meaning_sv": "glass – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Glass: Glasskula i våffelstrut. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_15_27",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -11824,14 +11824,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 623,
-    "meaning_sv": "bröd – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Bröd: Brödlimpa med synliga skivor och mjukt inkråm. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_15_34",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -12470,14 +12470,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 657,
-    "meaning_sv": "olja – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Olja: Genomskinlig matolja i flaska med doseringspip. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_15_68",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -13306,14 +13306,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 701,
-    "meaning_sv": "kyckling – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Kyckling: Tillagat kycklinglår med synligt benände. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_16_13",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -13363,14 +13363,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 704,
-    "meaning_sv": "karta – betydelsen ska avgränsas inom skolmaterial före bildgenerering.",
+    "meaning_sv": "Karta: Vikt karta med land, vatten och vägar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_16_16",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -13762,14 +13762,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 725,
-    "meaning_sv": "frukt – betydelsen ska avgränsas inom frukt och grönt före bildgenerering.",
+    "meaning_sv": "Frukt: Flera olika tydligt urskiljbara frukter. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_16_37",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -13781,14 +13781,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 726,
-    "meaning_sv": "smör – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Smör: Gult smörblock med avskuren skiva. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_16_38",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -14256,14 +14256,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 751,
-    "meaning_sv": "bro – betydelsen ska avgränsas inom utemiljö före bildgenerering.",
+    "meaning_sv": "Bro: Bro med sammanhängande gångbana och stöd. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_16_63",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -15567,14 +15567,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 820,
-    "meaning_sv": "sallad – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Sallad: Salladsskål med tydliga grönsaksbitar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_33",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -16004,14 +16004,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 843,
-    "meaning_sv": "klocka – betydelsen ska avgränsas inom skolmaterial före bildgenerering.",
+    "meaning_sv": "Klocka: Rund urtavla med timmarkeringar och visare. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_56",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -16156,14 +16156,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 851,
-    "meaning_sv": "svamp – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Svamp: Hatt med skivor undertill på en fot. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_64",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -16175,14 +16175,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 852,
-    "meaning_sv": "grönsaker – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Grönsaker: Flera olika tydligt urskiljbara grönsaker. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_17_65",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -16897,14 +16897,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 890,
-    "meaning_sv": "sås – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Sås: Flytande sås i såssnipa med hällpip. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_04",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -17315,14 +17315,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 912,
-    "meaning_sv": "mjöl – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Mjöl: Fint vitt mjöl i bunke med mjölskopa. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_26",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -17828,14 +17828,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 939,
-    "meaning_sv": "honung – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Honung: Seg honung och räfflad honungspinne. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_53",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -17942,14 +17942,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 945,
-    "meaning_sv": "skum – betydelsen ska avgränsas inom hygien före bildgenerering.",
+    "meaning_sv": "Skum: Täta små såpbubblor som bildar skum. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_59",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -18493,14 +18493,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 974,
-    "meaning_sv": "mask – betydelsen ska avgränsas inom lek före bildgenerering.",
+    "meaning_sv": "Mask: Ansiktsmask med två ögonöppningar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_18_88",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -18930,14 +18930,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 997,
-    "meaning_sv": "skinka – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Skinka: Tunna rosa skinkskivor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19386,14 +19386,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1021,
-    "meaning_sv": "kalender – betydelsen ska avgränsas inom skolmaterial före bildgenerering.",
+    "meaning_sv": "Kalender: Spiralbunden kalender med rutnät för dagar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_36",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19500,14 +19500,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1027,
-    "meaning_sv": "binda – betydelsen ska avgränsas inom hygien före bildgenerering.",
+    "meaning_sv": "Binda: Vit avlång binda med sidovingar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_42",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -19633,14 +19633,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1034,
-    "meaning_sv": "skrivbord – betydelsen ska avgränsas inom skolmaterial före bildgenerering.",
+    "meaning_sv": "Skrivbord: Skrivyta på fyra ben med sidolåda. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_19_49",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20602,14 +20602,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1085,
-    "meaning_sv": "sylt – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Sylt: Röd bärsylt med synliga bärbitar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_01",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -20944,14 +20944,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1103,
-    "meaning_sv": "staket – betydelsen ska avgränsas inom utemiljö före bildgenerering.",
+    "meaning_sv": "Staket: Lodräta spjälor sammanfogade med tvärslåar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_19",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21001,14 +21001,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1106,
-    "meaning_sv": "kanel – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Kanel: Rullade barkstänger och kanelpulver. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_22",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21172,14 +21172,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1115,
-    "meaning_sv": "flingor – betydelsen ska avgränsas inom bröd och dryck före bildgenerering.",
+    "meaning_sv": "Flingor: Tunna oregelbundna frukostflingor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_31",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21362,14 +21362,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1125,
-    "meaning_sv": "gryta – betydelsen ska avgränsas inom mat före bildgenerering.",
+    "meaning_sv": "Gryta: Gryträtt med bitar i tjock sås. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_41",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21552,14 +21552,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1135,
-    "meaning_sv": "avlopp – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Avlopp: Rund sil med avrinningshål i handfat. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_51",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21647,14 +21647,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1140,
-    "meaning_sv": "pall – betydelsen ska avgränsas inom hygien före bildgenerering.",
+    "meaning_sv": "Pall: Låg pall med halkskyddad ovansida. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_56",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -21894,14 +21894,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1153,
-    "meaning_sv": "kartong – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Kartong: Öppen låda med fyra vikbara flikar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_69",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -22407,14 +22407,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1180,
-    "meaning_sv": "cape – betydelsen ska avgränsas inom lek före bildgenerering.",
+    "meaning_sv": "Cape: Ärmlös cape med halsfäste. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_20_96",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23262,14 +23262,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1225,
-    "meaning_sv": "diskmaskin – betydelsen ska avgränsas inom måltidsföremål före bildgenerering.",
+    "meaning_sv": "Diskmaskin: Nedfälld lucka och två diskställ. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_42",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23433,14 +23433,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1234,
-    "meaning_sv": "dinosaurie – betydelsen ska avgränsas inom lek före bildgenerering.",
+    "meaning_sv": "Dinosaurie: Dinosaurie med nacksköld och tre horn. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_21_92",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23509,14 +23509,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1238,
-    "meaning_sv": "krage – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Krage: Vikt skjortkrage med två kragsnibbar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_22_19",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23585,14 +23585,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1242,
-    "meaning_sv": "huva – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Huva: Tom klädhuva med rundad form och ansiktsöppning. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_22_36",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23623,14 +23623,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1244,
-    "meaning_sv": "projektor – betydelsen ska avgränsas inom skolmaterial före bildgenerering.",
+    "meaning_sv": "Projektor: Stor projektorlins och ventilationsgaller. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_22_51",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23661,14 +23661,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1246,
-    "meaning_sv": "miniräknare – betydelsen ska avgränsas inom skolmaterial före bildgenerering.",
+    "meaning_sv": "Miniräknare: Display ovanför rutnät av knappar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_22_61",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -23718,14 +23718,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1249,
-    "meaning_sv": "sula – betydelsen ska avgränsas inom klädtillbehör före bildgenerering.",
+    "meaning_sv": "Sula: Skosulans hälform och mönstrade undersida. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_22_69",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -24136,14 +24136,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1271,
-    "meaning_sv": "namnskylt – betydelsen ska avgränsas inom skolmaterial före bildgenerering.",
+    "meaning_sv": "Namnskylt: Tom namnskylt i hållare med halsband. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_23_88",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -24174,14 +24174,14 @@
     "entry_type": "concept",
     "priority_tier": 1,
     "editorial_order": 1273,
-    "meaning_sv": "tidningspapper – betydelsen ska avgränsas inom bildmaterial före bildgenerering.",
+    "meaning_sv": "Tidningspapper: Tunt tidningspapper med spaltindelning. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "förskola",
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_24_16",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -24630,13 +24630,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1297,
-    "meaning_sv": "en – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "En: Spetsiga barr och blå enbär på kvist. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_25_58",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -25278,13 +25278,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1333,
-    "meaning_sv": "mål – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Mål: Fotbollsmål med ram och bakåtriktat nät. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_25_94",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -25458,13 +25458,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1343,
-    "meaning_sv": "hus – betydelsen ska avgränsas inom samhälle före bildgenerering.",
+    "meaning_sv": "Hus: Hus med tak, väggar, dörr och fönster. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_26_05",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -25584,13 +25584,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1350,
-    "meaning_sv": "is – betydelsen ska avgränsas inom år och väder före bildgenerering.",
+    "meaning_sv": "Is: Genomskinliga iskuber med skarpa kanter. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_26_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -25692,13 +25692,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1356,
-    "meaning_sv": "bo – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Bo: Skålformat fågelbo av kvistar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_26_18",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -26160,13 +26160,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1382,
-    "meaning_sv": "fotboll – betydelsen ska avgränsas inom idrott före bildgenerering.",
+    "meaning_sv": "Fotboll: Fotboll med svartvita månghörniga fält. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_26_42",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -26304,13 +26304,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1390,
-    "meaning_sv": "telefon – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Telefon: Telefonlur i klyka och spiralsladd. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_26_48",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -26322,13 +26322,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1391,
-    "meaning_sv": "hjärta – betydelsen ska avgränsas inom hälsa före bildgenerering.",
+    "meaning_sv": "Hjärta: Anatomiskt hjärta med stora kärl upptill. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_26_49",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -26448,13 +26448,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1398,
-    "meaning_sv": "kontakt – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Kontakt: Elkontakt med två runda metallstift. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_26_55",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -27042,13 +27042,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1431,
-    "meaning_sv": "dator – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Dator: Bärbar dator med skärm och tangentbord. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_26_81",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -27546,13 +27546,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1459,
-    "meaning_sv": "al – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Al: Rundade blad och små kottelika frukter. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_07",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -27564,13 +27564,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1460,
-    "meaning_sv": "björn – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Björn: Björn med breda tassar och runda öron. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_08",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -27816,13 +27816,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1474,
-    "meaning_sv": "paket – betydelsen ska avgränsas inom högtider före bildgenerering.",
+    "meaning_sv": "Paket: Stängt paket med tejpad skarv. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_20",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -27960,13 +27960,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1482,
-    "meaning_sv": "medicin – betydelsen ska avgränsas inom hälsa före bildgenerering.",
+    "meaning_sv": "Medicin: Tabletter i förseglad blisterförpackning. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_26",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -28356,13 +28356,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1504,
-    "meaning_sv": "hjärna – betydelsen ska avgränsas inom hälsa före bildgenerering.",
+    "meaning_sv": "Hjärna: Veckade hjärnhalvor och liten hjärnstam. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_44",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -28824,13 +28824,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1530,
-    "meaning_sv": "jord – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Jord: Mörk smulig odlingsjord med fina rotdelar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_59",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -28860,13 +28860,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1532,
-    "meaning_sv": "gräs – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Gräs: Smala gröna grässtrån i tuva. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_60",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -29166,13 +29166,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1549,
-    "meaning_sv": "present – betydelsen ska avgränsas inom högtider före bildgenerering.",
+    "meaning_sv": "Present: Inslagen gåva med band och rosett. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_72",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -29328,13 +29328,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1558,
-    "meaning_sv": "tråd – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Tråd: Tunn sytråd på spole. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_79",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -29616,13 +29616,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1574,
-    "meaning_sv": "get – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Get: Get med skägg, klövar och bakåtböjda horn. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_88",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -29652,13 +29652,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1576,
-    "meaning_sv": "trä – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Trä: Trästycke med ådring och årsringar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_90",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -30174,13 +30174,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1605,
-    "meaning_sv": "krona – betydelsen ska avgränsas inom uteleksaker före bildgenerering.",
+    "meaning_sv": "Krona: Öppen kronring med uppåtpekande spetsar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_27_98",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -30408,13 +30408,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1618,
-    "meaning_sv": "fartyg – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Fartyg: Stort fartyg med flera däck och brygga. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_03",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -30426,13 +30426,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1619,
-    "meaning_sv": "tårta – betydelsen ska avgränsas inom högtider före bildgenerering.",
+    "meaning_sv": "Tårta: Tårta med glasyr och ljus. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_04",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -30642,13 +30642,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1631,
-    "meaning_sv": "mynt – betydelsen ska avgränsas inom pengar och yrken före bildgenerering.",
+    "meaning_sv": "Mynt: Runda metallmynt med präglade kanter. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_18",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -30678,13 +30678,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1633,
-    "meaning_sv": "gren – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Gren: Förgrenad trägren med mindre kvistar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_19",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31020,13 +31020,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1652,
-    "meaning_sv": "tält – betydelsen ska avgränsas inom samhälle före bildgenerering.",
+    "meaning_sv": "Tält: Kupoltält med öppningsbar ingång. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_31",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31038,13 +31038,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1653,
-    "meaning_sv": "nät – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Nät: Rektangulärt nät med tydliga maskor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_18",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31092,13 +31092,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1656,
-    "meaning_sv": "ek – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Ek: Flikiga ekblad och ekollon. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_20",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31110,13 +31110,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1657,
-    "meaning_sv": "lås – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Lås: Hänglås med U-formad bygel och nyckelhål. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_21",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31146,13 +31146,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1659,
-    "meaning_sv": "moln – betydelsen ska avgränsas inom år och väder före bildgenerering.",
+    "meaning_sv": "Moln: Vitt moln med rundade bulliga former. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_23",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31164,13 +31164,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1660,
-    "meaning_sv": "flagga – betydelsen ska avgränsas inom geografi före bildgenerering.",
+    "meaning_sv": "Flagga: Flaggduk fäst vid en stång. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_33",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31200,13 +31200,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1662,
-    "meaning_sv": "vagn – betydelsen ska avgränsas inom uteleksaker före bildgenerering.",
+    "meaning_sv": "Vagn: Dragvagn med fyra hjul och dragstång. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_25",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31218,13 +31218,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1663,
-    "meaning_sv": "blad – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Blad: Grönt blad med bladskiva, nerver och skaft. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_34",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31362,13 +31362,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1671,
-    "meaning_sv": "handboll – betydelsen ska avgränsas inom idrott före bildgenerering.",
+    "meaning_sv": "Handboll: Liten greppvänlig handboll med färgade paneler. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_31",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31668,13 +31668,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1688,
-    "meaning_sv": "varg – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Varg: Grå varg med spetsiga öron och hängande buskig svans. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_41",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31812,13 +31812,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1696,
-    "meaning_sv": "tiger – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Tiger: Orange kattdjur med svarta ränder. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_45",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31920,13 +31920,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1702,
-    "meaning_sv": "skärm – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Skärm: Bildskärm på stativ utan tangentbord. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_50",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -31938,13 +31938,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1703,
-    "meaning_sv": "rep – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Rep: Tjockt flätat rep med synliga kardeler. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_49",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32064,13 +32064,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1710,
-    "meaning_sv": "förband – betydelsen ska avgränsas inom hälsa före bildgenerering.",
+    "meaning_sv": "Förband: Rullad gasbinda med synlig väv. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_55",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32100,13 +32100,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1712,
-    "meaning_sv": "stuga – betydelsen ska avgränsas inom samhälle före bildgenerering.",
+    "meaning_sv": "Stuga: Liten rödmålad stuga med en våning. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_52",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32154,13 +32154,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1715,
-    "meaning_sv": "anka – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Anka: Bred platt näbb och simhudsfötter. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_57",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32190,13 +32190,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1717,
-    "meaning_sv": "skåp – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Skåp: Lågt skåp med dörrar och hyllplan. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_58",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32244,13 +32244,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1720,
-    "meaning_sv": "älg – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Älg: Älgens stora mule och skovelhorn. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_60",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32298,13 +32298,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1723,
-    "meaning_sv": "rot – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Rot: Förgrenade rötter med tunna smårötter. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_58",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32316,13 +32316,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1724,
-    "meaning_sv": "batteri – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Batteri: Cylindriskt batteri med upphöjd pol. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_59",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32406,13 +32406,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1729,
-    "meaning_sv": "lejon – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Lejon: Lejon med man och svanstofs. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_65",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32586,13 +32586,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1739,
-    "meaning_sv": "mobiltelefon – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Mobiltelefon: Mobil med stor pekskärm och sidoknappar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_67",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32604,13 +32604,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1740,
-    "meaning_sv": "robot – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Robot: Mekanisk leksaksfigur med ledade delar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_68",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32712,13 +32712,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1746,
-    "meaning_sv": "ros – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Ros: Lager av kronblad och taggig stjälk. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_71",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32730,13 +32730,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1747,
-    "meaning_sv": "lamm – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Lamm: Litet lamm med lockig ull och utan horn. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_72",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32748,13 +32748,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1748,
-    "meaning_sv": "apa – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Apa: Apa med gripande händer och lång svans. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_73",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32766,13 +32766,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1749,
-    "meaning_sv": "hjul – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Hjul: Hjul med fälg, ekrar och nav. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_74",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32802,13 +32802,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1751,
-    "meaning_sv": "pinne – betydelsen ska avgränsas inom uteleksaker före bildgenerering.",
+    "meaning_sv": "Pinne: Träpinne med bark och synliga ändar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_76",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32838,13 +32838,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1753,
-    "meaning_sv": "vete – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Vete: Kompakta ax med sädeskorn i rader. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_77",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32946,13 +32946,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1759,
-    "meaning_sv": "varan – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Varan: Fjälligt ödledjur med fyra ben och lång svans. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_79",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -32964,13 +32964,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1760,
-    "meaning_sv": "ved – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Ved: Kluvna vedträn med bark på utsidan. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_77",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33162,13 +33162,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1771,
-    "meaning_sv": "mus – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Mus: Liten mus med tunn lång svans och runda öron. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_84",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33342,13 +33342,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1781,
-    "meaning_sv": "rullstol – betydelsen ska avgränsas inom hälsa före bildgenerering.",
+    "meaning_sv": "Rullstol: Stora drivhjul med handringar och fotstöd. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_92",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33450,13 +33450,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1787,
-    "meaning_sv": "kärna – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Kärna: Hård oval fruktkärna med fårad yta. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_97",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33468,13 +33468,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1788,
-    "meaning_sv": "vass – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Vass: Långa strån med yviga vippor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_87",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33504,13 +33504,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1790,
-    "meaning_sv": "grus – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Grus: Små separata gruskorn i en hög. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_30_99",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33522,13 +33522,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1791,
-    "meaning_sv": "smet – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Smet: Trögflytande kaksmet i bunke. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_88",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33594,13 +33594,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1795,
-    "meaning_sv": "lind – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Lind: Hjärtformade blad och långt stödblad. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_89",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33612,13 +33612,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1796,
-    "meaning_sv": "fluga – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Fluga: Sex ben och ett par vingar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_90",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33630,13 +33630,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1797,
-    "meaning_sv": "sill – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Sill: Slank silverfisk med kluven stjärtfena. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_91",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33702,13 +33702,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1801,
-    "meaning_sv": "blixt – betydelsen ska avgränsas inom år och väder före bildgenerering.",
+    "meaning_sv": "Blixt: Förgrenad sicksackformad blixt. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_07",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33756,13 +33756,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1804,
-    "meaning_sv": "tangentbord – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Tangentbord: Rader av tangenter med långt mellanslag. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_09",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33810,13 +33810,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1807,
-    "meaning_sv": "stam – betydelsen ska avgränsas inom natur före bildgenerering.",
+    "meaning_sv": "Stam: Trädstam med bark och årsringar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33828,13 +33828,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1808,
-    "meaning_sv": "byrå – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Byrå: Tre utdragbara lådor staplade på varandra. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_13",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33882,13 +33882,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1811,
-    "meaning_sv": "fläkt – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Fläkt: Bordsfläkt med skyddsgaller på stativ. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_93",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33900,13 +33900,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1812,
-    "meaning_sv": "deg – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Deg: Mjuk sammanhängande degklump. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_94",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33918,13 +33918,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1813,
-    "meaning_sv": "usb-minne – betydelsen ska avgränsas inom teknik före bildgenerering.",
+    "meaning_sv": "Usb-minne: Liten minnessticka med synlig USB-kontakt. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_16",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -33990,13 +33990,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1817,
-    "meaning_sv": "orm – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Orm: Lång benlös orm med tydligt litet huvud. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_20",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34008,13 +34008,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1818,
-    "meaning_sv": "haj – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Haj: Ryggfena och tydliga gälspringor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_95",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34116,13 +34116,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1824,
-    "meaning_sv": "hare – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Hare: Långa öron och kraftiga bakben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_24",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34134,13 +34134,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1825,
-    "meaning_sv": "spårvagn – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Spårvagn: Spårvagn med stålhjul och takströmavtagare. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_25",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34152,13 +34152,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1826,
-    "meaning_sv": "moped – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Moped: Liten tvåhjuling med lågt insteg och motor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_26",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34170,13 +34170,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1827,
-    "meaning_sv": "raket – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Raket: Spetsig rymdraket med stjärtfenor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_27",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34224,13 +34224,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1830,
-    "meaning_sv": "räv – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Räv: Rödbrun räv med vit svansspets. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_30",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34278,13 +34278,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1833,
-    "meaning_sv": "kon – betydelsen ska avgränsas inom idrott före bildgenerering.",
+    "meaning_sv": "Kon: Orange träningskon på bred kvadratisk fot. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_33",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34314,13 +34314,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1835,
-    "meaning_sv": "ubåt – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Ubåt: Sluten undervattensbåt med torn och propeller. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_35",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34350,13 +34350,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1837,
-    "meaning_sv": "tvättmaskin – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Tvättmaskin: Rund frontlucka och tvättmedelsfack. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_37",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34368,13 +34368,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1838,
-    "meaning_sv": "skelett – betydelsen ska avgränsas inom hälsa före bildgenerering.",
+    "meaning_sv": "Skelett: Skalle, revben, ryggrad och bäcken i benmodell. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_38",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34404,13 +34404,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1840,
-    "meaning_sv": "rådjur – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Rådjur: Litet hjortdjur med vit bakdel och stora öron. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_40",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34494,13 +34494,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1845,
-    "meaning_sv": "uggla – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Uggla: Framåtriktade ögon och rund ansiktsskiva. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_98",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34548,13 +34548,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1848,
-    "meaning_sv": "råtta – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Råtta: Kraftig råtta med lång naken svans. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_47",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34602,13 +34602,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1851,
-    "meaning_sv": "tall – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Tall: Långa barr i par och tallkotte. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_28_99",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34620,13 +34620,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1852,
-    "meaning_sv": "torsk – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Torsk: Tre ryggfenor och skäggtöm under hakan. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_01",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34638,13 +34638,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1853,
-    "meaning_sv": "frys – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Frys: Frysbox med uppfällt lock och djup isolerad insida. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_02",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34656,13 +34656,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1854,
-    "meaning_sv": "vindkraftverk – betydelsen ska avgränsas inom naturvetenskap före bildgenerering.",
+    "meaning_sv": "Vindkraftverk: Högt torn och tre rotorblad. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_50",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34674,13 +34674,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1855,
-    "meaning_sv": "tyg – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Tyg: Vävt tyg med fransad kant. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_51",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34728,13 +34728,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1858,
-    "meaning_sv": "pil – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Pil: Smala avlånga blad på böjlig kvist. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_03",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34800,13 +34800,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1862,
-    "meaning_sv": "lama – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Lama: Ulligt djur med lång hals och böjda öron. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_05",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34890,13 +34890,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1867,
-    "meaning_sv": "panda – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Panda: Svarta ögonfläckar, öron och ben på vit panda. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_07",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34908,13 +34908,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1868,
-    "meaning_sv": "husvagn – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Husvagn: Boendevagn med hjul och dragkoppling. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_59",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34926,13 +34926,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1869,
-    "meaning_sv": "lungor – betydelsen ska avgränsas inom hälsa före bildgenerering.",
+    "meaning_sv": "Lungor: Två lungor kopplade till delad luftstrupe. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_60",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34962,13 +34962,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1871,
-    "meaning_sv": "ponny – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Ponny: Liten kraftig häst med man och lång svans. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_62",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -34980,13 +34980,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1872,
-    "meaning_sv": "höna – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Höna: Höna med kam, näbb och två ben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_63",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35016,13 +35016,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1874,
-    "meaning_sv": "kompass – betydelsen ska avgränsas inom naturvetenskap före bildgenerering.",
+    "meaning_sv": "Kompass: Rund kompass med tydlig tvåfärgad nål. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_65",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35106,13 +35106,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1879,
-    "meaning_sv": "gås – betydelsen ska avgränsas inom svenska djur före bildgenerering.",
+    "meaning_sv": "Gås: Gås med lång hals och simhudsfötter. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_70",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35124,13 +35124,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1880,
-    "meaning_sv": "elefant – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Elefant: Snabel, stora öron och fyra kraftiga ben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_08",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35178,13 +35178,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1883,
-    "meaning_sv": "bomull – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Bomull: Vit bomull i öppnad frökapsel. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_73",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35196,13 +35196,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1884,
-    "meaning_sv": "ljung – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Ljung: Små lila blommor tätt längs kvistarna. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_74",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35214,13 +35214,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1885,
-    "meaning_sv": "sladd – betydelsen ska avgränsas inom hemmet före bildgenerering.",
+    "meaning_sv": "Sladd: Isolerad sladd med stickkontakt. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_75",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35232,13 +35232,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1886,
-    "meaning_sv": "spöke – betydelsen ska avgränsas inom högtider före bildgenerering.",
+    "meaning_sv": "Spöke: Vit fantasifigur med ögon och vågig nederkant. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_76",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35250,13 +35250,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1887,
-    "meaning_sv": "bock – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Bock: Vadderad hoppbock på fyra snedställda ben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_09",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35268,13 +35268,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1888,
-    "meaning_sv": "ull – betydelsen ska avgränsas inom slöjdmaterial före bildgenerering.",
+    "meaning_sv": "Ull: Vit ulltuss med krusiga fibrer. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_77",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35304,13 +35304,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1890,
-    "meaning_sv": "gädda – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Gädda: Lång platt nos och ryggfena långt bak. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_10",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35358,13 +35358,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1893,
-    "meaning_sv": "färja – betydelsen ska avgränsas inom trafik före bildgenerering.",
+    "meaning_sv": "Färja: Färja med öppet fordonsdäck och lastramp. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_80",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35466,13 +35466,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1899,
-    "meaning_sv": "hummer – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Hummer: Två stora klor och ledad stjärt. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35502,13 +35502,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1901,
-    "meaning_sv": "havre – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Havre: Hängande småax i gles vippa. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_87",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35574,13 +35574,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1905,
-    "meaning_sv": "abborre – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Abborre: Mörka tvärband och rödaktiga bukfenor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_13",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35664,13 +35664,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1910,
-    "meaning_sv": "asp – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Asp: Rundade blad med vågig kant och långa skaft. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_94",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35682,13 +35682,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1911,
-    "meaning_sv": "örn – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Örn: Kraftig böjd näbb och gripklor. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_15",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35700,13 +35700,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1912,
-    "meaning_sv": "spis – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Spis: Spishäll med fyra kokzoner ovanför ugn. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_16",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35736,13 +35736,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1914,
-    "meaning_sv": "julgran – betydelsen ska avgränsas inom högtider före bildgenerering.",
+    "meaning_sv": "Julgran: Grön gran med julgranskulor och toppstjärna. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_96",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35754,13 +35754,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1915,
-    "meaning_sv": "dill – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Dill: Fina trådlika gröna blad. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_97",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35790,13 +35790,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1917,
-    "meaning_sv": "bläckfisk – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Bläckfisk: Åtta armar med sugkoppar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_31_99",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35844,13 +35844,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1920,
-    "meaning_sv": "magnet – betydelsen ska avgränsas inom naturvetenskap före bildgenerering.",
+    "meaning_sv": "Magnet: U-formad magnet med två separata poländar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_02",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35880,13 +35880,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1922,
-    "meaning_sv": "kråka – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Kråka: Gråsvart fågel med svart näbb. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_04",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35898,13 +35898,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1923,
-    "meaning_sv": "zebra – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Zebra: Hästlik kropp med svartvita ränder. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_18",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35916,13 +35916,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1924,
-    "meaning_sv": "snowboard – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Snowboard: En bred bräda med två bindningar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_19",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35934,13 +35934,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1925,
-    "meaning_sv": "larv – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Larv: Mjuk segmenterad larvkropp med små ben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_05",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35952,13 +35952,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1926,
-    "meaning_sv": "klöver – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Klöver: Tredelade blad och rund blomma. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_06",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35970,13 +35970,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1927,
-    "meaning_sv": "basilika – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Basilika: Breda släta ovala blad i par. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_07",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -35988,13 +35988,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1928,
-    "meaning_sv": "leopard – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Leopard: Kattdjur med rosettfläckar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_20",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36024,13 +36024,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1930,
-    "meaning_sv": "krabba – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Krabba: Bred sköld, två klor och åtta gångben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_09",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36042,13 +36042,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1931,
-    "meaning_sv": "gorilla – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Gorilla: Kraftig människoapa med långa armar utan svans. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_21",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36078,13 +36078,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1933,
-    "meaning_sv": "krokodil – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Krokodil: Pansarrygg och lång smal spetsig nos. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_22",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36114,13 +36114,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1935,
-    "meaning_sv": "alligator – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Alligator: Bred rundad nos och pansrad kropp. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_12",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36132,13 +36132,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1936,
-    "meaning_sv": "fladdermus – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Fladdermus: Hudvingar med synliga fingerben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_13",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36222,13 +36222,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1941,
-    "meaning_sv": "sil – betydelsen ska avgränsas inom uteleksaker före bildgenerering.",
+    "meaning_sv": "Sil: Finmaskig sil med långt handtag. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_17",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36240,13 +36240,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1942,
-    "meaning_sv": "delfin – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Delfin: Slät kropp med horisontell stjärtfena. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_18",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36258,13 +36258,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1943,
-    "meaning_sv": "svala – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Svala: Djupt kluven stjärt med långa yttre fjädrar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_19",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36276,13 +36276,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1944,
-    "meaning_sv": "pingvin – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Pingvin: Upprätt svartvit fågel med fenlika vingar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_20",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36294,13 +36294,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1945,
-    "meaning_sv": "käpp – betydelsen ska avgränsas inom uteleksaker före bildgenerering.",
+    "meaning_sv": "Käpp: Stödkäpp med böjt handtag och gummifot. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_21",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36312,13 +36312,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1946,
-    "meaning_sv": "råg – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Råg: Smala sädesax med långa borst. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_22",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36348,13 +36348,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1948,
-    "meaning_sv": "mås – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Mås: Vitgrå fågel med simhudsfötter. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_24",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36438,13 +36438,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1953,
-    "meaning_sv": "persilja – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Persilja: Täta krusiga gröna blad. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_29",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36456,13 +36456,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1954,
-    "meaning_sv": "giraff – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Giraff: Mycket lång hals och fläckig päls. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_30",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36474,13 +36474,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1955,
-    "meaning_sv": "kamel – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Kamel: Kamel med en tydlig puckel. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_31",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36492,13 +36492,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1956,
-    "meaning_sv": "koja – betydelsen ska avgränsas inom uteleksaker före bildgenerering.",
+    "meaning_sv": "Koja: Liten byggd lekkoja med tydlig ingång. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_32",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36510,13 +36510,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1957,
-    "meaning_sv": "boa – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Boa: Kraftig fläckig orm utan utspänd hals. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_33",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36528,13 +36528,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1958,
-    "meaning_sv": "studsmatta – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Studsmatta: Rund spänd hoppduk på ben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_29_24",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36564,13 +36564,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1960,
-    "meaning_sv": "hackspett – betydelsen ska avgränsas inom smådjur och fåglar före bildgenerering.",
+    "meaning_sv": "Hackspett: Svartvit hackspett med röd undergump på stam. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_35",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36582,13 +36582,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1961,
-    "meaning_sv": "mynta – betydelsen ska avgränsas inom växter före bildgenerering.",
+    "meaning_sv": "Mynta: Sågtandade skrynkliga blad i par. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_36",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36600,13 +36600,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1962,
-    "meaning_sv": "papegoja – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Papegoja: Kraftig böjd näbb och lång färgad stjärt. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_37",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36672,13 +36672,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1966,
-    "meaning_sv": "kobra – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Kobra: Orm med tydligt utspänd halssköld. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_40",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36690,13 +36690,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1967,
-    "meaning_sv": "isbjörn – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Isbjörn: Vit björn med svart nos och stora tassar. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_41",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36744,13 +36744,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1970,
-    "meaning_sv": "mikrovågsugn – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Mikrovågsugn: Liten ugn med frontlucka och sidoreglage. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_44",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36762,13 +36762,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1971,
-    "meaning_sv": "kaffebryggare – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Kaffebryggare: Kaffebryggare med filterhållare över glaskanna. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_45",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36780,13 +36780,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1972,
-    "meaning_sv": "flamingo – betydelsen ska avgränsas inom världens djur före bildgenerering.",
+    "meaning_sv": "Flamingo: Rosa fågel med lång böjd hals och långa ben. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_46",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -36816,13 +36816,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1974,
-    "meaning_sv": "stavmixer – betydelsen ska avgränsas inom kök och bakning före bildgenerering.",
+    "meaning_sv": "Stavmixer: Lång stavmixer med skyddskåpa längst ned. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_48",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -37032,13 +37032,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1986,
-    "meaning_sv": "benskydd – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Benskydd: Två avlånga böjda benskydd. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_60",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -37086,13 +37086,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1989,
-    "meaning_sv": "pjäxor – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Pjäxor: Höga styva skidpjäxor med spännen. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_63",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
@@ -37248,13 +37248,13 @@
     "entry_type": "concept",
     "priority_tier": 2,
     "editorial_order": 1998,
-    "meaning_sv": "stoppur – betydelsen ska avgränsas inom idrottsmaterial före bildgenerering.",
+    "meaning_sv": "Stoppur: Tidtagarur med tydlig tryckknapp upptill. Avser det avgränsade motivet, inte en hel situation.",
     "age_scope": [
       "grundskola"
     ],
-    "brief_status": "brief_required",
-    "generation_enabled": false,
-    "symbol_id": null,
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_32_72",
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
