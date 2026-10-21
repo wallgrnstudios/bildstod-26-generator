@@ -1012,6 +1012,48 @@
       "sha256": "9b4575c632ff7fc9babd741c4420a7e4f6715c08067a1deb1afce368aca1ca3e"
     },
     {
+      "concept_id": "FSK_91_66",
+      "label_sv": "snö",
+      "fingerprint": "5ebaf2e2cdf73a47d069f2aac4f05b049a8949e7ae8212e7bf49d456d0dd28d3",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Fresh WHITE snow: a small soft snow mound with three white six-branched snowflakes above it. Delicate pale-blue outlines make white crystals visible on white background, natural crystalline branching, no brown snow. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 199130389,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T07:02:23.937745+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "situation",
+      "meaning_sv": "Snö som ett avgränsat begrepp.",
+      "must_show_sv": [
+        "Tydliga sexgrenade snöflingor"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.255,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.289,
+      "sha256": "d91abe0ddd3191f5e6e559986e458718f7f1f24ed9964042b939319d9db4a772"
+    },
+    {
       "concept_id": "FSK_92_02",
       "label_sv": "tvätta händer",
       "fingerprint": "4d4c35544db92b35bd67c8e845b135f4ba3479f95513afd80e817f386efedb70",
