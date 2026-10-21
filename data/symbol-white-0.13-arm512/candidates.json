@@ -1766,6 +1766,48 @@
       "sha256": "d9fb5ae2e58692225fedf220e86bebb70bb09d74f885e0b1eb6f34dd9ad33e76"
     },
     {
+      "concept_id": "FSK_31_25",
+      "label_sv": "spårvagn",
+      "fingerprint": "cc0417b80f4ba51ebf50b7d3193e88812ea84e90970254705a839bb2b6e7100a",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern blue tram carriage, long low-floor body, several passenger doors, side windows, visible steel rail wheels and roof pantograph, no tracks scene or lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 480570839,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:41:59.057267+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Spårvagn: Spårvagn med stålhjul och takströmavtagare. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Spårvagn med stålhjul och takströmavtagare"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.8,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.847,
+      "sha256": "15e42575592068d7bacb9b892c7f0346715b6117e762537f0dcc5ae96ba9a47a"
+    },
+    {
       "concept_id": "FSK_31_68",
       "label_sv": "skruv",
       "fingerprint": "0e35b2b4b047c1b0b9ed4980a5ea21475ed40df68c17d83f08d7069028d2c133",
