@@ -170,6 +170,48 @@
       "sha256": "c81734e64feae14e83e33ad85a7e69b9b0ee3d04ac3b318cb621678032d6f73c"
     },
     {
+      "concept_id": "FSK_24_35",
+      "label_sv": "potta",
+      "fingerprint": "0da5d968ccf33b7c3b01dfe20a596d7a6df6abbb2e3eddd2ce4ac02bff474bf4",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern clean molded plastic toddler potty, white rounded low body, stable broad base, oval open seat, small raised back support, removable pale-blue inner bowl fitted neatly in center. Compact ordinary contemporary potty, no pipes or toilet tank. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1255926865,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T06:57:12.535050+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Potta som föremål. Inte en hel handling eller instruktion.",
+      "must_show_sv": [
+        "Låg potta med sittring och skål"
+      ],
+      "must_not_show_sv": [
+        "Extra handlingar, text eller miljö som ger en annan betydelse"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 83.613,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 83.669,
+      "sha256": "d4aebfee2b6b500596ea1430e96af61fd8242e964d898b731a71991a527f01d2"
+    },
+    {
       "concept_id": "FSK_25_14",
       "label_sv": "spelpjäs",
       "fingerprint": "48a0f61ea5780ebdc5df89c74eee40cc5ce9c900aa626f5899ad822a1fcd0f8c",
