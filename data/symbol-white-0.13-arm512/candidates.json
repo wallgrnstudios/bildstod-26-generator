@@ -1499,6 +1499,52 @@
       "sha256": "89ac5e4d1e07d7236156b15e1d4735e6562f1053b6a01ac210918f6b0806a012"
     },
     {
+      "concept_id": "FSK_21_62",
+      "label_sv": "brädspel",
+      "fingerprint": "9ffd50adee89d354c0091488c939b4f7a511d9560e76f0b2a3b805d3c680d7fc",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A square board game board with a winding path of coloured squares, two small pawns on the path and a single die beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1444482040,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:36:17.920272+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Brädspel: ett spel med bräde, pjäser och tärning. Inte kortspel eller datorspel.",
+      "must_show_sv": [
+        "Spelbräde",
+        "Pjäser",
+        "Tärning"
+      ],
+      "must_not_show_sv": [
+        "Siffror eller text",
+        "Personer",
+        "Kortlek"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 84.056,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 84.089,
+      "sha256": "a9c132027e0b4532768edbc214db5ab0618a2bcb9ffaebfc54c2847ebe51a95e"
+    },
+    {
       "concept_id": "FSK_22_05",
       "label_sv": "kofta",
       "fingerprint": "85f76bab4e8663db7f88a1746adcb5139c7131172d210bdfa1046a3c5cde2a97",
