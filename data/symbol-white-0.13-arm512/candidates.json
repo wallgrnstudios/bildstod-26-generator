@@ -884,6 +884,48 @@
       "sha256": "317073ce57103e73e16eca7804a0d6e34d5fd822aa8613898d62720d83f4a794"
     },
     {
+      "concept_id": "FSK_31_68",
+      "label_sv": "skruv",
+      "fingerprint": "0e35b2b4b047c1b0b9ed4980a5ea21475ed40df68c17d83f08d7069028d2c133",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One large steel wood screw, visible spiral threads along shaft, pointed tip and cross-shaped recess in head. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 320957199,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T20:51:37.208348+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Skruv: Gängor längs skaftet och skruvhuvud. Avser föremålet, inte en hel situation.",
+      "must_show_sv": [
+        "Gängor längs skaftet och skruvhuvud"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 84.685,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 84.711,
+      "sha256": "59e928261ae53c0f9f3375910c45b64fb2d4a4b535c9576870132a1638dd09c4"
+    },
+    {
       "concept_id": "FSK_32_08",
       "label_sv": "kratta",
       "fingerprint": "b709466cc347706d719c59714d4ba0304925c6421233998fc8ffb29e1adaf481",
