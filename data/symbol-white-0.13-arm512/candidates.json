@@ -792,6 +792,50 @@
       "sha256": "03a0849572e0f7b88f8f5d7b676760353cb9411f100a89960c686800ef6aee68"
     },
     {
+      "concept_id": "FSK_19_11",
+      "label_sv": "garage",
+      "fingerprint": "86ad26f9a95a369449d080bc0ebaa604bfde50d39fb7d2dd8585464cd8c6d60a",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A single-car garage with a closed white up-and-over door and a driveway in front. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1422061653,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T22:23:50.803015+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Garage; byggnad för bilar. Inte parkering.",
+      "must_show_sv": [
+        "Garageport",
+        "Uppfart"
+      ],
+      "must_not_show_sv": [
+        "Människor",
+        "Text"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.35,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.387,
+      "sha256": "3a0fef608ecf0bcf699e2280730d3d1c8b74e2e9f6eec5f7b2a03d3c7bd56e66"
+    },
+    {
       "concept_id": "FSK_19_36",
       "label_sv": "kalender",
       "fingerprint": "6e39344ac47cce7a65035f81d4ce4131b71eb0228f5964756d35234712073503",
