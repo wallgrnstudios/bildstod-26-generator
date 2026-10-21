@@ -548,6 +548,48 @@
       "sha256": "f4c57edb235d690460074801a287470550813638b726e991cda8b0a46cb0e555"
     },
     {
+      "concept_id": "FSK_29_30",
+      "label_sv": "pärlplatta",
+      "fingerprint": "0f3a6e8eb86f7da7e80608eef786b313a9c86230003221bac3f80a5e0ba9ce31",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One square transparent-white plastic fuse-bead pegboard seen from above at slight angle. Regular grid of many short upright cylindrical pegs, colorful small hollow tubular fuse beads fitted onto pegs in a simple red heart pattern. Remaining empty pegs clearly visible. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1779145314,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T07:01:18.366847+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Pärlplatta som föremål. Inte en hel handling eller instruktion.",
+      "must_show_sv": [
+        "Peggar med ihåliga pärlor ovanpå"
+      ],
+      "must_not_show_sv": [
+        "Extra handlingar, text eller miljö som ger en annan betydelse"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 84.812,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 84.85,
+      "sha256": "956b28d4c2bb6adcd6ba5bb92ba9844b595d5589bc07fbb81094a6d6615ea122"
+    },
+    {
       "concept_id": "FSK_29_31",
       "label_sv": "färgpenna",
       "fingerprint": "b1f237f67ed34ea3869dea462dc060644cd5b027f169a2b8d173d015ad33c340",
