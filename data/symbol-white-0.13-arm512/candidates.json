@@ -2141,6 +2141,50 @@
       "sha256": "580df9ff0829835b97e15908ff703772f5f7ea29feb05a26cead60b9ca97a771"
     },
     {
+      "concept_id": "FSK_28_05",
+      "label_sv": "koka",
+      "fingerprint": "c61fa186524c9e2e47274b5b59c49dd2dd3c4bba2bd85b33259175d02d6e1b2f",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A cooking pot on a stove hob with water at a rolling boil, bubbles breaking at the surface and steam rising. Only the people and objects described; no decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1422431960,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:41:59.351595+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "situation",
+      "meaning_sv": "Koka: vätska som bubblar upp i het kastrull. Inte steka.",
+      "must_show_sv": [
+        "Bubblande vatten",
+        "Ånga"
+      ],
+      "must_not_show_sv": [
+        "Stekning",
+        "Person"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 83.393,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 83.425,
+      "sha256": "f9e52d6f624dfbc29a5cc96e7a4843868a5c3c8b7fcf77b3ec3ed88a7219ccfe"
+    },
+    {
       "concept_id": "FSK_28_20",
       "label_sv": "ek",
       "fingerprint": "f706efbd36e2082046c576df7e0ebef75ae63164466d5fa5b026dcefb5680976",
