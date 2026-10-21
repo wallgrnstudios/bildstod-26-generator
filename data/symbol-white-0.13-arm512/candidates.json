@@ -270,6 +270,50 @@
       "sha256": "06ed63907053e40f3c8e1881ff94ae8ede97b801ebb15f233450b45a7c2c5a91"
     },
     {
+      "concept_id": "FSK_15_38",
+      "label_sv": "socker",
+      "fingerprint": "ee7dfd463d8401d35571b4c8ab3b0441938c56aa98ccfd6144f5c94f16bd6098",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small white bowl heaped with fine white sugar crystals with a small spoon resting in it, three white sugar cubes beside the bowl. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1799167175,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:07:59.580895+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Socker; vitt strösocker. Inte salt.",
+      "must_show_sv": [
+        "Vita sockerkristaller",
+        "Sockerbitar"
+      ],
+      "must_not_show_sv": [
+        "Salt",
+        "Mjöl"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.229,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.264,
+      "sha256": "09b67e1708474b3521b86101ab54e7ac4742cfe1c8cad7d35fe21b0b99dacc83"
+    },
+    {
       "concept_id": "FSK_17_33",
       "label_sv": "sallad",
       "fingerprint": "a81adf2e1bfbd822c1b62b47265ed1c35409b8d55cd057251ab14a6fb64bc70f",
