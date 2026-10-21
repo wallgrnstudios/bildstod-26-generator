@@ -716,6 +716,48 @@
       "sha256": "6cc4bd5d7826a0d9a696bf4f2f7efbcdfa254e4ee90a3098071747ba9f8da6b1"
     },
     {
+      "concept_id": "FSK_22_36",
+      "label_sv": "huva",
+      "fingerprint": "1a1469a0e8b9383d47dc591f01d7cf450d8ef3e29a698666c48fb6c4f9ebabaf",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One empty blue jacket hood shown in three-quarter view, rounded fabric dome, open face edge and small neck attachment seam, no head or full jacket. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1930880998,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:21:27.655248+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Huva: Tom klädhuva med rundad form och ansiktsöppning. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Tom klädhuva med rundad form och ansiktsöppning"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 85.518,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 85.565,
+      "sha256": "147abb29ac79e001f00a86df4401c0ca93f5202232b16197bd886ac67cd68295"
+    },
+    {
       "concept_id": "FSK_23_07",
       "label_sv": "brandbil",
       "fingerprint": "de6927fe424751457a4b42ea6367492ef7d1092fc08598a5f52060edf45669b5",
