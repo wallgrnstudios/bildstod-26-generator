@@ -1834,6 +1834,51 @@
       "sha256": "b03716f2a43940ed3c50ad4c233adcd255d4e70f3d9ceae44804bb51501a3df7"
     },
     {
+      "concept_id": "FSK_26_64",
+      "label_sv": "handla",
+      "fingerprint": "9af783fa32369662694a1a68a6ae66a24204788c5d46ed509e422fe0ed999963",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A preschool child pushing a small shopping cart with a few apples and a loaf of bread inside, walking beside shelves seen in the side background. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1052830719,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:35:38.680755+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Att handla: gå runt i en butik och plocka varor. Inte \"köpa\" vid kassan.",
+      "must_show_sv": [
+        "Barn med kundvagn",
+        "Varor i vagnen"
+      ],
+      "must_not_show_sv": [
+        "Kassa",
+        "Text eller priser",
+        "Märken"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.313,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.353,
+      "sha256": "6e47a06f31673d63b1b66e00bb5514d5d84c9a52ae9198031078c1473e67138a"
+    },
+    {
       "concept_id": "FSK_26_81",
       "label_sv": "dator",
       "fingerprint": "573d8ddf0b545aef4b495d3497de00a38b70214f770b06a830f53c5de2add54d",
