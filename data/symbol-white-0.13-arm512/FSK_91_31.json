@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_91_31",
   "label_sv": "säng",
-  "fingerprint": "85ebd806b5d013f5100069b89a123617473ff110aaae4265b106e5de053cd33d",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small bed with mattress, pillow and folded blanket, side view, no sleeper. Isolated without people or surrounding scenery. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "4e3a963c716088310bb9f102d3f95dee24a67a42b05bfa2ff22d6678a785daf1",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern small bed, clean light wood frame, pristine WHITE mattress sheet and pillowcase, neatly folded clear sky-blue blanket. Side three-quarter view, no sleeper. Smooth spotless bedding without mottling. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 1277520818,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-19T19:04:14.815071+00:00",
+  "created_at": "2026-10-21T07:02:44.827403+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 78.749,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 78.798,
-  "sha256": "4219249a7bbeeb57dfdcfc7f2d64b9a8c94e127a92c7bbf7bad24cba368a7004"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
