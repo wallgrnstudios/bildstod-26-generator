@@ -590,6 +590,48 @@
       "sha256": "d8ed3be86855ab25dfc027217e4eb450a930e2e84460f9e9bb82ace4b7b1331e"
     },
     {
+      "concept_id": "FSK_30_91",
+      "label_sv": "plåster",
+      "fingerprint": "8780f4bfd1cee9c15c503dcdb5396f4daa277c3af3a27f24359a9641b6ef9532",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Exactly ONE single adhesive first-aid plaster lying flat horizontally: one continuous pale-peach rounded rectangular strip with ONE white central absorbent pad and tiny perforations on the two adhesive ends. No second plaster, no crossed strips. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1012173164,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T06:58:21.299930+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Plåster som föremål. Inte en hel handling eller instruktion.",
+      "must_show_sv": [
+        "Sårdyna i mitten och klisterytor i ändarna"
+      ],
+      "must_not_show_sv": [
+        "Extra handlingar, text eller miljö som ger en annan betydelse"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.649,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.691,
+      "sha256": "b8a774499585c5cb4650ba75028858ca5132dd56ba8fa0bb91dfa9db6b3b2edf"
+    },
+    {
       "concept_id": "FSK_31_58",
       "label_sv": "groda",
       "fingerprint": "4cb1508b4706f78422c07184ca275f405c389fa27e9f4d6bf30b8954c8cc23d5",
