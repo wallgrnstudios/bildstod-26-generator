@@ -464,6 +464,48 @@
       "sha256": "50b60e89c478c8730175480f1e1e1da8f4651fdaafaf13b8cbb03bc620c0ed59"
     },
     {
+      "concept_id": "FSK_21_12",
+      "label_sv": "tång",
+      "fingerprint": "102f3de78b1a09b03bc3148db2ce2fd073f17731639a8c3af03931c3359ed0f5",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One pair of stainless-steel kitchen serving tongs, two long arms joined at one end and scalloped gripping tips separated at the other. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 467818892,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T20:47:11.199717+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Tång: Två sammanfogade armar med greppändar. Avser föremålet, inte en hel situation.",
+      "must_show_sv": [
+        "Två sammanfogade armar med greppändar"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.798,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.816,
+      "sha256": "c3f2d0bbaa0429a8e60ef40c298c39581aadeb5d7217cd04577690ca462d39e2"
+    },
+    {
       "concept_id": "FSK_22_65",
       "label_sv": "domino",
       "fingerprint": "44f8469a83e83cc8c17c094d684147de9ac3f0cf3cf12e628db4573f13597961",
