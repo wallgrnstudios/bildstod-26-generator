@@ -212,6 +212,48 @@
       "sha256": "279aabda2cb9b76da1ddc43a35d25417baf918f05e736665eb3e13d448db8d33"
     },
     {
+      "concept_id": "FSK_20_34",
+      "label_sv": "lingon",
+      "fingerprint": "76a169c8896e568766dd0950c3753b717cfc94f5e34c5e8629fb189469636e74",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Seven small round glossy red lingonberries, two attached to a short stem with thick oval green leaves. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2018137822,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T20:41:22.445190+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Lingon: Små runda röda bär med ovala blad. Avser föremålet, inte en hel situation.",
+      "must_show_sv": [
+        "Små runda röda bär med ovala blad"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 78.917,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 78.955,
+      "sha256": "15996dd24beba7afbce56f63cc7ac98f75fe011cbcdb17633f4f56ce7f512459"
+    },
+    {
       "concept_id": "FSK_22_28",
       "label_sv": "sandaler",
       "fingerprint": "35006fb911db06ef98541a86209034372f4b1c75aa0d60b04d7d5c1ede8fa1ff",
