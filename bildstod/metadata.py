@@ -21,7 +21,6 @@ COLORS = {'black':'svart','brown':'brunt','blond':'blont','red':'rött','gray':'
 STYLES = {'short':'kort','long':'långt','curly':'lockigt','braids':'flätor','ponytail':'hästsvans','bald':'inget synligt hår','unknown':''}
 SKIN = {'light':'ljus','medium':'mellan','dark':'mörk','unknown':''}
 AGE = {'child':'barn','adult':'vuxen','unknown':''}
-PROMPT = '''Describe only the human characters visibly drawn in this illustration, not dolls, animals or imagined people. Return ONLY JSON. List people from left to right. If no humans, return {"people":[]}. Up to four humans. For each human use exactly these keys and allowed values: hairColor: black/brown/blond/red/gray/white/bald/unknown; hairStyle: short/long/curly/braids/ponytail/bald/unknown; skinTone: light/medium/dark/unknown; ageGroup: child/adult/unknown. If hidden or uncertain use unknown. Do not infer identity, gender or ethnicity. Format: {"people":[{"hairColor":"brown","hairStyle":"short","skinTone":"light","ageGroup":"child"}]}'''
 
 
 def read_url(url):
@@ -48,38 +47,47 @@ def load_candidates():
         return [c for group in pool.map(worker,range(8)) for c in group]
 
 
-def parse_people(raw):
-    # Model output is untrusted and never controls IDs, URLs, commands or instructions.
-    text=raw.strip()
-    if text.startswith('```'):
-        text=re.sub(r'^```(?:json)?\s*|\s*```$','',text)
-    payload=json.loads(text)
-    people=payload.get('people')
-    if not isinstance(people,list) or len(people)>4:
-        raise ValueError('Expected up to four illustrated people')
-    result=[]
-    for p in people:
-        if not isinstance(p,dict) or set(p) != {'hairColor','hairStyle','skinTone','ageGroup'}:
-            raise ValueError('Unexpected person schema')
-        person={k:'' for k in FIELDS}
-        for key,mapping in [('hairColor',COLORS),('hairStyle',STYLES),('skinTone',SKIN),('ageGroup',AGE)]:
-            if p[key] not in mapping:
-                raise ValueError('Unrecognized appearance value')
-            person[key]=mapping[p[key]]
-        result.append(person)
-    return result
+def human_expected(prompt):
+    return bool(re.search(r'\b(one|two|three|four) (preschool |young )?(child|children|person|people)\b',prompt.lower()))
 
 
 def select_batch(candidates,state,config):
-    # Fixed lifetime pilot cap, including failures. Schedules cannot silently expand it.
     records=state.get('records',{})
     remaining=max(0,config['pilot_limit']-len(records))
     briefs=json.loads((ROOT/'catalog/pilot/symbols.json').read_text())
-    prompts={e['id']:e['visual_prompt_en'].lower() for e in briefs}
+    prompts={e['id']:e['visual_prompt_en'] for e in briefs}
     def order(c):
-        human=bool(re.search(r'\b(child|children|person|people|hand)\b',prompts.get(c['concept_id'],'')))
-        return (not human,c['concept_id'])
+        return (not human_expected(prompts.get(c['concept_id'],'')),c['concept_id'])
     return [c for c in sorted(candidates,key=order) if c['concept_id']+':'+c['sha256'] not in records][:remaining]
+
+
+def choice(answer,allowed):
+    words=re.findall(r'[a-z]+',answer.lower())
+    found={word for word in words if word in allowed and word!='unknown'}
+    return next(iter(found)) if len(found)==1 else 'unknown'
+
+
+def analyze_questions(ask,expected):
+    answer=ask('How many human people are visible in this image? Do not count animals, dolls or objects. Answer with only a number from 0 to 4, or unknown.',8).lower().strip()
+    numbers={'zero':0,'one':1,'two':2,'three':3,'four':4,'0':0,'1':1,'2':2,'3':3,'4':4}
+    found={numbers[w] for w in re.findall(r'[a-z]+|[0-9]+',answer) if w in numbers}
+    if len(found)!=1:
+        raise ValueError('Unclear person count')
+    count=next(iter(found))
+    if (expected and count==0) or (not expected and count!=0):
+        raise ValueError('Person detection contradicts the symbol brief')
+    people=[]
+    for i in range(count):
+        subject='the person' if count==1 else f'person number {i+1} counting from left to right'
+        person={k:'' for k in FIELDS}
+        for key,mapping,question in [
+            ('hairColor',COLORS,f'What is the hair color of {subject}? Answer one word: black, brown, blond, red, gray, white, bald, or unknown.'),
+            ('hairStyle',STYLES,f'What is the hairstyle of {subject}? Answer one word: short, long, curly, braids, ponytail, bald, or unknown.'),
+            ('skinTone',SKIN,f'What is the visible skin tone of the illustrated {subject}? Answer one word: light, medium, dark, or unknown. Do not name ethnicity.'),
+            ('ageGroup',AGE,f'Is the illustrated {subject} drawn as a child or an adult? Answer child, adult, or unknown.')]:
+            person[key]=mapping[choice(ask(question,8),mapping)]
+        people.append(person)
+    return people
 
 
 def checkpoint(path,state,branch):
@@ -103,13 +111,15 @@ def make_analyzer(config):
     torch.set_num_threads(4)
     processor=AutoProcessor.from_pretrained(config['model'],revision=config['revision'],trust_remote_code=False)
     model=AutoModelForImageTextToText.from_pretrained(config['model'],revision=config['revision'],torch_dtype=torch.float32,attn_implementation='eager',trust_remote_code=False).eval()
-    def analyze(image):
-        messages=[{'role':'user','content':[{'type':'image'},{'type':'text','text':PROMPT}]}]
-        text=processor.apply_chat_template(messages,add_generation_prompt=True,tokenize=False)
-        inputs=processor(text=text,images=[image],return_tensors='pt')
-        with torch.inference_mode():
-            output=model.generate(**inputs,max_new_tokens=256,do_sample=False)
-        return processor.batch_decode(output[:,inputs['input_ids'].shape[1]:],skip_special_tokens=True)[0]
+    def analyze(image,expected):
+        def ask(question,tokens):
+            messages=[{'role':'user','content':[{'type':'image'},{'type':'text','text':question}]}]
+            text=processor.apply_chat_template(messages,add_generation_prompt=True,tokenize=False)
+            inputs=processor(text=text,images=[image],return_tensors='pt')
+            with torch.inference_mode():
+                output=model.generate(**inputs,max_new_tokens=tokens,do_sample=False)
+            return processor.batch_decode(output[:,inputs['input_ids'].shape[1]:],skip_special_tokens=True)[0]
+        return analyze_questions(ask,expected)
     return analyze
 
 
@@ -123,6 +133,10 @@ def main():
     args.state.mkdir(parents=True,exist_ok=True)
     target=args.state/'suggestions.json'
     state=json.loads(target.read_text()) if target.exists() else {'schema_version':1,'records':{}}
+    if state.get('model_version') not in (None,config['model_version']):
+        raise ValueError('Archive the earlier pilot before changing model version')
+    state['model_version']=config['model_version']
+    briefs={e['id']:e for e in json.loads((ROOT/'catalog/pilot/symbols.json').read_text())}
     batch=select_batch(load_candidates(),state,config)
     if args.mode=='plan':
         print(json.dumps({'count':len(batch),'pilot_limit':config['pilot_limit']}))
@@ -150,8 +164,7 @@ def main():
             image=Image.open(io.BytesIO(data));image.load()
             if image.size!=(512,512):
                 raise ValueError('Unexpected image dimensions')
-            raw=analyze(image.convert('RGB'))
-            people=parse_people(raw)
+            people=analyze(image.convert('RGB'),human_expected(briefs[c['concept_id']]['visual_prompt_en']))
             state['records'][key]={**base,'status':'suggested','people':people,'duration_seconds':round(time.monotonic()-tick,2)}
         except Exception as error:
             state['records'][key]={**base,'status':'failed','error_type':type(error).__name__,'raw_output':locals().get('raw','')[:2000]}

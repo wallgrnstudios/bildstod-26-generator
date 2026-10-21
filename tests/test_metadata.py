@@ -1,19 +1,20 @@
 import json
 import unittest
-from bildstod.metadata import parse_people,select_batch,make_analyzer
+from bildstod.metadata import analyze_questions,choice,human_expected,select_batch,make_analyzer
 
 class MetadataTests(unittest.TestCase):
-    def test_no_identity_or_gender_inference_and_validated_values(self):
-        raw=json.dumps({'people':[{'hairColor':'black','hairStyle':'short','skinTone':'medium','ageGroup':'child'}]})
-        p=parse_people(raw)[0]
+    def test_short_answers_and_object_contradiction(self):
+        answers=iter(['1','black','short','medium','child'])
+        p=analyze_questions(lambda *_:next(answers),True)[0]
         self.assertEqual(p['hairColor'],'svart')
         self.assertEqual(p['characterId'],'')
         self.assertEqual(p['genderPresentation'],'')
-        self.assertEqual(parse_people('{"people":[]}'),[])
+        self.assertEqual(analyze_questions(lambda *_:'zero',False),[])
         with self.assertRaises(ValueError):
-            parse_people(raw.replace('black','execute command'))
-        with self.assertRaises(ValueError):
-            parse_people('{"people":[{"gender":"boy"}]}')
+            analyze_questions(lambda *_:'one',False)
+        self.assertFalse(human_expected('One sheep. Isolated without people.'))
+        self.assertTrue(human_expected('One preschool child listening.'))
+        self.assertEqual(choice('black or brown',{'black':1,'brown':2}),'unknown')
 
     def test_pilot_lifetime_cap_resume_and_failed_receipts(self):
         items=[{'concept_id':f'FSK_81_{i:02}','sha256':str(i).zfill(64)} for i in range(40)]
