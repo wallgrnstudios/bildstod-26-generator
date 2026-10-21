@@ -310,6 +310,50 @@
       "sha256": "9363583def0b6588e2f2a6832261aba86cb4e257c1194b2e757471223fb938f3"
     },
     {
+      "concept_id": "FSK_15_17",
+      "label_sv": "berg",
+      "fingerprint": "31eb66c3defb6c0ef773a74bb734696559b90632a22de9d83ab13ec5e9f86fcc",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A tall rocky mountain with gray cliffs and a snow-capped peak seen from a distance, some low trees at the foot. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 408647438,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:09:13.717374+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Berg; stor klippformation. Inte sten eller kulle.",
+      "must_show_sv": [
+        "Hög klippig topp",
+        "Snö på toppen"
+      ],
+      "must_not_show_sv": [
+        "Människor",
+        "Byggnader"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.391,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.448,
+      "sha256": "520da647f567d4ddfeffa476ef44f60d4632ffe87fa53684b1e6d3b6245c62f1"
+    },
+    {
       "concept_id": "FSK_15_27",
       "label_sv": "glass",
       "fingerprint": "047a8c77f524ffaf2fc8fcfa49e1f16a2434054e40d07babfa44a4d1e1b33e31",
