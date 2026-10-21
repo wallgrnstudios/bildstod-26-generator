@@ -674,6 +674,48 @@
       "sha256": "a9d1751110c53a2567fe590b5d3e9c8c6387f77f8a8c8d64328a4bcbff15943b"
     },
     {
+      "concept_id": "FSK_26_42",
+      "label_sv": "fotboll",
+      "fingerprint": "8693fa91e291e7a752fd9e0fb8c20c7c8580423a9e8e729ec99f3a50874709ff",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One classic modern football, round white ball with evenly arranged black pentagonal and white hexagonal panels, no field. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1021210184,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:13:01.110014+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Fotboll: Fotboll med svartvita månghörniga fält. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Fotboll med svartvita månghörniga fält"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.174,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.22,
+      "sha256": "9150beaf03255080e9c4b1909b21049ae00845f94338fed7d0a8fd28dc07f161"
+    },
+    {
       "concept_id": "FSK_28_46",
       "label_sv": "garderob",
       "fingerprint": "a5410754817f7ad32e5373f20189a23bae2a7bd8025d08bbcdcb35deed3d38ee",
