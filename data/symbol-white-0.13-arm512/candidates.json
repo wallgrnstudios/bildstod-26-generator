@@ -1094,6 +1094,48 @@
       "sha256": "5bc6900260335068354a705d8faf749acf29912c6d763f422b2c9a0e8236c1a0"
     },
     {
+      "concept_id": "FSK_26_49",
+      "label_sv": "hjärta",
+      "fingerprint": "78d86055beb8cf6bcfd414c3f19b9bdc97850de204fa92ed6451ad7787e5f3d4",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simplified educational anatomical human heart, rounded muscular organ with visible major curved vessels at top, clean muted-red tissue, no blood, body or love-heart symbol. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 390536117,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:19:29.966801+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Hjärta: Anatomiskt hjärta med stora kärl upptill. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Anatomiskt hjärta med stora kärl upptill"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 78.687,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 78.729,
+      "sha256": "d5b96522578ff27b82d84669fdff380be1c4b000b79137538cb26997a7d7cbaa"
+    },
+    {
       "concept_id": "FSK_27_10",
       "label_sv": "häst",
       "fingerprint": "7f6b26c8465664da5107dfe677bd9714db2fc1e5d51e07bc77ecdd4f7a88f7db",
