@@ -2678,6 +2678,51 @@
       "sha256": "9f97b25d3832fd85998105ae9eebbbe791e7cbac6c5e03cde7463b9523d82f53"
     },
     {
+      "concept_id": "FSK_30_01",
+      "label_sv": "flygplats",
+      "fingerprint": "2697cb22d724068918125eefdb544f18e4267ebf6ebeab48bfce7a33e584bca0",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A passenger airplane parked next to a glass terminal building with a jet bridge attached, small luggage cart nearby, seen from the front-side. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 916323845,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T22:41:26.870613+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Flygplats: plats där flygplan startar och landar. Inte bara flygplan.",
+      "must_show_sv": [
+        "Flygplan vid terminal",
+        "Glasbyggnad med landgång"
+      ],
+      "must_not_show_sv": [
+        "Personer",
+        "Skyltar eller text",
+        "Flygplanslogotyp"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 79.166,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 79.213,
+      "sha256": "39d167d70b78a8136ea15536b2f80adca002a64bb3f4ea6614b487a26032f6ad"
+    },
+    {
       "concept_id": "FSK_30_92",
       "label_sv": "rullstol",
       "fingerprint": "5758411df43d3aea0e4cf9951ee246c58d4d7df91abcabb083ee09f0e630004e",
