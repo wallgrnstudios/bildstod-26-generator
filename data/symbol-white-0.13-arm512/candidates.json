@@ -1789,6 +1789,51 @@
       "sha256": "04c38736b645c9c9e5ed0a1e02576ce628b5f23d9532d458c9ea0fe877c3c1c8"
     },
     {
+      "concept_id": "FSK_25_75",
+      "label_sv": "kör",
+      "fingerprint": "c3ac4dfe135073772b7b2dd683a5df74b93c2ed52f32dc87d2be5deaa2ea81bd",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A group of six preschool children standing in two rows, all with mouths open in song, looking forward, hands relaxed at their sides. Only the people and objects described; no decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 231186991,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:34:15.582340+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "situation",
+      "meaning_sv": "Kör i musik: en grupp som sjunger tillsammans. Inte verbet 'köra'.",
+      "must_show_sv": [
+        "Flera barn tillsammans",
+        "Öppna munnar som sjunger"
+      ],
+      "must_not_show_sv": [
+        "Dirigent med text",
+        "Noter med bokstäver",
+        "Bil som körs"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.432,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.466,
+      "sha256": "b03716f2a43940ed3c50ad4c233adcd255d4e70f3d9ceae44804bb51501a3df7"
+    },
+    {
       "concept_id": "FSK_26_81",
       "label_sv": "dator",
       "fingerprint": "573d8ddf0b545aef4b495d3497de00a38b70214f770b06a830f53c5de2add54d",
