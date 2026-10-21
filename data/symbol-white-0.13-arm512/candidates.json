@@ -590,6 +590,48 @@
       "sha256": "90006e519287d4e10bd5392b40d6dcb3d84a0be7535e6dc7fd5965c8ff6c0eec"
     },
     {
+      "concept_id": "FSK_22_19",
+      "label_sv": "krage",
+      "fingerprint": "0d3fb77fef4e4f50beb0569c175b2bc0491540dd69c82384cc251b7175d44c56",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up of one clean white shirt collar with two pointed folded collar tips around a neck opening, only a small section of shirt fabric visible, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1798237321,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:19:14.883142+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Krage: Vikt skjortkrage med två kragsnibbar. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Vikt skjortkrage med två kragsnibbar"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.6,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.661,
+      "sha256": "8afd722c413a9d90e72ae388649bb9b96f39a88500505e85b326d576f61bdd44"
+    },
+    {
       "concept_id": "FSK_24_35",
       "label_sv": "potta",
       "fingerprint": "0da5d968ccf33b7c3b01dfe20a596d7a6df6abbb2e3eddd2ce4ac02bff474bf4",
