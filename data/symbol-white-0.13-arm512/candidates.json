@@ -2018,6 +2018,48 @@
       "sha256": "d8ed3be86855ab25dfc027217e4eb450a930e2e84460f9e9bb82ace4b7b1331e"
     },
     {
+      "concept_id": "FSK_30_19",
+      "label_sv": "gren",
+      "fingerprint": "4f9f86517b298872add519b017fc5466968aaac57bbcea7a58a47edce6b484d3",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small forked tree branch with rough bark, several smaller branching twigs and a few green leaves, no tree trunk. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1246615180,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T21:43:44.558400+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Gren: Förgrenad trägren med mindre kvistar. Avser det avgränsade motivet, inte en hel situation.",
+      "must_show_sv": [
+        "Förgrenad trägren med mindre kvistar"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.067,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.094,
+      "sha256": "814a7b2e6557846c3ed1f074f837cc6cb971ada4535c1c357323c9f17f77264c"
+    },
+    {
       "concept_id": "FSK_30_63",
       "label_sv": "hörlurar",
       "fingerprint": "465eda30b1906f54b7cdc3b2d3e62501c6d8c781fd98777cd692867f4d376c49",
