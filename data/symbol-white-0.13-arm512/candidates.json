@@ -632,6 +632,48 @@
       "sha256": "7fe10a3e2e4ac17fe3b0f06f83e9da52b51836d3403f3f31081bd88ce2333b6f"
     },
     {
+      "concept_id": "FSK_28_47",
+      "label_sv": "skidor",
+      "fingerprint": "74bd1db5a171e3b7f59e98c9a5a915058f36e4e3c8d87a86450e1db6a0bba3fe",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One matching pair of long blue skis lying parallel, upturned front tips and clearly visible foot bindings, no poles or skier. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1818024639,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T20:47:21.864369+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Skidor: Långa skidor med uppböjda spetsar och bindningar. Avser föremålet, inte en hel situation.",
+      "must_show_sv": [
+        "Långa skidor med uppböjda spetsar och bindningar"
+      ],
+      "must_not_show_sv": [
+        "Personer eller en hel berättelse i samma bild"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 83.336,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 83.382,
+      "sha256": "bf29368128a73eb99c14ae0c2cfaf49fb9076acce7d5bda612c3ba143d932dcd"
+    },
+    {
       "concept_id": "FSK_28_75",
       "label_sv": "spegel",
       "fingerprint": "f6b1986267c54c15b712184276b263d25c95817dcf0a2b3a3b71b551db1c3b8b",
