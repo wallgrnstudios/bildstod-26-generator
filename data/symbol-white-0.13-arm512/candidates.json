@@ -487,6 +487,52 @@
       "sha256": "7573926addf66c9be811e336a75bb9a8b8857e57513d7786ab0e0420d7920302"
     },
     {
+      "concept_id": "FSK_16_20",
+      "label_sv": "mun",
+      "fingerprint": "5211ebae43facb604d485bc0eaef761b751f43dd2d6507c5ae826e7e7ab1f656",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up front view of a preschool child's closed relaxed mouth with lips, cropped to the lower half of the face including a hint of the nose. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1993371054,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:13:22.750790+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "body_part",
+      "meaning_sv": "Mun: öppningen i ansiktet med läppar. Inte tänder eller tunga som huvudmotiv.",
+      "must_show_sv": [
+        "Läppar tydliga",
+        "Neutralt avslappnad mun"
+      ],
+      "must_not_show_sv": [
+        "Tydligt leende (känsla)",
+        "Mat eller föremål i munnen",
+        "Skada, blod eller nakenhet",
+        "Text eller bokstäver"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 81.163,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 81.236,
+      "sha256": "dc480955f30bcf64878219436f00ab5903d0678b6c891811932090786d85ccd8"
+    },
+    {
       "concept_id": "FSK_16_63",
       "label_sv": "bro",
       "fingerprint": "51c07c4759059637c41b629ba4b854acf3d5146fb94c3c7bc181fcd8560250cd",
