@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_25_26",
   "label_sv": "pennvässare",
-  "fingerprint": "533736ae3d348d4ff7452b7f9d9751fd3974c8f3ed5b48dabccc513a2ebcf0cf",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small handheld pencil sharpener, visible round pencil opening and metal blade secured with one screw. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "14264f4647e5aa8c1fe1b3cdeb710bbb34037be67b40b7f8f87ee15ca5881e08",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary small single-hole school pencil sharpener, blue rectangular plastic body, one round pencil hole on front, exposed silver blade fixed by one central screw on angled top. Clear solid functional geometry. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 1286279212,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-20T10:54:16.428043+00:00",
+  "created_at": "2026-10-21T06:56:58.061405+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 80.891,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 80.907,
-  "sha256": "739024eb957803871d20285b311eaa3e8f9cbcee5ffa7b05c0b94030e87a9755"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
