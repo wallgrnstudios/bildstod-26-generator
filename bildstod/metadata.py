@@ -137,7 +137,7 @@ def main():
             break
         key=c['concept_id']+':'+c['sha256']
         base={k:c[k] for k in ('concept_id','sha256','source_commit')}
-        base.update(model=config['model'],revision=config['revision'],model_version=config['model_version'],status='failed',created_at=__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat())
+        base.update(model=config['model'],revision=config['revision'],model_version=config['model_version'],status='processing',created_at=__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat())
         # Receipt before inference prevents repeated costly retries after hard termination.
         state['records'][key]=base
         checkpoint(args.state,state,args.checkpoint_branch)
@@ -154,7 +154,7 @@ def main():
             people=parse_people(raw)
             state['records'][key]={**base,'status':'suggested','people':people,'duration_seconds':round(time.monotonic()-tick,2)}
         except Exception as error:
-            state['records'][key]={**base,'error_type':type(error).__name__,'raw_output':locals().get('raw','')[:2000]}
+            state['records'][key]={**base,'status':'failed','error_type':type(error).__name__,'raw_output':locals().get('raw','')[:2000]}
         checkpoint(args.state,state,args.checkpoint_branch)
         print(c['concept_id'],state['records'][key]['status'],flush=True)
     print(json.dumps({'attempted':len(state['records']),'suggested':sum(r['status']=='suggested' for r in state['records'].values())}))
