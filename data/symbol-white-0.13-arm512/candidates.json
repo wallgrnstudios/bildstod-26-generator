@@ -2054,6 +2054,51 @@
       "sha256": "59d8d07647f1bb3b8789bc1bd7bfb1cdc1fc3fd4c523aa9ec7cf81dce99f9a5d"
     },
     {
+      "concept_id": "FSK_27_47",
+      "label_sv": "dans",
+      "fingerprint": "1d6d632bae81f56965b2281e8b51069da2d900711f0693187902ea8e8856bb6d",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child dancing in a sunny room, arms raised in a graceful curve, one knee lifted, body slightly twisting as in a spin. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 696240648,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:40:34.377472+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Dans; att röra sig i takt till musik. Inte gymnastik.",
+      "must_show_sv": [
+        "Armar upp",
+        "Lyft knä",
+        "Rörelse"
+      ],
+      "must_not_show_sv": [
+        "Instrument",
+        "Publik"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 83.229,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 83.256,
+      "sha256": "b6c4e6adef725f63788023799a0bb0d897451186f16eff202a2dc0f91a82bc04"
+    },
+    {
       "concept_id": "FSK_27_59",
       "label_sv": "jord",
       "fingerprint": "b27f765e5bd76347dba8010defa72b7dc993906a5b908e929701e4504166f95d",
