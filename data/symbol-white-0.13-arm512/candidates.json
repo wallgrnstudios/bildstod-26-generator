@@ -310,6 +310,50 @@
       "sha256": "9b3c2fd1a7ebd400405ed83a017015e68c1db45ae0349d52f5fdfe6fd7502dea"
     },
     {
+      "concept_id": "FSK_15_22",
+      "label_sv": "skog",
+      "fingerprint": "de59a5d191592a5622a9e27c253d3d7b9cdb6aaedade31adb8a7cd2f42ab8f47",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A forest of tall spruce and birch trees with a mossy forest floor and a few ferns. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1570332914,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-21T23:08:46.900864+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Skog; många träd tillsammans. Inte enskilt träd.",
+      "must_show_sv": [
+        "Många träd",
+        "Mossa på marken"
+      ],
+      "must_not_show_sv": [
+        "Människor",
+        "Stig i fokus"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 80.744,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 80.778,
+      "sha256": "11806535031881c1b448867bd39208a80c09e96bf84436442c477113386c63c9"
+    },
+    {
       "concept_id": "FSK_15_94",
       "label_sv": "flaska",
       "fingerprint": "6911efb37adc677d9d6a0318345ec9080754b86219bf5f841539b85d736885ca",
