@@ -56,7 +56,8 @@ class FluxRenderer:
 
     def __call__(self, entry, config, seed):
         with self.torch.inference_mode():
-            result = self.pipeline(image=self.reference, prompt_embeds=self.embeddings[entry['id']],
+            reference = None if entry.get('reference_conditioning') is False else self.reference
+            result = self.pipeline(image=reference, prompt_embeds=self.embeddings[entry['id']],
                 width=config['width'],height=config['height'],num_inference_steps=config['steps'],
                 guidance_scale=1.0,max_sequence_length=256,
                 generator=self.torch.Generator(device='cpu').manual_seed(seed))

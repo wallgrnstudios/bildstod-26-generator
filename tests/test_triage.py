@@ -62,3 +62,16 @@ class CharacterRegistryTests(unittest.TestCase):
         from bildstod.characters import load
         registry, variants = load()
         self.assertEqual(variants, [])
+
+
+class ReferenceFreeBriefTests(unittest.TestCase):
+    def test_flag_changes_only_its_own_prompt_and_fingerprint(self):
+        import copy, json
+        from bildstod.generation import identity, prompt_for, load_config, ROOT
+        config = load_config(ROOT / 'config/generation.json')
+        entry = {'id': 'FSK_10_01', 'text_sv': 'sy', 'symbol_type': 'action', 'visual_prompt_en': 'One child sewing.', 'meaning_sv': 'Att sy.', 'must_show_sv': ['Nål']}
+        free = dict(copy.deepcopy(entry), reference_conditioning=False)
+        self.assertIn('Use the reference only', prompt_for(entry, config))
+        self.assertNotIn('reference', prompt_for(free, config).split(':')[0])
+        self.assertNotEqual(identity(entry, config), identity(free, config))
+        self.assertEqual(identity(entry, config), identity(copy.deepcopy(entry), config))

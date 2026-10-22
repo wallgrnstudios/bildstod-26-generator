@@ -62,7 +62,9 @@ def prompt_for(entry, config):
     style = entry.get('style_prompt_override', config['style_prompt'])
     # Short prompts, action first: long style preambles can truncate the actual action.
     if entry.get('symbol_type'):
-        return ('Use the reference only for drawing style. Create one isolated illustration: ' + entry['visual_prompt_en'] + ' ' + style + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
+        # Reference-free briefs keep the written style but get no reference image (it copied its pose into actions).
+        lead = 'Create one isolated illustration: ' if entry.get('reference_conditioning') is False else 'Use the reference only for drawing style. Create one isolated illustration: '
+        return (lead + entry['visual_prompt_en'] + ' ' + style + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
     if config.get('backend') == 'flux2-klein':
         return ('Use the reference image only as an illustration style guide. Create a completely new preschool action scene: '
                 + entry['visual_prompt_en'] + ' ' + style
@@ -74,6 +76,9 @@ def identity(entry, config):
     parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256', 'negative_prompt', 'reference_conditioning')}
     payload = {'render_prompt':prompt_for(entry,config), 'semantic_contract': {key:entry.get(key) for key in ('symbol_type','meaning_sv','must_show_sv','must_not_show_sv')}, 'entry': entry['visual_prompt_en'], 'entry_negative': entry.get('negative_prompt_en', ''), 'label': entry['text_sv'], 'config': parameters}
     if entry.get('regeneration_request_id'): payload['regeneration_request_id']=entry['regeneration_request_id']
+    # Added only when set, so every brief without the field keeps its existing fingerprint.
+    if 'reference_conditioning' in entry:
+        payload['entry_reference_conditioning'] = entry['reference_conditioning']
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 
 
@@ -270,7 +275,7 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
                     'created_at': datetime.now(timezone.utc).isoformat(), 'license': None,
                     'model_license_url': config['model_license_url'], 'style_approved': False,
                     'reference_asset': config['reference_asset'], 'reference_sha256': config['reference_sha256'],
-                    'reference_conditioning': config.get('reference_conditioning', False),
+                    'reference_conditioning': config.get('reference_conditioning', False) and entry.get('reference_conditioning', True),
                     'implementation': config.get('implementation', 'diffusers'),
                     'quantized_files': config.get('quantized_files'),
                     'symbol_type':entry.get('symbol_type'), 'meaning_sv':entry.get('meaning_sv'),
