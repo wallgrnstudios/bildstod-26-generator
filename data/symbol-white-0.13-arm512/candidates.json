@@ -1371,21 +1371,21 @@
     {
       "concept_id": "FSK_20_58",
       "label_sv": "såga",
-      "fingerprint": "70ee08def993345e18848c9c5f2798f848a2c3f2b479230c76ce25cc3ff03ab4",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One child sawing a wooden board with a small handsaw, board held in a clamp. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "c071621d299ab4e351c84c92b0d1c909f80df8391cc13062ad83dcb5e1fdf5c1",
+      "prompt": "Create one isolated illustration: One child sawing a wooden board with a small handsaw, board held in a clamp. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 472963815,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:31:30.537473+00:00",
+      "created_at": "2026-10-22T12:00:34.013241+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
       "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
       "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
-      "reference_conditioning": true,
+      "reference_conditioning": false,
       "implementation": "diffusers-arm64",
       "quantized_files": null,
       "symbol_type": "action",
@@ -1406,10 +1406,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 81.154,
+      "render_seconds": 68.473,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.182,
-      "sha256": "4f0cba2b7747b04dfe2e9a3911fec7f255e62bd68560b2592bc0f95a00169772"
+      "elapsed_seconds": 68.516,
+      "sha256": "045625f84d3d6021359d2144cdc56d88340e8d37d975014fad4b4f35790abd91"
     },
     {
       "concept_id": "FSK_20_71",
