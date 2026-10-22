@@ -2,6 +2,51 @@
   "style_version": "symbol-white-0.13-arm512",
   "candidates": [
     {
+      "concept_id": "FSK_11_68",
+      "label_sv": "prata",
+      "fingerprint": "077cdd282082a3723cbb2714a2dd704f4f4510f0381e9b311f49c8dd6c3e6ae7",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two preschool children facing each other, one child speaking with a slightly open mouth and gesturing with one hand, the other looking at them. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1978841569,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-22T06:08:15.152417+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": true,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Prata: att tala med någon. Inte lyssna.",
+      "must_show_sv": [
+        "Talande barn med öppen mun",
+        "Mottagare tittar"
+      ],
+      "must_not_show_sv": [
+        "Pratbubbla med text",
+        "Skrik",
+        "Telefon"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 82.093,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 82.128,
+      "sha256": "11b86f6ceda03687706ced83ff3f2b834b553ca174767910fe3355f1dccd9106"
+    },
+    {
       "concept_id": "FSK_11_74",
       "label_sv": "hjälpa",
       "fingerprint": "cd46eb4bb4ae9781e1ec4a724ca58d6edbb906ae7e1c6468dfd99303fa8fbc0e",
