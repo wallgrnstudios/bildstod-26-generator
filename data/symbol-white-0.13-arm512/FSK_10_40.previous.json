@@ -1,0 +1,45 @@
+{
+  "concept_id": "FSK_10_40",
+  "label_sv": "ta",
+  "fingerprint": "0e33a5482e64c46aeec5050716a3888ea0cf5a3c8b97cd1d189e060a77feb65d",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child at a table reaching out and gripping a wooden block with a closed hand, arm extended, the block lifted slightly. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1958840666,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-22T06:08:25.009392+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "action",
+  "meaning_sv": "Ta: att ta något i handen. Inte få eller ta emot.",
+  "must_show_sv": [
+    "Hand som greppar",
+    "Föremålet som tas"
+  ],
+  "must_not_show_sv": [
+    "Annan person som ger",
+    "Stöld",
+    "Flera barn"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "pending_review",
+  "transparency": {
+    "background": "white"
+  },
+  "render_seconds": 79.125,
+  "background_seconds": 0.0,
+  "elapsed_seconds": 79.153,
+  "sha256": "1c3732e373fda369a7e62686e8b82f0daeabdc2c493e2f3e082c9d6bbe4fdd3f"
+}
