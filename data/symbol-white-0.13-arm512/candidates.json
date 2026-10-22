@@ -887,21 +887,21 @@
     {
       "concept_id": "FSK_17_85",
       "label_sv": "frysa",
-      "fingerprint": "f083238ad13d26cd9fde99ee416a1f9620562033a0a9dcacd2531a80034893ad",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One child shivering with arms wrapped tightly around the body, shoulders raised, small motion lines at the sides, shown in thin clothes. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "09397f9e99184ae61ae9e1527b0e544990a0476731c78d04f28fead18e57938d",
+      "prompt": "Create one isolated illustration: One child shivering with arms wrapped tightly around the body, shoulders raised, small motion lines at the sides, shown in thin clothes. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 8632018,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:22:30.022835+00:00",
+      "created_at": "2026-10-22T11:59:19.995075+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
       "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
       "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
-      "reference_conditioning": true,
+      "reference_conditioning": false,
       "implementation": "diffusers-arm64",
       "quantized_files": null,
       "symbol_type": "action",
@@ -923,10 +923,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.353,
+      "render_seconds": 66.327,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.394,
-      "sha256": "e235c331cde2c2d968096feb6984f16bf4a1cd3e495ab6bc5d2dfcf7b73a0641"
+      "elapsed_seconds": 66.374,
+      "sha256": "46db7e9bf212adaeb639744077ccc44f9f473870c3c2c74ff30f42b68f3076b0"
     },
     {
       "concept_id": "FSK_18_46",
