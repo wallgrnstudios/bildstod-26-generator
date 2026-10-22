@@ -1,0 +1,50 @@
+name: Update operational status
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 * * * *'
+  workflow_run:
+    workflows: ['Generate pilot candidates', 'Suggest image metadata']
+    types: [completed]
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: bildstod-operational-status
+  cancel-in-progress: false
+jobs:
+  report:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m bildstod.operations
+      - name: Publish public status only
+        run: |
+          gh auth setup-git
+          git init .report
+          git -C .report config user.name 'Bildstöd operations'
+          git -C .report config user.email 'bildstod-generator@users.noreply.github.com'
+          git -C .report remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "https://github.com/${GITHUB_REPOSITORY}.git" operations-status; then
+            git -C .report fetch --depth=1 origin operations-status
+            git -C .report checkout -B operations-status FETCH_HEAD
+          else
+            git -C .report checkout --orphan operations-status
+          fi
+          cp .operations/status.json .report/status.json
+          git -C .report add status.json
+          if ! git -C .report diff --cached --quiet; then
+            git -C .report commit -m 'Refresh measured generation and quality status'
+            git -C .report push origin HEAD:operations-status
+          fi

@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "note": "Fixed challenge set. Baseline is a technical snapshot, not human quality approval. Review meaning, essential details, clean materials, 48px legibility and grayscale.",
+  "specimens": [
+    {
+      "id": "FSK_90_01",
+      "label_sv": "dragkedja",
+      "must_show_sv": [
+        "Två synliga tandrader",
+        "Tydlig löpare med dragflik"
+      ],
+      "must_not_show_sv": [
+        "Hel jacka som döljer dragkedjan",
+        "Personer eller hjälpsituation"
+      ]
+    },
+    {
+      "id": "FSK_90_02",
+      "label_sv": "gå",
+      "must_show_sv": [
+        "En ensam person med tydlig gångrörelse",
+        "Hela benen och fötterna syns"
+      ],
+      "must_not_show_sv": [
+        "Sittande personer",
+        "Samling eller annan destination"
+      ]
+    },
+    {
+      "id": "FSK_90_03",
+      "label_sv": "samling",
+      "must_show_sv": [
+        "Sittande grupp i ring med gemensamt fokus",
+        "En pedagog deltar så att motivet kan skiljas från enbart kompisar"
+      ],
+      "must_not_show_sv": [
+        "Påstående om att någon går dit",
+        "Ord, bokstäver eller bildtext inne i illustrationen"
+      ]
+    },
+    {
+      "id": "FSK_90_05",
+      "label_sv": "skor",
+      "must_show_sv": [
+        "Ett tydligt par moderna barnskor",
+        "Stängd häl, tydlig yttersula och kardborreband"
+      ],
+      "must_not_show_sv": [
+        "Tofflor eller träskor",
+        "Person som tar på eller av skorna"
+      ]
+    },
+    {
+      "id": "FSK_90_06",
+      "label_sv": "jacka",
+      "must_show_sv": [
+        "En ensam jacka"
+      ],
+      "must_not_show_sv": [
+        "Person som klär på sig eller hänger upp plagget"
+      ]
+    },
+    {
+      "id": "FSK_90_07",
+      "label_sv": "sitta",
+      "must_show_sv": [
+        "Sätet vilar på stolen",
+        "Sittställningen syns tydligt"
+      ],
+      "must_not_show_sv": [
+        "Person på väg att sätta sig eller gå"
+      ]
+    },
+    {
+      "id": "FSK_90_08",
+      "label_sv": "lyssna",
+      "must_show_sv": [
+        "Öra och lyssnande gest syns"
+      ],
+      "must_not_show_sv": [
+        "Hand som täcker örat eller signalerar att stänga ute ljud"
+      ]
+    },
+    {
+      "id": "FSK_90_09",
+      "label_sv": "tvål",
+      "must_show_sv": [
+        "Tydlig pumpflaska för tvål"
+      ],
+      "must_not_show_sv": [
+        "Händer, rinnande vatten eller en hel tvättsituation"
+      ]
+    },
+    {
+      "id": "FSK_90_10",
+      "label_sv": "händer",
+      "must_show_sv": [
+        "Två anatomiskt rimliga händer"
+      ],
+      "must_not_show_sv": [
+        "Tvål eller annan handling som ändrar betydelsen"
+      ]
+    },
+    {
+      "id": "FSK_91_04",
+      "label_sv": "byxor",
+      "must_show_sv": [
+        "Två långa byxben och midja"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_06",
+      "label_sv": "strumpor",
+      "must_show_sv": [
+        "Mjuka strumpor med häl och tå"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_20",
+      "label_sv": "haklapp",
+      "must_show_sv": [
+        "Halsöppning och uppsamlingsficka"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_31",
+      "label_sv": "säng",
+      "must_show_sv": [
+        "Säng med madrass och huvudkudde"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_32",
+      "label_sv": "kudde",
+      "must_show_sv": [
+        "Mjuk stoppad kudde med söm"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_33",
+      "label_sv": "filt",
+      "must_show_sv": [
+        "Stor mjuk tygfilt med vikt hörn"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_34",
+      "label_sv": "toalett",
+      "must_show_sv": [
+        "Toalettskål, lock och cistern"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_35",
+      "label_sv": "handfat",
+      "must_show_sv": [
+        "Handfat med kran och avlopp"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_36",
+      "label_sv": "handduk",
+      "must_show_sv": [
+        "Frottéhandduk med upphängningsögla"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_45",
+      "label_sv": "sax",
+      "must_show_sv": [
+        "Två fingeröglor och rundade saxblad"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_91_47",
+      "label_sv": "pussel",
+      "must_show_sv": [
+        "Pusselbitar med tapp och motsvarande hål"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar, text eller dekorativ miljö"
+      ]
+    },
+    {
+      "id": "FSK_92_01",
+      "label_sv": "dricka",
+      "must_show_sv": [
+        "Mugg vid läpparna i drickrörelse"
+      ],
+      "must_not_show_sv": [
+        "Annan samtidig handling eller destination"
+      ]
+    },
+    {
+      "id": "FSK_92_02",
+      "label_sv": "tvätta händer",
+      "must_show_sv": [
+        "Händer med lödder under rinnande vatten"
+      ],
+      "must_not_show_sv": [
+        "Annan samtidig handling eller destination"
+      ]
+    },
+    {
+      "id": "FSK_92_03",
+      "label_sv": "borsta tänder",
+      "must_show_sv": [
+        "Tandborste mot synliga tänder"
+      ],
+      "must_not_show_sv": [
+        "Annan samtidig handling eller destination"
+      ]
+    },
+    {
+      "id": "FSK_92_06",
+      "label_sv": "sova",
+      "must_show_sv": [
+        "Liggande barn med slutna ögon"
+      ],
+      "must_not_show_sv": [
+        "Annan samtidig handling eller destination"
+      ]
+    }
+  ]
+}

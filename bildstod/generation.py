@@ -73,11 +73,12 @@ def prompt_for(entry, config):
 def identity(entry, config):
     parameters = {key: config[key] for key in ('model', 'revision', 'style_version', 'style_prompt', 'width', 'height', 'steps', 'guidance_scale', 'background_model', 'seed_base', 'weight_variant', 'cpu_dtype', 'reference_sha256', 'negative_prompt', 'reference_conditioning')}
     payload = {'render_prompt':prompt_for(entry,config), 'semantic_contract': {key:entry.get(key) for key in ('symbol_type','meaning_sv','must_show_sv','must_not_show_sv')}, 'entry': entry['visual_prompt_en'], 'entry_negative': entry.get('negative_prompt_en', ''), 'label': entry['text_sv'], 'config': parameters}
+    if entry.get('regeneration_request_id'): payload['regeneration_request_id']=entry['regeneration_request_id']
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 
 
 def seed_for(entry, config):
-    return (config['seed_base'] + int(hashlib.sha256(entry['id'].encode()).hexdigest()[:8], 16)) % (2**31)
+    return (config['seed_base'] + int(hashlib.sha256((entry['id']+entry.get('regeneration_request_id','')).encode()).hexdigest()[:8], 16)) % (2**31)
 
 
 def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shard_count=1):
@@ -231,13 +232,19 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
     if not batch:
         return
     started = time.monotonic()
+    for item in batch:
+        target=output/(item['id']+'.json')
+        if target.exists():
+            previous=json.loads(target.read_text())
+            if previous.get('status')=='pending_review':
+                atomic_json(output/(item['id']+'.previous.json'),previous)
     owned_render = render is None
     owned_remove = remove is None
     if owned_render and checkpoint:
         first = by_id[batch[0]['id']]
         atomic_json(output/(first['id']+'.json'), {'concept_id':first['id'],
             'fingerprint':identity(first,config),'status':'failed',
-            'error_type':'InterruptedInitialization'})
+            'error_type':'InterruptedInitialization', **{k:first[k] for k in ('regeneration_request_id','regeneration_source_sha256') if k in first}})
         review_sheet(output)
         checkpoint(output)
     if render is None:
@@ -269,7 +276,8 @@ def run_batch(entries, config, output, batch, render=None, remove=None, checkpoi
                     'symbol_type':entry.get('symbol_type'), 'meaning_sv':entry.get('meaning_sv'),
                     'must_show_sv':entry.get('must_show_sv',[]), 'must_not_show_sv':entry.get('must_not_show_sv',[]),
                     'width': config['width'], 'height': config['height'], 'steps': config['steps'],
-                    'guidance_scale': config['guidance_scale'], 'cpu_dtype': config['cpu_dtype']}
+                    'guidance_scale': config['guidance_scale'], 'cpu_dtype': config['cpu_dtype'],
+                    **{k:entry[k] for k in ('regeneration_request_id','regeneration_source_sha256') if k in entry}}
         if checkpoint:
             atomic_json(target.with_suffix('.json'), {**metadata,'status':'failed',
                 'error_type':'InterruptedGeneration'})
@@ -322,7 +330,10 @@ def review_sheet(output):
     cards = []
     candidates = []
     for sidecar in sorted(output.glob('FSK_*.json')):
+        if sidecar.name.endswith('.previous.json'): continue
         metadata = json.loads(sidecar.read_text(encoding='utf-8'))
+        if metadata.get('status')!='pending_review' and sidecar.with_suffix('.previous.json').exists():
+            metadata=json.loads(sidecar.with_suffix('.previous.json').read_text())
         if metadata.get('status') == 'pending_review':
             candidates.append(metadata)
             identifier = metadata['concept_id']

@@ -21,7 +21,24 @@ on:
 permissions:
   contents: write
 jobs:
+  queue:
+    if: github.event.repository.private == false && (github.event_name == 'workflow_dispatch' || vars.BILDSTOD_NIGHTLY_ENABLED == 'true')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m bildstod.rework fetch --queue queue.json
+      - uses: actions/upload-artifact@v6
+        with:
+          name: approved-render-queue
+          path: queue.json
+          retention-days: 2
   worker:
+    needs: queue
     concurrency:
       group: bildstod-worker-${{ matrix.shard }}
       cancel-in-progress: false
@@ -70,12 +87,18 @@ jobs:
           fi
       - name: Install planning dependencies
         run: python -m pip install --no-cache-dir -r requirements.txt
+      - uses: actions/download-artifact@v7
+        with:
+          name: approved-render-queue
+          path: .queue
+      - name: Apply approved render instructions
+        run: python -m bildstod.rework apply --queue .queue/queue.json --output .state/data --catalog .queue/catalog.json
       - name: Plan worker batch
         id: plan
         run: |
           RETRY_ARGS=()
           if [ "$RETRY_FAILED" = "true" ]; then RETRY_ARGS+=(--retry-failed); fi
-          python -m bildstod.generation plan "${RETRY_ARGS[@]}" --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8
+          python -m bildstod.generation plan --catalog .queue/catalog.json "${RETRY_ARGS[@]}" --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8
           python - <<'PY'
           import json, os
           from pathlib import Path
@@ -92,7 +115,7 @@ jobs:
         run: |
           python -m pip install --no-cache-dir -r requirements-validation.txt
           PROFILE="$(python -c 'import json;print(json.load(open("config/generation.json"))["style_version"])')"
-          python -m bildstod.prompt_budget --plan ".state/data/$PROFILE/plan.json"
+          python -m bildstod.prompt_budget --checkpoint-branch "$CHECKPOINT_BRANCH" --catalog .queue/catalog.json --plan ".state/data/$PROFILE/plan.json"
       - name: Install CPU dependencies
         if: env.MODE == 'generate' && steps.plan.outputs.count != '0'
         run: |
@@ -103,7 +126,7 @@ jobs:
         run: |
           RETRY_ARGS=()
           if [ "$RETRY_FAILED" = "true" ]; then RETRY_ARGS+=(--retry-failed); fi
-          python -m bildstod.generation run "${RETRY_ARGS[@]}" --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8 --max-seconds 7200 --checkpoint-branch "$CHECKPOINT_BRANCH"
+          python -m bildstod.generation run --catalog .queue/catalog.json "${RETRY_ARGS[@]}" --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8 --max-seconds 7200 --checkpoint-branch "$CHECKPOINT_BRANCH"
       - name: Candidate metrics
         if: always()
         run: |
