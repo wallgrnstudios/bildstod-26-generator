@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_14_69",
   "label_sv": "le",
-  "fingerprint": "a488d3543987dfd13cf2ba1f3a77a512be98b48845a5d6e2233f4f4cf68357f1",
-  "prompt": "Create one isolated illustration: One preschool child in front view smiling gently with closed mouth and lifted corners of the lips, eyes soft, cropped at the shoulders. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "a474418d0aa7787e8e138886d9c07dcecfcb8560a204249c2222190fd6c6f595",
+  "prompt": "Create one isolated illustration: One preschool child in front view with a gentle closed-mouth smile, lifted lip corners and soft eyes, both hands empty and relaxed at the sides, cropped at the waist. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 820865305,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-22T11:21:46.686141+00:00",
+  "created_at": "2026-10-22T11:58:15.942067+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -26,7 +26,8 @@
   ],
   "must_not_show_sv": [
     "Öppet skratt",
-    "Tänder som huvudmotiv"
+    "Tänder som huvudmotiv",
+    "Föremål i händerna, mat eller skål"
   ],
   "width": 512,
   "height": 512,
@@ -37,8 +38,8 @@
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 65.414,
+  "render_seconds": 67.172,
   "background_seconds": 0.0,
-  "elapsed_seconds": 65.452,
-  "sha256": "47f1ddff5f2a3b7cc4c68be5fe9694eeaef748b14c2f11680acf7a81398e4983"
+  "elapsed_seconds": 67.216,
+  "sha256": "d9531389047d4b5713e3297ae82631c45eadfa33e7a75e71ca9e470b29e7adc0"
 }
