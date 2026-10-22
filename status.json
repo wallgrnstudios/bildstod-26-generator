@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-22T11:24:31.403563+00:00",
+  "checked_at": "2026-10-22T11:24:48.504905+00:00",
   "coverage": {
     "enabled": 804,
     "with_image": 804,
@@ -19,12 +19,12 @@
     },
     "Suggest image metadata": {
       "id": 39770316647,
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "created_at": "2026-10-22T11:24:17Z",
-      "updated_at": "2026-10-22T11:24:23Z",
+      "updated_at": "2026-10-22T11:24:36Z",
       "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/39770316647",
-      "last_success_at": "2026-10-22T06:56:07Z"
+      "last_success_at": "2026-10-22T11:24:36Z"
     }
   },
   "reworks": [],
