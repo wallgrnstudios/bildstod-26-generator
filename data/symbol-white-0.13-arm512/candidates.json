@@ -549,15 +549,15 @@
     {
       "concept_id": "FSK_14_69",
       "label_sv": "le",
-      "fingerprint": "a474418d0aa7787e8e138886d9c07dcecfcb8560a204249c2222190fd6c6f595",
-      "prompt": "Create one isolated illustration: One preschool child in front view with a gentle closed-mouth smile, lifted lip corners and soft eyes, both hands empty and relaxed at the sides, cropped at the waist. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "487d83cf3fa4c4cb66e31398889b42100f84a2ffa70d2ca2d00da4ade5ad8d01",
+      "prompt": "Create one isolated illustration: Girl, wavy blond hair, fair skin, green t-shirt, waist up, gentle closed-mouth smile, soft eyes, empty relaxed hands. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 820865305,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-22T11:58:15.942067+00:00",
+      "created_at": "2026-10-22T13:26:34.106089+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -586,10 +586,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 67.172,
+      "render_seconds": 67.565,
       "background_seconds": 0.0,
-      "elapsed_seconds": 67.216,
-      "sha256": "d9531389047d4b5713e3297ae82631c45eadfa33e7a75e71ca9e470b29e7adc0"
+      "elapsed_seconds": 67.612,
+      "sha256": "de3a015a62ea19f14a0a39ee021c22f996a92f8701f6643ca1855745e7114d41"
     },
     {
       "concept_id": "FSK_15_35",
