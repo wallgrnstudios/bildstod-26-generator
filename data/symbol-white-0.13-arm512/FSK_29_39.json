@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_29_39",
   "label_sv": "räkna",
-  "fingerprint": "2d4476abf50a7e52ee4a3c5968ef9f2c5aa9a0f45c33958f355cb7ace2ce5755",
-  "prompt": "Create one isolated illustration: One child pointing with an index finger at one block in a row of five wooden blocks, the other blocks evenly spaced. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "8b766db6a1192f8280b1c03d9beabfb56fe73c9c85377b2e8e3c9beca0581682",
+  "prompt": "Create one isolated illustration: Boy, straight black hair, light tan skin, green sweater, his own index finger touching the second of five wooden blocks in a row. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 352387342,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-22T12:04:44.044096+00:00",
+  "created_at": "2026-10-22T13:29:49.109185+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -26,19 +26,14 @@
   ],
   "must_not_show_sv": [
     "Siffror",
-    "Text"
+    "Text",
+    "Vuxens hand"
   ],
   "width": 512,
   "height": 512,
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 67.157,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 67.198,
-  "sha256": "a33f430405aef1738a70b3c8b082ab585b4055c478753eb4872e44479c53558b"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
