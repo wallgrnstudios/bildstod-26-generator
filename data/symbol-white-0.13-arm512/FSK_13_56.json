@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_13_56",
   "label_sv": "hämta",
-  "fingerprint": "4757f0ef94ab14eb11ad83f14252e6e86635e59193630541843829004caf6e34",
-  "prompt": "Create one isolated illustration: One preschool child in side view walking back toward an adult's open hands at the right edge, carrying a red ball held in both arms, mid-step. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "d2b365e6976301b9975c98d2be60497ade05745aa4bb21f3a42af5211415c72a",
+  "prompt": "Create one isolated illustration: Girl, brown shoulder-length hair, tan skin, pink t-shirt, walking back with a red ball toward an adult's open hands. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 1042726802,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-22T11:58:12.637093+00:00",
+  "created_at": "2026-10-22T13:27:38.848269+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 65.877,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 65.925,
-  "sha256": "7843cd5d08fc41e9f95d4f74f15152ecd1e32475d865faef73493fa70ff61bdd"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
