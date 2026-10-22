@@ -46,6 +46,29 @@ class AutomationTests(unittest.TestCase):
             review_sheet(output)
             self.assertEqual(json.loads((output/'candidates.json').read_text())['candidates'],[original])
 
+    def test_token_budget_error_keeps_last_image_and_records_request_failure(self):
+        import sys
+        from types import SimpleNamespace
+        from unittest.mock import Mock
+        from bildstod import prompt_budget
+        with tempfile.TemporaryDirectory() as d:
+            output=Path(d)
+            entry={**self.entry,'regeneration_request_id':self.request['request_id'],'regeneration_source_sha256':self.sha}
+            catalog=output/'catalog.json';catalog.write_text(json.dumps([entry]))
+            original={'concept_id':self.id,'label_sv':'dragkedja','status':'pending_review','sha256':self.sha}
+            (output/(self.id+'.json')).write_text(json.dumps(original))
+            planfile=output/'plan.json';planfile.write_text(json.dumps({'batch':[{'id':self.id}]}))
+            tokenizer=Mock();tokenizer.encode.return_value=list(range(221))
+            fake=SimpleNamespace(Qwen2TokenizerFast=SimpleNamespace(from_pretrained=lambda *a,**k:tokenizer))
+            argv=['prompt_budget','--catalog',str(catalog),'--plan',str(planfile),'--checkpoint-branch','generated-flux-worker-0']
+            with patch.dict(sys.modules,{'transformers':fake}),patch.object(sys,'argv',argv),patch('bildstod.generation.checkpoint_git') as checkpoint,self.assertRaisesRegex(ValueError,'221/220'):
+                prompt_budget.main()
+            checkpoint.assert_called_once()
+            failure=json.loads((output/(self.id+'.json')).read_text())
+            self.assertEqual(failure['error_type'],'PromptBudgetExceeded')
+            self.assertEqual(failure['regeneration_request_id'],self.request['request_id'])
+            self.assertEqual(json.loads((output/'candidates.json').read_text())['candidates'],[original])
+
     def test_public_queue_rejects_private_fields(self):
         f={'concept_id':{'stringValue':self.id},'source_sha256':{'stringValue':self.sha},'prompt_en':{'stringValue':self.request['prompt_en']},'public_approved':{'booleanValue':True},'schema_version':{'integerValue':'1'},'revision':{'integerValue':'1'},'createdAt':{'timestampValue':self.request['created_at']}}
         doc={'name':'queue/'+self.id+'_'+self.sha,'fields':f}
