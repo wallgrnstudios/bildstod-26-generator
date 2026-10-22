@@ -401,21 +401,21 @@
     {
       "concept_id": "FSK_17_38",
       "label_sv": "tända",
-      "fingerprint": "d247afa61c1fa4bb5bd4411b8839dc02304c66233c33bcad2a3dc2430e0dbbe2",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child pressing the button on a small table lamp, the lamp glowing with soft yellow light rays. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "2e56e246e94b1ad9908567d7ce336fd6f9d0d1e4cc225a899ad2ea4d10c7677a",
+      "prompt": "Create one isolated illustration: One preschool child pressing the button on a small table lamp, the lamp glowing with soft yellow light rays. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 153196349,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T22:17:02.518695+00:00",
+      "created_at": "2026-10-22T11:57:00.805313+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
       "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
       "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
-      "reference_conditioning": true,
+      "reference_conditioning": false,
       "implementation": "diffusers-arm64",
       "quantized_files": null,
       "symbol_type": "action",
@@ -438,10 +438,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.89,
+      "render_seconds": 65.71,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.934,
-      "sha256": "dd26e8c9d1a865f94dd6c45c2d7143eabaf7ab2fc8102ab7709e06a16a3fbbdb"
+      "elapsed_seconds": 65.752,
+      "sha256": "073efc861878a5f2ef206506e6dac173472e4520aa7aaeabbe84eea0f2fe8e9e"
     },
     {
       "concept_id": "FSK_17_90",
