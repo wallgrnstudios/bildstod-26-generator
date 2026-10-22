@@ -1154,15 +1154,15 @@
     {
       "concept_id": "FSK_19_34",
       "label_sv": "skruva",
-      "fingerprint": "f635eb2910ea00a8569ef87d7ebf329f3ad7a9f94222f20c2cd4fbf92785a68a",
-      "prompt": "Create one isolated illustration: One child hands turning a screwdriver into a screw in a wooden board. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "4d36c58ff8edbf9327855c7b7901120158e29a77a7fa61a593b9fb3e1913d249",
+      "prompt": "Create one isolated illustration: Boy, brown wavy hair, glasses, grey hoodie, turning a screwdriver in a large screw half driven into a board. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 1986810239,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-22T11:59:23.623121+00:00",
+      "created_at": "2026-10-22T13:29:49.153120+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1189,10 +1189,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 68.989,
+      "render_seconds": 68.376,
       "background_seconds": 0.0,
-      "elapsed_seconds": 69.018,
-      "sha256": "1fedca6ae05a6d76abc81226f55a5a28fa266c124e42e1a26ee2d211bccfdab7"
+      "elapsed_seconds": 68.407,
+      "sha256": "95233eb1949714e603fec6e7a293eadca35c3a296179aae0a39d88faa361b7ea"
     },
     {
       "concept_id": "FSK_19_41",
