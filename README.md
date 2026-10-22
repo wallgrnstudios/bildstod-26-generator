@@ -12,6 +12,8 @@ Metadata suggestions run separately in `metadata-pilot.yml` after generation and
 
 The model loads once per worker batch. Prompts are encoded upfront; text encoders are then released before image synthesis to reduce RAM usage. The current throughput trial uses native 512 px with a white background and no background removal or upscaling. CPU quality and runtime require verification. FLUX.2 klein uses the included reference as style conditioning. Text weights are removed from disk and memory before loading the image model.
 
+Image triage runs in `quality-triage.yml` after generation and daily. Rule checks (cropping, tiny subject, filled frame, brown cast on white materials, near duplicates, similarity to the style reference), Tesseract OCR and a pinned CLIP ViT-B/32 (MIT, CPU) only order the human review list; they never approve or reject. Results and contact sheets (96/48/24 px, colour/grey, with/without labels, A4 print proofs) are replaced on the `quality-triage` branch.
+
 Manual benchmarking workflows compare standard x64, standard ARM64, and a compact CPU implementation. Failed 1024 CPU trials do not establish a daily throughput promise.
 
 Model license: https://huggingface.co/black-forest-labs/FLUX.2-klein-4B . The current profile retains a white background without background removal. No project distribution license is implied. Outputs are review candidates with no assigned distribution license.

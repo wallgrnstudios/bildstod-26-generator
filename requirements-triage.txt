@@ -1,0 +1,4 @@
+-r requirements.txt
+# CPU only on standard GitHub runners; torch is installed separately from the CPU index.
+transformers==4.57.1
+safetensors==0.8.0

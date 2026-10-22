@@ -1,0 +1,57 @@
+name: Prioritize suspicious images
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        type: boolean
+        default: false
+        description: Recompute even when images, briefs and thresholds are unchanged
+  schedule:
+    - cron: '47 5 * * *'
+  workflow_run:
+    workflows: ['Generate pilot candidates']
+    types: [completed]
+permissions:
+  contents: write
+concurrency:
+  group: bildstod-quality-triage
+  cancel-in-progress: false
+jobs:
+  triage:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Install CPU-only dependencies and OCR
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q tesseract-ocr fonts-dejavu-core
+          python -m pip install --no-cache-dir torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --no-cache-dir -r requirements-triage.txt
+      - name: Flag suspicious images (hints only, no decisions)
+        env:
+          FORCE: ${{ inputs.force && '--force' || '' }}
+        run: python -m bildstod.triage $FORCE
+      - name: Build contact sheets
+        run: if [ -f .triage/triage.json ]; then python -m bildstod.contact_sheets; fi
+      - name: Publish public triage and sheets only
+        run: |
+          if [ ! -f .triage/triage.json ]; then exit 0; fi
+          gh auth setup-git
+          mkdir .publish && cp .triage/triage.json .publish/ && cp -r .triage/sheets .publish/sheets
+          git -C .publish init -q
+          git -C .publish config user.name 'Bildstöd quality triage'
+          git -C .publish config user.email 'bildstod-generator@users.noreply.github.com'
+          git -C .publish checkout -q --orphan quality-triage
+          git -C .publish add .
+          git -C .publish commit -q -m 'Refresh image triage and contact sheets'
+          # A single replaced commit keeps regenerated sheets from growing the repository history.
+          git -C .publish push -q --force "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:quality-triage
+        env:
+          GH_TOKEN: ${{ github.token }}

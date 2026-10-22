@@ -1,0 +1,12 @@
+{
+  "clip_model": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+  "clip_revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+  "clip_license": "MIT",
+  "clip_rank_threshold": 25,
+  "duplicate_max_bits": 8,
+  "duplicate_max_difference": 20,
+  "reference_max_bits": 20,
+  "reference_max_difference": 30,
+  "reference_concepts": ["FSK_01_04", "FSK_90_06", "FSK_13_99"],
+  "note": "Thresholds were set on 160 current images (2026-10-22). They order the review list only; adjust after measured false positives."
+}
