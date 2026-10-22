@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_18_57",
   "label_sv": "hosta",
-  "fingerprint": "5cb264fece315340d3b818dd58d4ca4875782390476d18e170405f5ad3702da4",
-  "prompt": "Create one isolated illustration: One preschool child in side view coughing with the mouth pressed into the bent inner elbow of one raised arm, eyes squeezed shut, small puff marks at the elbow. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "834ef2fa3020d5a3147af0a1a2476ce57734f2a283c40eb89ad264f0556c387f",
+  "prompt": "Create one isolated illustration: Girl, curly hair puffs, brown skin, yellow t-shirt, coughing into her bent elbow held over her mouth, eyes shut. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 1146668926,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-22T12:02:27.804206+00:00",
+  "created_at": "2026-10-22T13:28:40.171957+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -27,19 +27,14 @@
   "must_not_show_sv": [
     "Hosta i händerna",
     "Nysning med näsduk",
-    "Feber"
+    "Feber",
+    "Hosta i handen"
   ],
   "width": 512,
   "height": 512,
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 66.683,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 66.718,
-  "sha256": "b9abd7f312c83fd46367001a75c136216bbad5699ddcb3e6cee61a67c61c72af"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
