@@ -4,6 +4,7 @@ import os
 import tempfile
 from pathlib import Path
 from PIL import Image
+from .prompt_budget import validate_prompt_budget
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -30,13 +31,12 @@ class FluxRenderer:
         # so the public runner does not need 16+ GB of disk or both models in RAM.
         with tempfile.TemporaryDirectory(prefix='bildstod-encoder-', dir=os.environ.get('RUNNER_TEMP')) as cache:
             tokenizer = Qwen2TokenizerFast.from_pretrained(config['model'], subfolder='tokenizer', revision=config['revision'], cache_dir=cache)
+            validate_prompt_budget(entries,config,tokenizer)
             encoder = Qwen3ForCausalLM.from_pretrained(config['model'], subfolder='text_encoder', revision=config['revision'], cache_dir=cache, torch_dtype=torch.bfloat16, use_safetensors=True, low_cpu_mem_usage=True)
             encoder.config.use_cache = False
             text_pipeline = Flux2KleinPipeline(scheduler=None, vae=None, text_encoder=encoder, tokenizer=tokenizer, transformer=None, is_distilled=True)
             for entry in entries:
                 prompt = prompt_for(entry, config)
-                if len(tokenizer.encode(prompt)) > 220:
-                    raise ValueError(f"Flux prompt exceeds the configured text budget: {entry['id']}")
                 with torch.inference_mode():
                     embeddings, ids = text_pipeline.encode_prompt(prompt=prompt, device='cpu', max_sequence_length=256)
                     self.embeddings[entry['id']] = embeddings.detach().clone()

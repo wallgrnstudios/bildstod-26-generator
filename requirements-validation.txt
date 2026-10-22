@@ -1,0 +1,3 @@
+-r requirements.txt
+# Tokenizer only: no torch, image generation or model weights.
+transformers==5.20.1
