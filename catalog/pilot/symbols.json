@@ -10039,7 +10039,7 @@
     "text_sv": "ta",
     "symbol_type": "action",
     "meaning_sv": "Ta: att ta något i handen. Inte få eller ta emot.",
-    "visual_prompt_en": "One preschool child at a table reaching out and gripping a wooden block with a closed hand, arm extended, the block lifted slightly. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Child, short blond hair, fair skin, blue striped shirt, lifting a red apple off a small white plate with one hand. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Hand som greppar",
       "Föremålet som tas"
@@ -10047,7 +10047,8 @@
     "must_not_show_sv": [
       "Annan person som ger",
       "Stöld",
-      "Flera barn"
+      "Flera barn",
+      "Färgad bordsyta eller bakgrund"
     ],
     "contrast_terms_sv": [
       "ge",
@@ -10799,7 +10800,7 @@
     "text_sv": "släppa",
     "symbol_type": "action",
     "meaning_sv": "Släppa: att öppna handen så att något faller. Inte tappa av misstag och inte kasta.",
-    "visual_prompt_en": "One preschool child holding a hand open palm-down above the floor, a ball a few centimetres below it falling, the child looking at the ball. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Child in a light blue headscarf, teal top, arm out with the hand opening as a blue ball drops straight down. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Handen öppen",
       "Bollen lämnat handen"
@@ -10826,7 +10827,7 @@
     "text_sv": "hämta",
     "symbol_type": "action",
     "meaning_sv": "Hämta: att gå efter något och ta det med sig tillbaka. Inte bara ta.",
-    "visual_prompt_en": "One preschool child in side view walking back toward an adult's open hands at the right edge, carrying a red ball held in both arms, mid-step. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Girl, brown shoulder-length hair, tan skin, pink t-shirt, walking back with a red ball toward an adult's open hands. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Barn som bär tillbaka ett föremål",
       "Rörelse mot den som väntar"
@@ -11012,7 +11013,7 @@
     "text_sv": "kasta",
     "symbol_type": "action",
     "meaning_sv": "Kasta: att sända iväg ett föremål genom luften med armen. Inte rulla eller sparka.",
-    "visual_prompt_en": "One preschool child in side view with arm extended forward just after throwing a ball, the ball in mid-air a short distance in front of the hand. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Boy, black buzz cut, dark brown skin, yellow t-shirt, throwing a blue ball overhand, ball just leaving his hand. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Armen sträckt framåt",
       "Bollen i luften"
@@ -11141,7 +11142,7 @@
     "text_sv": "stänga",
     "symbol_type": "action",
     "meaning_sv": "Stänga: att få något öppet att bli stängt, t.ex. sänka ett lock. Inte öppna.",
-    "visual_prompt_en": "One preschool child pressing the lid of a wooden box down with both hands, the lid almost closed. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Girl, black hair bun, light brown skin, red cardigan, pressing a wooden box lid down with both hands, lid almost shut. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Locket sänks",
       "Händer på locket"
@@ -11351,7 +11352,7 @@
     "text_sv": "le",
     "symbol_type": "action",
     "meaning_sv": "Att le: munnen böjs uppåt och man visar glädje eller vänlighet. Inte skratta.",
-    "visual_prompt_en": "One preschool child in front view with a gentle closed-mouth smile, lifted lip corners and soft eyes, both hands empty and relaxed at the sides, cropped at the waist. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Girl, wavy blond hair, fair skin, green t-shirt, waist up, gentle closed-mouth smile, soft eyes, empty relaxed hands. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Uppåtböjd mun",
       "Mjuk blick"
@@ -12401,7 +12402,7 @@
     "text_sv": "låsa",
     "symbol_type": "action",
     "meaning_sv": "Låsa: att vrida om en nyckel så att något blir låst. Inte låsa upp.",
-    "visual_prompt_en": "One preschool child turning a key in a door lock, the key inserted in the keyhole and the hand twisting it. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Boy, straight black hair, light brown skin, orange sweater, turning a key in the keyhole of a plain door. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Nyckeln i låset",
       "Handen vrider"
@@ -13122,7 +13123,7 @@
     "text_sv": "sy",
     "symbol_type": "action",
     "meaning_sv": "Sy: sticka tråd genom tyg.",
-    "visual_prompt_en": "One child hands sewing a felt piece with a blunt needle and thread. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Girl, short dark curly hair, dark brown skin, lilac t-shirt, pushing a needle with red thread through white fabric. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Nål och tråd",
       "Tyg"
@@ -13347,7 +13348,7 @@
     "text_sv": "släcka",
     "symbol_type": "action",
     "meaning_sv": "Släcka: att göra en lampa mörk. Inte släcka eld.",
-    "visual_prompt_en": "One preschool child pressing the button on a small table lamp, the lamp dark and unlit with no light rays. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Girl, red braid, freckles, purple t-shirt, pressing a wall light switch; the lamp beside her has gone dark. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Lampan släckt",
       "Barnets finger på knappen"
@@ -13398,7 +13399,7 @@
     "text_sv": "hosta",
     "symbol_type": "action",
     "meaning_sv": "Hosta: kraftigt utandningsljud. Inte nysa.",
-    "visual_prompt_en": "One preschool child in side view coughing with the mouth pressed into the bent inner elbow of one raised arm, eyes squeezed shut, small puff marks at the elbow. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Girl, curly hair puffs, brown skin, yellow t-shirt, coughing into her bent elbow held over her mouth, eyes shut. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Munnen i armvecket",
       "Hostande"
@@ -13406,7 +13407,8 @@
     "must_not_show_sv": [
       "Hosta i händerna",
       "Nysning med näsduk",
-      "Feber"
+      "Feber",
+      "Hosta i handen"
     ],
     "contrast_terms_sv": [
       "nysa",
@@ -13882,7 +13884,7 @@
     "text_sv": "skruva",
     "symbol_type": "action",
     "meaning_sv": "Skruva: dra åt en skruv med skruvmejsel.",
-    "visual_prompt_en": "One child hands turning a screwdriver into a screw in a wooden board. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Boy, brown wavy hair, glasses, grey hoodie, turning a screwdriver in a large screw half driven into a board. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Skruvmejsel",
       "Skruv"
@@ -14488,7 +14490,7 @@
     "text_sv": "fästa",
     "symbol_type": "action",
     "meaning_sv": "Fästa: att få något att sitta fast på en yta, t.ex. med tejp. Inte hänga.",
-    "visual_prompt_en": "One preschool child pressing a sheet of paper flat against a pinboard with a strip of tape in the other hand, tape holding the corner. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Child, light brown curly hair, fair skin, teal t-shirt, pressing tape over the corner of a drawing on a board. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Papper fäst på tavla",
       "Tejp över hörnet"
@@ -14818,7 +14820,7 @@
     "text_sv": "bläddra",
     "symbol_type": "action",
     "meaning_sv": "Bläddra: att snabbt vända blad i en bok, titta igenom. Inte läsa.",
-    "visual_prompt_en": "One preschool child holding a thick picture book with one hand and flipping through its pages with the other hand, pages fanned mid-motion. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Boy, short red hair, fair skin, navy t-shirt, flipping quickly through a book, pages fanned under his thumb. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Sidor som böjs i rörelse",
       "Hand som vänder sidor"
@@ -15255,7 +15257,7 @@
     "text_sv": "köpa",
     "symbol_type": "action",
     "meaning_sv": "Att köpa: man ger pengar och får en vara. Inte \"sälja\" (säljarens perspektiv).",
-    "visual_prompt_en": "A preschool child at a market stall in side view, holding out a coin while taking an apple from the seller's hand. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Boy, dark curly hair, dark brown skin, orange t-shirt, giving a gold coin to a seller's hand and taking a red apple. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Barnet håller ut ett mynt",
       "Barnet tar emot en vara"
@@ -15646,14 +15648,15 @@
     "text_sv": "räkna",
     "symbol_type": "action",
     "meaning_sv": "Räkna: peka på föremål ett i taget för att veta hur många.",
-    "visual_prompt_en": "One child pointing with an index finger at one block in a row of five wooden blocks, the other blocks evenly spaced. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
+    "visual_prompt_en": "Boy, straight black hair, light tan skin, green sweater, his own index finger touching the second of five wooden blocks in a row. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering.",
     "must_show_sv": [
       "Pekande finger",
       "Föremål i rad"
     ],
     "must_not_show_sv": [
       "Siffror",
-      "Text"
+      "Text",
+      "Vuxens hand"
     ],
     "contrast_terms_sv": [
       "antal",
