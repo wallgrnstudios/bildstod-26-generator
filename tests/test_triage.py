@@ -38,3 +38,27 @@ class TriageTests(unittest.TestCase):
             index = build({'FSK_10_01': path}, {'FSK_10_01': 'boll'}, {'FSK_10_01': 'lek'}, Path(d, 'out'))
             self.assertEqual(len(index[0]['files']), 7)
             self.assertTrue(all(Path(d, 'out', f).exists() for f in index[0]['files'].values()))
+
+
+class CharacterRegistryTests(unittest.TestCase):
+    def test_only_approved_pinned_figures_and_requested_variants(self):
+        from bildstod.characters import validate_registry
+        figure = {'character_id': 'FIG_001', 'name_sv': 'Figur 1', 'description_en': 'Preschool child, short curly dark hair, green sweater.', 'status': 'proposed'}
+        registry = {'schema_version': 1, 'max_active_variant_briefs': 2, 'characters': [figure]}
+        variant = {'variant_id': 'FSK_90_02-V01', 'concept_id': 'FSK_90_02', 'character_id': 'FIG_001', 'requested': True, 'visual_prompt_en': 'The same walking child as the reference figure.'}
+        with self.assertRaises(ValueError):
+            validate_registry(registry, [variant], {'FSK_90_02'})
+        figure.update(status='approved', reference={'concept_id': 'FSK_90_02', 'sha256': 'a' * 64, 'source_commit': 'b' * 40})
+        with self.assertRaises(ValueError):
+            validate_registry(registry)
+        figure['approved_at'] = '2026-10-22'
+        self.assertIn('FIG_001', validate_registry(registry, [variant], {'FSK_90_02'}))
+        with self.assertRaises(ValueError):
+            validate_registry(registry, [dict(variant, requested=False)], {'FSK_90_02'})
+        with self.assertRaises(ValueError):
+            validate_registry(registry, [variant, dict(variant, variant_id='FSK_90_02-V02'), dict(variant, variant_id='FSK_90_02-V03')], {'FSK_90_02'})
+
+    def test_repository_registry_is_valid(self):
+        from bildstod.characters import load
+        registry, variants = load()
+        self.assertEqual(variants, [])

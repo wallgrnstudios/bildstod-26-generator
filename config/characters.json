@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "max_active_variant_briefs": 20,
+  "notice_sv": "Granskat figurregister. En figur får användas som referens först när en människa har valt en godkänd bildversion och satt status approved. Utseendet beskriver en illustration, inte en verklig person; kön och etnicitet härleds aldrig automatiskt.",
+  "characters": []
+}
