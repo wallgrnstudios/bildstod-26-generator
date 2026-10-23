@@ -11,22 +11,44 @@ const fields=request=>({concept_id:string(request.concept_id),source_sha256:stri
 const getValue=field=>field&&(field.stringValue??field.integerValue??field.booleanValue??field.timestampValue);
 async function documents(name){let token,rows=[];do{const result=(await firestore.get('projects/'+project+'/databases/(default)/documents/'+name,{queryParams:{pageSize:300,...(token?{pageToken:token}:{})}})).body;rows.push(...(result.documents||[]));token=result.nextPageToken;}while(token);return rows;}
 async function main(){
- const [snapshot,symbols,reviews,queue]=await Promise.all([
-  fetch('https://wallgrn.com/admin/bildstod-26/candidate-snapshot.json').then(r=>r.json()),
+ const [candidates,symbols,reviews,queue]=await Promise.all([
+  currentCandidates(),
   fetch('https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/main/catalog/pilot/symbols.json').then(r=>r.json()),
   documents('bildstod26Reviews'),documents(collection)]);
- const candidates=new Map(snapshot.candidates.map(c=>[c.concept_id,c])),briefs=new Map(symbols.map(s=>[s.id,s]));
+ const current=new Map(candidates.map(c=>[c.concept_id,c])),briefs=new Map(symbols.map(s=>[s.id,s]));
  const queued=new Set(queue.map(d=>d.name.rsplit?d.name.rsplit('/',1)[1]:d.name.split('/').at(-1)));
+ const reviewRows=reviews.map(doc=>Object.fromEntries(Object.entries(doc.fields).map(([k,v])=>[k,getValue(v)])));
+ const historicalNotes=new Map();
+ for(const review of reviewRows){if(!['reject','revise'].includes(review.decision)||!review.note?.trim())continue;const old=historicalNotes.get(review.concept_id);if(!old||String(review.reviewed_at)>String(old.reviewed_at))historicalNotes.set(review.concept_id,review);}
  const requests=[];
- for(const doc of reviews){const review=Object.fromEntries(Object.entries(doc.fields).map(([k,v])=>[k,getValue(v)])),candidate=candidates.get(review.concept_id),brief=briefs.get(review.concept_id);
+ for(const review of reviewRows){const candidate=current.get(review.concept_id),brief=briefs.get(review.concept_id);
   if(!candidate||!brief||!['reject','revise'].includes(review.decision)||review.sha256!==candidate.sha256)continue;
-  const prompt=brief.visual_prompt_en.trim(),id=review.concept_id+'_'+review.sha256;
+  const note=review.note?.trim()?review.note:historicalNotes.get(review.concept_id)?.note||'';
+  const prompt=publicPrompt(brief.visual_prompt_en,note),id=review.concept_id+'_'+review.sha256;
   if(prompt.length<10||prompt.length>700)throw Error('Invalid current prompt: '+review.concept_id);
-  if(!queued.has(id))requests.push({concept_id:review.concept_id,label_sv:candidate.label_sv,source_sha256:review.sha256,prompt_en:prompt});
+  if(!queued.has(id))requests.push({concept_id:review.concept_id,label_sv:candidate.label_sv,source_sha256:review.sha256,prompt_en:prompt,with_editor_note:prompt!==brief.visual_prompt_en.trim(),note_source:note?(review.note?.trim()?'current':'historical'):null});
  }
  requests.sort((a,b)=>a.concept_id.localeCompare(b.concept_id));
  if(!process.argv.includes('--apply')){console.log(JSON.stringify({count:requests.length,requests},null,2));return;}
  for(const request of requests){const id=request.concept_id+'_'+request.source_sha256;await firestore.patch('projects/'+project+'/databases/(default)/documents/'+collection+'/'+id,{fields:fields(request)});}
  console.log(JSON.stringify({queued:requests.length,ids:requests.map(r=>r.concept_id)}));
+}
+function publicPrompt(base,note){
+ const clean=typeof note==='string'?note.trim().replace(/\s+/g,' '):'';
+ if(!clean)return base.trim();
+ if(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|https?:\/\/|\+?\d[\d -]{6,}\d/.test(clean))throw Error('Private contact details must not enter a public render brief.');
+ const combined=`${base.trim()} Required editor correction: ${clean}`;
+ return combined.length<=700?combined:base.trim();
+}
+async function currentCandidates(){
+ const profile='symbol-white-0.13-arm512',root='https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator';
+ const indexes=await Promise.all(Array.from({length:8},async(_,worker)=>{
+  const response=await fetch(`${root}/generated-flux-worker-${worker}/data/${profile}/candidates.json?refresh=${Date.now()}`,{cache:'no-store'});
+  if(!response.ok)throw Error(`Current worker index unavailable: ${worker}`);
+  const index=await response.json();
+  if(index.style_version!==profile||!Array.isArray(index.candidates))throw Error(`Invalid current worker index: ${worker}`);
+  return index.candidates.filter(c=>c.status==='pending_review'&&/^FSK_\d{2}_\d{2}$/.test(c.concept_id)&&/^[a-f0-9]{64}$/.test(c.sha256)).map(c=>({...c,worker}));
+ }));
+ return indexes.flat();
 }
 main().catch(error=>{console.error(error.message);process.exitCode=1});
