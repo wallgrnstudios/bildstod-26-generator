@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_20_40",
   "label_sv": "fästa",
-  "fingerprint": "e2f2125c7818613359cb37a591d4cf81d7d6617876af1bba8a75fe8789832a74",
-  "prompt": "Create one isolated illustration: One preschool child pressing a sheet of paper flat against a pinboard with a strip of tape in the other hand, tape holding the corner. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "d09c68b41d32c44706562f9c1265efc6dee5a7e033ae39cb257c20e9711b1abc",
+  "prompt": "Create one isolated illustration: Child, light brown curly hair, fair skin, teal t-shirt, pressing tape over the corner of a drawing on a board. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 2020432856,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-22T12:00:35.107692+00:00",
+  "created_at": "2026-10-22T13:27:46.641916+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -38,8 +38,8 @@
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 67.383,
+  "render_seconds": 68.01,
   "background_seconds": 0.0,
-  "elapsed_seconds": 67.424,
-  "sha256": "319604696df39ecbe6fb56c1f7fbbba0050748dc9d4287e714ec686458884f84"
+  "elapsed_seconds": 68.056,
+  "sha256": "c71cd182202718abf770aad5b4f8648059803369094fde0c3b0c5178f75ecaa2"
 }
