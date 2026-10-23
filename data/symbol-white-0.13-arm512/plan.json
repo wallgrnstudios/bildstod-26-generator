@@ -4,22 +4,10 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_14_09",
-      "label": "kasta",
-      "prompt": "Create one isolated illustration: Boy, black buzz cut, dark brown skin, yellow t-shirt, throwing a blue ball overhand, ball just leaving his hand. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1698096134
-    },
-    {
-      "id": "FSK_18_57",
-      "label": "hosta",
-      "prompt": "Create one isolated illustration: Girl, curly hair puffs, brown skin, yellow t-shirt, coughing into her bent elbow held over her mouth, eyes shut. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1146668926
-    },
-    {
-      "id": "FSK_29_39",
-      "label": "räkna",
-      "prompt": "Create one isolated illustration: Boy, straight black hair, light tan skin, green sweater, his own index finger touching the second of five wooden blocks in a row. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 352387342
+      "id": "FSK_17_81",
+      "label": "ambulans",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One yellow ambulance in side view with blue warning lights and simple red medical cross, no lettering. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1461493655
     }
   ]
 }
