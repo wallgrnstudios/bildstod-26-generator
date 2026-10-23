@@ -1575,15 +1575,15 @@
     {
       "concept_id": "FSK_22_23",
       "label_sv": "memory",
-      "fingerprint": "c69f363342ea8dee3c1bc4ca98e80b1dcdf90c2f4057b8d600af831bdc3e4bbc",
+      "fingerprint": "4749fa46fc54727c96c329ccc8595f773fbd3da41aeaa239583ac90116e23873",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: A 3x3 grid of square memory cards face down with two turned face up showing the same simple apple picture, plain card backs. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 146538949,
+      "seed": 916916107,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T22:27:53.456090+00:00",
+      "created_at": "2026-10-23T21:37:00.493948+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1609,14 +1609,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_22_23_263d4cded100757faa8187558e37ea4dbf2c73f5b8e9d01cf5cb4bc6f5d4495a_r1",
+      "regeneration_source_sha256": "263d4cded100757faa8187558e37ea4dbf2c73f5b8e9d01cf5cb4bc6f5d4495a",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.163,
+      "render_seconds": 79.155,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.189,
-      "sha256": "263d4cded100757faa8187558e37ea4dbf2c73f5b8e9d01cf5cb4bc6f5d4495a"
+      "elapsed_seconds": 79.187,
+      "sha256": "94e5607faa03189a691a01686f85079c84a3289aa2f1dee03be71dfe0f47c084"
     },
     {
       "concept_id": "FSK_22_50",
