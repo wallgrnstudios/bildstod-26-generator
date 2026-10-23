@@ -1017,15 +1017,15 @@
     {
       "concept_id": "FSK_19_03",
       "label_sv": "ramla",
-      "fingerprint": "f8ff296b48c05652658180554e4e6dbe2ac62a2b576e4653244f828e521ce5db",
+      "fingerprint": "67dc9aaacc684f6be4517b01a00f0cb98f9826cd23f23f759a88777090d42757",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view tripping over a small stone on a lawn and tipping forward with arms flung out, neutral calm face, soft grass below. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1702996619,
+      "seed": 976630983,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:18:00.157723+00:00",
+      "created_at": "2026-10-23T19:35:17.565883+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1051,14 +1051,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_19_03_ed8d12fd54a3c54f573fa2d4f0d715e365fa091d5925e53855932c3e00d8ce04_r1",
+      "regeneration_source_sha256": "ed8d12fd54a3c54f573fa2d4f0d715e365fa091d5925e53855932c3e00d8ce04",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 81.828,
+      "render_seconds": 78.472,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.858,
-      "sha256": "ed8d12fd54a3c54f573fa2d4f0d715e365fa091d5925e53855932c3e00d8ce04"
+      "elapsed_seconds": 78.501,
+      "sha256": "f05cab9234fd17da70d5787f405b2b2c02a287f5108b1278d48ce9d0956702a0"
     },
     {
       "concept_id": "FSK_19_19",
