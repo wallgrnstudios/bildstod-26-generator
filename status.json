@@ -1,43 +1,16 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T20:37:18.354450+00:00",
+  "checked_at": "2026-10-23T21:43:45.440902+00:00",
   "coverage": {
     "enabled": 804,
     "with_image": 804,
     "pending": [
       "FSK_90_08",
-      "FSK_21_27",
-      "FSK_21_26",
-      "FSK_20_53",
       "FSK_31_81",
-      "FSK_28_73",
-      "FSK_29_13",
       "FSK_31_99",
-      "FSK_16_38",
-      "FSK_18_04",
-      "FSK_19_42",
-      "FSK_22_51",
       "FSK_32_63",
       "FSK_31_80",
       "FSK_32_48",
-      "FSK_15_68",
-      "FSK_12_40",
-      "FSK_13_89",
-      "FSK_15_95",
-      "FSK_17_90",
-      "FSK_18_65",
-      "FSK_19_30",
-      "FSK_20_38",
-      "FSK_20_62",
-      "FSK_21_25",
-      "FSK_21_31",
-      "FSK_21_38",
-      "FSK_22_23",
-      "FSK_22_50",
-      "FSK_25_95",
-      "FSK_26_34",
-      "FSK_27_66",
-      "FSK_27_82",
       "FSK_30_01",
       "FSK_30_21",
       "FSK_28_66",
@@ -53,27 +26,35 @@
       {
         "id": "FSK_20_02",
         "error_type": "PromptBudgetExceeded"
+      },
+      {
+        "id": "FSK_29_13",
+        "error_type": "InterruptedGeneration"
+      },
+      {
+        "id": "FSK_27_82",
+        "error_type": "InterruptedGeneration"
       }
     ]
   },
   "workflows": {
     "Generate pilot candidates": {
-      "id": 40011431178,
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-10-23T19:26:31Z",
-      "updated_at": "2026-10-23T19:54:06Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40011431178",
+      "id": 40026286745,
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-10-23T21:22:29Z",
+      "updated_at": "2026-10-23T21:22:46Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40026286745",
       "last_success_at": "2026-10-23T19:00:19Z"
     },
     "Suggest image metadata": {
-      "id": 40015038677,
+      "id": 40028804014,
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-10-23T19:54:07Z",
-      "updated_at": "2026-10-23T19:54:25Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40015038677",
-      "last_success_at": "2026-10-23T19:54:25Z"
+      "created_at": "2026-10-23T21:43:14Z",
+      "updated_at": "2026-10-23T21:43:28Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40028804014",
+      "last_success_at": "2026-10-23T21:43:28Z"
     }
   },
   "reworks": [
@@ -86,8 +67,8 @@
     {
       "request_id": "FSK_12_40_923261d24d56c7313af8c71e382ffb098c98eca84646320b8482f8f073f0f8ca_r1",
       "concept_id": "FSK_12_40",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "2fef581134c04413b32226ca74023f66c42be8b116c6c2f6c4f2722fd6c67475"
     },
     {
       "request_id": "FSK_13_25_d5dc1c31cd4c7381b518a6fa87e4ed932f442cbb259d8a611a8e498dd583ec84_r1",
@@ -110,8 +91,8 @@
     {
       "request_id": "FSK_13_89_9ce1bed99a03f2dc262d450f0bb625cedc47f79e06d5e2905d7471338a889d9d_r1",
       "concept_id": "FSK_13_89",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "983bfa56e592c2c00821eac6af3526d35f8bb4d2109f3e896eb7b4d28a6c679a"
     },
     {
       "request_id": "FSK_14_34_b9348d68cdd69bafbdacfcc8bb9dc76effc511da288fe0849775c41b5b74e304_r1",
@@ -152,8 +133,8 @@
     {
       "request_id": "FSK_15_68_a4fd7b3f28deeab5fe1a43ae0735739e921746dfc71ef3b436bb0f9856718c1d_r1",
       "concept_id": "FSK_15_68",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "6b493e94532e1fd20d2f9984d63c71d21b5492014ec2cda1c27d9b88a2abb14c"
     },
     {
       "request_id": "FSK_15_83_2bc033e3b1f23fab75ba5df064288e791278755de74b4390960392617ec6e7d8_r1",
@@ -164,8 +145,8 @@
     {
       "request_id": "FSK_15_95_68fa30845d327018f8a89ceab91865f73ebbcff3526ca68e2545168a229321b6_r1",
       "concept_id": "FSK_15_95",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "36c1982248c59d52079dd4206b9e4ae756457ec5f9ce3ad234a73b2f4432fcb4"
     },
     {
       "request_id": "FSK_16_07_aefdc0ca89435864a1ea0292d18df5d107a5d1cf7cceb1f2e89bbea662b38440_r1",
@@ -188,8 +169,8 @@
     {
       "request_id": "FSK_16_38_94cac977de119faeaa1ee9f86958b86e647d4f3594af3ef0b0abc6549bafb0f0_r1",
       "concept_id": "FSK_16_38",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "7091d5bb507da9c9b4c312db34f3791184f6bda201c05eec1c3eb5752854e029"
     },
     {
       "request_id": "FSK_16_46_9790d0ae9bd76e48a70887e379e4c062aa6bd018ced17753e0d750f5a0863ba7_r1",
@@ -242,8 +223,8 @@
     {
       "request_id": "FSK_17_90_400706b96d2ba6b1c75316fc59b1023c2e843a5890491909d9f01d9423b269ab_r1",
       "concept_id": "FSK_17_90",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "84f17d994dcc8fe047415e34f99c921d3cfd8e91c96bf70b7e69a6380e55209a"
     },
     {
       "request_id": "FSK_17_91_6c453f23b29e95d6dd7c68e9628a0990e55bee2a2400a3732d9c14a8450d4b1f_r1",
@@ -266,8 +247,8 @@
     {
       "request_id": "FSK_18_04_f0ad9b529394f5cdef8c23890397545fb23a0077c4e961d115231607277903ef_r1",
       "concept_id": "FSK_18_04",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "ab9180dd0dc8ff459444e1f417b4601d0b52a8064635b6d6944c6a93e46ecb40"
     },
     {
       "request_id": "FSK_18_39_c205daa6f71d428296f517433e859e0a7e5ba3b44c65c53f20ee1cf5ed00f877_r1",
@@ -302,8 +283,8 @@
     {
       "request_id": "FSK_18_65_7aabba7886b9e2f5f90258ee62511de22c32e5187ad95985ac3fb65826553de0_r1",
       "concept_id": "FSK_18_65",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "60c0fdec8584cee7466165218c8d096bc6d18ec921e492b970e561be6963f86a"
     },
     {
       "request_id": "FSK_18_73_40ccc9510c97c081ca2aba084d5be59054ada7cc14a1cd97452e9bd3032d6846_r1",
@@ -344,8 +325,8 @@
     {
       "request_id": "FSK_19_30_285e23e2de6c36628411637d308ef946cb2b8ba23c14bb24836ffc7ceccf3b37_r1",
       "concept_id": "FSK_19_30",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "7594560725c16031da451419b0a405ad580098ccfba2374d08e0746dc096e2b5"
     },
     {
       "request_id": "FSK_19_39_efc9975e5309b609b4145364c2ec16601a453dbbc42434a37e65b26c56bac3c9_r1",
@@ -356,8 +337,8 @@
     {
       "request_id": "FSK_19_42_ee89d8a1a864edb2326d52dc11338bb308f046d9cca2e6818d05c5e9cbb250ee_r1",
       "concept_id": "FSK_19_42",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "73bb3cfa4ab8eae4fc64f75028c0b0f72ecddaf1257153a946c60c58d25922e6"
     },
     {
       "request_id": "FSK_19_59_0a9fd23ea16cac3cedb2ca204c2b128bcac8cae397e8ad73692b224747fd10f3_r1",
@@ -416,8 +397,8 @@
     {
       "request_id": "FSK_20_38_92ce48d3fdc3a55fd1456cc833cd99eb4783b8971c0d03322b09ced9fa07a04d_r1",
       "concept_id": "FSK_20_38",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "2af279f280d67aaa282452716226f6bb5e841d83925960afb38e724d934118c2"
     },
     {
       "request_id": "FSK_20_40_c71cd182202718abf770aad5b4f8648059803369094fde0c3b0c5178f75ecaa2_r1",
@@ -428,8 +409,8 @@
     {
       "request_id": "FSK_20_53_1ca976df10f0cf6ffee530f68864bc8d15a1d8cdfd4c5964ef2e5a922718552a_r1",
       "concept_id": "FSK_20_53",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "1956e846aa20203423601e3d0bd264b827afe7ef793293b4ffd28b0a5de68d4f"
     },
     {
       "request_id": "FSK_20_58_045625f84d3d6021359d2144cdc56d88340e8d37d975014fad4b4f35790abd91_r1",
@@ -452,8 +433,8 @@
     {
       "request_id": "FSK_20_62_417460b6cc41303063236e5d936af2779af83f8153041634d8be58bcb40e260e_r1",
       "concept_id": "FSK_20_62",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "c3fd82c7d13498e808620f37fd39c0773665ecbaf3597cb7bf72cb902d878aa9"
     },
     {
       "request_id": "FSK_20_88_9e20f5b5f15bbf552491ee4d0f4df9ac461df065fd5f02150d48807044e4015f_r1",
@@ -488,20 +469,20 @@
     {
       "request_id": "FSK_21_25_0c54746bde8f41ef6a8eb6c59fdfc5eb87a990e2c44a70866c08664a1c465bac_r1",
       "concept_id": "FSK_21_25",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "0656b86777c6421aa8ce94148c3978d50c84bd996f1fa270724ff4cf5b1d512b"
     },
     {
       "request_id": "FSK_21_26_784c3b62ec184339691e8a16098c28eeb2b1ca76de65a4590f92a39facb6aa94_r1",
       "concept_id": "FSK_21_26",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "7946a73e6a2de186fddb22699da723a4d91317d368573e010f8e7dc10d25a37b"
     },
     {
       "request_id": "FSK_21_27_4fd0205aaebb961d9b787335d062d6b23f78f4f1b64534fb41f2bee301f834d4_r1",
       "concept_id": "FSK_21_27",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "9431f4792e4bc45b0ea797ccde45b60a23d2488fac9fa8ac6daf632cf1a1b3ec"
     },
     {
       "request_id": "FSK_21_27_fb229b1bb4cf9205bcfedd9e5220b2207e10d6cc3cb60f72c0a70d481e8a730c_r1",
@@ -518,8 +499,8 @@
     {
       "request_id": "FSK_21_31_7570f7b66d892866dfb1175eb435e43e6f3c1d5ee5cd244cec4c2574c64039a6_r1",
       "concept_id": "FSK_21_31",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "e2d74f0e0def13f7e6b8feb258c3819d8a6cd86af988c5b095f17f7718664078"
     },
     {
       "request_id": "FSK_21_32_cbf97cddc586a57f0395761be26b33053d515604c8420ac1bc2c7728f9330230_r1",
@@ -536,8 +517,8 @@
     {
       "request_id": "FSK_21_38_c9db08217c27056b642833c039ebde16ca3feff01a3fdab9abc017da068e053b_r1",
       "concept_id": "FSK_21_38",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "b75b0f1f52e3250acd21a66573af8b9f332aca1a4e6ff7ee4c8c9616405c265d"
     },
     {
       "request_id": "FSK_21_54_1c03fecb6b5d37210cc1525824060621a53c3d24ff5ae2663de5d1a99e538c1e_r1",
@@ -572,8 +553,8 @@
     {
       "request_id": "FSK_22_23_263d4cded100757faa8187558e37ea4dbf2c73f5b8e9d01cf5cb4bc6f5d4495a_r1",
       "concept_id": "FSK_22_23",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "94e5607faa03189a691a01686f85079c84a3289aa2f1dee03be71dfe0f47c084"
     },
     {
       "request_id": "FSK_22_28_14e450b58a3f59e24d87905e3b6f850d89303a5598ee681e4db496a18c8f283d_r1",
@@ -584,14 +565,14 @@
     {
       "request_id": "FSK_22_50_534a27a3635788ff441e3f57ded213b71a4b11d55f4402d00fb026dbbc2826ba_r1",
       "concept_id": "FSK_22_50",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "5a1ce556fa7b96b8d19d02ed8550c765b8b623767df120042d4c9cbaa5391540"
     },
     {
       "request_id": "FSK_22_51_cdd4ac420a006888371a71adabf71107bb83d574b08702fc17e6732f9e9f4996_r1",
       "concept_id": "FSK_22_51",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "0fa4f2a436ae61a909b1531fc1f008fb7a9e872c435c8bcfa6751a0623eda19c"
     },
     {
       "request_id": "FSK_23_12_0d22513bb641f7b114831a5af9113a03b22b4533a39b60f32f9de5923be120e9_r1",
@@ -650,14 +631,14 @@
     {
       "request_id": "FSK_25_95_20146c836e9f4041be21c038edca66b0567f76fe810b42674f108ef04e3a9b19_r1",
       "concept_id": "FSK_25_95",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "67f806584bcdd913c95816ba4558d13a8fe42003f031c9dbbcc1558a6ea9c17f"
     },
     {
       "request_id": "FSK_26_34_0472b52ff5c9cd00f1a3f0374313110c85405307697fa9e95d4a0482b34a4823_r1",
       "concept_id": "FSK_26_34",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "2da40889b8a0b70a02e6f26167e638e740b13e84d0847aa8fcae862cd51ba2af"
     },
     {
       "request_id": "FSK_26_48_cf82700c4f8c0682e27b4bb866f7ef3293b69e97b1922cba711d881fcccd2102_r1",
@@ -692,8 +673,8 @@
     {
       "request_id": "FSK_27_66_0b999c9c05b62c703aaa54c75f4e54b3698a7efe2612bd2cb7ec4f3a586a4a97_r1",
       "concept_id": "FSK_27_66",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "967fc7540ba7a3aa28b9bae03c6c09bd4fdfe8b8a0ca42306f046d6c41593350"
     },
     {
       "request_id": "FSK_27_78_85de3ee3086d397c162f6316f3e01e6e66b75015dd2216fdd22985cc0d660b2d_r1",
@@ -704,7 +685,7 @@
     {
       "request_id": "FSK_27_82_bde9c9a317b8ce1aea54a9056485a22d6a49955940517b539ee2993c03859b48_r1",
       "concept_id": "FSK_27_82",
-      "status": "queued",
+      "status": "failed",
       "replacement_sha256": null
     },
     {
@@ -746,8 +727,8 @@
     {
       "request_id": "FSK_28_73_d6e498851e45ec3823db54110eb3f6d50de3681be3f10bc94507ec87e1679335_r1",
       "concept_id": "FSK_28_73",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "511446173ec58913dbd3d478b35dfb5340740596f9ecafe4eaa979909c09fb93"
     },
     {
       "request_id": "FSK_28_94_ec324ed464085f759e18bc1c97d1b4ba9a35a7ba07e2a85649561e2092af4d39_r1",
@@ -770,7 +751,7 @@
     {
       "request_id": "FSK_29_13_3c637c610f3d3cac1882df43494c776d4f2b5f26467fcc54507134cfc8dad56c_r1",
       "concept_id": "FSK_29_13",
-      "status": "queued",
+      "status": "failed",
       "replacement_sha256": null
     },
     {
@@ -1406,8 +1387,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.498,
         "sha256": "d292a17dabcef61fd0e8d74befd9040a425cd17253be47bcfc718675d17460d9",
-        "source_commit": "c7b620228b3a6d1cf36bb0bf3620ead0cf13abc2",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c7b620228b3a6d1cf36bb0bf3620ead0cf13abc2/data/symbol-white-0.13-arm512/FSK_90_03.png"
+        "source_commit": "aa3e8998aa3faa9c4b24176cc724ffebbb81c945",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/aa3e8998aa3faa9c4b24176cc724ffebbb81c945/data/symbol-white-0.13-arm512/FSK_90_03.png"
       },
       "baseline": {
         "concept_id": "FSK_90_03",
@@ -1511,8 +1492,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.176,
         "sha256": "7b1073e64c3bfde83e96cc08c24db1e7c6dc3aef1b60f01a441632c490eeddc0",
-        "source_commit": "337b62540dd3787bad7839062b7873b39178204b",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/337b62540dd3787bad7839062b7873b39178204b/data/symbol-white-0.13-arm512/FSK_90_05.png"
+        "source_commit": "3af837c67d3d66b146d9a8f1ab46b8eb3d574c49",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/3af837c67d3d66b146d9a8f1ab46b8eb3d574c49/data/symbol-white-0.13-arm512/FSK_90_05.png"
       },
       "baseline": {
         "concept_id": "FSK_90_05",
@@ -1813,8 +1794,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 82.673,
         "sha256": "5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225",
-        "source_commit": "c7b620228b3a6d1cf36bb0bf3620ead0cf13abc2",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c7b620228b3a6d1cf36bb0bf3620ead0cf13abc2/data/symbol-white-0.13-arm512/FSK_90_08.png"
+        "source_commit": "aa3e8998aa3faa9c4b24176cc724ffebbb81c945",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/aa3e8998aa3faa9c4b24176cc724ffebbb81c945/data/symbol-white-0.13-arm512/FSK_90_08.png"
       },
       "baseline": {
         "concept_id": "FSK_90_08",
@@ -2209,8 +2190,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 80.794,
         "sha256": "4d1cc1ab63b27645aa9cc2cd17c1ce615c0d087697d68917cd4fed9123757aaa",
-        "source_commit": "c7b620228b3a6d1cf36bb0bf3620ead0cf13abc2",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c7b620228b3a6d1cf36bb0bf3620ead0cf13abc2/data/symbol-white-0.13-arm512/FSK_91_06.png"
+        "source_commit": "aa3e8998aa3faa9c4b24176cc724ffebbb81c945",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/aa3e8998aa3faa9c4b24176cc724ffebbb81c945/data/symbol-white-0.13-arm512/FSK_91_06.png"
       },
       "baseline": {
         "concept_id": "FSK_91_06",
@@ -2308,8 +2289,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.981,
         "sha256": "33526f89af3d0236227275a9d4b2672d453901cd322a982ec92ef8dde537a73e",
-        "source_commit": "337b62540dd3787bad7839062b7873b39178204b",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/337b62540dd3787bad7839062b7873b39178204b/data/symbol-white-0.13-arm512/FSK_91_20.png"
+        "source_commit": "3af837c67d3d66b146d9a8f1ab46b8eb3d574c49",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/3af837c67d3d66b146d9a8f1ab46b8eb3d574c49/data/symbol-white-0.13-arm512/FSK_91_20.png"
       },
       "baseline": {
         "concept_id": "FSK_91_20",
@@ -2506,8 +2487,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.119,
         "sha256": "b03a739a8382752750849e44d9a821b7d035042bb812524aa74cf99d57c8937e",
-        "source_commit": "337b62540dd3787bad7839062b7873b39178204b",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/337b62540dd3787bad7839062b7873b39178204b/data/symbol-white-0.13-arm512/FSK_91_32.png"
+        "source_commit": "3af837c67d3d66b146d9a8f1ab46b8eb3d574c49",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/3af837c67d3d66b146d9a8f1ab46b8eb3d574c49/data/symbol-white-0.13-arm512/FSK_91_32.png"
       },
       "baseline": {
         "concept_id": "FSK_91_32",
@@ -3300,8 +3281,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 80.231,
         "sha256": "db3054b2c904dad9296e386cec51344449e12dc4d1ddf4ccffd12dab13a4be29",
-        "source_commit": "337b62540dd3787bad7839062b7873b39178204b",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/337b62540dd3787bad7839062b7873b39178204b/data/symbol-white-0.13-arm512/FSK_92_02.png"
+        "source_commit": "3af837c67d3d66b146d9a8f1ab46b8eb3d574c49",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/3af837c67d3d66b146d9a8f1ab46b8eb3d574c49/data/symbol-white-0.13-arm512/FSK_92_02.png"
       },
       "baseline": {
         "concept_id": "FSK_92_02",
@@ -3498,8 +3479,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 81.891,
         "sha256": "ea6ce18cf2230548677798e863970bfbbb4bb5233c30a8c4c8c991180bf11cb1",
-        "source_commit": "c7b620228b3a6d1cf36bb0bf3620ead0cf13abc2",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c7b620228b3a6d1cf36bb0bf3620ead0cf13abc2/data/symbol-white-0.13-arm512/FSK_92_06.png"
+        "source_commit": "aa3e8998aa3faa9c4b24176cc724ffebbb81c945",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/aa3e8998aa3faa9c4b24176cc724ffebbb81c945/data/symbol-white-0.13-arm512/FSK_92_06.png"
       },
       "baseline": {
         "concept_id": "FSK_92_06",
