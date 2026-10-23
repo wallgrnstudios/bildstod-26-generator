@@ -448,15 +448,15 @@
     {
       "concept_id": "FSK_17_90",
       "label_sv": "näsa",
-      "fingerprint": "b88b952f0bd3578c520f2fae1a409c733d6d4f64d807278eeb46e3eba8d532c4",
+      "fingerprint": "a81090d96e577bd63c2d2dc86710aecdb7d1c1545ac20b844eaa2c863b166898",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: Side-angled close-up of a preschool child's face cropped to the nose with both nostrils visible, calm expression. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 782399101,
+      "seed": 2098751410,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T22:18:25.004467+00:00",
+      "created_at": "2026-10-23T21:27:31.282048+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -482,14 +482,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_17_90_400706b96d2ba6b1c75316fc59b1023c2e843a5890491909d9f01d9423b269ab_r1",
+      "regeneration_source_sha256": "400706b96d2ba6b1c75316fc59b1023c2e843a5890491909d9f01d9423b269ab",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.252,
+      "render_seconds": 79.603,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.322,
-      "sha256": "400706b96d2ba6b1c75316fc59b1023c2e843a5890491909d9f01d9423b269ab"
+      "elapsed_seconds": 79.673,
+      "sha256": "84f17d994dcc8fe047415e34f99c921d3cfd8e91c96bf70b7e69a6380e55209a"
     },
     {
       "concept_id": "FSK_18_06",
