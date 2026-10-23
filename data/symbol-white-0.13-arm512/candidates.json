@@ -989,15 +989,15 @@
     {
       "concept_id": "FSK_18_56",
       "label_sv": "vrida",
-      "fingerprint": "b2495a87b86456d27e3ee100ef39f106e76818e1f56560c31f36caa4c4cee185",
+      "fingerprint": "99b2c61e1dbb1688f3978358fbc681436ec1afccf93a0896ffdd0b8f11917bad",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close view of one preschool child’s hand turning a round door knob, wrist twisted and fingers wrapped around the knob. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 854701279,
+      "seed": 233452825,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:23:11.377383+00:00",
+      "created_at": "2026-10-23T19:38:13.360679+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1021,14 +1021,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_18_56_e61e97d9a1ae870f25eb4c35424988541e36fa40b0ac1dd469c7de02969c27b3_r1",
+      "regeneration_source_sha256": "e61e97d9a1ae870f25eb4c35424988541e36fa40b0ac1dd469c7de02969c27b3",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 81.18,
+      "render_seconds": 79.786,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.233,
-      "sha256": "e61e97d9a1ae870f25eb4c35424988541e36fa40b0ac1dd469c7de02969c27b3"
+      "elapsed_seconds": 79.821,
+      "sha256": "bb9e521b2596cc1eba7a4270f6e988faf91f7e42b84fd65cba3a8239afe0d508"
     },
     {
       "concept_id": "FSK_18_70",
