@@ -2497,15 +2497,15 @@
     {
       "concept_id": "FSK_29_84",
       "label_sv": "kika",
-      "fingerprint": "ea8979840058dc689c1ff6d72e282f5099561971546ac2df9aec02d7a5258633",
+      "fingerprint": "410b1080997a9f59cdcf11852ed8db196d3465a28d524a717bbf6cee8f80c6c7",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child standing behind a door frame, only half of the face and one eye visible peeking around the edge of the frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 454215179,
+      "seed": 2008250404,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:34:48.368578+00:00",
+      "created_at": "2026-10-23T19:45:57.874896+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2531,14 +2531,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_29_84_bc5bbbb59b8885c6ab1a025ca78eae14c56f2decd1fa61d595cf445878bb7348_r1",
+      "regeneration_source_sha256": "bc5bbbb59b8885c6ab1a025ca78eae14c56f2decd1fa61d595cf445878bb7348",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 81.733,
+      "render_seconds": 78.749,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.785,
-      "sha256": "bc5bbbb59b8885c6ab1a025ca78eae14c56f2decd1fa61d595cf445878bb7348"
+      "elapsed_seconds": 78.79,
+      "sha256": "3628f86707b52cd3a4cfb6f756f1f0d5c315846592b247e2d3180cc3f2a6f2c2"
     },
     {
       "concept_id": "FSK_29_87",
