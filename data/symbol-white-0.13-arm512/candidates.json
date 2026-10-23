@@ -3190,15 +3190,15 @@
     {
       "concept_id": "FSK_31_57",
       "label_sv": "gymnastik",
-      "fingerprint": "5911f8d0989515a629d6c669c2b6a4b2ac9017fc2163fcea48eb133caf1b9e5f",
+      "fingerprint": "66639ff72ae17d750ef50546d71e8183e39daa5a4618973a97369b1fd9e3dbdf",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child doing a forward roll on a thick gym mat in side view, tucked chin and rounded back with hands on the mat. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 86109645,
+      "seed": 2033572460,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T22:49:28.153165+00:00",
+      "created_at": "2026-10-23T21:49:06.544755+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -3222,14 +3222,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_31_57_1cb553c69fe5a5af3bed6eb81eb38bef0e2c295c3e7ef28a3141a26c13e77450_r1",
+      "regeneration_source_sha256": "1cb553c69fe5a5af3bed6eb81eb38bef0e2c295c3e7ef28a3141a26c13e77450",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.851,
+      "render_seconds": 79.333,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.873,
-      "sha256": "1cb553c69fe5a5af3bed6eb81eb38bef0e2c295c3e7ef28a3141a26c13e77450"
+      "elapsed_seconds": 79.358,
+      "sha256": "8a12fd28a7da99546b19d41882bc34beff8eccf610f7ee5c1d56e3673775dd0e"
     },
     {
       "concept_id": "FSK_31_70",
