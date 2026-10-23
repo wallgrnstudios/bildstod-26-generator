@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "records": {
+    "FSK_10_12": {
+      "source_id": "FSK_10_12",
+      "term_sv": "var",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:09:26.106231+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_12\", \"term_sv\": \"var\", \"kind\": \"open_question\", \"meaning_sv\": \"Ordet är tvetydigt: frågeordet \\\\\"var\\\\\" (plats) eller verbformen \\\\\"var\\\\\" (var igår); gäller även \\\\\"vart\\\\\".\", \"question_or_proposal_sv\": \"Vilken betydelse ska \\\\\"var\\\\\" ha i kommunikation?\", \"options_sv\": [\"Var = på vilken plats (frågeord)\", \"Var = förflutet av vara\", \"Båda med separata poster\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_10_26": {
+      "source_id": "FSK_10_26",
+      "term_sv": "vara med",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:12:26.112909+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_26\", \"term_sv\": \"vara med\", \"kind\": \"open_question\", \"meaning_sv\": \"Vara med: delta i en lek eller aktivitet. Idiom där \\\\\"med\\\\\" saknar egen bild.\", \"question_or_proposal_sv\": \"Hur visas att vara med: ett barn som närmar sig en grupp som leker, eller ett barn som tas emot i en cirkel?\", \"options_sv\": [\"Barn bredvid en grupp som leker med en lucka\", \"Cirkel av barn där ett barn kommer in\", \"Utelämna, text räcker\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_10_34": {
+      "source_id": "FSK_10_34",
+      "term_sv": "få",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:15:26.117936+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_34\", \"term_sv\": \"få\", \"kind\": \"open_question\", \"meaning_sv\": \"Få: kan betyda få/ta emot något, få lov (tillåtelse) eller få = några. Mycket flertydigt.\", \"question_or_proposal_sv\": \"Vilken betydelse avses i socialt samspel: få något (ta emot) eller få lov?\", \"options_sv\": [\"Få = ta emot: barn som tar emot en leksak\", \"Få lov: tillåtelse-konvention\", \"Båda, i varsin symbol\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_10_54": {
+      "source_id": "FSK_10_54",
+      "term_sv": "får jag vara med",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:18:26.124879+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_54\", \"term_sv\": \"får jag vara med\", \"kind\": \"open_question\", \"meaning_sv\": \"Får jag vara med: fråga för att få delta i en lek.\", \"question_or_proposal_sv\": \"Samma som \\\\\"vara med\\\\\", fast som fråga: finns en gemensam konvention med frågetecken-markör?\", \"options_sv\": [\"Barn med frågande handgest vid en lekgrupp\", \"Komposition: få + vara med\", \"Sammanslås med vara med\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_10_59": {
+      "source_id": "FSK_10_59",
+      "term_sv": "ut och in",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:21:26.129218+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_59\", \"term_sv\": \"ut och in\", \"kind\": \"open_question\", \"meaning_sv\": \"\\\\\"Ut och in\\\\\" är tvetydigt: kläder med insidan vänd ut och in, eller att gå ut och in genom dörren.\", \"question_or_proposal_sv\": \"Vilken betydelse avses i påklädningssammanhang?\", \"options_sv\": [\"Plagg med insidan utåt (fel vänt)\", \"Gå ut och in genom dörren\", \"Båda behövs som två separata kort\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_10_81": {
+      "source_id": "FSK_10_81",
+      "term_sv": "barn",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:24:26.135028+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_81\", \"term_sv\": \"barn\", \"kind\": \"open_question\", \"meaning_sv\": \"Barn i familjekategorin: antingen en ung människa (ålder) eller någons barn (släktskap). Båda läsningar är rimliga.\", \"question_or_proposal_sv\": \"Ska barn visas som en ung människa eller som släktskapet \\\\\"barn till\\\\\"?\", \"options_sv\": [\"Barn = ung människa (bild på ett barn)\", \"Barn = släktskap (släktträd)\", \"Båda med olika bilder\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_10_95": {
+      "source_id": "FSK_10_95",
+      "term_sv": "upp och ner",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:27:26.138838+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_95\", \"term_sv\": \"upp och ner\", \"kind\": \"open_question\", \"meaning_sv\": \"Upp och ner: antingen uppochnedvänd, eller rörelse upp och sedan ner.\", \"question_or_proposal_sv\": \"Vilken betydelse avses?\", \"options_sv\": [\"Uppochnedvänd\", \"Upp och ner som rörelse\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_11_19": {
+      "source_id": "FSK_11_19",
+      "term_sv": "det blev fel",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:30:26.142810+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_11_19\", \"term_sv\": \"det blev fel\", \"kind\": \"open_question\", \"meaning_sv\": \"Det blev fel: något gick snett (misstag/missöde). Innehållet \\\\\"fel\\\\\" är abstrakt och bör inte ge skuldkänsla.\", \"question_or_proposal_sv\": \"Hur kan \\\\\"det blev fel\\\\\" visas utan att peka ut skuld eller visa en specifik olycka?\", \"options_sv\": [\"Neutral symbol (kryss/stopp) vid föremål\", \"Två föremål där ett ligger fel\", \"Inte bildsätta, bara text\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_11_26": {
+      "source_id": "FSK_11_26",
+      "term_sv": "hålla om",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:33:26.146870+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_11_26\", \"term_sv\": \"hålla om\", \"kind\": \"open_question\", \"meaning_sv\": \"Hålla om: att krama eller hålla armarna om någon. Kroppskontakt.\", \"question_or_proposal_sv\": \"Är en kram lämplig som bild i skolmaterialet? Alternativ: abstrakt hjärtsymbol eller två barn sida vid sida.\", \"options_sv\": [\"Två barn som kramas\", \"Utelämna för att undvika kroppskontakt\", \"Hjärta mellan två barn\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_11_40": {
+      "source_id": "FSK_11_40",
+      "term_sv": "åka",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:36:26.151918+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_11_40\", \"term_sv\": \"åka\", \"kind\": \"open_question\", \"meaning_sv\": \"Åka är tvetydigt: åka som passagerare, åka rutschkana, åka skidor m.m. Rörelsen kan inte avgöras utan val.\", \"question_or_proposal_sv\": \"Vilken betydelse av \\\\\"åka\\\\\" ska bilden ha i kategorin rörelse?\", \"options_sv\": [\"Åka som passagerare i bil/buss\", \"Åka rutschkana\", \"Åka skidor/skridskor\", \"Allmän symbol för att färdas med fordon\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_11_42": {
+      "source_id": "FSK_11_42",
+      "term_sv": "slut",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:39:26.155544+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_11_42\", \"term_sv\": \"slut\", \"kind\": \"open_question\", \"meaning_sv\": \"Slut i behovskategorin: antingen att något är slut (tomt/ingen mer) eller att något är avslutat. Kan inte avgöras utan beslut.\", \"question_or_proposal_sv\": \"Ska \\\\\"slut\\\\\" betyda \\\\\"tomt/finns inte mer\\\\\" eller \\\\\"avslutat/färdigt\\\\\"?\", \"options_sv\": [\"Slut = tomt (t.ex. tom skål, inget mer kvar)\", \"Slut = avslutat (aktiviteten är över)\", \"Behåll båda med olika ord (tomt / färdig)\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    },
+    "FSK_11_55": {
+      "source_id": "FSK_11_55",
+      "term_sv": "ta emot",
+      "source_resolution": "open_question",
+      "status": "model_error",
+      "created_at": "2026-10-23T06:42:26.159863+00:00",
+      "model": "qwen3:4b",
+      "suggestion": null,
+      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_11_55\", \"term_sv\": \"ta emot\", \"kind\": \"open_question\", \"meaning_sv\": \"Ta emot: att ta emot något någon ger. Inte \\\\\"ta\\\\\" (själv ta).\", \"question_or_proposal_sv\": \"Hur skiljs ta emot från ta? Mottagarens öppna händer mot ge?\", \"options_sv\": [\"Mottagarens händer som tar emot ett föremål\", \"Komposition: ge + ta\", \"Sammanslås med få\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+    }
+  }
+}
