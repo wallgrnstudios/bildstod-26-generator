@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_16_90",
   "label_sv": "öron",
-  "fingerprint": "7a44b0589d3d22a53140a90276d5eb52328f486c4dcb2ccdd065b2631c219051",
+  "fingerprint": "6b0f1d44be4be052e466f24964e07cb78485671798a79a05e8c09f207ea9d626",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: Back view of a preschool child's head with short hair, showing both ears clearly on the sides, cropped at the neck. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1904132705,
+  "seed": 1482679905,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:28:38.845337+00:00",
+  "created_at": "2026-10-23T19:33:09.519422+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -35,12 +35,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.89,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.93,
-  "sha256": "63843987f96040adc461cecf776b103709a50e90be79ce6f96028fac67af0cbe"
+  "regeneration_request_id": "FSK_16_90_63843987f96040adc461cecf776b103709a50e90be79ce6f96028fac67af0cbe_r1",
+  "regeneration_source_sha256": "63843987f96040adc461cecf776b103709a50e90be79ce6f96028fac67af0cbe",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
