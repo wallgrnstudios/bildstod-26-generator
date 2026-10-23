@@ -1447,15 +1447,15 @@
     {
       "concept_id": "FSK_21_27",
       "label_sv": "tejp",
-      "fingerprint": "ec32f868afbfdd8fb235ab5184fb1b218c9e1a29619346cdabc5906d97ea80b1",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One realistic roll of transparent sticky tape viewed at a slight angle, circular white cardboard core clearly visible through center, translucent layered tape around it, short clear tape end peeling off tangentially. No extra rings. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 192932901,
+      "fingerprint": "51a0642389321f69cef1a57cb7169030e2885a09b2e27ee0c49fb5260ed9af4f",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One realistic roll of transparent sticky tape viewed at a slight angle, circular white cardboard core clearly visible through center, translucent layered tape around it, short clear tape end peeling off tangentially. No extra rings. Required editor correction: Gör tejpen mer realistiskt Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 299316069,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T06:57:02.253583+00:00",
+      "created_at": "2026-10-23T21:35:39.612134+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1477,14 +1477,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_21_27_4fd0205aaebb961d9b787335d062d6b23f78f4f1b64534fb41f2bee301f834d4_r1",
+      "regeneration_source_sha256": "4fd0205aaebb961d9b787335d062d6b23f78f4f1b64534fb41f2bee301f834d4",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.625,
+      "render_seconds": 79.241,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.667,
-      "sha256": "4fd0205aaebb961d9b787335d062d6b23f78f4f1b64534fb41f2bee301f834d4"
+      "elapsed_seconds": 79.306,
+      "sha256": "9431f4792e4bc45b0ea797ccde45b60a23d2488fac9fa8ac6daf632cf1a1b3ec"
     },
     {
       "concept_id": "FSK_21_35",
