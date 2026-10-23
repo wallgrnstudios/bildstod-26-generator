@@ -2,6 +2,7 @@ import copy
 import json
 import tempfile
 import unittest
+from urllib.error import HTTPError
 from pathlib import Path
 from unittest.mock import patch
 from PIL import Image
@@ -75,6 +76,14 @@ class AutomationTests(unittest.TestCase):
         with patch('bildstod.rework.read_url',return_value=json.dumps({'documents':[doc]}).encode()):self.assertEqual(fetch_queue(),[self.request])
         f['note']={'stringValue':'private'}
         with patch('bildstod.rework.read_url',return_value=json.dumps({'documents':[doc]}).encode()),self.assertRaises(ValueError):fetch_queue()
+
+    def test_rate_limited_public_queue_defers_reworks_without_stopping_generation(self):
+        warning=[]
+        error=HTTPError('https://example.test/queue',429,'Quota exceeded',None,None)
+        with patch('bildstod.rework.read_url',side_effect=error),patch('bildstod.rework.time.sleep') as sleep:
+            self.assertEqual(fetch_queue(warning),[])
+        sleep.assert_called_once_with(2)
+        self.assertEqual(len(warning),1)
 
     def test_empty_queue_is_healthy_and_fixed_sample_ids_remain(self):
         receipt={'concept_id':self.id,'fingerprint':identity(self.entry,self.config),'status':'pending_review'}

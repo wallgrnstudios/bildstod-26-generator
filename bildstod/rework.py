@@ -3,7 +3,9 @@ import argparse
 import copy
 import json
 import re
+import time
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import urlencode
 from .metadata import read_url
 from .generation import load_briefs, load_config, ROOT
@@ -12,7 +14,7 @@ PUBLIC_QUEUE='https://firestore.googleapis.com/v1/projects/wallgrnstudios-e8cb1/
 FIELDS={'concept_id','source_sha256','prompt_en','createdAt','public_approved','schema_version','revision'}
 
 
-def fetch_queue():
+def _fetch_queue():
     rows=[]
     token=None
     while True:
@@ -31,6 +33,26 @@ def fetch_queue():
         token=page.get('nextPageToken')
         if not token: return rows
         if len(rows)>5000: raise ValueError('Render request safety limit exceeded')
+
+
+def fetch_queue(warnings=None):
+    """Read public rework briefs without allowing a rate limit to stop normal generation.
+
+    A missed read only defers explicit reworks. It must never prevent unrelated
+    pending concepts from reaching the worker batch.
+    """
+    for attempt in range(2):
+        try:
+            return _fetch_queue()
+        except HTTPError as error:
+            if error.code != 429:
+                raise
+            if attempt == 0:
+                time.sleep(2)
+                continue
+            if warnings is not None:
+                warnings.append('Omgenereringskön kunde inte läsas på grund av tillfällig kvotgräns; vanliga bildkandidater fortsätter utan köändringar.')
+            return []
 
 
 def apply_requests(entries, requests, output):
@@ -57,7 +79,10 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('command',choices=['fetch','apply']);p.add_argument('--queue',type=Path,required=True);p.add_argument('--output',type=Path);p.add_argument('--catalog',type=Path)
     a=p.parse_args()
     if a.command=='fetch':
-        a.queue.parent.mkdir(parents=True,exist_ok=True);a.queue.write_text(json.dumps(fetch_queue(),ensure_ascii=False));return
+        warnings=[];requests=fetch_queue(warnings)
+        a.queue.parent.mkdir(parents=True,exist_ok=True);a.queue.write_text(json.dumps(requests,ensure_ascii=False))
+        for warning in warnings: print('WARNING: '+warning)
+        return
     config=load_config(ROOT/'config/generation.json')
     entries=apply_requests(load_briefs(ROOT/config['catalog_path']),json.loads(a.queue.read_text()),a.output/config['style_version'])
     a.catalog.write_text(json.dumps(entries,ensure_ascii=False,indent=2))

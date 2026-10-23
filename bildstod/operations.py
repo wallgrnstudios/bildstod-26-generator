@@ -22,7 +22,8 @@ def summarize(entries,candidates,receipts,config):
 
 def main():
     config=load_config(ROOT/'config/generation.json');entries=load_briefs(ROOT/config['catalog_path'])
-    candidates=load_candidates();images={c['concept_id']:c for c in candidates};requests=fetch_queue()
+    warnings=[]
+    candidates=load_candidates();images={c['concept_id']:c for c in candidates};requests=fetch_queue(warnings)
     # Read only missing concepts and approved reworks, rather than every image receipt.
     ids={e['id'] for e in entries if e.get('generation_enabled',True) and e['id'] not in images}|{r['concept_id'] for r in requests}
     if len(ids)>200:raise ValueError('Too many missing receipts; inspect worker branches before reporting health')
@@ -61,7 +62,7 @@ def main():
     for spec in specs['specimens']:
         c=images.get(spec['id']);b=old.get(spec['id'])
         quality.append({**spec,'current':c,'baseline':b,'changed':bool(c and b and c['sha256']!=b['sha256'])})
-    report={'schema_version':1,'checked_at':datetime.now(timezone.utc).isoformat(),'coverage':coverage,'workflows':workflows,'reworks':reworks,'metadata':{'attempted':len(records),'suggested':sum(r.get('status')=='suggested' for r in records),'failed':sum(r.get('status')=='failed' for r in records),'limit':30},'quality':quality}
+    report={'schema_version':1,'checked_at':datetime.now(timezone.utc).isoformat(),'coverage':coverage,'workflows':workflows,'reworks':reworks,'warnings':warnings,'metadata':{'attempted':len(records),'suggested':sum(r.get('status')=='suggested' for r in records),'failed':sum(r.get('status')=='failed' for r in records),'limit':30},'quality':quality}
     Path('.operations').mkdir(exist_ok=True)
     Path('.operations/status.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'coverage':coverage,'reworks':len(reworks),'quality_specimens':len(quality)},ensure_ascii=False))
