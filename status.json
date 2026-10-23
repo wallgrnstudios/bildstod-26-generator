@@ -1,23 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T21:43:45.440902+00:00",
+  "checked_at": "2026-10-23T21:56:17.077612+00:00",
   "coverage": {
     "enabled": 804,
     "with_image": 804,
-    "pending": [
-      "FSK_90_08",
-      "FSK_31_81",
-      "FSK_31_99",
-      "FSK_32_63",
-      "FSK_31_80",
-      "FSK_32_48",
-      "FSK_30_01",
-      "FSK_30_21",
-      "FSK_28_66",
-      "FSK_31_03",
-      "FSK_31_57",
-      "FSK_31_71"
-    ],
+    "pending": [],
     "failed": [
       {
         "id": "FSK_92_05",
@@ -26,35 +13,27 @@
       {
         "id": "FSK_20_02",
         "error_type": "PromptBudgetExceeded"
-      },
-      {
-        "id": "FSK_29_13",
-        "error_type": "InterruptedGeneration"
-      },
-      {
-        "id": "FSK_27_82",
-        "error_type": "InterruptedGeneration"
       }
     ]
   },
   "workflows": {
     "Generate pilot candidates": {
       "id": 40026286745,
-      "status": "in_progress",
-      "conclusion": null,
-      "created_at": "2026-10-23T21:22:29Z",
-      "updated_at": "2026-10-23T21:22:46Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40026286745",
-      "last_success_at": "2026-10-23T19:00:19Z"
-    },
-    "Suggest image metadata": {
-      "id": 40028804014,
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-10-23T21:43:14Z",
-      "updated_at": "2026-10-23T21:43:28Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40028804014",
-      "last_success_at": "2026-10-23T21:43:28Z"
+      "created_at": "2026-10-23T21:22:29Z",
+      "updated_at": "2026-10-23T21:55:56Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40026286745",
+      "last_success_at": "2026-10-23T21:55:56Z"
+    },
+    "Suggest image metadata": {
+      "id": 40030245530,
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-23T21:55:58Z",
+      "updated_at": "2026-10-23T21:56:12Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40030245530",
+      "last_success_at": "2026-10-23T21:56:12Z"
     }
   },
   "reworks": [
@@ -685,8 +664,8 @@
     {
       "request_id": "FSK_27_82_bde9c9a317b8ce1aea54a9056485a22d6a49955940517b539ee2993c03859b48_r1",
       "concept_id": "FSK_27_82",
-      "status": "failed",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "07bc4ce9894757523cb17fe19efb2a37574c4a7050818b0baec24f23d06180ee"
     },
     {
       "request_id": "FSK_27_91_b387bc98074ea05ae0f61545b3e4779a330ab4f4f3e5023c2784d806f6d15552_r1",
@@ -721,8 +700,8 @@
     {
       "request_id": "FSK_28_66_684fd3aaf58a24075310b26581bc41035ced8c263771dafd7d0277528b896572_r1",
       "concept_id": "FSK_28_66",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "f86f5e115a830f236b4da212ba4303f1cf5e1f0ac2bbc402275d7f051112b360"
     },
     {
       "request_id": "FSK_28_73_d6e498851e45ec3823db54110eb3f6d50de3681be3f10bc94507ec87e1679335_r1",
@@ -751,8 +730,8 @@
     {
       "request_id": "FSK_29_13_3c637c610f3d3cac1882df43494c776d4f2b5f26467fcc54507134cfc8dad56c_r1",
       "concept_id": "FSK_29_13",
-      "status": "failed",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "4b04fe7f067a6a6a3894c6877793ba4c486a446d8f3fd561a1e15a5518bf4873"
     },
     {
       "request_id": "FSK_29_19_28e21d76fa43ec9430ff7784aa11ca33e6dd64cfd2dd16253660466e247425ac_r1",
@@ -805,14 +784,14 @@
     {
       "request_id": "FSK_30_01_39d167d70b78a8136ea15536b2f80adca002a64bb3f4ea6614b487a26032f6ad_r1",
       "concept_id": "FSK_30_01",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "78fb59f4b55c81beadbb41b512dc8cc03adad2e2c104a46b9653e348a0be43aa"
     },
     {
       "request_id": "FSK_30_21_c30178a9b99000104827ae5123348baa0c2d8435842ba07a34b15768c13e854d_r1",
       "concept_id": "FSK_30_21",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "e9164376cd622535eb1dac55f3109f5bd824e58040ade292878c28541b3d7f01"
     },
     {
       "request_id": "FSK_30_33_f1286c892a2370741126765ec989f574096cafc246d03463e9a6512b3faf1324_r1",
@@ -853,8 +832,8 @@
     {
       "request_id": "FSK_31_03_814c66bf8050c7e8b173b1ef9efce88fd91604a35ad4e1353a069681ab172147_r1",
       "concept_id": "FSK_31_03",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "bde6e3dfce79166565cc66eac799946345ef2f094f5b55e55321b7feb68092f9"
     },
     {
       "request_id": "FSK_31_15_317073ce57103e73e16eca7804a0d6e34d5fd822aa8613898d62720d83f4a794_r1",
@@ -889,8 +868,8 @@
     {
       "request_id": "FSK_31_57_1cb553c69fe5a5af3bed6eb81eb38bef0e2c295c3e7ef28a3141a26c13e77450_r1",
       "concept_id": "FSK_31_57",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "8a12fd28a7da99546b19d41882bc34beff8eccf610f7ee5c1d56e3673775dd0e"
     },
     {
       "request_id": "FSK_31_64_1e932a2f7bd0446365da8ab0c84dc2aacb3c302237c5470d712b4dfeb95c5c7f_r1",
@@ -901,8 +880,8 @@
     {
       "request_id": "FSK_31_71_62b2c53698489418ecc38228f475c8577534f1239b7674f5f5d5a03e149836aa_r1",
       "concept_id": "FSK_31_71",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "5514c34a99a5bfc362305d94e713b43bd88a0a59c3bde606cce661c335162dae"
     },
     {
       "request_id": "FSK_31_77_1b6a9d7797e60e8ec6c1d09b01ffd0f32ae860b78f5f3046258abe9f46311754_r1",
@@ -919,14 +898,14 @@
     {
       "request_id": "FSK_31_80_afa04de8d712ccc4b158052b0ef45fd9905ebc6fcb8258610171e1538429556e_r1",
       "concept_id": "FSK_31_80",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "18fbdf7cbfc60897efc78d242626a75bb478ae11680ae1433bb215b7c4f24753"
     },
     {
       "request_id": "FSK_31_81_d34fbcbfbf4e6a671cad1e14d341e2c2a78442f9c384ed864b2137cde7820e52_r1",
       "concept_id": "FSK_31_81",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "d6c1350fd59c03f52c7bd2fa24457558a0312b7cfdfe4dd9017f3ccf4737da0c"
     },
     {
       "request_id": "FSK_31_88_3cd839d7666cf773d9f2dc9ccedaa47c875a430d33d06bbfb66734a4bbf3e4a5_r1",
@@ -943,8 +922,8 @@
     {
       "request_id": "FSK_31_99_51260d15ef70185bb636fcebc20da10e495e47d5cbf99895d3867dd9d8f88375_r1",
       "concept_id": "FSK_31_99",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "88c91e4e242b18213a6f905ce8f7d8b8f4b620c12d9c247cfed04d1606dfe25b"
     },
     {
       "request_id": "FSK_32_06_a5cbaf10e618efecbefed01130e314923b4a96312c611032f7dbdeec5cca7856_r1",
@@ -979,14 +958,14 @@
     {
       "request_id": "FSK_32_48_175ddead4b51a55ef2da884857ddd91dc4092732764c87aa2558b9943237d4fc_r1",
       "concept_id": "FSK_32_48",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "73a7fad98ee586ad2afe9d2737695a0dfd02b5ec694e149f7cbc947cd7a22a00"
     },
     {
       "request_id": "FSK_32_63_a0b686bdb64f9c12a47b50920f995fedc8a9f03ebaf8c61fd97cacfc6ad3176f_r1",
       "concept_id": "FSK_32_63",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "35be4277020f5bc5dc05a13ca2f650be592207273d8787e2d06b21a1010aa3cc"
     },
     {
       "request_id": "FSK_32_65_23937552a1071057bf42d72f333126a711c1616b26191857f70f10189b136844_r1",
@@ -1009,8 +988,8 @@
     {
       "request_id": "FSK_90_08_5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225_r1",
       "concept_id": "FSK_90_08",
-      "status": "queued",
-      "replacement_sha256": null
+      "status": "completed",
+      "replacement_sha256": "9bb98f3fa822d0a00a38ac407b1a9feac569febfd4d01b4508cdc2117e16834c"
     },
     {
       "request_id": "FSK_90_08_94093a63b8da5d7d48b3f7b5127a13bb0863fb3427c3b684e96ff3776165abd9_r1",
@@ -1387,8 +1366,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.498,
         "sha256": "d292a17dabcef61fd0e8d74befd9040a425cd17253be47bcfc718675d17460d9",
-        "source_commit": "aa3e8998aa3faa9c4b24176cc724ffebbb81c945",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/aa3e8998aa3faa9c4b24176cc724ffebbb81c945/data/symbol-white-0.13-arm512/FSK_90_03.png"
+        "source_commit": "453583c7f9f98446d7cc58ba74e9366d954a5d1f",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/453583c7f9f98446d7cc58ba74e9366d954a5d1f/data/symbol-white-0.13-arm512/FSK_90_03.png"
       },
       "baseline": {
         "concept_id": "FSK_90_03",
@@ -1492,8 +1471,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.176,
         "sha256": "7b1073e64c3bfde83e96cc08c24db1e7c6dc3aef1b60f01a441632c490eeddc0",
-        "source_commit": "3af837c67d3d66b146d9a8f1ab46b8eb3d574c49",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/3af837c67d3d66b146d9a8f1ab46b8eb3d574c49/data/symbol-white-0.13-arm512/FSK_90_05.png"
+        "source_commit": "d053149ba580f35f1774576ab3823b988822982e",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d053149ba580f35f1774576ab3823b988822982e/data/symbol-white-0.13-arm512/FSK_90_05.png"
       },
       "baseline": {
         "concept_id": "FSK_90_05",
@@ -1756,15 +1735,15 @@
       "current": {
         "concept_id": "FSK_90_08",
         "label_sv": "lyssna",
-        "fingerprint": "fcccec5cf482432562d1bec01a0a2340ff8b4b5065baa6842c138eb01df0cd83",
-        "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child listening attentively, head slightly turned toward a sound, one open hand held BEHIND the visible ear without touching or covering it. Relaxed shoulders, attentive face, upper body view. Both ear opening and listening gesture clearly visible. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-        "seed": 1594788900,
+        "fingerprint": "bbfa852ecec348cf515aad99f3e5f1aef342881d82e1b823a85335a682d5c978",
+        "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child listening attentively, head slightly turned toward a sound, one open hand held BEHIND the visible ear without touching or covering it. Relaxed shoulders, attentive face, upper body view. Both ear opening and listening gesture clearly visible. Required editor correction: Ser ut som att personen håller för öronen när bilden ska symbolisera att lyssna. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+        "seed": 380450748,
         "negative_prompt": "",
         "model": "black-forest-labs/FLUX.2-klein-4B",
         "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
         "style_version": "symbol-white-0.13-arm512",
         "background_model": "white",
-        "created_at": "2026-10-21T07:02:30.607209+00:00",
+        "created_at": "2026-10-23T21:47:40.251265+00:00",
         "license": null,
         "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
         "style_approved": false,
@@ -1786,16 +1765,18 @@
         "steps": 4,
         "guidance_scale": 1.0,
         "cpu_dtype": "bfloat16",
+        "regeneration_request_id": "FSK_90_08_5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225_r1",
+        "regeneration_source_sha256": "5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225",
         "status": "pending_review",
         "transparency": {
           "background": "white"
         },
-        "render_seconds": 82.629,
+        "render_seconds": 80.064,
         "background_seconds": 0.0,
-        "elapsed_seconds": 82.673,
-        "sha256": "5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225",
-        "source_commit": "aa3e8998aa3faa9c4b24176cc724ffebbb81c945",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/aa3e8998aa3faa9c4b24176cc724ffebbb81c945/data/symbol-white-0.13-arm512/FSK_90_08.png"
+        "elapsed_seconds": 80.102,
+        "sha256": "9bb98f3fa822d0a00a38ac407b1a9feac569febfd4d01b4508cdc2117e16834c",
+        "source_commit": "453583c7f9f98446d7cc58ba74e9366d954a5d1f",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/453583c7f9f98446d7cc58ba74e9366d954a5d1f/data/symbol-white-0.13-arm512/FSK_90_08.png"
       },
       "baseline": {
         "concept_id": "FSK_90_08",
@@ -1841,7 +1822,7 @@
         "source_commit": "d3f4676bbcdb6e67ac6ed4ee74653e304dc0a7a4",
         "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d3f4676bbcdb6e67ac6ed4ee74653e304dc0a7a4/data/symbol-white-0.13-arm512/FSK_90_08.png"
       },
-      "changed": false
+      "changed": true
     },
     {
       "id": "FSK_90_09",
@@ -2190,8 +2171,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 80.794,
         "sha256": "4d1cc1ab63b27645aa9cc2cd17c1ce615c0d087697d68917cd4fed9123757aaa",
-        "source_commit": "aa3e8998aa3faa9c4b24176cc724ffebbb81c945",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/aa3e8998aa3faa9c4b24176cc724ffebbb81c945/data/symbol-white-0.13-arm512/FSK_91_06.png"
+        "source_commit": "453583c7f9f98446d7cc58ba74e9366d954a5d1f",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/453583c7f9f98446d7cc58ba74e9366d954a5d1f/data/symbol-white-0.13-arm512/FSK_91_06.png"
       },
       "baseline": {
         "concept_id": "FSK_91_06",
@@ -2289,8 +2270,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.981,
         "sha256": "33526f89af3d0236227275a9d4b2672d453901cd322a982ec92ef8dde537a73e",
-        "source_commit": "3af837c67d3d66b146d9a8f1ab46b8eb3d574c49",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/3af837c67d3d66b146d9a8f1ab46b8eb3d574c49/data/symbol-white-0.13-arm512/FSK_91_20.png"
+        "source_commit": "d053149ba580f35f1774576ab3823b988822982e",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d053149ba580f35f1774576ab3823b988822982e/data/symbol-white-0.13-arm512/FSK_91_20.png"
       },
       "baseline": {
         "concept_id": "FSK_91_20",
@@ -2487,8 +2468,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.119,
         "sha256": "b03a739a8382752750849e44d9a821b7d035042bb812524aa74cf99d57c8937e",
-        "source_commit": "3af837c67d3d66b146d9a8f1ab46b8eb3d574c49",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/3af837c67d3d66b146d9a8f1ab46b8eb3d574c49/data/symbol-white-0.13-arm512/FSK_91_32.png"
+        "source_commit": "d053149ba580f35f1774576ab3823b988822982e",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d053149ba580f35f1774576ab3823b988822982e/data/symbol-white-0.13-arm512/FSK_91_32.png"
       },
       "baseline": {
         "concept_id": "FSK_91_32",
@@ -3281,8 +3262,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 80.231,
         "sha256": "db3054b2c904dad9296e386cec51344449e12dc4d1ddf4ccffd12dab13a4be29",
-        "source_commit": "3af837c67d3d66b146d9a8f1ab46b8eb3d574c49",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/3af837c67d3d66b146d9a8f1ab46b8eb3d574c49/data/symbol-white-0.13-arm512/FSK_92_02.png"
+        "source_commit": "d053149ba580f35f1774576ab3823b988822982e",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d053149ba580f35f1774576ab3823b988822982e/data/symbol-white-0.13-arm512/FSK_92_02.png"
       },
       "baseline": {
         "concept_id": "FSK_92_02",
@@ -3479,8 +3460,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 81.891,
         "sha256": "ea6ce18cf2230548677798e863970bfbbb4bb5233c30a8c4c8c991180bf11cb1",
-        "source_commit": "aa3e8998aa3faa9c4b24176cc724ffebbb81c945",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/aa3e8998aa3faa9c4b24176cc724ffebbb81c945/data/symbol-white-0.13-arm512/FSK_92_06.png"
+        "source_commit": "453583c7f9f98446d7cc58ba74e9366d954a5d1f",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/453583c7f9f98446d7cc58ba74e9366d954a5d1f/data/symbol-white-0.13-arm512/FSK_92_06.png"
       },
       "baseline": {
         "concept_id": "FSK_92_06",
