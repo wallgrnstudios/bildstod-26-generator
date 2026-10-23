@@ -6,30 +6,30 @@
       "term_sv": "var",
       "source_resolution": "open_question",
       "status": "model_error",
-      "created_at": "2026-10-23T06:09:26.106231+00:00",
-      "model": "qwen3:4b",
+      "created_at": "2026-10-23T12:09:27.409036+00:00",
+      "model": "qwen3:1.7b",
       "suggestion": null,
-      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_12\", \"term_sv\": \"var\", \"kind\": \"open_question\", \"meaning_sv\": \"Ordet är tvetydigt: frågeordet \\\\\"var\\\\\" (plats) eller verbformen \\\\\"var\\\\\" (var igår); gäller även \\\\\"vart\\\\\".\", \"question_or_proposal_sv\": \"Vilken betydelse ska \\\\\"var\\\\\" ha i kommunikation?\", \"options_sv\": [\"Var = på vilken plats (frågeord)\", \"Var = förflutet av vara\", \"Båda med separata poster\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+      "error": "Invalid control character at: line 1 column 76 (char 75)"
     },
     "FSK_10_26": {
       "source_id": "FSK_10_26",
       "term_sv": "vara med",
       "source_resolution": "open_question",
       "status": "model_error",
-      "created_at": "2026-10-23T06:12:26.112909+00:00",
-      "model": "qwen3:4b",
+      "created_at": "2026-10-23T12:09:52.905129+00:00",
+      "model": "qwen3:1.7b",
       "suggestion": null,
-      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_26\", \"term_sv\": \"vara med\", \"kind\": \"open_question\", \"meaning_sv\": \"Vara med: delta i en lek eller aktivitet. Idiom där \\\\\"med\\\\\" saknar egen bild.\", \"question_or_proposal_sv\": \"Hur visas att vara med: ett barn som närmar sig en grupp som leker, eller ett barn som tas emot i en cirkel?\", \"options_sv\": [\"Barn bredvid en grupp som leker med en lucka\", \"Cirkel av barn där ett barn kommer in\", \"Utelämna, text räcker\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+      "error": "Invalid control character at: line 1 column 76 (char 75)"
     },
     "FSK_10_34": {
       "source_id": "FSK_10_34",
       "term_sv": "få",
       "source_resolution": "open_question",
       "status": "model_error",
-      "created_at": "2026-10-23T06:15:26.117936+00:00",
-      "model": "qwen3:4b",
+      "created_at": "2026-10-23T12:10:16.323827+00:00",
+      "model": "qwen3:1.7b",
       "suggestion": null,
-      "error": "Command '['ollama', 'run', 'qwen3:4b', 'You are drafting a proposal for a Swedish preschool visual-support editor.\\nDo not decide that it is approved. Do not create a sentence illustration.\\nSuggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.\\nUse English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.\\nReturn JSON only with these fields: safe_to_generate (boolean), meaning_sv (string), visual_prompt_en (string), must_show_sv (array of 1-3 strings), must_not_show_sv (array of 1-4 strings), contrast_terms_sv (array of strings), review_question_sv (string).\\nInput:\\n{\"id\": \"FSK_10_34\", \"term_sv\": \"få\", \"kind\": \"open_question\", \"meaning_sv\": \"Få: kan betyda få/ta emot något, få lov (tillåtelse) eller få = några. Mycket flertydigt.\", \"question_or_proposal_sv\": \"Vilken betydelse avses i socialt samspel: få något (ta emot) eller få lov?\", \"options_sv\": [\"Få = ta emot: barn som tar emot en leksak\", \"Få lov: tillåtelse-konvention\", \"Båda, i varsin symbol\"], \"existing_visual_proposal_en\": \"\", \"contrast_terms_sv\": []}']' timed out after 180 seconds"
+      "error": "Invalid control character at: line 1 column 76 (char 75)"
     },
     "FSK_10_54": {
       "source_id": "FSK_10_54",
