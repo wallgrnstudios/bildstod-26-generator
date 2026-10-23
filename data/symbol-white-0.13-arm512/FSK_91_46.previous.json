@@ -1,0 +1,42 @@
+{
+  "concept_id": "FSK_91_46",
+  "label_sv": "limstift",
+  "fingerprint": "7ce4b87e83560a43577270ca3ad5daf2627f3a73a6ba379c0d0718c26af2dd14",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary preschool glue stick, upright bright blue cylindrical plastic barrel, white solid glue protruding from top, ribbed twist wheel at bottom. Removed matching blue cap beside it. No liquid nozzle. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1884878678,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-21T06:59:30.505165+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "object",
+  "meaning_sv": "Limstift som ett avgränsat begrepp.",
+  "must_show_sv": [
+    "Öppet limstift med vridbotten och separat lock"
+  ],
+  "must_not_show_sv": [
+    "Ovidkommande handlingar, text eller dekorativ miljö"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "pending_review",
+  "transparency": {
+    "background": "white"
+  },
+  "render_seconds": 79.032,
+  "background_seconds": 0.0,
+  "elapsed_seconds": 79.087,
+  "sha256": "217c681fc6f75433aac3124bb3c455a089f8ab7efd8fb3a31bdff6c64de10169"
+}
