@@ -3140,15 +3140,15 @@
     {
       "concept_id": "FSK_28_73",
       "label_sv": "apa",
-      "fingerprint": "1aa2003621138842654e6eef7340def1676641fef2f1783e4c213d4b1217f6c6",
+      "fingerprint": "6e4516a7b1aa4315c66174fc2eecd3e1acc63efc6dc91637bfa290b7521a6b67",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small brown long-tailed monkey seated, expressive round face, grasping hands and feet, long curved tail. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 103085204,
+      "seed": 34574680,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T21:35:25.612934+00:00",
+      "created_at": "2026-10-23T21:42:15.975092+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -3170,14 +3170,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_28_73_d6e498851e45ec3823db54110eb3f6d50de3681be3f10bc94507ec87e1679335_r1",
+      "regeneration_source_sha256": "d6e498851e45ec3823db54110eb3f6d50de3681be3f10bc94507ec87e1679335",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 81.451,
+      "render_seconds": 78.659,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.502,
-      "sha256": "d6e498851e45ec3823db54110eb3f6d50de3681be3f10bc94507ec87e1679335"
+      "elapsed_seconds": 78.686,
+      "sha256": "511446173ec58913dbd3d478b35dfb5340740596f9ecafe4eaa979909c09fb93"
     },
     {
       "concept_id": "FSK_28_89",

@@ -33,6 +33,12 @@
   "cpu_dtype": "bfloat16",
   "regeneration_request_id": "FSK_28_73_d6e498851e45ec3823db54110eb3f6d50de3681be3f10bc94507ec87e1679335_r1",
   "regeneration_source_sha256": "d6e498851e45ec3823db54110eb3f6d50de3681be3f10bc94507ec87e1679335",
-  "status": "failed",
-  "error_type": "InterruptedGeneration"
+  "status": "pending_review",
+  "transparency": {
+    "background": "white"
+  },
+  "render_seconds": 78.659,
+  "background_seconds": 0.0,
+  "elapsed_seconds": 78.686,
+  "sha256": "511446173ec58913dbd3d478b35dfb5340740596f9ecafe4eaa979909c09fb93"
 }
