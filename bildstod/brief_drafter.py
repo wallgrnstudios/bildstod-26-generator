@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_VERSION = 1
-DEFAULT_MODEL = "qwen3:1.7b"
+DEFAULT_MODEL = "qwen3:4b-instruct"
 
 
 def load_records(path):

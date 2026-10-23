@@ -10,9 +10,7 @@ on:
       limit:
         description: Drafts to create (1-25)
         required: false
-        default: '3'
-  schedule:
-    - cron: '23 2 * * 1,4'
+        default: '1'
 permissions:
   contents: write
 concurrency:
@@ -50,7 +48,7 @@ jobs:
       - name: Plan small editorial batch
         id: plan
         env:
-          DRAFT_LIMIT: ${{ inputs.limit || '3' }}
+          DRAFT_LIMIT: ${{ inputs.limit || '1' }}
           INCLUDE_CONVENTIONS: ${{ inputs.include_conventions || 'false' }}
         run: |
           python -m bildstod.brief_drafter plan --state .brief-state --limit "$DRAFT_LIMIT" $([ "$INCLUDE_CONVENTIONS" = true ] && echo --include-conventions) > /tmp/brief-plan.json
@@ -62,11 +60,11 @@ jobs:
           curl -fsSL https://ollama.com/install.sh | sh
           ollama serve > /tmp/ollama.log 2>&1 &
           for attempt in 1 2 3 4 5; do ollama list && break || sleep 2; done
-          ollama pull qwen3:1.7b
+          ollama pull qwen3:4b-instruct
       - name: Create review-only drafts
         if: steps.plan.outputs.count != '0'
         env:
-          DRAFT_LIMIT: ${{ inputs.limit || '3' }}
+          DRAFT_LIMIT: ${{ inputs.limit || '1' }}
           INCLUDE_CONVENTIONS: ${{ inputs.include_conventions || 'false' }}
         run: python -m bildstod.brief_drafter run --state .brief-state --limit "$DRAFT_LIMIT" $([ "$INCLUDE_CONVENTIONS" = true ] && echo --include-conventions)
       - name: Publish draft state only
