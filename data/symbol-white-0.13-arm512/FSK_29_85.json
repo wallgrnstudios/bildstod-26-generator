@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_29_85",
   "label_sv": "klicka",
-  "fingerprint": "cf02be8e868797b2be63cc279b8bee507be133fc9156f08502f59eccb72711f3",
+  "fingerprint": "44f7aff9cbea4549e4e654752e2bfe8b75f7c2e3814cfde39052f668f7c3b4e1",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One child seen from the side at a desk, index finger pressing the left button on a computer mouse, the mouse next to a laptop. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1969768798,
+  "seed": 1302598767,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:54:05.399028+00:00",
+  "created_at": "2026-10-23T19:40:33.161721+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -33,12 +33,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 83.761,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 83.795,
-  "sha256": "558aad091c0044385baffbfb6373768eb4eb96ecc6b47d5856b2a8f20d4d7312"
+  "regeneration_request_id": "FSK_29_85_558aad091c0044385baffbfb6373768eb4eb96ecc6b47d5856b2a8f20d4d7312_r1",
+  "regeneration_source_sha256": "558aad091c0044385baffbfb6373768eb4eb96ecc6b47d5856b2a8f20d4d7312",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
