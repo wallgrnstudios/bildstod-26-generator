@@ -60,7 +60,23 @@ def parse_suggestion(output):
     start, end = cleaned.find("{"), cleaned.rfind("}")
     if start < 0 or end < start:
         raise ValueError("Model did not return JSON")
-    value = json.loads(cleaned[start:end + 1])
+    payload = cleaned[start:end + 1]
+    # Small local models occasionally emit literal line breaks inside a quoted
+    # string. Escape only control characters while inside a JSON string; all
+    # schema and content validation below still applies.
+    escaped, in_string, slash = [], False, False
+    for char in payload:
+        if in_string and ord(char) < 32:
+            escaped.append({"\n": "\\n", "\r": "\\r", "\t": "\\t"}.get(char, "\\u%04x" % ord(char)))
+            slash = False
+            continue
+        escaped.append(char)
+        if char == '"' and not slash:
+            in_string = not in_string
+        slash = char == "\\" and not slash
+        if char != "\\":
+            slash = False
+    value = json.loads("".join(escaped))
     required = {"safe_to_generate", "meaning_sv", "visual_prompt_en", "must_show_sv",
                 "must_not_show_sv", "contrast_terms_sv", "review_question_sv"}
     if set(value) != required or not isinstance(value["safe_to_generate"], bool):

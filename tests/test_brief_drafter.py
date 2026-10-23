@@ -25,6 +25,7 @@ class BriefDrafterTests(unittest.TestCase):
         parsed = parse_suggestion("<think>reasoning</think>\n" + self.valid)
         self.assertFalse(parsed["safe_to_generate"])
         self.assertIn("Input:", prompt_for(self.open))
+        self.assertEqual(parse_suggestion(self.valid.replace("Frågeord om plats.", "Frågeord\nom plats."))["meaning_sv"], "Frågeord\nom plats.")
 
     def test_draft_never_changes_catalog_and_requires_review(self):
         state = {"schema_version": 1, "records": {}}
