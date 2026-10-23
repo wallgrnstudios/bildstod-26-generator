@@ -1,0 +1,46 @@
+{
+  "concept_id": "FSK_19_30",
+  "label_sv": "bromsa",
+  "fingerprint": "c5b6ed64b75ecbebdb60fd4adb8badab767c4931af9e146024cc1b3f04ebd73f",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view on a bicycle stopping, one hand squeezing the brake lever on the handlebar, leaning slightly back and feet near the ground. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1328071572,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-21T23:20:06.670626+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "action",
+  "meaning_sv": "Bromsa: att minska farten på cykel eller fordon så att man stannar. Inte stanna utan fordon.",
+  "must_show_sv": [
+    "Handen på bromshandtaget",
+    "Barn på cykel",
+    "Hjälm"
+  ],
+  "must_not_show_sv": [
+    "Krasch",
+    "Bil med bromsljus",
+    "Barn som springer"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "pending_review",
+  "transparency": {
+    "background": "white"
+  },
+  "render_seconds": 79.296,
+  "background_seconds": 0.0,
+  "elapsed_seconds": 79.333,
+  "sha256": "285e23e2de6c36628411637d308ef946cb2b8ba23c14bb24836ffc7ceccf3b37"
+}
