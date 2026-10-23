@@ -2489,15 +2489,15 @@
     {
       "concept_id": "FSK_26_34",
       "label_sv": "polis",
-      "fingerprint": "e311f7ab878fa6d5fd2533995267cc39c291fea743d964fbd6714c3afce00ec8",
+      "fingerprint": "edaa2a86c5f78bd667b9151718a2a9bc3c4503250380a5ba7f2bccf45e4558e4",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One friendly police officer standing in front view wearing a dark blue uniform with a peaked cap with a plain badge shape and a reflective vest, hands visible and relaxed. One person alone, full body, friendly neutral expression. Any role is shown only through the named concrete attributes; no badges, logos, lettering or decorative scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 750021652,
+      "seed": 2038101938,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:33:42.159880+00:00",
+      "created_at": "2026-10-23T21:40:55.633088+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2523,14 +2523,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_26_34_0472b52ff5c9cd00f1a3f0374313110c85405307697fa9e95d4a0482b34a4823_r1",
+      "regeneration_source_sha256": "0472b52ff5c9cd00f1a3f0374313110c85405307697fa9e95d4a0482b34a4823",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.213,
+      "render_seconds": 78.918,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.256,
-      "sha256": "0472b52ff5c9cd00f1a3f0374313110c85405307697fa9e95d4a0482b34a4823"
+      "elapsed_seconds": 78.946,
+      "sha256": "2da40889b8a0b70a02e6f26167e638e740b13e84d0847aa8fcae862cd51ba2af"
     },
     {
       "concept_id": "FSK_26_62",
