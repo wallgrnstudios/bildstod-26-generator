@@ -1,0 +1,45 @@
+{
+  "concept_id": "FSK_15_18",
+  "label_sv": "städa",
+  "fingerprint": "6fbc6e38ef5da919da9d684a0c9dfcef48563f2008206df707e57c4347bdbbc1",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child standing at a small table wiping its surface with a damp cloth in a circular motion, one hand holding the cloth, a few crumbs being collected. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1413788522,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-21T23:07:23.687148+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "action",
+  "meaning_sv": "Att städa: göra rent och ordning, här genom att torka av ett bord med trasa. Inte tvätta kläder eller sopa golv.",
+  "must_show_sv": [
+    "Trasa som torkar bordsytan",
+    "Barnets arm i rörelse"
+  ],
+  "must_not_show_sv": [
+    "Städprodukter eller sprayflaska",
+    "Rörigt rum",
+    "Golvsopning"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "pending_review",
+  "transparency": {
+    "background": "white"
+  },
+  "render_seconds": 81.536,
+  "background_seconds": 0.0,
+  "elapsed_seconds": 81.562,
+  "sha256": "9b3c2fd1a7ebd400405ed83a017015e68c1db45ae0349d52f5fdfe6fd7502dea"
+}
