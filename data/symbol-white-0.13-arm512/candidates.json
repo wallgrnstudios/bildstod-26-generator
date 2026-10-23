@@ -2136,15 +2136,15 @@
     {
       "concept_id": "FSK_23_45",
       "label_sv": "ombyte",
-      "fingerprint": "dd5a99479973e79504c0a8c9fa416f3297f3aa26d631de1000f8c03c1b5343a1",
+      "fingerprint": "7d6718052a533970dfa02160c93cb1a84ca1d49a3680af35ee1b190f558ba8ca",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small neat stack of spare clothes: a folded t-shirt, folded trousers, a pair of rolled socks and folded underpants, seen from the front. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 893216593,
+      "seed": 1893185209,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:44:56.591826+00:00",
+      "created_at": "2026-10-23T19:38:34.606159+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2169,14 +2169,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_23_45_13406977112bdda9fe91f73f1d665fe56b52dda00a485d13b7705c856ecc18d2_r1",
+      "regeneration_source_sha256": "13406977112bdda9fe91f73f1d665fe56b52dda00a485d13b7705c856ecc18d2",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.526,
+      "render_seconds": 79.455,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.564,
-      "sha256": "13406977112bdda9fe91f73f1d665fe56b52dda00a485d13b7705c856ecc18d2"
+      "elapsed_seconds": 79.49,
+      "sha256": "4ee7842c5612b08eb850c455fa698804ac22f6d6ceed8a3e2e15b160ef769f49"
     },
     {
       "concept_id": "FSK_24_35",
