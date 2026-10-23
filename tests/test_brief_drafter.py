@@ -17,6 +17,9 @@ class BriefDrafterTests(unittest.TestCase):
         selected = candidates([self.convention, self.open], {}, 10)
         self.assertEqual([row["id"] for row in selected], ["FSK_10_12"])
         self.assertEqual(len(candidates([self.convention, self.open], {}, 10, True)), 2)
+        self.assertEqual([row["id"] for row in candidates([self.open], {"FSK_10_12": {"status": "model_error"}}, 10)],
+                         ["FSK_10_12"])
+        self.assertEqual(candidates([self.open], {"FSK_10_12": {"status": "needs_editorial_review"}}, 10), [])
 
     def test_model_output_is_bounded_json(self):
         parsed = parse_suggestion("<think>reasoning</think>\n" + self.valid)

@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_VERSION = 1
-DEFAULT_MODEL = "qwen3:4b"
+DEFAULT_MODEL = "qwen3:1.7b"
 
 
 def load_records(path):
@@ -29,7 +29,8 @@ def candidates(resolutions, existing, limit, include_conventions=False):
     kinds = {"open_question"}
     if include_conventions:
         kinds.add("convention_proposal")
-    rows = [row for row in resolutions if row.get("resolution") in kinds and row["id"] not in existing]
+    rows = [row for row in resolutions if row.get("resolution") in kinds
+            and existing.get(row["id"], {}).get("status") != "needs_editorial_review"]
     rows.sort(key=lambda row: (row["resolution"] != "open_question", row["id"]))
     return rows[:limit]
 
@@ -43,7 +44,8 @@ def prompt_for(row):
         "existing_visual_proposal_en": row.get("proposal_visual_en", ""),
         "contrast_terms_sv": row.get("contrast_terms_sv", []),
     }
-    return """You are drafting a proposal for a Swedish preschool visual-support editor.
+    return """/no_think
+You are drafting a proposal for a Swedish preschool visual-support editor.
 Do not decide that it is approved. Do not create a sentence illustration.
 Suggest exactly one atomic, observable image meaning. If the word is too ambiguous, set safe_to_generate to false.
 Use English only in visual_prompt_en. Do not mention style, text in the image, brand names, scenery or a reference image.
@@ -77,8 +79,8 @@ def parse_suggestion(output):
 
 
 def ask_model(row, model=DEFAULT_MODEL, runner=subprocess.run):
-    result = runner(["ollama", "run", model, prompt_for(row)], text=True, capture_output=True,
-                    timeout=180, check=False)
+    result = runner(["ollama", "run", "--format", "json", model, prompt_for(row)], text=True, capture_output=True,
+                    timeout=120, check=False)
     if result.returncode:
         raise RuntimeError((result.stderr or result.stdout).strip() or "Local model failed")
     return parse_suggestion(result.stdout)
