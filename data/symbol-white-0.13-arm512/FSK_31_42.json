@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_31_42",
   "label_sv": "brottning",
-  "fingerprint": "db7e7dc56021223cf277b62ee03f3539e536dbaf3e784ea293020b0f51dc5a94",
+  "fingerprint": "8d0e9e10635db2d9846a8db9c3db5a011d65be9842334c334c6f7861dd19a3a8",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two preschool children in matching plain gym clothes facing each other on a gym mat, hands on each other's shoulders in a friendly wrestling stance, calm focused faces. Only the people and objects described; no decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1211475816,
+  "seed": 1334691576,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:56:05.706993+00:00",
+  "created_at": "2026-10-23T19:48:36.767943+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 82.218,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 82.255,
-  "sha256": "143f4f8cbdf442fc763c9b89c591e9489b9cee0641dbc0f39db68e6e5ba5ac6a"
+  "regeneration_request_id": "FSK_31_42_143f4f8cbdf442fc763c9b89c591e9489b9cee0641dbc0f39db68e6e5ba5ac6a_r1",
+  "regeneration_source_sha256": "143f4f8cbdf442fc763c9b89c591e9489b9cee0641dbc0f39db68e6e5ba5ac6a",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
