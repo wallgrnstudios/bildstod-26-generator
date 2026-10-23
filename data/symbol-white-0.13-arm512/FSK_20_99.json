@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_20_99",
   "label_sv": "tandkräm",
-  "fingerprint": "0700b3fd11b6d33055919ab24c4f99b5699ec79dbeba2f7457af38068258990f",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary modern Swedish toothpaste tube, soft white tapered plastic body with simple blue and red color blocks, flattened crimped sealed tail, short narrow screw neck at opposite end. White screw cap beside it, small white toothpaste curl at opening, no lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 908061859,
+  "fingerprint": "1d8af4dc0b01f70098b4e0977644a79c4fc4270a17560b2ef65a4fcf0a87afbf",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary modern Swedish toothpaste tube, soft white tapered plastic body with simple blue and red color blocks, flattened crimped sealed tail, short narrow screw neck at opposite end. White screw cap beside it, small white toothpaste curl at opening, no lettering. Required editor correction: Gör tuben mer lik en vanlig tandkrämstub i Sverige. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1012148643,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T06:53:47.862528+00:00",
+  "created_at": "2026-10-23T19:40:37.511854+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 80.592,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 80.633,
-  "sha256": "abec196339cc500cad473888bcf8ad2623ac5966b549f2c66910c651bab3d8f8"
+  "regeneration_request_id": "FSK_20_99_abec196339cc500cad473888bcf8ad2623ac5966b549f2c66910c651bab3d8f8_r1",
+  "regeneration_source_sha256": "abec196339cc500cad473888bcf8ad2623ac5966b549f2c66910c651bab3d8f8",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
