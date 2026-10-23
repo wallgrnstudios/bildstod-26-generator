@@ -1975,15 +1975,15 @@
     {
       "concept_id": "FSK_26_48",
       "label_sv": "telefon",
-      "fingerprint": "34e1602dacfe5784f6aaa417a01d1c5fe36afb07d9d2963a0920fa0880ad001a",
+      "fingerprint": "19a74402640e4144c11b4eda6739431912979dd84e261dbb32e5657983d01296",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern blue desk telephone, handset resting on a cradle, coiled handset cord and a grid of blank dialing keys, no writing. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 471467691,
+      "seed": 696275392,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T21:28:28.007460+00:00",
+      "created_at": "2026-10-23T19:41:58.229753+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2005,14 +2005,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_26_48_cf82700c4f8c0682e27b4bb866f7ef3293b69e97b1922cba711d881fcccd2102_r1",
+      "regeneration_source_sha256": "cf82700c4f8c0682e27b4bb866f7ef3293b69e97b1922cba711d881fcccd2102",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 81.939,
+      "render_seconds": 78.339,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.982,
-      "sha256": "cf82700c4f8c0682e27b4bb866f7ef3293b69e97b1922cba711d881fcccd2102"
+      "elapsed_seconds": 78.4,
+      "sha256": "87bbbe9c4841ab957a67be2dc46a3d907ba560cf0712fe4721118451c68e2f86"
     },
     {
       "concept_id": "FSK_26_50",
