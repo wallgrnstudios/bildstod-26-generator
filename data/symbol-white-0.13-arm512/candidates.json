@@ -715,15 +715,15 @@
     {
       "concept_id": "FSK_17_93",
       "label_sv": "sträcka",
-      "fingerprint": "c8a5cf7ebbe4df33ca206b0d769a2997658cbb28d7e4d21047a0b2cc263b1687",
+      "fingerprint": "466e24e24659b028eee110f948b232bea7a8e1888eba0b298da97813d5225b4a",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in front view standing with one arm stretched straight forward at shoulder height and fingers extended. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1831974239,
+      "seed": 818813874,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:14:53.789971+00:00",
+      "created_at": "2026-10-23T19:34:23.379138+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -748,14 +748,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_17_93_c6776028c6a2547e1702a5b0ecb5f55af21d2758f48e90c99b46790668dc3446_r1",
+      "regeneration_source_sha256": "c6776028c6a2547e1702a5b0ecb5f55af21d2758f48e90c99b46790668dc3446",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 81.183,
+      "render_seconds": 79.436,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.204,
-      "sha256": "c6776028c6a2547e1702a5b0ecb5f55af21d2758f48e90c99b46790668dc3446"
+      "elapsed_seconds": 79.461,
+      "sha256": "be3eb9e2c06ad1cee841f2e5a679f6ad2a99af41013c8f3036e13c1d334cb3ad"
     },
     {
       "concept_id": "FSK_17_96",
