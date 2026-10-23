@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_17_92",
   "label_sv": "klättra",
-  "fingerprint": "10f5ed216d55d07830e3b456ffb0817ec6a33240b5303be6ef2edbf029abac2c",
+  "fingerprint": "dbf6ddecf7773048516190b737b503d2d8f7b7071086e2841b470a037630c5b0",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view climbing up a wooden climbing frame, gripping a rung with both hands and one foot on a lower rung. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1443118352,
+  "seed": 1823461029,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:17:56.778079+00:00",
+  "created_at": "2026-10-23T19:33:54.205023+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 82.537,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 82.576,
-  "sha256": "5992902a62d6cd6abbae3ead9a4917b6645fdea29a3920568b7a5535e5aab359"
+  "regeneration_request_id": "FSK_17_92_5992902a62d6cd6abbae3ead9a4917b6645fdea29a3920568b7a5535e5aab359_r1",
+  "regeneration_source_sha256": "5992902a62d6cd6abbae3ead9a4917b6645fdea29a3920568b7a5535e5aab359",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
