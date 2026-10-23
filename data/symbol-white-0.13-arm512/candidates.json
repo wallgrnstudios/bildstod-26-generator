@@ -94,15 +94,15 @@
     {
       "concept_id": "FSK_11_69",
       "label_sv": "dra",
-      "fingerprint": "a4ac2e4f79753dfb0fe4cba0dd039183c5fdb57c1f4aa0c8320f1491eab75897",
+      "fingerprint": "c138382f09f132ddae90e0521ac99944458b69f7dbed3d494e9b1826f75e986d",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view walking forward while pulling a small toy wagon behind by its string, arm stretched back towards the wagon. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1277972679,
+      "seed": 262041182,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:02:29.071965+00:00",
+      "created_at": "2026-10-23T19:30:19.171680+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -127,14 +127,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_11_69_deccd2b41c9a4aef4ec0863c50cb3744566a719b661e6ba831f902e6b8c77ce3_r1",
+      "regeneration_source_sha256": "deccd2b41c9a4aef4ec0863c50cb3744566a719b661e6ba831f902e6b8c77ce3",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.904,
+      "render_seconds": 79.253,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.933,
-      "sha256": "deccd2b41c9a4aef4ec0863c50cb3744566a719b661e6ba831f902e6b8c77ce3"
+      "elapsed_seconds": 79.299,
+      "sha256": "73e914495499f614232cb8b66f6893c31339a1d0e619a9a939823d0ac010008b"
     },
     {
       "concept_id": "FSK_12_80",
