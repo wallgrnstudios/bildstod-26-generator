@@ -1,0 +1,77 @@
+name: Draft review-only image briefs
+on:
+  workflow_dispatch:
+    inputs:
+      include_conventions:
+        description: Also rewrite existing convention proposals
+        required: false
+        type: boolean
+        default: false
+      limit:
+        description: Drafts to create (1-25)
+        required: false
+        default: '12'
+  schedule:
+    - cron: '23 2 * * 1,4'
+permissions:
+  contents: write
+concurrency:
+  group: brief-drafts
+  cancel-in-progress: false
+jobs:
+  draft:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      OLLAMA_NO_ANSI: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Restore review-only drafts
+        run: |
+          gh auth setup-git
+          git init .brief-state
+          git -C .brief-state config user.name 'Bildstöd brief drafter'
+          git -C .brief-state config user.email 'bildstod-generator@users.noreply.github.com'
+          git -C .brief-state remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads origin brief-drafts; then
+            git -C .brief-state fetch --depth=1 origin brief-drafts
+            git -C .brief-state checkout -B brief-drafts FETCH_HEAD
+          else
+            git -C .brief-state checkout --orphan brief-drafts
+          fi
+      - name: Plan small editorial batch
+        id: plan
+        env:
+          DRAFT_LIMIT: ${{ inputs.limit || '12' }}
+          INCLUDE_CONVENTIONS: ${{ inputs.include_conventions || 'false' }}
+        run: |
+          python -m bildstod.brief_drafter plan --state .brief-state --limit "$DRAFT_LIMIT" $([ "$INCLUDE_CONVENTIONS" = true ] && echo --include-conventions) > /tmp/brief-plan.json
+          cat /tmp/brief-plan.json
+          python -c 'import json,os; p=json.load(open("/tmp/brief-plan.json")); open(os.environ["GITHUB_OUTPUT"],"a").write("count="+str(p["count"])+"\n")'
+      - name: Install open local model
+        if: steps.plan.outputs.count != '0'
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve > /tmp/ollama.log 2>&1 &
+          for attempt in 1 2 3 4 5; do ollama list && break || sleep 2; done
+          ollama pull qwen3:4b
+      - name: Create review-only drafts
+        if: steps.plan.outputs.count != '0'
+        env:
+          DRAFT_LIMIT: ${{ inputs.limit || '12' }}
+          INCLUDE_CONVENTIONS: ${{ inputs.include_conventions || 'false' }}
+        run: python -m bildstod.brief_drafter run --state .brief-state --limit "$DRAFT_LIMIT" $([ "$INCLUDE_CONVENTIONS" = true ] && echo --include-conventions)
+      - name: Publish draft state only
+        if: steps.plan.outputs.count != '0'
+        run: |
+          git -C .brief-state add brief-drafts.json
+          git -C .brief-state commit -m 'Draft review-only image briefs'
+          git -C .brief-state push origin HEAD:brief-drafts
