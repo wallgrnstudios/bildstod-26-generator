@@ -889,15 +889,15 @@
     {
       "concept_id": "FSK_18_04",
       "label_sv": "sås",
-      "fingerprint": "f2c1a1af2c105afbc04243033a14660dfb7a9a4da2bea95d68f79f6b80eba7cd",
+      "fingerprint": "e15b419e6f56fc1d82fc4766dec9c306e95c6fbf79573f29639a2bc8bb7fb025",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small white sauce boat filled with smooth pale sauce, projecting pouring lip and one curved handle. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1010744188,
+      "seed": 866201773,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T21:16:00.723466+00:00",
+      "created_at": "2026-10-23T21:31:22.353060+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -919,14 +919,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_18_04_f0ad9b529394f5cdef8c23890397545fb23a0077c4e961d115231607277903ef_r1",
+      "regeneration_source_sha256": "f0ad9b529394f5cdef8c23890397545fb23a0077c4e961d115231607277903ef",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.995,
+      "render_seconds": 81.218,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.025,
-      "sha256": "f0ad9b529394f5cdef8c23890397545fb23a0077c4e961d115231607277903ef"
+      "elapsed_seconds": 81.254,
+      "sha256": "ab9180dd0dc8ff459444e1f417b4601d0b52a8064635b6d6944c6a93e46ecb40"
     },
     {
       "concept_id": "FSK_18_34",
