@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_27_78",
   "label_sv": "taxi",
-  "fingerprint": "bbd1182794aa4bddfa275726ccbf37c790f3080dcce7080a1d4bf2763fc31f1d",
+  "fingerprint": "11f275b0f07909d4dcaf559dbb454c576f565d6829dd091db6ed7af3152286e7",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: A passenger car in three-quarter view with a blank illuminated roof sign, no lettering on the roof sign or body. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 709138550,
+  "seed": 1980016178,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:47:02.463825+00:00",
+  "created_at": "2026-10-23T19:37:51.815012+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -33,12 +33,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 83.53,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 83.564,
-  "sha256": "85de3ee3086d397c162f6316f3e01e6e66b75015dd2216fdd22985cc0d660b2d"
+  "regeneration_request_id": "FSK_27_78_85de3ee3086d397c162f6316f3e01e6e66b75015dd2216fdd22985cc0d660b2d_r1",
+  "regeneration_source_sha256": "85de3ee3086d397c162f6316f3e01e6e66b75015dd2216fdd22985cc0d660b2d",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
