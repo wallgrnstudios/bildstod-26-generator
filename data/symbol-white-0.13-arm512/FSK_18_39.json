@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_18_39",
   "label_sv": "tugga",
-  "fingerprint": "2af6beef81926c39e5ca14be59ff33671d20c1c5ca5a9524ec28319141d1480f",
+  "fingerprint": "5c3b3f390d1e0ee6d65b518129ce9eef28abbf100ba35ed58601a65c837e7eba",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One child in side view chewing with closed lips, cheeks slightly bulging, a bread slice in one hand lowered. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1103317479,
+  "seed": 1422421924,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:19:02.327805+00:00",
+  "created_at": "2026-10-23T19:35:44.420560+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -33,12 +33,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 81.335,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 81.391,
-  "sha256": "c205daa6f71d428296f517433e859e0a7e5ba3b44c65c53f20ee1cf5ed00f877"
+  "regeneration_request_id": "FSK_18_39_c205daa6f71d428296f517433e859e0a7e5ba3b44c65c53f20ee1cf5ed00f877_r1",
+  "regeneration_source_sha256": "c205daa6f71d428296f517433e859e0a7e5ba3b44c65c53f20ee1cf5ed00f877",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
