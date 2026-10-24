@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_20_88",
   "label_sv": "halka",
-  "fingerprint": "6080f90afb54b7b53ba3f78839801e2207dc76c967de18a67505a5fe26df5342",
+  "fingerprint": "65bf101761bf574c987c00df9f3fb615cfd1cb4d1a1c65e86436961fc9014f98",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view on a patch of clear ice, one foot sliding forward and arms thrown out for balance, body leaning back slightly. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 2031636802,
+  "seed": 1948695210,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:41:27.678446+00:00",
+  "created_at": "2026-10-24T04:47:05.004581+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -35,14 +35,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_20_88_9e20f5b5f15bbf552491ee4d0f4df9ac461df065fd5f02150d48807044e4015f_r1",
-  "regeneration_source_sha256": "9e20f5b5f15bbf552491ee4d0f4df9ac461df065fd5f02150d48807044e4015f",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.002,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.03,
-  "sha256": "924ac641d2e827fa6f15e8cfb39cca0168de808bf88b9489b2fee9f131f4eadd"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
