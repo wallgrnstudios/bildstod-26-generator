@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_21_38",
   "label_sv": "kortspel",
-  "fingerprint": "8e736bfa80325ef358787e6c242ad981c81e559d7eac913c19e4eceef7d85be7",
+  "fingerprint": "139c110596e21e059d3f580271ad3fe5592a6d350e94441217c419e7419208d7",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: A fan of six playing cards face down showing an identical simple patterned back, beside a small neat stack of cards. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 450150099,
+  "seed": 1207842900,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T21:38:12.311820+00:00",
+  "created_at": "2026-10-24T04:48:45.146192+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -35,14 +35,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_21_38_c9db08217c27056b642833c039ebde16ca3feff01a3fdab9abc017da068e053b_r1",
-  "regeneration_source_sha256": "c9db08217c27056b642833c039ebde16ca3feff01a3fdab9abc017da068e053b",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 80.603,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 80.633,
-  "sha256": "b75b0f1f52e3250acd21a66573af8b9f332aca1a4e6ff7ee4c8c9616405c265d"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
