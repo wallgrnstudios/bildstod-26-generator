@@ -1753,15 +1753,15 @@
     {
       "concept_id": "FSK_21_80",
       "label_sv": "plastpåse",
-      "fingerprint": "ad79b9c19d8e96f5d06da33442400245de9983d6e00784da2118bf82826105f4",
+      "fingerprint": "07bc03137c1778043da9e15d2099389efe143468e1dd596e30a914779c19287f",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One empty transparent reusable plastic carrier bag with two integrated loop handles and visible bottom seam. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1180970594,
+      "seed": 1443401870,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:33:49.468831+00:00",
+      "created_at": "2026-10-24T04:41:06.970072+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1783,16 +1783,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_21_80_d7cc4c8575d0aac90b768d8434f94217cb6c1823bf539826dd0da3b1a08baa82_r1",
-      "regeneration_source_sha256": "d7cc4c8575d0aac90b768d8434f94217cb6c1823bf539826dd0da3b1a08baa82",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.277,
+      "render_seconds": 78.966,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.308,
-      "sha256": "2dbb07d249c23138833b3a36a4d0e4d5f46d6970223aa44d13bce5d996cf3efd"
+      "elapsed_seconds": 79.0,
+      "sha256": "133caa8ff7a1eaab2d2d0e6a613d07afe6b8e79d76ae932ad96bd99195d1ad77"
     },
     {
       "concept_id": "FSK_22_28",
