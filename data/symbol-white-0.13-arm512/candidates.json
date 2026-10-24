@@ -3373,15 +3373,15 @@
     {
       "concept_id": "FSK_31_99",
       "label_sv": "bläckfisk",
-      "fingerprint": "d5af69fc0abdef9a0fe948a70c52e4a867e5b7795686ff94fafa358792f6d421",
+      "fingerprint": "598d808bce0a4302f443e3a5abf16ac22528890cb5fe8135ca2f5a3ef3b65115",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One octopus with rounded mantle, two eyes and exactly eight clearly separated curling arms with visible suction cups. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 125977054,
+      "seed": 1355750997,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T21:51:49.139978+00:00",
+      "created_at": "2026-10-24T05:03:36.991833+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -3403,16 +3403,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_31_99_51260d15ef70185bb636fcebc20da10e495e47d5cbf99895d3867dd9d8f88375_r1",
-      "regeneration_source_sha256": "51260d15ef70185bb636fcebc20da10e495e47d5cbf99895d3867dd9d8f88375",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.448,
+      "render_seconds": 77.934,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.477,
-      "sha256": "88c91e4e242b18213a6f905ce8f7d8b8f4b620c12d9c247cfed04d1606dfe25b"
+      "elapsed_seconds": 77.966,
+      "sha256": "5fe30108aba58365327f6bd46b30b13253573d75b7659c09c0ca1c0f86607133"
     },
     {
       "concept_id": "FSK_32_13",
