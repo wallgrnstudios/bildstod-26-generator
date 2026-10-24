@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_20_60",
   "label_sv": "skölja",
-  "fingerprint": "70046703b78908c7eed350bf22390ae7654fb7c87f0f4b5ff3567ea426bfe086",
+  "fingerprint": "12a8bea18ed585005105d1f350ec3da04d339129f589d2ce8e0e1de1302fc930",
   "prompt": "Create one isolated illustration: One child holding a plate under a running tap, clear water streaming over the plate into the sink. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 737514511,
+  "seed": 1428210742,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:32:42.264867+00:00",
+  "created_at": "2026-10-24T04:39:59.480999+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -33,14 +33,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_20_60_61b784421abd7127f223abeed195688cac124af9c35e44ceaea5ec38479201a1_r1",
-  "regeneration_source_sha256": "61b784421abd7127f223abeed195688cac124af9c35e44ceaea5ec38479201a1",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 65.486,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 65.531,
-  "sha256": "1eb619b10e4fb24571de814689d7c68323aa2b36e4914cca3273a3a12004782e"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
