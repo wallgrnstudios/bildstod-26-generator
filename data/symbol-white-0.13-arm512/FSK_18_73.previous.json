@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_18_73",
   "label_sv": "spola",
-  "fingerprint": "66e9ea1553fed0c7a714a6297ad5dbab16a6a8b307299ec51b6d23397a7f6108",
+  "fingerprint": "6a4045cfbf0f8b3bf2dc4b62aa154c852d63bdced31b797f8d9e79869f994ff3",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: A child hand pressing the flush button on top of a clean white toilet cistern, with the toilet bowl beside it showing swirling clean water, side view. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 2018934962,
+  "seed": 1825014624,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:25:14.641689+00:00",
+  "created_at": "2026-10-23T19:37:25.400696+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_18_73_40ccc9510c97c081ca2aba084d5be59054ada7cc14a1cd97452e9bd3032d6846_r1",
+  "regeneration_source_sha256": "40ccc9510c97c081ca2aba084d5be59054ada7cc14a1cd97452e9bd3032d6846",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 81.5,
+  "render_seconds": 79.166,
   "background_seconds": 0.0,
-  "elapsed_seconds": 81.536,
-  "sha256": "40ccc9510c97c081ca2aba084d5be59054ada7cc14a1cd97452e9bd3032d6846"
+  "elapsed_seconds": 79.207,
+  "sha256": "74b424b05b2c7762bdc29b3601659c4277a57473b5a451a119eb5850ade4e9b0"
 }

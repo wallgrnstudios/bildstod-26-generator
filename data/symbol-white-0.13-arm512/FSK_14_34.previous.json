@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_14_34",
   "label_sv": "skjuta",
-  "fingerprint": "51480e6edf0aa2d4ef38cd64e04f944804b12b30520779e6770073f6a2afcc86",
+  "fingerprint": "75ea24cc6dcf720ca06e962008fdd64bb3f1fc0bd61ede3f1905a33e3071fc1e",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view pushing a small toy cart forward along the floor with both arms stretched forward from behind the cart. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 367694290,
+  "seed": 1087385426,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:04:38.557297+00:00",
+  "created_at": "2026-10-23T19:30:41.500009+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_14_34_b9348d68cdd69bafbdacfcc8bb9dc76effc511da288fe0849775c41b5b74e304_r1",
+  "regeneration_source_sha256": "b9348d68cdd69bafbdacfcc8bb9dc76effc511da288fe0849775c41b5b74e304",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 80.792,
+  "render_seconds": 78.623,
   "background_seconds": 0.0,
-  "elapsed_seconds": 80.819,
-  "sha256": "b9348d68cdd69bafbdacfcc8bb9dc76effc511da288fe0849775c41b5b74e304"
+  "elapsed_seconds": 78.67,
+  "sha256": "2e2b48c119aa6cba8655b9798e3b6d579b335bec32dad474adb8eddbe55d83ac"
 }
