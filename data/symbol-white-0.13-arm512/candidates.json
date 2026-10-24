@@ -3072,15 +3072,15 @@
     {
       "concept_id": "FSK_31_15",
       "label_sv": "brevlåda",
-      "fingerprint": "6db3648f7aece74efc8f6cb3938eda4edfc480aa983fa50047a38c1d35c763d0",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary blue outdoor letterbox on a short post, narrow horizontal letter slot beneath a small flap and larger retrieval door below, no lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 309396263,
+      "fingerprint": "4a8b5267f8849aead975341984936c243a8eab0bbdbd0064c8d0d5c1d5666351",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary Swedish outdoor letterbox on a short post, narrow horizontal letter slot beneath a small flap and larger retrieval door below, no lettering. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1312605691,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-24T04:49:20.995876+00:00",
+      "created_at": "2026-10-24T15:57:03.574919+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -3102,14 +3102,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_31_15_65975551a81b3d1dc0bba8dfafb622808707c1682fc474e1e8486f1497ab8732_r1",
+      "regeneration_source_sha256": "65975551a81b3d1dc0bba8dfafb622808707c1682fc474e1e8486f1497ab8732",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.235,
+      "render_seconds": 79.592,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.268,
-      "sha256": "65975551a81b3d1dc0bba8dfafb622808707c1682fc474e1e8486f1497ab8732"
+      "elapsed_seconds": 79.621,
+      "sha256": "0a27f8875b5f84e1058262c2074a95a69a444b8970e2ca5fa0d0508372127d74"
     },
     {
       "concept_id": "FSK_31_24",
