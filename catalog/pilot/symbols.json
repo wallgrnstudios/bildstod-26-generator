@@ -10348,6 +10348,7 @@
     "generation_enabled": true,
     "generation_priority": 1,
     "category": "kroppen",
+  "reference_conditioning": false,
     "style_prompt_override": "Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows."
   },
   {
