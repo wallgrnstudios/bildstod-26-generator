@@ -2061,15 +2061,15 @@
     {
       "concept_id": "FSK_26_55",
       "label_sv": "kontakt",
-      "fingerprint": "04fa98e995132e6d6a5ae35cdf32a9baceddecf2eac838ecd0033f26dcde0fb0",
+      "fingerprint": "911a32ebf339992aadc6ef2d3b9c303787ce22138010d04577857b5da7088d38",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One blue European electrical plug, two parallel round metal pins projecting from an insulated grip body and a short cable stub at back. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 72925291,
+      "seed": 1353592922,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:44:09.322430+00:00",
+      "created_at": "2026-10-24T04:52:30.158778+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2091,16 +2091,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_26_55_8fc829acbe6c396ba2c97b7a216f653430c86a6eb4d570fe48ff45b6a148e386_r1",
-      "regeneration_source_sha256": "8fc829acbe6c396ba2c97b7a216f653430c86a6eb4d570fe48ff45b6a148e386",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.662,
+      "render_seconds": 79.871,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.692,
-      "sha256": "52ec464935a734a2b19c347e8bd0a07fb7338663df457f28ffa3dae4ac202128"
+      "elapsed_seconds": 79.924,
+      "sha256": "776f12e2403fc91b4d40293ca3fc8b078fe42b9243dc943d4b7c3d89c59b47e2"
     },
     {
       "concept_id": "FSK_26_82",
