@@ -976,15 +976,15 @@
     {
       "concept_id": "FSK_18_53",
       "label_sv": "honung",
-      "fingerprint": "5eb9b6a5234294693b6b37cc49ecfd0837eb1e23f082cbb9cdc05ea994e32d79",
+      "fingerprint": "34c69ea062b604d561efc9bd1a5c2f4230a2ed892d791810320e4ebf71e0ea58",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clear jar of golden honey with a wooden grooved honey dipper resting across the open rim, one thick golden drop hanging from dipper. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 549345430,
+      "seed": 493224218,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:36:04.509441+00:00",
+      "created_at": "2026-10-24T04:41:35.937631+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1006,16 +1006,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_18_53_585982acabd55271846f084a5ce2eef202bfbe516836ba0d8522cff7d2efc14b_r1",
-      "regeneration_source_sha256": "585982acabd55271846f084a5ce2eef202bfbe516836ba0d8522cff7d2efc14b",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.055,
+      "render_seconds": 81.918,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.09,
-      "sha256": "f339f080264f722b28b3f9deacccaaf0e2c415485cf31b7eef7c3b075246a543"
+      "elapsed_seconds": 81.964,
+      "sha256": "3c472786aff5d5d595497062cc72f24c2c096175e2400e0da79c114a7ee6e496"
     },
     {
       "concept_id": "FSK_18_73",
