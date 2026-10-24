@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_15_50",
   "label_sv": "tappa",
-  "fingerprint": "0a9ced12418ebe54d7cb5a61ceecaaa3e3140c6d4a6ddde11c833f76f2c48776",
+  "fingerprint": "c427798d6a71e6c0b05266305bfb0f70b0bdec13e4c8b658ed261c1568921a98",
   "prompt": "Create one isolated illustration: One preschool child carrying a stack of three books, the top book slipping off and falling in mid-air, the child looking down at it. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1624875756,
+  "seed": 931023497,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:32:01.843741+00:00",
+  "created_at": "2026-10-24T04:38:28.221649+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,14 +34,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_15_50_22511a5d787c0b0e78338d6e3241c9becb6658620ee024bc5127497db6261d35_r1",
-  "regeneration_source_sha256": "22511a5d787c0b0e78338d6e3241c9becb6658620ee024bc5127497db6261d35",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 66.168,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 66.217,
-  "sha256": "86e7647daeb6ffaf372231ffb172fa2e0349f13167e18f164f6227f00c18efbb"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
