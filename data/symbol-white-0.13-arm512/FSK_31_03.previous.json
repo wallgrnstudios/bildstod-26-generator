@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_31_03",
   "label_sv": "dimma",
-  "fingerprint": "5e736a630553894fb0c33e9c6cb4af4f4ea5b9b5ab7dd381992cdf8938e21dc9",
+  "fingerprint": "3e6bd8969dbc1fb81be8833249753b959b156e69f28870dbeab60c799b0b7993",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: Trees fading into thick white mist. Only the people and objects described; no decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1257414404,
+  "seed": 1369119205,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T21:47:46.132070+00:00",
+  "created_at": "2026-10-24T04:59:37.182554+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,14 +31,12 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_31_03_814c66bf8050c7e8b173b1ef9efce88fd91604a35ad4e1353a069681ab172147_r1",
-  "regeneration_source_sha256": "814c66bf8050c7e8b173b1ef9efce88fd91604a35ad4e1353a069681ab172147",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 78.912,
+  "render_seconds": 78.317,
   "background_seconds": 0.0,
-  "elapsed_seconds": 78.965,
-  "sha256": "bde6e3dfce79166565cc66eac799946345ef2f094f5b55e55321b7feb68092f9"
+  "elapsed_seconds": 78.364,
+  "sha256": "4fa0103c5f8f56e7b3b4ab4f540012c8fa3dc5dcd3a5185bbb62acf0356960b3"
 }
