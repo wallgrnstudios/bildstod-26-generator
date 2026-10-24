@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_30_38",
   "label_sv": "blåst",
-  "fingerprint": "cca0943069d7c7cbd0631e171d454150670891291b704cbd0fd7e97a6d9d14e4",
+  "fingerprint": "467b4b0f1921d71cbf80650bf88233b6f5b393dc67cb3ca19f6d67b05f775432",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: Trees bending and leaves blowing in strong wind, a flag stretched horizontally. Only the people and objects described; no decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1516559742,
+  "seed": 1553348640,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:45:54.821302+00:00",
+  "created_at": "2026-10-24T04:54:42.546697+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -32,14 +32,12 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_30_38_ecdd620fc8d1e3e12be7cde9b9f07705a695211c0c7c66ac19268c9099382d74_r1",
-  "regeneration_source_sha256": "ecdd620fc8d1e3e12be7cde9b9f07705a695211c0c7c66ac19268c9099382d74",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 79.046,
+  "render_seconds": 78.963,
   "background_seconds": 0.0,
-  "elapsed_seconds": 79.08,
-  "sha256": "4fd972803700792c3bf4971ccfd3e73cd78eec178610c9733df789c531bdc065"
+  "elapsed_seconds": 78.993,
+  "sha256": "bdb17be59492e92d5d20dea08b3babed069552921fdf94ddc6b72e32d1b9fbb6"
 }
