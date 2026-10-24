@@ -401,15 +401,15 @@
     {
       "concept_id": "FSK_15_68",
       "label_sv": "olja",
-      "fingerprint": "17d63802191e9c446e1ed49a15e2b1db6f0e3ba20c689791eaa7c05e5eaaeb7e",
+      "fingerprint": "19efec52d3c1a1f73f3e7fc57af8d9596ba054578acab9ede716c987c514221d",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clear narrow cooking-oil bottle filled with transparent golden olive oil, slim metal pouring spout and one golden drop hanging at tip, no label or olives. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1081758902,
+      "seed": 502983068,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T21:28:37.522005+00:00",
+      "created_at": "2026-10-24T04:39:23.960404+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -431,16 +431,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_15_68_a4fd7b3f28deeab5fe1a43ae0735739e921746dfc71ef3b436bb0f9856718c1d_r1",
-      "regeneration_source_sha256": "a4fd7b3f28deeab5fe1a43ae0735739e921746dfc71ef3b436bb0f9856718c1d",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.743,
+      "render_seconds": 78.474,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.77,
-      "sha256": "6b493e94532e1fd20d2f9984d63c71d21b5492014ec2cda1c27d9b88a2abb14c"
+      "elapsed_seconds": 78.497,
+      "sha256": "e36ac3ecbf3ffb8909bb191f3c2d216a009655ed854c1c4de835bd46c2012d07"
     },
     {
       "concept_id": "FSK_15_87",
