@@ -317,15 +317,15 @@
     {
       "concept_id": "FSK_16_38",
       "label_sv": "smör",
-      "fingerprint": "02a8fddeae691ba90ac8bdf93a1c1f8ebf304a112ec91203e2b8d366e3de4a7d",
+      "fingerprint": "953593442413bba4c99407a49a82c503b15cb24d864d995c3f93bc2e2bc6378c",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clean pale-yellow rectangular butter block on a small white dish, one thin slice cut from the end. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 205380518,
+      "seed": 2140425389,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T21:26:09.114933+00:00",
+      "created_at": "2026-10-24T04:36:58.206190+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -347,16 +347,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_16_38_94cac977de119faeaa1ee9f86958b86e647d4f3594af3ef0b0abc6549bafb0f0_r1",
-      "regeneration_source_sha256": "94cac977de119faeaa1ee9f86958b86e647d4f3594af3ef0b0abc6549bafb0f0",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.478,
+      "render_seconds": 79.154,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.536,
-      "sha256": "7091d5bb507da9c9b4c312db34f3791184f6bda201c05eec1c3eb5752854e029"
+      "elapsed_seconds": 79.188,
+      "sha256": "112805bb652cd4723691c313ca7dd6a02834226946a83a42dcc2b330811a6679"
     },
     {
       "concept_id": "FSK_17_10",
