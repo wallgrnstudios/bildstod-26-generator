@@ -2567,15 +2567,15 @@
     {
       "concept_id": "FSK_30_59",
       "label_sv": "batteri",
-      "fingerprint": "c1b1228dda2b381dcaf7c3bfdf419929369bb2167267be887578ba17711c48c4",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary cylindrical AA-style battery, silver body with a blue sleeve, visible raised positive terminal and flat negative end, no labels. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1004401987,
+      "fingerprint": "8609279c7d82d98cdbf19a71e70c820933db560baf25b6f38242d11b04b98869",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One ordinary cylindrical AA-style battery, no labels. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1042226998,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-24T04:53:50.270115+00:00",
+      "created_at": "2026-10-24T15:58:44.099414+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2597,14 +2597,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_30_59_d557a121ca527456d07d56a6c517704358b5a9d186e84f4fc37c902d6580ce88_r1",
+      "regeneration_source_sha256": "d557a121ca527456d07d56a6c517704358b5a9d186e84f4fc37c902d6580ce88",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.42,
+      "render_seconds": 80.167,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.461,
-      "sha256": "d557a121ca527456d07d56a6c517704358b5a9d186e84f4fc37c902d6580ce88"
+      "elapsed_seconds": 80.194,
+      "sha256": "ab813f446f715fc0f6dfd7dce72bfbcc1abd1bd8719fcc971c9d9a67ecbbe453"
     },
     {
       "concept_id": "FSK_30_64",
