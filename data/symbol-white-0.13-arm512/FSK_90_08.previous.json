@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_90_08",
   "label_sv": "lyssna",
-  "fingerprint": "fcccec5cf482432562d1bec01a0a2340ff8b4b5065baa6842c138eb01df0cd83",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child listening attentively, head slightly turned toward a sound, one open hand held BEHIND the visible ear without touching or covering it. Relaxed shoulders, attentive face, upper body view. Both ear opening and listening gesture clearly visible. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1594788900,
+  "fingerprint": "bbfa852ecec348cf515aad99f3e5f1aef342881d82e1b823a85335a682d5c978",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child listening attentively, head slightly turned toward a sound, one open hand held BEHIND the visible ear without touching or covering it. Relaxed shoulders, attentive face, upper body view. Both ear opening and listening gesture clearly visible. Required editor correction: Ser ut som att personen håller för öronen när bilden ska symbolisera att lyssna. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 380450748,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T07:02:30.607209+00:00",
+  "created_at": "2026-10-23T21:47:40.251265+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_90_08_5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225_r1",
+  "regeneration_source_sha256": "5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 82.629,
+  "render_seconds": 80.064,
   "background_seconds": 0.0,
-  "elapsed_seconds": 82.673,
-  "sha256": "5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225"
+  "elapsed_seconds": 80.102,
+  "sha256": "9bb98f3fa822d0a00a38ac407b1a9feac569febfd4d01b4508cdc2117e16834c"
 }

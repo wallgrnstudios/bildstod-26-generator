@@ -1,47 +1,6 @@
 {
   "concept_id": "FSK_12_40",
-  "label_sv": "flytta",
-  "fingerprint": "5783561a158b3335dc05806c3e75031f77ee9cf58af0938efea36b922c169b3b",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view pushing a small wooden chair a short distance along the floor, hands on the backrest, chair legs sliding. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 102346376,
-  "negative_prompt": "",
-  "model": "black-forest-labs/FLUX.2-klein-4B",
-  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-  "style_version": "symbol-white-0.13-arm512",
-  "background_model": "white",
-  "created_at": "2026-10-23T21:25:54.064756+00:00",
-  "license": null,
-  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
-  "style_approved": false,
-  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
-  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
-  "reference_conditioning": true,
-  "implementation": "diffusers-arm64",
-  "quantized_files": null,
-  "symbol_type": "action",
-  "meaning_sv": "Flytta: att få något att byta plats en kort sträcka. Inte flytta bostad.",
-  "must_show_sv": [
-    "Stolen byter plats",
-    "Händer på ryggstödet"
-  ],
-  "must_not_show_sv": [
-    "Flyttkartonger",
-    "Hus",
-    "Bära stolen"
-  ],
-  "width": 512,
-  "height": 512,
-  "steps": 4,
-  "guidance_scale": 1.0,
-  "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_12_40_923261d24d56c7313af8c71e382ffb098c98eca84646320b8482f8f073f0f8ca_r1",
-  "regeneration_source_sha256": "923261d24d56c7313af8c71e382ffb098c98eca84646320b8482f8f073f0f8ca",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 80.348,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 80.379,
-  "sha256": "2fef581134c04413b32226ca74023f66c42be8b116c6c2f6c4f2722fd6c67475"
+  "fingerprint": "e2eb82612838500956822ae7e15c0a58638252990399c38b1125faa081255804",
+  "status": "failed",
+  "error_type": "InterruptedInitialization"
 }
