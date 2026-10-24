@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_28_31",
   "label_sv": "handboll",
-  "fingerprint": "25496cb11bb8404eb9b3cf785f1bdb5fb3dfbc76358536488b0039f668f5fb75",
+  "fingerprint": "d3c2f1da53cfeac6a6fa593e6024d076b5cc9683e631cb07c36175a7cb68b522",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small round handball, textured yellow-blue segmented panels and no seams resembling a tennis ball, no court or hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1105447633,
+  "seed": 1212570747,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T21:22:00.569505+00:00",
+  "created_at": "2026-10-23T19:41:17.497143+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_28_31_0da3644fd52bbb7bd59da02f9fa39a9c6ad8af68aa89b1d4af6a5fcb6ca3964e_r1",
+  "regeneration_source_sha256": "0da3644fd52bbb7bd59da02f9fa39a9c6ad8af68aa89b1d4af6a5fcb6ca3964e",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 80.681,
+  "render_seconds": 79.654,
   "background_seconds": 0.0,
-  "elapsed_seconds": 80.712,
-  "sha256": "0da3644fd52bbb7bd59da02f9fa39a9c6ad8af68aa89b1d4af6a5fcb6ca3964e"
+  "elapsed_seconds": 79.682,
+  "sha256": "7287e91ca1b0e90dafd910bf0c8725f04e479ec85e1ccda13aceccc01265b6db"
 }
