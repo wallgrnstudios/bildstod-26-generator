@@ -798,15 +798,15 @@
     {
       "concept_id": "FSK_17_81",
       "label_sv": "ambulans",
-      "fingerprint": "cccb098f31c0b489fb0e25cc0cae14c3efce96e25ef339ac711e39fa4b43a8a5",
+      "fingerprint": "717094ebe6c61d9e3255236de524b2dec893debafa78b0581e7aa3ebfacbff83",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One yellow ambulance in side view with blue warning lights and simple red medical cross, no lettering. Isolated on white without people, decorative scenery or lettering. Warm contemporary children's book illustration, fine brown pencil lines, soft watercolor shading, natural proportions and muted sage, ochre and terracotta. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1461493655,
+      "seed": 1026812422,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T18:58:52.156049+00:00",
+      "created_at": "2026-10-24T04:37:19.731205+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -828,16 +828,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_17_81_81029a251b1fc5e60e78fe3cc1beb732eb7d9167644df65a96923dbe66de5a2f_r1",
-      "regeneration_source_sha256": "81029a251b1fc5e60e78fe3cc1beb732eb7d9167644df65a96923dbe66de5a2f",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.251,
+      "render_seconds": 78.28,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.299,
-      "sha256": "398fe611e5dbd177ec4ce74b15fbd2f42469aa3e761b0547685c816d5694f8d6"
+      "elapsed_seconds": 78.304,
+      "sha256": "d43e963c98d29ab18799d2697ef7ce795a4503da01238781a5db4fb13514b061"
     },
     {
       "concept_id": "FSK_18_02",
