@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_19_24",
   "label_sv": "ficka",
-  "fingerprint": "6d9f29c86df8d41b45787a3c89310e4ddbfdca5d59074bd50c8efed3cca5b874",
+  "fingerprint": "20c6ec772cc056a61698b71f451653f0cabf7cf0c7f51863411597ccbf4ed3bb",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up of one square blue denim patch pocket sewn onto a small flat section of blue fabric, open upper edge clearly visible. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 392747030,
+  "seed": 1919856981,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T20:40:01.898564+00:00",
+  "created_at": "2026-10-23T19:31:20.700089+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_19_24_afae9e35abb21055fbb6f1464ff00e0738d7cdc67ff42899f2e30a887bccd3b9_r1",
+  "regeneration_source_sha256": "afae9e35abb21055fbb6f1464ff00e0738d7cdc67ff42899f2e30a887bccd3b9",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 78.873,
+  "render_seconds": 80.053,
   "background_seconds": 0.0,
-  "elapsed_seconds": 78.899,
-  "sha256": "afae9e35abb21055fbb6f1464ff00e0738d7cdc67ff42899f2e30a887bccd3b9"
+  "elapsed_seconds": 80.081,
+  "sha256": "21a7b9ebb6e4605ea11f1fb08ed1cc7db469826fff81b38b345e74725513647e"
 }
