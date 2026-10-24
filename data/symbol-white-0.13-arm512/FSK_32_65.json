@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_32_65",
   "label_sv": "visselpipa",
-  "fingerprint": "a0edb2e93c8e19489026e1e28818bd4ce64b8b85a88e469b0a75ed4ab5836105",
+  "fingerprint": "69643d5cc9df6eac56fece3664dcd4f49ec33e5ce7db36f78617e5c38cfad5ae",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One blue sports whistle, short mouthpiece connected to a compact hollow body, visible top air opening and small ring at back. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 88507764,
+  "seed": 463100840,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:51:17.118542+00:00",
+  "created_at": "2026-10-24T04:50:42.708724+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,14 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_32_65_23937552a1071057bf42d72f333126a711c1616b26191857f70f10189b136844_r1",
-  "regeneration_source_sha256": "23937552a1071057bf42d72f333126a711c1616b26191857f70f10189b136844",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.829,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.877,
-  "sha256": "d0871727a26de48ce4516b06ebc42942da9ab88b1dddf382108c7b0a604344e3"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
