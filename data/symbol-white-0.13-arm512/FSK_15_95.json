@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_15_95",
   "label_sv": "axel",
-  "fingerprint": "e895f366f1737867772be47f051787b18aea503ac0f5a846c800f3167bb5eea9",
+  "fingerprint": "57f971b9fd8de10d4e2466659c3dbee244274f7118773c3e110547eb78e3a6bc",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: A preschool child in front view cropped at the neck and upper arms wearing a plain t-shirt, one hand resting on the opposite shoulder. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 693663773,
+  "seed": 2004048348,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T21:29:59.863565+00:00",
+  "created_at": "2026-10-24T04:40:43.996873+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -35,14 +35,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_15_95_68fa30845d327018f8a89ceab91865f73ebbcff3526ca68e2545168a229321b6_r1",
-  "regeneration_source_sha256": "68fa30845d327018f8a89ceab91865f73ebbcff3526ca68e2545168a229321b6",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 80.868,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 80.915,
-  "sha256": "36c1982248c59d52079dd4206b9e4ae756457ec5f9ce3ad234a73b2f4432fcb4"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
