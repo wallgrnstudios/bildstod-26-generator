@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_30_77",
   "label_sv": "ved",
-  "fingerprint": "7f227a617bfd78569caaf8ed5be00bc16084b16f10cd0194d9cb6987a3c394b4",
+  "fingerprint": "608747f9ec01fc4053d141faae4c85ef43df346930070ca812f208d222788052",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: Three short split firewood logs stacked neatly, clean pale split faces and natural bark along outside edges, no fire or tools. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 210586490,
+  "seed": 888290504,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:47:15.555969+00:00",
+  "created_at": "2026-10-24T04:56:03.366387+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,14 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_30_77_372505f0fea0337bd4eeccc06d8eb8a774ed0b6fdd1fea71be65b40f97830fe4_r1",
-  "regeneration_source_sha256": "372505f0fea0337bd4eeccc06d8eb8a774ed0b6fdd1fea71be65b40f97830fe4",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.647,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.681,
-  "sha256": "0cdac0d13129719af0db43b597193d765798bba7c321fdfaf297cac4468cec51"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
