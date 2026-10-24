@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_21_25",
   "label_sv": "lekplats",
-  "fingerprint": "2507fbb5a288eb142253b779ade93cc2f31a57159cc9127a36fe0b7a778fb0a1",
+  "fingerprint": "c52f066ddc1a1b7eefb5a17e1076e7d7f4becefc6bb6ec17e6ce752e6edf4a05",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: A playground with a slide, a swing set with two swings and a sandbox with a small bucket. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1598423701,
+  "seed": 391213291,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T22:26:32.813239+00:00",
+  "created_at": "2026-10-23T21:34:19.049705+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_21_25_0c54746bde8f41ef6a8eb6c59fdfc5eb87a990e2c44a70866c08664a1c465bac_r1",
+  "regeneration_source_sha256": "0c54746bde8f41ef6a8eb6c59fdfc5eb87a990e2c44a70866c08664a1c465bac",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 79.088,
+  "render_seconds": 79.073,
   "background_seconds": 0.0,
-  "elapsed_seconds": 79.12,
-  "sha256": "0c54746bde8f41ef6a8eb6c59fdfc5eb87a990e2c44a70866c08664a1c465bac"
+  "elapsed_seconds": 79.095,
+  "sha256": "0656b86777c6421aa8ce94148c3978d50c84bd996f1fa270724ff4cf5b1d512b"
 }
