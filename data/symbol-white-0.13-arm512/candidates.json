@@ -577,15 +577,15 @@
     {
       "concept_id": "FSK_16_31",
       "label_sv": "skala",
-      "fingerprint": "c672a20acf1196be7d77c3cb343ab38c3db2ed821a3f7634f4dc9ae8a0cac4b6",
+      "fingerprint": "25b58458e26b7bb984f6488cbc9e09c23a9d1cf84c6faccddd6388ecaafac8b7",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One child peeling a carrot with a vegetable peeler held over a bowl, a curl of peel falling, one hand holding the carrot. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 923879847,
+      "seed": 1036905058,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:33:22.599002+00:00",
+      "created_at": "2026-10-24T04:38:52.479105+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -609,16 +609,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_16_31_b363abefee160566705472f7ea73dfb7ec8ab3c177bda9781b15c30f596f140f_r1",
-      "regeneration_source_sha256": "b363abefee160566705472f7ea73dfb7ec8ab3c177bda9781b15c30f596f140f",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.684,
+      "render_seconds": 79.877,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.715,
-      "sha256": "c3134554cad310edd7c85a1ff577ad69e6689b9590e30290edd00602829e9727"
+      "elapsed_seconds": 79.915,
+      "sha256": "c3211149894f7da0430494cd4d0bf13efc6451bc4be8f71b22966127b21cab7e"
     },
     {
       "concept_id": "FSK_16_42",
