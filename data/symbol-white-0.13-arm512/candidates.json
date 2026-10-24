@@ -1357,15 +1357,15 @@
     {
       "concept_id": "FSK_19_88",
       "label_sv": "panna",
-      "fingerprint": "86c3407b6c3e1354cb862fa4a02945f8936f605378044260607d9b45fb40e89b",
+      "fingerprint": "71224fbfa87ead495c53b2b641eea83343337455b37feee5f57def182e393452",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: Front view of a preschool child's forehead cropped from the hairline to the eyes, with one hand lightly touching it. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1993025371,
+      "seed": 564959691,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:39:17.611306+00:00",
+      "created_at": "2026-10-24T04:45:44.920973+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1391,16 +1391,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_19_88_ef0fbf24014fffed3bfd8c6c22ebc22d1b393a508f49d9b698ba5cb33b13cfb2_r1",
-      "regeneration_source_sha256": "ef0fbf24014fffed3bfd8c6c22ebc22d1b393a508f49d9b698ba5cb33b13cfb2",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.253,
+      "render_seconds": 79.338,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.323,
-      "sha256": "79856a3766cd4349dd4adc812d0767c5b37a7d3083cb684948826d4dfebe7f5b"
+      "elapsed_seconds": 79.398,
+      "sha256": "c4328a970ff8a9ffed5a9de4ac53d8266b0cb6e6d4427b69605f18e4f9e3503b"
     },
     {
       "concept_id": "FSK_20_01",
