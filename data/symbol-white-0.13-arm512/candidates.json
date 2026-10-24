@@ -2437,15 +2437,15 @@
     {
       "concept_id": "FSK_28_98",
       "label_sv": "uggla",
-      "fingerprint": "9f4a62459fe0446ebac5d83c7420343747c22200fd6e6c39707a3f9d09268498",
+      "fingerprint": "374d3d123615c5f92b8cdc6be1ea86a7645f99fc340647a83f212f5a6251b19c",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One brown owl perched on a short plain branch, large forward-facing eyes, round facial disk and short hooked beak. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 314755133,
+      "seed": 149662303,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:43:27.433211+00:00",
+      "created_at": "2026-10-24T04:53:23.485967+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2467,16 +2467,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_28_98_1cf852cfc15ee96241d48351f5aa52ce6ca9b8979062e39d94ffa613f5fd8095_r1",
-      "regeneration_source_sha256": "1cf852cfc15ee96241d48351f5aa52ce6ca9b8979062e39d94ffa613f5fd8095",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.721,
+      "render_seconds": 79.627,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.745,
-      "sha256": "043e5d76e67731a8bb55d911a5c3774d28d60a34f5f3f3827a83f80ec790e457"
+      "elapsed_seconds": 79.681,
+      "sha256": "91482c32d3aa7b9649fff9ef8386a43dec7f51450591543e76241891f8765dbb"
     },
     {
       "concept_id": "FSK_28_99",
