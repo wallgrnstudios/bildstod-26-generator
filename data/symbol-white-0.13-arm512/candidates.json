@@ -4030,15 +4030,15 @@
     {
       "concept_id": "FSK_32_73",
       "label_sv": "rockring",
-      "fingerprint": "54ca77ec5bb574eccc5063cd214ffbd28faa21f38e14bef7eafe230edc5c9f31",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One single smooth plastic preschool hula hoop, complete bright RED circular tube, thin uniform rounded cross section, wide empty center. Slight perspective angle, no stripes or woody texture. Required editor correction: Gör den mer lik svenska rockringar i färgerna. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 938486679,
+      "fingerprint": "891f488fe7af10febe8487975dd3655464e8bc854e196192b9c58910e59c1dd3",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One single smooth plastic preschool hula hoop, complete bright RED circular tube, thin uniform rounded cross section, wide empty center. Slight perspective angle, no stripes or woody texture. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1691391192,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:52:38.532031+00:00",
+      "created_at": "2026-10-24T04:52:02.373577+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -4060,16 +4060,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_32_73_de02b185c89193c2b3b6c47099c988333195e370d6d321a81129cebbb55184ee_r1",
-      "regeneration_source_sha256": "de02b185c89193c2b3b6c47099c988333195e370d6d321a81129cebbb55184ee",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.945,
+      "render_seconds": 78.679,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.986,
-      "sha256": "75d7432414ba1a1c84f045283ce02a6deab0d6ed6ed701b1ea0a8b449f2afc5c"
+      "elapsed_seconds": 78.722,
+      "sha256": "c4dfb7a04837ba506e9f7ec92fc7adc2f1fc77d1a88ede5f80a36300f91dafe3"
     },
     {
       "concept_id": "FSK_90_10",
