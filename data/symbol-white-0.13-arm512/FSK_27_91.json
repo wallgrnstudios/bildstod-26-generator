@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_27_91",
   "label_sv": "skräp",
-  "fingerprint": "0d8dc0e3914d2d970c43acda1d1aadd9fbee4321cd7ba074d7789110d35b43a9",
+  "fingerprint": "083e1da0ecce8d526c807ba817e0c73e8548027d6117722626a333ecf970f901",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: A small loose heap of typical litter lying on the ground: a crumpled paper ball, an empty plastic bottle without label, a flattened drink can and a candy wrapper. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1787667710,
+  "seed": 1688850993,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:39:56.675624+00:00",
+  "created_at": "2026-10-24T04:46:15.141232+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -37,14 +37,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_27_91_b387bc98074ea05ae0f61545b3e4779a330ab4f4f3e5023c2784d806f6d15552_r1",
-  "regeneration_source_sha256": "b387bc98074ea05ae0f61545b3e4779a330ab4f4f3e5023c2784d806f6d15552",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.324,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.351,
-  "sha256": "467eb342e60413f4e33d64703bd6e7f666d8d14303182a4c3e396eb320bcc740"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
