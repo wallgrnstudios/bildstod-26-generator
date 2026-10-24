@@ -3364,15 +3364,15 @@
     {
       "concept_id": "FSK_31_79",
       "label_sv": "gummi",
-      "fingerprint": "7b4fad3aa902872eb7c290db8605ffd27a9d08417b4e106c03a4c3e3eb65810b",
+      "fingerprint": "f5ab48a879466ba0faa9b270b7aed32380bfe54ac63bd1c3e2f72317d9b532f9",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: A flat black rubber sheet with a rolled-up strip and a few coloured rubber bands lying on it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1124767713,
+      "seed": 505530561,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:42:38.600270+00:00",
+      "created_at": "2026-10-24T04:48:54.828090+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -3396,16 +3396,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_31_79_ca009e6e70b777d331c872fd1990d70a67b050c544fe99442454f6ca8813923c_r1",
-      "regeneration_source_sha256": "ca009e6e70b777d331c872fd1990d70a67b050c544fe99442454f6ca8813923c",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.277,
+      "render_seconds": 78.649,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.322,
-      "sha256": "3b17feca1eb308aa8704cad9a20ff45cdfba4c602076a448f868967a23e8bff8"
+      "elapsed_seconds": 78.704,
+      "sha256": "63af062b4c0cdc72edb039ec257dca1f00de24a32b5d7a7f246540c3d0b4a6d4"
     },
     {
       "concept_id": "FSK_32_02",
