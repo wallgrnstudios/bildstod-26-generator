@@ -313,15 +313,15 @@
     {
       "concept_id": "FSK_15_18",
       "label_sv": "städa",
-      "fingerprint": "7fb5bf1d3f10c686c425f8e76fd205ae3efcca40fea261804ede1a0689703b3a",
+      "fingerprint": "6fbc6e38ef5da919da9d684a0c9dfcef48563f2008206df707e57c4347bdbbc1",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child standing at a small table wiping its surface with a damp cloth in a circular motion, one hand holding the cloth, a few crumbs being collected. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1363652671,
+      "seed": 1413788522,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:32:02.013752+00:00",
+      "created_at": "2026-10-24T04:37:31.226815+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -346,16 +346,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_15_18_9b3c2fd1a7ebd400405ed83a017015e68c1db45ae0349d52f5fdfe6fd7502dea_r1",
-      "regeneration_source_sha256": "9b3c2fd1a7ebd400405ed83a017015e68c1db45ae0349d52f5fdfe6fd7502dea",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.7,
+      "render_seconds": 79.87,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.733,
-      "sha256": "c0044e48bd5c4199324e2b61aa5207deb843746abc23ac7a1f0aedf73ec35450"
+      "elapsed_seconds": 79.897,
+      "sha256": "7d0eeed943d8a0d9aa0d275cbb648f5a747305dda2dbdc8fe6d7edf59b9e9063"
     },
     {
       "concept_id": "FSK_15_22",
