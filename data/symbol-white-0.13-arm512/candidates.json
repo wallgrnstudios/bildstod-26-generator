@@ -271,15 +271,15 @@
     {
       "concept_id": "FSK_14_62",
       "label_sv": "te",
-      "fingerprint": "1d0eff0221dcc601aed7e487bbe145d5f43bb9dbb93f4532c3f919e3d53c0424",
+      "fingerprint": "9a85e343ecb50ae0b825a183f51f2bd44665d3f06f39b2f37c9d6564fd69122d",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One clear glass cup of light amber tea on a saucer, a tea bag string hanging over the rim with a plain unlabeled tag, thin steam rising. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 946801357,
+      "seed": 893163467,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:31:16.690898+00:00",
+      "created_at": "2026-10-24T04:37:39.823601+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -303,16 +303,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_14_62_18bf7b122717df9a7af656485dee85a817a7c0529a08aed5e82a17d0dcea59ed_r1",
-      "regeneration_source_sha256": "18bf7b122717df9a7af656485dee85a817a7c0529a08aed5e82a17d0dcea59ed",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.526,
+      "render_seconds": 80.415,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.579,
-      "sha256": "67200fccef5a7c9e0c6fef59fb58b7eed5e7ac6b7289508b61e2485705dc5c03"
+      "elapsed_seconds": 80.459,
+      "sha256": "1d2560f8a7e750d8794f74c07c40ced189e0de8b3940663e60939af752097283"
     },
     {
       "concept_id": "FSK_14_66",
