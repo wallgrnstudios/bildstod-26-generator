@@ -534,15 +534,15 @@
     {
       "concept_id": "FSK_18_65",
       "label_sv": "hälla",
-      "fingerprint": "585cd49a52bc27d017fa3ba52a3507f06ca199bbeaa52c5810429530c5e66ebf",
+      "fingerprint": "3b1665642438998cc25fbe3de25c2681a1b4ca0104d0429394a52098664fb8b8",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One child pouring water from a small jug into a glass on a table, the stream clearly visible, the glass half full. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 726303430,
+      "seed": 1870515677,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T21:28:52.416954+00:00",
+      "created_at": "2026-10-24T04:39:39.212101+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -566,16 +566,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_18_65_7aabba7886b9e2f5f90258ee62511de22c32e5187ad95985ac3fb65826553de0_r1",
-      "regeneration_source_sha256": "7aabba7886b9e2f5f90258ee62511de22c32e5187ad95985ac3fb65826553de0",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.008,
+      "render_seconds": 78.543,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.049,
-      "sha256": "60c0fdec8584cee7466165218c8d096bc6d18ec921e492b970e561be6963f86a"
+      "elapsed_seconds": 78.588,
+      "sha256": "62e9d667b48850070a8c3071a718c2a05b516db5f81d734d1fe35c53f1dc932d"
     },
     {
       "concept_id": "FSK_18_78",
