@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_18_55",
   "label_sv": "släcka",
-  "fingerprint": "e8dd43746b7f4079b9afdfae27142b0d0d1ae1f24a9115b05471df494b9d925b",
+  "fingerprint": "1a66e16de6aed31d84046b8c2fa74b942a9d6b0577e4f92757dea1171f0c2040",
   "prompt": "Create one isolated illustration: Girl, red braid, freckles, purple t-shirt, pressing a wall light switch; the lamp beside her has gone dark. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 368622967,
+  "seed": 1503751687,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:37:05.834883+00:00",
+  "created_at": "2026-10-24T04:43:03.439318+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -33,14 +33,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_18_55_0521d6aca2bec20f3ee45ae63ae0e3197ec473b5edcde29ec8b2ca7c2d6c8b9e_r1",
-  "regeneration_source_sha256": "0521d6aca2bec20f3ee45ae63ae0e3197ec473b5edcde29ec8b2ca7c2d6c8b9e",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 66.02,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 66.058,
-  "sha256": "b725447abce620725f0caee9372c4a31bc0c7aa0523e9d26cb5a40da9a3aedeb"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
