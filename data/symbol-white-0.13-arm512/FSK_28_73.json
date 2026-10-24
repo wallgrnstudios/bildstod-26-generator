@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_28_73",
   "label_sv": "apa",
-  "fingerprint": "1aa2003621138842654e6eef7340def1676641fef2f1783e4c213d4b1217f6c6",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small brown long-tailed monkey seated, expressive round face, grasping hands and feet, long curved tail. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 103085204,
+  "fingerprint": "31bba9a684f073a2cb51ed1217ce086c31557a2282d37eda93d6265d1c152ba6",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small brown monkey seated, expressive round face, grasping hands and feet, long curved tail. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 267503518,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-24T04:55:25.359386+00:00",
+  "created_at": "2026-10-24T20:49:22.176592+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 78.713,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 78.766,
-  "sha256": "30d7a1ed92ac96d6ee393944657e602dce9d4dda26234029bd2c4aca9f7154a4"
+  "regeneration_request_id": "FSK_28_73_30d7a1ed92ac96d6ee393944657e602dce9d4dda26234029bd2c4aca9f7154a4_r1",
+  "regeneration_source_sha256": "30d7a1ed92ac96d6ee393944657e602dce9d4dda26234029bd2c4aca9f7154a4",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
