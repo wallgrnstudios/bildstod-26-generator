@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_31_36",
   "label_sv": "täcke",
-  "fingerprint": "d463afd7f378cc922f2b27fa9a380d65dc1fc08a5760e79db99902fc47986d32",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One thick clean WHITE bed duvet partly folded, broad padded rectangular form, subtle square quilting and stitched edge. Pristine white cotton cover with only very pale cool-blue fold shadows. No brown, ochre, stains or mottled texture. Required editor correction: Täcker ser väldigt smutsigt ut vilket inte känns trevligt. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 587680656,
+  "fingerprint": "f4fcff810b7c65bcf832e9400769e1af50f8ed391327607706190ce95cc82ee2",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One thick clean WHITE bed duvet partly folded, broad padded rectangular form, subtle square quilting and stitched edge. Pristine white cotton cover with only very pale cool-blue fold shadows. No brown, ochre, stains or mottled texture. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1679558230,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:41:53.456468+00:00",
+  "created_at": "2026-10-24T04:42:27.403315+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,14 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_31_36_d512a956a85e35b05082aa85de9a8bbccf69279673040d83959e4d2e1f8a04da_r1",
-  "regeneration_source_sha256": "d512a956a85e35b05082aa85de9a8bbccf69279673040d83959e4d2e1f8a04da",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.604,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.642,
-  "sha256": "6106bf20264597db5fee3edd5315944ae0c611df784e8cd3c9f8e01d850cd474"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
