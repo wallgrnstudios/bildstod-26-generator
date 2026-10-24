@@ -1,159 +1,33 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-24T01:54:54.418071+00:00",
+  "checked_at": "2026-10-24T05:06:03.651973+00:00",
   "coverage": {
     "enabled": 804,
     "with_image": 804,
     "pending": [
-      "FSK_90_08",
-      "FSK_91_46",
-      "FSK_91_47",
-      "FSK_21_94",
-      "FSK_21_27",
-      "FSK_29_30",
-      "FSK_29_29",
-      "FSK_32_73",
-      "FSK_32_08",
-      "FSK_20_99",
-      "FSK_31_36",
-      "FSK_17_81",
-      "FSK_17_46",
-      "FSK_19_95",
-      "FSK_19_71",
-      "FSK_21_22",
-      "FSK_19_59",
-      "FSK_21_80",
-      "FSK_19_24",
-      "FSK_21_26",
-      "FSK_21_54",
-      "FSK_20_53",
-      "FSK_31_81",
-      "FSK_32_65",
-      "FSK_31_64",
-      "FSK_31_15",
-      "FSK_28_73",
-      "FSK_29_21",
-      "FSK_28_98",
-      "FSK_29_13",
-      "FSK_31_99",
-      "FSK_32_06",
-      "FSK_16_38",
-      "FSK_18_53",
-      "FSK_18_04",
-      "FSK_19_42",
-      "FSK_22_51",
-      "FSK_26_48",
-      "FSK_30_59",
-      "FSK_29_19",
       "FSK_32_63",
-      "FSK_31_80",
-      "FSK_28_31",
-      "FSK_32_45",
-      "FSK_32_48",
-      "FSK_28_94",
-      "FSK_31_77",
-      "FSK_30_77",
-      "FSK_30_33",
-      "FSK_26_55",
-      "FSK_15_68",
-      "FSK_11_69",
-      "FSK_12_40",
-      "FSK_13_25",
-      "FSK_13_42",
-      "FSK_13_50",
-      "FSK_13_89",
-      "FSK_14_34",
-      "FSK_14_62",
-      "FSK_14_69",
-      "FSK_15_08",
-      "FSK_15_18",
-      "FSK_15_50",
-      "FSK_15_83",
-      "FSK_15_95",
-      "FSK_16_31",
-      "FSK_16_46",
-      "FSK_16_49",
-      "FSK_16_90",
-      "FSK_17_49",
-      "FSK_17_73",
-      "FSK_17_90",
-      "FSK_17_91",
-      "FSK_17_92",
-      "FSK_17_93",
-      "FSK_18_39",
-      "FSK_18_54",
-      "FSK_18_55",
-      "FSK_18_56",
-      "FSK_18_65",
-      "FSK_18_73",
-      "FSK_18_86",
-      "FSK_19_02",
-      "FSK_19_03",
-      "FSK_19_30",
-      "FSK_19_39",
-      "FSK_19_61",
-      "FSK_19_62",
-      "FSK_19_88",
-      "FSK_20_14",
-      "FSK_20_38",
-      "FSK_20_40",
-      "FSK_20_58",
-      "FSK_20_60",
-      "FSK_20_62",
-      "FSK_20_88",
-      "FSK_21_23",
-      "FSK_21_25",
-      "FSK_21_31",
-      "FSK_21_32",
-      "FSK_21_38",
-      "FSK_22_23",
-      "FSK_22_50",
-      "FSK_23_45",
-      "FSK_25_95",
-      "FSK_26_34",
-      "FSK_26_80",
-      "FSK_27_33",
-      "FSK_27_66",
-      "FSK_27_78",
-      "FSK_27_82",
-      "FSK_27_91",
-      "FSK_29_84",
-      "FSK_29_85",
-      "FSK_30_01",
-      "FSK_28_10",
-      "FSK_30_21",
-      "FSK_30_38",
-      "FSK_28_38",
-      "FSK_28_66",
-      "FSK_30_64",
-      "FSK_31_03",
-      "FSK_31_42",
-      "FSK_31_48",
-      "FSK_31_57",
-      "FSK_31_71",
-      "FSK_31_79",
-      "FSK_31_91"
+      "FSK_32_48"
     ],
     "failed": []
   },
   "workflows": {
     "Generate pilot candidates": {
-      "id": 40026286745,
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2026-10-23T21:22:29Z",
-      "updated_at": "2026-10-23T21:55:56Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40026286745",
+      "id": 40062781438,
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-10-24T04:33:02Z",
+      "updated_at": "2026-10-24T04:33:25Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40062781438",
       "last_success_at": "2026-10-23T21:55:56Z"
     },
     "Suggest image metadata": {
-      "id": 40043114966,
+      "id": 40064893999,
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-10-24T00:04:26Z",
-      "updated_at": "2026-10-24T00:04:41Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40043114966",
-      "last_success_at": "2026-10-24T00:04:41Z"
+      "created_at": "2026-10-24T05:05:25Z",
+      "updated_at": "2026-10-24T05:05:45Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40064893999",
+      "last_success_at": "2026-10-24T05:05:45Z"
     }
   },
   "reworks": [],
@@ -221,8 +95,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.984,
         "sha256": "b8195b95fa50d4d6d4dac933d51f095d23fc05d86588ab551a8797cb8939c7b0",
-        "source_commit": "c6fab61fdccf95da585f7e1f7b0e42212236a787",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c6fab61fdccf95da585f7e1f7b0e42212236a787/data/symbol-white-0.13-arm512/FSK_90_01.png"
+        "source_commit": "f13163879f63de681a6518dca54a807797359ea3",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f13163879f63de681a6518dca54a807797359ea3/data/symbol-white-0.13-arm512/FSK_90_01.png"
       },
       "baseline": {
         "concept_id": "FSK_90_01",
@@ -326,8 +200,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.449,
         "sha256": "d4ba405713076d62a9b2bb2b4b6211d4e6dc7c0bb1b1f33c4b535257547babb8",
-        "source_commit": "bc6068ffb58eb6d46862542b9f9b9d52251c9ce5",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/bc6068ffb58eb6d46862542b9f9b9d52251c9ce5/data/symbol-white-0.13-arm512/FSK_90_02.png"
+        "source_commit": "a0943f6c9dd69768899dfebba3f8832c4db07c3c",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/a0943f6c9dd69768899dfebba3f8832c4db07c3c/data/symbol-white-0.13-arm512/FSK_90_02.png"
       },
       "baseline": {
         "concept_id": "FSK_90_02",
@@ -431,8 +305,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.498,
         "sha256": "d292a17dabcef61fd0e8d74befd9040a425cd17253be47bcfc718675d17460d9",
-        "source_commit": "453583c7f9f98446d7cc58ba74e9366d954a5d1f",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/453583c7f9f98446d7cc58ba74e9366d954a5d1f/data/symbol-white-0.13-arm512/FSK_90_03.png"
+        "source_commit": "5e2d3bf3472048f42eafcfece38ed2afe7710e17",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/5e2d3bf3472048f42eafcfece38ed2afe7710e17/data/symbol-white-0.13-arm512/FSK_90_03.png"
       },
       "baseline": {
         "concept_id": "FSK_90_03",
@@ -536,8 +410,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.176,
         "sha256": "7b1073e64c3bfde83e96cc08c24db1e7c6dc3aef1b60f01a441632c490eeddc0",
-        "source_commit": "d053149ba580f35f1774576ab3823b988822982e",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d053149ba580f35f1774576ab3823b988822982e/data/symbol-white-0.13-arm512/FSK_90_05.png"
+        "source_commit": "81c110c08adb0da58642c2128a00e0157a9efa03",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/81c110c08adb0da58642c2128a00e0157a9efa03/data/symbol-white-0.13-arm512/FSK_90_05.png"
       },
       "baseline": {
         "concept_id": "FSK_90_05",
@@ -637,8 +511,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.536,
         "sha256": "b3907dc44c6058cb317802e3bd2baf00c28adc2e16601f0146ca5c9933bf614a",
-        "source_commit": "4f3c7c7d715c854b5e647a1d0ffefc12eed55f8c",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/4f3c7c7d715c854b5e647a1d0ffefc12eed55f8c/data/symbol-white-0.13-arm512/FSK_90_06.png"
+        "source_commit": "fdb5f22a61b180e8c399bd61afbcbee5cfe7d8e0",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/fdb5f22a61b180e8c399bd61afbcbee5cfe7d8e0/data/symbol-white-0.13-arm512/FSK_90_06.png"
       },
       "baseline": {
         "concept_id": "FSK_90_06",
@@ -738,8 +612,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.693,
         "sha256": "c4bebfeb4bac9b1a662751a36b48bff7d05968d41a42661c49b0027e5867db6f",
-        "source_commit": "bc6068ffb58eb6d46862542b9f9b9d52251c9ce5",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/bc6068ffb58eb6d46862542b9f9b9d52251c9ce5/data/symbol-white-0.13-arm512/FSK_90_07.png"
+        "source_commit": "a0943f6c9dd69768899dfebba3f8832c4db07c3c",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/a0943f6c9dd69768899dfebba3f8832c4db07c3c/data/symbol-white-0.13-arm512/FSK_90_07.png"
       },
       "baseline": {
         "concept_id": "FSK_90_07",
@@ -800,15 +674,15 @@
       "current": {
         "concept_id": "FSK_90_08",
         "label_sv": "lyssna",
-        "fingerprint": "bbfa852ecec348cf515aad99f3e5f1aef342881d82e1b823a85335a682d5c978",
-        "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child listening attentively, head slightly turned toward a sound, one open hand held BEHIND the visible ear without touching or covering it. Relaxed shoulders, attentive face, upper body view. Both ear opening and listening gesture clearly visible. Required editor correction: Ser ut som att personen håller för öronen när bilden ska symbolisera att lyssna. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-        "seed": 380450748,
+        "fingerprint": "fcccec5cf482432562d1bec01a0a2340ff8b4b5065baa6842c138eb01df0cd83",
+        "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child listening attentively, head slightly turned toward a sound, one open hand held BEHIND the visible ear without touching or covering it. Relaxed shoulders, attentive face, upper body view. Both ear opening and listening gesture clearly visible. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+        "seed": 1594788900,
         "negative_prompt": "",
         "model": "black-forest-labs/FLUX.2-klein-4B",
         "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
         "style_version": "symbol-white-0.13-arm512",
         "background_model": "white",
-        "created_at": "2026-10-23T21:47:40.251265+00:00",
+        "created_at": "2026-10-24T04:59:26.560721+00:00",
         "license": null,
         "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
         "style_approved": false,
@@ -830,18 +704,16 @@
         "steps": 4,
         "guidance_scale": 1.0,
         "cpu_dtype": "bfloat16",
-        "regeneration_request_id": "FSK_90_08_5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225_r1",
-        "regeneration_source_sha256": "5b9c379495297df03841b0286fb7ad60f53d20ef065b6c5571b9a147614b9225",
         "status": "pending_review",
         "transparency": {
           "background": "white"
         },
-        "render_seconds": 80.064,
+        "render_seconds": 78.378,
         "background_seconds": 0.0,
-        "elapsed_seconds": 80.102,
-        "sha256": "9bb98f3fa822d0a00a38ac407b1a9feac569febfd4d01b4508cdc2117e16834c",
-        "source_commit": "453583c7f9f98446d7cc58ba74e9366d954a5d1f",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/453583c7f9f98446d7cc58ba74e9366d954a5d1f/data/symbol-white-0.13-arm512/FSK_90_08.png"
+        "elapsed_seconds": 78.421,
+        "sha256": "aacb0d55ef714231e6d03b41628c2c09ef588cb6042c77d3a6f80f416be6a1d7",
+        "source_commit": "5e2d3bf3472048f42eafcfece38ed2afe7710e17",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/5e2d3bf3472048f42eafcfece38ed2afe7710e17/data/symbol-white-0.13-arm512/FSK_90_08.png"
       },
       "baseline": {
         "concept_id": "FSK_90_08",
@@ -939,8 +811,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 82.476,
         "sha256": "d6a7b38d87b50eb52f411b4b11b573eb3b8a742aa2cf27e4b5f4db395da763cc",
-        "source_commit": "a4538880cbaab49cde7c2d97f79e3aad8483473d",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/a4538880cbaab49cde7c2d97f79e3aad8483473d/data/symbol-white-0.13-arm512/FSK_90_09.png"
+        "source_commit": "f5af27f2a9fa0a2eda1ced3d2752df8ec6a6f9d5",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f5af27f2a9fa0a2eda1ced3d2752df8ec6a6f9d5/data/symbol-white-0.13-arm512/FSK_90_09.png"
       },
       "baseline": {
         "concept_id": "FSK_90_09",
@@ -1038,8 +910,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 82.384,
         "sha256": "57232efd64ee3657945efd72d19b57111f635973a7d039c0be62bf496d67a96e",
-        "source_commit": "c97836eb3c05aa3282ac8e5aff2111eac13596e2",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c97836eb3c05aa3282ac8e5aff2111eac13596e2/data/symbol-white-0.13-arm512/FSK_90_10.png"
+        "source_commit": "cd26cf1200df5782ba2d884cd06488c9383ec775",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/cd26cf1200df5782ba2d884cd06488c9383ec775/data/symbol-white-0.13-arm512/FSK_90_10.png"
       },
       "baseline": {
         "concept_id": "FSK_90_10",
@@ -1137,8 +1009,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.824,
         "sha256": "51b23b72d6b403bf5a3ca88f2421335b4ade69e437e40dc3f192573929fc8ee8",
-        "source_commit": "a4538880cbaab49cde7c2d97f79e3aad8483473d",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/a4538880cbaab49cde7c2d97f79e3aad8483473d/data/symbol-white-0.13-arm512/FSK_91_04.png"
+        "source_commit": "f5af27f2a9fa0a2eda1ced3d2752df8ec6a6f9d5",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f5af27f2a9fa0a2eda1ced3d2752df8ec6a6f9d5/data/symbol-white-0.13-arm512/FSK_91_04.png"
       },
       "baseline": {
         "concept_id": "FSK_91_04",
@@ -1236,8 +1108,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 80.794,
         "sha256": "4d1cc1ab63b27645aa9cc2cd17c1ce615c0d087697d68917cd4fed9123757aaa",
-        "source_commit": "453583c7f9f98446d7cc58ba74e9366d954a5d1f",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/453583c7f9f98446d7cc58ba74e9366d954a5d1f/data/symbol-white-0.13-arm512/FSK_91_06.png"
+        "source_commit": "5e2d3bf3472048f42eafcfece38ed2afe7710e17",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/5e2d3bf3472048f42eafcfece38ed2afe7710e17/data/symbol-white-0.13-arm512/FSK_91_06.png"
       },
       "baseline": {
         "concept_id": "FSK_91_06",
@@ -1335,8 +1207,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.981,
         "sha256": "33526f89af3d0236227275a9d4b2672d453901cd322a982ec92ef8dde537a73e",
-        "source_commit": "d053149ba580f35f1774576ab3823b988822982e",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d053149ba580f35f1774576ab3823b988822982e/data/symbol-white-0.13-arm512/FSK_91_20.png"
+        "source_commit": "81c110c08adb0da58642c2128a00e0157a9efa03",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/81c110c08adb0da58642c2128a00e0157a9efa03/data/symbol-white-0.13-arm512/FSK_91_20.png"
       },
       "baseline": {
         "concept_id": "FSK_91_20",
@@ -1434,8 +1306,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 83.27,
         "sha256": "6cf85399414d7439e037648fcb84b6da6135850029f38f63e6c725aa523ff427",
-        "source_commit": "c6fab61fdccf95da585f7e1f7b0e42212236a787",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c6fab61fdccf95da585f7e1f7b0e42212236a787/data/symbol-white-0.13-arm512/FSK_91_31.png"
+        "source_commit": "f13163879f63de681a6518dca54a807797359ea3",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f13163879f63de681a6518dca54a807797359ea3/data/symbol-white-0.13-arm512/FSK_91_31.png"
       },
       "baseline": {
         "concept_id": "FSK_91_31",
@@ -1533,8 +1405,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.119,
         "sha256": "b03a739a8382752750849e44d9a821b7d035042bb812524aa74cf99d57c8937e",
-        "source_commit": "d053149ba580f35f1774576ab3823b988822982e",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d053149ba580f35f1774576ab3823b988822982e/data/symbol-white-0.13-arm512/FSK_91_32.png"
+        "source_commit": "81c110c08adb0da58642c2128a00e0157a9efa03",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/81c110c08adb0da58642c2128a00e0157a9efa03/data/symbol-white-0.13-arm512/FSK_91_32.png"
       },
       "baseline": {
         "concept_id": "FSK_91_32",
@@ -1632,8 +1504,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.929,
         "sha256": "773e56401a1a1dfc84d8df64a4999b49863be63dd58d7720c33123eb9192e21d",
-        "source_commit": "4f3c7c7d715c854b5e647a1d0ffefc12eed55f8c",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/4f3c7c7d715c854b5e647a1d0ffefc12eed55f8c/data/symbol-white-0.13-arm512/FSK_91_33.png"
+        "source_commit": "fdb5f22a61b180e8c399bd61afbcbee5cfe7d8e0",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/fdb5f22a61b180e8c399bd61afbcbee5cfe7d8e0/data/symbol-white-0.13-arm512/FSK_91_33.png"
       },
       "baseline": {
         "concept_id": "FSK_91_33",
@@ -1731,8 +1603,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.058,
         "sha256": "4203aab64c1a41cb880dd332f48ced51a9dee8bcbd903d042a368bee6d969bb3",
-        "source_commit": "a4538880cbaab49cde7c2d97f79e3aad8483473d",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/a4538880cbaab49cde7c2d97f79e3aad8483473d/data/symbol-white-0.13-arm512/FSK_91_34.png"
+        "source_commit": "f5af27f2a9fa0a2eda1ced3d2752df8ec6a6f9d5",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f5af27f2a9fa0a2eda1ced3d2752df8ec6a6f9d5/data/symbol-white-0.13-arm512/FSK_91_34.png"
       },
       "baseline": {
         "concept_id": "FSK_91_34",
@@ -1830,8 +1702,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 84.208,
         "sha256": "4bd76e3d9e8e69bcdfdf1d2efd1a5a77f4193d4f6a9198ecd40a92fde8806c7f",
-        "source_commit": "f9dc52840e7d3de48f30860a20db312a8748cf17",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f9dc52840e7d3de48f30860a20db312a8748cf17/data/symbol-white-0.13-arm512/FSK_91_35.png"
+        "source_commit": "192cff732aa9fda858e1dd06c531072f383c09d3",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/192cff732aa9fda858e1dd06c531072f383c09d3/data/symbol-white-0.13-arm512/FSK_91_35.png"
       },
       "baseline": {
         "concept_id": "FSK_91_35",
@@ -1929,8 +1801,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.601,
         "sha256": "d7082f92e3cf85f579e2049fd3aaf6e02b243e0059c8ad8685a15a28af3d8e4a",
-        "source_commit": "c6fab61fdccf95da585f7e1f7b0e42212236a787",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c6fab61fdccf95da585f7e1f7b0e42212236a787/data/symbol-white-0.13-arm512/FSK_91_36.png"
+        "source_commit": "f13163879f63de681a6518dca54a807797359ea3",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f13163879f63de681a6518dca54a807797359ea3/data/symbol-white-0.13-arm512/FSK_91_36.png"
       },
       "baseline": {
         "concept_id": "FSK_91_36",
@@ -2028,8 +1900,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.232,
         "sha256": "dd2b5b24496399e50dc11c6501b9c8e8c158de39dd32e00f672fcbca2f1bff5c",
-        "source_commit": "4f3c7c7d715c854b5e647a1d0ffefc12eed55f8c",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/4f3c7c7d715c854b5e647a1d0ffefc12eed55f8c/data/symbol-white-0.13-arm512/FSK_91_45.png"
+        "source_commit": "fdb5f22a61b180e8c399bd61afbcbee5cfe7d8e0",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/fdb5f22a61b180e8c399bd61afbcbee5cfe7d8e0/data/symbol-white-0.13-arm512/FSK_91_45.png"
       },
       "baseline": {
         "concept_id": "FSK_91_45",
@@ -2089,15 +1961,15 @@
       "current": {
         "concept_id": "FSK_91_47",
         "label_sv": "pussel",
-        "fingerprint": "9473b5a9709ccc91fa399af0a0d3607e07e4f540c91505cd635150b01d60a1e5",
-        "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small twelve-piece jigsaw puzzle, thick interlocking cardboard pieces forming a simple red apple on blue background. Three loose matching pieces next to their empty interlocking gaps. Clear curved tabs and sockets on several pieces. Required editor correction: Pussel bör kunna visualiseras tydligare, gärna mer fler pusselbitar än en bit. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-        "seed": 499542554,
+        "fingerprint": "bdec4fc0d726fea449a7481e8a0ab332e481cbc58fdc55f4c5627c04d131169a",
+        "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small twelve-piece jigsaw puzzle, thick interlocking cardboard pieces forming a simple red apple on blue background. Three loose matching pieces next to their empty interlocking gaps. Clear curved tabs and sockets on several pieces. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+        "seed": 1016525537,
         "negative_prompt": "",
         "model": "black-forest-labs/FLUX.2-klein-4B",
         "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
         "style_version": "symbol-white-0.13-arm512",
         "background_model": "white",
-        "created_at": "2026-10-23T19:43:59.307569+00:00",
+        "created_at": "2026-10-24T04:50:15.078462+00:00",
         "license": null,
         "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
         "style_approved": false,
@@ -2119,18 +1991,16 @@
         "steps": 4,
         "guidance_scale": 1.0,
         "cpu_dtype": "bfloat16",
-        "regeneration_request_id": "FSK_91_47_b9493025352f2500356126ce7f2efa9d2e79b6b1072a1fea14cc3a197f480dd3_r1",
-        "regeneration_source_sha256": "b9493025352f2500356126ce7f2efa9d2e79b6b1072a1fea14cc3a197f480dd3",
         "status": "pending_review",
         "transparency": {
           "background": "white"
         },
-        "render_seconds": 80.067,
+        "render_seconds": 78.339,
         "background_seconds": 0.0,
-        "elapsed_seconds": 80.109,
-        "sha256": "9d5db42063621e6afcef3eb1d7b8a43521f61d92c39aea96d536442aaf5fb6b5",
-        "source_commit": "f9dc52840e7d3de48f30860a20db312a8748cf17",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f9dc52840e7d3de48f30860a20db312a8748cf17/data/symbol-white-0.13-arm512/FSK_91_47.png"
+        "elapsed_seconds": 78.402,
+        "sha256": "e5435b46f22b82e7c7811b76844ccb06bb067b5402e2ab6ca77e6f6692942931",
+        "source_commit": "192cff732aa9fda858e1dd06c531072f383c09d3",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/192cff732aa9fda858e1dd06c531072f383c09d3/data/symbol-white-0.13-arm512/FSK_91_47.png"
       },
       "baseline": {
         "concept_id": "FSK_91_47",
@@ -2228,8 +2098,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 79.31,
         "sha256": "9bc3fbb5961771bf1f2c6a817e85bdff6b5107732734312560b89b1715b3e1b5",
-        "source_commit": "c97836eb3c05aa3282ac8e5aff2111eac13596e2",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c97836eb3c05aa3282ac8e5aff2111eac13596e2/data/symbol-white-0.13-arm512/FSK_92_01.png"
+        "source_commit": "cd26cf1200df5782ba2d884cd06488c9383ec775",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/cd26cf1200df5782ba2d884cd06488c9383ec775/data/symbol-white-0.13-arm512/FSK_92_01.png"
       },
       "baseline": {
         "concept_id": "FSK_92_01",
@@ -2327,8 +2197,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 80.231,
         "sha256": "db3054b2c904dad9296e386cec51344449e12dc4d1ddf4ccffd12dab13a4be29",
-        "source_commit": "d053149ba580f35f1774576ab3823b988822982e",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/d053149ba580f35f1774576ab3823b988822982e/data/symbol-white-0.13-arm512/FSK_92_02.png"
+        "source_commit": "81c110c08adb0da58642c2128a00e0157a9efa03",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/81c110c08adb0da58642c2128a00e0157a9efa03/data/symbol-white-0.13-arm512/FSK_92_02.png"
       },
       "baseline": {
         "concept_id": "FSK_92_02",
@@ -2426,8 +2296,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.843,
         "sha256": "93acb07038d4b93d071dad158beb25e93a7cc8f0c7fe135ab0cd73804ec11f4f",
-        "source_commit": "c6fab61fdccf95da585f7e1f7b0e42212236a787",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/c6fab61fdccf95da585f7e1f7b0e42212236a787/data/symbol-white-0.13-arm512/FSK_92_03.png"
+        "source_commit": "f13163879f63de681a6518dca54a807797359ea3",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/f13163879f63de681a6518dca54a807797359ea3/data/symbol-white-0.13-arm512/FSK_92_03.png"
       },
       "baseline": {
         "concept_id": "FSK_92_03",
@@ -2525,8 +2395,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 81.891,
         "sha256": "ea6ce18cf2230548677798e863970bfbbb4bb5233c30a8c4c8c991180bf11cb1",
-        "source_commit": "453583c7f9f98446d7cc58ba74e9366d954a5d1f",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/453583c7f9f98446d7cc58ba74e9366d954a5d1f/data/symbol-white-0.13-arm512/FSK_92_06.png"
+        "source_commit": "5e2d3bf3472048f42eafcfece38ed2afe7710e17",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/5e2d3bf3472048f42eafcfece38ed2afe7710e17/data/symbol-white-0.13-arm512/FSK_92_06.png"
       },
       "baseline": {
         "concept_id": "FSK_92_06",
