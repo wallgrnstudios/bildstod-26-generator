@@ -275,15 +275,15 @@
     {
       "concept_id": "FSK_15_08",
       "label_sv": "lyfta",
-      "fingerprint": "3091807663ff3e16a08ca871beec37f4de24f47563b5394b5400224f77f8f463",
+      "fingerprint": "f5fd31231d04559a1eee983dd48f6de95be96e4cd4f230a64be37997d5609972",
       "prompt": "Create one isolated illustration: One preschool child in side view with bent knees lifting a wooden box with both hands, the box clearly in the air a hand's width above the floor. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1225989329,
+      "seed": 809237864,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:31:22.324182+00:00",
+      "created_at": "2026-10-24T04:37:50.272180+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -308,16 +308,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_15_08_6003cac16123a66af6474c4d20186c771469a1485950c05a5d20642e9b58b15b_r1",
-      "regeneration_source_sha256": "6003cac16123a66af6474c4d20186c771469a1485950c05a5d20642e9b58b15b",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 67.445,
+      "render_seconds": 65.94,
       "background_seconds": 0.0,
-      "elapsed_seconds": 67.484,
-      "sha256": "2fb102f569ba3b4b9a8ffd837dd0da3e50803695ad5846ab08537f48d58cc408"
+      "elapsed_seconds": 65.986,
+      "sha256": "13ca5583d7c2fbb70ba4cd24e238cd7b30bfc02e59850fc6096fe67cb2821369"
     },
     {
       "concept_id": "FSK_15_39",
