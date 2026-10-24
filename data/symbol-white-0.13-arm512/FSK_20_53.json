@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_20_53",
   "label_sv": "jojo",
-  "fingerprint": "93116da57933791825aa2a215c1527f5eff3d42d4843d608c484d9f80c1d30fd",
+  "fingerprint": "c10782dc57ff67f3be07803aa94a4125e375cb7ac5ba59028c818d0b1e6b2ac0",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One red toy yo-yo with two round equal halves joined by a short central axle, thin white string wound into center groove and looped end beside it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1326521355,
+  "seed": 1309244949,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T21:31:35.826478+00:00",
+  "created_at": "2026-10-24T04:43:39.192921+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,14 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_20_53_1ca976df10f0cf6ffee530f68864bc8d15a1d8cdfd4c5964ef2e5a922718552a_r1",
-  "regeneration_source_sha256": "1ca976df10f0cf6ffee530f68864bc8d15a1d8cdfd4c5964ef2e5a922718552a",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.866,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.9,
-  "sha256": "1956e846aa20203423601e3d0bd264b827afe7ef793293b4ffd28b0a5de68d4f"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
