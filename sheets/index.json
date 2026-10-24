@@ -1,0 +1,1733 @@
+{
+ "schema_version": 1,
+ "checked_at": "2026-10-24T05:11:58.009442+00:00",
+ "variants": [
+  "etiketter-96-farg",
+  "etiketter-96-gra",
+  "utan-etikett-48-farg",
+  "utan-etikett-48-gra",
+  "utan-etikett-24-farg"
+ ],
+ "notice_sv": "Kontaktkartor hjälper att hitta motiv som bara fungerar stora eller i färg. Begripligheten måste fortfarande provas med användare.",
+ "sheets": [
+  {
+   "category": "befintlig pilot",
+   "page": 1,
+   "concepts": [
+    "FSK_91_69",
+    "FSK_92_06",
+    "FSK_92_11"
+   ],
+   "files": {
+    "etiketter-96-farg": "befintlig-pilot--etiketter-96-farg.png",
+    "etiketter-96-gra": "befintlig-pilot--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "befintlig-pilot--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "befintlig-pilot--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "befintlig-pilot--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "befintlig-pilot--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "befintlig-pilot--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "behov",
+   "page": 1,
+   "concepts": [
+    "FSK_10_24",
+    "FSK_17_22",
+    "FSK_11_54",
+    "FSK_12_32"
+   ],
+   "files": {
+    "etiketter-96-farg": "behov--etiketter-96-farg.png",
+    "etiketter-96-gra": "behov--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "behov--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "behov--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "behov--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "behov--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "behov--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "bildmaterial",
+   "page": 1,
+   "concepts": [
+    "FSK_29_31",
+    "FSK_23_22",
+    "FSK_21_64",
+    "FSK_21_76",
+    "FSK_25_15",
+    "FSK_25_30",
+    "FSK_91_42",
+    "FSK_19_54",
+    "FSK_20_79",
+    "FSK_91_46",
+    "FSK_23_29",
+    "FSK_23_69",
+    "FSK_24_40",
+    "FSK_91_44",
+    "FSK_91_41",
+    "FSK_25_26",
+    "FSK_91_43",
+    "FSK_25_33",
+    "FSK_20_02",
+    "FSK_29_30",
+    "FSK_91_45",
+    "FSK_21_09",
+    "FSK_25_07",
+    "FSK_21_27",
+    "FSK_24_16",
+    "FSK_25_05",
+    "FSK_25_02"
+   ],
+   "files": {
+    "etiketter-96-farg": "bildmaterial--etiketter-96-farg.png",
+    "etiketter-96-gra": "bildmaterial--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "bildmaterial--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "bildmaterial--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "bildmaterial--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "bildmaterial--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "bildmaterial--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "biologi och miljö",
+   "page": 1,
+   "concepts": [
+    "FSK_30_96",
+    "FSK_32_16",
+    "FSK_27_91"
+   ],
+   "files": {
+    "etiketter-96-farg": "biologi-och-miljo--etiketter-96-farg.png",
+    "etiketter-96-gra": "biologi-och-miljo--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "biologi-och-miljo--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "biologi-och-miljo--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "biologi-och-miljo--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "biologi-och-miljo--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "biologi-och-miljo--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "bröd och dryck",
+   "page": 1,
+   "concepts": [
+    "FSK_15_34",
+    "FSK_20_31",
+    "FSK_15_27",
+    "FSK_17_50",
+    "FSK_18_53",
+    "FSK_18_45",
+    "FSK_12_80",
+    "FSK_20_22",
+    "FSK_20_59",
+    "FSK_18_26",
+    "FSK_91_27",
+    "FSK_15_68",
+    "FSK_15_53",
+    "FSK_18_46",
+    "FSK_19_40",
+    "FSK_15_46",
+    "FSK_19_12",
+    "FSK_16_38",
+    "FSK_91_26",
+    "FSK_15_38",
+    "FSK_20_01",
+    "FSK_14_62",
+    "FSK_91_28",
+    "FSK_19_41"
+   ],
+   "files": {
+    "etiketter-96-farg": "brod-och-dryck--etiketter-96-farg.png",
+    "etiketter-96-gra": "brod-och-dryck--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "brod-och-dryck--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "brod-och-dryck--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "brod-och-dryck--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "brod-och-dryck--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "brod-och-dryck--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "digitala handlingar",
+   "page": 1,
+   "concepts": [
+    "FSK_29_85"
+   ],
+   "files": {
+    "etiketter-96-farg": "digitala-handlingar--etiketter-96-farg.png",
+    "etiketter-96-gra": "digitala-handlingar--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "digitala-handlingar--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "digitala-handlingar--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "digitala-handlingar--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "digitala-handlingar--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "digitala-handlingar--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "familj",
+   "page": 1,
+   "concepts": [
+    "FSK_16_60",
+    "FSK_12_72",
+    "FSK_14_24"
+   ],
+   "files": {
+    "etiketter-96-farg": "familj--etiketter-96-farg.png",
+    "etiketter-96-gra": "familj--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "familj--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "familj--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "familj--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "familj--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "familj--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "frukt och grönt",
+   "page": 1,
+   "concepts": [
+    "FSK_20_25",
+    "FSK_20_29",
+    "FSK_20_98",
+    "FSK_91_22",
+    "FSK_19_60",
+    "FSK_19_77",
+    "FSK_16_37",
+    "FSK_91_25",
+    "FSK_20_07",
+    "FSK_20_43",
+    "FSK_20_34",
+    "FSK_21_22",
+    "FSK_21_36",
+    "FSK_91_24",
+    "FSK_19_99",
+    "FSK_19_16",
+    "FSK_91_23",
+    "FSK_20_30",
+    "FSK_19_71",
+    "FSK_18_44",
+    "FSK_91_21"
+   ],
+   "files": {
+    "etiketter-96-farg": "frukt-och-gront--etiketter-96-farg.png",
+    "etiketter-96-gra": "frukt-och-gront--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "frukt-och-gront--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "frukt-och-gront--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "frukt-och-gront--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "frukt-och-gront--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "frukt-och-gront--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "färger och sinnen",
+   "page": 1,
+   "concepts": [
+    "FSK_29_84",
+    "FSK_25_95"
+   ],
+   "files": {
+    "etiketter-96-farg": "farger-och-sinnen--etiketter-96-farg.png",
+    "etiketter-96-gra": "farger-och-sinnen--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "farger-och-sinnen--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "farger-och-sinnen--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "farger-och-sinnen--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "farger-och-sinnen--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "farger-och-sinnen--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "geografi",
+   "page": 1,
+   "concepts": [
+    "FSK_26_44",
+    "FSK_30_33",
+    "FSK_30_07",
+    "FSK_26_62",
+    "FSK_30_73",
+    "FSK_26_24",
+    "FSK_30_04",
+    "FSK_26_50"
+   ],
+   "files": {
+    "etiketter-96-farg": "geografi--etiketter-96-farg.png",
+    "etiketter-96-gra": "geografi--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "geografi--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "geografi--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "geografi--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "geografi--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "geografi--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "geometri",
+   "page": 1,
+   "concepts": [
+    "FSK_30_66",
+    "FSK_31_69",
+    "FSK_31_82"
+   ],
+   "files": {
+    "etiketter-96-farg": "geometri--etiketter-96-farg.png",
+    "etiketter-96-gra": "geometri--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "geometri--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "geometri--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "geometri--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "geometri--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "geometri--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "hemmet",
+   "page": 1,
+   "concepts": [
+    "FSK_32_27",
+    "FSK_31_15",
+    "FSK_31_13",
+    "FSK_31_64",
+    "FSK_91_33",
+    "FSK_28_46",
+    "FSK_28_27",
+    "FSK_91_32",
+    "FSK_30_78",
+    "FSK_30_85",
+    "FSK_28_21",
+    "FSK_31_88",
+    "FSK_31_14",
+    "FSK_28_54",
+    "FSK_28_58",
+    "FSK_31_75",
+    "FSK_28_24",
+    "FSK_28_75",
+    "FSK_91_30",
+    "FSK_91_31",
+    "FSK_31_37",
+    "FSK_31_36",
+    "FSK_32_01"
+   ],
+   "files": {
+    "etiketter-96-farg": "hemmet--etiketter-96-farg.png",
+    "etiketter-96-gra": "hemmet--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "hemmet--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "hemmet--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "hemmet--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "hemmet--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "hemmet--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "historia och religion",
+   "page": 1,
+   "concepts": [
+    "FSK_30_14",
+    "FSK_27_76",
+    "FSK_30_05"
+   ],
+   "files": {
+    "etiketter-96-farg": "historia-och-religion--etiketter-96-farg.png",
+    "etiketter-96-gra": "historia-och-religion--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "historia-och-religion--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "historia-och-religion--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "historia-och-religion--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "historia-och-religion--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "historia-och-religion--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "hygien",
+   "page": 1,
+   "concepts": [
+    "FSK_19_42",
+    "FSK_21_30",
+    "FSK_91_36",
+    "FSK_91_35",
+    "FSK_91_38",
+    "FSK_19_52",
+    "FSK_91_39",
+    "FSK_20_56",
+    "FSK_24_35",
+    "FSK_18_59",
+    "FSK_91_37",
+    "FSK_20_99",
+    "FSK_23_12",
+    "FSK_90_09"
+   ],
+   "files": {
+    "etiketter-96-farg": "hygien--etiketter-96-farg.png",
+    "etiketter-96-gra": "hygien--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "hygien--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "hygien--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "hygien--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "hygien--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "hygien--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "hygienhandlingar",
+   "page": 1,
+   "concepts": [
+    "FSK_16_47",
+    "FSK_92_03",
+    "FSK_20_77",
+    "FSK_17_73",
+    "FSK_18_86",
+    "FSK_18_73",
+    "FSK_15_18",
+    "FSK_92_02"
+   ],
+   "files": {
+    "etiketter-96-farg": "hygienhandlingar--etiketter-96-farg.png",
+    "etiketter-96-gra": "hygienhandlingar--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "hygienhandlingar--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "hygienhandlingar--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "hygienhandlingar--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "hygienhandlingar--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "hygienhandlingar--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "hälsa",
+   "page": 1,
+   "concepts": [
+    "FSK_28_55",
+    "FSK_27_93",
+    "FSK_27_44",
+    "FSK_26_49",
+    "FSK_31_60",
+    "FSK_27_26",
+    "FSK_30_91",
+    "FSK_30_92",
+    "FSK_31_38",
+    "FSK_32_47"
+   ],
+   "files": {
+    "etiketter-96-farg": "halsa--etiketter-96-farg.png",
+    "etiketter-96-gra": "halsa--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "halsa--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "halsa--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "halsa--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "halsa--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "halsa--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "högtider",
+   "page": 1,
+   "concepts": [
+    "FSK_31_91",
+    "FSK_27_66",
+    "FSK_30_65",
+    "FSK_28_14",
+    "FSK_31_96",
+    "FSK_30_74",
+    "FSK_30_64",
+    "FSK_28_38",
+    "FSK_28_37",
+    "FSK_27_20",
+    "FSK_27_72",
+    "FSK_28_42",
+    "FSK_31_76",
+    "FSK_28_04"
+   ],
+   "files": {
+    "etiketter-96-farg": "hogtider--etiketter-96-farg.png",
+    "etiketter-96-gra": "hogtider--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "hogtider--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "hogtider--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "hogtider--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "hogtider--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "hogtider--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "idrott",
+   "page": 1,
+   "concepts": [
+    "FSK_28_06",
+    "FSK_28_39",
+    "FSK_31_42",
+    "FSK_28_69",
+    "FSK_27_47",
+    "FSK_26_42",
+    "FSK_31_57",
+    "FSK_28_31",
+    "FSK_32_68",
+    "FSK_30_80",
+    "FSK_31_33",
+    "FSK_31_08",
+    "FSK_32_73",
+    "FSK_31_17",
+    "FSK_31_10",
+    "FSK_31_71",
+    "FSK_28_43",
+    "FSK_28_66",
+    "FSK_28_70",
+    "FSK_32_74"
+   ],
+   "files": {
+    "etiketter-96-farg": "idrott--etiketter-96-farg.png",
+    "etiketter-96-gra": "idrott--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "idrott--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "idrott--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "idrott--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "idrott--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "idrott--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "idrottsmaterial",
+   "page": 1,
+   "concepts": [
+    "FSK_32_56",
+    "FSK_32_60",
+    "FSK_29_09",
+    "FSK_91_49",
+    "FSK_29_25",
+    "FSK_32_71",
+    "FSK_25_94",
+    "FSK_28_18",
+    "FSK_32_63",
+    "FSK_32_67",
+    "FSK_28_49",
+    "FSK_28_47",
+    "FSK_28_97",
+    "FSK_29_19",
+    "FSK_32_72",
+    "FSK_29_24",
+    "FSK_32_66",
+    "FSK_32_69",
+    "FSK_32_65"
+   ],
+   "files": {
+    "etiketter-96-farg": "idrottsmaterial--etiketter-96-farg.png",
+    "etiketter-96-gra": "idrottsmaterial--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "idrottsmaterial--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "idrottsmaterial--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "idrottsmaterial--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "idrottsmaterial--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "idrottsmaterial--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "kläder",
+   "page": 1,
+   "concepts": [
+    "FSK_21_07",
+    "FSK_91_04",
+    "FSK_91_10",
+    "FSK_19_33",
+    "FSK_90_06",
+    "FSK_17_10",
+    "FSK_19_83",
+    "FSK_19_68",
+    "FSK_19_67",
+    "FSK_12_89",
+    "FSK_91_11",
+    "FSK_22_05",
+    "FSK_20_05",
+    "FSK_91_01",
+    "FSK_21_35",
+    "FSK_24_72",
+    "FSK_91_07",
+    "FSK_23_81",
+    "FSK_22_28",
+    "FSK_18_79",
+    "FSK_18_21",
+    "FSK_90_05",
+    "FSK_25_49",
+    "FSK_91_06",
+    "FSK_91_03",
+    "FSK_17_87",
+    "FSK_21_41",
+    "FSK_18_80",
+    "FSK_91_05",
+    "FSK_91_02",
+    "FSK_15_30"
+   ],
+   "files": {
+    "etiketter-96-farg": "klader--etiketter-96-farg.png",
+    "etiketter-96-gra": "klader--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "klader--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "klader--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "klader--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "klader--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "klader--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "klädtillbehör",
+   "page": 1,
+   "concepts": [
+    "FSK_22_76",
+    "FSK_22_53",
+    "FSK_22_70",
+    "FSK_19_58",
+    "FSK_90_01",
+    "FSK_19_24",
+    "FSK_24_23",
+    "FSK_91_09",
+    "FSK_22_36",
+    "FSK_29_26",
+    "FSK_24_53",
+    "FSK_17_11",
+    "FSK_22_19",
+    "FSK_21_54",
+    "FSK_23_45",
+    "FSK_20_72",
+    "FSK_21_26",
+    "FSK_91_08",
+    "FSK_20_12",
+    "FSK_22_69",
+    "FSK_16_12"
+   ],
+   "files": {
+    "etiketter-96-farg": "kladtillbehor--etiketter-96-farg.png",
+    "etiketter-96-gra": "kladtillbehor--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "kladtillbehor--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "kladtillbehor--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "kladtillbehor--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "kladtillbehor--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "kladtillbehor--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "kroppen",
+   "page": 1,
+   "concepts": [
+    "FSK_14_89",
+    "FSK_16_78",
+    "FSK_15_95",
+    "FSK_13_25",
+    "FSK_15_60",
+    "FSK_15_91",
+    "FSK_19_19",
+    "FSK_17_91",
+    "FSK_11_73",
+    "FSK_13_83",
+    "FSK_90_10",
+    "FSK_13_42",
+    "FSK_20_32",
+    "FSK_16_91",
+    "FSK_13_21",
+    "FSK_15_76",
+    "FSK_16_20",
+    "FSK_19_47",
+    "FSK_17_90",
+    "FSK_19_88",
+    "FSK_19_18",
+    "FSK_20_62",
+    "FSK_15_35",
+    "FSK_15_39",
+    "FSK_19_48",
+    "FSK_13_19",
+    "FSK_20_26",
+    "FSK_19_46",
+    "FSK_16_90"
+   ],
+   "files": {
+    "etiketter-96-farg": "kroppen--etiketter-96-farg.png",
+    "etiketter-96-gra": "kroppen--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "kroppen--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "kroppen--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "kroppen--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "kroppen--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "kroppen--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "kroppsliga behov",
+   "page": 1,
+   "concepts": [
+    "FSK_17_85",
+    "FSK_18_57",
+    "FSK_18_34"
+   ],
+   "files": {
+    "etiketter-96-farg": "kroppsliga-behov--etiketter-96-farg.png",
+    "etiketter-96-gra": "kroppsliga-behov--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "kroppsliga-behov--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "kroppsliga-behov--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "kroppsliga-behov--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "kroppsliga-behov--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "kroppsliga-behov--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "känslor",
+   "page": 1,
+   "concepts": [
+    "FSK_92_12",
+    "FSK_18_63",
+    "FSK_14_69",
+    "FSK_14_98"
+   ],
+   "files": {
+    "etiketter-96-farg": "kanslor--etiketter-96-farg.png",
+    "etiketter-96-gra": "kanslor--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "kanslor--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "kanslor--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "kanslor--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "kanslor--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "kanslor--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "kök och bakning",
+   "page": 1,
+   "concepts": [
+    "FSK_32_38",
+    "FSK_32_57",
+    "FSK_28_94",
+    "FSK_32_51",
+    "FSK_28_93",
+    "FSK_29_02",
+    "FSK_32_54",
+    "FSK_32_45",
+    "FSK_29_11",
+    "FSK_28_05",
+    "FSK_28_92",
+    "FSK_32_44",
+    "FSK_28_88",
+    "FSK_29_16",
+    "FSK_32_48",
+    "FSK_29_17",
+    "FSK_32_59",
+    "FSK_29_04"
+   ],
+   "files": {
+    "etiketter-96-farg": "kok-och-bakning--etiketter-96-farg.png",
+    "etiketter-96-gra": "kok-och-bakning--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "kok-och-bakning--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "kok-och-bakning--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "kok-och-bakning--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "kok-och-bakning--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "kok-och-bakning--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "lek",
+   "page": 1,
+   "concepts": [
+    "FSK_17_81",
+    "FSK_22_13",
+    "FSK_21_79",
+    "FSK_23_07",
+    "FSK_21_62",
+    "FSK_20_96",
+    "FSK_21_92",
+    "FSK_91_50",
+    "FSK_24_99",
+    "FSK_29_29",
+    "FSK_22_65",
+    "FSK_20_53",
+    "FSK_91_48",
+    "FSK_21_38",
+    "FSK_19_04",
+    "FSK_17_02",
+    "FSK_19_62",
+    "FSK_19_79",
+    "FSK_91_52",
+    "FSK_29_27",
+    "FSK_18_88",
+    "FSK_22_23",
+    "FSK_91_51",
+    "FSK_20_63",
+    "FSK_91_47",
+    "FSK_25_14",
+    "FSK_24_15",
+    "FSK_22_72"
+   ],
+   "files": {
+    "etiketter-96-farg": "lek--etiketter-96-farg.png",
+    "etiketter-96-gra": "lek--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "lek--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "lek--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "lek--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "lek--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "lek--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "läsa och skriva",
+   "page": 1,
+   "concepts": [
+    "FSK_21_17",
+    "FSK_11_43",
+    "FSK_11_58"
+   ],
+   "files": {
+    "etiketter-96-farg": "lasa-och-skriva--etiketter-96-farg.png",
+    "etiketter-96-gra": "lasa-och-skriva--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "lasa-och-skriva--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "lasa-och-skriva--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "lasa-och-skriva--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "lasa-och-skriva--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "lasa-och-skriva--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "mat",
+   "page": 1,
+   "concepts": [
+    "FSK_20_76",
+    "FSK_18_07",
+    "FSK_15_06",
+    "FSK_20_41",
+    "FSK_17_65",
+    "FSK_18_85",
+    "FSK_17_58",
+    "FSK_16_25",
+    "FSK_16_13",
+    "FSK_14_27",
+    "FSK_18_98",
+    "FSK_20_86",
+    "FSK_18_06",
+    "FSK_20_47",
+    "FSK_19_95",
+    "FSK_20_73",
+    "FSK_11_65",
+    "FSK_20_42",
+    "FSK_17_42",
+    "FSK_15_12",
+    "FSK_16_18",
+    "FSK_20_74",
+    "FSK_17_46",
+    "FSK_17_33",
+    "FSK_17_83",
+    "FSK_21_29",
+    "FSK_17_64",
+    "FSK_18_04",
+    "FSK_14_65",
+    "FSK_20_75"
+   ],
+   "files": {
+    "etiketter-96-farg": "mat--etiketter-96-farg.png",
+    "etiketter-96-gra": "mat--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "mat--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "mat--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "mat--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "mat--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "mat--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "matematik",
+   "page": 1,
+   "concepts": [
+    "FSK_29_39"
+   ],
+   "files": {
+    "etiketter-96-farg": "matematik--etiketter-96-farg.png",
+    "etiketter-96-gra": "matematik--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "matematik--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "matematik--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "matematik--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "matematik--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "matematik--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "matvanor",
+   "page": 1,
+   "concepts": [
+    "FSK_15_59",
+    "FSK_21_23",
+    "FSK_19_35",
+    "FSK_92_01",
+    "FSK_18_65",
+    "FSK_17_59",
+    "FSK_14_20",
+    "FSK_18_35",
+    "FSK_16_31",
+    "FSK_16_46",
+    "FSK_20_60",
+    "FSK_15_83",
+    "FSK_18_39",
+    "FSK_90_04"
+   ],
+   "files": {
+    "etiketter-96-farg": "matvanor--etiketter-96-farg.png",
+    "etiketter-96-gra": "matvanor--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "matvanor--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "matvanor--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "matvanor--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "matvanor--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "matvanor--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "mediekunskap",
+   "page": 1,
+   "concepts": [
+    "FSK_26_90",
+    "FSK_26_80",
+    "FSK_25_79"
+   ],
+   "files": {
+    "etiketter-96-farg": "mediekunskap--etiketter-96-farg.png",
+    "etiketter-96-gra": "mediekunskap--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "mediekunskap--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "mediekunskap--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "mediekunskap--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "mediekunskap--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "mediekunskap--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "musik",
+   "page": 1,
+   "concepts": [
+    "FSK_26_77",
+    "FSK_30_23",
+    "FSK_30_94",
+    "FSK_30_63",
+    "FSK_30_03",
+    "FSK_25_75",
+    "FSK_31_61",
+    "FSK_30_46",
+    "FSK_29_74",
+    "FSK_27_58",
+    "FSK_27_33"
+   ],
+   "files": {
+    "etiketter-96-farg": "musik--etiketter-96-farg.png",
+    "etiketter-96-gra": "musik--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "musik--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "musik--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "musik--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "musik--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "musik--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "måltidsföremål",
+   "page": 1,
+   "concepts": [
+    "FSK_20_51",
+    "FSK_20_81",
+    "FSK_17_41",
+    "FSK_21_42",
+    "FSK_20_68",
+    "FSK_15_94",
+    "FSK_20_55",
+    "FSK_91_15",
+    "FSK_91_17",
+    "FSK_91_20",
+    "FSK_21_46",
+    "FSK_20_69",
+    "FSK_91_16",
+    "FSK_16_17",
+    "FSK_19_59",
+    "FSK_91_18",
+    "FSK_21_80",
+    "FSK_91_14",
+    "FSK_91_13",
+    "FSK_91_12",
+    "FSK_21_12",
+    "FSK_91_19"
+   ],
+   "files": {
+    "etiketter-96-farg": "maltidsforemal--etiketter-96-farg.png",
+    "etiketter-96-gra": "maltidsforemal--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "maltidsforemal--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "maltidsforemal--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "maltidsforemal--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "maltidsforemal--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "maltidsforemal--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "natur",
+   "page": 1,
+   "concepts": [
+    "FSK_30_34",
+    "FSK_91_62",
+    "FSK_26_18",
+    "FSK_26_54",
+    "FSK_32_49",
+    "FSK_31_34",
+    "FSK_30_19",
+    "FSK_30_99",
+    "FSK_27_60",
+    "FSK_27_59",
+    "FSK_32_10",
+    "FSK_30_97",
+    "FSK_91_61",
+    "FSK_30_71",
+    "FSK_30_58",
+    "FSK_91_59",
+    "FSK_26_85",
+    "FSK_31_12",
+    "FSK_91_60",
+    "FSK_91_63",
+    "FSK_30_77"
+   ],
+   "files": {
+    "etiketter-96-farg": "natur--etiketter-96-farg.png",
+    "etiketter-96-gra": "natur--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "natur--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "natur--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "natur--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "natur--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "natur--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "naturvetenskap",
+   "page": 1,
+   "concepts": [
+    "FSK_31_48",
+    "FSK_31_65",
+    "FSK_31_78",
+    "FSK_32_02",
+    "FSK_28_29",
+    "FSK_31_50"
+   ],
+   "files": {
+    "etiketter-96-farg": "naturvetenskap--etiketter-96-farg.png",
+    "etiketter-96-gra": "naturvetenskap--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "naturvetenskap--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "naturvetenskap--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "naturvetenskap--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "naturvetenskap--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "naturvetenskap--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "pengar och yrken",
+   "page": 1,
+   "concepts": [
+    "FSK_25_93",
+    "FSK_26_64",
+    "FSK_25_74",
+    "FSK_26_37",
+    "FSK_30_18",
+    "FSK_26_34"
+   ],
+   "files": {
+    "etiketter-96-farg": "pengar-och-yrken--etiketter-96-farg.png",
+    "etiketter-96-gra": "pengar-och-yrken--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "pengar-och-yrken--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "pengar-och-yrken--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "pengar-och-yrken--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "pengar-och-yrken--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "pengar-och-yrken--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "påklädning",
+   "page": 1,
+   "concepts": [
+    "FSK_18_02",
+    "FSK_18_81",
+    "FSK_19_25",
+    "FSK_19_27",
+    "FSK_17_70",
+    "FSK_18_22"
+   ],
+   "files": {
+    "etiketter-96-farg": "pakladning--etiketter-96-farg.png",
+    "etiketter-96-gra": "pakladning--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "pakladning--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "pakladning--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "pakladning--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "pakladning--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "pakladning--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "resor",
+   "page": 1,
+   "concepts": [
+    "FSK_29_64",
+    "FSK_29_37"
+   ],
+   "files": {
+    "etiketter-96-farg": "resor--etiketter-96-farg.png",
+    "etiketter-96-gra": "resor--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "resor--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "resor--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "resor--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "resor--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "resor--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "rörelse",
+   "page": 1,
+   "concepts": [
+    "FSK_20_15",
+    "FSK_19_30",
+    "FSK_14_16",
+    "FSK_19_61",
+    "FSK_16_26",
+    "FSK_11_69",
+    "FSK_15_99",
+    "FSK_12_13",
+    "FSK_18_54",
+    "FSK_90_02",
+    "FSK_20_88",
+    "FSK_92_09",
+    "FSK_14_09",
+    "FSK_17_92",
+    "FSK_92_10",
+    "FSK_13_62",
+    "FSK_12_95",
+    "FSK_15_08",
+    "FSK_19_03",
+    "FSK_16_49",
+    "FSK_90_07",
+    "FSK_14_34",
+    "FSK_19_02",
+    "FSK_92_07",
+    "FSK_17_93",
+    "FSK_92_08"
+   ],
+   "files": {
+    "etiketter-96-farg": "rorelse--etiketter-96-farg.png",
+    "etiketter-96-gra": "rorelse--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "rorelse--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "rorelse--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "rorelse--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "rorelse--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "rorelse--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "samhälle",
+   "page": 1,
+   "concepts": [
+    "FSK_27_35",
+    "FSK_30_01",
+    "FSK_30_21",
+    "FSK_27_25",
+    "FSK_26_05",
+    "FSK_27_32",
+    "FSK_26_47",
+    "FSK_29_99",
+    "FSK_27_57",
+    "FSK_30_52",
+    "FSK_29_87",
+    "FSK_30_31",
+    "FSK_30_53"
+   ],
+   "files": {
+    "etiketter-96-farg": "samhalle--etiketter-96-farg.png",
+    "etiketter-96-gra": "samhalle--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "samhalle--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "samhalle--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "samhalle--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "samhalle--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "samhalle--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "självreglering",
+   "page": 1,
+   "concepts": [
+    "FSK_17_49"
+   ],
+   "files": {
+    "etiketter-96-farg": "sjalvreglering--etiketter-96-farg.png",
+    "etiketter-96-gra": "sjalvreglering--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "sjalvreglering--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "sjalvreglering--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "sjalvreglering--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "sjalvreglering--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "sjalvreglering--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "skapande",
+   "page": 1,
+   "concepts": [
+    "FSK_19_97",
+    "FSK_12_82",
+    "FSK_92_05",
+    "FSK_20_35",
+    "FSK_17_06",
+    "FSK_16_03",
+    "FSK_92_04",
+    "FSK_19_34",
+    "FSK_16_04",
+    "FSK_18_30",
+    "FSK_20_58"
+   ],
+   "files": {
+    "etiketter-96-farg": "skapande--etiketter-96-farg.png",
+    "etiketter-96-gra": "skapande--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "skapande--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "skapande--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "skapande--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "skapande--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "skapande--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "skoldag",
+   "page": 1,
+   "concepts": [
+    "FSK_13_92",
+    "FSK_16_98",
+    "FSK_13_73",
+    "FSK_20_91",
+    "FSK_15_37",
+    "FSK_19_92",
+    "FSK_90_03",
+    "FSK_17_96",
+    "FSK_14_43",
+    "FSK_21_19",
+    "FSK_20_54",
+    "FSK_14_42",
+    "FSK_17_69"
+   ],
+   "files": {
+    "etiketter-96-farg": "skoldag--etiketter-96-farg.png",
+    "etiketter-96-gra": "skoldag--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "skoldag--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "skoldag--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "skoldag--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "skoldag--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "skoldag--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "skolmaterial",
+   "page": 1,
+   "concepts": [
+    "FSK_20_37",
+    "FSK_91_40",
+    "FSK_18_82",
+    "FSK_20_38",
+    "FSK_22_50",
+    "FSK_19_36",
+    "FSK_16_16",
+    "FSK_17_56",
+    "FSK_21_31",
+    "FSK_21_05",
+    "FSK_22_61",
+    "FSK_23_88",
+    "FSK_29_28",
+    "FSK_22_51",
+    "FSK_21_94",
+    "FSK_25_28",
+    "FSK_25_27",
+    "FSK_19_49"
+   ],
+   "files": {
+    "etiketter-96-farg": "skolmaterial--etiketter-96-farg.png",
+    "etiketter-96-gra": "skolmaterial--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "skolmaterial--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "skolmaterial--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "skolmaterial--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "skolmaterial--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "skolmaterial--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "skolmiljö",
+   "page": 1,
+   "concepts": [
+    "FSK_21_40",
+    "FSK_16_08",
+    "FSK_16_07",
+    "FSK_15_21",
+    "FSK_16_42",
+    "FSK_19_23",
+    "FSK_19_39",
+    "FSK_19_81",
+    "FSK_20_80",
+    "FSK_17_76",
+    "FSK_20_18",
+    "FSK_12_73",
+    "FSK_18_15",
+    "FSK_91_34",
+    "FSK_18_78",
+    "FSK_17_20"
+   ],
+   "files": {
+    "etiketter-96-farg": "skolmiljo--etiketter-96-farg.png",
+    "etiketter-96-gra": "skolmiljo--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "skolmiljo--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "skolmiljo--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "skolmiljo--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "skolmiljo--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "skolmiljo--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "skolpersonal",
+   "page": 1,
+   "concepts": [
+    "FSK_18_90",
+    "FSK_18_36"
+   ],
+   "files": {
+    "etiketter-96-farg": "skolpersonal--etiketter-96-farg.png",
+    "etiketter-96-gra": "skolpersonal--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "skolpersonal--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "skolpersonal--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "skolpersonal--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "skolpersonal--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "skolpersonal--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "slöjdmaterial",
+   "page": 1,
+   "concepts": [
+    "FSK_31_73",
+    "FSK_31_79",
+    "FSK_28_86",
+    "FSK_28_67",
+    "FSK_31_81",
+    "FSK_31_49",
+    "FSK_31_43",
+    "FSK_28_48",
+    "FSK_28_07",
+    "FSK_31_29",
+    "FSK_31_68",
+    "FSK_28_96",
+    "FSK_25_68",
+    "FSK_27_90",
+    "FSK_27_79",
+    "FSK_31_51",
+    "FSK_31_77"
+   ],
+   "files": {
+    "etiketter-96-farg": "slojdmaterial--etiketter-96-farg.png",
+    "etiketter-96-gra": "slojdmaterial--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "slojdmaterial--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "slojdmaterial--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "slojdmaterial--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "slojdmaterial--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "slojdmaterial--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "smådjur och fåglar",
+   "page": 1,
+   "concepts": [
+    "FSK_29_13",
+    "FSK_28_52",
+    "FSK_31_99",
+    "FSK_32_18",
+    "FSK_91_70",
+    "FSK_28_90",
+    "FSK_29_10",
+    "FSK_32_35",
+    "FSK_28_95",
+    "FSK_29_12",
+    "FSK_32_09",
+    "FSK_32_04",
+    "FSK_32_05",
+    "FSK_32_34",
+    "FSK_32_24",
+    "FSK_32_58",
+    "FSK_28_91",
+    "FSK_31_98",
+    "FSK_32_53",
+    "FSK_29_06",
+    "FSK_32_19",
+    "FSK_29_01",
+    "FSK_28_98",
+    "FSK_29_15"
+   ],
+   "files": {
+    "etiketter-96-farg": "smadjur-och-faglar--etiketter-96-farg.png",
+    "etiketter-96-gra": "smadjur-och-faglar--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "smadjur-och-faglar--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "smadjur-och-faglar--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "smadjur-och-faglar--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "smadjur-och-faglar--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "smadjur-och-faglar--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "socialt samspel",
+   "page": 1,
+   "concepts": [
+    "FSK_14_92",
+    "FSK_10_91",
+    "FSK_11_74",
+    "FSK_13_56",
+    "FSK_14_40",
+    "FSK_90_08",
+    "FSK_14_66",
+    "FSK_11_68",
+    "FSK_15_70",
+    "FSK_10_40"
+   ],
+   "files": {
+    "etiketter-96-farg": "socialt-samspel--etiketter-96-farg.png",
+    "etiketter-96-gra": "socialt-samspel--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "socialt-samspel--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "socialt-samspel--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "socialt-samspel--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "socialt-samspel--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "socialt-samspel--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "svenska djur",
+   "page": 1,
+   "concepts": [
+    "FSK_28_57",
+    "FSK_27_08",
+    "FSK_32_15",
+    "FSK_27_88",
+    "FSK_28_33",
+    "FSK_31_58",
+    "FSK_31_70",
+    "FSK_31_24",
+    "FSK_91_67",
+    "FSK_31_63",
+    "FSK_32_39",
+    "FSK_28_81",
+    "FSK_91_68",
+    "FSK_28_32",
+    "FSK_28_72",
+    "FSK_30_84",
+    "FSK_31_20",
+    "FSK_31_62",
+    "FSK_31_30",
+    "FSK_31_40",
+    "FSK_31_47",
+    "FSK_28_41",
+    "FSK_28_60"
+   ],
+   "files": {
+    "etiketter-96-farg": "svenska-djur--etiketter-96-farg.png",
+    "etiketter-96-gra": "svenska-djur--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "svenska-djur--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "svenska-djur--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "svenska-djur--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "svenska-djur--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "svenska-djur--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "teknik",
+   "page": 1,
+   "concepts": [
+    "FSK_30_59",
+    "FSK_26_81",
+    "FSK_27_89",
+    "FSK_26_55",
+    "FSK_30_67",
+    "FSK_30_68",
+    "FSK_30_50",
+    "FSK_31_09",
+    "FSK_26_48",
+    "FSK_31_16"
+   ],
+   "files": {
+    "etiketter-96-farg": "teknik--etiketter-96-farg.png",
+    "etiketter-96-gra": "teknik--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "teknik--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "teknik--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "teknik--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "teknik--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "teknik--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "tid",
+   "page": 1,
+   "concepts": [
+    "FSK_21_32"
+   ],
+   "files": {
+    "etiketter-96-farg": "tid--etiketter-96-farg.png",
+    "etiketter-96-gra": "tid--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "tid--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "tid--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "tid--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "tid--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "tid--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "trafik",
+   "page": 1,
+   "concepts": [
+    "FSK_25_91",
+    "FSK_27_82",
+    "FSK_27_14",
+    "FSK_27_46",
+    "FSK_91_57",
+    "FSK_28_03",
+    "FSK_31_80",
+    "FSK_32_43",
+    "FSK_28_68",
+    "FSK_28_74",
+    "FSK_31_59",
+    "FSK_31_31",
+    "FSK_31_26",
+    "FSK_31_04",
+    "FSK_31_27",
+    "FSK_31_25",
+    "FSK_27_78",
+    "FSK_31_56",
+    "FSK_28_35",
+    "FSK_26_82",
+    "FSK_31_35"
+   ],
+   "files": {
+    "etiketter-96-farg": "trafik--etiketter-96-farg.png",
+    "etiketter-96-gra": "trafik--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "trafik--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "trafik--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "trafik--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "trafik--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "trafik--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "trygghet och gränser",
+   "page": 1,
+   "concepts": [
+    "FSK_15_92"
+   ],
+   "files": {
+    "etiketter-96-farg": "trygghet-och-granser--etiketter-96-farg.png",
+    "etiketter-96-gra": "trygghet-och-granser--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "trygghet-och-granser--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "trygghet-och-granser--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "trygghet-och-granser--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "trygghet-och-granser--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "trygghet-och-granser--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "uteleksaker",
+   "page": 1,
+   "concepts": [
+    "FSK_27_67",
+    "FSK_32_14",
+    "FSK_91_53",
+    "FSK_27_10",
+    "FSK_32_32",
+    "FSK_32_08",
+    "FSK_27_98",
+    "FSK_26_52",
+    "FSK_32_25",
+    "FSK_32_21",
+    "FSK_28_76",
+    "FSK_31_72",
+    "FSK_28_53",
+    "FSK_32_17",
+    "FSK_32_50",
+    "FSK_91_54",
+    "FSK_91_58",
+    "FSK_31_84",
+    "FSK_28_25",
+    "FSK_32_70"
+   ],
+   "files": {
+    "etiketter-96-farg": "uteleksaker--etiketter-96-farg.png",
+    "etiketter-96-gra": "uteleksaker--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "uteleksaker--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "uteleksaker--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "uteleksaker--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "uteleksaker--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "uteleksaker--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "utemiljö",
+   "page": 1,
+   "concepts": [
+    "FSK_15_17",
+    "FSK_91_29",
+    "FSK_16_63",
+    "FSK_20_71",
+    "FSK_19_45",
+    "FSK_18_70",
+    "FSK_21_33",
+    "FSK_19_66",
+    "FSK_19_11",
+    "FSK_17_26",
+    "FSK_20_85",
+    "FSK_91_55",
+    "FSK_20_14",
+    "FSK_20_90",
+    "FSK_21_25",
+    "FSK_14_99",
+    "FSK_18_51",
+    "FSK_16_87",
+    "FSK_91_56",
+    "FSK_17_86",
+    "FSK_15_22",
+    "FSK_20_19",
+    "FSK_16_54",
+    "FSK_16_45",
+    "FSK_16_44",
+    "FSK_19_57",
+    "FSK_11_50",
+    "FSK_21_34",
+    "FSK_11_89"
+   ],
+   "files": {
+    "etiketter-96-farg": "utemiljo--etiketter-96-farg.png",
+    "etiketter-96-gra": "utemiljo--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "utemiljo--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "utemiljo--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "utemiljo--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "utemiljo--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "utemiljo--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "vardagsföremål",
+   "page": 1,
+   "concepts": [
+    "FSK_32_52"
+   ],
+   "files": {
+    "etiketter-96-farg": "vardagsforemal--etiketter-96-farg.png",
+    "etiketter-96-gra": "vardagsforemal--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "vardagsforemal--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "vardagsforemal--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "vardagsforemal--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "vardagsforemal--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "vardagsforemal--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "vardagshandlingar",
+   "page": 1,
+   "concepts": [
+    "FSK_12_40",
+    "FSK_14_51",
+    "FSK_20_40",
+    "FSK_11_14",
+    "FSK_13_99",
+    "FSK_11_23",
+    "FSK_13_89",
+    "FSK_11_62",
+    "FSK_16_82",
+    "FSK_12_99",
+    "FSK_15_87",
+    "FSK_14_22",
+    "FSK_15_36",
+    "FSK_17_17",
+    "FSK_18_55",
+    "FSK_13_50",
+    "FSK_12_53",
+    "FSK_14_30",
+    "FSK_15_50",
+    "FSK_17_38",
+    "FSK_19_09",
+    "FSK_18_56",
+    "FSK_12_21"
+   ],
+   "files": {
+    "etiketter-96-farg": "vardagshandlingar--etiketter-96-farg.png",
+    "etiketter-96-gra": "vardagshandlingar--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "vardagshandlingar--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "vardagshandlingar--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "vardagshandlingar--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "vardagshandlingar--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "vardagshandlingar--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "världens djur",
+   "page": 1,
+   "concepts": [
+    "FSK_32_12",
+    "FSK_28_73",
+    "FSK_32_33",
+    "FSK_29_08",
+    "FSK_32_13",
+    "FSK_32_46",
+    "FSK_32_30",
+    "FSK_29_21",
+    "FSK_32_41",
+    "FSK_32_31",
+    "FSK_32_40",
+    "FSK_29_22",
+    "FSK_29_05",
+    "FSK_28_65",
+    "FSK_29_20",
+    "FSK_29_07",
+    "FSK_32_37",
+    "FSK_32_20",
+    "FSK_28_45",
+    "FSK_28_79",
+    "FSK_29_18"
+   ],
+   "files": {
+    "etiketter-96-farg": "varldens-djur--etiketter-96-farg.png",
+    "etiketter-96-gra": "varldens-djur--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "varldens-djur--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "varldens-djur--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "varldens-djur--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "varldens-djur--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "varldens-djur--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "växter",
+   "page": 1,
+   "concepts": [
+    "FSK_27_07",
+    "FSK_31_94",
+    "FSK_32_07",
+    "FSK_28_78",
+    "FSK_31_97",
+    "FSK_28_20",
+    "FSK_25_58",
+    "FSK_28_59",
+    "FSK_31_87",
+    "FSK_32_06",
+    "FSK_28_89",
+    "FSK_31_74",
+    "FSK_32_64",
+    "FSK_32_36",
+    "FSK_32_29",
+    "FSK_29_03",
+    "FSK_28_71",
+    "FSK_32_22",
+    "FSK_32_61",
+    "FSK_28_99",
+    "FSK_28_87",
+    "FSK_28_77",
+    "FSK_32_62"
+   ],
+   "files": {
+    "etiketter-96-farg": "vaxter--etiketter-96-farg.png",
+    "etiketter-96-gra": "vaxter--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "vaxter--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "vaxter--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "vaxter--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "vaxter--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "vaxter--utskrift-a4-gra.pdf"
+   }
+  },
+  {
+   "category": "år och väder",
+   "page": 1,
+   "concepts": [
+    "FSK_31_07",
+    "FSK_30_38",
+    "FSK_31_03",
+    "FSK_30_83",
+    "FSK_26_12",
+    "FSK_28_23",
+    "FSK_91_65",
+    "FSK_91_66",
+    "FSK_91_64",
+    "FSK_28_10",
+    "FSK_27_87"
+   ],
+   "files": {
+    "etiketter-96-farg": "ar-och-vader--etiketter-96-farg.png",
+    "etiketter-96-gra": "ar-och-vader--etiketter-96-gra.png",
+    "utan-etikett-48-farg": "ar-och-vader--utan-etikett-48-farg.png",
+    "utan-etikett-48-gra": "ar-och-vader--utan-etikett-48-gra.png",
+    "utan-etikett-24-farg": "ar-och-vader--utan-etikett-24-farg.png",
+    "utskrift-a4-farg": "ar-och-vader--utskrift-a4-farg.pdf",
+    "utskrift-a4-gra": "ar-och-vader--utskrift-a4-gra.pdf"
+   }
+  }
+ ]
+}
