@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_21_26",
   "label_sv": "reflex",
-  "fingerprint": "c3ca75ff9bfe83dc470402d21c112ade802331bbddf41d5cd67d70e7f6719c0d",
+  "fingerprint": "8dcb143ecaa015cba9512938526705fec3c4586d937f68c3357a62d04f1afbcc",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One silver-white round hanging safety reflector with subtle prismatic surface pattern and a short black attachment cord. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1023812415,
+  "seed": 1897641044,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T21:35:28.977003+00:00",
+  "created_at": "2026-10-24T04:46:04.498571+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,14 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_21_26_784c3b62ec184339691e8a16098c28eeb2b1ca76de65a4590f92a39facb6aa94_r1",
-  "regeneration_source_sha256": "784c3b62ec184339691e8a16098c28eeb2b1ca76de65a4590f92a39facb6aa94",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 80.195,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 80.229,
-  "sha256": "7946a73e6a2de186fddb22699da723a4d91317d368573e010f8e7dc10d25a37b"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
