@@ -2793,15 +2793,15 @@
     {
       "concept_id": "FSK_29_30",
       "label_sv": "pärlplatta",
-      "fingerprint": "fc3236239bea5a64305676a1c974af3e982b9f0bdf8197193b6a4779aed3f5b8",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One square transparent-white plastic fuse-bead pegboard seen from above at slight angle. Regular grid of many short upright cylindrical pegs, colorful small hollow tubular fuse beads fitted onto pegs in a simple red heart pattern. Remaining empty pegs clearly visible. Required editor correction: Bör se ut som en Hama pärlplatta. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1938463953,
+      "fingerprint": "0f3a6e8eb86f7da7e80608eef786b313a9c86230003221bac3f80a5e0ba9ce31",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One square transparent-white plastic fuse-bead pegboard seen from above at slight angle. Regular grid of many short upright cylindrical pegs, colorful small hollow tubular fuse beads fitted onto pegs in a simple red heart pattern. Remaining empty pegs clearly visible. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1779145314,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:45:30.654002+00:00",
+      "created_at": "2026-10-24T04:49:47.678821+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2823,16 +2823,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_29_30_956b28d4c2bb6adcd6ba5bb92ba9844b595d5589bc07fbb81094a6d6615ea122_r1",
-      "regeneration_source_sha256": "956b28d4c2bb6adcd6ba5bb92ba9844b595d5589bc07fbb81094a6d6615ea122",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.287,
+      "render_seconds": 79.961,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.336,
-      "sha256": "c430446d6d33bf301d71db67addb46de85e1cd75cc24ddf6293fbb838a2e2ae0"
+      "elapsed_seconds": 80.0,
+      "sha256": "d2f29df3ff6a6152a6447267afd31a642c2074602ee1cf71d0801b34fef9d24b"
     },
     {
       "concept_id": "FSK_29_31",
