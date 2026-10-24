@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_28_38",
   "label_sv": "midsommar",
-  "fingerprint": "10bed8eff443c143a0e839903e0ee27cd1f3ba9d2df16878aee9da73ef0fc28f",
+  "fingerprint": "7e344f4a52b91f7c2d1607f87b29221e1b720388eabd33f9388a573a0e8c07e0",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: A tall midsummer pole with a cross-bar and two hanging rings, completely covered in green leaves and fresh flowers, standing upright. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 884980567,
+  "seed": 168563075,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:38:24.251712+00:00",
+  "created_at": "2026-10-23T19:42:06.118319+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_28_38_a7fc55d3ed194d7a7fe6b1ace0b38e0b8d90d747aaa487819a85bf1516942085_r1",
+  "regeneration_source_sha256": "a7fc55d3ed194d7a7fe6b1ace0b38e0b8d90d747aaa487819a85bf1516942085",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 81.471,
+  "render_seconds": 79.501,
   "background_seconds": 0.0,
-  "elapsed_seconds": 81.502,
-  "sha256": "a7fc55d3ed194d7a7fe6b1ace0b38e0b8d90d747aaa487819a85bf1516942085"
+  "elapsed_seconds": 79.536,
+  "sha256": "54b9ad8c89ac5492826404a263358fc22db8ed8338c5a3583adb970d2fdc060e"
 }

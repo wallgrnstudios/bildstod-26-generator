@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_29_29",
   "label_sv": "dockvagn",
-  "fingerprint": "a0893569bdce2da5d31e996f8f7fd09971f6702f2b97ad8e23bdb08aeafd942f",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern child-size toy doll stroller, two crossed metal side frames, continuous curved push handle joined to frame, clean blue fabric sling seat between frames, four wheels attached to two axles below. Empty seat and coherent connected structure. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1811465631,
+  "fingerprint": "a2c041775a19e0a7b9e70fadb792a620e20498a050ea4da7a8b27efc7ead8dc2",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One modern child-size toy doll stroller, two crossed metal side frames, continuous curved push handle joined to frame, clean blue fabric sling seat between frames, four wheels attached to two axles below. Empty seat and coherent connected structure. Required editor correction: Gör vagnen mer korrekt. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1007474729,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T06:58:26.127335+00:00",
+  "created_at": "2026-10-23T19:44:48.857434+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_29_29_f228e1c40df9decd173d643fca88ff12f24f799395a7abab4e7a970ddfeccc80_r1",
+  "regeneration_source_sha256": "f228e1c40df9decd173d643fca88ff12f24f799395a7abab4e7a970ddfeccc80",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 81.995,
+  "render_seconds": 79.343,
   "background_seconds": 0.0,
-  "elapsed_seconds": 82.032,
-  "sha256": "f228e1c40df9decd173d643fca88ff12f24f799395a7abab4e7a970ddfeccc80"
+  "elapsed_seconds": 79.371,
+  "sha256": "c19b0cf6775c6b4ed8caf43af4b63ec8006a5a685a37a6438ef05d35db373a72"
 }

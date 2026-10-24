@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_20_58",
   "label_sv": "såga",
-  "fingerprint": "c071621d299ab4e351c84c92b0d1c909f80df8391cc13062ad83dcb5e1fdf5c1",
+  "fingerprint": "96ec017946fb487ae578b3b2025e05575d1ec9b8eb27e52d8334384b556ae759",
   "prompt": "Create one isolated illustration: One child sawing a wooden board with a small handsaw, board held in a clamp. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 472963815,
+  "seed": 425065788,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-22T12:00:34.013241+00:00",
+  "created_at": "2026-10-23T19:39:35.005511+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -32,12 +32,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_20_58_045625f84d3d6021359d2144cdc56d88340e8d37d975014fad4b4f35790abd91_r1",
+  "regeneration_source_sha256": "045625f84d3d6021359d2144cdc56d88340e8d37d975014fad4b4f35790abd91",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 68.473,
+  "render_seconds": 67.249,
   "background_seconds": 0.0,
-  "elapsed_seconds": 68.516,
-  "sha256": "045625f84d3d6021359d2144cdc56d88340e8d37d975014fad4b4f35790abd91"
+  "elapsed_seconds": 67.285,
+  "sha256": "7dd55fc487b73ced360f2030c51cd583631d2b5ee8551ed953e41f7217b2e201"
 }

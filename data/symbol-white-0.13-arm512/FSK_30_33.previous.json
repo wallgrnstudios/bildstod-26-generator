@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_30_33",
   "label_sv": "flagga",
-  "fingerprint": "417cebd432f7b2ee890194a109e3cf9127cc5496b366fc14a437eb586c7592a3",
+  "fingerprint": "aa249c4ca467deb33d55a8bbeaee8464e8bfec626b6255ae1147d1eb0f288e5a",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One simple blue-and-white striped rectangular fabric flag attached to a short wooden flagpole, gently curved fabric, no national emblem or text. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1616974047,
+  "seed": 297321054,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T21:35:09.574565+00:00",
+  "created_at": "2026-10-23T19:46:09.778695+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_30_33_f1286c892a2370741126765ec989f574096cafc246d03463e9a6512b3faf1324_r1",
+  "regeneration_source_sha256": "f1286c892a2370741126765ec989f574096cafc246d03463e9a6512b3faf1324",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 80.352,
+  "render_seconds": 79.571,
   "background_seconds": 0.0,
-  "elapsed_seconds": 80.379,
-  "sha256": "f1286c892a2370741126765ec989f574096cafc246d03463e9a6512b3faf1324"
+  "elapsed_seconds": 79.605,
+  "sha256": "746f0833b507c9985b891be2c8559d11049983212d97cede02d62e8616492062"
 }
