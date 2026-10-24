@@ -1151,15 +1151,15 @@
     {
       "concept_id": "FSK_20_40",
       "label_sv": "fästa",
-      "fingerprint": "c8a0fc17ae43ba445e086ce02fe20cc62b9ae5540ebf5f0a85b5f8020aeb788b",
+      "fingerprint": "d09c68b41d32c44706562f9c1265efc6dee5a7e033ae39cb257c20e9711b1abc",
       "prompt": "Create one isolated illustration: Child, light brown curly hair, fair skin, teal t-shirt, pressing tape over the corner of a drawing on a board. Full figure in frame. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 176888249,
+      "seed": 2020432856,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:39:19.826118+00:00",
+      "created_at": "2026-10-24T04:45:35.819565+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1184,16 +1184,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_20_40_c71cd182202718abf770aad5b4f8648059803369094fde0c3b0c5178f75ecaa2_r1",
-      "regeneration_source_sha256": "c71cd182202718abf770aad5b4f8648059803369094fde0c3b0c5178f75ecaa2",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 67.126,
+      "render_seconds": 65.974,
       "background_seconds": 0.0,
-      "elapsed_seconds": 67.177,
-      "sha256": "0d714ccb17dfe9446bd3585a0b049f42c8528a543c28cdcde1a2fb50ed7fd8b3"
+      "elapsed_seconds": 66.02,
+      "sha256": "d9d338a7a9bcbd24d6f015079f37ba221d793c93540a1d8ff1133cfd5dc123ec"
     },
     {
       "concept_id": "FSK_20_54",
