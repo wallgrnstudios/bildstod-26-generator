@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_18_86",
   "label_sv": "sopa",
-  "fingerprint": "132f9e86cd9066d886eee79e4d6113d838ee903b0581cdd6278c8cb62d0c1d86",
+  "fingerprint": "fb0800ddea05068340876dd8b605fa32929115d5aad134632ecf7893511facc8",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child sweeping crumbs toward a dustpan with a broom held in both hands, side view. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 724784188,
+  "seed": 2129404457,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:34:30.344577+00:00",
+  "created_at": "2026-10-24T04:40:55.167572+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -33,14 +33,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_18_86_806bbca6872dee72e24be7b8e97c29a10ec7e53458c3012e59f34e4944409152_r1",
-  "regeneration_source_sha256": "806bbca6872dee72e24be7b8e97c29a10ec7e53458c3012e59f34e4944409152",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.794,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.827,
-  "sha256": "3c3860396c843f730597179d1e95a7d495c1a575f07b5c02e6f1519549907c2e"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
