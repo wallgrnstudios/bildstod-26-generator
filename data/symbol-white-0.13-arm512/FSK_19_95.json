@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_19_95",
   "label_sv": "majs",
-  "fingerprint": "d0269ac86b3c113db57fe851bc86e77daf5ddbb8579bb80efebd920bae22fb10",
+  "fingerprint": "6b03b2b8516267b6b714a01efb126fa3a419454f882ab81ea6b4e2cbfa3e7f11",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: One yellow corn cob partly wrapped in green husk, orderly rows of plump kernels visible. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1587718085,
+  "seed": 1092453024,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:37:58.805837+00:00",
+  "created_at": "2026-10-24T04:44:16.497736+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,14 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_19_95_3b92b88a51f13c6f4cf6333b07f312aac88e748c209c7ab7f2ffb24cb820c6a2_r1",
-  "regeneration_source_sha256": "3b92b88a51f13c6f4cf6333b07f312aac88e748c209c7ab7f2ffb24cb820c6a2",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.275,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.305,
-  "sha256": "086abe55b685894a46d1993ce8ff0fe0bb40933c91fa2075f3c598efe713f2cc"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
