@@ -64,7 +64,8 @@ def prompt_for(entry, config):
     if entry.get('symbol_type'):
         # Reference-free briefs keep the written style but get no reference image (it copied its pose into actions).
         lead = 'Create one isolated illustration: ' if entry.get('reference_conditioning') is False else 'Use the reference only for drawing style. Create one isolated illustration: '
-        return (lead + entry['visual_prompt_en'] + ' ' + style + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
+        framing = ' Crop tightly to the named body part only; no whole face or body.' if entry.get('symbol_type') == 'body_part' else ''
+        return (lead + entry['visual_prompt_en'] + framing + ' ' + style + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
     if config.get('backend') == 'flux2-klein':
         return ('Use the reference image only as an illustration style guide. Create a completely new preschool action scene: '
                 + entry['visual_prompt_en'] + ' ' + style

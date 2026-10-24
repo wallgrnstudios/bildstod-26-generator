@@ -12917,13 +12917,14 @@
     "text_sv": "näsa",
     "symbol_type": "body_part",
     "meaning_sv": "Näsa: kroppsdelen i mitten av ansiktet för att lukta. Inte snor.",
-    "visual_prompt_en": "Side-angled close-up of a preschool child's face cropped to the nose with both nostrils visible, calm expression. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery.",
+  "visual_prompt_en": "One isolated child's nose only, tightly cropped around the bridge, nostrils and tip. No eyes, mouth, whole face, head or body. Friendly natural skin tone, non-medical, no injury, text or scenery.",
     "must_show_sv": [
-      "Näsan tydlig i mitten av ansiktet",
+    "Endast näsan syns, stort och tydligt",
       "Näsborrar synliga"
     ],
     "must_not_show_sv": [
-      "Snor",
+    "Ögon, mun, helt ansikte, huvud eller kropp",
+    "Snor",
       "Näsduk",
       "Skada, blod eller nakenhet",
       "Text eller bokstäver"

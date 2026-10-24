@@ -21,8 +21,10 @@ def _fetch_queue():
         page=json.loads(read_url(PUBLIC_QUEUE+'?'+urlencode({'pageSize':300,**({'pageToken':token} if token else {})})))
         for doc in page.get('documents',[]):
             f=doc['fields']
-            if set(f)!=FIELDS or f['public_approved'].get('booleanValue') is not True or f['schema_version'].get('integerValue')!='1':
+            if not FIELDS.issubset(f) or set(f)-FIELDS-{'cancelled'} or f['public_approved'].get('booleanValue') is not True or f['schema_version'].get('integerValue')!='1':
                 raise ValueError('Invalid public render queue schema')
+            if f.get('cancelled',{}).get('booleanValue') is True:
+                continue
             row={k:f[k]['stringValue'] for k in ('concept_id','source_sha256','prompt_en')}
             row['created_at']=f['createdAt']['timestampValue']
             row['revision']=int(f['revision']['integerValue'])
@@ -71,6 +73,10 @@ def apply_requests(entries, requests, output):
         e['visual_prompt_en']=r['prompt_en']
         e['regeneration_request_id']=r['request_id']
         e['regeneration_source_sha256']=r['source_sha256']
+        # Reworks are deliberately text-led: the style reference has repeatedly
+        # leaked pose and composition into otherwise simple symbols.
+        e['reference_conditioning']=False
+        e['style_prompt_override']='Modern gentle children’s-book illustration, fine brown pencil line and light watercolor colour. Isolated on pure white, no text or scenery.'
         e['generation_priority']=0
     return result
 

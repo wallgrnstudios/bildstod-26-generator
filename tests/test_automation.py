@@ -26,6 +26,7 @@ class AutomationTests(unittest.TestCase):
             e=apply_requests([self.entry],[self.request],output)[0]
             self.assertNotEqual(identity(e,self.config),identity(self.entry,self.config))
             self.assertNotEqual(seed_for(e,self.config),seed_for(self.entry,self.config))
+            self.assertFalse(e['reference_conditioning'])
             p.write_text(json.dumps({'regeneration_request_id':self.request['request_id'],'sha256':'b'*64}))
             self.assertEqual(apply_requests([self.entry],[self.request],output)[0],e)
             p.write_text(json.dumps({'status':'failed','regeneration_request_id':self.request['request_id'],'regeneration_source_sha256':self.sha}))
@@ -76,6 +77,8 @@ class AutomationTests(unittest.TestCase):
         with patch('bildstod.rework.read_url',return_value=json.dumps({'documents':[doc]}).encode()):self.assertEqual(fetch_queue(),[self.request])
         f['note']={'stringValue':'private'}
         with patch('bildstod.rework.read_url',return_value=json.dumps({'documents':[doc]}).encode()),self.assertRaises(ValueError):fetch_queue()
+        del f['note'];f['cancelled']={'booleanValue':True}
+        with patch('bildstod.rework.read_url',return_value=json.dumps({'documents':[doc]}).encode()):self.assertEqual(fetch_queue(),[])
 
     def test_rate_limited_public_queue_defers_reworks_without_stopping_generation(self):
         warning=[]
