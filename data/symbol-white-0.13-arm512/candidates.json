@@ -3748,15 +3748,15 @@
     {
       "concept_id": "FSK_31_80",
       "label_sv": "färja",
-      "fingerprint": "0f3dc8292951bd7b374f73097c3bc3a5ec07715f0637834f9fcb7f53b311ca23",
+      "fingerprint": "27a3ab9f99ee508d5a7321796b9de314a1a5809ea096c4543d7e4f58c980c0bb",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small car ferry, flat open vehicle deck between two raised side structures, loading ramp lowered at one end, no cars or water scene. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 766322170,
+      "seed": 837618028,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T21:44:57.170311+00:00",
+      "created_at": "2026-10-24T04:58:06.361450+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -3778,16 +3778,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_31_80_afa04de8d712ccc4b158052b0ef45fd9905ebc6fcb8258610171e1538429556e_r1",
-      "regeneration_source_sha256": "afa04de8d712ccc4b158052b0ef45fd9905ebc6fcb8258610171e1538429556e",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 80.514,
+      "render_seconds": 78.573,
       "background_seconds": 0.0,
-      "elapsed_seconds": 80.534,
-      "sha256": "18fbdf7cbfc60897efc78d242626a75bb478ae11680ae1433bb215b7c4f24753"
+      "elapsed_seconds": 78.603,
+      "sha256": "470cec27be9532b066b8e77df149007e16d594a25f2fd9adf31afa9b335139c1"
     },
     {
       "concept_id": "FSK_31_81",
