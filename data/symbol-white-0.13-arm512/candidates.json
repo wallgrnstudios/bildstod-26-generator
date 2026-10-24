@@ -623,15 +623,15 @@
     {
       "concept_id": "FSK_17_46",
       "label_sv": "ris",
-      "fingerprint": "9ecb408cbb48c502958009b6deab2f052926c20c6922d83c602a625232252648",
+      "fingerprint": "36701668a9fc610c8c58f9af79b661c9331ab38da81f6072b619368f2a49605a",
       "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small white bowl filled with distinct slender cooked white rice grains, no cutlery. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1290248817,
+      "seed": 1180360235,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-23T19:32:37.006721+00:00",
+      "created_at": "2026-10-24T04:39:01.818455+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -653,16 +653,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_17_46_496ab9378ae1505ac3c05553bc5b771aaa2e63244d7717448c583a0b71114fa1_r1",
-      "regeneration_source_sha256": "496ab9378ae1505ac3c05553bc5b771aaa2e63244d7717448c583a0b71114fa1",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.861,
+      "render_seconds": 79.535,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.893,
-      "sha256": "e1f5bbf7a23963063621de46c04eed84fb017344e64b037e952b30b204d2053b"
+      "elapsed_seconds": 79.573,
+      "sha256": "bb3c463b60067835d49adc0d36331f369bd9c79563512bdf056a3fb11dc7f961"
     },
     {
       "concept_id": "FSK_17_50",
