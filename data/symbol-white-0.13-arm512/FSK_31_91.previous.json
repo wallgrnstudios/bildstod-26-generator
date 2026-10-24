@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_31_91",
   "label_sv": "advent",
-  "fingerprint": "4ffece1d052cc4381c4ae1df4bdaab91d9d3289717e4c40290145d18a720d4c8",
+  "fingerprint": "d8f24b1df2f364f8565a22102d5bd6b4daf14b59233d95a8c2e98d04b6483c05",
   "prompt": "Use the reference only for drawing style. Create one isolated illustration: An advent candlestick with four candles in a row, the first two lit, simple dark wooden candlestick holder, a small star hanging behind it. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1705001210,
+  "seed": 464054619,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-23T19:50:00.098260+00:00",
+  "created_at": "2026-10-24T04:56:31.720636+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -35,14 +35,12 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_31_91_0ec3c969ee951b50fa4a2c356bc2f3ca0a2359a8fb7f85a3fa15fc1f02905d11_r1",
-  "regeneration_source_sha256": "0ec3c969ee951b50fa4a2c356bc2f3ca0a2359a8fb7f85a3fa15fc1f02905d11",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 78.588,
+  "render_seconds": 79.104,
   "background_seconds": 0.0,
-  "elapsed_seconds": 78.632,
-  "sha256": "6f9288ea7510d156226e3488c7b867552000ddac7866a19bfc2a90f4e08792b4"
+  "elapsed_seconds": 79.129,
+  "sha256": "9ed8df366cab4e319a41672993107ea142c947baa4e8ea68c3e64a646743e155"
 }
