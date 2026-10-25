@@ -1145,7 +1145,7 @@
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-24T04:43:24.551396+00:00",
+      "created_at": "2026-10-25T07:44:13.271168+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1175,10 +1175,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 77.948,
+      "render_seconds": 79.948,
       "background_seconds": 0.0,
-      "elapsed_seconds": 77.987,
-      "sha256": "b5863b8a70f4414053c42ab7ec6e21693b3b62599a559271f3481c862848897d"
+      "elapsed_seconds": 79.987,
+      "sha256": "13247be909da3752ca020e6d370d24fcb7035b578fea941111f2a27049b55778"
     },
     {
       "concept_id": "FSK_19_49",
