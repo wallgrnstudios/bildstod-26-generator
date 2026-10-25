@@ -1107,15 +1107,15 @@
     {
       "concept_id": "FSK_19_18",
       "label_sv": "tand",
-      "fingerprint": "f335d9ee5cc1b53ae13b1d3aaca5afcc113c510e653e0d27e452cbe506a3901e",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A single large clean white front tooth drawn alone in a front view, friendly smooth shape, gum edge hinted at the base. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "17e563143ff21f434868be9d48bc8eb4b5ef290bf9eb590d164789e008980e83",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A single large clean white front tooth drawn alone in a front view, friendly smooth shape, gum edge hinted at the base. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 2004572655,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:25:59.670588+00:00",
+      "created_at": "2026-10-25T07:44:05.698028+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1146,10 +1146,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 81.015,
+      "render_seconds": 79.318,
       "background_seconds": 0.0,
-      "elapsed_seconds": 81.052,
-      "sha256": "a45c116c7e0b1bf2022beac4b73a936662c2fabf087d758f644eb233e965c2fd"
+      "elapsed_seconds": 79.36,
+      "sha256": "f6ac0a6f69ce5aef1702b35459b754f13c7cc63b7d5bb4277bfd9ea1bda84766"
     },
     {
       "concept_id": "FSK_19_34",
