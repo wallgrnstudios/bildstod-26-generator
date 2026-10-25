@@ -533,15 +533,15 @@
     {
       "concept_id": "FSK_15_95",
       "label_sv": "axel",
-      "fingerprint": "af2255e8251340f95117825ea0196021684fa157e88248be29ae927443309258",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A close-up image of the shoulder of preschool child. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 512173151,
+      "fingerprint": "b0373e4e6efb3d7bede64a1fe60e52a1be31b4c176e43d7fedf21fd88373876e",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A preschool child in front view cropped at the neck and upper arms wearing a plain t-shirt, one hand resting on the opposite shoulder. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2004048348,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-24T20:48:00.783154+00:00",
+      "created_at": "2026-10-25T07:42:51.722035+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -567,16 +567,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_15_95_be71fffe4443f904b20f23d9525f11d1eaa7c6c1f36c7941cde2ca5a9f4ca927_r1",
-      "regeneration_source_sha256": "be71fffe4443f904b20f23d9525f11d1eaa7c6c1f36c7941cde2ca5a9f4ca927",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 79.555,
+      "render_seconds": 79.963,
       "background_seconds": 0.0,
-      "elapsed_seconds": 79.617,
-      "sha256": "aa078f21c9dfbdd768c767d03077fc82049b2681bac222be77535acc52d2457c"
+      "elapsed_seconds": 80.024,
+      "sha256": "16724beb207aa8dd7f18940a49fff208ed7174ba14aa090d7464c992f89d8fa3"
     },
     {
       "concept_id": "FSK_16_07",
