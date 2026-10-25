@@ -17,6 +17,25 @@ from .pipeline import atomic_json
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# The generated body-part briefs are deliberately detailed.  Their original
+# material-style override is also very long, which can push FLUX beyond its
+# hard 220-token instruction budget.  Keep the visual requirements in the
+# individual brief and use this equivalent compact style only for that family;
+# do not change the general profile (and therefore existing candidates).
+COMPACT_BODY_PART_STYLE_IDS = {
+    'FSK_13_19', 'FSK_13_21', 'FSK_13_25', 'FSK_13_42', 'FSK_13_83',
+    'FSK_14_89', 'FSK_15_35', 'FSK_15_39', 'FSK_15_60', 'FSK_15_76',
+    'FSK_15_91', 'FSK_15_95', 'FSK_16_20', 'FSK_16_78', 'FSK_16_90',
+    'FSK_16_91', 'FSK_17_91', 'FSK_19_18', 'FSK_19_19', 'FSK_19_46',
+    'FSK_19_47', 'FSK_19_48', 'FSK_19_88', 'FSK_20_26', 'FSK_20_32',
+    'FSK_20_62',
+}
+COMPACT_BODY_PART_STYLE = (
+    'Modern children’s-book illustration, fine neutral charcoal lines, natural '
+    'proportions and gentle clean shading. Fresh true-to-life colour on pure '
+    'white, with no text, scenery or cast shadows.'
+)
+
 
 def load_config(path):
     config = json.loads(Path(path).read_text(encoding='utf-8'))
@@ -60,6 +79,8 @@ def load_briefs(path):
 def prompt_for(entry, config):
     # Per-brief material direction replaces the palette without requeuing other images.
     style = entry.get('style_prompt_override', config['style_prompt'])
+    if entry['id'] in COMPACT_BODY_PART_STYLE_IDS:
+        style = COMPACT_BODY_PART_STYLE
     # Short prompts, action first: long style preambles can truncate the actual action.
     if entry.get('symbol_type'):
         # Reference-free briefs keep the written style but get no reference image (it copied its pose into actions).

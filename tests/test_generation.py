@@ -29,6 +29,12 @@ class GenerationTests(unittest.TestCase):
         self.assertNotIn(self.config['style_prompt'], prompt_for(revised, self.config))
         self.assertEqual(identity(entry, self.config), original)
 
+    def test_long_body_part_style_is_compacted_without_changing_other_briefs(self):
+        body_part = next(entry for entry in load_briefs(ROOT / 'catalog/pilot/symbols.json') if entry['id'] == 'FSK_13_19')
+        prompt = prompt_for(body_part, self.config)
+        self.assertIn('Modern children’s-book illustration', prompt)
+        self.assertNotIn('distressed paper or aged patina', prompt)
+
     def test_locked_style_and_calibration_queue(self):
         self.assertEqual(len(self.entries), 50)
         with tempfile.TemporaryDirectory() as directory:
