@@ -1,6 +1,41 @@
 {
   "concept_id": "FSK_13_19",
+  "label_sv": "ögon",
   "fingerprint": "f9e2813de110be1163328191299a938443c8cde6ceb012b5bd3d2b862ecdadc8",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up front view of a friendly preschool child's two open eyes with eyebrows, cropped just above the brows and below the cheekbones. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1824505609,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-25T07:40:16.107666+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "body_part",
+  "meaning_sv": "Ögon: båda ögonen i ansiktet, synorganet. Inte glasögon och inte hela ansiktet.",
+  "must_show_sv": [
+    "Två öppna ögon",
+    "Ögonbryn och ögonlock tydliga"
+  ],
+  "must_not_show_sv": [
+    "Hela ansiktet",
+    "Glasögon",
+    "Tårar",
+    "Skada, blod eller nakenhet",
+    "Text eller bokstäver"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
   "status": "failed",
-  "error_type": "InterruptedInitialization"
+  "error_type": "InterruptedGeneration"
 }
