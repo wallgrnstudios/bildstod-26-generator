@@ -5,8 +5,8 @@ on:
       mode:
         type: choice
         options: [plan, generate]
-        default: plan
-        description: Plan or generate candidates
+        default: generate
+        description: Generate candidates, or choose plan for a dry run
       limit:
         type: choice
         options: ['1', '10', '25', '50', '100']
