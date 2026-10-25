@@ -60,6 +60,24 @@ def fetch_queue(warnings=None):
             return []
 
 
+def _has_verified_source(output, concept_id, source_sha256):
+    """Find the reviewed source across renderer-profile directories.
+
+    A rework request names the image hash it was made from.  Worker state is
+    deliberately retained by profile, so a renderer upgrade must not silently
+    strand a valid request just because its original receipt lives under the
+    preceding profile directory.
+    """
+    for sidecar in output.glob(f'*/{concept_id}.json'):
+        try:
+            receipt = json.loads(sidecar.read_text())
+        except (OSError, json.JSONDecodeError):
+            continue
+        if receipt.get('sha256') == source_sha256 or receipt.get('regeneration_source_sha256') == source_sha256:
+            return True
+    return False
+
+
 def apply_requests(entries, requests, output):
     result=copy.deepcopy(entries)
     latest={}
@@ -71,7 +89,10 @@ def apply_requests(entries, requests, output):
         sidecar=output/(e['id']+'.json')
         old=json.loads(sidecar.read_text()) if sidecar.exists() else {}
         # Re-apply completed overrides every run so the base catalog cannot revert them.
-        if old.get('regeneration_request_id')!=r['request_id'] and old.get('sha256',old.get('regeneration_source_sha256'))!=r['source_sha256']:
+        source_matches = (old.get('sha256') == r['source_sha256']
+                          or old.get('regeneration_source_sha256') == r['source_sha256']
+                          or _has_verified_source(output, e['id'], r['source_sha256']))
+        if old.get('regeneration_request_id')!=r['request_id'] and not source_matches:
             continue
         e['visual_prompt_en']=r['prompt_en']
         e['regeneration_request_id']=r['request_id']

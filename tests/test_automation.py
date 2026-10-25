@@ -35,6 +35,16 @@ class AutomationTests(unittest.TestCase):
             p.write_text(json.dumps({'sha256':'c'*64}))
             self.assertEqual(apply_requests([self.entry],[self.request],output),[self.entry])
 
+    def test_rework_accepts_verified_source_from_previous_render_profile(self):
+        with tempfile.TemporaryDirectory() as d:
+            output=Path(d)
+            legacy=output/'symbol-white-0.13-arm512'
+            legacy.mkdir()
+            (legacy/(self.id+'.json')).write_text(json.dumps({'sha256':self.sha,'status':'pending_review'}))
+            revised=apply_requests([self.entry],[self.request],output)[0]
+            self.assertEqual(revised['regeneration_request_id'],self.request['request_id'])
+            self.assertFalse(revised['reference_conditioning'])
+
     def test_failed_replacement_preserves_previous_reviewable_image(self):
         with tempfile.TemporaryDirectory() as d:
             output=Path(d)
