@@ -68,13 +68,14 @@ def _has_verified_source(output, concept_id, source_sha256):
     strand a valid request just because its original receipt lives under the
     preceding profile directory.
     """
-    for sidecar in output.glob(f'*/{concept_id}.json'):
-        try:
-            receipt = json.loads(sidecar.read_text())
-        except (OSError, json.JSONDecodeError):
-            continue
-        if receipt.get('sha256') == source_sha256 or receipt.get('regeneration_source_sha256') == source_sha256:
-            return True
+    for pattern in (f'*/{concept_id}.json', f'*/{concept_id}.previous.json'):
+        for sidecar in output.glob(pattern):
+            try:
+                receipt = json.loads(sidecar.read_text())
+            except (OSError, json.JSONDecodeError):
+                continue
+            if receipt.get('sha256') == source_sha256 or receipt.get('regeneration_source_sha256') == source_sha256:
+                return True
     return False
 
 

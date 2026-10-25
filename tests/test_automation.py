@@ -40,7 +40,11 @@ class AutomationTests(unittest.TestCase):
             output=Path(d)
             legacy=output/'symbol-white-0.13-arm512'
             legacy.mkdir()
-            (legacy/(self.id+'.json')).write_text(json.dumps({'sha256':self.sha,'status':'pending_review'}))
+            (legacy/(self.id+'.previous.json')).write_text(json.dumps({
+                'sha256':'b'*64,
+                'regeneration_source_sha256':self.sha,
+                'status':'pending_review',
+            }))
             revised=apply_requests([self.entry],[self.request],output)[0]
             self.assertEqual(revised['regeneration_request_id'],self.request['request_id'])
             self.assertFalse(revised['reference_conditioning'])
