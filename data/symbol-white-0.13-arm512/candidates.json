@@ -1279,15 +1279,15 @@
     {
       "concept_id": "FSK_20_32",
       "label_sv": "kind",
-      "fingerprint": "6c7e3f539f0d8327815f5634e9fe354f782905b684b5bedb9840e1e3606d4b22",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Side-front view of a preschool child's face cropped to one cheek, with a finger lightly pointing at the cheek. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "4ddcb73a71ffe7bd3dccebbb588efd38555691d242452397f04ca01746298d42",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Side-front view of a preschool child's face cropped to one cheek, with a finger lightly pointing at the cheek. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 177127334,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:28:41.237002+00:00",
+      "created_at": "2026-10-25T07:45:28.828569+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1316,10 +1316,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 82.732,
+      "render_seconds": 79.442,
       "background_seconds": 0.0,
-      "elapsed_seconds": 82.801,
-      "sha256": "f9a823e9e009002dba215a134f06487df08ffe7e59d4ebde94a1d49393c8efb3"
+      "elapsed_seconds": 79.516,
+      "sha256": "d30cf55e0c5e1e13c79f02fad3a01472aca35935a5199e4f2d25cc045d29acec"
     },
     {
       "concept_id": "FSK_20_34",
