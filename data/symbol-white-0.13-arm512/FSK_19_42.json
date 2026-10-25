@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_19_42",
   "label_sv": "binda",
-  "fingerprint": "50af2658f62d21103e8b125ffc2b14a1744a7a4ac482cff821f7766e29fa4fb0",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One new unused white menstrual pad, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 2146173050,
+  "fingerprint": "65b7ddd74f85687f9e01cbacb1299cdd029fe09cbe7ce116062126023e5ea45a",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One new unused white menstrual pad, elongated absorbent center, rounded ends and two thin lateral adhesive wings, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 495494965,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-24T15:57:22.375866+00:00",
+  "created_at": "2026-10-25T07:41:46.794154+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,14 +31,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "regeneration_request_id": "FSK_19_42_acbf0be6a13d8a96c3bc72fe5a207c4460348b9cbf2448e23c07e2e8dc69a6fd_r1",
-  "regeneration_source_sha256": "acbf0be6a13d8a96c3bc72fe5a207c4460348b9cbf2448e23c07e2e8dc69a6fd",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 78.28,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 78.323,
-  "sha256": "151bdad9202d75482c7b0088049828c2ba27b35407a855f1a3ce68f95aa92a7e"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
