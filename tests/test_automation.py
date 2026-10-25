@@ -79,6 +79,8 @@ class AutomationTests(unittest.TestCase):
         with patch('bildstod.rework.read_url',return_value=json.dumps({'documents':[doc]}).encode()),self.assertRaises(ValueError):fetch_queue()
         del f['note'];f['cancelled']={'booleanValue':True}
         with patch('bildstod.rework.read_url',return_value=json.dumps({'documents':[doc]}).encode()):self.assertEqual(fetch_queue(),[])
+        f['updatedAt']={'timestampValue':self.request['created_at']}
+        with patch('bildstod.rework.read_url',return_value=json.dumps({'documents':[doc]}).encode()):self.assertEqual(fetch_queue(),[])
 
     def test_rate_limited_public_queue_defers_reworks_without_stopping_generation(self):
         warning=[]

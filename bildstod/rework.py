@@ -21,10 +21,13 @@ def _fetch_queue():
         page=json.loads(read_url(PUBLIC_QUEUE+'?'+urlencode({'pageSize':300,**({'pageToken':token} if token else {})})))
         for doc in page.get('documents',[]):
             f=doc['fields']
-            if not FIELDS.issubset(f) or set(f)-FIELDS-{'cancelled'} or f['public_approved'].get('booleanValue') is not True or f['schema_version'].get('integerValue')!='1':
-                raise ValueError('Invalid public render queue schema')
+            # Cancelled requests are audit history, never executable work. They may
+            # contain a server-side update timestamp added by the archival action.
+            # Skip them before enforcing the strict active-queue schema.
             if f.get('cancelled',{}).get('booleanValue') is True:
                 continue
+            if not FIELDS.issubset(f) or set(f)-FIELDS-{'cancelled'} or f['public_approved'].get('booleanValue') is not True or f['schema_version'].get('integerValue')!='1':
+                raise ValueError('Invalid public render queue schema')
             row={k:f[k]['stringValue'] for k in ('concept_id','source_sha256','prompt_en')}
             row['created_at']=f['createdAt']['timestampValue']
             row['revision']=int(f['revision']['integerValue'])
