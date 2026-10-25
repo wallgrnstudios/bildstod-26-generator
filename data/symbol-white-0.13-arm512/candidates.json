@@ -751,15 +751,15 @@
     {
       "concept_id": "FSK_17_73",
       "label_sv": "duscha",
-      "fingerprint": "1c51b59b12c00f9d9316fb4aca8cde669d17ce8c11f1d24112e6c9543c49fac9",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A preschool child in the shower with falling water streams from the showerhead, image seen from the chest up, wet hair, calm. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 297485058,
+      "fingerprint": "39adf60a0bbb3d441154c9a8a217a436153b17e07ff76be3f7e936187f26287f",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child under a shower head with falling water streams, seen from the chest up, wet hair, calm. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1965494923,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-24T15:57:23.763433+00:00",
+      "created_at": "2026-10-25T07:43:50.556017+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -784,16 +784,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_17_73_4112ac70342d2f4a47f6c3e96c07b9c51f492354294484039e583eaff05c50b9_r1",
-      "regeneration_source_sha256": "4112ac70342d2f4a47f6c3e96c07b9c51f492354294484039e583eaff05c50b9",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.618,
+      "render_seconds": 78.925,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.667,
-      "sha256": "c6ec52c7f53e6764115aa73935b2d7c12e36921766c59708c011488f14e344e6"
+      "elapsed_seconds": 78.959,
+      "sha256": "19f65c6cf6e39dd4852e71a7a88889fe8bbde8dd314aa80ba66e571562ae7791"
     },
     {
       "concept_id": "FSK_17_86",
