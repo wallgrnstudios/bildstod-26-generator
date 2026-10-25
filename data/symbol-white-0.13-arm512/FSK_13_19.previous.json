@@ -1,0 +1,47 @@
+{
+  "concept_id": "FSK_13_19",
+  "label_sv": "ögon",
+  "fingerprint": "a72aca9b7742dd01af23a94ee2a480863206113fb6386cf80a5a7c54cec52fb7",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up front view of a friendly preschool child's two open eyes with eyebrows, cropped just above the brows and below the cheekbones. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1824505609,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-21T23:04:21.301141+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": true,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "body_part",
+  "meaning_sv": "Ögon: båda ögonen i ansiktet, synorganet. Inte glasögon och inte hela ansiktet.",
+  "must_show_sv": [
+    "Två öppna ögon",
+    "Ögonbryn och ögonlock tydliga"
+  ],
+  "must_not_show_sv": [
+    "Hela ansiktet",
+    "Glasögon",
+    "Tårar",
+    "Skada, blod eller nakenhet",
+    "Text eller bokstäver"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "pending_review",
+  "transparency": {
+    "background": "white"
+  },
+  "render_seconds": 79.585,
+  "background_seconds": 0.0,
+  "elapsed_seconds": 79.66,
+  "sha256": "c2bce55078f064839c933f5a855746fc16b3299766a93e08c25e5a60018686d9"
+}
