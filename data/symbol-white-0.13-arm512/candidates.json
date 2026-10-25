@@ -1414,15 +1414,15 @@
     {
       "concept_id": "FSK_21_23",
       "label_sv": "bre",
-      "fingerprint": "9d38d16a10c5485ebfd78d3899f6d95b70b22adda1ff59f70b2cd25a2a8e0fbe",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close up image of One child spreading butter on a slice of bread with a blunt table knife, the knife flat against the bread. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 2072670659,
+      "fingerprint": "2335f8d329d3b5933f83166c1ea20858885fe55ed75efa2d7c68753e033f284c",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One child spreading butter on a slice of bread with a blunt table knife, the knife flat against the bread. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1251338976,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-24T15:57:16.942030+00:00",
+      "created_at": "2026-10-25T07:44:16.722960+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -1446,16 +1446,14 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
-      "regeneration_request_id": "FSK_21_23_3a1a7f9694a0bb7f3e8e7507def4a78ce6f9fd26ba6b3783bdea7e598311a45c_r1",
-      "regeneration_source_sha256": "3a1a7f9694a0bb7f3e8e7507def4a78ce6f9fd26ba6b3783bdea7e598311a45c",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 78.294,
+      "render_seconds": 79.383,
       "background_seconds": 0.0,
-      "elapsed_seconds": 78.35,
-      "sha256": "e511bc182cce491d9d5fdd8859163187f1572aa31dba0f137e95cc4e0704c678"
+      "elapsed_seconds": 79.411,
+      "sha256": "16f2db4bd3f93ac4d25aae51b423e12b1a17067d099da36a5970c37c4329fbe1"
     },
     {
       "concept_id": "FSK_21_32",
