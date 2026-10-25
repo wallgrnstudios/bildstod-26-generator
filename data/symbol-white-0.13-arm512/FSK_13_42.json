@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_13_42",
   "label_sv": "hår",
-  "fingerprint": "bd23096c7f195d87f34f91ca0a7577cfdae80d553706295a18beeccaa9670a80",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Back and side view of a preschool child's head showing medium-length soft hair clearly, cropped at the shoulders. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "a9f278d5465d4101767468ab77c00bf86fcf99bf825515f0257041ee89a60e97",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Back and side view of a preschool child's head showing medium-length soft hair clearly, cropped at the shoulders. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 397066945,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-24T04:36:00.226297+00:00",
+  "created_at": "2026-10-25T07:41:36.178379+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 79.781,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 79.834,
-  "sha256": "2261adb7a90f663e2817f765030d32f3841620e7714d3e7aeed2cc104618a4df"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
