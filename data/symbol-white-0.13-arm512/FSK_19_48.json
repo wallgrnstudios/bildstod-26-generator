@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_19_48",
   "label_sv": "tå",
-  "fingerprint": "6d99862f6384034bf1463a61b9e41fd6cf75ca8db98f82e818153f466214e453",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up of one bare preschool child's foot from above with the big toe lifted and clearly separated from the other toes, cropped at the ankle. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "fingerprint": "2cee86a5ffaed377b3eb67aceadb350fb49b9ebff9896bfa7a768031442858eb",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up of one bare preschool child's foot from above with the big toe lifted and clearly separated from the other toes, cropped at the ankle. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
   "seed": 1820679080,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-21T23:26:24.409202+00:00",
+  "created_at": "2026-10-25T07:42:54.952885+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,6 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 82.459,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 82.507,
-  "sha256": "ef9609059e7ebf912a85e1fd6cf2af364da8b1865dbbd2b101cc63c3f0bcd755"
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
