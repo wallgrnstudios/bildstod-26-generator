@@ -43,5 +43,6 @@
   "catalog_path": "catalog/pilot/symbols.json",
   "semantic_mode": "atomic-symbol",
   "production_paused": false,
+  "suppressed_concepts_path": "config/suppressed-concepts.json",
   "vocabulary_path": "catalog/school/vocabulary-2000.json"
 }

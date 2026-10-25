@@ -76,6 +76,27 @@ def load_briefs(path):
     return entries
 
 
+def suppressed_concepts(config):
+    """Concepts permanently removed from the automatic candidate stream.
+
+    This is an editorial safety block, not a review decision: a rejected
+    concept must never reappear because a worker rebuilds its broad backlog.
+    It can only return through a deliberately curated future workflow.
+    """
+    relative = config.get('suppressed_concepts_path')
+    if not relative:
+        return set()
+    path = ROOT / relative
+    try:
+        data = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, json.JSONDecodeError) as error:
+        raise ValueError('Invalid suppressed concepts list') from error
+    ids = data.get('concept_ids') if isinstance(data, dict) else None
+    if not isinstance(ids, list) or len(ids) > 5000 or any(not isinstance(value, str) or not re.fullmatch(r'FSK_[0-9]{2}_[0-9]{2}', value) for value in ids):
+        raise ValueError('Invalid suppressed concepts list')
+    return set(ids)
+
+
 def prompt_for(entry, config):
     # Per-brief material direction replaces the palette without requeuing other images.
     style = entry.get('style_prompt_override', config['style_prompt'])
@@ -114,9 +135,12 @@ def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shar
     if not 0 <= shard_index < shard_count <= 8:
         raise ValueError('Invalid worker shard')
     candidates = []
+    suppressed = suppressed_concepts(config)
     ordered = sorted(entries, key=lambda x: (x.get('generation_priority', 2), x['id']))
     for entry in ordered:
         if not entry.get('generation_enabled', True):
+            continue
+        if entry['id'] in suppressed:
             continue
         worker = 0 if entry['id'] == 'FSK_01_04' else int(hashlib.sha256(entry['id'].encode()).hexdigest()[:8], 16) % shard_count
         worker = config.get('worker_overrides', {}).get(entry['id'], worker)
