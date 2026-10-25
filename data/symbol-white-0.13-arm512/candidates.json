@@ -366,15 +366,15 @@
     {
       "concept_id": "FSK_15_60",
       "label_sv": "fot",
-      "fingerprint": "92025ea8235cbaf8e8e75b5697837e870d8956dc0fe4357a0c56e1e9bf4f34ad",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One bare preschool child's left foot in side view with toes, arch and heel visible, cropped at the ankle. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "2797cf0802b8eb9576edab1e0e0573edb72ffd0590a97eb8a6ed0137bd146e19",
+      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One bare preschool child's left foot in side view with toes, arch and heel visible, cropped at the ankle. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 1124483040,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T23:12:20.202630+00:00",
+      "created_at": "2026-10-25T07:41:34.106415+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -404,10 +404,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 82.698,
+      "render_seconds": 79.259,
       "background_seconds": 0.0,
-      "elapsed_seconds": 82.74,
-      "sha256": "c75a689e0a0879c2dffa23efb6f1aeeb4b12d8c1f730cb3fc496a9b273c5db8f"
+      "elapsed_seconds": 79.301,
+      "sha256": "0cc3c5686b8ab35e5cd6efe9b1e7e147201f260ada3ddb4f32d8336915b4ea32"
     },
     {
       "concept_id": "FSK_15_83",
