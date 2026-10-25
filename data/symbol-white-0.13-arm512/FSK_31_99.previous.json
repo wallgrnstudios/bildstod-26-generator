@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_31_99",
   "label_sv": "bläckfisk",
-  "fingerprint": "598d808bce0a4302f443e3a5abf16ac22528890cb5fe8135ca2f5a3ef3b65115",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One octopus with rounded mantle, two eyes and exactly eight clearly separated curling arms with visible suction cups. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1355750997,
+  "fingerprint": "ebb37a47df0a57b1d5005aa0d2f9c0c1866a19b72a6463a04053379ae6e8a547",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: One purple octopus with rounded mantle, two eyes and exactly eight clearly separated curling arms with visible suction cups. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 165587314,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-24T05:03:36.991833+00:00",
+  "created_at": "2026-10-24T16:02:41.812118+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -31,12 +31,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_31_99_5fe30108aba58365327f6bd46b30b13253573d75b7659c09c0ca1c0f86607133_r1",
+  "regeneration_source_sha256": "5fe30108aba58365327f6bd46b30b13253573d75b7659c09c0ca1c0f86607133",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 77.934,
+  "render_seconds": 78.407,
   "background_seconds": 0.0,
-  "elapsed_seconds": 77.966,
-  "sha256": "5fe30108aba58365327f6bd46b30b13253573d75b7659c09c0ca1c0f86607133"
+  "elapsed_seconds": 78.455,
+  "sha256": "e124cdc5263fefe4ce7ddd3daeb7418627b87ce95129700a64a0e6f57d8da5dc"
 }

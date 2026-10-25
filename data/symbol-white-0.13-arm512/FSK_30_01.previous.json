@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_30_01",
   "label_sv": "flygplats",
-  "fingerprint": "2697cb22d724068918125eefdb544f18e4267ebf6ebeab48bfce7a33e584bca0",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: A passenger airplane parked next to a glass terminal building with a jet bridge attached, small luggage cart nearby, seen from the front-side. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 916323845,
+  "fingerprint": "7961acfcb3dbc97a5a4fad345621aa7fb62128b4578956768960a977c6c30cd0",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: Two passenger airplanes parked next to a flightterminal building with a jet bridge attached, small luggage cart nearby, seen from the front-side. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 754861134,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-24T04:56:58.167391+00:00",
+  "created_at": "2026-10-24T16:00:01.696717+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -34,12 +34,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_30_01_cb4e82dcd5d4233f0a854d017ce3d486b6b32632e1c9c167bda78a1dc8ceb774_r1",
+  "regeneration_source_sha256": "cb4e82dcd5d4233f0a854d017ce3d486b6b32632e1c9c167bda78a1dc8ceb774",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 78.064,
+  "render_seconds": 78.455,
   "background_seconds": 0.0,
-  "elapsed_seconds": 78.113,
-  "sha256": "cb4e82dcd5d4233f0a854d017ce3d486b6b32632e1c9c167bda78a1dc8ceb774"
+  "elapsed_seconds": 78.499,
+  "sha256": "a2c9a5c3ce53d7769f57949e1bc10e5b8b98f195d195971d020d42f05f205db3"
 }

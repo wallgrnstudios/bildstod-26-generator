@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_27_82",
   "label_sv": "biljett",
-  "fingerprint": "a649fc263e61dd945f1ed0beb70440268c32eb03644c874d4cc71438b2cd90b1",
-  "prompt": "Use the reference only for drawing style. Create one isolated illustration: A rectangular paper travel ticket with a perforated edge and a plain colored stripe, no printed letters or numbers. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1987475173,
+  "fingerprint": "72cbec6997e0be307c4218bc8f24b95f4c006ae7173f5d3f131440398e7f0791",
+  "prompt": "Use the reference only for drawing style. Create one isolated illustration: A rectangular paper travel ticket with a perforated edge and a colored stripe. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 165131321,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-24T04:54:18.643313+00:00",
+  "created_at": "2026-10-24T15:58:42.198527+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -33,12 +33,14 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
+  "regeneration_request_id": "FSK_27_82_20cab8f55874fe2e2e80e18da07fbe88d107cf1857870976140907f4ae70cd9a_r1",
+  "regeneration_source_sha256": "20cab8f55874fe2e2e80e18da07fbe88d107cf1857870976140907f4ae70cd9a",
   "status": "pending_review",
   "transparency": {
     "background": "white"
   },
-  "render_seconds": 78.34,
+  "render_seconds": 78.027,
   "background_seconds": 0.0,
-  "elapsed_seconds": 78.365,
-  "sha256": "20cab8f55874fe2e2e80e18da07fbe88d107cf1857870976140907f4ae70cd9a"
+  "elapsed_seconds": 78.059,
+  "sha256": "cba4591a50bb2bc275f64a529ee7d3d010c38fb87925b8bd3676ec0308c94fba"
 }
