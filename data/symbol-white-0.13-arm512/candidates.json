@@ -1912,6 +1912,49 @@
       "sha256": "66fadb2c0607b2d2fd1161ef298be1a501436ecb839393d851d35ae2f0d76332"
     },
     {
+      "concept_id": "FSK_19_84",
+      "label_sv": "spotta",
+      "fingerprint": "22026a6c113c2b78bcb7a28d6275a588dd84a9f45db68cc4b4df5d20aa5f94e3",
+      "prompt": "Create one isolated illustration: A child leaning over a washbasin after toothbrushing, lips gently projecting a small water stream into the basin, toothbrush beside tap. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1558932441,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:50:45.993550+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Spotta sköljvatten i handfat",
+      "must_show_sv": [
+        "Spotta sköljvatten i handfat"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.543,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.585,
+      "sha256": "c207e7c6b8f7db6ca44b484b369b5d7973280ee6f19a4b627fd1b8f391cdece4"
+    },
+    {
       "concept_id": "FSK_20_05",
       "label_sv": "linne",
       "fingerprint": "e5be732e409497f77ace6e3cbf135152879060c489965794cf4b01283b72a550",
