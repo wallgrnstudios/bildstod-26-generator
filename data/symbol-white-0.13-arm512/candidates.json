@@ -5244,6 +5244,49 @@
       "sha256": "ed075bba716c5741b7c33437ab5478e17a6a00639ff70cab2d812963844e77d4"
     },
     {
+      "concept_id": "FSK_34_95",
+      "label_sv": "armbågsskydd",
+      "fingerprint": "1a7ca6a9654292f1fdd95b647e27a258f8a6f6e6eb3d8380ba8b1ab7af0cff91",
+      "prompt": "Create one isolated illustration: One matching pair of elbow pads, curved padded cups with elastic straps, no limbs. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 804543836,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:10:19.731091+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Två vadderade skydd med remmar",
+      "must_show_sv": [
+        "Två vadderade skydd med remmar"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.414,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.449,
+      "sha256": "e047fa25a36c7cde6d9d66a355f54f34d0af0812f26364a15712c156049b30ae"
+    },
+    {
       "concept_id": "FSK_90_03",
       "label_sv": "samling",
       "fingerprint": "50ab17e00a46a6e078c7011871d1ce64d30bf38ded7677dcaf78d7eb86e48822",
