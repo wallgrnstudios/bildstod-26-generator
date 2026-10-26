@@ -4,40 +4,16 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_14_89",
-      "label": "ansikte",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Front view of a preschool child's face with eyes, nose and mouth clearly visible, neutral calm expression, cropped at the hairline and chin. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 265831660
+      "id": "FSK_33_04",
+      "label": "skaljacka",
+      "prompt": "Create one isolated illustration: One clean child-size shell jacket laid flat in front view, bright blue smooth water-resistant fabric, attached hood, full zipper, long sleeves and reflective strip details without lettering. No person, rain or scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1367388268
     },
     {
-      "id": "FSK_15_91",
-      "label": "fötter",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A pair of bare preschool child's feet side by side from the front, standing flat on the ground, cropped at the ankles. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 769601076
-    },
-    {
-      "id": "FSK_15_95",
-      "label": "axel",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A preschool child in front view cropped at the neck and upper arms wearing a plain t-shirt, one hand resting on the opposite shoulder. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 2004048348
-    },
-    {
-      "id": "FSK_19_30",
-      "label": "bromsa",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in side view on a bicycle stopping, one hand squeezing the brake lever on the handlebar, leaning slightly back and feet near the ground. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1328071572
-    },
-    {
-      "id": "FSK_28_73",
-      "label": "apa",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One small brown long-tailed monkey seated, expressive round face, grasping hands and feet, long curved tail. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 103085204
-    },
-    {
-      "id": "FSK_29_13",
-      "label": "abborre",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One perch in side view, greenish body with dark vertical bars, reddish lower fins and spiny front dorsal fin. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 965686460
+      "id": "FSK_33_08",
+      "label": "gummistövlar",
+      "prompt": "Create one isolated illustration: A matching pair of clean child-size rubber rain boots, three-quarter view, tall bright red waterproof shafts, rounded toes and thick dark tread soles. Boots only, no feet, person, puddle or rain. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 300971300
     }
   ]
 }
