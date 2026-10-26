@@ -5935,6 +5935,51 @@
       "sha256": "eb3189754d80c98a20e74ba11853fa46778876a39d63d2894a78496740544b4d"
     },
     {
+      "concept_id": "FSK_37_06",
+      "label_sv": "tiobasstav",
+      "fingerprint": "c14cde1f21604b4e69bb54c05a203e20d261fd12bb617018720524847f6309c4",
+      "prompt": "Create one isolated illustration: One orange base-ten rod made of exactly ten equal cubes joined in a single straight row, nine clear dividing grooves, three-quarter view. No loose cubes. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1265033342,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T18:27:58.441104+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Tio sammanfogade kuber med synliga delningslinjer",
+      "must_show_sv": [
+        "Tio sammanfogade kuber med synliga delningslinjer",
+        "Synlig föremålsfärg och stort tydligt huvudmotiv"
+      ],
+      "must_not_show_sv": [
+        "Färglös skiss eller grått huvudmotiv",
+        "Små motiv omgivna av stora tomma ytor",
+        "Avklippta viktiga delar"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.557,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.609,
+      "sha256": "b79d137ade2bf8d3173d86440eee8169300c342fe2bd1ed43c69510a29ed762e"
+    },
+    {
       "concept_id": "FSK_90_09",
       "label_sv": "tvål",
       "fingerprint": "e3f29a2137a162b15e5803fd67a5e9078190510c3b8e0ca037e538c837ea8968",
