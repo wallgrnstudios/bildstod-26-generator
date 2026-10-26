@@ -4,46 +4,10 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_17_90",
-      "label": "näsa",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One isolated child's nose only, tightly cropped around the bridge, nostrils and tip. No eyes, mouth, whole face, head or body. Friendly natural skin tone, non-medical, no injury, text or scenery. Crop tightly to the named body part only; no whole face or body. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 782399101
-    },
-    {
-      "id": "FSK_19_42",
-      "label": "binda",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One new unused white menstrual pad, elongated absorbent center, rounded ends and two thin lateral adhesive wings, no person. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 495494965
-    },
-    {
-      "id": "FSK_20_62",
-      "label": "tumme",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child's hand with the thumb extended away from the other curled fingers, palm facing the viewer, cropped at the wrist. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1021581109
-    },
-    {
-      "id": "FSK_27_82",
-      "label": "biljett",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A rectangular paper travel ticket with a perforated edge and a plain colored stripe, no printed letters or numbers. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1987475173
-    },
-    {
-      "id": "FSK_30_01",
-      "label": "flygplats",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: A passenger airplane parked next to a glass terminal building with a jet bridge attached, small luggage cart nearby, seen from the front-side. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 916323845
-    },
-    {
-      "id": "FSK_31_03",
-      "label": "dimma",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Trees fading into thick white mist. Only the people and objects described; no decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1369119205
-    },
-    {
-      "id": "FSK_31_99",
-      "label": "bläckfisk",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One octopus with rounded mantle, two eyes and exactly eight clearly separated curling arms with visible suction cups. Natural animal anatomy; no clothing or anthropomorphic human hands. Isolated on pure white. No people, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1355750997
+      "id": "FSK_21_35",
+      "label": "overall",
+      "prompt": "Create one isolated illustration: One unoccupied child-size padded winter overall laid flat: hood, long sleeves and two full-length legs joined into ONE garment, one front zipper. Thick quilted insulation, warm collar lining and snow cuffs. Entire suit visible with margins. No person, separate jacket, rain shell or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1973136061
     }
   ]
 }
