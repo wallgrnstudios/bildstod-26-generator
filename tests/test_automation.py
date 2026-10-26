@@ -104,6 +104,13 @@ class AutomationTests(unittest.TestCase):
         sleep.assert_called_once_with(2)
         self.assertEqual(len(warning),1)
 
+    def test_suppressed_images_do_not_inflate_active_coverage_or_pending_queue(self):
+        receipt={'concept_id':self.id,'fingerprint':identity(self.entry,self.config),'status':'pending_review'}
+        with patch('bildstod.operations.suppressed_concepts',return_value={self.id}):
+            report=summarize([self.entry],[receipt],{},self.config)
+        self.assertEqual((report['enabled'],report['with_image'],report['pending'],report['failed']),(0,0,[],[]))
+        self.assertEqual(report['suppressed'],1)
+
     def test_empty_queue_is_healthy_and_fixed_sample_ids_remain(self):
         receipt={'concept_id':self.id,'fingerprint':identity(self.entry,self.config),'status':'pending_review'}
         s=summarize([self.entry],[receipt],{},self.config)

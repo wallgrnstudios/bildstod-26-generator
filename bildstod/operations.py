@@ -25,10 +25,11 @@ def summarize(entries,candidates,receipts,config):
 
 def main():
     config=load_config(ROOT/'config/generation.json');entries=load_briefs(ROOT/config['catalog_path'])
+    suppressed=suppressed_concepts(config)
     warnings=[]
     candidates=load_candidates();images={c['concept_id']:c for c in candidates};requests=fetch_queue(warnings)
     # Read only missing concepts and approved reworks, rather than every image receipt.
-    ids={e['id'] for e in entries if e.get('generation_enabled',True) and e['id'] not in suppressed_concepts(config) and e['id'] not in images}|{r['concept_id'] for r in requests}
+    ids={e['id'] for e in entries if e.get('generation_enabled',True) and e['id'] not in suppressed and e['id'] not in images}|{r['concept_id'] for r in requests}
     if len(ids)>5000:raise ValueError('Receipt set exceeds the bounded 5000-concept reporting budget')
     def receipt(identifier):
         import hashlib

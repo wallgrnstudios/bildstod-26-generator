@@ -94,11 +94,11 @@
     "reuse": 25
   },
   "standalone_symbol_types": {
-    "action": 113,
-    "object": 120,
-    "body_part": 28,
-    "situation": 31,
-    "person": 11
+    "situation": 52,
+    "action": 158,
+    "object": 139,
+    "person": 15,
+    "body_part": 28
   },
   "production_target": 3000
 }
