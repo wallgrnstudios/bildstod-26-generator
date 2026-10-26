@@ -5198,6 +5198,49 @@
       "sha256": "ff018dfb7c853bc652ebee12d21ac1531b2c62cf96798debfd51bb148ab11339"
     },
     {
+      "concept_id": "FSK_35_80",
+      "label_sv": "vindruvor",
+      "fingerprint": "2769fec5252c70dd04f66cf70a1b43d79b197f16812fb06efbf96c625b14ed5b",
+      "prompt": "Create one isolated illustration: One small bunch of green grapes with branching stem and smooth round berries. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1106923258,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:18:13.925837+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Druvklase på förgrenad stjälk",
+      "must_show_sv": [
+        "Druvklase på förgrenad stjälk"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 68.108,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 68.158,
+      "sha256": "f6b89ded403cf3aeea0de3790d3fbed11fe0ec43cc9afd7457cfbd00f58f7060"
+    },
+    {
       "concept_id": "FSK_90_01",
       "label_sv": "dragkedja",
       "fingerprint": "e2da90bc9e8fb3baedecbb06c88e3869310a3675a35a9b9af08b8b0dff0ef485",
