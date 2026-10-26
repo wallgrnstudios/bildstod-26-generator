@@ -36,6 +36,13 @@ COMPACT_BODY_PART_STYLE = (
     'white, with no text, scenery or cast shadows.'
 )
 
+CLEAN_WHITE_SYMBOL_STYLE = (
+    'Contemporary children’s-book illustration, fine neutral charcoal lines, natural '
+    'proportions and gentle precise shading. Fresh clean modern materials and true-to-life '
+    'colours. White textiles stay bright white with light cool-gray shadows only. Isolated '
+    'on pure white with no text, scenery or cast shadows.'
+)
+
 
 def load_config(path):
     config = json.loads(Path(path).read_text(encoding='utf-8'))
@@ -100,6 +107,8 @@ def suppressed_concepts(config):
 def prompt_for(entry, config):
     # Per-brief material direction replaces the palette without requeuing other images.
     style = entry.get('style_prompt_override', config['style_prompt'])
+    if entry.get('style_family') == 'clean_white':
+        style = CLEAN_WHITE_SYMBOL_STYLE
     if entry['id'] in COMPACT_BODY_PART_STYLE_IDS:
         style = COMPACT_BODY_PART_STYLE
     # Short prompts, action first: long style preambles can truncate the actual action.
