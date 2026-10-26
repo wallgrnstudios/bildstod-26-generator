@@ -4535,6 +4535,49 @@
       "sha256": "2916ab04d943c330b5d31276d22a684fc56f032de373e401817f6136a5984821"
     },
     {
+      "concept_id": "FSK_34_29",
+      "label_sv": "termos",
+      "fingerprint": "181b9cea3417d79339e945df0edbe17d8854bbeda1b7b61f78a4d84be471d7ae",
+      "prompt": "Create one isolated illustration: One vacuum flask with a screw-top cup lid placed beside it, insulated neck opening visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 179064480,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:53:34.611662+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Flaska med isolerande hals och kopplock",
+      "must_show_sv": [
+        "Flaska med isolerande hals och kopplock"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.297,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.321,
+      "sha256": "2ade5bc5646e16d5f61a4d54457369c2ca269bc89ea45e3f0f60d868655dd470"
+    },
+    {
       "concept_id": "FSK_90_10",
       "label_sv": "händer",
       "fingerprint": "b097b58f3d5459ebd7153eb37ab9b6013b96765421a2f21798e952e671fbef93",
