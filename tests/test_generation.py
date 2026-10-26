@@ -147,9 +147,9 @@ class GenerationTests(unittest.TestCase):
         vocabulary=json.loads((ROOT/'catalog/school/vocabulary-2000.json').read_text())
         symbols=load_briefs(ROOT/'catalog/pilot/symbols.json')
         by_id={x['id']:x for x in symbols}
-        self.assertEqual(len(vocabulary),2000)
-        self.assertEqual(len({x['id'] for x in vocabulary}),2000)
-        self.assertEqual(len({x['text_sv'].casefold() for x in vocabulary}),2000)
+        self.assertEqual(len(vocabulary),2012)
+        self.assertEqual(len({x['id'] for x in vocabulary}),2012)
+        self.assertEqual(len({x['text_sv'].casefold() for x in vocabulary}),2012)
         for row in vocabulary:
             self.assertEqual(row['generation_enabled'],row['brief_status']=='generation_ready')
             if row['symbol_id']:

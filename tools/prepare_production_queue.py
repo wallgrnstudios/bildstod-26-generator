@@ -124,7 +124,9 @@ def main():
     resolutions=json.loads(resolutions_path.read_text()) if resolutions_path.exists() else []
     vocabulary_before=json.dumps(vocabulary,ensure_ascii=False)
     added+=prepare_resolutions(symbols,vocabulary,resolutions)
-    assert len(vocabulary)==2000 and len({e['id'] for e in symbols})==len(symbols)
+    # The 2,000-word editorial core is supplemented by explicitly requested
+    # concrete clothing-and-weather concepts; never silently drop either set.
+    assert len(vocabulary)==2012 and len({e['id'] for e in symbols})==len(symbols)
     if not added and json.dumps(vocabulary,ensure_ascii=False)==vocabulary_before:
         print('No new briefs; existing queue left unchanged.')
         return
