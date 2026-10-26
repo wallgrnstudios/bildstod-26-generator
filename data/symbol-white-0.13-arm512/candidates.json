@@ -309,6 +309,49 @@
       "sha256": "42662a8a9c6e500943528898a414f89693bb93405d3d45e0685555171e6f37c0"
     },
     {
+      "concept_id": "FSK_12_68",
+      "label_sv": "slå på",
+      "fingerprint": "bcae0317fb295d741e104ed158b1d671b987731df3c646a5edae0a56742fe540",
+      "prompt": "Create one isolated illustration: A child's finger presses a desk lamp switch while the lamp visibly glows, hand and lamp only. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 404020852,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:48:09.384062+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Slå på en lampa",
+      "must_show_sv": [
+        "Slå på en lampa"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 68.049,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 68.082,
+      "sha256": "947fb7f58c284fb32599b32451b84b04cfab45fc310436ac0cb963cff554e8cc"
+    },
+    {
       "concept_id": "FSK_13_89",
       "label_sv": "leta",
       "fingerprint": "d093dea80ab79b1e3f27e1f43cd8415ad63a8adb9bdffbc88d1d7cc646b4a9ea",
