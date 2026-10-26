@@ -5266,6 +5266,49 @@
       "sha256": "2f64bc5fa56b2f5bfa1b271286006fa6c859412c7589fd62a7c8fb896715afc4"
     },
     {
+      "concept_id": "FSK_35_70",
+      "label_sv": "sopskyffel",
+      "fingerprint": "6d53257782dd412e9b8b9447df8f362ecd6edbc91e38660eb1f38598a221f422",
+      "prompt": "Create one isolated illustration: One dustpan with broad lip, raised sides and short handle, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2051157784,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:12:50.009837+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Skyffel med låg uppsamlingskant",
+      "must_show_sv": [
+        "Skyffel med låg uppsamlingskant"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 65.808,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 65.843,
+      "sha256": "6333e6f5c7c14e12fab01dd59b762e17f6c50e1c71b3fdbd95058c37b406bab9"
+    },
+    {
       "concept_id": "FSK_90_10",
       "label_sv": "händer",
       "fingerprint": "b097b58f3d5459ebd7153eb37ab9b6013b96765421a2f21798e952e671fbef93",
