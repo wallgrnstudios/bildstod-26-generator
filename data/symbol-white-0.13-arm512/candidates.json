@@ -2049,6 +2049,49 @@
       "sha256": "49709386662a838ae39298c53987c687b7375d4dd256e477f162752c87929847"
     },
     {
+      "concept_id": "FSK_25_63",
+      "label_sv": "komma",
+      "fingerprint": "7fb4dd63d4c5e45d692ab03f1b86d25d6dd98bd2df443ba55ba12f41120e5065",
+      "prompt": "Create one isolated illustration: A child walking toward an adult's open welcoming arms, both full bodies visible and a short gap between them. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 295719415,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:49:38.484541+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Komma fram till en person",
+      "must_show_sv": [
+        "Komma fram till en person"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.419,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.446,
+      "sha256": "997e28cc29a8ca5f81dfcc832ec2534b87f2caeca66cb72d48874af31e88d8eb"
+    },
+    {
       "concept_id": "FSK_25_75",
       "label_sv": "kör",
       "fingerprint": "c3ac4dfe135073772b7b2dd683a5df74b93c2ed52f32dc87d2be5deaa2ea81bd",
