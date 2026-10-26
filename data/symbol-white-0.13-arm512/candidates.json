@@ -4090,6 +4090,49 @@
       "sha256": "6d1e53cfc257a8f3fb476219490d3c6b38863fbc928dd1965799d500d87fec51"
     },
     {
+      "concept_id": "FSK_34_03",
+      "label_sv": "räcke",
+      "fingerprint": "6d8ff998a7e61d3ea3d362ea8dfa8ef21ba3461be280ba50be73152e72a3bbec",
+      "prompt": "Create one isolated illustration: One freestanding metal handrail beside three low steps, supports clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1022279337,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:56:35.298978+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "situation",
+      "meaning_sv": "Ledstång med stöd",
+      "must_show_sv": [
+        "Ledstång med stöd"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.127,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.164,
+      "sha256": "269655f8a6d9a565d5c1250ccb200f979f6bdba280afe278d8f7e6fa4a36a01c"
+    },
+    {
       "concept_id": "FSK_91_13",
       "label_sv": "skål",
       "fingerprint": "7c7058e13a8f1e49622bf715b67caaf5c1db7f724aa574a89e9873a668a5038b",
