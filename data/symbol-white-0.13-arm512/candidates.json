@@ -4104,6 +4104,50 @@
       "sha256": "5c6843e726e6c2b4921ce38807b577c2e729023ad632429d11c8b1aae94ef3ff"
     },
     {
+      "concept_id": "FSK_33_06",
+      "label_sv": "täckbyxor",
+      "fingerprint": "37ba3c20ade18776247f08607fb9aa4392c85dfaf4a984a96e52fcee9d89f786",
+      "prompt": "Create one isolated illustration: One pair of clean child-size padded snow trousers laid flat in front view, dark navy quilted fabric, elastic waist, two long legs and reinforced knee patches. No person, jacket or snow. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1083841576,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T07:58:14.302599+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Ett par varma vadderade ytterbyxor.",
+      "must_show_sv": [
+        "Två långa byxben",
+        "Vadderad tjocklek"
+      ],
+      "must_not_show_sv": [
+        "Jeans",
+        "Person"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.73,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.789,
+      "sha256": "669b589390b611026468b8d6490403834ff00bc3f847bd819fd087deeb865fb2"
+    },
+    {
       "concept_id": "FSK_90_10",
       "label_sv": "händer",
       "fingerprint": "b097b58f3d5459ebd7153eb37ab9b6013b96765421a2f21798e952e671fbef93",
