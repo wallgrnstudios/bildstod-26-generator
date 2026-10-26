@@ -1143,6 +1143,49 @@
       "sha256": "993e94fcbcc565f148d66cfd9896ba22aa648a403fe30d2b5d55f04b1e8b8edb"
     },
     {
+      "concept_id": "FSK_18_89",
+      "label_sv": "markera",
+      "fingerprint": "db25cd542f57c2a898a4f0c817a00512d53512bcdcf5b6b3d8db2e538643aa6d",
+      "prompt": "Create one isolated illustration: Close-up of child hand using a yellow highlighter across one plain gray horizontal line on paper, highlighted stripe visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1619513190,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:47:16.188952+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Markera på papper",
+      "must_show_sv": [
+        "Markera på papper"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.017,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.052,
+      "sha256": "b7a71f23b1e77623f7149277fe681c36126f0eb83db4ceb32bb2be6a9ee41086"
+    },
+    {
       "concept_id": "FSK_19_09",
       "label_sv": "tömma",
       "fingerprint": "2b72e19f20ff10d8c991fef3917d5d4a6e8f9ed3a24e77a640306f1cf33315db",
