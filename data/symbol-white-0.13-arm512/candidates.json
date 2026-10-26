@@ -5327,6 +5327,49 @@
       "sha256": "6c9f66f654368fd0fc60b0984188d6de4699a22c12423e58e5e6779858c67990"
     },
     {
+      "concept_id": "FSK_36_05",
+      "label_sv": "kikärtor",
+      "fingerprint": "4dee2e8b4e3c02206273dbfc1383d3c1bf29365aca24a21125a99586d1b2b46a",
+      "prompt": "Create one isolated illustration: One small bowl of cooked chickpeas and three loose chickpeas beside it, round beige seeds with pointed tips. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1933766658,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:21:41.776255+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Runda beige ärtor med spets",
+      "must_show_sv": [
+        "Runda beige ärtor med spets"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.61,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.646,
+      "sha256": "addc883cf6110bf4c0e56b7ca41d6bcc53b6306b6714bb9eed06dc6ea2e7c188"
+    },
+    {
       "concept_id": "FSK_90_01",
       "label_sv": "dragkedja",
       "fingerprint": "e2da90bc9e8fb3baedecbb06c88e3869310a3675a35a9b9af08b8b0dff0ef485",
