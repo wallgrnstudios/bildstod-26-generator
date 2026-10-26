@@ -3050,6 +3050,49 @@
       "sha256": "86f30484a15d1d580dfb7e5abd90220eca4f346ed15555a7bc9d27fedd68a97c"
     },
     {
+      "concept_id": "FSK_29_14",
+      "label_sv": "vandrande pinne",
+      "fingerprint": "6af695097a6fce8b7f48e9909c0ab0d4976ccbc30a8de4c02016421e3fb8c72f",
+      "prompt": "Create one isolated illustration: One stick insect in side view, long narrow twig-like brown body, six long slender legs and two antennae, no leaves. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1606378290,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:52:52.989031+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Vandrande pinne som insekt",
+      "must_show_sv": [
+        "Vandrande pinne som insekt"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.355,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.371,
+      "sha256": "967a51c9914e8bdc35bf4402c5869092d4389b9c388596011c8420379e41cebe"
+    },
+    {
       "concept_id": "FSK_29_17",
       "label_sv": "stekpanna",
       "fingerprint": "92c1be09dd410f3105156e7f45e4d8823620fe861c2eb4fd705e624c06df09ee",
