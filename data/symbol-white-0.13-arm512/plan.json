@@ -4,34 +4,10 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_16_20",
-      "label": "mun",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up front view of a preschool child's closed relaxed mouth with lips, cropped to the lower half of the face including a hint of the nose. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1993371054
-    },
-    {
-      "id": "FSK_17_49",
-      "label": "blunda",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One preschool child in front view with both eyes gently closed and a relaxed face, head upright, shoulders down. Show the action itself at its most recognizable moment, with the body movement and any object it acts on clearly visible. Include only the people needed to perform the action. No destination, audience, decorative scenery, brand names or lettering. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 89205206
-    },
-    {
-      "id": "FSK_19_46",
-      "label": "öra",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Side view of one preschool child's ear and a bit of surrounding hair and cheek, cropped close. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 515026846
-    },
-    {
-      "id": "FSK_20_26",
-      "label": "ögonbryn",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up front view of a preschool child's eyebrows and closed relaxed eyelids, cropped between forehead and cheekbones. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1693555470
-    },
-    {
-      "id": "FSK_20_32",
-      "label": "kind",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Side-front view of a preschool child's face cropped to one cheek, with a finger lightly pointing at the cheek. The body part is large and centered in a clear, friendly, non-medical view of a child, cropped only as described, natural skin tone, fully appropriate for preschool use, no injury or nudity. No lettering or scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 177127334
+      "id": "FSK_33_09",
+      "label": "vinterskor",
+      "prompt": "Create one isolated illustration: A matching pair of clean child-size winter boots, three-quarter view, dark blue insulated uppers, soft white faux-fur lining visible at the top, rounded toes and sturdy textured soles. Boots only, no feet, person or snow. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1903607006
     }
   ]
 }
