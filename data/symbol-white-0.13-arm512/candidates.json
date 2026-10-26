@@ -874,6 +874,49 @@
       "sha256": "073efc861878a5f2ef206506e6dac173472e4520aa7aaeabbe84eea0f2fe8e9e"
     },
     {
+      "concept_id": "FSK_17_47",
+      "label_sv": "sända",
+      "fingerprint": "854ba7882a885329b5f6f6869ad33f01c07c109472863c98e9c66cf575d5b63d",
+      "prompt": "Create one isolated illustration: A child holding a plain walkie-talkie near the mouth with thumb pressing its side talk button, small sound waves. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1600856533,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:55:19.838609+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Sända ett röstmeddelande med radio",
+      "must_show_sv": [
+        "Sända ett röstmeddelande med radio"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.095,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.156,
+      "sha256": "f74c9d1dc05d49fcad945a9de1bd7eac3d71b319fc2d6d4ed889a9e2de454de6"
+    },
+    {
       "concept_id": "FSK_17_90",
       "label_sv": "näsa",
       "fingerprint": "afd2e05c31ad9a96db23b08229bdcf1f39d53cf3ff53972ddbaeaec1a6b824ec",
