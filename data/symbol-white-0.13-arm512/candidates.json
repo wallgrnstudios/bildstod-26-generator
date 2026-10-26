@@ -3349,6 +3349,49 @@
       "sha256": "3c5db28e00beeb181ac0a27ca8ab5db2a32b2eef40251ca4dc03fe540571bbfd"
     },
     {
+      "concept_id": "FSK_30_40",
+      "label_sv": "grav",
+      "fingerprint": "8accc9b1891ca2d70567745a43787fcca9705edd862fc0ebe56f02c6fb67d9e3",
+      "prompt": "Create one isolated illustration: One simple low gravestone with a small flower planted in front, no names, dates or religious symbols. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 215798890,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:54:01.925172+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Gravplats markerad av sten",
+      "must_show_sv": [
+        "Gravplats markerad av sten"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.081,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.106,
+      "sha256": "9553705d29d6a8056eb9a1b7a67c2b9febe1a8dd75baf6c5bc882055c199ad1c"
+    },
+    {
       "concept_id": "FSK_30_65",
       "label_sv": "halloween",
       "fingerprint": "b85828b9cf25875485de7e6f792060cd920ccb65431f4853f37bc75829292b78",
