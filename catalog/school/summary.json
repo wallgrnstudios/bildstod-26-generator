@@ -1,5 +1,5 @@
 {
-  "total": 2232,
+  "total": 2240,
   "selection": "editorial school relevance with general Swedish frequency as a tie-breaker; not measured school/AAC frequency",
   "input_count": 3284,
   "categories": {
@@ -53,7 +53,7 @@
     "skapande": 32,
     "skoldag": 28,
     "skolfraser": 49,
-    "skolmaterial": 34,
+    "skolmaterial": 42,
     "skolmiljö": 37,
     "skolorganisation": 22,
     "skolpersonal": 22,
@@ -76,7 +76,7 @@
     "år och väder": 22
   },
   "brief_status": {
-    "generation_ready": 1125,
+    "generation_ready": 1133,
     "convention_proposed": 681,
     "composition_defined": 401,
     "reuses_symbol": 25

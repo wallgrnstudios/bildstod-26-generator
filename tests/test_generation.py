@@ -143,6 +143,20 @@ class GenerationTests(unittest.TestCase):
         self.assertNotIn('FSK_90_12',[x['id'] for x in batch])
         self.assertIn('zipper',prompt_for(by_id['FSK_90_01'],config))
 
+    def test_color_focus_is_opt_in_and_frames_objects_and_actions_differently(self):
+        from bildstod.generation import focus_framing
+        old=next(e for e in self.entries if e.get('visual_prompt_en'))
+        self.assertEqual(focus_framing(old),'')
+        base={'id':'FSK_37_01','text_sv':'hålslag','symbol_type':'object','visual_prompt_en':'One blue paper punch.',
+              'composition_family':'close_readable_v1','style_family':'color_focus_v1','reference_conditioning':False}
+        prompt=prompt_for(base,self.config)
+        self.assertIn('blue paper punch',prompt)
+        self.assertIn('subject fills 80%',prompt)
+        self.assertIn('Keep only the background white',prompt)
+        action={**base,'symbol_type':'action'}
+        self.assertIn('acting hands and target object',focus_framing(action))
+        self.assertNotIn('complete silhouette',focus_framing(action))
+
     def test_school_vocabulary_has_unique_stable_references_and_honest_queue(self):
         vocabulary=json.loads((ROOT/'catalog/school/vocabulary-2000.json').read_text())
         symbols=load_briefs(ROOT/'catalog/pilot/symbols.json')

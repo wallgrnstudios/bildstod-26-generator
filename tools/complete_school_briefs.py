@@ -23,7 +23,7 @@ def apply(root=ROOT):
         row.update(meaning_sv=brief['meaning_sv'],resolution=kind)
         if kind=='standalone':
             entry={**brief,'text_sv':row['text_sv'],'review_status':'draft','generation_enabled':True,'generation_priority':1,
-                   'category':row['category'],'reference_conditioning':False,'style_family':'clean_white'}
+                   'category':row['category'],'reference_conditioning':False,'style_family':'color_focus_v1','composition_family':'close_readable_v1'}
             entry.pop('resolution');entry.pop('previous_question_sv',None)
             if cid in by_symbol:
                 symbols[symbols.index(by_symbol[cid])]=entry

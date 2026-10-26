@@ -43202,5 +43202,157 @@
     "composition_policy": null,
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_school_supplement_not_frequency_rank"
+  },
+  {
+    "id": "FSK_37_01",
+    "text_sv": "hålslag",
+    "category": "skolmaterial",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2233,
+    "meaning_sv": "Två hålstansar, hävarm och pappersstyrning",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_37_01",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_school_supplement_not_frequency_rank"
+  },
+  {
+    "id": "FSK_37_02",
+    "text_sv": "tejphållare",
+    "category": "skolmaterial",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2234,
+    "meaning_sv": "Tejprulle, avrullad tejp och avrivningskant",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_37_02",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_school_supplement_not_frequency_rank"
+  },
+  {
+    "id": "FSK_37_03",
+    "text_sv": "akvarellåda",
+    "category": "skolmaterial",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2235,
+    "meaning_sv": "Flera tydligt färgade färgkoppar och blandlock",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_37_03",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_school_supplement_not_frequency_rank"
+  },
+  {
+    "id": "FSK_37_04",
+    "text_sv": "stiftpenna",
+    "category": "skolmaterial",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2236,
+    "meaning_sv": "Stiftspets, tryckknapp och pennkropp",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_37_04",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_school_supplement_not_frequency_rank"
+  },
+  {
+    "id": "FSK_37_05",
+    "text_sv": "räknebricka",
+    "category": "skolmaterial",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2237,
+    "meaning_sv": "Två rader med fem fack och flyttbara räknemarkörer",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_37_05",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_school_supplement_not_frequency_rank"
+  },
+  {
+    "id": "FSK_37_06",
+    "text_sv": "tiobasstav",
+    "category": "skolmaterial",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2238,
+    "meaning_sv": "Tio sammanfogade kuber med synliga delningslinjer",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_37_06",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_school_supplement_not_frequency_rank"
+  },
+  {
+    "id": "FSK_37_07",
+    "text_sv": "passare",
+    "category": "skolmaterial",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2239,
+    "meaning_sv": "Två ben, nålspets, ritspets och led",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_37_07",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_school_supplement_not_frequency_rank"
+  },
+  {
+    "id": "FSK_37_08",
+    "text_sv": "förstoringsburk",
+    "category": "skolmaterial",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2240,
+    "meaning_sv": "Genomskinlig burk med förstorande lins i locket",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_37_08",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_school_supplement_not_frequency_rank"
   }
 ]

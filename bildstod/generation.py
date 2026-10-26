@@ -44,6 +44,26 @@ CLEAN_WHITE_SYMBOL_STYLE = (
 )
 
 
+COLOR_FOCUS_SYMBOL_STYLE = (
+    'Colour illustration for children, fine clean outlines and soft shaded colour fills. '
+    'Use the named material colours visibly across the subject, not just its outline. '
+    'Keep only the background white; naturally white parts may stay white. No monochrome sketch.'
+)
+
+
+def focus_framing(entry):
+    if entry.get('composition_family') != 'close_readable_v1':
+        return ''
+    kind = entry.get('symbol_type')
+    if kind == 'object':
+        return ' Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large.'
+    if kind == 'body_part':
+        return ' Close view of the named part, with only the adjacent anatomy needed to identify it.'
+    if kind == 'action':
+        return ' Closest view that makes the action clear: enlarge acting hands and target object; include the whole body only if movement needs it.'
+    return ' Enlarge the defining feature; keep only context needed to identify the place or situation, no tiny distant subjects.'
+
+
 def load_config(path):
     config = json.loads(Path(path).read_text(encoding='utf-8'))
     if config['model'] not in ('stabilityai/sdxl-turbo', 'Lykon/dreamshaper-xl-lightning', 'black-forest-labs/FLUX.2-klein-4B') or not re.fullmatch(r'[0-9a-f]{40}', config['revision']):
@@ -109,6 +129,8 @@ def prompt_for(entry, config):
     style = entry.get('style_prompt_override', config['style_prompt'])
     if entry.get('style_family') == 'clean_white':
         style = CLEAN_WHITE_SYMBOL_STYLE
+    if entry.get('style_family') == 'color_focus_v1':
+        style = COLOR_FOCUS_SYMBOL_STYLE
     if entry['id'] in COMPACT_BODY_PART_STYLE_IDS:
         style = COMPACT_BODY_PART_STYLE
     # Short prompts, action first: long style preambles can truncate the actual action.
@@ -116,7 +138,7 @@ def prompt_for(entry, config):
         # Reference-free briefs keep the written style but get no reference image (it copied its pose into actions).
         lead = 'Create one isolated illustration: ' if entry.get('reference_conditioning') is False else 'Use the reference only for drawing style. Create one isolated illustration: '
         framing = ' Crop tightly to the named body part only; no whole face or body.' if entry.get('symbol_type') == 'body_part' else ''
-        return (lead + entry['visual_prompt_en'] + framing + ' ' + style + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
+        return (lead + entry['visual_prompt_en'] + framing + focus_framing(entry) + ' ' + style + ' Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.')
     if config.get('backend') == 'flux2-klein':
         return ('Use the reference image only as an illustration style guide. Create a completely new preschool action scene: '
                 + entry['visual_prompt_en'] + ' ' + style

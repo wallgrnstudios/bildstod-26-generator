@@ -1,5 +1,7 @@
 # Skolkatalog: 2 000 ord och korta fraser
 
+**Aktuellt 2026-10-26:** kön har fyllts på med 303 konkreta motiv och de tio återstående klädmotiven är genererade. Schemat är aktivt, upp till 100 kandidater per arbetare. Äldre antal och paustexter längre ned beskriver tidigare etapper. [Aktuellt produktionsläge](../../docs/PRODUCTION_2026-10-26.md).
+
 Detta är en **redaktionell startkatalog**, inte en uppmätt lista över Sveriges 2 000 vanligaste bildstödsord. Den är ett granskningsunderlag för förskola och grundskola. Innehållet behöver provas med användare och pedagoger. Etiketterna ska inte tolkas som att orden, betydelserna eller bilderna är pedagogiskt godkända.
 
 ## Urval

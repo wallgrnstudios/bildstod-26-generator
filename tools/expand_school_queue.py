@@ -19,7 +19,7 @@ def apply(root=ROOT):
         ids.add(cid);labels.add(item['text_sv'].casefold())
         entry={**item,'id':cid,'meaning_sv':item['must_show_sv'][0],
                'review_status':'draft','generation_enabled':True,'generation_priority':2,
-               'reference_conditioning':False,'style_family':'clean_white'}
+               'reference_conditioning':False,'style_family':'color_focus_v1','composition_family':'close_readable_v1'}
         symbols.append(entry);added.append(cid)
         vocabulary.append(dict(id=cid,text_sv=entry['text_sv'],category=entry['category'],entry_type='concept',
             priority_tier=2,editorial_order=len(vocabulary)+1,meaning_sv=entry['meaning_sv'],age_scope=['förskola','grundskola'],

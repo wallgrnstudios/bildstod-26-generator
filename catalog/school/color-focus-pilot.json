@@ -1,0 +1,210 @@
+[
+  {
+    "id": "FSK_37_01",
+    "text_sv": "hålslag",
+    "symbol_type": "object",
+    "meaning_sv": "Två hålstansar, hävarm och pappersstyrning",
+    "visual_prompt_en": "One cobalt-blue desktop two-hole paper punch, lever raised to reveal two round punch heads and the paper guide. Three-quarter view. No hands, labels or extra objects.",
+    "must_show_sv": [
+      "Två hålstansar, hävarm och pappersstyrning",
+      "Synlig föremålsfärg och stort tydligt huvudmotiv"
+    ],
+    "must_not_show_sv": [
+      "Färglös skiss eller grått huvudmotiv",
+      "Små motiv omgivna av stora tomma ytor",
+      "Avklippta viktiga delar"
+    ],
+    "contrast_terms_sv": [
+      "häftapparat"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": -2,
+    "category": "skolmaterial",
+    "reference_conditioning": false,
+    "style_family": "color_focus_v1",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_37_02",
+    "text_sv": "tejphållare",
+    "symbol_type": "object",
+    "meaning_sv": "Tejprulle, avrullad tejp och avrivningskant",
+    "visual_prompt_en": "One terracotta-red desktop tape dispenser with a clear tape roll on its spindle, tape stretched to the clearly visible serrated cutting edge. No hands, labels or extra objects.",
+    "must_show_sv": [
+      "Tejprulle, avrullad tejp och avrivningskant",
+      "Synlig föremålsfärg och stort tydligt huvudmotiv"
+    ],
+    "must_not_show_sv": [
+      "Färglös skiss eller grått huvudmotiv",
+      "Små motiv omgivna av stora tomma ytor",
+      "Avklippta viktiga delar"
+    ],
+    "contrast_terms_sv": [
+      "tejp"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": -2,
+    "category": "skolmaterial",
+    "reference_conditioning": false,
+    "style_family": "color_focus_v1",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_37_03",
+    "text_sv": "akvarellåda",
+    "symbol_type": "object",
+    "meaning_sv": "Flera tydligt färgade färgkoppar och blandlock",
+    "visual_prompt_en": "One open blue watercolor paint box with eight large paint pans visibly filled red, yellow, blue, green and other colours, white mixing lid folded back. No brush. No hands, labels or extra objects.",
+    "must_show_sv": [
+      "Flera tydligt färgade färgkoppar och blandlock",
+      "Synlig föremålsfärg och stort tydligt huvudmotiv"
+    ],
+    "must_not_show_sv": [
+      "Färglös skiss eller grått huvudmotiv",
+      "Små motiv omgivna av stora tomma ytor",
+      "Avklippta viktiga delar"
+    ],
+    "contrast_terms_sv": [
+      "kritor"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": -2,
+    "category": "skolmaterial",
+    "reference_conditioning": false,
+    "style_family": "color_focus_v1",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_37_04",
+    "text_sv": "stiftpenna",
+    "symbol_type": "object",
+    "meaning_sv": "Stiftspets, tryckknapp och pennkropp",
+    "visual_prompt_en": "One turquoise mechanical pencil, dark graphite lead projecting from its metal cone, push button and pocket clip clearly visible. Side view, diagonal composition. No hands, labels or extra objects.",
+    "must_show_sv": [
+      "Stiftspets, tryckknapp och pennkropp",
+      "Synlig föremålsfärg och stort tydligt huvudmotiv"
+    ],
+    "must_not_show_sv": [
+      "Färglös skiss eller grått huvudmotiv",
+      "Små motiv omgivna av stora tomma ytor",
+      "Avklippta viktiga delar"
+    ],
+    "contrast_terms_sv": [
+      "blyertspenna"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": -2,
+    "category": "skolmaterial",
+    "reference_conditioning": false,
+    "style_family": "color_focus_v1",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_37_05",
+    "text_sv": "räknebricka",
+    "symbol_type": "object",
+    "meaning_sv": "Två rader med fem fack och flyttbara räknemarkörer",
+    "visual_prompt_en": "One rectangular deep-blue counting tray with ten clearly separated circular wells in two rows of five. Three red counters occupy the first three wells, seven wells empty. No hands, labels or extra objects.",
+    "must_show_sv": [
+      "Två rader med fem fack och flyttbara räknemarkörer",
+      "Synlig föremålsfärg och stort tydligt huvudmotiv"
+    ],
+    "must_not_show_sv": [
+      "Färglös skiss eller grått huvudmotiv",
+      "Små motiv omgivna av stora tomma ytor",
+      "Avklippta viktiga delar"
+    ],
+    "contrast_terms_sv": [
+      "kulram"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": -2,
+    "category": "skolmaterial",
+    "reference_conditioning": false,
+    "style_family": "color_focus_v1",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_37_06",
+    "text_sv": "tiobasstav",
+    "symbol_type": "object",
+    "meaning_sv": "Tio sammanfogade kuber med synliga delningslinjer",
+    "visual_prompt_en": "One orange base-ten rod made of exactly ten equal cubes joined in a single straight row, nine clear dividing grooves, three-quarter view. No loose cubes. No hands, labels or extra objects.",
+    "must_show_sv": [
+      "Tio sammanfogade kuber med synliga delningslinjer",
+      "Synlig föremålsfärg och stort tydligt huvudmotiv"
+    ],
+    "must_not_show_sv": [
+      "Färglös skiss eller grått huvudmotiv",
+      "Små motiv omgivna av stora tomma ytor",
+      "Avklippta viktiga delar"
+    ],
+    "contrast_terms_sv": [
+      "ental"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": -2,
+    "category": "skolmaterial",
+    "reference_conditioning": false,
+    "style_family": "color_focus_v1",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_37_07",
+    "text_sv": "passare",
+    "symbol_type": "object",
+    "meaning_sv": "Två ben, nålspets, ritspets och led",
+    "visual_prompt_en": "One school drawing compass, two hinged blue metal legs, sharp steel pivot on one leg and short graphite tip on the other, legs open, adjustment wheel visible. No hands, labels or extra objects.",
+    "must_show_sv": [
+      "Två ben, nålspets, ritspets och led",
+      "Synlig föremålsfärg och stort tydligt huvudmotiv"
+    ],
+    "must_not_show_sv": [
+      "Färglös skiss eller grått huvudmotiv",
+      "Små motiv omgivna av stora tomma ytor",
+      "Avklippta viktiga delar"
+    ],
+    "contrast_terms_sv": [
+      "sax"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": -2,
+    "category": "skolmaterial",
+    "reference_conditioning": false,
+    "style_family": "color_focus_v1",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_37_08",
+    "text_sv": "förstoringsburk",
+    "symbol_type": "object",
+    "meaning_sv": "Genomskinlig burk med förstorande lins i locket",
+    "visual_prompt_en": "One transparent observation jar with a bright green lid containing a large round magnifying lens, one small brown beetle visible enlarged under the lens. No hands, labels or extra objects.",
+    "must_show_sv": [
+      "Genomskinlig burk med förstorande lins i locket",
+      "Synlig föremålsfärg och stort tydligt huvudmotiv"
+    ],
+    "must_not_show_sv": [
+      "Färglös skiss eller grått huvudmotiv",
+      "Små motiv omgivna av stora tomma ytor",
+      "Avklippta viktiga delar"
+    ],
+    "contrast_terms_sv": [
+      "glasburk"
+    ],
+    "review_status": "draft",
+    "generation_enabled": true,
+    "generation_priority": -2,
+    "category": "skolmaterial",
+    "reference_conditioning": false,
+    "style_family": "color_focus_v1",
+    "composition_family": "close_readable_v1"
+  }
+]
