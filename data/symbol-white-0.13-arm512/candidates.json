@@ -3867,6 +3867,50 @@
       "background_seconds": 0.0,
       "elapsed_seconds": 83.029,
       "sha256": "73e24eba7a219db070b3d6c780f6c907b884048a5d7251132b4d1f3dde397469"
+    },
+    {
+      "concept_id": "FSK_93_10",
+      "label_sv": "tubhalsduk",
+      "fingerprint": "7c3897764bc91cb1c2522d0374b1d1972f2fe45d218c9754a42a69e399b435d5",
+      "prompt": "Create one isolated illustration: One short closed tubular neck warmer standing loosely upright, open top and bottom visible, soft fabric forming a continuous short cylinder. No long loose ends, fringe, hood or face covering. Isolated on pure white, entire garment or set visible with generous margins. No people, body parts, text, labels, logos or scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1969225044,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:31:35.928462+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Tubhalsduk som eget plagg; skilj från halsduk.",
+      "must_show_sv": [
+        "Kort sluten halskrage med synlig öppning och utan långa ändar",
+        "Hela plagget eller paret synligt med marginaler"
+      ],
+      "must_not_show_sv": [
+        "Personer, text, etiketter eller dekorativ miljö",
+        "Färg som enda skillnad mot närliggande plagg"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 68.254,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 68.288,
+      "sha256": "f2c3ed680e075a264af70f17c5d646c923d47a59a6656d0887368b9a45199346"
     }
   ]
 }
