@@ -2907,6 +2907,49 @@
       "sha256": "73699f3a5c0e4100c01be19a6d85f3299fd0f1326e76d27f8bdb77f74eb1a634"
     },
     {
+      "concept_id": "FSK_29_94",
+      "label_sv": "präst",
+      "fingerprint": "a73905376ddbe52df4b0cdc901727d2aeb94179eddb23523cf82b8fd7d248159",
+      "prompt": "Create one isolated illustration: One Christian priest wearing a plain white alb and simple purple stole, full body, neutral welcoming stance, no lettering. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2129884819,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:53:40.511317+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "person",
+      "meaning_sv": "Präst i kristen tradition, inte all religiös personal",
+      "must_show_sv": [
+        "Präst i kristen tradition, inte all religiös personal"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 65.766,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 65.798,
+      "sha256": "199e759f635de60314ee94b8a687747ca219ae32af47418bf1226755afed8805"
+    },
+    {
       "concept_id": "FSK_30_59",
       "label_sv": "batteri",
       "fingerprint": "c1b1228dda2b381dcaf7c3bfdf419929369bb2167267be887578ba17711c48c4",
