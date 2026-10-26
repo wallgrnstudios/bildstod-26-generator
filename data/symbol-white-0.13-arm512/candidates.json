@@ -2594,6 +2594,49 @@
       "sha256": "c56205d50ab45d4bb67d2c5b3ee3c5561f79b4f92e1eeaad63639ef55bdec33c"
     },
     {
+      "concept_id": "FSK_25_97",
+      "label_sv": "sida",
+      "fingerprint": "8518f16005e81bd8f04e2a281092199164b6e46143dfceb37fec04d762dfb845",
+      "prompt": "Create one isolated illustration: One open book with right-hand page subtly emphasized and left page pale, page edges and central spine clear, no text. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2052169477,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:02:06.406857+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Sida i bok",
+      "must_show_sv": [
+        "Sida i bok"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 65.971,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 65.998,
+      "sha256": "702a0f3611e86c6870717fde57592371a48b13ea8b858e6638da1c88cbbe8605"
+    },
+    {
       "concept_id": "FSK_26_49",
       "label_sv": "hjärta",
       "fingerprint": "78d86055beb8cf6bcfd414c3f19b9bdc97850de204fa92ed6451ad7787e5f3d4",
