@@ -4621,6 +4621,49 @@
       "sha256": "cffb6176edd915586950ccff29d9d429d3682ea7595098c5d6f701851ab9887d"
     },
     {
+      "concept_id": "FSK_34_59",
+      "label_sv": "skötbord",
+      "fingerprint": "d40c90a9f259d07af0ae5052bcf942a2da203636358f961c880d4451459d7819",
+      "prompt": "Create one isolated illustration: One changing table with raised safety edges, a padded mat and storage shelf, no baby. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 133636856,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:55:50.361959+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Skötbädd med upphöjda kanter",
+      "must_show_sv": [
+        "Skötbädd med upphöjda kanter"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.403,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.431,
+      "sha256": "bbff9edd951df416b80bc837f5310a5c80f6ce1dccdac7c631450883dd6478b4"
+    },
+    {
       "concept_id": "FSK_90_10",
       "label_sv": "händer",
       "fingerprint": "b097b58f3d5459ebd7153eb37ab9b6013b96765421a2f21798e952e671fbef93",
