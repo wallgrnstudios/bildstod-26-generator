@@ -4677,6 +4677,49 @@
       "sha256": "48effc8ee310f90893106f9413f4aa0ad6c23f58d50b2b1e3f742b61c1c7d13a"
     },
     {
+      "concept_id": "FSK_35_58",
+      "label_sv": "taklampa",
+      "fingerprint": "bd3ce8f7a3beae8cf7af7e1636cf6f6eae7bb59a9df875c7ad28c05d44eb1b3f",
+      "prompt": "Create one isolated illustration: One ceiling pendant lamp with a simple shade, cord and ceiling rose, switched off. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1541629715,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:12:55.087350+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Hängande lampa med takkopp",
+      "must_show_sv": [
+        "Hängande lampa med takkopp"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 65.855,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 65.882,
+      "sha256": "4e950287c487208857e3f093f9e2f3a287a30b43e095e525dfd981244f9aa487"
+    },
+    {
       "concept_id": "FSK_90_02",
       "label_sv": "gå",
       "fingerprint": "611ebd0f3a9a12775d8cb1da9cece196434d67ae038141108fda351df08adaee",
