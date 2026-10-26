@@ -5107,6 +5107,49 @@
       "sha256": "3b189321b1d958e7327f97f3199e685947d661e3493da5c81636a22be9f9d3d9"
     },
     {
+      "concept_id": "FSK_36_13",
+      "label_sv": "glasförpackning",
+      "fingerprint": "71a7c7cf51681365cbfc9f5a199f7a164d5a56883d8aac247ac3cb29176cab33",
+      "prompt": "Create one isolated illustration: One empty clear glass jar with a threaded neck and metal screw lid beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 659645899,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:24:15.795178+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Glasburk med skruvlock",
+      "must_show_sv": [
+        "Glasburk med skruvlock"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.059,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.087,
+      "sha256": "25978a3cbc4b9bb921b7397d7c3838289c1000a454192fc6c3ea2771b876711d"
+    },
+    {
       "concept_id": "FSK_90_02",
       "label_sv": "gå",
       "fingerprint": "611ebd0f3a9a12775d8cb1da9cece196434d67ae038141108fda351df08adaee",
