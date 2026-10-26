@@ -3557,6 +3557,51 @@
       "sha256": "5223438fca34f44c8a79986ee890f1399c2f63ba450bd6e7e4262e0f2b7158ea"
     },
     {
+      "concept_id": "FSK_33_05",
+      "label_sv": "vinterjacka",
+      "fingerprint": "7c3192581518e88ec075edd065c6ac0bb9f7a8b452b196ab7b1c01a816e39ad9",
+      "prompt": "Create one isolated illustration: One clean child-size padded winter jacket laid flat in front view, deep green quilted panels, attached hood, full zipper, long sleeves and soft insulated thickness. No person, snow or scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 73601227,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T07:58:20.546966+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "En varm vadderad vinterjacka med huva.",
+      "must_show_sv": [
+        "Tydlig vaddering",
+        "Huva",
+        "Lång ärm"
+      ],
+      "must_not_show_sv": [
+        "Tunn jacka",
+        "Person"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.007,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.074,
+      "sha256": "cb72d665e86b8c27d632070050d06951627c7f4a8ab450939e7ef95d86ef6e0c"
+    },
+    {
       "concept_id": "FSK_90_02",
       "label_sv": "gå",
       "fingerprint": "611ebd0f3a9a12775d8cb1da9cece196434d67ae038141108fda351df08adaee",
