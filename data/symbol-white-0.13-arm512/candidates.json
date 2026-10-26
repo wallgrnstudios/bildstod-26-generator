@@ -4991,6 +4991,49 @@
       "sha256": "10bf0f95370d2f794309b160ae0c21c0dfcee43024770d7ce2b559e16bf13235"
     },
     {
+      "concept_id": "FSK_35_27",
+      "label_sv": "degskrapa",
+      "fingerprint": "f2f4bc174195b3e080c25003dda393b17af3f233501f997dcf00b6f865bf37d0",
+      "prompt": "Create one isolated illustration: One flexible semicircular dough scraper beside a short-handled straight metal scraper, no dough. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1489195830,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:18:57.068992+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Skrapblad för deg",
+      "must_show_sv": [
+        "Skrapblad för deg"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.691,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.721,
+      "sha256": "786e6774c614b0e4aee918b347635647bf43cd68cb7a803fc41c07f7a495c7b2"
+    },
+    {
       "concept_id": "FSK_90_06",
       "label_sv": "jacka",
       "fingerprint": "50f10f747cb39ee2eb2e440b7cfa77be358417fa39f86b087a6c1df3bc0caeac",
