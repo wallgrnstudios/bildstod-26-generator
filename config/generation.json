@@ -34,7 +34,13 @@
     "FSK_90_05": 3,
     "FSK_90_06": 4,
     "FSK_90_09": 5,
-    "FSK_90_10": 6
+    "FSK_90_10": 6,
+    "FSK_93_03": 4,
+    "FSK_93_07": 5,
+    "FSK_93_09": 6,
+    "FSK_93_10": 7,
+    "FSK_93_11": 0,
+    "FSK_93_12": 1
   },
   "worker_branch_prefix": "generated-flux-worker",
   "reference_conditioning": true,

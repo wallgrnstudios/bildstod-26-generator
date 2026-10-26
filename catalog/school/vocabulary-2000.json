@@ -38794,16 +38794,346 @@
     "review_status": "editorial_draft",
     "frequency_claim": "editorial_selection_not_school_frequency_rank"
   },
-  {"id":"FSK_33_01","text_sv":"långärmad tröja","category":"kläder","entry_type":"concept","priority_tier":0,"editorial_order":2001,"meaning_sv":"En långärmad tröja, inte en jacka.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_01","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_02","text_sv":"underställ","category":"kläder","entry_type":"concept","priority_tier":0,"editorial_order":2002,"meaning_sv":"Ett tunt underställ med överdel och långbyxa.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_02","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_03","text_sv":"fleecejacka","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2003,"meaning_sv":"En tunn fleecejacka med dragkedja.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_03","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_04","text_sv":"skaljacka","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2004,"meaning_sv":"En tunn vattentålig skaljacka med huva.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_04","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_05","text_sv":"vinterjacka","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2005,"meaning_sv":"En varm vadderad vinterjacka med huva.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_05","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_06","text_sv":"täckbyxor","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2006,"meaning_sv":"Ett par varma vadderade ytterbyxor.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_06","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_07","text_sv":"regnoverall","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2007,"meaning_sv":"En vattenavvisande regnoverall med huva, i ett stycke.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_07","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_08","text_sv":"gummistövlar","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2008,"meaning_sv":"Ett par höga gummistövlar för regn och blöta.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_08","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_09","text_sv":"vinterskor","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2009,"meaning_sv":"Ett par varma höga vinterskor.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_09","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_10","text_sv":"tumvantar","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2010,"meaning_sv":"Ett par tumvantar med en separat tumdel.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_10","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_11","text_sv":"fingervantar","category":"ytterkläder","entry_type":"concept","priority_tier":0,"editorial_order":2011,"meaning_sv":"Ett par fingervantar med fem tydliga fingrar.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_11","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"},
-  {"id":"FSK_33_12","text_sv":"solskyddströja","category":"kläder","entry_type":"concept","priority_tier":0,"editorial_order":2012,"meaning_sv":"En långärmad tröja för sol och bad.","age_scope":["förskola","grundskola"],"brief_status":"generation_ready","generation_enabled":true,"symbol_id":"FSK_33_12","composition_policy":null,"review_status":"editorial_draft","frequency_claim":"editorial_supplement_clothing_weather"}
+  {
+    "id": "FSK_33_01",
+    "text_sv": "långärmad tröja",
+    "category": "kläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2001,
+    "meaning_sv": "En långärmad tröja, inte en jacka.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_01",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_02",
+    "text_sv": "underställ",
+    "category": "kläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2002,
+    "meaning_sv": "Ett tunt underställ med överdel och långbyxa.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_02",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_03",
+    "text_sv": "fleecejacka",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2003,
+    "meaning_sv": "En tunn fleecejacka med dragkedja.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_03",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_04",
+    "text_sv": "skaljacka",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2004,
+    "meaning_sv": "En tunn vattentålig skaljacka med huva.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_04",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_05",
+    "text_sv": "vinterjacka",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2005,
+    "meaning_sv": "En varm vadderad vinterjacka med huva.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_05",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_06",
+    "text_sv": "täckbyxor",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2006,
+    "meaning_sv": "Ett par varma vadderade ytterbyxor.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_06",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_07",
+    "text_sv": "regnoverall",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2007,
+    "meaning_sv": "En vattenavvisande regnoverall med huva, i ett stycke.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_07",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_08",
+    "text_sv": "gummistövlar",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2008,
+    "meaning_sv": "Ett par höga gummistövlar för regn och blöta.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_08",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_09",
+    "text_sv": "vinterskor",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2009,
+    "meaning_sv": "Ett par varma höga vinterskor.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_09",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_10",
+    "text_sv": "tumvantar",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2010,
+    "meaning_sv": "Ett par tumvantar med en separat tumdel.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_10",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_11",
+    "text_sv": "fingervantar",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2011,
+    "meaning_sv": "Ett par fingervantar med fem tydliga fingrar.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_11",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_33_12",
+    "text_sv": "solskyddströja",
+    "category": "kläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2012,
+    "meaning_sv": "En långärmad tröja för sol och bad.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_33_12",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_supplement_clothing_weather"
+  },
+  {
+    "id": "FSK_93_03",
+    "text_sv": "ullsockor",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2013,
+    "meaning_sv": "Ullsockor som eget plagg; skilj från strumpor.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_93_03",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_selection_not_school_frequency_rank"
+  },
+  {
+    "id": "FSK_93_07",
+    "text_sv": "fodrade stövlar",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2014,
+    "meaning_sv": "Fodrade stövlar som eget plagg; skilj från stövlar.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_93_07",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_selection_not_school_frequency_rank"
+  },
+  {
+    "id": "FSK_93_09",
+    "text_sv": "tunn mössa",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2015,
+    "meaning_sv": "Tunn mössa som eget plagg; skilj från mössa.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_93_09",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_selection_not_school_frequency_rank"
+  },
+  {
+    "id": "FSK_93_10",
+    "text_sv": "tubhalsduk",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2016,
+    "meaning_sv": "Tubhalsduk som eget plagg; skilj från halsduk.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_93_10",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_selection_not_school_frequency_rank"
+  },
+  {
+    "id": "FSK_93_11",
+    "text_sv": "tunna vantar",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2017,
+    "meaning_sv": "Tunna vantar som eget plagg; skilj från vantar.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_93_11",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_selection_not_school_frequency_rank"
+  },
+  {
+    "id": "FSK_93_12",
+    "text_sv": "regnvantar",
+    "category": "ytterkläder",
+    "entry_type": "concept",
+    "priority_tier": 0,
+    "editorial_order": 2018,
+    "meaning_sv": "Regnvantar som eget plagg; skilj från vantar.",
+    "age_scope": [
+      "förskola",
+      "grundskola"
+    ],
+    "brief_status": "generation_ready",
+    "generation_enabled": true,
+    "symbol_id": "FSK_93_12",
+    "composition_policy": null,
+    "review_status": "editorial_draft",
+    "frequency_claim": "editorial_selection_not_school_frequency_rank"
+  }
 ]
