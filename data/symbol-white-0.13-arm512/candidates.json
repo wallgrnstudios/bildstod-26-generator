@@ -4806,6 +4806,49 @@
       "sha256": "743aea00ee0e15b0144b398c0700f2baa0b54e4693f2047512e5671dd309d57e"
     },
     {
+      "concept_id": "FSK_35_68",
+      "label_sv": "strykbräda",
+      "fingerprint": "2cf88d7dbbcfb1be97df07ba3035ac1c767346d7ce7afa2541be7e4cd660958b",
+      "prompt": "Create one isolated illustration: One padded ironing board on crossed folding legs, tapered end and metal iron rest. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1000412355,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:16:18.466791+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Strykbräda med kryssben",
+      "must_show_sv": [
+        "Strykbräda med kryssben"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 65.819,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 65.858,
+      "sha256": "33c948dfc6e19a129dcb767cea52a1cbb7ab086099a48b5f4a32eca7ad97a38f"
+    },
+    {
       "concept_id": "FSK_90_02",
       "label_sv": "gå",
       "fingerprint": "611ebd0f3a9a12775d8cb1da9cece196434d67ae038141108fda351df08adaee",
