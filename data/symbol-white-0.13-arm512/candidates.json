@@ -2263,6 +2263,49 @@
       "sha256": "cf98bfde79dcff33b0d9d28c5a8e5f59c2a9bc1dce8a21ead12f2b4320c82e36"
     },
     {
+      "concept_id": "FSK_25_83",
+      "label_sv": "skriva ut",
+      "fingerprint": "f9661e17e5a79dee8fc11a1925fb9f841e5c027661fe2de901e5b05c1b6f1eda",
+      "prompt": "Create one isolated illustration: One desktop printer with a sheet emerging halfway from the output slot, a simple colored apple picture on the paper. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 584750070,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:48:24.873084+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Skriva ut på skrivare",
+      "must_show_sv": [
+        "Skriva ut på skrivare"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 68.542,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 68.586,
+      "sha256": "0fcb5c440e3bf8f8444ea53794349912b2d3f9db290dde3e04f7ac777d553795"
+    },
+    {
       "concept_id": "FSK_25_93",
       "label_sv": "betala",
       "fingerprint": "6b4fbb7dfd6d5678bfdd3e09ca051494d4f5a28c42d77d9c11f57de0a54420cd",
