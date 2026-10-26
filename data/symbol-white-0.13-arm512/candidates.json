@@ -1304,27 +1304,28 @@
     {
       "concept_id": "FSK_17_87",
       "label_sv": "t-shirt",
-      "fingerprint": "c42a2b8f8c89b687c91ac25078a25c05f935f976886e1d6cf36dbcefde79d1ee",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: One pristine WHITE cotton T-shirt laid flat, short sleeves, round ribbed neckline, plain clean fabric, no writing or pattern. Very light cool-gray shading defines folds and seams; no yellow or brown patches. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "1fb4bf68414d1c3b73bdaefba7bb9a903a4b7410159f911159723d4f29b4ad31",
+      "prompt": "Create one isolated illustration: One clean child-size short-sleeved cotton T-shirt laid flat, round neckline and two clearly short sleeves. Entire garment visible with generous white margins. No person, hanger, pattern, labels or extra clothes. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 570901705,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T06:55:47.085530+00:00",
+      "created_at": "2026-10-26T16:30:26.614493+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
       "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
       "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
-      "reference_conditioning": true,
+      "reference_conditioning": false,
       "implementation": "diffusers-arm64",
       "quantized_files": null,
       "symbol_type": "object",
       "meaning_sv": "T-shirt som föremål. Inte en hel handling eller instruktion.",
       "must_show_sv": [
-        "Kortärmad överdel med rund hals"
+        "Kortärmad T-tröja med rund hals",
+        "Hela plagget utan person"
       ],
       "must_not_show_sv": [
         "Extra handlingar, text eller miljö som ger en annan betydelse"
@@ -1338,10 +1339,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 83.533,
+      "render_seconds": 66.426,
       "background_seconds": 0.0,
-      "elapsed_seconds": 83.583,
-      "sha256": "de7740b7a3cdfa63a3f55834986acf9d95a3023ad4ef918990c42ddfdd95e3ba"
+      "elapsed_seconds": 66.478,
+      "sha256": "b4f2b767fe331588cccd6ff5af86f0a61e3d4e5a49ea9495fbc3646732c92ab9"
     },
     {
       "concept_id": "FSK_18_26",
