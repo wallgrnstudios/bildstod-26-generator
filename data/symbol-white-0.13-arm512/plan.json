@@ -4,10 +4,16 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_33_09",
-      "label": "vinterskor",
-      "prompt": "Create one isolated illustration: A matching pair of clean child-size winter boots, three-quarter view, dark blue insulated uppers, soft white faux-fur lining visible at the top, rounded toes and sturdy textured soles. Boots only, no feet, person or snow. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1903607006
+      "id": "FSK_22_28",
+      "label": "sandaler",
+      "prompt": "Create one isolated illustration: One matching pair of child-size open sandals, three-quarter view, open toes, heel straps, simple hook-and-loop fasteners and flexible soles. Both sandals fully visible with white margins. No feet, people, logos or scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 755296254
+    },
+    {
+      "id": "FSK_93_03",
+      "label": "ullsockor",
+      "prompt": "Create one isolated illustration: One matching pair of thick wool socks, chunky knitted stitches clearly visible, substantial folded ribbed cuffs, heels and toes. No feet. Isolated on pure white, entire garment or set visible with generous margins. No people, body parts, text, labels, logos or scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2081279073
     }
   ]
 }
