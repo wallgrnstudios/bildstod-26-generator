@@ -4,10 +4,220 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_93_09",
-      "label": "tunn mössa",
-      "prompt": "Create one isolated illustration: One thin lightweight jersey beanie, fine smooth fabric, single light layer, softly folded flat, no chunky knitting, pompom, fur, padding or thick folded brim. Isolated on pure white, entire garment or set visible with generous margins. No people, body parts, text, labels, logos or scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1926253101
+      "id": "FSK_10_81",
+      "label": "barn",
+      "prompt": "Create one isolated illustration: One child about six years old, full body, ordinary shirt and trousers, relaxed neutral posture. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 96162288
+    },
+    {
+      "id": "FSK_11_26",
+      "label": "hålla om",
+      "prompt": "Create one isolated illustration: Two children gently hugging, arms clearly around each other's upper backs, both relaxed and willing, full bodies. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1813117496
+    },
+    {
+      "id": "FSK_14_04",
+      "label": "värd",
+      "prompt": "Create one isolated illustration: One child welcoming two arriving classmates through an open doorway with a gentle inviting open hand. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1888423336
+    },
+    {
+      "id": "FSK_15_54",
+      "label": "tvätta",
+      "prompt": "Create one isolated illustration: A child washing a dirty toy car in a small basin with a sponge, water and foam touching the car, whole child visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1827965208
+    },
+    {
+      "id": "FSK_16_62",
+      "label": "hall",
+      "prompt": "Create one isolated illustration: A compact entrance hall with coat hooks, bench, shoe rack and one closed outside door, no people or writing. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 611599760
+    },
+    {
+      "id": "FSK_19_96",
+      "label": "fast tvål",
+      "prompt": "Create one isolated illustration: One solid pale soap bar on a simple dish, rounded rectangle and a few clean bubbles, no dispenser or label. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 53188904
+    },
+    {
+      "id": "FSK_26_56",
+      "label": "starta om",
+      "prompt": "Create one isolated illustration: A hand presses a computer restart control shown as one circular arrow on a plain screen, no lettering or numbers. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 504941824
+    },
+    {
+      "id": "FSK_26_84",
+      "label": "röra vid",
+      "prompt": "Create one isolated illustration: One child fingertip gently touching the surface of one smooth wooden block, clear contact point, hand and block only. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 434500768
+    },
+    {
+      "id": "FSK_34_24",
+      "label": "cykelväg",
+      "prompt": "Create one isolated illustration: One short cycle path segment marked by a simple bicycle pictogram, separated from an adjacent walking path. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2034721456
+    },
+    {
+      "id": "FSK_34_29",
+      "label": "termos",
+      "prompt": "Create one isolated illustration: One vacuum flask with a screw-top cup lid placed beside it, insulated neck opening visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 179064480
+    },
+    {
+      "id": "FSK_34_38",
+      "label": "servett",
+      "prompt": "Create one isolated illustration: One folded white paper napkin with a corner gently unfolded, clean unprinted surface. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1781119440
+    },
+    {
+      "id": "FSK_34_59",
+      "label": "skötbord",
+      "prompt": "Create one isolated illustration: One changing table with raised safety edges, a padded mat and storage shelf, no baby. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 133636856
+    },
+    {
+      "id": "FSK_34_60",
+      "label": "mensskydd",
+      "prompt": "Create one isolated illustration: One clean sanitary pad unfolded with adhesive wings visible, no body or packaging text. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 448363832
+    },
+    {
+      "id": "FSK_34_68",
+      "label": "kompress",
+      "prompt": "Create one isolated illustration: One sterile square gauze pad with fine woven mesh, beside a partly open plain wrapper. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 434677536
+    },
+    {
+      "id": "FSK_34_72",
+      "label": "öronpropp",
+      "prompt": "Create one isolated illustration: One matching pair of soft foam earplugs, small tapered cylinders with rounded ends. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1789915576
+    },
+    {
+      "id": "FSK_34_73",
+      "label": "brandvarnare",
+      "prompt": "Create one isolated illustration: One round ceiling smoke detector seen from below, ventilation slots and a small test button, no text. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1806068800
+    },
+    {
+      "id": "FSK_34_78",
+      "label": "rutpapper",
+      "prompt": "Create one isolated illustration: One sheet of clean white graph paper with evenly spaced pale blue square grid, no numbers or words. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1922547176
+    },
+    {
+      "id": "FSK_34_86",
+      "label": "innebandyboll",
+      "prompt": "Create one isolated illustration: One white floorball with evenly spaced circular holes all around its hollow shell. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1464991184
+    },
+    {
+      "id": "FSK_35_02",
+      "label": "simring",
+      "prompt": "Create one isolated illustration: One inflated circular swimming ring with a large open center, no animal head or writing. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1202675120
+    },
+    {
+      "id": "FSK_35_16",
+      "label": "grytlapp",
+      "prompt": "Create one isolated illustration: One square quilted fabric pot holder with a small hanging loop, no hand. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 122135384
+    },
+    {
+      "id": "FSK_35_24",
+      "label": "slickepott",
+      "prompt": "Create one isolated illustration: One flexible silicone spatula with a broad soft blade and long handle. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1308249024
+    },
+    {
+      "id": "FSK_35_33",
+      "label": "provrörsställ",
+      "prompt": "Create one isolated illustration: One laboratory rack holding three empty test tubes upright, holes and supports visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1948929376
+    },
+    {
+      "id": "FSK_35_45",
+      "label": "sopbil",
+      "prompt": "Create one isolated illustration: One refuse collection truck with rear waste hopper and lifting arms, no people or logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 588697504
+    },
+    {
+      "id": "FSK_35_51",
+      "label": "kanot",
+      "prompt": "Create one isolated illustration: One open canoe with pointed ends, two bench seats and one single-bladed paddle beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1468603008
+    },
+    {
+      "id": "FSK_35_65",
+      "label": "torkskåp",
+      "prompt": "Create one isolated illustration: One tall drying cabinet with door open, horizontal hanging rods and a pair of mittens inside. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1854686776
+    },
+    {
+      "id": "FSK_35_67",
+      "label": "strykjärn",
+      "prompt": "Create one isolated illustration: One electric steam iron on its heel, pointed metal soleplate visible and cord loosely coiled. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1802945816
+    },
+    {
+      "id": "FSK_35_70",
+      "label": "sopskyffel",
+      "prompt": "Create one isolated illustration: One dustpan with broad lip, raised sides and short handle, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2051157784
+    },
+    {
+      "id": "FSK_35_72",
+      "label": "strömbrytare",
+      "prompt": "Create one isolated illustration: One wall light switch in a square white faceplate, raised rocker clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1442025600
+    },
+    {
+      "id": "FSK_35_81",
+      "label": "dadlar",
+      "prompt": "Create one isolated illustration: Three brown dates, one split open lengthwise to show its long narrow stone. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1811270120
+    },
+    {
+      "id": "FSK_35_82",
+      "label": "fikon",
+      "prompt": "Create one isolated illustration: One purple fig beside a half exposing pink seed-filled flesh and thin skin. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1128838416
+    },
+    {
+      "id": "FSK_35_91",
+      "label": "purjolök",
+      "prompt": "Create one isolated illustration: One leek with white cylindrical base and broad dark-green layered leaves, roots trimmed. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1372994472
+    },
+    {
+      "id": "FSK_35_93",
+      "label": "aubergine",
+      "prompt": "Create one isolated illustration: One glossy purple eggplant with broad oval body and a green star-shaped calyx. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1205493616
+    },
+    {
+      "id": "FSK_35_95",
+      "label": "selleri",
+      "prompt": "Create one isolated illustration: One bunch of celery with long ribbed green stalks and small leafy tops held together at the base. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2125812536
+    },
+    {
+      "id": "FSK_35_99",
+      "label": "fiskpinnar",
+      "prompt": "Create one isolated illustration: Three rectangular golden breaded fish fingers on a plain plate, one cut to show white fish inside. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 516509688
+    },
+    {
+      "id": "FSK_36_01",
+      "label": "omelett",
+      "prompt": "Create one isolated illustration: One folded golden egg omelet on a plain plate, soft thick egg texture at the cut edge, no garnish. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1776779888
+    },
+    {
+      "id": "FSK_36_03",
+      "label": "falafel",
+      "prompt": "Create one isolated illustration: Three round brown falafel balls, one split to show greenish chickpea interior, no sauce. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1699496216
     }
   ]
 }
