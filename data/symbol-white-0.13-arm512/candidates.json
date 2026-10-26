@@ -5653,6 +5653,49 @@
       "sha256": "0775c2a546b138388c5dd26bb1c62b3e03acdeb4b62ccb9264c845c4976b1200"
     },
     {
+      "concept_id": "FSK_36_03",
+      "label_sv": "falafel",
+      "fingerprint": "21ae716d0e0dec8776a1810cf20d6c7f4153df7b3833d25d273d57fa49f5f42f",
+      "prompt": "Create one isolated illustration: Three round brown falafel balls, one split to show greenish chickpea interior, no sauce. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1699496216,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:23:01.720240+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Friterade bollar med grönaktigt inre",
+      "must_show_sv": [
+        "Friterade bollar med grönaktigt inre"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.42,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.443,
+      "sha256": "689e98cd1e5bb6b248554c040d7edb9af40ecc12e8f647ff83a77d0d165701f5"
+    },
+    {
       "concept_id": "FSK_90_10",
       "label_sv": "händer",
       "fingerprint": "b097b58f3d5459ebd7153eb37ab9b6013b96765421a2f21798e952e671fbef93",
