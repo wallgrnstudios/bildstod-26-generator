@@ -5373,6 +5373,49 @@
       "sha256": "d2bd8cde7b15cb6633220b9bf4e74e42d4b132b5e44bf225589281934b73a01a"
     },
     {
+      "concept_id": "FSK_35_05",
+      "label_sv": "ribbstol",
+      "fingerprint": "46a59013fec2c1bc4ea2034804879223421a1215815462615e1484eab58e4418",
+      "prompt": "Create one isolated illustration: One wall-mounted wooden climbing ladder with many horizontal bars and a projecting top bar. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1969846484,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:13:48.388392+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Väggmonterade parallella ribbor",
+      "must_show_sv": [
+        "Väggmonterade parallella ribbor"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 67.716,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 67.736,
+      "sha256": "bd93767720945717bfc3cef6ab4e586bbf120cf6836daf1da6ac5018d7607c54"
+    },
+    {
       "concept_id": "FSK_90_03",
       "label_sv": "samling",
       "fingerprint": "50ab17e00a46a6e078c7011871d1ce64d30bf38ded7677dcaf78d7eb86e48822",
