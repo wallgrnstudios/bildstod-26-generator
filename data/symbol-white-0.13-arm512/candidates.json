@@ -359,6 +359,49 @@
       "sha256": "12e2fb5794f20b48d9e33d2b388a35f84f02f1ff9079302f38c3660f328f3cae"
     },
     {
+      "concept_id": "FSK_14_04",
+      "label_sv": "värd",
+      "fingerprint": "87aa5c99d30c0b5b7af699c9c526935389f98bbb5d1186d9d09139f3cc4925f9",
+      "prompt": "Create one isolated illustration: One child welcoming two arriving classmates through an open doorway with a gentle inviting open hand. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1888423336,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:45:36.837933+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "person",
+      "meaning_sv": "Värd som tar emot gäster",
+      "must_show_sv": [
+        "Värd som tar emot gäster"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.141,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.167,
+      "sha256": "22dd9a8a218686d174b41e6f7a6e1f4aec04fe0362cfcabbfd761a98bddc593c"
+    },
+    {
       "concept_id": "FSK_15_08",
       "label_sv": "lyfta",
       "fingerprint": "f5fd31231d04559a1eee983dd48f6de95be96e4cd4f230a64be37997d5609972",
