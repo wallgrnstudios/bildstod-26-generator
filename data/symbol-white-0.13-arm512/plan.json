@@ -4,22 +4,10 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_33_01",
-      "label": "långärmad tröja",
-      "prompt": "Create one isolated illustration: One single clean long-sleeved child sweater laid flat in front view, soft sage-green fabric, round neck, two clearly full-length sleeves and ribbed cuffs. No person, hanger, trousers or other clothing. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1191882743
-    },
-    {
-      "id": "FSK_33_10",
-      "label": "tumvantar",
-      "prompt": "Create one isolated illustration: A matching pair of clean child-size knitted mittens laid flat, warm terracotta-red yarn, each mitten with one clearly separate rounded thumb section and a ribbed cuff. No hands, person or snow. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1044011695
-    },
-    {
-      "id": "FSK_33_11",
-      "label": "fingervantar",
-      "prompt": "Create one isolated illustration: A matching pair of clean child-size knitted gloves laid flat, muted sage-green yarn, each glove with five clearly separated finger sections and a ribbed cuff. No hands, person or snow. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1130795703
+      "id": "FSK_93_07",
+      "label": "fodrade stövlar",
+      "prompt": "Create one isolated illustration: One matching pair of tall rubber rain boots, smooth waterproof rubber shafts and warm thick textile lining clearly visible around both openings. Three-quarter view from slightly above, no feet. Isolated on pure white, entire garment or set visible with generous margins. No people, body parts, text, labels, logos or scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 851754312
     }
   ]
 }
