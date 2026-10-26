@@ -4561,6 +4561,49 @@
       "sha256": "bea51ce6269c292ad70bf6a204bd81801ef7175f74765aa551a21d138f20856e"
     },
     {
+      "concept_id": "FSK_34_55",
+      "label_sv": "nagelborste",
+      "fingerprint": "b4894b1de2a3debc3f7e13cd2486da7870a88dfa3a94ab5c1b0986585b2f1943",
+      "prompt": "Create one isolated illustration: One small rectangular nail brush with dense short bristles and a curved hand grip. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 117261694,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:07:18.132725+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Liten borste med täta korta borst",
+      "must_show_sv": [
+        "Liten borste med täta korta borst"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 69.556,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 69.594,
+      "sha256": "d0139e55b9f32d14a3bba55fe3afbc9bb06a7eb38612fcb7d2c131d35cf87170"
+    },
+    {
       "concept_id": "FSK_90_06",
       "label_sv": "jacka",
       "fingerprint": "50f10f747cb39ee2eb2e440b7cfa77be358417fa39f86b087a6c1df3bc0caeac",
