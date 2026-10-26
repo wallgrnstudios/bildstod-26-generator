@@ -1,0 +1,3012 @@
+[
+  {
+    "text_sv": "kapprum",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One school cloakroom section with child-height coat hooks, a bench and shoe cubbies, no people or names. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Krokar, sittbänk och skofack"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "ramp",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One short accessible entrance ramp with gentle incline and handrails beside three steps, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lutande passage med räcken"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "räcke",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One freestanding metal handrail beside three low steps, supports clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Ledstång med stöd"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "tröskel",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "Close-up of one open doorway with a slightly raised wooden threshold across the bottom, plain frame. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Upphöjd list i dörröppning"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "vilrum",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One quiet rest room corner with two small mattresses, pillows and folded blankets, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vilplatser med madrasser och filtar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "läshörna",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One cozy school reading corner, small bookshelf and low chair with an open picture book, no lettering. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Bokhylla och sittplats för läsning"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "snickarrum",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One child-height woodworking bench with a vise and neatly arranged hand tools, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Hyvelbänk, skruvstycke och handverktyg"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "skötrum",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One clean baby-care room corner with changing table, closed supply baskets and washbasin, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Skötbord och handfat"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "idrottshall",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One indoor sports hall with wooden floor, wall bars, a basketball hoop and floor court markings, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Idrottsgolv, ribbstol och basketkorg"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "slöjdsal",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One school craft room with a sewing table on one side and a woodworking bench on the other, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Arbetsplatser för textil och trä"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "musiksal",
+    "category": "skolmiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One school music room corner with a keyboard, guitar rack and hand drums, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Flera instrument i undervisningsrum"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "sandlåda",
+    "category": "utemiljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One square wooden sandbox filled with clean sand, broad sitting edges and a small spade, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Sand i inramad leklåda"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "klätterställning",
+    "category": "utemiljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One freestanding playground climbing frame with ladder, platform and rope net, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Stege, plattform och klätternät"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "gungbräda",
+    "category": "utemiljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One playground seesaw with a central pivot, long beam and one seat at each end, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vipparmsbalk med två sitsar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "lekstuga",
+    "category": "utemiljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small wooden playhouse with child-size door and open window, no people or writing. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Litet hus för lek"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "odlingslåda",
+    "category": "utemiljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One raised rectangular wooden growing bed with soil and three young vegetable plants. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Odlingsjord och växter i upphöjd låda"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "grind",
+    "category": "utemiljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One simple garden gate between two short fence sections, hinges and latch visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Öppningsbar grind i staket"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "cykelställ",
+    "category": "utemiljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One empty metal bicycle rack with four curved wheel slots, three-quarter view. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Ställ med flera hjulhållare"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "redskapsbod",
+    "category": "utemiljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small garden tool shed with open door revealing a rake and spade, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Bod med trädgårdsredskap"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pulkabacke",
+    "category": "utemiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One small snowy slope with a clear sled track and a sled at its foot, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Snötäckt backe och pulka"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "fotbollsplan",
+    "category": "utemiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One small football field viewed obliquely from above, two goals and clear field markings, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Två mål och planmarkeringar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "basketplan",
+    "category": "utemiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One outdoor basketball court with two hoops and clear half-court lines, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Basketkorgar och spelplan"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "löparbana",
+    "category": "utemiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One oval athletics running track, several parallel lanes and a grassy center, no numerals or people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Oval bana med parallella löparbanor"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "cykelväg",
+    "category": "utemiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One short cycle path segment marked by a simple bicycle pictogram, separated from an adjacent walking path. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Avskild cykelbana med cykelsymbol"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "övergångsställe",
+    "category": "utemiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One zebra crossing over a short road segment, broad white stripes and curb edges, no people or cars. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vita övergångsränder tvärs över väg"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "busshållplats",
+    "category": "utemiljö",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One bus shelter with a bench and a pole carrying a simple bus pictogram, no lettering. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Väderskydd, bänk och busssymbol"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "assiett",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small side plate beside a subtly larger pale dinner plate for size comparison, no food. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Liten tallrik med låg kant"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pipmugg",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One child drinking cup with two handles, fitted lid and projecting drinking spout, no branding. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Mugg med piplock och två handtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "termos",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One vacuum flask with a screw-top cup lid placed beside it, insulated neck opening visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Flaska med isolerande hals och kopplock"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "karaff",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clear glass carafe partly filled with water, wide body, narrow neck and open pouring lip. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Öppen hällhals utan handtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "tesked",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small stainless steel teaspoon with oval bowl and slim handle, no food. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Liten sked med oval skedskål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "serveringssked",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One broad stainless steel serving spoon with a long handle and a large deep oval bowl. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Stor djup sked med långt skaft"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "slev",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One soup ladle with a long handle and a deep round bowl, three-quarter view. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Djup rund skål på långt skaft"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "osthyvel",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One stainless steel cheese slicer, flat broad head with slicing slot and a plain handle. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Brett blad med hyvelslits"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "smörkniv",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One blunt wooden butter knife with a short broad rounded blade, no sharp edge. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Trubbig bred smörkniv"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "brödkniv",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One serrated bread knife lying flat, long narrow steel blade with clearly scalloped teeth and a handle. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Långt tandat knivblad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "skärbräda",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clean wooden rectangular cutting board with rounded corners and a small handle hole. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Platt bräda för matberedning"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "servett",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One folded white paper napkin with a corner gently unfolded, clean unprinted surface. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vikt pappersservett"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bordstablett",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One oval woven placemat with a plate resting partly over one edge for scale, no food. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Underlägg under tallrik"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "matvagn",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One stainless steel serving trolley with two shelves, covered food containers and four caster wheels. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vagn med serveringskärl"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "karott",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One white ceramic serving tureen with two side handles and its domed lid beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Serveringskärl med lock och handtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "uppläggningsfat",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One broad oval ceramic serving platter with a low raised rim, no food or pattern. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Stort ovalt serveringsfat"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "diskställ",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One drying rack holding two upright plates and one cup over a draining tray. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Ställ för stående disk"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "diskborste",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One dish brush with a long plastic handle and a round stiff bristle head. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Borste med skaft och diskborst"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "disktrasa",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One square clean damp dishcloth folded loosely, visible thin absorbent texture. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tunn fyrkantig torkduk"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "diskmedel",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One plain dishwashing-liquid squeeze bottle with a flip cap beside a small bubble, no label. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Diskmedelsflaska med doseringslock"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "diskho",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One stainless steel kitchen sink basin with a drain and a curved mixer tap, no dishes. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Diskbänksho med avlopp och kran"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "propp",
+    "category": "måltidsföremål",
+    "symbol_type": "object",
+    "visual_prompt_en": "One round black rubber sink plug with a small pull ring and short chain. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Gummipropp med dragögla"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "schampo",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One plain shampoo squeeze bottle with flip-top cap, a small hair lock pictogram on the front, no writing. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Flaska för hårtvätt med hårsymbol"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "badhandduk",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One large clean bath towel draped over a simple rail, thick terry texture and two hanging ends. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Stor frottéhandduk"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pappershandduk",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One folded white paper hand towel partly pulled from a simple wall dispenser, no logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vikt engångshandduk ur hållare"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "våtservett",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One soft white wet wipe partly pulled from a small resealable packet, all surfaces blank. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Fuktig servett ur återförslutningspaket"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "tvättlapp",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small soft square washcloth folded at one corner, terry texture, no hand or soap. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Liten tvättduk i frotté"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "tandtråd",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One opened dental-floss container with a thin white thread stretched out past the cutting notch. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tunn tråd från tandtrådsbehållare"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "nagelborste",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small rectangular nail brush with dense short bristles and a curved hand grip. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Liten borste med täta korta borst"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "nagelsax",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small pair of nail scissors with short curved blades and two round finger loops. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Kort sax med böjda blad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "toalettsits",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One white toilet seat ring and matching lid raised above the bowl, three-quarter view. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Sittring och lock på toalett"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "toalettborste",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One toilet brush standing partly out of its simple holder, long handle and rounded bristles visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Långskaftad borste med hållare"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "skötbord",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One changing table with raised safety edges, a padded mat and storage shelf, no baby. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Skötbädd med upphöjda kanter"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "mensskydd",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clean sanitary pad unfolded with adhesive wings visible, no body or packaging text. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vikt mensskydd med vingar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "tampong",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clean unused tampon with a visible retrieval string beside a plain wrapper, no body. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Bomullstampong med snöre"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "deodorant",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One plain roll-on deodorant bottle with cap beside it, round roller ball clearly visible, no logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Roll-on-flaska med kulapplikator"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "solkräm",
+    "category": "hygien",
+    "symbol_type": "object",
+    "visual_prompt_en": "One plain sunscreen tube with a small sun pictogram and a dab of white cream beside it, no SPF text. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Solkrämstub med solsymbol"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "inhalator",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One metered-dose asthma inhaler with L-shaped mouthpiece, removable cap beside it, no person or drug label. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Inhalator med vinklat munstycke"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "ögondroppar",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small eye-drop bottle with a narrow dropper tip and one clear drop suspended at the tip, no label. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Droppflaska med liten pip"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "nässprej",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One plain nasal spray bottle with a long narrow nasal nozzle and protective cap beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Nässprej med doseringspip"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bandage",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One rolled white gauze bandage with a short loose strip unwound beside it, clean fibers. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Rulle med löst gasvävsband"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kompress",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One sterile square gauze pad with fine woven mesh, beside a partly open plain wrapper. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Fyrkantig gasvävskompress"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "krycka",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One forearm crutch with cuff, handgrip, adjustable shaft and rubber tip, fully visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Underarmsstöd, handtag och gummifot"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "rollator",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One four-wheeled walker with two handgrips, brake levers, a seat and a small basket. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Gånghjälpmedel med hjul och bromsar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "hörapparat",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One behind-the-ear hearing aid with curved body, thin tube and small ear mold, no ear or person. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Hörapparat med slang och öroninsats"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "öronpropp",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One matching pair of soft foam earplugs, small tapered cylinders with rounded ends. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Två mjuka öronproppar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "brandvarnare",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One round ceiling smoke detector seen from below, ventilation slots and a small test button, no text. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Rund rökdetektor med testknapp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "brandsläckare",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One red portable fire extinguisher with black hose, squeeze lever and pressure gauge, blank body. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Släckare med slang och handgrepp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "brandfilt",
+    "category": "hälsa",
+    "symbol_type": "object",
+    "visual_prompt_en": "One fire blanket partly pulled from a plain red wall pouch, two hanging pull straps, no flames or words. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Brandfilt med två dragband"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pennvässare",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small manual pencil sharpener, circular pencil hole and metal blade held by a screw, shavings beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vässare med hål och skärblad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pennförlängare",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One wooden pencil extender holding a short pencil stub, metal gripping collar clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Förlängningsskaft med kort penna"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "blyertsstift",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small open tube of mechanical pencil leads, three thin graphite rods beside it, blank packaging. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tunna grafitstift till stiftpenna"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "rutpapper",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One sheet of clean white graph paper with evenly spaced pale blue square grid, no numbers or words. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Papper med regelbundet rutnät"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "linjerat papper",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One sheet of white ruled paper with parallel horizontal guide lines and one faint margin line, no writing. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Papper med skrivlinjer"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "suddpenna",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One retractable eraser pen with a white cylindrical eraser tip extending from a plastic holder. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Penna med suddgummispets"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bokstöd",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One pair of L-shaped metal bookends holding three upright closed books, spines blank. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Två stöd som håller böcker upprätt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bokvagn",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One library book trolley with sloping shelves filled with blank-spined books and four caster wheels. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Bokhyllsvagn med hjul"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "läslinjal",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One transparent colored reading ruler laid across one row of gray marks on a page, clear window band. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Läshjälp med genomskinligt läsfönster"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bokmärkesremsa",
+    "category": "skolmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One narrow paper bookmark protruding from the top of a closed book, no lettering. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Remsa som markerar plats i bok"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pingisboll",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small white table-tennis ball beside a faint pale paddle silhouette for scale, smooth hollow sphere. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Liten slät pingisboll"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "innebandyboll",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One white floorball with evenly spaced circular holes all around its hollow shell. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vit boll med många runda hål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "badmintonboll",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One shuttlecock with a rounded cork tip and a flared ring of white feathers. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Fjäderboll med korkspets"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "medicinboll",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One heavy leather medicine ball with stitched broad panels and a substantial weighted shape, no numbers. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tung träningsboll med sydda paneler"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "innebandyklubba",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One floorball stick, long straight shaft and curved perforated plastic blade, fully visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Klubbskaft med böjt hålblad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pingisracket",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One table-tennis paddle, short wooden handle and round rubber-faced blade, no logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Kort racket med runt gummiblad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "badmintonracket",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One badminton racket, slender handle, long shaft and oval finely strung head. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lätt racket med strängat huvud"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "målvaktshandskar",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One matching pair of padded goalkeeper gloves with broad palms and thick finger sections, no hands. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vadderade handskar med stora greppytor"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "tidtagarur",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One handheld stopwatch with top buttons and a simple blank dial, wrist cord looped below. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tidtagarur med startknapp och snodd"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "lagband",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "Three plain colored sports team sashes, closed fabric loops laid flat, no writing. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Färgade tygband att bära över axel"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "armbågsskydd",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One matching pair of elbow pads, curved padded cups with elastic straps, no limbs. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Två vadderade skydd med remmar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "skidstavar",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One matching pair of ski poles with hand straps, small snow baskets and pointed tips, whole poles visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Två stavar med handrem och truga"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "stjärtlapp",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small plastic snow slider with a rounded seat plate and short upward handle, no person. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Enkel pulksits med handtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "simdyna",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One rectangular foam swimming aid with adjustable belt passing through it, no person. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Flytdyna med midjebälte"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "simglasögon",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One pair of swim goggles with two sealed lenses, nose bridge and adjustable elastic head strap. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Två tätade glas och huvudband"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "armringar",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One matching pair of inflated swimming armbands, each with two air chambers and an open arm hole. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Två uppblåsbara armflytstöd"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "simring",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One inflated circular swimming ring with a large open center, no animal head or writing. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Rund flytring med hål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "gymnastikmatta",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One thick rectangular gymnastics floor mat, clearly padded thickness and stitched edges. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tjock vadderad gymnastikmatta"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "plint",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One gymnastics vaulting box with stacked wooden sections and a padded leather top. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Staplad gymnastikplint med mjuk topp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "ribbstol",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One wall-mounted wooden climbing ladder with many horizontal bars and a projecting top bar. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Väggmonterade parallella ribbor"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "balansbom",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One low narrow gymnastics balance beam on two broad supports, entire beam visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Smal bom med stabila stöd"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "trampett",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small angled mini-trampoline with rectangular sprung bed and padded frame. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lutande liten hopptrampolin"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "klätterrep",
+    "category": "idrottsmaterial",
+    "symbol_type": "object",
+    "visual_prompt_en": "One thick climbing rope hanging vertically with three large spaced knots, end clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Grovt hängrep med knutar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "vattenkokare",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One electric kettle with handle, pouring spout, hinged lid and detachable round base, no logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Elkanna med pip och bas"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "elvisp",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One handheld electric mixer with two metal beaters, handle and cord coiled beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Handvisp med två roterande vispar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "wokpanna",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One deep round wok with sloping sides, a long handle and small helper handle, no food. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Djup rund stekpanna"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bakform",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One rectangular loaf baking tin with tall straight sides and rolled rim, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Avlång brödform med höga kanter"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "ugnsform",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One rectangular ceramic oven dish with two handles and high sides, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Värmetålig form med sidohandtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bakplåt",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One flat metal oven baking tray with a shallow raised rim, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Platt ugnsplåt med låg kant"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "grytlock",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One round saucepan lid with central knob and a small steam vent, no pot. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Runt lock med knopp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "grytlapp",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One square quilted fabric pot holder with a small hanging loop, no hand. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vadderad fyrkantig grytlapp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "ugnsvante",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One thick quilted oven mitten with one thumb pocket and long protective cuff, no hand. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vadderad värmevante med tumdel"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "rivjärn",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One four-sided box grater with top handle, large grating holes clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Rivjärn med handtag och hålytor"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "potatisskalare",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One Y-shaped vegetable peeler with a horizontal swiveling blade and simple handle. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Skalare med tvärgående blad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "konservöppnare",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One manual can opener with two squeeze handles, turning knob and cutting wheel. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Öppnare med vev och skärhjul"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "vitlökspress",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One hinged garlic press opened slightly to reveal a perforated crushing chamber and two handles. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Press med hålförsett krossfack"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "visp",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One balloon whisk with several curved steel wires joined into a handle. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Böjda visptrådar och handtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "träslev",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One wooden cooking spoon with a long handle and broad shallow bowl. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Träsked med långt skaft"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "slickepott",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One flexible silicone spatula with a broad soft blade and long handle. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Böjligt skrapblad på skaft"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bakpensel",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One baking brush with a short handle and soft pale bristles, no paint or food. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Mjuk pensel för bakning"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kavel",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One wooden rolling pin with a broad cylindrical roller and a handle at each end. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Trärulle med två handtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "degskrapa",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One flexible semicircular dough scraper beside a short-handled straight metal scraper, no dough. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Skrapblad för deg"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "degbunke",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One large mixing bowl with high curved sides and a broad stable base, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Djup bunke för blandning"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "spritspåse",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "One triangular pastry piping bag with a metal star nozzle fitted at its narrow tip, no lettering. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Sprits med stjärnformat munstycke"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kakmått",
+    "category": "kök och bakning",
+    "symbol_type": "object",
+    "visual_prompt_en": "Three metal cookie cutters shaped as star, circle and heart, sharp cutting edges down. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Små öppna bakformar av metall"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "labbrock",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clean white laboratory coat hanging flat, long sleeves, snap front and two large pockets, no person. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vit skyddsrock med långa ärmar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "provrör",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clear glass test tube with rounded closed bottom and open top, tilted slightly. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Smalt glasrör med rund botten"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "provrörsställ",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One laboratory rack holding three empty test tubes upright, holes and supports visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Ställ med upprätta provrör"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bägare",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clear laboratory beaker with pouring spout and wide flat base, no graduations or lettering. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Laboratoriekärl med hällpip"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pipett",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clear dropper pipette with a soft rubber bulb and a single droplet at its tip. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Glaspipett med gummiblåsa"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "mätglas",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One tall graduated measuring cylinder on a broad base, simple short tick marks without numerals. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Mätcylinder med fot och skala"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "lupp",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small hand lens folded partly out of a round protective case, short focus lens clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Liten hopfällbar förstoringslupp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "fjädervåg",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One spring balance with hanging hook below and attachment ring above, spring visible through clear casing, no numerals. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Fjädervåg med krok och upphängning"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "vattenhjul",
+    "category": "naturvetenskap",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One small wooden waterwheel on an axle, evenly spaced paddles, a narrow water stream turns the top paddles. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Hjul med paddlar drivet av vatten"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "solcell",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One rectangular solar panel with a grid of dark blue cells, simple stand and two short wires. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Panel med flera solceller"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "elmotor",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small educational DC motor, cylindrical case, short output shaft and two insulated leads, no labels. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Liten motor med axel och två anslutningar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "lysdiod",
+    "category": "naturvetenskap",
+    "symbol_type": "object",
+    "visual_prompt_en": "One red LED component with clear domed lens and two metal leads of different lengths, no circuit. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lysdiod med lins och två ben"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "skolbuss",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One compact yellow school bus in side three-quarter view with passenger windows, closed doors and no lettering. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Buss för skoltransport"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "skåpbil",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One white delivery van, enclosed cargo body, two front doors and unglazed rear side panels, no logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Bil med slutet lastutrymme"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "sopbil",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One refuse collection truck with rear waste hopper and lifting arms, no people or logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lastbil med sopkomprimator"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "hjullastare",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One yellow wheel loader with four large tires, articulated middle and front bucket lowered, no operator. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lastmaskin med hjul och skopa"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "barnvagn",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One baby stroller with canopy, handlebar, seat and four wheels, no baby or logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vagn med sufflett och handtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "släp",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small empty utility trailer with two wheels, drawbar, hitch and low side walls. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Släpvagn med dragstång"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "husbil",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One campervan with tall living compartment, side door, small windows and cab, no logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Fordon med bodel"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "segelbåt",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small sailboat with mast, triangular mainsail, jib and keel hull, no people or lettering. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Båt med mast och segel"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kanot",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One open canoe with pointed ends, two bench seats and one single-bladed paddle beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Öppen paddelbåt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kajak",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One kayak with closed deck, single oval cockpit and double-bladed paddle beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Täckt paddelbåt med sittbrunn"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "roddbåt",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One open rowing boat with two oarlocks and a matching pair of oars resting across seats. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Båt med två åror"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "säkerhetsbälte",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One three-point car seat belt across an empty seat, diagonal strap and lap strap joined at buckle. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Trepunktsspänne över bilstol"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bilbarnstol",
+    "category": "trafik",
+    "symbol_type": "object",
+    "visual_prompt_en": "One rear-facing child car seat with high side protection and a five-point harness, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Barnstol med skyddssidor och sele"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "perrong",
+    "category": "trafik",
+    "symbol_type": "situation",
+    "visual_prompt_en": "One railway platform edge with tactile strip, short rail track beside it and a plain bench, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Perrong vid järnvägsspår"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "fåtölj",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One upholstered armchair with high back, two padded armrests and a broad seat, no person. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Stoppad sittmöbel med armstöd"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "taklampa",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One ceiling pendant lamp with a simple shade, cord and ceiling rose, switched off. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Hängande lampa med takkopp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "golvlampa",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One tall floor lamp with circular base, slender upright and shade, fully visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lampa på hög fot"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "gardin",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One window frame with two fabric curtains hanging on a rod, no view outside. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tygvåder vid fönster"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "rullgardin",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One roller blind partly lowered over a small window, roll at top and pull tab at bottom. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Rullbar gardin"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "persienn",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One window blind with horizontal slats and side lift cord, slats partly angled open. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Fönsterskydd med vridbara lameller"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "örngott",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One empty pillowcase folded back at its opening, soft clean fabric and side seams visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tygfodral till kudde"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "torktumlare",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One front-loading tumble dryer with a round glass door showing dry laundry, blank control panel. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Maskin för torkning med rund lucka"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "torkskåp",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One tall drying cabinet with door open, horizontal hanging rods and a pair of mittens inside. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Torkskåp med hängstänger"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "torkställning",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One unfolded clothes drying rack with two side wings and parallel hanging wires. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vikbart ställ med torklinor"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "strykjärn",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One electric steam iron on its heel, pointed metal soleplate visible and cord loosely coiled. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Spetsig stryksula och handtag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "strykbräda",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One padded ironing board on crossed folding legs, tapered end and metal iron rest. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Strykbräda med kryssben"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "sopborste",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One floor sweeping brush with a long wooden handle and a broad bristle head. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Långskaftad golvborste"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "sopskyffel",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One dustpan with broad lip, raised sides and short handle, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Skyffel med låg uppsamlingskant"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "mopp",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One floor mop with a long handle and rectangular microfiber head, clean fabric. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Städredskap med moppduk"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "strömbrytare",
+    "category": "hemmet",
+    "symbol_type": "object",
+    "visual_prompt_en": "One wall light switch in a square white faceplate, raised rocker clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vippknapp i väggplatta"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "vattenmelon",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One whole green-striped watermelon beside a red cut wedge with black seeds and thick rind. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Grön melon med rött fruktkött"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "honungsmelon",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One pale yellow honeydew melon beside a cut half showing light green flesh and central seeds. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Ljus melon med ljust fruktkött"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kiwi",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One whole fuzzy brown kiwifruit beside a cut half showing green flesh and a ring of black seeds. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Brunt hårigt skal och grönt snitt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "papaya",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One orange-green papaya cut lengthwise, orange flesh and black seed cavity clearly visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Orange fruktkött och svart frörum"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "persika",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One round peach with a velvety red-yellow skin beside a half exposing the ridged stone. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Luden stenfrukt med stor kärna"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "plommon",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "Two purple plums, one whole and one cut half with yellow flesh and a single stone. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lila stenfrukt med gult inre"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "aprikos",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small orange apricot beside a cut half with one brown stone, velvety skin. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Liten orange stenfrukt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "vindruvor",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small bunch of green grapes with branching stem and smooth round berries. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Druvklase på förgrenad stjälk"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "dadlar",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "Three brown dates, one split open lengthwise to show its long narrow stone. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Bruna avlånga frukter med kärna"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "fikon",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One purple fig beside a half exposing pink seed-filled flesh and thin skin. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Fikon med rosa fröinre"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "vinbär",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One short hanging cluster of red currants with a small lobed green leaf. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Små röda bär i klase"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "krusbär",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "Three green gooseberries with pale lengthwise stripes and dried blossom tips. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Randiga bär med blomrest"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "björnbär",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "Three blackberries with shiny clustered drupelets and one small leaf. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Mörka bär med flera små delfrukter"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "körsbär",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "Two red cherries joined by long stems and a small green leaf. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Runda röda frukter med långa skaft"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "rädisor",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "Three small red radishes with white root tips and green leafy tops. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Röda rötter med vit spets"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "rödbeta",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One beetroot with dark red round root, long taproot and reddish leaf stalks, a cut half shows red rings. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Mörkröd rot med röda bladstjälkar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kålrot",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One round swede root with purple shoulder, pale yellow lower skin and a cut wedge showing yellow flesh. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Stor rund rot med gult inre"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "palsternacka",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One cream-colored parsnip with broad shoulder, tapered long root and small green stem top. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Ljus avsmalnande rot"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "purjolök",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One leek with white cylindrical base and broad dark-green layered leaves, roots trimmed. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vit bas och platta gröna blad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "squash",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One dark-green zucchini with cylindrical body, blunt end and a short ridged stem. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Avlång grön squash"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "aubergine",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One glossy purple eggplant with broad oval body and a green star-shaped calyx. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Lila frukt med grön stjärnfodring"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "sötpotatis",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One orange-skinned sweet potato beside a cut half with vivid orange flesh, irregular tapered shape. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Avlång knöl med orange inre"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "selleri",
+    "category": "frukt och grönt",
+    "symbol_type": "object",
+    "visual_prompt_en": "One bunch of celery with long ribbed green stalks and small leafy tops held together at the base. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Långa räfflade gröna stjälkar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "couscous",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small shallow bowl of cooked couscous, fine pale yellow granules clearly separated, no garnish. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Mycket små ljusa gryn"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "bulgur",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small shallow bowl of cooked bulgur, coarse cracked golden grains, no garnish. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Grova krossade vetekorn"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "quinoa",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small shallow bowl of cooked quinoa, tiny pale grains with visible curled germ rings. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Små gryn med groddringar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "fiskpinnar",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "Three rectangular golden breaded fish fingers on a plain plate, one cut to show white fish inside. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Panerade avlånga bitar med vit fisk"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "omelett",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One folded golden egg omelet on a plain plate, soft thick egg texture at the cut edge, no garnish. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Stekt äggrätt med vikt form"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "våffla",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One golden heart-shaped waffle section with a deep square grid, no cream or toppings. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Våffla med rutmönster"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "falafel",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "Three round brown falafel balls, one split to show greenish chickpea interior, no sauce. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Friterade bollar med grönaktigt inre"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "tofu",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One clean white tofu block with two cut cubes beside it, smooth slightly porous surfaces. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vit kompakt bönmassa i block"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kikärtor",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small bowl of cooked chickpeas and three loose chickpeas beside it, round beige seeds with pointed tips. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Runda beige ärtor med spets"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "blomkål",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One white cauliflower head with tightly packed florets surrounded by broad green leaves. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Vitt blomhuvud med gröna blad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "vitkål",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One pale green cabbage head beside a cut wedge showing densely layered leaves. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Tätt bladhuvud och skurna bladlager"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "spenat",
+    "category": "mat",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small bunch of fresh spinach leaves, dark green oval blades and thin tender stems. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Mörkgröna mjuka blad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "kompost",
+    "category": "natur och miljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One open garden compost bin with brown leaves and vegetable scraps in layers, small soil layer at bottom. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Organiskt material i kompostbehållare"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "plastförpackning",
+    "category": "natur och miljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One empty clear plastic food tub with its lid beside it, no branding or recycling text. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Genomskinlig matförpackning av plast"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "pappersförpackning",
+    "category": "natur och miljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One empty folded cardboard food carton with open flaps, unprinted surface. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Kartongförpackning med vikflikar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "metallförpackning",
+    "category": "natur och miljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One empty clean tin can with its lid removed beside it, ribbed metal sides. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Konservburk av metall"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "glasförpackning",
+    "category": "natur och miljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One empty clear glass jar with a threaded neck and metal screw lid beside it. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Glasburk med skruvlock"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "elavfall",
+    "category": "natur och miljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One discarded small radio and a detached computer mouse together in a shallow collection tray, cords visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Trasiga små elektriska apparater"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "batteriåtervinning",
+    "category": "natur och miljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One small collection box with a simple battery pictogram and three loose used batteries beside it, no lettering. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Insamlingslåda med batterisymbol"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  },
+  {
+    "text_sv": "matavfall",
+    "category": "natur och miljö",
+    "symbol_type": "object",
+    "visual_prompt_en": "One open brown food-waste paper bag with banana peel, apple core and vegetable scraps visible. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering.",
+    "must_show_sv": [
+      "Matrester i papperspåse"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande personer eller dekorativ bakgrund",
+      "Text, logotyper eller inbakad etikett"
+    ],
+    "contrast_terms_sv": []
+  }
+]

@@ -1,0 +1,2272 @@
+[
+  {
+    "id": "FSK_10_12",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Frågeordet var: söka efter en plats",
+    "contrast_terms_sv": [
+      "vart"
+    ],
+    "visual_prompt_en": "A child looking for a red ball, open palms and a puzzled expression; the ball partly visible behind a box. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Frågeordet var: söka efter en plats"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Frågeordet var: söka efter en plats” utan förväxling med ”vart”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_10_26",
+    "resolution": "standalone",
+    "meaning_sv": "Vara med i gemensam lek",
+    "contrast_terms_sv": [
+      "stå bredvid"
+    ],
+    "visual_prompt_en": "Three children build one block tower together, all three adding blocks to the same tower, equal participation. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Vara med i gemensam lek"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_10_34",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Få i betydelsen ta emot ett föremål",
+    "contrast_terms_sv": [
+      "få lov"
+    ],
+    "visual_prompt_en": "A child receiving one toy car into open hands from another child's outstretched hands. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Få i betydelsen ta emot ett föremål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Få i betydelsen ta emot ett föremål” utan förväxling med ”få lov”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_10_54",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Fråga om att få delta i lek",
+    "contrast_terms_sv": [
+      "vara med"
+    ],
+    "visual_prompt_en": "One child with an open questioning palm beside two children playing with blocks, an open place beside them. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Fråga om att få delta i lek"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Fråga om att få delta i lek” utan förväxling med ”vara med”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_10_59",
+    "resolution": "standalone",
+    "meaning_sv": "Plagg vänt med insidan utåt",
+    "contrast_terms_sv": [
+      "gå ut"
+    ],
+    "visual_prompt_en": "One child-size sweater turned inside out, visible inner seam allowances, care tag blank, sleeves pulled through. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Plagg vänt med insidan utåt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_10_81",
+    "resolution": "standalone",
+    "meaning_sv": "Barn som ung människa, inte släktskap",
+    "contrast_terms_sv": [
+      "vuxen"
+    ],
+    "visual_prompt_en": "One child about six years old, full body, ordinary shirt and trousers, relaxed neutral posture. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Barn som ung människa, inte släktskap"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "person"
+  },
+  {
+    "id": "FSK_10_95",
+    "resolution": "standalone",
+    "meaning_sv": "Uppochnedvänt föremål",
+    "contrast_terms_sv": [
+      "uppåt"
+    ],
+    "visual_prompt_en": "One simple wooden chair upside down, seat near bottom and all four legs pointing upward. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Uppochnedvänt föremål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_11_19",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Fel passform utan skuld",
+    "contrast_terms_sv": [
+      "rätt"
+    ],
+    "visual_prompt_en": "A wooden shape sorter with a square block resting beside the round hole where it cannot fit, neutral scene. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Fel passform utan skuld"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Fel passform utan skuld” utan förväxling med ”rätt”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_11_26",
+    "resolution": "standalone",
+    "meaning_sv": "Ömsesidig kram med armar om varandra",
+    "contrast_terms_sv": [
+      "hålla fast"
+    ],
+    "visual_prompt_en": "Two children gently hugging, arms clearly around each other's upper backs, both relaxed and willing, full bodies. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ömsesidig kram med armar om varandra"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_11_40",
+    "resolution": "standalone",
+    "meaning_sv": "Åka som passagerare i buss",
+    "contrast_terms_sv": [
+      "gå"
+    ],
+    "visual_prompt_en": "A child seated safely as passenger on a moving bus, visible window and seat belt, small bus wheel below the cutaway cabin. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Åka som passagerare i buss"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_11_42",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Slut i betydelsen att inget återstår",
+    "contrast_terms_sv": [
+      "paus"
+    ],
+    "visual_prompt_en": "One empty open biscuit tin beside its lid, a few crumbs inside, no biscuits remaining. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Slut i betydelsen att inget återstår"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Slut i betydelsen att inget återstår” utan förväxling med ”paus”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_11_55",
+    "resolution": "standalone",
+    "meaning_sv": "Ta emot ett överlämnat föremål",
+    "contrast_terms_sv": [
+      "ge"
+    ],
+    "visual_prompt_en": "Two children facing each other, one offers a ball, the other receives it with both open hands underneath, ball between the hands. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ta emot ett överlämnat föremål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_11_71",
+    "resolution": "standalone",
+    "meaning_sv": "Personer mitt emot varandra",
+    "contrast_terms_sv": [
+      "bredvid"
+    ],
+    "visual_prompt_en": "Two children sit on opposite sides of a small table facing each other directly, side view showing the table between them. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Personer mitt emot varandra"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_11_75",
+    "resolution": "standalone",
+    "meaning_sv": "Lägga sig på säng",
+    "contrast_terms_sv": [
+      "sova"
+    ],
+    "visual_prompt_en": "A child lowering their torso onto a bed, hips on mattress and shoulders descending toward pillow, still awake. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Lägga sig på säng"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_11_98",
+    "resolution": "standalone",
+    "meaning_sv": "Sätta sig på stol",
+    "contrast_terms_sv": [
+      "sitta"
+    ],
+    "visual_prompt_en": "A child midway through sitting onto a chair, knees bent, hips just above seat, feet on floor, hands empty. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Sätta sig på stol"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_01",
+    "resolution": "standalone",
+    "meaning_sv": "Lag i idrott, inte lagregel",
+    "contrast_terms_sv": [
+      "regel"
+    ],
+    "visual_prompt_en": "Four children in two pairs with matching plain sports bibs, each pair gathered on one side of a ball, two clear teams. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Lag i idrott, inte lagregel"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_12_04",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Känna efter i den egna kroppen",
+    "contrast_terms_sv": [
+      "tänka"
+    ],
+    "visual_prompt_en": "A child calmly resting one palm on their own belly, eyes gently closed, attending to body sensations. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Känna efter i den egna kroppen"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Känna efter i den egna kroppen” utan förväxling med ”tänka”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_12_20",
+    "resolution": "standalone",
+    "meaning_sv": "Flytta något åt sidan",
+    "contrast_terms_sv": [
+      "framåt"
+    ],
+    "visual_prompt_en": "A child moving a chair sideways away from a clear walkway, hands on chair back and body facing sideways. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Flytta något åt sidan"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_12_22",
+    "resolution": "standalone",
+    "meaning_sv": "Lämna över ett föremål",
+    "contrast_terms_sv": [
+      "hämta"
+    ],
+    "visual_prompt_en": "One child placing a book into an adult's open hands at a desk, book still touching the child's fingers. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Lämna över ett föremål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_25",
+    "resolution": "standalone",
+    "meaning_sv": "Egen arbetsplats markerad med egna saker",
+    "contrast_terms_sv": [
+      "gruppbord"
+    ],
+    "visual_prompt_en": "One child seated at a single desk, schoolbag hanging on that chair, personal pencil case on the desk, no other desks. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Egen arbetsplats markerad med egna saker"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_12_60",
+    "resolution": "standalone",
+    "meaning_sv": "Lämna tillbaka ett lånat föremål",
+    "contrast_terms_sv": [
+      "låna"
+    ],
+    "visual_prompt_en": "A child returning a borrowed toy car into the outstretched hand of another child, both look at the car. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Lämna tillbaka ett lånat föremål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_66",
+    "resolution": "standalone",
+    "meaning_sv": "Ställa ut ett eget arbete för visning",
+    "contrast_terms_sv": [
+      "ställa undan"
+    ],
+    "visual_prompt_en": "A child placing a handmade clay bowl on a low exhibition shelf beside two other clay objects, empty hands withdrawing. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ställa ut ett eget arbete för visning"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_68",
+    "resolution": "standalone",
+    "meaning_sv": "Slå på en lampa",
+    "contrast_terms_sv": [
+      "slå med handen"
+    ],
+    "visual_prompt_en": "A child's finger presses a desk lamp switch while the lamp visibly glows, hand and lamp only. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Slå på en lampa"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_71",
+    "resolution": "convention_proposal",
+    "meaning_sv": "För stark ljudvolym",
+    "contrast_terms_sv": [
+      "högt placerad"
+    ],
+    "visual_prompt_en": "A child covering both ears beside a loudspeaker with large sound-wave arcs, face showing discomfort. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "För stark ljudvolym"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”För stark ljudvolym” utan förväxling med ”högt placerad”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_12_74",
+    "resolution": "standalone",
+    "meaning_sv": "Resa sig från sittande",
+    "contrast_terms_sv": [
+      "sätta sig"
+    ],
+    "visual_prompt_en": "A child rising from a chair, hips clearly above seat and knees almost straight, full body visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Resa sig från sittande"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_75",
+    "resolution": "standalone",
+    "meaning_sv": "Slå upp en bok",
+    "contrast_terms_sv": [
+      "slå"
+    ],
+    "visual_prompt_en": "A child opening a closed hardback book at the middle, two covers spreading and pages fanning, hands on covers. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Slå upp en bok"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_88",
+    "resolution": "standalone",
+    "meaning_sv": "Dela ett föremål i två delar",
+    "contrast_terms_sv": [
+      "dela med sig"
+    ],
+    "visual_prompt_en": "Two child hands separating one soft bread roll into two pieces, torn edge visible between the halves. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Dela ett föremål i två delar"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_91",
+    "resolution": "standalone",
+    "meaning_sv": "Dela med sig av något man har",
+    "contrast_terms_sv": [
+      "dela i delar"
+    ],
+    "visual_prompt_en": "One child offering half of a bread roll to another child while keeping the other half, both children's hands visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Dela med sig av något man har"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_93",
+    "resolution": "standalone",
+    "meaning_sv": "Dela ut material till flera",
+    "contrast_terms_sv": [
+      "dela sönder"
+    ],
+    "visual_prompt_en": "A child handing one worksheet to each of two seated classmates, small remaining stack held in the other arm, blank sheets. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Dela ut material till flera"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_12_97",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Ett steg vidare i en uppgift, konkret steg som bildförslag",
+    "contrast_terms_sv": [
+      "klar"
+    ],
+    "visual_prompt_en": "A child taking the next step on a low staircase, one foot on the next tread, remaining steps visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ett steg vidare i en uppgift, konkret steg som bildförslag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Ett steg vidare i en uppgift, konkret steg som bildförslag” utan förväxling med ”klar”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_13_11",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Stoppa i betydelsen avbryta",
+    "contrast_terms_sv": [
+      "stoppa i"
+    ],
+    "visual_prompt_en": "One open palm held upright facing the viewer, relaxed arm, plain sleeve, no aggressive pose. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Stoppa i betydelsen avbryta"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Stoppa i betydelsen avbryta” utan förväxling med ”stoppa i”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_13_13",
+    "resolution": "standalone",
+    "meaning_sv": "Föremål långt borta från betraktaren",
+    "contrast_terms_sv": [
+      "nära"
+    ],
+    "visual_prompt_en": "A large child in the foreground looking toward a much smaller red ball far away on the same simple ground line. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Föremål långt borta från betraktaren"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_13_29",
+    "resolution": "standalone",
+    "meaning_sv": "Ringa in en bild med penna",
+    "contrast_terms_sv": [
+      "ringa telefon"
+    ],
+    "visual_prompt_en": "Close-up of a child's hand drawing a pencil circle around one apple picture on a sheet, two other fruit pictures uncircled. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ringa in en bild med penna"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_13_34",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Stanna kvar på samma plats",
+    "contrast_terms_sv": [
+      "följa med"
+    ],
+    "visual_prompt_en": "A child remaining seated calmly on one chair beside a doorway while another child walks away through it. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Stanna kvar på samma plats"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Stanna kvar på samma plats” utan förväxling med ”följa med”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_13_37",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Tycka om någon eller något",
+    "contrast_terms_sv": [
+      "vill ha"
+    ],
+    "visual_prompt_en": "A child holding a favorite soft toy close with a small pleased smile, no heart or writing. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Tycka om någon eller något"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Tycka om någon eller något” utan förväxling med ”vill ha”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_13_43",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Ta ordet i ett samtal",
+    "contrast_terms_sv": [
+      "avbryta"
+    ],
+    "visual_prompt_en": "A child speaking to two attentive seated classmates, one open palm slightly raised, mouths of listeners closed. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ta ordet i ett samtal"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Ta ordet i ett samtal” utan förväxling med ”avbryta”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_13_55",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Lindrig fysisk skada",
+    "contrast_terms_sv": [
+      "fara"
+    ],
+    "visual_prompt_en": "A scraped knee with one small superficial pink abrasion, no blood, no distressing details, leg only. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Lindrig fysisk skada"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Lindrig fysisk skada” utan förväxling med ”fara”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_13_61",
+    "resolution": "standalone",
+    "meaning_sv": "Passa en boll till någon",
+    "contrast_terms_sv": [
+      "passa storlek"
+    ],
+    "visual_prompt_en": "A child passing a football with the inside of one foot toward another child's feet, ball between them, full bodies. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Passa en boll till någon"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_13_79",
+    "resolution": "standalone",
+    "meaning_sv": "Ljus som stearinljus",
+    "contrast_terms_sv": [
+      "ljus färg"
+    ],
+    "visual_prompt_en": "One short wax candle with a small clear flame and plain holder, isolated, no person. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ljus som stearinljus"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_13_96",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Komma överens om gemensamt val",
+    "contrast_terms_sv": [
+      "bråka"
+    ],
+    "visual_prompt_en": "Two children place the same chosen board game between them and nod toward each other, both hands relaxed. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Komma överens om gemensamt val"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Komma överens om gemensamt val” utan förväxling med ”bråka”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_13_98",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Hålla fokus på en uppgift",
+    "contrast_terms_sv": [
+      "titta bort"
+    ],
+    "visual_prompt_en": "A child working on one simple jigsaw, eyes and both hands directed at the next matching piece, clear empty surroundings. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Hålla fokus på en uppgift"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Hålla fokus på en uppgift” utan förväxling med ”titta bort”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_14_04",
+    "resolution": "standalone",
+    "meaning_sv": "Värd som tar emot gäster",
+    "contrast_terms_sv": [
+      "värde"
+    ],
+    "visual_prompt_en": "One child welcoming two arriving classmates through an open doorway with a gentle inviting open hand. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Värd som tar emot gäster"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "person"
+  },
+  {
+    "id": "FSK_14_06",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Ta emot en ursäkt utan krav på beröring",
+    "contrast_terms_sv": [
+      "be om ursäkt"
+    ],
+    "visual_prompt_en": "Two children face each other after a disagreement, one offers an open hand and the other responds calmly with a small nod. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ta emot en ursäkt utan krav på beröring"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Ta emot en ursäkt utan krav på beröring” utan förväxling med ”be om ursäkt”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_14_17",
+    "resolution": "standalone",
+    "meaning_sv": "Vända ett föremål åt andra hållet",
+    "contrast_terms_sv": [
+      "vrida lock"
+    ],
+    "visual_prompt_en": "A child's two hands turning one wooden toy car to face the opposite direction, hands hold front and rear, car horizontal. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Vända ett föremål åt andra hållet"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_14_31",
+    "resolution": "standalone",
+    "meaning_sv": "Stänga av en lampa",
+    "contrast_terms_sv": [
+      "stänga dörr"
+    ],
+    "visual_prompt_en": "A child's finger presses the switch of a desk lamp, bulb visibly dark with no glow, hand and lamp only. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Stänga av en lampa"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_14_33",
+    "resolution": "standalone",
+    "meaning_sv": "Låna ut en sak till någon",
+    "contrast_terms_sv": [
+      "låna"
+    ],
+    "visual_prompt_en": "One child handing their own pencil to a classmate across a desk while keeping their pencil case beside them. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Låna ut en sak till någon"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_14_47",
+    "resolution": "standalone",
+    "meaning_sv": "Fylla i en avgränsad form",
+    "contrast_terms_sv": [
+      "skriva svar"
+    ],
+    "visual_prompt_en": "Close-up of a hand shading the inside of an outlined circle evenly with a colored pencil, clear outline remains. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Fylla i en avgränsad form"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_14_63",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Be om ordet genom handuppräckning",
+    "contrast_terms_sv": [
+      "ropa"
+    ],
+    "visual_prompt_en": "A seated child raising one hand to request speaking while looking at a teacher, mouth closed, one quiet classmate nearby. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Be om ordet genom handuppräckning"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Be om ordet genom handuppräckning” utan förväxling med ”ropa”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_14_76",
+    "resolution": "standalone",
+    "meaning_sv": "Skydd visat som cykelhjälm",
+    "contrast_terms_sv": [
+      "skydda verb"
+    ],
+    "visual_prompt_en": "One child-size bicycle helmet, protective shell and foam lining visible in three-quarter view, chin straps open. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Skydd visat som cykelhjälm"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_14_84",
+    "resolution": "standalone",
+    "meaning_sv": "Längst bort i en jämförelse av tre",
+    "contrast_terms_sv": [
+      "närmast"
+    ],
+    "visual_prompt_en": "Three identical balls along a receding ground line, the farthest smallest ball enclosed by a thin neutral outline. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Längst bort i en jämförelse av tre"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_15_14",
+    "resolution": "standalone",
+    "meaning_sv": "Trycka på en knapp",
+    "contrast_terms_sv": [
+      "trycka bok"
+    ],
+    "visual_prompt_en": "One child fingertip visibly pressing down a large plain round push-button, button depressed below its rim. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Trycka på en knapp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_15_54",
+    "resolution": "standalone",
+    "meaning_sv": "Tvätta ett föremål med vatten",
+    "contrast_terms_sv": [
+      "tvätta händer"
+    ],
+    "visual_prompt_en": "A child washing a dirty toy car in a small basin with a sponge, water and foam touching the car, whole child visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Tvätta ett föremål med vatten"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_15_74",
+    "resolution": "standalone",
+    "meaning_sv": "Tak på byggnad",
+    "contrast_terms_sv": [
+      "tak i rum"
+    ],
+    "visual_prompt_en": "A small cutaway house with the pitched tiled roof clearly emphasized, pale walls kept secondary. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Tak på byggnad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_16_23",
+    "resolution": "standalone",
+    "meaning_sv": "Skolgård utomhus",
+    "contrast_terms_sv": [
+      "bondgård"
+    ],
+    "visual_prompt_en": "A small enclosed school courtyard with a climbing frame, bench and one school entrance, empty of people. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Skolgård utomhus"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_16_32",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Het temperatur",
+    "contrast_terms_sv": [
+      "stark smak"
+    ],
+    "visual_prompt_en": "A steaming mug with a hand held safely back from its rim, rising steam and cautionary distance clearly visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Het temperatur"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Het temperatur” utan förväxling med ”stark smak”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_16_41",
+    "resolution": "standalone",
+    "meaning_sv": "Röra på benen sittande",
+    "contrast_terms_sv": [
+      "springa"
+    ],
+    "visual_prompt_en": "A child seated on a chair extending one lower leg forward and bending the other, feet off the floor, hands on seat. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Röra på benen sittande"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_16_58",
+    "resolution": "standalone",
+    "meaning_sv": "Vind som blåser utomhus",
+    "contrast_terms_sv": [
+      "vind i hus"
+    ],
+    "visual_prompt_en": "A leafy branch bending in blowing air, three leaves carried sideways and a plain windsock stretched horizontally. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Vind som blåser utomhus"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_16_62",
+    "resolution": "standalone",
+    "meaning_sv": "Hall som entrérum",
+    "contrast_terms_sv": [
+      "idrottshall"
+    ],
+    "visual_prompt_en": "A compact entrance hall with coat hooks, bench, shoe rack and one closed outside door, no people or writing. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Hall som entrérum"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_16_64",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Byte av föremål mellan två personer",
+    "contrast_terms_sv": [
+      "byta kläder"
+    ],
+    "visual_prompt_en": "Two children exchange a red block and a blue toy car, one object moving each way between their open hands. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Byte av föremål mellan två personer"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Byte av föremål mellan två personer” utan förväxling med ”byta kläder”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_16_66",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Släpp som uppmaning att släppa grepp",
+    "contrast_terms_sv": [
+      "kasta"
+    ],
+    "visual_prompt_en": "Close-up of a child's open hand just releasing a ball, ball immediately beneath the spread fingers. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Släpp som uppmaning att släppa grepp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Släpp som uppmaning att släppa grepp” utan förväxling med ”kasta”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_17_47",
+    "resolution": "standalone",
+    "meaning_sv": "Sända ett röstmeddelande med radio",
+    "contrast_terms_sv": [
+      "ta emot"
+    ],
+    "visual_prompt_en": "A child holding a plain walkie-talkie near the mouth with thumb pressing its side talk button, small sound waves. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Sända ett röstmeddelande med radio"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_17_72",
+    "resolution": "standalone",
+    "meaning_sv": "Bajs som kroppslig produkt",
+    "contrast_terms_sv": [
+      "lera"
+    ],
+    "visual_prompt_en": "One small brown formed stool sample, simple smooth curved shape, neutral educational view, no face or toilet scene. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Bajs som kroppslig produkt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_17_94",
+    "resolution": "standalone",
+    "meaning_sv": "Stiga upp ur sängen",
+    "contrast_terms_sv": [
+      "vakna"
+    ],
+    "visual_prompt_en": "A child getting out of bed, torso upright at mattress edge, both feet placed on floor, blanket moved aside. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Stiga upp ur sängen"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_18_11",
+    "resolution": "standalone",
+    "meaning_sv": "Register som flikar i pärm",
+    "contrast_terms_sv": [
+      "lista"
+    ],
+    "visual_prompt_en": "One open ring binder with clearly stepped colored divider tabs visible at the page edges, all tabs blank. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Register som flikar i pärm"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_18_31",
+    "resolution": "standalone",
+    "meaning_sv": "Vända ett enskilt blad",
+    "contrast_terms_sv": [
+      "läsa"
+    ],
+    "visual_prompt_en": "Close-up of child hands turning ONE page of a book, right hand pinches upper page corner, sheet curled upward crossing the spine. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Vända ett enskilt blad"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_18_43",
+    "resolution": "standalone",
+    "meaning_sv": "Enskilt skolarbete",
+    "contrast_terms_sv": [
+      "grupparbete"
+    ],
+    "visual_prompt_en": "One child working alone at one desk with a pencil and a simple blank worksheet, no other people. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Enskilt skolarbete"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_18_60",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Mens som menstruation",
+    "contrast_terms_sv": [
+      "sår"
+    ],
+    "visual_prompt_en": "One clean menstrual pad beside a simple red droplet symbol, neutral health education object view, no body. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Mens som menstruation"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Mens som menstruation” utan förväxling med ”sår”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_18_68",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Koncentrera sig på en uppgift",
+    "contrast_terms_sv": [
+      "drömma"
+    ],
+    "visual_prompt_en": "A child concentrating on placing one puzzle piece, eyes directed to piece and hands engaged, uncluttered desk. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Koncentrera sig på en uppgift"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Koncentrera sig på en uppgift” utan förväxling med ”drömma”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_18_72",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Kiss som urin",
+    "contrast_terms_sv": [
+      "dryck"
+    ],
+    "visual_prompt_en": "A clean transparent urine specimen cup containing pale yellow liquid, closed plain lid, no markings or body. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Kiss som urin"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Kiss som urin” utan förväxling med ”dryck”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_18_89",
+    "resolution": "standalone",
+    "meaning_sv": "Markera på papper",
+    "contrast_terms_sv": [
+      "ringa in"
+    ],
+    "visual_prompt_en": "Close-up of child hand using a yellow highlighter across one plain gray horizontal line on paper, highlighted stripe visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Markera på papper"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_19_14",
+    "resolution": "standalone",
+    "meaning_sv": "Skolavslutning som gemensam avskedssituation",
+    "contrast_terms_sv": [
+      "vanlig lektion"
+    ],
+    "visual_prompt_en": "A teacher and three children standing together with simple flowers beside a school doorway, friendly goodbye waves. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Skolavslutning som gemensam avskedssituation"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_19_31",
+    "resolution": "standalone",
+    "meaning_sv": "Göra avtryck i lera",
+    "contrast_terms_sv": [
+      "rita"
+    ],
+    "visual_prompt_en": "A child hand lifting from a clay slab, clearly visible palm and finger impression left in the clay. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Göra avtryck i lera"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_19_44",
+    "resolution": "standalone",
+    "meaning_sv": "Stryka under på papper",
+    "contrast_terms_sv": [
+      "stryka bort"
+    ],
+    "visual_prompt_en": "Close-up of a child hand drawing a straight colored underline below one plain gray horizontal mark on paper. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Stryka under på papper"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_19_53",
+    "resolution": "standalone",
+    "meaning_sv": "Trampa cykelpedaler",
+    "contrast_terms_sv": [
+      "stampa"
+    ],
+    "visual_prompt_en": "A child seated on a stationary bicycle turning the pedals with both feet, bent knee and opposite extended leg. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Trampa cykelpedaler"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_19_63",
+    "resolution": "standalone",
+    "meaning_sv": "Para ihop matchande föremål",
+    "contrast_terms_sv": [
+      "sortera"
+    ],
+    "visual_prompt_en": "A child placing one sock beside its matching sock, one other distinct pair nearby, both hands visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Para ihop matchande föremål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_19_84",
+    "resolution": "standalone",
+    "meaning_sv": "Spotta sköljvatten i handfat",
+    "contrast_terms_sv": [
+      "kräkas"
+    ],
+    "visual_prompt_en": "A child leaning over a washbasin after toothbrushing, lips gently projecting a small water stream into the basin, toothbrush beside tap. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Spotta sköljvatten i handfat"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_19_96",
+    "resolution": "standalone",
+    "meaning_sv": "Fast tvål som tvålbit",
+    "contrast_terms_sv": [
+      "flytande tvål"
+    ],
+    "visual_prompt_en": "One solid pale soap bar on a simple dish, rounded rectangle and a few clean bubbles, no dispenser or label. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Fast tvål som tvålbit"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_20_03",
+    "resolution": "standalone",
+    "meaning_sv": "Forma bokstäver av lera",
+    "contrast_terms_sv": [
+      "skriva"
+    ],
+    "visual_prompt_en": "Close-up of child fingers rolling modeling clay into the simple letter A, one completed clay A and loose clay roll. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Forma bokstäver av lera"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_20_46",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Bryt i betydelsen bryta av",
+    "contrast_terms_sv": [
+      "avbryt"
+    ],
+    "visual_prompt_en": "Two hands snapping one thin dry twig into two pieces, small break visible between the hands. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Bryt i betydelsen bryta av"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Bryt i betydelsen bryta av” utan förväxling med ”avbryt”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_21_02",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Len taktil yta",
+    "contrast_terms_sv": [
+      "hård"
+    ],
+    "visual_prompt_en": "A hand gently stroking a smooth satin fabric swatch with soft folds, surface detail clearly visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Len taktil yta"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Len taktil yta” utan förväxling med ”hård”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_21_18",
+    "resolution": "standalone",
+    "meaning_sv": "Arbeta ostört vid avskärmad plats",
+    "contrast_terms_sv": [
+      "ensamhet"
+    ],
+    "visual_prompt_en": "A child doing a puzzle alone at a desk with a portable desk screen behind, calm posture, no other people. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Arbeta ostört vid avskärmad plats"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_25_61",
+    "resolution": "standalone",
+    "meaning_sv": "Göra om ett bygge",
+    "contrast_terms_sv": [
+      "fortsätta"
+    ],
+    "visual_prompt_en": "A child taking apart a small block tower and starting it again on the same base, loose blocks in one hand. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Göra om ett bygge"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_25_63",
+    "resolution": "standalone",
+    "meaning_sv": "Komma fram till en person",
+    "contrast_terms_sv": [
+      "gå bort"
+    ],
+    "visual_prompt_en": "A child walking toward an adult's open welcoming arms, both full bodies visible and a short gap between them. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Komma fram till en person"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_25_65",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Lika många i två grupper",
+    "contrast_terms_sv": [
+      "olika"
+    ],
+    "visual_prompt_en": "Two separate groups of exactly three identical counters, equal spacing, same quantity on both sides. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Lika många i två grupper"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Lika många i två grupper” utan förväxling med ”olika”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_25_69",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Mindre antal än jämförelsegruppen",
+    "contrast_terms_sv": [
+      "större än"
+    ],
+    "visual_prompt_en": "Two counters in one group beside five identical counters in another group, smaller group subtly outlined. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Mindre antal än jämförelsegruppen"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Mindre antal än jämförelsegruppen” utan förväxling med ”större än”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_25_71",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Större antal än jämförelsegruppen",
+    "contrast_terms_sv": [
+      "mindre än"
+    ],
+    "visual_prompt_en": "Five counters in one group beside two identical counters in another group, larger group subtly outlined. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Större antal än jämförelsegruppen"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Större antal än jämförelsegruppen” utan förväxling med ”mindre än”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_25_83",
+    "resolution": "standalone",
+    "meaning_sv": "Skriva ut på skrivare",
+    "contrast_terms_sv": [
+      "skriva med penna"
+    ],
+    "visual_prompt_en": "One desktop printer with a sheet emerging halfway from the output slot, a simple colored apple picture on the paper. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Skriva ut på skrivare"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_25_86",
+    "resolution": "standalone",
+    "meaning_sv": "Spela upp inspelat ljud",
+    "contrast_terms_sv": [
+      "spela in"
+    ],
+    "visual_prompt_en": "A child's finger pressing the triangle play control on a simple audio player, small sound waves by speaker. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Spela upp inspelat ljud"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_25_87",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Känna genom beröring",
+    "contrast_terms_sv": [
+      "känsla"
+    ],
+    "visual_prompt_en": "A child pressing fingertips gently against a rough piece of bark, eyes directed at hand and texture. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Känna genom beröring"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Känna genom beröring” utan förväxling med ”känsla”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_25_88",
+    "resolution": "standalone",
+    "meaning_sv": "Land som markområde",
+    "contrast_terms_sv": [
+      "land nation"
+    ],
+    "visual_prompt_en": "A simple island seen from above with green solid land surrounded by blue water, no flags or labels. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Land som markområde"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_25_89",
+    "resolution": "standalone",
+    "meaning_sv": "Spela in röst",
+    "contrast_terms_sv": [
+      "spela upp"
+    ],
+    "visual_prompt_en": "A child speaking toward a tabletop microphone connected to a plain audio recorder with a red circular record control. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Spela in röst"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_25_97",
+    "resolution": "standalone",
+    "meaning_sv": "Sida i bok",
+    "contrast_terms_sv": [
+      "kroppssida"
+    ],
+    "visual_prompt_en": "One open book with right-hand page subtly emphasized and left page pale, page edges and central spine clear, no text. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Sida i bok"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_25_98",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Val mellan två alternativ",
+    "contrast_terms_sv": [
+      "val djur"
+    ],
+    "visual_prompt_en": "A child pointing to one of two clearly different fruit snacks, apple and banana, both on the same tray. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Val mellan två alternativ"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Val mellan två alternativ” utan förväxling med ”val djur”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_26_07",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Gud som trosbegrepp utan allmängiltig bild",
+    "contrast_terms_sv": [
+      "religion"
+    ],
+    "visual_prompt_en": "A plain open book beside a simple neutral radiant circle, no human depiction, religious symbols or claims of a universal representation. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Gud som trosbegrepp utan allmängiltig bild"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Gud som trosbegrepp utan allmängiltig bild” utan förväxling med ”religion”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_26_26",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Ungefär lika mängder",
+    "contrast_terms_sv": [
+      "exakt lika"
+    ],
+    "visual_prompt_en": "Two transparent cups with almost the same water level, one slightly lower, cup sizes identical. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Ungefär lika mängder"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Ungefär lika mängder” utan förväxling med ”exakt lika”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_26_56",
+    "resolution": "standalone",
+    "meaning_sv": "Starta om en dator",
+    "contrast_terms_sv": [
+      "stänga av"
+    ],
+    "visual_prompt_en": "A hand presses a computer restart control shown as one circular arrow on a plain screen, no lettering or numbers. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Starta om en dator"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_26_60",
+    "resolution": "standalone",
+    "meaning_sv": "Klass som elevgrupp",
+    "contrast_terms_sv": [
+      "klassrum"
+    ],
+    "visual_prompt_en": "One teacher with four school-age children seated at separate desks facing the same board, blank board. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Klass som elevgrupp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_26_67",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Tecken som handgest, inte bokstav",
+    "contrast_terms_sv": [
+      "bokstav"
+    ],
+    "visual_prompt_en": "One hand forming a clear thumbs-up gesture, arm cropped at wrist, no writing or surrounding objects. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Tecken som handgest, inte bokstav"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Tecken som handgest, inte bokstav” utan förväxling med ”bokstav”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_26_69",
+    "resolution": "standalone",
+    "meaning_sv": "Post som brevförsändelse",
+    "contrast_terms_sv": [
+      "stolpe"
+    ],
+    "visual_prompt_en": "One closed paper envelope with a visible triangular flap and blank rectangular stamp, no address or lettering. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Post som brevförsändelse"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_26_74",
+    "resolution": "standalone",
+    "meaning_sv": "Dra och släppa digitalt objekt",
+    "contrast_terms_sv": [
+      "klicka"
+    ],
+    "visual_prompt_en": "A hand operating a computer mouse while a single folder icon is moved across a plain screen toward an empty tray icon, simple dotted path. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Dra och släppa digitalt objekt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_26_84",
+    "resolution": "standalone",
+    "meaning_sv": "Röra vid ett föremål",
+    "contrast_terms_sv": [
+      "peka"
+    ],
+    "visual_prompt_en": "One child fingertip gently touching the surface of one smooth wooden block, clear contact point, hand and block only. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Röra vid ett föremål"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_29_56",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Positiva tal som position till höger om noll",
+    "contrast_terms_sv": [
+      "negativa tal"
+    ],
+    "visual_prompt_en": "A horizontal row of five counters placed to the right of a single central empty circle, simple number-line convention without numerals. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Positiva tal som position till höger om noll"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Positiva tal som position till höger om noll” utan förväxling med ”negativa tal”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_29_62",
+    "resolution": "standalone",
+    "meaning_sv": "Koppla bort leksakskabel",
+    "contrast_terms_sv": [
+      "koppla ihop"
+    ],
+    "visual_prompt_en": "Two child hands gently separating a low-voltage toy cable plug from its matching socket, plug and socket visibly apart, no mains equipment. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Koppla bort leksakskabel"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_27_54",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Art som biologiskt begrepp",
+    "contrast_terms_sv": [
+      "individ"
+    ],
+    "visual_prompt_en": "Three butterflies of the same recognizable species grouped together beside one visibly different butterfly. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Art som biologiskt begrepp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Art som biologiskt begrepp” utan förväxling med ”individ”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_27_65",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Mänskliga rättigheter som likvärdighet, förslag behöver begreppsgranskas",
+    "contrast_terms_sv": [
+      "regel"
+    ],
+    "visual_prompt_en": "Four diverse children standing in a row with equal personal space and the same friendly open posture, no ranking or flag. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Mänskliga rättigheter som likvärdighet, förslag behöver begreppsgranskas"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Mänskliga rättigheter som likvärdighet, förslag behöver begreppsgranskas” utan förväxling med ”regel”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_27_74",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Bas som geometrisk basyta",
+    "contrast_terms_sv": [
+      "bas instrument"
+    ],
+    "visual_prompt_en": "One triangular prism resting on a broad flat bottom face, bottom face gently highlighted, no formula or lettering. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Bas som geometrisk basyta"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Bas som geometrisk basyta” utan förväxling med ”bas instrument”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_29_76",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Stat som samhällsorganisation",
+    "contrast_terms_sv": [
+      "landyta"
+    ],
+    "visual_prompt_en": "One simple parliament building beside a small group of citizens, neutral architecture with no national flags. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Stat som samhällsorganisation"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Stat som samhällsorganisation” utan förväxling med ”landyta”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_29_77",
+    "resolution": "standalone",
+    "meaning_sv": "Logga in i digital tjänst",
+    "contrast_terms_sv": [
+      "logga ut"
+    ],
+    "visual_prompt_en": "A child pressing a simple user-profile icon on a computer screen beside an open padlock icon, no credentials or text. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Logga in i digital tjänst"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_29_78",
+    "resolution": "standalone",
+    "meaning_sv": "Logga ut ur digital tjänst",
+    "contrast_terms_sv": [
+      "logga in"
+    ],
+    "visual_prompt_en": "A child pressing an arrow leading out of a profile icon on a computer screen, no text or personal data. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Logga ut ur digital tjänst"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_29_94",
+    "resolution": "standalone",
+    "meaning_sv": "Präst i kristen tradition, inte all religiös personal",
+    "contrast_terms_sv": [
+      "imam"
+    ],
+    "visual_prompt_en": "One Christian priest wearing a plain white alb and simple purple stole, full body, neutral welcoming stance, no lettering. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Präst i kristen tradition, inte all religiös personal"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "person"
+  },
+  {
+    "id": "FSK_27_97",
+    "resolution": "standalone",
+    "meaning_sv": "Första hjälpen vid liten skråma",
+    "contrast_terms_sv": [
+      "operation"
+    ],
+    "visual_prompt_en": "An adult placing a small adhesive bandage on a seated child's mildly scraped knee, child calm, first-aid kit nearby, no blood. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Första hjälpen vid liten skråma"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_30_06",
+    "resolution": "standalone",
+    "meaning_sv": "Arbetsplats som konkret arbetsstation",
+    "contrast_terms_sv": [
+      "skolbänk"
+    ],
+    "visual_prompt_en": "One office workstation with desk, adjustable chair, keyboard, screen and task lamp, screen blank, no person. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Arbetsplats som konkret arbetsstation"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_28_13",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Elektrisk spänning i lågspänningskrets",
+    "contrast_terms_sv": [
+      "spännande"
+    ],
+    "visual_prompt_en": "One small battery connected by two wires to a flashlight bulb, bulb glows, terminals visible, no mains supply or formula. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Elektrisk spänning i lågspänningskrets"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Elektrisk spänning i lågspänningskrets” utan förväxling med ”spännande”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_30_30",
+    "resolution": "reuse",
+    "meaning_sv": "Vind som blåser utomhus",
+    "contrast_terms_sv": [
+      "vind i hus"
+    ],
+    "reuse_symbol_id": "FSK_16_58"
+  },
+  {
+    "id": "FSK_28_19",
+    "resolution": "standalone",
+    "meaning_sv": "Grepp om penna",
+    "contrast_terms_sv": [
+      "peka"
+    ],
+    "visual_prompt_en": "A child's hand firmly holding a thick pencil between thumb and index finger supported by middle finger, close-up. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Grepp om penna"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "action"
+  },
+  {
+    "id": "FSK_28_26",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Fil som digitalt dokument",
+    "contrast_terms_sv": [
+      "fil verktyg"
+    ],
+    "visual_prompt_en": "One plain document file icon with a folded upper corner, blank surface, no text or software logo. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Fil som digitalt dokument"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Fil som digitalt dokument” utan förväxling med ”fil verktyg”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_30_37",
+    "resolution": "standalone",
+    "meaning_sv": "Sträcka som avstånd längs väg",
+    "contrast_terms_sv": [
+      "linje"
+    ],
+    "visual_prompt_en": "A simple curved path with a small starting gate at one end and a small finish cone at the other, whole route visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Sträcka som avstånd längs väg"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_28_34",
+    "resolution": "standalone",
+    "meaning_sv": "Kyckling som levande ungfågel",
+    "contrast_terms_sv": [
+      "kyckling mat"
+    ],
+    "visual_prompt_en": "One fluffy yellow chick standing in side view, short beak, two thin legs, small folded wings, no eggs or adult chicken. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Kyckling som levande ungfågel"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_30_40",
+    "resolution": "standalone",
+    "meaning_sv": "Gravplats markerad av sten",
+    "contrast_terms_sv": [
+      "grop"
+    ],
+    "visual_prompt_en": "One simple low gravestone with a small flower planted in front, no names, dates or religious symbols. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Gravplats markerad av sten"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_30_42",
+    "resolution": "standalone",
+    "meaning_sv": "Bonde som jordbruksyrke",
+    "contrast_terms_sv": [
+      "trädgårdsmästare"
+    ],
+    "visual_prompt_en": "One farmer in clean work overalls and rubber boots holding a hay fork beside one small crate of vegetables, full body. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Bonde som jordbruksyrke"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "person"
+  },
+  {
+    "id": "FSK_28_56",
+    "resolution": "standalone",
+    "meaning_sv": "Drake som flygleksak",
+    "contrast_terms_sv": [
+      "drake sagodjur"
+    ],
+    "visual_prompt_en": "One diamond-shaped flying kite with crossed support sticks and a long ribbon tail, string coiled beside it, no person. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Drake som flygleksak"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_30_60",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Diabetes som hälsobegrepp; utrustning är bara ett bildförslag",
+    "contrast_terms_sv": [
+      "blodprov"
+    ],
+    "visual_prompt_en": "A closed glucose meter beside a finger-prick device and a plain insulin pen with cap on, no reading or medical procedure. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Diabetes som hälsobegrepp; utrustning är bara ett bildförslag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Diabetes som hälsobegrepp; utrustning är bara ett bildförslag” utan förväxling med ”blodprov”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_28_63",
+    "resolution": "standalone",
+    "meaning_sv": "Fil som handverktyg",
+    "contrast_terms_sv": [
+      "digital fil"
+    ],
+    "visual_prompt_en": "One hand file tool, long flat steel blade with closely spaced diagonal teeth and a plain wooden handle, three-quarter view. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Fil som handverktyg"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_30_61",
+    "resolution": "standalone",
+    "meaning_sv": "Skugga utomhus från en kropp",
+    "contrast_terms_sv": [
+      "mörker"
+    ],
+    "visual_prompt_en": "One child standing beside a distinct gray silhouette shadow cast on the ground away from a simple sun at upper left. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Skugga utomhus från en kropp"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_30_81",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Individuell plan som personligt planeringsunderlag",
+    "contrast_terms_sv": [
+      "schema"
+    ],
+    "visual_prompt_en": "One open planning folder with blank horizontal rows and a child's small portrait icon at top, no names or writing. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Individuell plan som personligt planeringsunderlag"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Individuell plan som personligt planeringsunderlag” utan förväxling med ”schema”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_28_83",
+    "resolution": "standalone",
+    "meaning_sv": "Skinn som material",
+    "contrast_terms_sv": [
+      "hud"
+    ],
+    "visual_prompt_en": "One small irregular leather swatch with smooth grain on one side and soft suede visible at a turned-up corner, no animal. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Skinn som material"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_30_88",
+    "resolution": "standalone",
+    "meaning_sv": "Kyrkogård som begravningsplats",
+    "contrast_terms_sv": [
+      "park"
+    ],
+    "visual_prompt_en": "Three modest gravestones with small flowers along a simple path, no names, dates or religious symbols. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Kyrkogård som begravningsplats"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_31_28",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Biologisk mångfald med flera arter",
+    "contrast_terms_sv": [
+      "många av samma"
+    ],
+    "visual_prompt_en": "A small meadow patch with three distinct plants, a butterfly, a beetle and one small bird, each clearly separated. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Biologisk mångfald med flera arter"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Biologisk mångfald med flera arter” utan förväxling med ”många av samma”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_31_46",
+    "resolution": "standalone",
+    "meaning_sv": "Kull som springlek",
+    "contrast_terms_sv": [
+      "kull djurungar"
+    ],
+    "visual_prompt_en": "Three children playing tag, one reaches with open palm toward another child's shoulder while that child runs away, full bodies. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Kull som springlek"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "situation"
+  },
+  {
+    "id": "FSK_31_52",
+    "resolution": "convention_proposal",
+    "meaning_sv": "Vers som del av sång eller dikt",
+    "contrast_terms_sv": [
+      "refräng"
+    ],
+    "visual_prompt_en": "One open songbook with two clearly separated blocks of short gray lines, no readable writing, no notes. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Vers som del av sång eller dikt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "review_question_sv": "Förmedlar motivet ”Vers som del av sång eller dikt” utan förväxling med ”refräng”? Bildförslaget är inte en godkänd konvention."
+  },
+  {
+    "id": "FSK_31_66",
+    "resolution": "standalone",
+    "meaning_sv": "Fallskärm för nedfärd genom luft",
+    "contrast_terms_sv": [
+      "lekfallskärm"
+    ],
+    "visual_prompt_en": "One open round parachute canopy with evenly spaced suspension lines converging on an empty harness, no person or aircraft. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Fallskärm för nedfärd genom luft"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_31_83",
+    "resolution": "standalone",
+    "meaning_sv": "Blomma som att slå ut i blom",
+    "contrast_terms_sv": [
+      "blomma föremål"
+    ],
+    "visual_prompt_en": "One flowering plant with a partly open bud and a fully opened flower on separate stems, roots in small pot. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Blomma som att slå ut i blom"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_31_86",
+    "resolution": "standalone",
+    "meaning_sv": "Vuxet djur exemplifierat med katt",
+    "contrast_terms_sv": [
+      "unge"
+    ],
+    "visual_prompt_en": "One full-grown domestic cat standing in side view, mature proportions, full coat and long tail, no kittens. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Vuxet djur exemplifierat med katt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  },
+  {
+    "id": "FSK_29_14",
+    "resolution": "standalone",
+    "meaning_sv": "Vandrande pinne som insekt",
+    "contrast_terms_sv": [
+      "gren"
+    ],
+    "visual_prompt_en": "One stick insect in side view, long narrow twig-like brown body, six long slender legs and two antennae, no leaves. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering.",
+    "must_show_sv": [
+      "Vandrande pinne som insekt"
+    ],
+    "must_not_show_sv": [
+      "Ovidkommande handlingar eller dekorativ miljö",
+      "Text, etiketter eller logotyper"
+    ],
+    "symbol_type": "object"
+  }
+]

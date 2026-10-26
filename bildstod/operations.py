@@ -5,19 +5,22 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from .metadata import load_candidates,read_url,REPO,PROFILE
-from .generation import ROOT,load_config,load_briefs,identity
+from .generation import ROOT,load_config,load_briefs,identity,suppressed_concepts
 from .rework import fetch_queue
 
 
 def summarize(entries,candidates,receipts,config):
-    images={c['concept_id']:c for c in candidates}
+    suppressed=suppressed_concepts(config)
+    entries=[e for e in entries if e['id'] not in suppressed]
+    active={e['id'] for e in entries if e.get('generation_enabled',True)}
+    images={c['concept_id']:c for c in candidates if c['concept_id'] in active}
     pending=[];failed=[]
     for e in entries:
         if not e.get('generation_enabled',True):continue
         receipt=receipts.get(e['id'],images.get(e['id'],{}))
         if receipt.get('status')=='failed':failed.append({'id':e['id'],'error_type':receipt.get('error_type','Unknown')})
         elif receipt.get('fingerprint')!=identity(e,config):pending.append(e['id'])
-    return {'enabled':sum(e.get('generation_enabled',True) for e in entries),'with_image':len(images),'pending':pending,'failed':failed}
+    return {'enabled':sum(e.get('generation_enabled',True) for e in entries),'with_image':len(images),'pending':pending,'failed':failed,'suppressed':len(suppressed)}
 
 
 def main():
@@ -25,8 +28,8 @@ def main():
     warnings=[]
     candidates=load_candidates();images={c['concept_id']:c for c in candidates};requests=fetch_queue(warnings)
     # Read only missing concepts and approved reworks, rather than every image receipt.
-    ids={e['id'] for e in entries if e.get('generation_enabled',True) and e['id'] not in images}|{r['concept_id'] for r in requests}
-    if len(ids)>200:raise ValueError('Too many missing receipts; inspect worker branches before reporting health')
+    ids={e['id'] for e in entries if e.get('generation_enabled',True) and e['id'] not in suppressed_concepts(config) and e['id'] not in images}|{r['concept_id'] for r in requests}
+    if len(ids)>5000:raise ValueError('Receipt set exceeds the bounded 5000-concept reporting budget')
     def receipt(identifier):
         import hashlib
         worker=config.get('worker_overrides',{}).get(identifier,0 if identifier=='FSK_01_04' else int(hashlib.sha256(identifier.encode()).hexdigest()[:8],16)%8)

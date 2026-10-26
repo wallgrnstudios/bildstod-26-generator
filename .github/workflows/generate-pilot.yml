@@ -58,9 +58,9 @@ jobs:
       PYTHONUNBUFFERED: '1'
       BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
       MODE: ${{ inputs.mode || 'generate' }}
-      # Manual runs retain their selected limit. Scheduled runs use a deliberately
-      # small per-worker limit so the review inbox grows at a controllable pace.
-      BATCH_LIMIT: ${{ github.event_name == 'schedule' && (vars.BILDSTOD_SCHEDULE_LIMIT || '3') || inputs.limit || '100' }}
+      # Manual runs retain their selected limit. Scheduled runs use a
+      # configurable per-worker limit. The two-hour rendering budget still applies.
+      BATCH_LIMIT: ${{ github.event_name == 'schedule' && (vars.BILDSTOD_SCHEDULE_LIMIT || '100') || inputs.limit || '100' }}
       RETRY_FAILED: ${{ inputs.retry_failed || 'false' }}
       SHARD: ${{ matrix.shard }}
       GH_TOKEN: ${{ github.token }}
