@@ -307,6 +307,49 @@
       "sha256": "0c1502f3b9371e09cd7720ede4cbcec0b8a4fe0c4ad9919374f06e9c28bd7c34"
     },
     {
+      "concept_id": "FSK_12_91",
+      "label_sv": "dela med sig",
+      "fingerprint": "616b6d05f3f56aa2539c41ab8f47b9bdb29bf34a1d0ecaf7ba1676b3214016ca",
+      "prompt": "Create one isolated illustration: One child offering half of a bread roll to another child while keeping the other half, both children's hands visible. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1453420141,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T16:48:32.252114+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "action",
+      "meaning_sv": "Dela med sig av något man har",
+      "must_show_sv": [
+        "Dela med sig av något man har"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande handlingar eller dekorativ miljö",
+        "Text, etiketter eller logotyper"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 65.715,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 65.759,
+      "sha256": "f06c7ecaff6f425a3cca598ce21e325a5ea19fb8cce02e797b3d7d66b9c07ace"
+    },
+    {
       "concept_id": "FSK_14_24",
       "label_sv": "vuxen",
       "fingerprint": "2aef3666c0fe3c43a63702c5d16866d9605866d13f8535b23103ab81694d84a8",
