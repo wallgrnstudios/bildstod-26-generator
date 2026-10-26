@@ -5075,6 +5075,49 @@
       "sha256": "1c67740e7f23b96d28d0690a277080a541e78a7dd3159d2d73fc12d0e57146cf"
     },
     {
+      "concept_id": "FSK_34_65",
+      "label_sv": "ögondroppar",
+      "fingerprint": "970bd844692fbad87f844d97340c450ae1d3288cf50572ed9841912838681e32",
+      "prompt": "Create one isolated illustration: One small eye-drop bottle with a narrow dropper tip and one clear drop suspended at the tip, no label. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 155535287,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:05:35.973243+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Droppflaska med liten pip",
+      "must_show_sv": [
+        "Droppflaska med liten pip"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.914,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.964,
+      "sha256": "94fb79541f7fc0836de1f57e9d2f27084cbc3e2f38bbadb3af12cffd3eca8999"
+    },
+    {
       "concept_id": "FSK_90_09",
       "label_sv": "tvål",
       "fingerprint": "e3f29a2137a162b15e5803fd67a5e9078190510c3b8e0ca037e538c837ea8968",
