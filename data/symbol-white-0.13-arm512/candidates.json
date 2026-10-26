@@ -4247,6 +4247,49 @@
       "sha256": "a3952991c843ca084be81d75f1d0f631bcbc705c5a23dca8064e37bf0b8c3199"
     },
     {
+      "concept_id": "FSK_34_74",
+      "label_sv": "brandsläckare",
+      "fingerprint": "20dde0657bbbce341c6174bb5185b98da4afa0aa9082339ddc7210c45ca0110f",
+      "prompt": "Create one isolated illustration: One red portable fire extinguisher with black hose, squeeze lever and pressure gauge, blank body. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1006682179,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:01:34.810879+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "object",
+      "meaning_sv": "Släckare med slang och handgrepp",
+      "must_show_sv": [
+        "Släckare med slang och handgrepp"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 65.667,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 65.709,
+      "sha256": "574dc0a0f5a5c2388a0b992ad7bbeb40e957bbd147de9f22c8d109b2959ea2de"
+    },
+    {
       "concept_id": "FSK_90_02",
       "label_sv": "gå",
       "fingerprint": "611ebd0f3a9a12775d8cb1da9cece196434d67ae038141108fda351df08adaee",
