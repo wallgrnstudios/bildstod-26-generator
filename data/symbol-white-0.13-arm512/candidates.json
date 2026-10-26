@@ -4660,6 +4660,49 @@
       "sha256": "797ca4dc25ba511ef06dfe52b7d2cd358c5ab869d88493fb6dd1d043abbbeda8"
     },
     {
+      "concept_id": "FSK_34_11",
+      "label_sv": "musiksal",
+      "fingerprint": "9a804240b887027abed1bcf6c1c0f7513402d9eb60860ee4d2d5a556cd9658e5",
+      "prompt": "Create one isolated illustration: One school music room corner with a keyboard, guitar rack and hand drums, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 794396621,
+      "negative_prompt": "",
+      "model": "black-forest-labs/FLUX.2-klein-4B",
+      "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+      "style_version": "symbol-white-0.13-arm512",
+      "background_model": "white",
+      "created_at": "2026-10-26T17:05:31.446988+00:00",
+      "license": null,
+      "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "style_approved": false,
+      "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+      "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+      "reference_conditioning": false,
+      "implementation": "diffusers-arm64",
+      "quantized_files": null,
+      "symbol_type": "situation",
+      "meaning_sv": "Flera instrument i undervisningsrum",
+      "must_show_sv": [
+        "Flera instrument i undervisningsrum"
+      ],
+      "must_not_show_sv": [
+        "Ovidkommande personer eller dekorativ bakgrund",
+        "Text, logotyper eller inbakad etikett"
+      ],
+      "width": 512,
+      "height": 512,
+      "steps": 4,
+      "guidance_scale": 1.0,
+      "cpu_dtype": "bfloat16",
+      "status": "pending_review",
+      "transparency": {
+        "background": "white"
+      },
+      "render_seconds": 66.206,
+      "background_seconds": 0.0,
+      "elapsed_seconds": 66.244,
+      "sha256": "7b899ab206927ad68bd43b2335df2198586a265d7eca769169d29d0b507278f3"
+    },
+    {
       "concept_id": "FSK_90_05",
       "label_sv": "skor",
       "fingerprint": "abdff96c9b2dc139f67d78b7b4f838add07bc2e95049a7f70e5c8be6b7ee3a4f",
