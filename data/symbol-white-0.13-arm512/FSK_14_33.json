@@ -1,0 +1,37 @@
+{
+  "concept_id": "FSK_14_33",
+  "label_sv": "låna ut",
+  "fingerprint": "e0206e6076bdfeac8412ea69f376089b616c216d9d65a2b21292bd1edd5de287",
+  "prompt": "Create one isolated illustration: One child handing their own pencil to a classmate across a desk while keeping their pencil case beside them. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1344373395,
+  "negative_prompt": "",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "style_version": "symbol-white-0.13-arm512",
+  "background_model": "white",
+  "created_at": "2026-10-26T16:48:00.781517+00:00",
+  "license": null,
+  "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "style_approved": false,
+  "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
+  "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
+  "reference_conditioning": false,
+  "implementation": "diffusers-arm64",
+  "quantized_files": null,
+  "symbol_type": "action",
+  "meaning_sv": "Låna ut en sak till någon",
+  "must_show_sv": [
+    "Låna ut en sak till någon"
+  ],
+  "must_not_show_sv": [
+    "Ovidkommande handlingar eller dekorativ miljö",
+    "Text, etiketter eller logotyper"
+  ],
+  "width": 512,
+  "height": 512,
+  "steps": 4,
+  "guidance_scale": 1.0,
+  "cpu_dtype": "bfloat16",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
+}
