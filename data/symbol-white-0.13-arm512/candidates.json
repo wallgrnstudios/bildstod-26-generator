@@ -1063,27 +1063,28 @@
     {
       "concept_id": "FSK_18_79",
       "label_sv": "shorts",
-      "fingerprint": "c659269999bf734aea9abdb61b855f6412fd67f3f4333129725c2d2635f89859",
-      "prompt": "Use the reference only for drawing style. Create one isolated illustration: Close-up from waist to just below knees of one child wearing clean blue shorts. Waistband and two short trouser legs end clearly above exposed bare knees; both thighs and knees visible. Crop excludes face and feet. Shorts are the visual focus. Contemporary hand-drawn children book illustration, fine neutral charcoal lines, natural proportions, gentle precise shading. Fresh clean modern materials and clear true-to-life colors. White textiles and hygiene products stay bright white with very light cool-gray shadows. Smooth even color on fabric and plastic; no sepia, ochre wash, grunge, stains, yellowing, distressed paper or aged patina. Borrow drawing technique only from reference, never its brown palette. Isolated on pure white without text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "fingerprint": "af2f63d9899a95304615f33a8b5361c8b2caa2413b0f2af4e77dc202341275fd",
+      "prompt": "Create one isolated illustration: One pair of child-sized shorts laid flat, waistband and two clearly short trouser legs, short inseam and broad leg openings. Entire garment visible with generous margins. No person, legs, feet, text or scenery. Isolated on pure white. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
       "seed": 1196642210,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-21T06:54:16.527796+00:00",
+      "created_at": "2026-10-26T16:30:14.349240+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
       "reference_asset": "assets/pilot/illustration-v2/FSK_01_04-transparent.png",
       "reference_sha256": "e789380753478bae5cd79028f4c3c16c1100a87c553bbf79966030d690e16d00",
-      "reference_conditioning": true,
+      "reference_conditioning": false,
       "implementation": "diffusers-arm64",
       "quantized_files": null,
       "symbol_type": "object",
       "meaning_sv": "Shorts som föremål. Inte en hel handling eller instruktion.",
       "must_show_sv": [
-        "Två korta byxben som slutar ovanför synliga knän"
+        "Midjelinning och två tydligt korta byxben",
+        "Hela plagget utan person"
       ],
       "must_not_show_sv": [
         "Extra handlingar, text eller miljö som ger en annan betydelse"
@@ -1097,10 +1098,10 @@
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 82.576,
+      "render_seconds": 65.606,
       "background_seconds": 0.0,
-      "elapsed_seconds": 82.63,
-      "sha256": "3bfa3fb744fc6a2984e2c0ebfb7ef58aa07fc445421a09a47c68f08ceaf83164"
+      "elapsed_seconds": 65.666,
+      "sha256": "9021851ae0473a3cf6ebf19e5e917c5d357f199462951e11b0c3d80140667dec"
     },
     {
       "concept_id": "FSK_19_35",
