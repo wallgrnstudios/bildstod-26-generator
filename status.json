@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27T05:29:36.047729+00:00",
+  "checked_at": "2026-10-27T08:59:52.320156+00:00",
   "coverage": {
     "enabled": 977,
     "with_image": 977,
@@ -10,28 +10,45 @@
   },
   "workflows": {
     "Generate pilot candidates": {
-      "id": 40426204985,
+      "id": 40477021414,
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-10-27T00:24:35Z",
-      "updated_at": "2026-10-27T00:25:11Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40426204985",
-      "last_success_at": "2026-10-27T00:25:11Z"
+      "created_at": "2026-10-27T08:56:12Z",
+      "updated_at": "2026-10-27T08:59:39Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40477021414",
+      "last_success_at": "2026-10-27T08:59:39Z"
     },
     "Suggest image metadata": {
-      "id": 40429214187,
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2026-10-27T00:53:17Z",
-      "updated_at": "2026-10-27T00:53:31Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40429214187",
+      "id": 40477435178,
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-10-27T08:59:41Z",
+      "updated_at": "2026-10-27T08:59:46Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40477435178",
       "last_success_at": "2026-10-27T00:53:31Z"
     }
   },
-  "reworks": [],
-  "warnings": [
-    "Omgenereringskön kunde inte läsas på grund av tillfällig kvotgräns; vanliga bildkandidater fortsätter utan köändringar."
+  "reworks": [
+    {
+      "request_id": "FSK_17_81_81029a251b1fc5e60e78fe3cc1beb732eb7d9167644df65a96923dbe66de5a2f_r1",
+      "concept_id": "FSK_17_81",
+      "status": "superseded",
+      "replacement_sha256": null
+    },
+    {
+      "request_id": "FSK_21_18_cea1c6fcdb5b4fc34bd030614e9ddfb22376033a715ed86d2430bbe8a535fead_r1",
+      "concept_id": "FSK_21_18",
+      "status": "completed",
+      "replacement_sha256": "229bd707945baa9847c3ddcf34696907c6580e6125d3528f87212a2f7bf4190e"
+    },
+    {
+      "request_id": "FSK_28_98_1cf852cfc15ee96241d48351f5aa52ce6ca9b8979062e39d94ffa613f5fd8095_r1",
+      "concept_id": "FSK_28_98",
+      "status": "superseded",
+      "replacement_sha256": null
+    }
   ],
+  "warnings": [],
   "metadata": {
     "attempted": 30,
     "suggested": 19,
@@ -303,8 +320,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.498,
         "sha256": "d292a17dabcef61fd0e8d74befd9040a425cd17253be47bcfc718675d17460d9",
-        "source_commit": "4692c4556ccf208db3cb792bd479a8129f73fc64",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/4692c4556ccf208db3cb792bd479a8129f73fc64/data/symbol-white-0.13-arm512/FSK_90_03.png"
+        "source_commit": "fd5b061fc08dca0f3a16a7a5c97b2375201f791d",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/fd5b061fc08dca0f3a16a7a5c97b2375201f791d/data/symbol-white-0.13-arm512/FSK_90_03.png"
       },
       "baseline": {
         "concept_id": "FSK_90_03",
@@ -710,8 +727,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 78.421,
         "sha256": "aacb0d55ef714231e6d03b41628c2c09ef588cb6042c77d3a6f80f416be6a1d7",
-        "source_commit": "4692c4556ccf208db3cb792bd479a8129f73fc64",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/4692c4556ccf208db3cb792bd479a8129f73fc64/data/symbol-white-0.13-arm512/FSK_90_08.png"
+        "source_commit": "fd5b061fc08dca0f3a16a7a5c97b2375201f791d",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/fd5b061fc08dca0f3a16a7a5c97b2375201f791d/data/symbol-white-0.13-arm512/FSK_90_08.png"
       },
       "baseline": {
         "concept_id": "FSK_90_08",
@@ -1106,8 +1123,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 80.794,
         "sha256": "4d1cc1ab63b27645aa9cc2cd17c1ce615c0d087697d68917cd4fed9123757aaa",
-        "source_commit": "4692c4556ccf208db3cb792bd479a8129f73fc64",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/4692c4556ccf208db3cb792bd479a8129f73fc64/data/symbol-white-0.13-arm512/FSK_91_06.png"
+        "source_commit": "fd5b061fc08dca0f3a16a7a5c97b2375201f791d",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/fd5b061fc08dca0f3a16a7a5c97b2375201f791d/data/symbol-white-0.13-arm512/FSK_91_06.png"
       },
       "baseline": {
         "concept_id": "FSK_91_06",
@@ -2393,8 +2410,8 @@
         "background_seconds": 0.0,
         "elapsed_seconds": 81.891,
         "sha256": "ea6ce18cf2230548677798e863970bfbbb4bb5233c30a8c4c8c991180bf11cb1",
-        "source_commit": "4692c4556ccf208db3cb792bd479a8129f73fc64",
-        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/4692c4556ccf208db3cb792bd479a8129f73fc64/data/symbol-white-0.13-arm512/FSK_92_06.png"
+        "source_commit": "fd5b061fc08dca0f3a16a7a5c97b2375201f791d",
+        "source_url": "https://raw.githubusercontent.com/wallgrnstudios/bildstod-26-generator/fd5b061fc08dca0f3a16a7a5c97b2375201f791d/data/symbol-white-0.13-arm512/FSK_92_06.png"
       },
       "baseline": {
         "concept_id": "FSK_92_06",
