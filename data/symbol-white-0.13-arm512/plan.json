@@ -4,10 +4,10 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_37_03",
-      "label": "akvarellåda",
-      "prompt": "Create one isolated illustration: One open blue watercolor paint box with eight large paint pans visibly filled red, yellow, blue, green and other colours, white mixing lid folded back. No brush. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1603311474
+      "id": "FSK_21_18",
+      "label": "arbeta ostört",
+      "prompt": "Create one isolated illustration: A child in a green shirt concentrates on a coloured puzzle behind a blue tabletop privacy screen. Only child, puzzle, table and screen. Close view shows focused eyes and both hands placing a piece. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 965571469
     }
   ]
 }
