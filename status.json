@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-28T20:36:05.474323+00:00",
+  "checked_at": "2026-10-28T22:54:11.361342+00:00",
   "coverage": {
     "enabled": 977,
     "with_image": 977,
-    "pending": [],
+    "pending": [
+      "FSK_21_18"
+    ],
     "failed": [],
     "suppressed": 156
   },
@@ -28,27 +30,10 @@
       "last_success_at": "2026-10-28T20:35:46Z"
     }
   },
-  "reworks": [
-    {
-      "request_id": "FSK_17_81_81029a251b1fc5e60e78fe3cc1beb732eb7d9167644df65a96923dbe66de5a2f_r1",
-      "concept_id": "FSK_17_81",
-      "status": "superseded",
-      "replacement_sha256": null
-    },
-    {
-      "request_id": "FSK_21_18_cea1c6fcdb5b4fc34bd030614e9ddfb22376033a715ed86d2430bbe8a535fead_r1",
-      "concept_id": "FSK_21_18",
-      "status": "completed",
-      "replacement_sha256": "229bd707945baa9847c3ddcf34696907c6580e6125d3528f87212a2f7bf4190e"
-    },
-    {
-      "request_id": "FSK_28_98_1cf852cfc15ee96241d48351f5aa52ce6ca9b8979062e39d94ffa613f5fd8095_r1",
-      "concept_id": "FSK_28_98",
-      "status": "superseded",
-      "replacement_sha256": null
-    }
+  "reworks": [],
+  "warnings": [
+    "Omgenereringskön kunde inte läsas på grund av tillfällig kvotgräns; vanliga bildkandidater fortsätter utan köändringar."
   ],
-  "warnings": [],
   "metadata": {
     "attempted": 30,
     "suggested": 19,
