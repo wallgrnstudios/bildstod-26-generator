@@ -107,12 +107,15 @@ def apply_requests(entries, requests, output):
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('command',choices=['fetch','apply']);p.add_argument('--queue',type=Path,required=True);p.add_argument('--output',type=Path);p.add_argument('--catalog',type=Path)
+    p=argparse.ArgumentParser();p.add_argument('command',choices=['fetch','apply']);p.add_argument('--queue',type=Path,required=True);p.add_argument('--output',type=Path);p.add_argument('--catalog',type=Path);p.add_argument('--warnings-file',type=Path)
     a=p.parse_args()
     if a.command=='fetch':
         warnings=[];requests=fetch_queue(warnings)
         a.queue.parent.mkdir(parents=True,exist_ok=True);a.queue.write_text(json.dumps(requests,ensure_ascii=False))
-        for warning in warnings: print('WARNING: '+warning)
+        if a.warnings_file:
+            a.warnings_file.parent.mkdir(parents=True,exist_ok=True)
+            a.warnings_file.write_text(json.dumps(warnings,ensure_ascii=False))
+        for warning in warnings: print('::warning::'+warning)
         return
     config=load_config(ROOT/'config/generation.json')
     entries=apply_requests(load_briefs(ROOT/config['catalog_path']),json.loads(a.queue.read_text()),a.output/config['style_version'])

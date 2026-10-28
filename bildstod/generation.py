@@ -160,7 +160,7 @@ def seed_for(entry, config):
     return (config['seed_base'] + int(hashlib.sha256((entry['id']+entry.get('regeneration_request_id','')).encode()).hexdigest()[:8], 16)) % (2**31)
 
 
-def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shard_count=1):
+def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shard_count=1, preserve_existing_reworks=False):
     if not 1 <= limit <= config['max_batch_limit']:
         raise ValueError('Batch size exceeds the configured maximum')
     if not 0 <= shard_index < shard_count <= 8:
@@ -183,6 +183,13 @@ def plan(entries, config, output, limit, retry_failed=False, shard_index=0, shar
         sidecar = target.with_suffix('.json')
         if sidecar.exists():
             metadata = json.loads(sidecar.read_text(encoding='utf-8'))
+            # A missing remote queue must not revert an already replaced image to
+            # its original instruction, nor retry a failed rework as a base image.
+            if preserve_existing_reworks and metadata.get('regeneration_request_id'):
+                if metadata.get('status') == 'pending_review':
+                    if not target.exists() or hashlib.sha256(target.read_bytes()).hexdigest() != metadata.get('sha256'):
+                        raise ValueError(f"Damaged output, restore backup first: {entry['id']}")
+                continue
             if metadata.get('fingerprint') == identity(entry, config):
                 if metadata.get('status') == 'failed' and not retry_failed:
                     continue
@@ -447,6 +454,7 @@ def main():
     parser.add_argument('--output', default='output/generation')
     parser.add_argument('--limit', type=int)
     parser.add_argument('--retry-failed', action='store_true')
+    parser.add_argument('--preserve-existing-reworks', action='store_true')
     parser.add_argument('--shard-index', type=int, default=0)
     parser.add_argument('--shard-count', type=int, default=1)
     parser.add_argument('--max-seconds', type=int, default=7200)
@@ -458,7 +466,7 @@ def main():
     output = Path(args.output) / config['style_version']
     if args.command == 'run' and output.exists() and sum(p.stat().st_size for p in output.rglob('*') if p.is_file()) > 96 * 1024 * 1024:
         raise ValueError('Candidate archive exceeds 96 MiB. Download and archive it before continuing.')
-    batch = plan(entries, config, output, args.limit if args.limit is not None else config['batch_limit'], args.retry_failed, args.shard_index, args.shard_count)
+    batch = plan(entries, config, output, args.limit if args.limit is not None else config['batch_limit'], args.retry_failed, args.shard_index, args.shard_count, args.preserve_existing_reworks)
     output.mkdir(parents=True, exist_ok=True)
     atomic_json(output / 'plan.json', {'model': config['model'], 'revision': config['revision'], 'style_calibration_required': not config.get('calibration_approved', False), 'batch': batch})
     print(json.dumps({'pending_this_run': len(batch), 'ids': [x['id'] for x in batch], 'mode': args.command}, ensure_ascii=False))

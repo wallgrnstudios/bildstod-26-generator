@@ -9,18 +9,20 @@ from .generation import ROOT,load_config,load_briefs,identity,suppressed_concept
 from .rework import fetch_queue
 
 
-def summarize(entries,candidates,receipts,config):
+def summarize(entries,candidates,receipts,config,queue_unavailable=False):
     suppressed=suppressed_concepts(config)
     entries=[e for e in entries if e['id'] not in suppressed]
     active={e['id'] for e in entries if e.get('generation_enabled',True)}
     images={c['concept_id']:c for c in candidates if c['concept_id'] in active}
-    pending=[];failed=[]
+    pending=[];failed=[];deferred=[]
     for e in entries:
         if not e.get('generation_enabled',True):continue
         receipt=receipts.get(e['id'],images.get(e['id'],{}))
+        if queue_unavailable and receipt.get('regeneration_request_id'):
+            deferred.append(e['id']);continue
         if receipt.get('status')=='failed':failed.append({'id':e['id'],'error_type':receipt.get('error_type','Unknown')})
         elif receipt.get('fingerprint')!=identity(e,config):pending.append(e['id'])
-    return {'enabled':sum(e.get('generation_enabled',True) for e in entries),'with_image':len(images),'pending':pending,'failed':failed,'suppressed':len(suppressed)}
+    return {'enabled':sum(e.get('generation_enabled',True) for e in entries),'with_image':len(images),'pending':pending,'failed':failed,'suppressed':len(suppressed),'reworks_unknown':len(deferred)}
 
 
 def main():
@@ -45,7 +47,7 @@ def main():
     with tempfile.TemporaryDirectory() as d:
         for key,value in {**images,**receipts}.items():Path(d,key+'.json').write_text(json.dumps(value))
         effective=apply_requests(entries,requests,Path(d))
-    coverage=summarize(effective,candidates,receipts,config)
+    coverage=summarize(effective,candidates,receipts,config,queue_unavailable=bool(warnings))
     workflows={}
     for filename,name in [('generate-pilot.yml','Generate pilot candidates'),('metadata-pilot.yml','Suggest image metadata')]:
         runs=json.loads(subprocess.check_output(['gh','api',f'repos/wallgrnstudios/bildstod-26-generator/actions/workflows/{filename}/runs?per_page=20'],text=True))['workflow_runs']

@@ -157,6 +157,19 @@ class GenerationTests(unittest.TestCase):
         self.assertIn('acting hands and target object',focus_framing(action))
         self.assertNotIn('complete silhouette',focus_framing(action))
 
+    def test_queue_outage_preserves_existing_rework_but_not_new_base_work(self):
+        import hashlib
+        from tempfile import TemporaryDirectory
+        with TemporaryDirectory() as d:
+            output=Path(d);entry={**self.entries[0],'generation_enabled':True};config={**self.config,'calibration_approved':True}
+            target=output/(entry['id']+'.png');target.write_bytes(b'old-rework')
+            receipt={'fingerprint':'old','status':'pending_review','regeneration_request_id':'existing-r1','sha256':hashlib.sha256(target.read_bytes()).hexdigest()}
+            target.with_suffix('.json').write_text(json.dumps(receipt))
+            self.assertEqual(plan([entry],config,output,1,preserve_existing_reworks=True),[])
+            self.assertEqual(len(plan([entry],config,output,1,preserve_existing_reworks=False)),1)
+            receipt.pop('regeneration_request_id');target.with_suffix('.json').write_text(json.dumps(receipt))
+            self.assertEqual(len(plan([entry],config,output,1,preserve_existing_reworks=True)),1)
+
     def test_school_vocabulary_has_unique_stable_references_and_honest_queue(self):
         vocabulary=json.loads((ROOT/'catalog/school/vocabulary-2000.json').read_text())
         symbols=load_briefs(ROOT/'catalog/pilot/symbols.json')
