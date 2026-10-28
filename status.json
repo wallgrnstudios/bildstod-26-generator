@@ -1,23 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-28T22:54:11.361342+00:00",
+  "checked_at": "2026-10-28T22:55:31.762757+00:00",
   "coverage": {
     "enabled": 977,
     "with_image": 977,
-    "pending": [
-      "FSK_21_18"
-    ],
+    "pending": [],
     "failed": [],
-    "suppressed": 156
+    "suppressed": 156,
+    "reworks_unknown": 1
   },
   "workflows": {
     "Generate pilot candidates": {
-      "id": 40761562197,
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2026-10-28T20:15:00Z",
-      "updated_at": "2026-10-28T20:15:49Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40761562197",
+      "id": 40783570353,
+      "status": "queued",
+      "conclusion": null,
+      "created_at": "2026-10-28T22:55:11Z",
+      "updated_at": "2026-10-28T22:55:27Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/40783570353",
       "last_success_at": "2026-10-28T20:15:49Z"
     },
     "Suggest image metadata": {
