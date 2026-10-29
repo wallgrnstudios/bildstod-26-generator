@@ -2356,15 +2356,15 @@
     {
       "concept_id": "FSK_27_97",
       "label_sv": "första hjälpen",
-      "fingerprint": "d52710f4f9d10ed96015e51b0def192fa6c6184b3e98d05c232092c375923357",
-      "prompt": "Create one isolated illustration: An adult placing a small adhesive bandage on a seated child's mildly scraped knee, child calm, first-aid kit nearby, no blood. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 302754151,
+      "fingerprint": "69171f1c8c314a2b80c2b7817e5f0a29c82f82f0e4e461caf81b065556982c9d",
+      "prompt": "Create one isolated illustration: Close view of an adult carefully placing a small beige adhesive bandage on a child's scraped knee. The adult's hands, knee and bandage are clear; child wears blue shorts. No blood, extra people or medical instruments. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 191700067,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T16:50:46.540419+00:00",
+      "created_at": "2026-10-29T09:59:48.430618+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2387,14 +2387,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_27_97_a7add7df524d6a966a979204a8090ee9a79deef9d381654af45bdd49178c0c7c_r1",
+      "regeneration_source_sha256": "a7add7df524d6a966a979204a8090ee9a79deef9d381654af45bdd49178c0c7c",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 66.237,
+      "render_seconds": 68.421,
       "background_seconds": 0.0,
-      "elapsed_seconds": 66.28,
-      "sha256": "a7add7df524d6a966a979204a8090ee9a79deef9d381654af45bdd49178c0c7c"
+      "elapsed_seconds": 68.479,
+      "sha256": "e017410d53dc51cebb4b8fb7b8b4ebe0cbfd8ae13676fc9875532adb8f0c933d"
     },
     {
       "concept_id": "FSK_28_14",
