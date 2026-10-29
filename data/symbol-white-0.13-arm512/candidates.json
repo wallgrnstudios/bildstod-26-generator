@@ -5267,15 +5267,15 @@
     {
       "concept_id": "FSK_37_08",
       "label_sv": "förstoringsburk",
-      "fingerprint": "18b298ec482c550ab469389e4adc60ef30d6c011de8faa4f894f02b5d47e46bc",
-      "prompt": "Create one isolated illustration: One transparent observation jar with a bright green lid containing a large round magnifying lens, one small brown beetle visible enlarged under the lens. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 2133903853,
+      "fingerprint": "7146839853a26c46a9ba1c221a6504c2536e63d862a6ab41fc3abd7b82c414f7",
+      "prompt": "Create one isolated illustration: A transparent observation jar with a green lid. A clearly convex magnifying lens is built into the lid and enlarges a small brown beetle inside; look down through the lid. No lens on the side and no extra insects. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2476873,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T18:28:01.677588+00:00",
+      "created_at": "2026-10-29T10:05:42.847096+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -5300,14 +5300,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_37_08_bd2235c9a30d0cbf34c1d31c64c416ecf46c57bcebbda6ce508ab913a5b4eb60_r1",
+      "regeneration_source_sha256": "bd2235c9a30d0cbf34c1d31c64c416ecf46c57bcebbda6ce508ab913a5b4eb60",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 65.512,
+      "render_seconds": 67.873,
       "background_seconds": 0.0,
-      "elapsed_seconds": 65.55,
-      "sha256": "bd2235c9a30d0cbf34c1d31c64c416ecf46c57bcebbda6ce508ab913a5b4eb60"
+      "elapsed_seconds": 67.908,
+      "sha256": "ddba5be86e1b18455e87944425da076686911954b773c1e8e1ed776048bf158f"
     },
     {
       "concept_id": "FSK_91_13",
