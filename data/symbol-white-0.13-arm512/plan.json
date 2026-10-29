@@ -4,10 +4,28 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_37_07",
-      "label": "passare",
-      "prompt": "Create one isolated illustration: One school drawing compass, two hinged blue metal legs, sharp steel pivot on one leg and short graphite tip on the other, legs open, adjustment wheel visible. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 307699919
+      "id": "FSK_10_81",
+      "label": "barn",
+      "prompt": "Create one isolated illustration: One cheerful school-age child standing in a relaxed neutral pose, wearing a turquoise shirt, rust-coloured trousers and shoes. Show the entire child with natural anatomy and readable face. No toys or adults. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 302221059
+    },
+    {
+      "id": "FSK_34_24",
+      "label": "cykelväg",
+      "prompt": "Create one isolated illustration: A child rides a blue bicycle along a clearly separated dark-gray cycle path. A large white bicycle symbol is painted on the path; adjacent narrow pavement is visible. No cars or signs. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2104407472
+    },
+    {
+      "id": "FSK_35_82",
+      "label": "fikon",
+      "prompt": "Create one isolated illustration: One purple fig and one cut half showing pink flesh filled with many tiny seeds. Show the actual pear-shaped fruit, not an onion. No leaf or plate. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1003423293
+    },
+    {
+      "id": "FSK_36_03",
+      "label": "falafel",
+      "prompt": "Create one isolated illustration: Three golden-brown falafel balls; one is cut open to show a green chickpea and herb interior. No peas, meatballs, plate or garnish. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 932362434
     }
   ]
 }
