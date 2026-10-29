@@ -4,10 +4,52 @@
   "style_calibration_required": false,
   "batch": [
     {
+      "id": "FSK_14_47",
+      "label": "fylla i",
+      "prompt": "Create one isolated illustration: Close-up of a child's hand using a red crayon to colour inside one outlined circle. Most of the circle is already red and the crayon tip touches its unfilled portion. No writing or extra shapes. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1911584318
+    },
+    {
+      "id": "FSK_34_22",
+      "label": "basketplan",
+      "prompt": "Create one isolated illustration: A green basketball court viewed from above, with a clearly visible orange hoop and backboard at each end, center line and semicircular key markings. Only the court and hoops. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1313079274
+    },
+    {
+      "id": "FSK_34_77",
+      "label": "blyertsstift",
+      "prompt": "Create one isolated illustration: Three thin dark graphite refill leads beside a small open blue plastic refill tube. Each lead is uniformly thin, with no wood, painted body or eraser. No pencils. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2011494619
+    },
+    {
+      "id": "FSK_34_84",
+      "label": "bokmärkesremsa",
+      "prompt": "Create one isolated illustration: A red narrow bookmark strip protruding prominently from the middle of a closed blue book, with one long end visible above its pages. No other objects. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1012997177
+    },
+    {
+      "id": "FSK_35_12",
+      "label": "bakform",
+      "prompt": "Create one isolated illustration: A dark blue metal loaf tin, empty, rectangular with high walls and rolled rim. View from above shows the empty interior and loaf shape. No lid or food. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 847311084
+    },
+    {
+      "id": "FSK_35_14",
+      "label": "bakplåt",
+      "prompt": "Create one isolated illustration: One dark gray rectangular metal oven baking tray seen from above, broad flat empty center and shallow raised rim on all four sides. No bread, handles or dish. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 622176898
+    },
+    {
+      "id": "FSK_35_38",
+      "label": "fjädervåg",
+      "prompt": "Create one isolated illustration: One blue cylindrical spring scale, with a visible coiled spring behind a clear window, upper suspension ring and lower metal hook. No numbers, weights or loose spring. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1320995747
+    },
+    {
       "id": "FSK_37_08",
       "label": "förstoringsburk",
-      "prompt": "Create one isolated illustration: One transparent observation jar with a bright green lid containing a large round magnifying lens, one small brown beetle visible enlarged under the lens. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 2133903853
+      "prompt": "Create one isolated illustration: A transparent observation jar with a green lid. A clearly convex magnifying lens is built into the lid and enlarges a small brown beetle inside; look down through the lid. No lens on the side and no extra insects. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2476873
     }
   ]
 }
