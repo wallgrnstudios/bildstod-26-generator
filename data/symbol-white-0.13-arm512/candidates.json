@@ -4483,15 +4483,15 @@
     {
       "concept_id": "FSK_34_44",
       "label_sv": "diskborste",
-      "fingerprint": "1cf17987a0fc6301e13c5ba88766493ad5ea6e5be6e33c6976aa451af3028f96",
-      "prompt": "Create one isolated illustration: One dish brush with a long plastic handle and a round stiff bristle head. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1446243254,
+      "fingerprint": "e187f61db13b09e67f9ff8eb4305a0a5943d526de59995da534909e81e087222",
+      "prompt": "Create one isolated illustration: One blue-handled dish brush with a round dense yellow bristle head, viewed slightly from the side so the bristles are clearly visible. No toothbrush or plate. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1885328278,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T17:04:57.212129+00:00",
+      "created_at": "2026-10-29T10:01:07.133761+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -4514,14 +4514,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_34_44_98351ffe5761137feafdacdd436b26bb442f6a1c8e58334b25bd656e2eff95df_r1",
+      "regeneration_source_sha256": "98351ffe5761137feafdacdd436b26bb442f6a1c8e58334b25bd656e2eff95df",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 68.497,
+      "render_seconds": 69.843,
       "background_seconds": 0.0,
-      "elapsed_seconds": 68.531,
-      "sha256": "98351ffe5761137feafdacdd436b26bb442f6a1c8e58334b25bd656e2eff95df"
+      "elapsed_seconds": 69.875,
+      "sha256": "d8a8dcab9a0033993f8c4917c14074f96aa985f710a239dbd0bb6ac09c8100a5"
     },
     {
       "concept_id": "FSK_34_54",
