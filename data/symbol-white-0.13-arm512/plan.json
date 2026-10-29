@@ -4,10 +4,28 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_37_04",
-      "label": "stiftpenna",
-      "prompt": "Create one isolated illustration: One turquoise mechanical pencil, dark graphite lead projecting from its metal cone, push button and pocket clip clearly visible. Side view, diagonal composition. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1488939756
+      "id": "FSK_17_72",
+      "label": "bajs",
+      "prompt": "Create one isolated illustration: A small realistic brown stool sample with one continuous soft formed shape and subtle texture, shown alone. No face, pedestal, toilet, arch or animal. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 430835202
+    },
+    {
+      "id": "FSK_34_45",
+      "label": "disktrasa",
+      "prompt": "Create one isolated illustration: One turquoise square dishcloth, visibly textured woven fabric, one corner loosely folded. Cloth fills frame. No paper napkin or stack of sheets. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 108875299
+    },
+    {
+      "id": "FSK_34_46",
+      "label": "diskmedel",
+      "prompt": "Create one isolated illustration: One translucent green dishwashing-liquid squeeze bottle with flip-top cap and a small cluster of soap bubbles. No spray nozzle, labels or other products. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 185910163
+    },
+    {
+      "id": "FSK_34_75",
+      "label": "brandfilt",
+      "prompt": "Create one isolated illustration: A fire blanket inside a red wall pouch with two long black pull straps hanging visibly below. Part of the cream-coloured blanket emerges from the pouch. No flames or writing. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1975573649
     }
   ]
 }
