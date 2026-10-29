@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_34_21",
   "label_sv": "fotbollsplan",
-  "fingerprint": "6f655fd10aac5cd9f02d750e846b5f3656748401d4c3f3923a04d363b2eaa7fb",
-  "prompt": "Create one isolated illustration: One small football field viewed obliquely from above, two goals and clear field markings, no people. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1725353966,
+  "fingerprint": "82c7d8a998049518c82b52da24a84c8b7fb92eba2a5d748d71832873a4113fa1",
+  "prompt": "Create one isolated illustration: A green football pitch viewed from above, with two white goals, white boundary lines, halfway line and center circle. No other sports markings or people. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1932863892,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-26T17:00:13.579322+00:00",
+  "created_at": "2026-10-29T09:59:56.360998+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -32,12 +32,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 70.351,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 70.385,
-  "sha256": "2c29d2487dd375f18f4ec04f6bf02a1946e0e9709d081c54bd4499ea7cc1979e"
+  "regeneration_request_id": "FSK_34_21_2c29d2487dd375f18f4ec04f6bf02a1946e0e9709d081c54bd4499ea7cc1979e_r1",
+  "regeneration_source_sha256": "2c29d2487dd375f18f4ec04f6bf02a1946e0e9709d081c54bd4499ea7cc1979e",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
