@@ -5250,15 +5250,15 @@
     {
       "concept_id": "FSK_34_95",
       "label_sv": "armbågsskydd",
-      "fingerprint": "1a7ca6a9654292f1fdd95b647e27a258f8a6f6e6eb3d8380ba8b1ab7af0cff91",
-      "prompt": "Create one isolated illustration: One matching pair of elbow pads, curved padded cups with elastic straps, no limbs. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 804543836,
+      "fingerprint": "38640c1b7708c72d5d4c6fb794ab239d7d65d6b223065b409e4b09edbbd1ad1b",
+      "prompt": "Create one isolated illustration: A matching pair of blue padded elbow protectors, each with a curved protective cup and two black hook-and-loop straps clearly visible. No arms. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1270001838,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T17:10:19.731091+00:00",
+      "created_at": "2026-10-29T09:58:15.813574+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -5281,14 +5281,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_34_95_e047fa25a36c7cde6d9d66a355f54f34d0af0812f26364a15712c156049b30ae_r1",
+      "regeneration_source_sha256": "e047fa25a36c7cde6d9d66a355f54f34d0af0812f26364a15712c156049b30ae",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 67.414,
+      "render_seconds": 65.036,
       "background_seconds": 0.0,
-      "elapsed_seconds": 67.449,
-      "sha256": "e047fa25a36c7cde6d9d66a355f54f34d0af0812f26364a15712c156049b30ae"
+      "elapsed_seconds": 65.08,
+      "sha256": "343b8b170adbac15dff4ee6c52773a68959a4af640242218af592920167b823e"
     },
     {
       "concept_id": "FSK_34_97",
