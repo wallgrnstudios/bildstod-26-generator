@@ -919,15 +919,15 @@
     {
       "concept_id": "FSK_17_72",
       "label_sv": "bajs",
-      "fingerprint": "7a429dfed8e67255e7b7b8b40fe6207216c41dceece52a22168f2d8c0b8c0cdc",
-      "prompt": "Create one isolated illustration: One small brown formed stool sample, simple smooth curved shape, neutral educational view, no face or toilet scene. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 465183373,
+      "fingerprint": "5eafe868d0160fc8a2b6299b52e708f20e1e76def9518ec9fba41083b0f634ed",
+      "prompt": "Create one isolated illustration: A small realistic brown stool sample with one continuous soft formed shape and subtle texture, shown alone. No face, pedestal, toilet, arch or animal. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 430835202,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T16:56:27.979115+00:00",
+      "created_at": "2026-10-29T09:57:17.384613+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -950,14 +950,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_17_72_6131547f4006c1c2ab4f037e5590a934b147eb7c20204db168ad24b59aaa7beb_r1",
+      "regeneration_source_sha256": "6131547f4006c1c2ab4f037e5590a934b147eb7c20204db168ad24b59aaa7beb",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 65.584,
+      "render_seconds": 67.185,
       "background_seconds": 0.0,
-      "elapsed_seconds": 65.62,
-      "sha256": "6131547f4006c1c2ab4f037e5590a934b147eb7c20204db168ad24b59aaa7beb"
+      "elapsed_seconds": 67.22,
+      "sha256": "887b95c9afa83bfa6a08ddbe1daa8f6583710f69c0cfcfbb6b0973c55dfbc819"
     },
     {
       "concept_id": "FSK_17_90",
