@@ -4,10 +4,40 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_37_02",
-      "label": "tejphållare",
-      "prompt": "Create one isolated illustration: One terracotta-red desktop tape dispenser with a clear tape roll on its spindle, tape stretched to the clearly visible serrated cutting edge. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1536041831
+      "id": "FSK_19_19",
+      "label": "haka",
+      "prompt": "Create one isolated illustration: Close view of a child's lower face, with one fingertip gently pointing to the rounded chin directly below the mouth. Natural skin colour, lips and chin clearly visible; no finger on cheek. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Crop tightly to the named body part only; no whole face or body. Modern children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle clean shading. Fresh true-to-life colour on pure white, with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 73188155
+    },
+    {
+      "id": "FSK_28_19",
+      "label": "grepp",
+      "prompt": "Create one isolated illustration: Close-up of one hand correctly holding one yellow pencil between thumb and index finger, supported by middle finger. Show pencil tip and grip clearly. No second pencil, crossed pencils or paper. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2127807686
+    },
+    {
+      "id": "FSK_28_56",
+      "label": "drake",
+      "prompt": "Create one isolated illustration: One colourful diamond-shaped flying kite, red and yellow fabric with crossed support sticks, a long blue ribbon tail and thin string. No dragon, person or clouds. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 471200263
+    },
+    {
+      "id": "FSK_34_18",
+      "label": "cykelställ",
+      "prompt": "Create one isolated illustration: A green metal bicycle rack with three clearly visible wheel slots; one blue bicycle has its front wheel held in a slot. Crop close to rack and wheel, no people. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1479949144
+    },
+    {
+      "id": "FSK_34_81",
+      "label": "bokstöd",
+      "prompt": "Create one isolated illustration: Two blue L-shaped metal bookends holding three upright coloured books. Show both vertical supports and flat bases around the books. No shelf or text. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2076378454
+    },
+    {
+      "id": "FSK_35_25",
+      "label": "bakpensel",
+      "prompt": "Create one isolated illustration: One baking brush with a pale wooden handle and soft golden bristles. Show the brush head large, each bristle group and the metal ferrule distinct. No paintbrush, food or hand. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 328016264
     }
   ]
 }
