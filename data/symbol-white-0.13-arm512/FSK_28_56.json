@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_28_56",
   "label_sv": "drake",
-  "fingerprint": "ea8d60af9c6ea03a1781e3ca9069b171e86a623d79f522e1a53c0bcf26fbca14",
-  "prompt": "Create one isolated illustration: One diamond-shaped flying kite with crossed support sticks and a long ribbon tail, string coiled beside it, no person. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1659059211,
+  "fingerprint": "8b5f4290c821a32023eee42f2180b65bed1da028affc6ceac6b29f6a3a44ffa8",
+  "prompt": "Create one isolated illustration: One colourful diamond-shaped flying kite, red and yellow fabric with crossed support sticks, a long blue ribbon tail and thin string. No dragon, person or clouds. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 471200263,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-26T16:51:23.558066+00:00",
+  "created_at": "2026-10-29T09:59:45.277629+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -32,12 +32,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 66.086,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 66.126,
-  "sha256": "eaa3fd3bd70d0a5a9a6dc0ae1970e6dc54b0d540dc3d600b64ad1de9a3b5d61b"
+  "regeneration_request_id": "FSK_28_56_eaa3fd3bd70d0a5a9a6dc0ae1970e6dc54b0d540dc3d600b64ad1de9a3b5d61b_r1",
+  "regeneration_source_sha256": "eaa3fd3bd70d0a5a9a6dc0ae1970e6dc54b0d540dc3d600b64ad1de9a3b5d61b",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
