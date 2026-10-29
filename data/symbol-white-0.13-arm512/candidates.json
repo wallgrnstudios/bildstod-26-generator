@@ -5003,15 +5003,15 @@
     {
       "concept_id": "FSK_35_27",
       "label_sv": "degskrapa",
-      "fingerprint": "f2f4bc174195b3e080c25003dda393b17af3f233501f997dcf00b6f865bf37d0",
-      "prompt": "Create one isolated illustration: One flexible semicircular dough scraper beside a short-handled straight metal scraper, no dough. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1489195830,
+      "fingerprint": "98308ae2df871e5f2ccda64c053b1b8f709aa0daae109794a1dca5cf2f89fb05",
+      "prompt": "Create one isolated illustration: One flexible pale-blue semicircular dough scraper with a straight scraping edge and curved top, next to a small piece of beige dough for context. The scraper is the large central subject. No spatula or knife. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1959389927,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T17:18:57.068992+00:00",
+      "created_at": "2026-10-29T10:03:30.708892+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -5034,14 +5034,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_35_27_786e6774c614b0e4aee918b347635647bf43cd68cb7a803fc41c07f7a495c7b2_r1",
+      "regeneration_source_sha256": "786e6774c614b0e4aee918b347635647bf43cd68cb7a803fc41c07f7a495c7b2",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 67.691,
+      "render_seconds": 70.089,
       "background_seconds": 0.0,
-      "elapsed_seconds": 67.721,
-      "sha256": "786e6774c614b0e4aee918b347635647bf43cd68cb7a803fc41c07f7a495c7b2"
+      "elapsed_seconds": 70.135,
+      "sha256": "fb07631e435716e3de8757bc109b5e825d9f6039f6417ec9b4bce6495a7172f6"
     },
     {
       "concept_id": "FSK_35_29",
