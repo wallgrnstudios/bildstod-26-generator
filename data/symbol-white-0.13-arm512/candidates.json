@@ -4496,15 +4496,15 @@
     {
       "concept_id": "FSK_34_24",
       "label_sv": "cykelväg",
-      "fingerprint": "06018b8c119ba1e8ed9ec55792aff803e02c30d21d3f7a9ec17d4a5e70b8c724",
-      "prompt": "Create one isolated illustration: One short cycle path segment marked by a simple bicycle pictogram, separated from an adjacent walking path. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 2034721456,
+      "fingerprint": "0f0ab224063282ebebf35052cc2e48d34d65a0e82fc095adf2f63b42039e6aa5",
+      "prompt": "Create one isolated illustration: A child rides a blue bicycle along a clearly separated dark-gray cycle path. A large white bicycle symbol is painted on the path; adjacent narrow pavement is visible. No cars or signs. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2104407472,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T16:52:24.865832+00:00",
+      "created_at": "2026-10-29T09:58:38.515292+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -4527,14 +4527,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_34_24_2916ab04d943c330b5d31276d22a684fc56f032de373e401817f6136a5984821_r1",
+      "regeneration_source_sha256": "2916ab04d943c330b5d31276d22a684fc56f032de373e401817f6136a5984821",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 66.296,
+      "render_seconds": 67.478,
       "background_seconds": 0.0,
-      "elapsed_seconds": 66.321,
-      "sha256": "2916ab04d943c330b5d31276d22a684fc56f032de373e401817f6136a5984821"
+      "elapsed_seconds": 67.522,
+      "sha256": "b24b5e419bd1b388c324b74ae9a76425c18ef27c857401dca1b53cefa32c8021"
     },
     {
       "concept_id": "FSK_34_29",
