@@ -4,15 +4,15 @@
     {
       "concept_id": "FSK_10_81",
       "label_sv": "barn",
-      "fingerprint": "8959b898a95753980b0e3621e958cf3fdef45bd0d3d07b06b5bdf98a2a8ab779",
-      "prompt": "Create one isolated illustration: One child about six years old, full body, ordinary shirt and trousers, relaxed neutral posture. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 96162288,
+      "fingerprint": "ec2846c1bbc0f8badf71b5477ed26826a0e74de4d1e75f41570d894aa4b9d6bb",
+      "prompt": "Create one isolated illustration: One cheerful school-age child standing in a relaxed neutral pose, wearing a turquoise shirt, rust-coloured trousers and shoes. Show the entire child with natural anatomy and readable face. No toys or adults. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 302221059,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T16:43:21.456705+00:00",
+      "created_at": "2026-10-29T09:57:26.802581+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -35,14 +35,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_10_81_329b9bc28e407a8c0a2f53d56253baac32f32a8848d9462409f95fecfaa2de75_r1",
+      "regeneration_source_sha256": "329b9bc28e407a8c0a2f53d56253baac32f32a8848d9462409f95fecfaa2de75",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 66.115,
+      "render_seconds": 69.851,
       "background_seconds": 0.0,
-      "elapsed_seconds": 66.155,
-      "sha256": "329b9bc28e407a8c0a2f53d56253baac32f32a8848d9462409f95fecfaa2de75"
+      "elapsed_seconds": 69.903,
+      "sha256": "9b659b39a25bee728c9e916987832e2633db9cf77f0a52f9cc2e9f4d255406c5"
     },
     {
       "concept_id": "FSK_11_14",
