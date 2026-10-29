@@ -4657,15 +4657,15 @@
     {
       "concept_id": "FSK_34_62",
       "label_sv": "deodorant",
-      "fingerprint": "230c535652141ecad0df73db0569477d6f07e837a43eb4351df5f8f7cbd52384",
-      "prompt": "Create one isolated illustration: One plain roll-on deodorant bottle with cap beside it, round roller ball clearly visible, no logo. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 679981398,
+      "fingerprint": "b01d5c5f690c679e7b5d238197d763c2d36ea9420ebe9703815c7a29b1df87fa",
+      "prompt": "Create one isolated illustration: One turquoise roll-on deodorant bottle with its cap removed, large round roller ball clearly visible at the top. Cap sits beside it. No spray nozzle or lettering. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2133852375,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T17:09:38.786709+00:00",
+      "created_at": "2026-10-29T10:02:18.833024+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -4688,14 +4688,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_34_62_add00a330bf1254537b745825e802b8aef68621e12bff3083429a437eceee31c_r1",
+      "regeneration_source_sha256": "add00a330bf1254537b745825e802b8aef68621e12bff3083429a437eceee31c",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 67.911,
+      "render_seconds": 69.839,
       "background_seconds": 0.0,
-      "elapsed_seconds": 67.953,
-      "sha256": "add00a330bf1254537b745825e802b8aef68621e12bff3083429a437eceee31c"
+      "elapsed_seconds": 69.892,
+      "sha256": "b056a5a44ecc4760790b0a5619aad2759b014d1f3e4b88bd02d059aa6cb16ac6"
     },
     {
       "concept_id": "FSK_34_69",
