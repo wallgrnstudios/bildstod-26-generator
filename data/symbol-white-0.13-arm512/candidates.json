@@ -4616,15 +4616,15 @@
     {
       "concept_id": "FSK_35_12",
       "label_sv": "bakform",
-      "fingerprint": "c58fb4c3791f6db908da2374ea5b70bab0db72e900ee6402ab14c38cf91d8968",
-      "prompt": "Create one isolated illustration: One rectangular loaf baking tin with tall straight sides and rolled rim, empty. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 710025761,
+      "fingerprint": "1416455c036b8026ee5cb7df0c76645a15e52f88412995a8cc8abb275791937a",
+      "prompt": "Create one isolated illustration: A dark blue metal loaf tin, empty, rectangular with high walls and rolled rim. View from above shows the empty interior and loaf shape. No lid or food. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 847311084,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T17:10:31.509150+00:00",
+      "created_at": "2026-10-29T10:02:13.863125+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -4647,14 +4647,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_35_12_b396c242c2f1b940fdcb6bad01ab520ea4cb1878b9ed5adfdebed60caa5d87aa_r1",
+      "regeneration_source_sha256": "b396c242c2f1b940fdcb6bad01ab520ea4cb1878b9ed5adfdebed60caa5d87aa",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 67.569,
+      "render_seconds": 68.007,
       "background_seconds": 0.0,
-      "elapsed_seconds": 67.603,
-      "sha256": "b396c242c2f1b940fdcb6bad01ab520ea4cb1878b9ed5adfdebed60caa5d87aa"
+      "elapsed_seconds": 68.059,
+      "sha256": "b67f1f82d591f5226a554d65b23b6b2ca293d8f9a366ddeca0878b99e89b5a33"
     },
     {
       "concept_id": "FSK_35_14",
