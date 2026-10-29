@@ -4,10 +4,40 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_37_06",
-      "label": "tiobasstav",
-      "prompt": "Create one isolated illustration: One orange base-ten rod made of exactly ten equal cubes joined in a single straight row, nine clear dividing grooves, three-quarter view. No loose cubes. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1265033342
+      "id": "FSK_19_31",
+      "label": "göra avtryck",
+      "prompt": "Create one isolated illustration: Close-up of a child's hand lifted just above a brown clay slab, leaving a clear full handprint with five finger impressions in the clay. Both hand and imprint visible, no extra marks. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 372841124
+    },
+    {
+      "id": "FSK_25_61",
+      "label": "göra om",
+      "prompt": "Create one isolated illustration: A child in a blue shirt dismantles an uneven stack of coloured blocks and rebuilds it on the same base, holding the next block. Show the partly rebuilt stack and loose blocks clearly. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 752520936
+    },
+    {
+      "id": "FSK_27_97",
+      "label": "första hjälpen",
+      "prompt": "Create one isolated illustration: Close view of an adult carefully placing a small beige adhesive bandage on a child's scraped knee. The adult's hands, knee and bandage are clear; child wears blue shorts. No blood, extra people or medical instruments. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 191700067
+    },
+    {
+      "id": "FSK_34_67",
+      "label": "bandage",
+      "prompt": "Create one isolated illustration: One roll of beige elastic bandage with a short strip unwound, woven texture clearly visible. No paper towel, toilet paper, hands or injury. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1231633127
+    },
+    {
+      "id": "FSK_35_01",
+      "label": "armringar",
+      "prompt": "Create one isolated illustration: A matching pair of inflated orange swimming armbands with large open arm holes and sealed air chambers. No arms, pool or toys. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2013538956
+    },
+    {
+      "id": "FSK_35_10",
+      "label": "elvisp",
+      "prompt": "Create one isolated illustration: One turquoise handheld electric mixer with a solid motor body and two matching metal wire beaters inserted underneath. No whisk without a motor, bowl or cord tangle. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 756289635
     }
   ]
 }
