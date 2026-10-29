@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_34_67",
   "label_sv": "bandage",
-  "fingerprint": "ea74cfff6e86896fba9395ac75e9e0c765a97878cd46c5bf3648a2524c39dd07",
-  "prompt": "Create one isolated illustration: One rolled white gauze bandage with a short loose strip unwound beside it, clean fibers. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1632855031,
+  "fingerprint": "8ac12e1a5e99271a2bcd0013a0abe4361fe439b1e58ed9ce738b8e6b16370e76",
+  "prompt": "Create one isolated illustration: One roll of beige elastic bandage with a short strip unwound, woven texture clearly visible. No paper towel, toilet paper, hands or injury. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 1231633127,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-26T17:06:44.561044+00:00",
+  "created_at": "2026-10-29T10:00:59.619990+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -32,12 +32,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 66.453,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 66.487,
-  "sha256": "3262a80142de60f8506d81bf76363174d2c749fde24435e22811fa0e76f1c76a"
+  "regeneration_request_id": "FSK_34_67_3262a80142de60f8506d81bf76363174d2c749fde24435e22811fa0e76f1c76a_r1",
+  "regeneration_source_sha256": "3262a80142de60f8506d81bf76363174d2c749fde24435e22811fa0e76f1c76a",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
