@@ -2352,15 +2352,15 @@
     {
       "concept_id": "FSK_28_19",
       "label_sv": "grepp",
-      "fingerprint": "ebf32cb6b2acd69621631f5f96127b4f6df79468184953938dd4105b61c9e383",
-      "prompt": "Create one isolated illustration: A child's hand firmly holding a thick pencil between thumb and index finger supported by middle finger, close-up. Whole requested subject visible on pure white with generous margins. No decorative background, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 1068464579,
+      "fingerprint": "4437057937eb2bb98b8ed6db4cbdee284ffa6623f6f8e548322c7f122cace739",
+      "prompt": "Create one isolated illustration: Close-up of one hand correctly holding one yellow pencil between thumb and index finger, supported by middle finger. Show pencil tip and grip clearly. No second pencil, crossed pencils or paper. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2127807686,
       "negative_prompt": "",
       "model": "black-forest-labs/FLUX.2-klein-4B",
       "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
       "style_version": "symbol-white-0.13-arm512",
       "background_model": "white",
-      "created_at": "2026-10-26T16:50:15.593192+00:00",
+      "created_at": "2026-10-29T09:58:35.784584+00:00",
       "license": null,
       "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "style_approved": false,
@@ -2383,14 +2383,16 @@
       "steps": 4,
       "guidance_scale": 1.0,
       "cpu_dtype": "bfloat16",
+      "regeneration_request_id": "FSK_28_19_263f6b9927e3b358b04cba29f9e39be0bd3a73624dfeb70db67b34dd97396888_r1",
+      "regeneration_source_sha256": "263f6b9927e3b358b04cba29f9e39be0bd3a73624dfeb70db67b34dd97396888",
       "status": "pending_review",
       "transparency": {
         "background": "white"
       },
-      "render_seconds": 65.757,
+      "render_seconds": 67.855,
       "background_seconds": 0.0,
-      "elapsed_seconds": 65.784,
-      "sha256": "263f6b9927e3b358b04cba29f9e39be0bd3a73624dfeb70db67b34dd97396888"
+      "elapsed_seconds": 67.89,
+      "sha256": "200bbbab1635dd354f11a7b1eee469123683fd8e2269101b23beaf57075d77c1"
     },
     {
       "concept_id": "FSK_28_35",
