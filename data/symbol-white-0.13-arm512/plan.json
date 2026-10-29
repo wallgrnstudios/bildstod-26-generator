@@ -4,10 +4,40 @@
   "style_calibration_required": false,
   "batch": [
     {
-      "id": "FSK_37_05",
-      "label": "räknebricka",
-      "prompt": "Create one isolated illustration: One rectangular deep-blue counting tray with ten clearly separated circular wells in two rows of five. Three red counters occupy the first three wells, seven wells empty. No hands, labels or extra objects. Close product view: subject fills 80% of the frame, complete silhouette, narrow clear margins. Show identifying parts large. Colour illustration for children, fine clean outlines and soft shaded colour fills. Use the named material colours visibly across the subject, not just its outline. Keep only the background white; naturally white parts may stay white. No monochrome sketch. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-      "seed": 115573437
+      "id": "FSK_26_74",
+      "label": "dra och släppa",
+      "prompt": "Create one isolated illustration: Close-up of a blue computer screen and mouse. A hand moves the mouse while a red folder icon is dragged along a short dotted path into a yellow folder. No text or duplicate hands. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1058268547
+    },
+    {
+      "id": "FSK_28_63",
+      "label": "fil verktyg",
+      "prompt": "Create one isolated illustration: One flat metal hand file with a long gray rectangular textured filing surface and a brown wooden handle. No saw teeth, second tool or crossed blades. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 471526089
+    },
+    {
+      "id": "FSK_34_21",
+      "label": "fotbollsplan",
+      "prompt": "Create one isolated illustration: A green football pitch viewed from above, with two white goals, white boundary lines, halfway line and center circle. No other sports markings or people. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1932863892
+    },
+    {
+      "id": "FSK_34_44",
+      "label": "diskborste",
+      "prompt": "Create one isolated illustration: One blue-handled dish brush with a round dense yellow bristle head, viewed slightly from the side so the bristles are clearly visible. No toothbrush or plate. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1885328278
+    },
+    {
+      "id": "FSK_34_62",
+      "label": "deodorant",
+      "prompt": "Create one isolated illustration: One turquoise roll-on deodorant bottle with its cap removed, large round roller ball clearly visible at the top. Cap sits beside it. No spray nozzle or lettering. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 2133852375
+    },
+    {
+      "id": "FSK_35_27",
+      "label": "degskrapa",
+      "prompt": "Create one isolated illustration: One flexible pale-blue semicircular dough scraper with a straight scraping edge and curved top, next to a small piece of beige dough for context. The scraper is the large central subject. No spatula or knife. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+      "seed": 1959389927
     }
   ]
 }
