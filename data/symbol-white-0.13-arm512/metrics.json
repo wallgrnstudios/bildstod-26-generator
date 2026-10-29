@@ -1,6 +1,6 @@
 {
-  "completed_this_run": 1,
-  "initialization_seconds": 64.15,
-  "elapsed_seconds": 133.49,
-  "seconds_per_candidate": 67.21
+  "completed_this_run": 4,
+  "initialization_seconds": 87.14,
+  "elapsed_seconds": 367.81,
+  "seconds_per_candidate": 68.43
 }
