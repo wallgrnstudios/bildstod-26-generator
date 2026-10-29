@@ -1,15 +1,15 @@
 {
   "concept_id": "FSK_36_03",
   "label_sv": "falafel",
-  "fingerprint": "21ae716d0e0dec8776a1810cf20d6c7f4153df7b3833d25d273d57fa49f5f42f",
-  "prompt": "Create one isolated illustration: Three round brown falafel balls, one split to show greenish chickpea interior, no sauce. Entire requested subject visible on pure white with generous margins. No decorative scene, logos or lettering. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
-  "seed": 1699496216,
+  "fingerprint": "ea3d3d2d6beb4e02ab50542ed886220a65abf8b84d0b7347060b9c2dff5ff19b",
+  "prompt": "Create one isolated illustration: Three golden-brown falafel balls; one is cut open to show a green chickpea and herb interior. No peas, meatballs, plate or garnish. Use full colour on the subject. Plain pure white background. Large clear subject and defining details; leave narrow margins. No text, logos or decorative scenery. Contemporary children’s-book illustration, fine neutral charcoal lines, natural proportions and gentle precise shading. Fresh clean modern materials and true-to-life colours. White textiles stay bright white with light cool-gray shadows only. Isolated on pure white with no text, scenery or cast shadows. Show only the requested concept, with its essential identifying details large and readable. No decorative scene, no lettering or card border.",
+  "seed": 932362434,
   "negative_prompt": "",
   "model": "black-forest-labs/FLUX.2-klein-4B",
   "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
   "style_version": "symbol-white-0.13-arm512",
   "background_model": "white",
-  "created_at": "2026-10-26T17:23:01.720240+00:00",
+  "created_at": "2026-10-29T10:00:57.232316+00:00",
   "license": null,
   "model_license_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
   "style_approved": false,
@@ -32,12 +32,8 @@
   "steps": 4,
   "guidance_scale": 1.0,
   "cpu_dtype": "bfloat16",
-  "status": "pending_review",
-  "transparency": {
-    "background": "white"
-  },
-  "render_seconds": 66.42,
-  "background_seconds": 0.0,
-  "elapsed_seconds": 66.443,
-  "sha256": "689e98cd1e5bb6b248554c040d7edb9af40ecc12e8f647ff83a77d0d165701f5"
+  "regeneration_request_id": "FSK_36_03_689e98cd1e5bb6b248554c040d7edb9af40ecc12e8f647ff83a77d0d165701f5_r1",
+  "regeneration_source_sha256": "689e98cd1e5bb6b248554c040d7edb9af40ecc12e8f647ff83a77d0d165701f5",
+  "status": "failed",
+  "error_type": "InterruptedGeneration"
 }
