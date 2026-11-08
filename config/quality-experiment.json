@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "experiment_id": "quality-2026-11-08",
+  "max_attempts_per_profile": 2,
+  "concept_ids": [
+    "FSK_17_87",
+    "FSK_21_30",
+    "FSK_21_35",
+    "FSK_22_28",
+    "FSK_31_36",
+    "FSK_91_31",
+    "FSK_91_32",
+    "FSK_91_33",
+    "FSK_90_08",
+    "FSK_92_05",
+    "FSK_29_06",
+    "FSK_32_34",
+    "FSK_16_07",
+    "FSK_16_18",
+    "FSK_17_81",
+    "FSK_20_02",
+    "FSK_20_59",
+    "FSK_20_99",
+    "FSK_21_64",
+    "FSK_91_50"
+  ],
+  "profiles": [
+    "text",
+    "reference"
+  ],
+  "checks": [
+    "meaning",
+    "detail",
+    "no_extra_meaning",
+    "small_size",
+    "clean_materials",
+    "consistent_style"
+  ],
+  "note": "Challenge selection from historical rejects; baseline is a current candidate, not necessarily the rejected image. Private notes are retained only in local experiment output."
+}

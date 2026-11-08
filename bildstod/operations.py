@@ -25,6 +25,33 @@ def summarize(entries,candidates,receipts,config,queue_unavailable=False):
     return {'enabled':sum(e.get('generation_enabled',True) for e in entries),'with_image':len(images),'pending':pending,'failed':failed,'suppressed':len(suppressed),'reworks_unknown':len(deferred)}
 
 
+
+def production_activity(candidates, coverage, now=None):
+    """Measure current candidate receipts, never infer output from green CI runs.
+
+    Counts cover surviving image versions, not a complete generation history.
+    Human approvals are private and cannot be inferred from public receipts.
+    """
+    now = now or datetime.now(timezone.utc)
+    dates = []
+    for candidate in candidates:
+        try:
+            date = datetime.fromisoformat(candidate['created_at'].replace('Z', '+00:00'))
+            if date.tzinfo is not None and date <= now:
+                dates.append(date)
+        except (KeyError, ValueError, TypeError, AttributeError):
+            continue
+    last = max(dates) if dates else None
+    return {
+        'last_candidate_at': last.isoformat() if last else None,
+        'current_versions_created_last_24h': sum(0 <= (now-date).total_seconds() < 86400 for date in dates),
+        'no_candidates_for_24h': (now-last).total_seconds() >= 86400 if last else None,
+        'base_queue_empty': not coverage['pending'] and not coverage['failed'] and not coverage.get('reworks_unknown'),
+        'approved_last_24h': None,
+        'approval_status': 'private_review_data_not_read',
+    }
+
+
 def main():
     config=load_config(ROOT/'config/generation.json');entries=load_briefs(ROOT/config['catalog_path'])
     suppressed=suppressed_concepts(config)
@@ -68,7 +95,12 @@ def main():
     for spec in specs['specimens']:
         c=images.get(spec['id']);b=old.get(spec['id'])
         quality.append({**spec,'current':c,'baseline':b,'changed':bool(c and b and c['sha256']!=b['sha256'])})
-    report={'schema_version':1,'checked_at':datetime.now(timezone.utc).isoformat(),'coverage':coverage,'workflows':workflows,'reworks':reworks,'warnings':warnings,'metadata':{'attempted':len(records),'suggested':sum(r.get('status')=='suggested' for r in records),'failed':sum(r.get('status')=='failed' for r in records),'limit':30},'quality':quality}
+    activity=production_activity(candidates,coverage)
+    if activity['no_candidates_for_24h']:
+        warnings.append('Inga nya aktuella bildversioner på minst 24 timmar; gröna körningar räknas inte som bildproduktion.')
+    if activity['base_queue_empty']:
+        warnings.append('Grundkön är tom. Nya motiv eller uttryckliga omgenereringar behövs för fortsatt produktion.')
+    report={'activity':activity,'schema_version':1,'checked_at':datetime.now(timezone.utc).isoformat(),'coverage':coverage,'workflows':workflows,'reworks':reworks,'warnings':warnings,'metadata':{'attempted':len(records),'suggested':sum(r.get('status')=='suggested' for r in records),'failed':sum(r.get('status')=='failed' for r in records),'limit':30},'quality':quality}
     Path('.operations').mkdir(exist_ok=True)
     Path('.operations/status.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'coverage':coverage,'reworks':len(reworks),'quality_specimens':len(quality)},ensure_ascii=False))

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "FSK_17_87",
+    "visual_prompt_en": "One clean bright white child T-shirt laid flat, short sleeves and round neckline. Cool light gray shadows only; smooth unmarked fabric, no yellow or brown stains.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_21_30",
+    "visual_prompt_en": "One modern unused white disposable baby diaper, open leg holes, elastic waistband and two visible fastening tabs. Clean white absorbent material with subtle pale blue details. No baby or stains.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_21_35",
+    "visual_prompt_en": "One blue padded winter overall: a single connected garment with hood, sleeves, waist and two legs. Continuous front zipper joins torso to trousers. No separate jacket or separate trousers.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_22_28",
+    "visual_prompt_en": "A matching pair of modern indoor preschool sandals, open toes, molded cork footbeds, heel straps and two broad blue adjustable straps. No boots, slippers or feet.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_31_36",
+    "visual_prompt_en": "One clean pale blue duvet, thick soft rectangular bedding with smooth continuous fabric and one folded corner revealing white lining. No stains, bed or decorative patterns.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_91_31",
+    "visual_prompt_en": "One clean modern child bed in pale birch with a bright white mattress, light blue fitted sheet and white pillow. Clear bed frame and four legs; no room, stains or people.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_91_32",
+    "visual_prompt_en": "One clean light blue rectangular bed pillow with soft filled volume and visible edge seam. Smooth fresh fabric and cool gentle shading, no speckles, stains or pillow pile.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_91_33",
+    "visual_prompt_en": "One clean folded sage green fabric blanket with a single corner turned over. Thin soft textile, neat hem, smooth even color; no stains, brown mottling or bed.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_90_08",
+    "visual_prompt_en": "One preschool child listening attentively: head slightly turned, one open palm cupped BEHIND one ear, fingers pointing up. Ear canal visibly unobstructed, calm open eyes. Other hand lowered. No hands covering ears.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_92_05",
+    "visual_prompt_en": "Close view of a child cutting a plain blue paper sheet with rounded safety scissors. Thumb through the small upper loop, middle and ring fingers through the larger lower loop; natural five-finger hand. Other hand supports paper away from blades.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_29_06",
+    "visual_prompt_en": "One anatomically clear spider seen from above: two connected body sections and exactly eight legs, four emerging from each side of the front section. No antennae, wings, web or extra legs.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_32_34",
+    "visual_prompt_en": "One ant seen from above: head with two antennae, middle thorax and rounded abdomen. Exactly six legs, three on each side of the thorax. No extra legs, wings or spider shape.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_16_07",
+    "visual_prompt_en": "One ordinary interior door: a single rectangular wooden door leaf, slightly open inside one door frame, with one metal lever handle and hinges on one side. No second leaf or mirrored door.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_16_18",
+    "visual_prompt_en": "Three unpeeled potatoes, irregular oval shapes with tan brown skin, shallow small eyes and subtle earthy texture. Clearly potatoes rather than smooth white eggs. No basket, plate or foliage.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_17_81",
+    "visual_prompt_en": "One modern Swedish ambulance in side view: bright yellow van body, green reflective checker markings, blue emergency lights on roof, two visible wheels, rear patient compartment. No lettering, logos, red cross or people.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_20_02",
+    "visual_prompt_en": "A small group of colorful plastic fuse beads used in preschool crafts: short hollow cylinders with large visible circular holes, flat ends and equal heights. Red, blue, yellow and green. No wooden round beads or string.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_20_59",
+    "visual_prompt_en": "Two flat rectangular Swedish wholegrain crispbread pieces, brown rye color, rough grain texture and regularly spaced small dimples. Thin crisp edges; no sandwich toppings, soft bread or crackers.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_20_99",
+    "visual_prompt_en": "One ordinary toothpaste squeeze tube with a white plastic screw cap and flattened sealed tail, mostly white with simple blue panels. A small stripe of white paste at the open nozzle. No readable text or brand.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_21_64",
+    "visual_prompt_en": "One large silver wire paper clip lying flat: continuous bent metal wire with a long outer rounded loop and a smaller nested inner loop, open at one end. No staple, pin, extra clips or paper.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  },
+  {
+    "id": "FSK_91_50",
+    "visual_prompt_en": "One clearly recognizable child doll with a molded vinyl human face, two arms, two legs, painted open eyes and short hair, wearing a simple blue dress. Visible toy joints; no bear ears, fur or animal face.",
+    "style_family": "clean_white",
+    "composition_family": "close_readable_v1"
+  }
+]

@@ -1,55 +1,48 @@
-name: Generate pilot candidates
+name: Compare 20 quality challenge images
 on:
   workflow_dispatch:
     inputs:
-      mode:
-        type: choice
-        options: [plan, generate]
-        default: generate
-        description: Generate candidates, or choose plan for a dry run
-      limit:
-        type: choice
-        options: ['1', '10', '25', '50', '100']
-        default: '100'
-        description: Maximum candidates per worker (time budget also applies)
-      retry_failed:
-        type: boolean
-        default: false
-        description: Explicitly retry candidates marked failed
-  schedule:
-    - cron: '17 */3 * * *'
+      resume_run_id:
+        description: Earlier experiment run ID to continue, empty for a new experiment
+        type: string
+        default: ''
+      decisions_json:
+        description: Public SHA-bound review decisions (JSON array); never include private notes
+        type: string
+        default: '[]'
 permissions:
-  contents: write
+  contents: read
+  actions: read
+concurrency:
+  group: bildstod-quality-experiment
+  cancel-in-progress: false
 jobs:
-  queue:
-    if: github.event.repository.private == false && (github.event_name == 'workflow_dispatch' || vars.BILDSTOD_NIGHTLY_ENABLED == 'true')
+  baseline:
+    if: github.event.repository.private == false && inputs.resume_run_id == ''
     runs-on: ubuntu-24.04
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@v7
         with:
           python-version: '3.11'
-      - run: python -m pip install -r requirements.txt
-      - run: python -m bildstod.rework fetch --queue queue.json --warnings-file queue-warnings.json
+      - run: python -m pip install --no-cache-dir -r requirements.txt
+      - run: python -m bildstod.quality_lab prepare --directory output/quality-experiment
       - uses: actions/upload-artifact@v6
         with:
-          name: approved-render-queue
-          path: |
-            queue.json
-            queue-warnings.json
-          retention-days: 2
-  worker:
-    needs: queue
-    concurrency:
-      group: bildstod-worker-${{ matrix.shard }}
-      cancel-in-progress: false
-    if: github.event.repository.private == false && (github.event_name == 'workflow_dispatch' || vars.BILDSTOD_NIGHTLY_ENABLED == 'true')
+          name: quality-baseline
+          path: output/quality-experiment
+          retention-days: 30
+  compare:
+    needs: baseline
+    if: always() && github.event.repository.private == false && (needs.baseline.result == 'success' || inputs.resume_run_id != '')
     strategy:
       fail-fast: false
-      max-parallel: 8
+      max-parallel: 1
       matrix:
-        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+        profile: [text, reference]
     runs-on: ubuntu-24.04-arm
     timeout-minutes: 150
     env:
@@ -59,13 +52,10 @@ jobs:
       OMP_NUM_THREADS: '4'
       PYTHONUNBUFFERED: '1'
       BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
-      MODE: ${{ inputs.mode || 'generate' }}
-      # Manual runs retain their selected limit. Scheduled runs use a
-      # configurable per-worker limit. The two-hour rendering budget still applies.
-      BATCH_LIMIT: ${{ github.event_name == 'schedule' && (vars.BILDSTOD_SCHEDULE_LIMIT || '100') || inputs.limit || '100' }}
-      RETRY_FAILED: ${{ inputs.retry_failed || 'false' }}
-      SHARD: ${{ matrix.shard }}
       GH_TOKEN: ${{ github.token }}
+      RESUME_RUN_ID: ${{ inputs.resume_run_id }}
+      DECISIONS_JSON: ${{ inputs.decisions_json }}
+      PROFILE: ${{ matrix.profile }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -73,78 +63,30 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.11'
-      - name: Restore durable worker state
-        run: |
-          gh auth setup-git
-          git init .state
-          git -C .state config user.name 'Bildstöd generator'
-          git -C .state config user.email 'bildstod-generator@users.noreply.github.com'
-          git -C .state remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
-          PREFIX="$(python -c 'import json;print(json.load(open("config/generation.json")).get("worker_branch_prefix","generated-worker"))')"
-          BRANCH="${PREFIX}-${SHARD}"
-          echo "CHECKPOINT_BRANCH=$BRANCH" >> "$GITHUB_ENV"
-          if git ls-remote --exit-code --heads "https://github.com/${GITHUB_REPOSITORY}.git" "$BRANCH"; then
-            git -C .state fetch --depth=1 origin "$BRANCH"
-            git -C .state checkout -B "$BRANCH" FETCH_HEAD
-          else
-            git -C .state checkout --orphan "$BRANCH"
-          fi
-      - name: Install planning dependencies
-        run: python -m pip install --no-cache-dir -r requirements.txt
       - uses: actions/download-artifact@v7
+        if: inputs.resume_run_id == ''
         with:
-          name: approved-render-queue
-          path: .queue
-      - name: Apply approved render instructions
-        run: python -m bildstod.rework apply --queue .queue/queue.json --output .state/data --catalog .queue/catalog.json
-      - name: Plan worker batch
-        id: plan
+          name: quality-baseline
+          path: output/quality-experiment
+      - name: Restore previous experiment
+        if: inputs.resume_run_id != ''
         run: |
-          RETRY_ARGS=()
-          if [ "$RETRY_FAILED" = "true" ]; then RETRY_ARGS+=(--retry-failed); fi
-          if [ "$(python -c 'import json;print("yes" if json.load(open(".queue/queue-warnings.json")) else "no")')" = "yes" ]; then
-            RETRY_ARGS+=(--preserve-existing-reworks)
-          fi
-          python -m bildstod.generation plan --catalog .queue/catalog.json "${RETRY_ARGS[@]}" --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8
-          python - <<'PY'
-          import json, os
-          from pathlib import Path
-          config = json.loads(Path('config/generation.json').read_text())
-          plan = json.loads((Path('.state/data') / config['style_version'] / 'plan.json').read_text())
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-              f.write(f"count={len(plan['batch'])}\n")
-          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
-              f.write(f"## Worker {os.environ['SHARD']}\n\nPlanned candidates: {len(plan['batch'])}.\n")
-              f.write('State and candidates are public on the generated-worker branch. No inference API key is used.\n')
-          PY
-      - name: Validate complete prompt lengths before model downloads
-        if: env.MODE == 'generate' && steps.plan.outputs.count != '0'
-        run: |
-          python -m pip install --no-cache-dir -r requirements-validation.txt
-          PROFILE="$(python -c 'import json;print(json.load(open("config/generation.json"))["style_version"])')"
-          python -m bildstod.prompt_budget --checkpoint-branch "$CHECKPOINT_BRANCH" --catalog .queue/catalog.json --plan ".state/data/$PROFILE/plan.json"
-      - name: Install CPU dependencies
-        if: env.MODE == 'generate' && steps.plan.outputs.count != '0'
+          [[ "$RESUME_RUN_ID" =~ ^[0-9]+$ ]] || exit 1
+          gh run download "$RESUME_RUN_ID" --repo "$GITHUB_REPOSITORY" --name "quality-experiment-$PROFILE" --dir output/quality-experiment
+      - name: Install CPU-only renderer dependencies
         run: |
           python -m pip install --no-cache-dir torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
           python -m pip install --no-cache-dir -r requirements-generation.txt
-      - name: Generate with per-image checkpoints
-        if: env.MODE == 'generate' && steps.plan.outputs.count != '0'
+      - name: Import explicit corrections for this profile
+        if: inputs.resume_run_id != ''
         run: |
-          RETRY_ARGS=()
-          if [ "$RETRY_FAILED" = "true" ]; then RETRY_ARGS+=(--retry-failed); fi
-          if [ "$(python -c 'import json;print("yes" if json.load(open(".queue/queue-warnings.json")) else "no")')" = "yes" ]; then
-            RETRY_ARGS+=(--preserve-existing-reworks)
-          fi
-          python -m bildstod.generation run --catalog .queue/catalog.json "${RETRY_ARGS[@]}" --output .state/data --limit "$BATCH_LIMIT" --shard-index "$SHARD" --shard-count 8 --max-seconds 7200 --checkpoint-branch "$CHECKPOINT_BRANCH"
-      - name: Candidate metrics
+          python -c 'import json,os,pathlib; rows=json.loads(os.environ["DECISIONS_JSON"]); pathlib.Path("decisions.json").write_text(json.dumps([r for r in rows if r["profile"]==os.environ["PROFILE"]]))'
+          python -m bildstod.quality_lab review --directory output/quality-experiment --decisions decisions.json
+      - name: Generate isolated comparison candidates
+        run: python -m bildstod.quality_lab render --directory output/quality-experiment --profile "$PROFILE"
+      - uses: actions/upload-artifact@v6
         if: always()
-        run: |
-          python - <<'PY'
-          import json, os
-          from pathlib import Path
-          for path in Path('.state/data').glob('*/metrics.json'):
-              metrics = json.loads(path.read_text())
-              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
-                  f.write('\n```json\n' + json.dumps(metrics, indent=2) + '\n```\n')
-          PY
+        with:
+          name: quality-experiment-${{ matrix.profile }}
+          path: output/quality-experiment
+          retention-days: 30

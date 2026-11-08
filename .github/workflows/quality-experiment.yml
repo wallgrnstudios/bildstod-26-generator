@@ -1,0 +1,92 @@
+name: Compare 20 quality challenge images
+on:
+  workflow_dispatch:
+    inputs:
+      resume_run_id:
+        description: Earlier experiment run ID to continue, empty for a new experiment
+        type: string
+        default: ''
+      decisions_json:
+        description: Public SHA-bound review decisions (JSON array); never include private notes
+        type: string
+        default: '[]'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: bildstod-quality-experiment
+  cancel-in-progress: false
+jobs:
+  baseline:
+    if: github.event.repository.private == false && inputs.resume_run_id == ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --no-cache-dir -r requirements.txt
+      - run: python -m bildstod.quality_lab prepare --directory output/quality-experiment
+      - uses: actions/upload-artifact@v6
+        with:
+          name: quality-baseline
+          path: output/quality-experiment
+          retention-days: 30
+  compare:
+    needs: baseline
+    if: always() && github.event.repository.private == false && (needs.baseline.result == 'success' || inputs.resume_run_id != '')
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        profile: [text, reference]
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 150
+    env:
+      HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      HF_HUB_DISABLE_XET: '1'
+      OMP_NUM_THREADS: '4'
+      PYTHONUNBUFFERED: '1'
+      BILDSTOD_PUBLIC_STANDARD_RUNNER: 'true'
+      GH_TOKEN: ${{ github.token }}
+      RESUME_RUN_ID: ${{ inputs.resume_run_id }}
+      DECISIONS_JSON: ${{ inputs.decisions_json }}
+      PROFILE: ${{ matrix.profile }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v7
+        if: inputs.resume_run_id == ''
+        with:
+          name: quality-baseline
+          path: output/quality-experiment
+      - name: Restore previous experiment
+        if: inputs.resume_run_id != ''
+        run: |
+          [[ "$RESUME_RUN_ID" =~ ^[0-9]+$ ]] || exit 1
+          gh run download "$RESUME_RUN_ID" --repo "$GITHUB_REPOSITORY" --name "quality-experiment-$PROFILE" --dir output/quality-experiment
+      - name: Install CPU-only renderer dependencies
+        run: |
+          python -m pip install --no-cache-dir torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --no-cache-dir -r requirements-generation.txt
+      - name: Import explicit corrections for this profile
+        if: inputs.resume_run_id != ''
+        run: |
+          python -c 'import json,os,pathlib; rows=json.loads(os.environ["DECISIONS_JSON"]); pathlib.Path("decisions.json").write_text(json.dumps([r for r in rows if r["profile"]==os.environ["PROFILE"]]))'
+          python -m bildstod.quality_lab review --directory output/quality-experiment --decisions decisions.json
+      - name: Generate isolated comparison candidates
+        run: python -m bildstod.quality_lab render --directory output/quality-experiment --profile "$PROFILE"
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: quality-experiment-${{ matrix.profile }}
+          path: output/quality-experiment
+          retention-days: 30
