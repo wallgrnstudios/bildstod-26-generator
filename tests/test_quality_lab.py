@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
 from PIL import Image
-from bildstod.quality_lab import CHECKS, plan, render, save_decisions
+from bildstod.quality_lab import CHECKS, plan, render, save_decisions, merge
 from bildstod.operations import production_activity
 
 
@@ -76,6 +76,20 @@ class QualityLabTests(unittest.TestCase):
             self.assertEqual(records[0]['status'],'pending_review')
             self.assertEqual(baseline.read_bytes(),before)
             self.assertIn('data-identity', (root/'review.html').read_text())
+
+    def test_merge_refuses_unpaired_experiment(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);a=root/'text';b=root/'reference';a.mkdir();b.mkdir()
+            state=self.state();state['config']={};state['cases'][0]['baseline']={'sha256':'a'*64}
+            (a/'experiment.json').write_text(json.dumps(state))
+            other=copy.deepcopy(state);other['experiment_id']='different'
+            (b/'experiment.json').write_text(json.dumps(other))
+            with self.assertRaises(ValueError):merge(a,b)
+            other['experiment_id']=state['experiment_id'];other['cases'][0]['baseline']['sha256']='b'*64
+            (b/'experiment.json').write_text(json.dumps(other))
+            with self.assertRaises(ValueError):merge(a,b)
+            (b/'experiment.json').write_text(json.dumps(state));merge(a,b)
+            self.assertTrue((a/'review.html').exists())
 
     def test_activity_uses_image_dates_not_workflow_success(self):
         now=datetime(2026,11,8,18,tzinfo=timezone.utc)

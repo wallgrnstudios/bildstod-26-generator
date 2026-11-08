@@ -11,7 +11,7 @@ Första jämförelsen använder samma pinnade FLUX-modell, samma bildinstruktion
 .venv/bin/python -m bildstod.quality_lab plan --directory output/quality-test --profile text
 ```
 
-`prepare` hämtar offentliga PNG-filer och kontrollerar deras SHA-256. Ett befintligt test skrivs aldrig över. Lokal inferens spärras. GitHub-workflowen **Compare 20 quality challenge images** fryser baslinjen en gång, kör en profil åt gången på standard ARM-runner och sparar separata resultatarkiv i 30 dagar. Den ändrar inga produktionsgrenar. Ladda ned resultatarkivet och öppna `review.html`.
+`prepare` hämtar offentliga PNG-filer och kontrollerar deras SHA-256. Ett befintligt test skrivs aldrig över. Lokal inferens spärras. GitHub-workflowen **Compare 20 quality challenge images** fryser baslinjen en gång, kör en profil åt gången på standard ARM-runner och sparar separata resultatarkiv i 30 dagar. Den ändrar inga produktionsgrenar. Ladda ned resultatarkiven och öppna `review.html`. Kombinera profilerna i samma vy med `python -m bildstod.quality_lab merge --directory <text-arkiv> --source <referens-arkiv>`; olika testtillfällen eller bildversioner kan inte blandas.
 
 ## Granska och förbättra
 

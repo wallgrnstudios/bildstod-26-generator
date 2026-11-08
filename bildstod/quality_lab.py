@@ -197,6 +197,41 @@ def report(destination, state):
     (destination/'review.html').write_text(page)
 
 
+
+def merge(destination, source):
+    """Combine paired cloud artifacts only when experiment and baseline agree."""
+    state = json.loads((destination/'experiment.json').read_text())
+    incoming = json.loads((source/'experiment.json').read_text())
+    if (state['experiment_id'], state['config']) != (incoming['experiment_id'], incoming['config']):
+        raise ValueError('Different experiments cannot be merged')
+    by_id = {c['id']: c for c in state['cases']}
+    if set(by_id) != {c['id'] for c in incoming['cases']}:
+        raise ValueError('Different challenge sets')
+    copies = []
+    for case in incoming['cases']:
+        current = by_id[case['id']]
+        if current['baseline']['sha256'] != case['baseline']['sha256'] or current['entry'] != case['entry']:
+            raise ValueError('Different baselines or instructions')
+        for profile, attempts in case['attempts'].items():
+            if profile not in PROFILES or current['attempts'].get(profile, attempts) != attempts:
+                raise ValueError('Conflicting profile history')
+            for record in attempts:
+                if record.get('image'):
+                    path = Path(record['image'])
+                    if path.is_absolute() or '..' in path.parts or path.parts[0] != profile or path.suffix != '.png':
+                        raise ValueError('Invalid candidate path')
+                    if digest(source/path) != record['sha256']:
+                        raise ValueError('Candidate SHA mismatch')
+                    copies.append((source/path, destination/path))
+            current['attempts'][profile] = attempts
+    import shutil
+    for origin, target in copies:
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(origin, target)
+    atomic_json(destination/'experiment.json', state)
+    report(destination, state)
+
+
 def live_snapshot():
     from .metadata import load_candidates
     return {'images': load_candidates()}
@@ -204,17 +239,20 @@ def live_snapshot():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['prepare', 'plan', 'render', 'review', 'report'])
+    parser.add_argument('command', choices=['prepare', 'plan', 'render', 'review', 'report', 'merge'])
     parser.add_argument('--directory', type=Path, required=True)
     parser.add_argument('--snapshot', type=Path)
     parser.add_argument('--private-reviews', type=Path)
     parser.add_argument('--profile', choices=PROFILES, default='text')
     parser.add_argument('--decisions', type=Path)
+    parser.add_argument('--source', type=Path)
     args = parser.parse_args()
     if args.command == 'prepare':
         prepare(args.directory, json.loads(args.snapshot.read_text()) if args.snapshot else live_snapshot(), json.loads(args.private_reviews.read_text()) if args.private_reviews else None)
     elif args.command == 'render':
         render(args.directory, args.profile)
+    elif args.command == 'merge':
+        merge(args.directory, args.source)
     elif args.command == 'review':
         save_decisions(args.directory, json.loads(args.decisions.read_text()))
     else:
