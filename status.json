@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-09T08:37:10.766392+00:00",
+  "checked_at": "2026-11-09T12:11:44.599783+00:00",
   "coverage": {
     "enabled": 977,
     "with_image": 977,
@@ -20,13 +20,13 @@
       "last_success_at": "2026-11-09T06:21:37Z"
     },
     "Suggest image metadata": {
-      "id": 42572554133,
+      "id": 42614891618,
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-11-09T06:21:39Z",
-      "updated_at": "2026-11-09T06:21:57Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/42572554133",
-      "last_success_at": "2026-11-09T06:21:57Z"
+      "created_at": "2026-11-09T12:11:11Z",
+      "updated_at": "2026-11-09T12:11:28Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/42614891618",
+      "last_success_at": "2026-11-09T12:11:28Z"
     }
   },
   "reworks": [
