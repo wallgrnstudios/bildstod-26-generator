@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-12T03:18:10.155167+00:00",
+  "checked_at": "2026-11-12T07:07:03.821246+00:00",
   "coverage": {
     "enabled": 977,
     "with_image": 977,
@@ -11,21 +11,21 @@
   },
   "workflows": {
     "Generate pilot candidates": {
-      "id": 43107259489,
+      "id": 43172797481,
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-11-11T21:55:11Z",
-      "updated_at": "2026-11-11T22:00:53Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/43107259489",
-      "last_success_at": "2026-11-11T22:00:53Z"
+      "created_at": "2026-11-12T07:06:16Z",
+      "updated_at": "2026-11-12T07:06:50Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/43172797481",
+      "last_success_at": "2026-11-12T07:06:50Z"
     },
     "Suggest image metadata": {
-      "id": 43131727114,
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2026-11-12T01:02:57Z",
-      "updated_at": "2026-11-12T01:03:17Z",
-      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/43131727114",
+      "id": 43172872390,
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-11-12T07:06:53Z",
+      "updated_at": "2026-11-12T07:06:58Z",
+      "html_url": "https://github.com/wallgrnstudios/bildstod-26-generator/actions/runs/43172872390",
       "last_success_at": "2026-11-12T01:03:17Z"
     }
   },
